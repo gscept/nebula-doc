@@ -1,5 +1,11 @@
 var NAVTREEINDEX40 =
 {
+"class_i_o_1_1_binary_reader.html#ae37af4de3cb9e808de2912ee116d1029":[8,0,37,5,23],
+"class_i_o_1_1_binary_reader.html#ae37af4de3cb9e808de2912ee116d1029":[9,0,34,4,23],
+"class_i_o_1_1_binary_reader.html#aea7f7f7d7864552105b8555c354adcf9":[8,0,37,5,34],
+"class_i_o_1_1_binary_reader.html#aea7f7f7d7864552105b8555c354adcf9":[9,0,34,4,34],
+"class_i_o_1_1_binary_reader.html#aed46376f2138e3eb1060d0c7c809009d":[8,0,37,5,20],
+"class_i_o_1_1_binary_reader.html#aed46376f2138e3eb1060d0c7c809009d":[9,0,34,4,20],
 "class_i_o_1_1_binary_reader.html#aef058615396cd2264748843810a8f1b4":[8,0,37,5,37],
 "class_i_o_1_1_binary_reader.html#aef058615396cd2264748843810a8f1b4":[9,0,34,4,37],
 "class_i_o_1_1_binary_reader.html#aef3fa1e54fe21aaa82b1c14ad197c6e0":[8,0,37,5,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX40 =
 "class_i_o_1_1_embedded_memory_stream.html#a415be6e0d4fb0c075e7a6b712b1db802":[8,0,37,16,3],
 "class_i_o_1_1_embedded_memory_stream.html#a415be6e0d4fb0c075e7a6b712b1db802":[9,0,34,15,3],
 "class_i_o_1_1_embedded_memory_stream.html#a8fe5769ecfb613c377ef6e9f357c4ead":[8,0,37,16,4],
-"class_i_o_1_1_embedded_memory_stream.html#a8fe5769ecfb613c377ef6e9f357c4ead":[9,0,34,15,4],
-"class_i_o_1_1_excel_xml_reader.html":[8,0,37,18],
-"class_i_o_1_1_excel_xml_reader.html":[9,0,34,17],
-"class_i_o_1_1_excel_xml_reader.html#a04d0ddff903cd1bff2af5c2939381d6d":[8,0,37,18,17],
-"class_i_o_1_1_excel_xml_reader.html#a04d0ddff903cd1bff2af5c2939381d6d":[9,0,34,17,17],
-"class_i_o_1_1_excel_xml_reader.html#a052a26b85137ee519f202acbde7c81b1":[8,0,37,18,9],
-"class_i_o_1_1_excel_xml_reader.html#a052a26b85137ee519f202acbde7c81b1":[9,0,34,17,9]
+"class_i_o_1_1_embedded_memory_stream.html#a8fe5769ecfb613c377ef6e9f357c4ead":[9,0,34,15,4]
 };

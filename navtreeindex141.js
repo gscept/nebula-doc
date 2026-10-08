@@ -1,5 +1,14 @@
 var NAVTREEINDEX141 =
 {
+"struct_math_1_1quat.html#a923d918af3e026e134720b8a0da7c58a":[9,0,42,23,4],
+"struct_math_1_1quat.html#aa381696734d877b3456fdf7879e538a4":[8,0,46,23,19],
+"struct_math_1_1quat.html#aa381696734d877b3456fdf7879e538a4":[9,0,42,23,19],
+"struct_math_1_1quat.html#ab3e635b531c83ea8bae9fe09df8443f7":[8,0,46,23,11],
+"struct_math_1_1quat.html#ab3e635b531c83ea8bae9fe09df8443f7":[9,0,42,23,11],
+"struct_math_1_1quat.html#ab60d0f0b42e5d6f0ed802d62a2a58e45":[8,0,46,23,3],
+"struct_math_1_1quat.html#ab60d0f0b42e5d6f0ed802d62a2a58e45":[9,0,42,23,3],
+"struct_math_1_1quat.html#af545f90f112163feeebf35efb8580d4e":[8,0,46,23,16],
+"struct_math_1_1quat.html#af545f90f112163feeebf35efb8580d4e":[9,0,42,23,16],
 "struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5":[8,0,46,23,18],
 "struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5":[9,0,42,23,18],
 "struct_math_1_1quat_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html":[8,0,46,23,0,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX141 =
 "struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#ab51387bcabb49da615a18688ed259dc9":[9,0,42,34,0,0,3],
 "struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#ae4bda4a50bb65d3778f36e46eb49b8dc":[8,0,46,34,0,0,2],
 "struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#ae4bda4a50bb65d3778f36e46eb49b8dc":[9,0,42,34,0,0,2],
-"struct_math_1_1vector.html":[8,0,46,35],
-"struct_math_1_1vector.html":[9,0,42,35],
-"struct_math_1_1vector.html#a0f2b8454e5c5c55cecbb0595bef6f750":[8,0,46,35,18],
-"struct_math_1_1vector.html#a0f2b8454e5c5c55cecbb0595bef6f750":[9,0,42,35,18],
-"struct_math_1_1vector.html#a3a92a6761b087bcaa25e7a467089e3a7":[8,0,46,35,20],
-"struct_math_1_1vector.html#a3a92a6761b087bcaa25e7a467089e3a7":[9,0,42,35,20],
-"struct_math_1_1vector.html#a3f7e6ff4d174077f36f54ed232116822":[8,0,46,35,24],
-"struct_math_1_1vector.html#a3f7e6ff4d174077f36f54ed232116822":[9,0,42,35,24],
-"struct_math_1_1vector.html#a48d8dd4cd89578eddae58186610ff62d":[8,0,46,35,4],
-"struct_math_1_1vector.html#a48d8dd4cd89578eddae58186610ff62d":[9,0,42,35,4]
+"struct_math_1_1vector.html":[8,0,46,35]
 };

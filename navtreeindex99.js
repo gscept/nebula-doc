@@ -1,5 +1,9 @@
 var NAVTREEINDEX99 =
 {
+"displaypagehandler_8h_source.html":[10,0,0,7,5,1,1],
+"downsamplingcontext_8cc.html":[10,0,0,7,20,2],
+"downsamplingcontext_8h.html":[10,0,0,7,20,3],
+"downsamplingcontext_8h_source.html":[10,0,0,7,20,3],
 "drawfullscreenquad_8cc.html":[10,0,0,7,24,0],
 "drawfullscreenquad_8h.html":[10,0,0,7,24,1],
 "drawfullscreenquad_8h_source.html":[10,0,0,7,24,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX99 =
 "framemipmap_8cc.html":[10,0,0,7,9,14],
 "framemipmap_8h.html":[10,0,0,7,9,15],
 "framemipmap_8h_source.html":[10,0,0,7,9,15],
-"frameop_8cc.html":[10,0,0,7,9,16],
-"frameop_8h.html":[10,0,0,7,9,17],
-"frameop_8h_source.html":[10,0,0,7,9,17],
-"framepass_8cc.html":[10,0,0,7,9,18],
-"framepass_8h.html":[10,0,0,7,9,19]
+"frameop_8cc.html":[10,0,0,7,9,16]
 };

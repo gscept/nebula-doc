@@ -8,7 +8,7 @@ var model_8h =
     [ "Models::Take::Clip", "struct_models_1_1_take_1_1_clip.html", "struct_models_1_1_take_1_1_clip" ],
     [ "Models::Take::Clip::Event", "struct_models_1_1_take_1_1_clip_1_1_event.html", "struct_models_1_1_take_1_1_clip_1_1_event" ],
     [ "Models::ModelCreateInfo", "struct_models_1_1_model_create_info.html", "struct_models_1_1_model_create_info" ],
-    [ "Models::ModelAllocator", "namespace_models.html#a7f301d3c25acdc46e808acf131d66734", null ],
+    [ "Models::ModelAllocator", "namespace_models.html#aafa708aa12152b18535702816e2bd450", null ],
     [ "Models::LoadBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dd", [
       [ "Models::LoadBits::NoBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef", null ],
       [ "Models::LoadBits::MeshBit", "namespace_models.html#aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92", null ],
@@ -35,7 +35,6 @@ var model_8h =
     [ "Models::DestroyModel", "namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b", null ],
     [ "Models::ModelGetBoundingBox", "namespace_models.html#a6a713529ef9618e0e28128f3a7727edd", null ],
     [ "Models::ModelGetNodes", "namespace_models.html#ac8a019572bef03d92f59d49fde738ca0", null ],
-    [ "Models::ModelSetBoundingBox", "namespace_models.html#a535226cb22c264b61be87a4f28fb40d3", null ],
     [ "Models::ModelSetJointMasks", "namespace_models.html#a304f3f0d15caac0147bf512f145b11d8", null ],
     [ "Models::ModelSetNodes", "namespace_models.html#a288a3e66347a47bc284bc39484347a1a", null ],
     [ "Models::ModelSetTakes", "namespace_models.html#ab6f833e8fc02b8ac8ac138a946263d2c", null ]

@@ -274,7 +274,7 @@ var hierarchy =
       [ "Ids::IdAllocator< Math::mat4, Math::mat4 >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Util::StringAtom, float, Util::Array< Resources::ResourceId >, Util::FixedArray< CoreGraphics::ResourceTableId >, CoreGraphics::BufferId, Util::FixedArray< Util::FixedArray< CoreGraphics::ResourceTableId > >, Util::FixedArray< Util::Tuple< IndexT, SizeT > >, Util::FixedArray< Util::Array< MaterialTexture > >, Util::FixedArray< Util::Array< MaterialConstant > >, IndexT, const MaterialTemplatesGPULang::Entry * >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< uint >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< Math::bbox, Util::Array< Models::ModelNode * >, Util::FixedArray< JointMask >, Util::FixedArray< Take > >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< Util::Array< Models::ModelNode * >, Util::FixedArray< JointMask >, Util::FixedArray< Take > >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Graphics::GraphicsEntityId, Resources::ResourceId, Util::Array< uint32_t >, NodeInstanceRange, NodeInstanceRange, Util::Dictionary< Util::StringAtom, IndexT >, Math::mat4, Graphics::StageMask, bool, std::function< void()> >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Particles::ParticleResourceId, Util::Array< ParticleSystemRuntime >, Graphics::ContextEntityId, ParticleRuntime, Graphics::GraphicsEntityId >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Memory::RangeAllocation, Raytracing::UpdateType, uint, Util::FixedArray< CoreGraphics::BlasId > >", "class_ids_1_1_id_allocator.html", null ],

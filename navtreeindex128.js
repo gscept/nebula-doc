@@ -1,5 +1,10 @@
 var NAVTREEINDEX128 =
 {
+"struct_core_graphics_1_1_resource_table_tlas.html#a960bbc357265f3a4196b388f3eb776a3":[9,0,12,114,0],
+"struct_core_graphics_1_1_resource_table_tlas.html#adfaeb1ea8877e77838bc4591bc16a338":[8,0,13,115,1],
+"struct_core_graphics_1_1_resource_table_tlas.html#adfaeb1ea8877e77838bc4591bc16a338":[9,0,12,114,1],
+"struct_core_graphics_1_1_sampler_create_info.html":[8,0,13,116],
+"struct_core_graphics_1_1_sampler_create_info.html":[9,0,12,115],
 "struct_core_graphics_1_1_sampler_create_info.html#a14cd2db1473bdbac9b48147018258c20":[8,0,13,116,5],
 "struct_core_graphics_1_1_sampler_create_info.html#a14cd2db1473bdbac9b48147018258c20":[9,0,12,115,5],
 "struct_core_graphics_1_1_sampler_create_info.html#a27e259770522a4301c296b8aa198d8cf":[8,0,13,116,11],
@@ -244,10 +249,5 @@ var NAVTREEINDEX128 =
 "struct_core_graphics_1_1_texture_relative_dimensions.html#ab0e8cd15eb5aa059fab7acb0994ac67c":[9,0,12,141,2],
 "struct_core_graphics_1_1_texture_relative_dimensions.html#ac742aa787cd4ca1c8914bb097c5654d7":[8,0,13,142,0],
 "struct_core_graphics_1_1_texture_relative_dimensions.html#ac742aa787cd4ca1c8914bb097c5654d7":[9,0,12,141,0],
-"struct_core_graphics_1_1_texture_sparse_page.html":[8,0,13,143],
-"struct_core_graphics_1_1_texture_sparse_page.html":[9,0,12,142],
-"struct_core_graphics_1_1_texture_sparse_page.html#a2e6ec19f74d5b58e0ad1f9a2fd8ac20a":[8,0,13,143,1],
-"struct_core_graphics_1_1_texture_sparse_page.html#a2e6ec19f74d5b58e0ad1f9a2fd8ac20a":[9,0,12,142,1],
-"struct_core_graphics_1_1_texture_sparse_page.html#ab8a62d3b20236f1cbbc869bbc7026768":[8,0,13,143,2],
-"struct_core_graphics_1_1_texture_sparse_page.html#ab8a62d3b20236f1cbbc869bbc7026768":[9,0,12,142,2]
+"struct_core_graphics_1_1_texture_sparse_page.html":[8,0,13,143]
 };

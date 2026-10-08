@@ -1,5 +1,10 @@
 var NAVTREEINDEX129 =
 {
+"struct_core_graphics_1_1_texture_sparse_page.html":[9,0,12,142],
+"struct_core_graphics_1_1_texture_sparse_page.html#a2e6ec19f74d5b58e0ad1f9a2fd8ac20a":[8,0,13,143,1],
+"struct_core_graphics_1_1_texture_sparse_page.html#a2e6ec19f74d5b58e0ad1f9a2fd8ac20a":[9,0,12,142,1],
+"struct_core_graphics_1_1_texture_sparse_page.html#ab8a62d3b20236f1cbbc869bbc7026768":[8,0,13,143,2],
+"struct_core_graphics_1_1_texture_sparse_page.html#ab8a62d3b20236f1cbbc869bbc7026768":[9,0,12,142,2],
 "struct_core_graphics_1_1_texture_sparse_page.html#ae4f162b947b09ef9206f4e4598478e1a":[8,0,13,143,0],
 "struct_core_graphics_1_1_texture_sparse_page.html#ae4f162b947b09ef9206f4e4598478e1a":[9,0,12,142,0],
 "struct_core_graphics_1_1_texture_sparse_page_offset.html":[8,0,13,144],
@@ -244,10 +249,5 @@ var NAVTREEINDEX129 =
 "struct_dynui_1_1_imgui_state.html#a6f5f6b4c356f76a29847d1bb66ff350f":[9,0,17,10,16],
 "struct_dynui_1_1_imgui_state.html#a7879a80555f745131b6576df4e55d97a":[8,0,18,10,11],
 "struct_dynui_1_1_imgui_state.html#a7879a80555f745131b6576df4e55d97a":[9,0,17,10,11],
-"struct_dynui_1_1_imgui_state.html#a7d482416cc9574559fb4375db3db2f58":[8,0,18,10,13],
-"struct_dynui_1_1_imgui_state.html#a7d482416cc9574559fb4375db3db2f58":[9,0,17,10,13],
-"struct_dynui_1_1_imgui_state.html#a7ee9f36c810b7cf5c73699367ad449ff":[8,0,18,10,4],
-"struct_dynui_1_1_imgui_state.html#a7ee9f36c810b7cf5c73699367ad449ff":[9,0,17,10,4],
-"struct_dynui_1_1_imgui_state.html#a7f116c1f5cded2e908fb6e5648495837":[8,0,18,10,9],
-"struct_dynui_1_1_imgui_state.html#a7f116c1f5cded2e908fb6e5648495837":[9,0,17,10,9]
+"struct_dynui_1_1_imgui_state.html#a7d482416cc9574559fb4375db3db2f58":[8,0,18,10,13]
 };

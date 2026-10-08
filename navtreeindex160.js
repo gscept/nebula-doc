@@ -1,5 +1,10 @@
 var NAVTREEINDEX160 =
 {
+"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#afe6d62e00b3432c47f110e870049b40b":[8,0,87,7,3,2],
+"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#afe6d62e00b3432c47f110e870049b40b":[9,0,75,7,3,2],
+"struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html":[8,0,87,7,4],
+"struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html":[9,0,75,7,4],
+"struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html#a354396340271d0cf4699eb4ce4c0c93d":[8,0,87,7,4,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html#a354396340271d0cf4699eb4ce4c0c93d":[9,0,75,7,4,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html#ab6f25ddc53807a535e475b28d80a6d3f":[8,0,87,7,4,1],
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_markers.html#ab6f25ddc53807a535e475b28d80a6d3f":[9,0,75,7,4,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX160 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc87cf03b4cd50c85f52efe4f18db300":[8,0,87,21,11,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc87cf03b4cd50c85f52efe4f18db300":[9,0,75,21,11,3],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc9587566287ecd886c6fd72ed208880":[8,0,87,21,11,5],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc9587566287ecd886c6fd72ed208880":[9,0,75,21,11,5],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html":[8,0,87,21,10],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html":[9,0,75,21,10],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html#a4228961239b5e5aa9812761118bf5053":[8,0,87,21,10,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html#a4228961239b5e5aa9812761118bf5053":[9,0,75,21,10,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html#a5ecae51dcf32586f45f668276d04ad80":[8,0,87,21,10,3]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc9587566287ecd886c6fd72ed208880":[9,0,75,21,11,5]
 };

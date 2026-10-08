@@ -22,7 +22,6 @@ var class_models_1_1_model_node =
     [ "ModelServer", "class_models_1_1_model_node.html#ad50ee4f4fa2d91a50d5b6f7da271acf6", null ],
     [ "Particles::ParticleContext", "class_models_1_1_model_node.html#a697956058070608ff6723ceb0267c961", null ],
     [ "bits", "class_models_1_1_model_node.html#ac5c159cacaa501aa3e80dc78a3922c73", null ],
-    [ "boundingBox", "class_models_1_1_model_node.html#a6529beef595feaef1798eddb38585f87", null ],
     [ "children", "class_models_1_1_model_node.html#a39943fd6ac3b4fab7342c918fece1367", null ],
     [ "ModelNodeUniqueIdCounter", "class_models_1_1_model_node.html#a4d873b563a8070e7c1f01904f7d4d7c1", null ],
     [ "name", "class_models_1_1_model_node.html#ae41aff65956d0f616ec00c03475af25a", null ],

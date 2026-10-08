@@ -15,7 +15,7 @@ var namespace_models =
     [ "ShaderStateNode", "class_models_1_1_shader_state_node.html", "class_models_1_1_shader_state_node" ],
     [ "Take", "struct_models_1_1_take.html", "struct_models_1_1_take" ],
     [ "TransformNode", "class_models_1_1_transform_node.html", "class_models_1_1_transform_node" ],
-    [ "ModelAllocator", "namespace_models.html#a7f301d3c25acdc46e808acf131d66734", null ],
+    [ "ModelAllocator", "namespace_models.html#aafa708aa12152b18535702816e2bd450", null ],
     [ "LoadBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dd", [
       [ "NoBits", "namespace_models.html#aef485d52b92118841cd8f7d8563a64dda001a9743d76a3414a16927ddb442c8ef", null ],
       [ "MeshBit", "namespace_models.html#aef485d52b92118841cd8f7d8563a64ddaebed3f762d4ba6bde96df9d0dd93dd92", null ],
@@ -52,7 +52,6 @@ var namespace_models =
     [ "DestroyModel", "namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b", null ],
     [ "ModelGetBoundingBox", "namespace_models.html#a6a713529ef9618e0e28128f3a7727edd", null ],
     [ "ModelGetNodes", "namespace_models.html#ac8a019572bef03d92f59d49fde738ca0", null ],
-    [ "ModelSetBoundingBox", "namespace_models.html#a535226cb22c264b61be87a4f28fb40d3", null ],
     [ "ModelSetJointMasks", "namespace_models.html#a304f3f0d15caac0147bf512f145b11d8", null ],
     [ "ModelSetNodes", "namespace_models.html#a288a3e66347a47bc284bc39484347a1a", null ],
     [ "ModelSetTakes", "namespace_models.html#ab6f833e8fc02b8ac8ac138a946263d2c", null ],

@@ -1,5 +1,11 @@
 var NAVTREEINDEX19 =
 {
+"class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a636da521fd797a17f0855e6599b1f088":[8,0,13,94,1,3],
+"class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a636da521fd797a17f0855e6599b1f088":[9,0,12,93,1,3],
+"class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a7d8fe5f46afe53221d890279de8fa615":[8,0,13,94,1,1],
+"class_core_graphics_1_1_render_shape.html#a2a2e90d7c0194b97d9432a7e5809e327a7d8fe5f46afe53221d890279de8fa615":[9,0,12,93,1,1],
+"class_core_graphics_1_1_render_shape.html#a37ba85340005f41b827d8daa07b57fe8":[8,0,13,94,28],
+"class_core_graphics_1_1_render_shape.html#a37ba85340005f41b827d8daa07b57fe8":[9,0,12,93,28],
 "class_core_graphics_1_1_render_shape.html#a3cc58bb18b9ca4c8ffb6f3bcabba23e7":[8,0,13,94,8],
 "class_core_graphics_1_1_render_shape.html#a3cc58bb18b9ca4c8ffb6f3bcabba23e7":[9,0,12,93,8],
 "class_core_graphics_1_1_render_shape.html#a3f686d320046969eac1d2dc8ca688165":[8,0,13,94,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX19 =
 "class_core_graphics_1_1_thread_safe_render_event_handler.html#abaf9f01563e7e2263aeb9792b9f9ade9":[9,0,12,151,6],
 "class_core_graphics_1_1_thread_safe_render_event_handler.html#abe8ef2967b11fbb3c0c626b74d2a7ef3":[8,0,13,152,3],
 "class_core_graphics_1_1_thread_safe_render_event_handler.html#abe8ef2967b11fbb3c0c626b74d2a7ef3":[9,0,12,151,3],
-"class_core_graphics_1_1_thread_safe_render_event_handler.html#ad62c2f34ea828d560a65817344d5e5d3":[8,0,13,152,5],
-"class_core_graphics_1_1_thread_safe_render_event_handler.html#ad62c2f34ea828d560a65817344d5e5d3":[9,0,12,151,5],
-"class_core_graphics_1_1_vertex_component.html":[8,0,13,156],
-"class_core_graphics_1_1_vertex_component.html":[9,0,12,155],
-"class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0":[8,0,13,156,0],
-"class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0":[9,0,12,155,0],
-"class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0a08f68e4de422ce131021f72b21d5051b":[8,0,13,156,0,17]
+"class_core_graphics_1_1_thread_safe_render_event_handler.html#ad62c2f34ea828d560a65817344d5e5d3":[8,0,13,152,5]
 };

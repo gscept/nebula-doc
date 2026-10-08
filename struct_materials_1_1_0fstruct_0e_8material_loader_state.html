@@ -125,6 +125,8 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad2727a7ecfd192a285a3832cf48e3440">variantAllocatorLock</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 4096 &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adc603964ec0fb6ac29455d44c5fd08ed">variantAllocator</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="union_materials_1_1_0funion_0e_dirty_set_8material_loader_state_8dirty_set.html">union </a>&#160;</td><td class="memItemRight"><a class="el" href="#aed6c2853b260176734d1d786634261e3">dirtySet</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft"><a class="el" href="class_threading_1_1_critical_section.html">Threading::CriticalSection</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4aa652beafca07076951d7e3eb316a01">pendingMaterialUpdatesSection</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="struct_materials_1_1_material_id.html">Materials::MaterialId</a>, <a class="el" href="namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3">Util::Pair</a>&lt; void *, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa8452b039c678ab4deee1521f7a30b70">pendingMaterialUpdates</a></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a084003fe2bea60ae1b2fb25563a719d2" name="a084003fe2bea60ae1b2fb25563a719d2"></a>
@@ -163,6 +165,34 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">CoreGraphics::BufferWithStaging <a class="el" href="struct_materials_1_1_0fstruct_0e_8material_loader_state.html">Materials::[struct].materialLoaderState</a> materialBindingBuffer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8452b039c678ab4deee1521f7a30b70" name="aa8452b039c678ab4deee1521f7a30b70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8452b039c678ab4deee1521f7a30b70">&#9670;&#160;</a></span>pendingMaterialUpdates</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Util::Dictionary&lt;Materials::MaterialId, Util::Pair&lt;void*, uint&gt; &gt; <a class="el" href="struct_materials_1_1_0fstruct_0e_8material_loader_state.html">Materials::[struct].materialLoaderState</a> pendingMaterialUpdates</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4aa652beafca07076951d7e3eb316a01" name="a4aa652beafca07076951d7e3eb316a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aa652beafca07076951d7e3eb316a01">&#9670;&#160;</a></span>pendingMaterialUpdatesSection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Threading::CriticalSection <a class="el" href="struct_materials_1_1_0fstruct_0e_8material_loader_state.html">Materials::[struct].materialLoaderState</a> pendingMaterialUpdatesSection</td>
         </tr>
       </table>
 </div><div class="memdoc">
