@@ -1,6 +1,7 @@
 var nvx3fileformatstructs_8h =
 [
     [ "CoreGraphics::Nvx3Header", "struct_core_graphics_1_1_nvx3_header.html", "struct_core_graphics_1_1_nvx3_header" ],
+    [ "CoreGraphics::Nvx3BBox", "struct_core_graphics_1_1_nvx3_b_box.html", "struct_core_graphics_1_1_nvx3_b_box" ],
     [ "CoreGraphics::Nvx3VertexRange", "struct_core_graphics_1_1_nvx3_vertex_range.html", "struct_core_graphics_1_1_nvx3_vertex_range" ],
     [ "CoreGraphics::Nvx3Group", "struct_core_graphics_1_1_nvx3_group.html", "struct_core_graphics_1_1_nvx3_group" ],
     [ "CoreGraphics::Nvx3Meshlet", "struct_core_graphics_1_1_nvx3_meshlet.html", "struct_core_graphics_1_1_nvx3_meshlet" ],

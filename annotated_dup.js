@@ -229,6 +229,7 @@ var annotated_dup =
       [ "NormalVertex", "struct_core_graphics_1_1_normal_vertex.html", "struct_core_graphics_1_1_normal_vertex" ],
       [ "Nvx2Group", "struct_core_graphics_1_1_nvx2_group.html", "struct_core_graphics_1_1_nvx2_group" ],
       [ "Nvx2Header", "struct_core_graphics_1_1_nvx2_header.html", "struct_core_graphics_1_1_nvx2_header" ],
+      [ "Nvx3BBox", "struct_core_graphics_1_1_nvx3_b_box.html", "struct_core_graphics_1_1_nvx3_b_box" ],
       [ "Nvx3Elements", "struct_core_graphics_1_1_nvx3_elements.html", "struct_core_graphics_1_1_nvx3_elements" ],
       [ "Nvx3Group", "struct_core_graphics_1_1_nvx3_group.html", "struct_core_graphics_1_1_nvx3_group" ],
       [ "Nvx3Header", "struct_core_graphics_1_1_nvx3_header.html", "struct_core_graphics_1_1_nvx3_header" ],

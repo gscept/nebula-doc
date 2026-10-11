@@ -1,5 +1,11 @@
 var NAVTREEINDEX141 =
 {
+"struct_math_1_1quat.html#a7966d8f77ee9c4579cde7ed28c1008eb":[9,0,42,23,14],
+"struct_math_1_1quat.html#a7ddeeb8a3a5523e98acb31249c1fefb6":[8,0,46,23,7],
+"struct_math_1_1quat.html#a7ddeeb8a3a5523e98acb31249c1fefb6":[9,0,42,23,7],
+"struct_math_1_1quat.html#a90f73676a30edfe11782b2cf2ab237c3":[8,0,46,23,13],
+"struct_math_1_1quat.html#a90f73676a30edfe11782b2cf2ab237c3":[9,0,42,23,13],
+"struct_math_1_1quat.html#a923d918af3e026e134720b8a0da7c58a":[8,0,46,23,4],
 "struct_math_1_1quat.html#a923d918af3e026e134720b8a0da7c58a":[9,0,42,23,4],
 "struct_math_1_1quat.html#aa381696734d877b3456fdf7879e538a4":[8,0,46,23,19],
 "struct_math_1_1quat.html#aa381696734d877b3456fdf7879e538a4":[9,0,42,23,19],
@@ -243,11 +249,5 @@ var NAVTREEINDEX141 =
 "struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html":[9,0,42,34,0,0],
 "struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#a2e40a676b2f7a82da7c7eda5bc4cd183":[8,0,46,34,0,0,0],
 "struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#a2e40a676b2f7a82da7c7eda5bc4cd183":[9,0,42,34,0,0,0],
-"struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#a943b77bbff66744e920af1cdd0bf9c89":[8,0,46,34,0,0,1],
-"struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#a943b77bbff66744e920af1cdd0bf9c89":[9,0,42,34,0,0,1],
-"struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#ab51387bcabb49da615a18688ed259dc9":[8,0,46,34,0,0,3],
-"struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#ab51387bcabb49da615a18688ed259dc9":[9,0,42,34,0,0,3],
-"struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#ae4bda4a50bb65d3778f36e46eb49b8dc":[8,0,46,34,0,0,2],
-"struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#ae4bda4a50bb65d3778f36e46eb49b8dc":[9,0,42,34,0,0,2],
-"struct_math_1_1vector.html":[8,0,46,35]
+"struct_math_1_1vec4_1_1_0fstruct_0e_8____unnamed0_____8____unnamed0____.html#a943b77bbff66744e920af1cdd0bf9c89":[8,0,46,34,0,0,1]
 };

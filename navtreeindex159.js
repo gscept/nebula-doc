@@ -1,5 +1,11 @@
 var NAVTREEINDEX159 =
 {
+"struct_visibility_1_1_octree_system_load_info.html#ae5233b80ff694da618acbc5aeebd1ce5":[8,0,86,7,7],
+"struct_visibility_1_1_octree_system_load_info.html#ae5233b80ff694da618acbc5aeebd1ce5":[9,0,74,7,7],
+"struct_visibility_1_1_portal_system_load_info.html":[8,0,86,9],
+"struct_visibility_1_1_portal_system_load_info.html":[9,0,74,9],
+"struct_visibility_1_1_portal_system_load_info.html#a5eb9666d62bbd75769831bb1cfc2f738":[8,0,86,9,0],
+"struct_visibility_1_1_portal_system_load_info.html#a5eb9666d62bbd75769831bb1cfc2f738":[9,0,74,9,0],
 "struct_visibility_1_1_quadtree_system_load_info.html":[8,0,86,11],
 "struct_visibility_1_1_quadtree_system_load_info.html":[9,0,74,11],
 "struct_visibility_1_1_quadtree_system_load_info.html#a1328ae5d35264368022f8ed662767996":[8,0,86,11,4],
@@ -243,11 +249,5 @@ var NAVTREEINDEX159 =
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a7a8706b1c76c099c5a16b4372b7d6df2":[8,0,87,7,3,7],
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a7a8706b1c76c099c5a16b4372b7d6df2":[9,0,75,7,3,7],
 "struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a83cac1e6b9690a412786242d01c76ffb":[8,0,87,7,3,6],
-"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a83cac1e6b9690a412786242d01c76ffb":[9,0,75,7,3,6],
-"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a93865656a67d77215e964c79cd05d94e":[8,0,87,7,3,9],
-"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a93865656a67d77215e964c79cd05d94e":[9,0,75,7,3,9],
-"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#ab8e79cbb0f3cc59975243f45707898fb":[8,0,87,7,3,3],
-"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#ab8e79cbb0f3cc59975243f45707898fb":[9,0,75,7,3,3],
-"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#ae71f2a5cd75ed10a136624b7f9abff57":[8,0,87,7,3,4],
-"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#ae71f2a5cd75ed10a136624b7f9abff57":[9,0,75,7,3,4]
+"struct_vulkan_1_1_graphics_device_state_1_1_pending_deletes.html#a83cac1e6b9690a412786242d01c76ffb":[9,0,75,7,3,6]
 };

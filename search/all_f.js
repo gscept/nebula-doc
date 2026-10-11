@@ -695,13 +695,14 @@ var searchData=
   ['nvx2streamreader_692',['Nvx2StreamReader',['../class_legacy_1_1_nvx2_stream_reader.html',1,'']]],
   ['nvx2streamreader_2ecc_693',['nvx2streamreader.cc',['../nvx2streamreader_8cc.html',1,'']]],
   ['nvx2streamreader_2eh_694',['nvx2streamreader.h',['../nvx2streamreader_8h.html',1,'']]],
-  ['nvx3elements_695',['Nvx3Elements',['../struct_core_graphics_1_1_nvx3_elements.html',1,'CoreGraphics']]],
-  ['nvx3fileformatstructs_2eh_696',['nvx3fileformatstructs.h',['../nvx3fileformatstructs_8h.html',1,'']]],
-  ['nvx3group_697',['Nvx3Group',['../struct_core_graphics_1_1_nvx3_group.html',1,'CoreGraphics']]],
-  ['nvx3header_698',['Nvx3Header',['../struct_core_graphics_1_1_nvx3_header.html',1,'CoreGraphics']]],
-  ['nvx3meshlet_699',['Nvx3Meshlet',['../struct_core_graphics_1_1_nvx3_meshlet.html',1,'CoreGraphics']]],
-  ['nvx3streamreader_700',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html',1,'CoreGraphics::Nvx3StreamReader'],['../class_legacy_1_1_nvx3_stream_reader.html',1,'Nvx3StreamReader'],['../class_core_graphics_1_1_nvx3_stream_reader.html#aa6024c6f12d45176f03bcac2d2d19d2e',1,'CoreGraphics::Nvx3StreamReader::Nvx3StreamReader()']]],
-  ['nvx3streamreader_2ecc_701',['nvx3streamreader.cc',['../nvx3streamreader_8cc.html',1,'']]],
-  ['nvx3streamreader_2eh_702',['nvx3streamreader.h',['../nvx3streamreader_8h.html',1,'']]],
-  ['nvx3vertexrange_703',['Nvx3VertexRange',['../struct_core_graphics_1_1_nvx3_vertex_range.html',1,'CoreGraphics']]]
+  ['nvx3bbox_695',['Nvx3BBox',['../struct_core_graphics_1_1_nvx3_b_box.html',1,'CoreGraphics']]],
+  ['nvx3elements_696',['Nvx3Elements',['../struct_core_graphics_1_1_nvx3_elements.html',1,'CoreGraphics']]],
+  ['nvx3fileformatstructs_2eh_697',['nvx3fileformatstructs.h',['../nvx3fileformatstructs_8h.html',1,'']]],
+  ['nvx3group_698',['Nvx3Group',['../struct_core_graphics_1_1_nvx3_group.html',1,'CoreGraphics']]],
+  ['nvx3header_699',['Nvx3Header',['../struct_core_graphics_1_1_nvx3_header.html',1,'CoreGraphics']]],
+  ['nvx3meshlet_700',['Nvx3Meshlet',['../struct_core_graphics_1_1_nvx3_meshlet.html',1,'CoreGraphics']]],
+  ['nvx3streamreader_701',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html',1,'CoreGraphics::Nvx3StreamReader'],['../class_legacy_1_1_nvx3_stream_reader.html',1,'Nvx3StreamReader'],['../class_core_graphics_1_1_nvx3_stream_reader.html#aa6024c6f12d45176f03bcac2d2d19d2e',1,'CoreGraphics::Nvx3StreamReader::Nvx3StreamReader()']]],
+  ['nvx3streamreader_2ecc_702',['nvx3streamreader.cc',['../nvx3streamreader_8cc.html',1,'']]],
+  ['nvx3streamreader_2eh_703',['nvx3streamreader.h',['../nvx3streamreader_8h.html',1,'']]],
+  ['nvx3vertexrange_704',['Nvx3VertexRange',['../struct_core_graphics_1_1_nvx3_vertex_range.html',1,'CoreGraphics']]]
 ];

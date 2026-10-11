@@ -1,5 +1,11 @@
 var NAVTREEINDEX161 =
 {
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ac38b63917caedcd05d497090b5064175":[8,0,87,21,11,6],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#ac38b63917caedcd05d497090b5064175":[9,0,75,21,11,6],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc87cf03b4cd50c85f52efe4f18db300":[8,0,87,21,11,3],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc87cf03b4cd50c85f52efe4f18db300":[9,0,75,21,11,3],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc9587566287ecd886c6fd72ed208880":[8,0,87,21,11,5],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_descriptors_command.html#acc9587566287ecd886c6fd72ed208880":[9,0,75,21,11,5],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html":[8,0,87,21,10],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html":[9,0,75,21,10],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_dispatch_command.html#a4228961239b5e5aa9812761118bf5053":[8,0,87,21,10,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX161 =
 "struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca065255c559700b933f89668c6a75c9b3":[8,0,87,22,1,2],
 "struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca065255c559700b933f89668c6a75c9b3":[9,0,75,22,1,2],
 "struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca0a502f898c2e7c9825f9fc8824d89cbf":[8,0,87,22,1,1],
-"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca0a502f898c2e7c9825f9fc8824d89cbf":[9,0,75,22,1,1],
-"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca1801d8ea0cb08dec2dfcb5287126103e":[8,0,87,22,1,7],
-"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca1801d8ea0cb08dec2dfcb5287126103e":[9,0,75,22,1,7],
-"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca3f9c8572c5f76d76d063674e0ac5cc21":[8,0,87,22,1,9],
-"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca3f9c8572c5f76d76d063674e0ac5cc21":[9,0,75,22,1,9],
-"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca6de18abb73f7750e76293ad953e0aa61":[8,0,87,22,1,10],
-"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca6de18abb73f7750e76293ad953e0aa61":[9,0,75,22,1,10]
+"struct_vulkan_1_1_vk_deferred_command.html#ad0e1795dda839ff8da9083044297e13ca0a502f898c2e7c9825f9fc8824d89cbf":[9,0,75,22,1,1]
 };

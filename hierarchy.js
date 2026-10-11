@@ -953,6 +953,7 @@ var hierarchy =
     [ "CoreGraphics::Nvx2Group", "struct_core_graphics_1_1_nvx2_group.html", null ],
     [ "CoreGraphics::Nvx2Header", "struct_core_graphics_1_1_nvx2_header.html", null ],
     [ "Nvx2StreamReader", "class_legacy_1_1_nvx2_stream_reader.html", null ],
+    [ "CoreGraphics::Nvx3BBox", "struct_core_graphics_1_1_nvx3_b_box.html", null ],
     [ "CoreGraphics::Nvx3Elements", "struct_core_graphics_1_1_nvx3_elements.html", null ],
     [ "CoreGraphics::Nvx3Group", "struct_core_graphics_1_1_nvx3_group.html", null ],
     [ "CoreGraphics::Nvx3Header", "struct_core_graphics_1_1_nvx3_header.html", null ],

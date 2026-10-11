@@ -20,7 +20,7 @@ var NAVTREEINDEX118 =
 "nvx2streamreader_8h.html":[10,0,0,7,5,3,2],
 "nvx2streamreader_8h_source.html":[10,0,0,7,5,3,2],
 "nvx3fileformatstructs_8h.html":[10,0,0,7,5,47],
-"nvx3fileformatstructs_8h.html#a691235dabe05e554ffcfb667d11d3cb1":[10,0,0,7,5,47,5],
+"nvx3fileformatstructs_8h.html#a691235dabe05e554ffcfb667d11d3cb1":[10,0,0,7,5,47,6],
 "nvx3fileformatstructs_8h_source.html":[10,0,0,7,5,47],
 "nvx3streamreader_8cc.html":[10,0,0,7,5,48],
 "nvx3streamreader_8h.html":[10,0,0,7,5,49],

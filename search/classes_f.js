@@ -32,10 +32,11 @@ var searchData=
   ['nvx2group_29',['Nvx2Group',['../struct_core_graphics_1_1_nvx2_group.html',1,'CoreGraphics']]],
   ['nvx2header_30',['Nvx2Header',['../struct_core_graphics_1_1_nvx2_header.html',1,'CoreGraphics']]],
   ['nvx2streamreader_31',['Nvx2StreamReader',['../class_legacy_1_1_nvx2_stream_reader.html',1,'']]],
-  ['nvx3elements_32',['Nvx3Elements',['../struct_core_graphics_1_1_nvx3_elements.html',1,'CoreGraphics']]],
-  ['nvx3group_33',['Nvx3Group',['../struct_core_graphics_1_1_nvx3_group.html',1,'CoreGraphics']]],
-  ['nvx3header_34',['Nvx3Header',['../struct_core_graphics_1_1_nvx3_header.html',1,'CoreGraphics']]],
-  ['nvx3meshlet_35',['Nvx3Meshlet',['../struct_core_graphics_1_1_nvx3_meshlet.html',1,'CoreGraphics']]],
-  ['nvx3streamreader_36',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html',1,'CoreGraphics::Nvx3StreamReader'],['../class_legacy_1_1_nvx3_stream_reader.html',1,'Nvx3StreamReader']]],
-  ['nvx3vertexrange_37',['Nvx3VertexRange',['../struct_core_graphics_1_1_nvx3_vertex_range.html',1,'CoreGraphics']]]
+  ['nvx3bbox_32',['Nvx3BBox',['../struct_core_graphics_1_1_nvx3_b_box.html',1,'CoreGraphics']]],
+  ['nvx3elements_33',['Nvx3Elements',['../struct_core_graphics_1_1_nvx3_elements.html',1,'CoreGraphics']]],
+  ['nvx3group_34',['Nvx3Group',['../struct_core_graphics_1_1_nvx3_group.html',1,'CoreGraphics']]],
+  ['nvx3header_35',['Nvx3Header',['../struct_core_graphics_1_1_nvx3_header.html',1,'CoreGraphics']]],
+  ['nvx3meshlet_36',['Nvx3Meshlet',['../struct_core_graphics_1_1_nvx3_meshlet.html',1,'CoreGraphics']]],
+  ['nvx3streamreader_37',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html',1,'CoreGraphics::Nvx3StreamReader'],['../class_legacy_1_1_nvx3_stream_reader.html',1,'Nvx3StreamReader']]],
+  ['nvx3vertexrange_38',['Nvx3VertexRange',['../struct_core_graphics_1_1_nvx3_vertex_range.html',1,'CoreGraphics']]]
 ];

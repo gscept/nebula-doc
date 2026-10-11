@@ -1,6 +1,6 @@
 var struct_core_graphics_1_1_nvx3_group =
 [
-    [ "boundingBox", "struct_core_graphics_1_1_nvx3_group.html#a5b8da7381f88c33847b63e14295a60fb", null ],
+    [ "boundingBox", "struct_core_graphics_1_1_nvx3_group.html#a00ee862c76ff1d16f02cef10ea611ab6", null ],
     [ "firstIndex", "struct_core_graphics_1_1_nvx3_group.html#a48a0a56bda35dab99507da6b4a535026", null ],
     [ "firstMeshlet", "struct_core_graphics_1_1_nvx3_group.html#aab4a336e9c581ee3c55867c2e4eb8888", null ],
     [ "numIndices", "struct_core_graphics_1_1_nvx3_group.html#a5f0469c85dc66293c0d5871f0982d321", null ],
