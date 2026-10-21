@@ -61,10 +61,12 @@ var searchData=
   ['displaymode_2eh_58',['displaymode.h',['../displaymode_8h.html',1,'']]],
   ['displaypagehandler_2ecc_59',['displaypagehandler.cc',['../displaypagehandler_8cc.html',1,'']]],
   ['displaypagehandler_2eh_60',['displaypagehandler.h',['../displaypagehandler_8h.html',1,'']]],
-  ['downsamplingcontext_2ecc_61',['downsamplingcontext.cc',['../downsamplingcontext_8cc.html',1,'']]],
-  ['downsamplingcontext_2eh_62',['downsamplingcontext.h',['../downsamplingcontext_8h.html',1,'']]],
-  ['drawfullscreenquad_2ecc_63',['drawfullscreenquad.cc',['../drawfullscreenquad_8cc.html',1,'']]],
-  ['drawfullscreenquad_2eh_64',['drawfullscreenquad.h',['../drawfullscreenquad_8h.html',1,'']]],
-  ['drawthread_2ecc_65',['drawthread.cc',['../drawthread_8cc.html',1,'']]],
-  ['drawthread_2eh_66',['drawthread.h',['../drawthread_8h.html',1,'']]]
+  ['dofcontext_2ecc_61',['dofcontext.cc',['../dofcontext_8cc.html',1,'']]],
+  ['dofcontext_2eh_62',['dofcontext.h',['../dofcontext_8h.html',1,'']]],
+  ['downsamplingcontext_2ecc_63',['downsamplingcontext.cc',['../downsamplingcontext_8cc.html',1,'']]],
+  ['downsamplingcontext_2eh_64',['downsamplingcontext.h',['../downsamplingcontext_8h.html',1,'']]],
+  ['drawfullscreenquad_2ecc_65',['drawfullscreenquad.cc',['../drawfullscreenquad_8cc.html',1,'']]],
+  ['drawfullscreenquad_2eh_66',['drawfullscreenquad.h',['../drawfullscreenquad_8h.html',1,'']]],
+  ['drawthread_2ecc_67',['drawthread.cc',['../drawthread_8cc.html',1,'']]],
+  ['drawthread_2eh_68',['drawthread.h',['../drawthread_8h.html',1,'']]]
 ];

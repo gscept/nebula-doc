@@ -119,7 +119,10 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_post
 <p>SSAO post effect.</p>
 <p>Histogram calculates a HDR luminance histogram over the entire image to account for light intensity and color saturation.</p>
 <p>Handles callbacks for downscaling passes.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd>
+<p>Full-resolution circle of confusion, half-resolution bokeh gather, before tonemap.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file</dd></dl>
+<p>DofMask runs on the compute queue and writes the context-owned BokehMask from Aperture. DofSetup, DofGather, and DofComposite run on the graphics queue. DofComposite writes the mix into LightBuffer. Color Downsample and bloom run on that. finalize.gpul adds bloom.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2026 Individual contributors, see AUTHORS file</dd>
 <dd>
 (C) 2023 Individual contributors, see AUTHORS file</dd></dl>
 <p>(C) 2021 Individual contributors, see AUTHORS file </p>
@@ -127,11 +130,13 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_post
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:_5Bstruct_5D_2EbloomState" id="r__5Bstruct_5D_2EbloomState"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8bloom_state.html">[struct].bloomState</a></td></tr>
+<tr class="memitem:_5Bstruct_5D_2EdofState" id="r__5Bstruct_5D_2EdofState"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">[struct].dofState</a></td></tr>
 <tr class="memitem:_5Bstruct_5D_2EhistogramState" id="r__5Bstruct_5D_2EhistogramState"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8histogram_state.html">[struct].histogramState</a></td></tr>
 <tr class="memitem:_5Bstruct_5D_2EssaoState" id="r__5Bstruct_5D_2EssaoState"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8ssao_state.html">[struct].ssaoState</a></td></tr>
 <tr class="memitem:_5Bstruct_5D_2EssrState" id="r__5Bstruct_5D_2EssrState"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8ssr_state.html">[struct].ssrState</a></td></tr>
 <tr class="memitem:_5Bstruct_5D_2Estate" id="r__5Bstruct_5D_2Estate"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8state.html">[struct].state</a></td></tr>
 <tr class="memitem:BloomContext" id="r_BloomContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_bloom_context.html">BloomContext</a></td></tr>
+<tr class="memitem:DofContext" id="r_DofContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_dof_context.html">DofContext</a></td></tr>
 <tr class="memitem:DownsamplingContext" id="r_DownsamplingContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_downsampling_context.html">DownsamplingContext</a></td></tr>
 <tr class="memitem:HistogramContext" id="r_HistogramContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_histogram_context.html">HistogramContext</a></td></tr>
 <tr class="memitem:SSAOContext" id="r_SSAOContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_post_effects_1_1_s_s_a_o_context.html">SSAOContext</a></td></tr>
@@ -141,6 +146,13 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a1b8bcba7e18c234b3b737842126f3e41" id="r_a1b8bcba7e18c234b3b737842126f3e41"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a1b8bcba7e18c234b3b737842126f3e41">__ImplementPluginContext</a> (<a class="el" href="class_post_effects_1_1_bloom_context.html">PostEffects::BloomContext</a>)</td></tr>
+<tr class="memitem:ac473b8803c9cbab9269ff078b5dcab26" id="r_ac473b8803c9cbab9269ff078b5dcab26"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac473b8803c9cbab9269ff078b5dcab26">WriteDirtUniform</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture)</td></tr>
+<tr class="memdesc:ac473b8803c9cbab9269ff078b5dcab26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dirt.x is 0 for the white placeholder.  <br /></td></tr>
+<tr class="memitem:afe7180ac8d68efebb25f7dd4928b030e" id="r_afe7180ac8d68efebb25f7dd4928b030e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#afe7180ac8d68efebb25f7dd4928b030e">__ImplementPluginContext</a> (<a class="el" href="class_post_effects_1_1_dof_context.html">PostEffects::DofContext</a>)</td></tr>
+<tr class="memitem:a582140ecbe02eef85dfd9efd98d1fc11" id="r_a582140ecbe02eef85dfd9efd98d1fc11"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a582140ecbe02eef85dfd9efd98d1fc11">WriteDofSizes</a> ()</td></tr>
+<tr class="memdesc:a582140ecbe02eef85dfd9efd98d1fc11"><td class="mdescLeft">&#160;</td><td class="mdescRight">ColorSize is LightBuffer and HalfColor, the full-resolution circle of confusion.  <br /></td></tr>
+<tr class="memitem:ac9d7099008df77bee595326d4915a0d7" id="r_ac9d7099008df77bee595326d4915a0d7"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac9d7099008df77bee595326d4915a0d7">BindDofResources</a> ()</td></tr>
+<tr class="memdesc:ac9d7099008df77bee595326d4915a0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">ColorSource is LightBuffer.  <br /></td></tr>
 <tr class="memitem:a3ba62f689620fdd9e7d80c8a41c5e416" id="r_a3ba62f689620fdd9e7d80c8a41c5e416"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3ba62f689620fdd9e7d80c8a41c5e416">__ImplementPluginContext</a> (<a class="el" href="class_post_effects_1_1_downsampling_context.html">DownsamplingContext</a>)</td></tr>
 <tr class="memitem:ab0010d2428ea62538b8ea998955b3c57" id="r_ab0010d2428ea62538b8ea998955b3c57"><td class="memItemLeft"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab0010d2428ea62538b8ea998955b3c57">DispatchSize</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numPixels)</td></tr>
 <tr class="memitem:a94910cb790f787ba4c919724b3fab60c" id="r_a94910cb790f787ba4c919724b3fab60c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a94910cb790f787ba4c919724b3fab60c">SetupMipChainResources</a> (<a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> tex, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_texture_view_id.html">CoreGraphics::TextureViewId</a> &gt; &amp;views, <a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a> table, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name, bool depth, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> input, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> slot)</td></tr>
@@ -151,6 +163,7 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8bloom_state.html">struct </a>&#160;</td><td class="memItemRight"><a class="el" href="#afedeea8b58a88602b1f10d2bf951c196">bloomState</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">struct </a>&#160;</td><td class="memItemRight"><a class="el" href="#a3e6bac28e951f225f608cad47ca96c1b">dofState</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8state.html">struct </a>&#160;</td><td class="memItemRight"><a class="el" href="#ab8f257f7f421c99a3c73f0a49f4fb323">state</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8histogram_state.html">struct </a>&#160;</td><td class="memItemRight"><a class="el" href="#af59e09edf19dd81e29e0e1b6a3343694">histogramState</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_post_effects_1_1_0fstruct_0e_8ssao_state.html">struct </a>&#160;</td><td class="memItemRight"><a class="el" href="#a6aacad970d6b81e39694c2fed90ab934">ssaoState</a></td></tr>
@@ -158,7 +171,7 @@ Variables</h2></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a3ba62f689620fdd9e7d80c8a41c5e416" name="a3ba62f689620fdd9e7d80c8a41c5e416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3ba62f689620fdd9e7d80c8a41c5e416">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[1/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ba62f689620fdd9e7d80c8a41c5e416">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -175,7 +188,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a1b8bcba7e18c234b3b737842126f3e41" name="a1b8bcba7e18c234b3b737842126f3e41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b8bcba7e18c234b3b737842126f3e41">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[2/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b8bcba7e18c234b3b737842126f3e41">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,8 +204,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="afe7180ac8d68efebb25f7dd4928b030e" name="afe7180ac8d68efebb25f7dd4928b030e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe7180ac8d68efebb25f7dd4928b030e">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PostEffects::__ImplementPluginContext </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_post_effects_1_1_dof_context.html">PostEffects::DofContext</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aed34b8776b2f2a1d9d23b1d7c49b90a0" name="aed34b8776b2f2a1d9d23b1d7c49b90a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed34b8776b2f2a1d9d23b1d7c49b90a0">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[3/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed34b8776b2f2a1d9d23b1d7c49b90a0">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,7 +239,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="a2b89ea5be690ace1c69eeff61a7b9025" name="a2b89ea5be690ace1c69eeff61a7b9025"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b89ea5be690ace1c69eeff61a7b9025">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b89ea5be690ace1c69eeff61a7b9025">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +256,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="adb3614691649da130ae8a1afcdb97527" name="adb3614691649da130ae8a1afcdb97527"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb3614691649da130ae8a1afcdb97527">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3614691649da130ae8a1afcdb97527">&#9670;&#160;</a></span>__ImplementPluginContext() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,6 +269,34 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac9d7099008df77bee595326d4915a0d7" name="ac9d7099008df77bee595326d4915a0d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9d7099008df77bee595326d4915a0d7">&#9670;&#160;</a></span>BindDofResources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PostEffects::BindDofResources </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ColorSource is LightBuffer. </p>
+<p>BokehOutput is BokehBuffer. </p>
 
 </div>
 </div>
@@ -305,6 +363,62 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ac473b8803c9cbab9269ff078b5dcab26" name="ac473b8803c9cbab9269ff078b5dcab26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac473b8803c9cbab9269ff078b5dcab26">&#9670;&#160;</a></span>WriteDirtUniform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PostEffects::WriteDirtUniform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a></td>          <td class="paramname"><span class="paramname"><em>texture</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dirt.x is 0 for the white placeholder. </p>
+<p>Dirt.yz is the reciprocal of DirtMask mip 0. </p>
+
+</div>
+</div>
+<a id="a582140ecbe02eef85dfd9efd98d1fc11" name="a582140ecbe02eef85dfd9efd98d1fc11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a582140ecbe02eef85dfd9efd98d1fc11">&#9670;&#160;</a></span>WriteDofSizes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PostEffects::WriteDofSizes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ColorSize is LightBuffer and HalfColor, the full-resolution circle of confusion. </p>
+<p>HalfSize is BokehBuffer, the half-resolution gather. </p>
+
+</div>
+</div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
 <a id="afedeea8b58a88602b1f10d2bf951c196" name="afedeea8b58a88602b1f10d2bf951c196"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afedeea8b58a88602b1f10d2bf951c196">&#9670;&#160;</a></span>bloomState</h2>
@@ -314,6 +428,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">struct <a class="el" href="struct_post_effects_1_1_0fstruct_0e_8bloom_state.html">PostEffects::[struct].bloomState</a> PostEffects::bloomState</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e6bac28e951f225f608cad47ca96c1b" name="a3e6bac28e951f225f608cad47ca96c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e6bac28e951f225f608cad47ca96c1b">&#9670;&#160;</a></span>dofState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">PostEffects::[struct].dofState</a> PostEffects::dofState</td>
         </tr>
       </table>
 </div><div class="memdoc">

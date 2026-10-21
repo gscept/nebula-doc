@@ -2,6 +2,8 @@ var class_graphics_1_1_environment_context =
 [
     [ "__DeclarePluginContext", "class_graphics_1_1_environment_context.html#ae8a38309ad4e1b0a7106cf666b888a65", null ],
     [ "Create", "class_graphics_1_1_environment_context.html#a20f6cbbfa31548e7bc58503b33030ed2", null ],
+    [ "GetBloomColor", "class_graphics_1_1_environment_context.html#a2cf4065dae418d8f4905428919c942fc", null ],
+    [ "GetBloomIntensity", "class_graphics_1_1_environment_context.html#af1306ca9d615427092d4a9a0efd4ddcf", null ],
     [ "OnBeforeFrame", "class_graphics_1_1_environment_context.html#ada483312b016d74888f007882f3ecd71", null ],
     [ "RenderUI", "class_graphics_1_1_environment_context.html#a61e0351cf80e99de130b3a8ebfa7aecb", null ],
     [ "SetBloomColor", "class_graphics_1_1_environment_context.html#aab9ab944309b2a9dbf4df39e5a10f005", null ],

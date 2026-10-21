@@ -1,6 +1,6 @@
 var class_graphics_1_1_camera_context =
 [
-    [ "CameraAllocator", "class_graphics_1_1_camera_context.html#a9feb9133ccc6dfa5e8234c3148207d57", null ],
+    [ "CameraAllocator", "class_graphics_1_1_camera_context.html#a0cab8057769e883f9fbb0e0dd1fd1485", null ],
     [ "CameraContext", "class_graphics_1_1_camera_context.html#a2db88644454b692fcfe33ecb3fcd8b39", null ],
     [ "~CameraContext", "class_graphics_1_1_camera_context.html#a0062d3da85fb7253cac2ad5208917a13", null ],
     [ "__DeclareContext", "class_graphics_1_1_camera_context.html#ab03cf4136df0e57405ba55d9ecc36fb1", null ],
@@ -8,6 +8,7 @@ var class_graphics_1_1_camera_context =
     [ "Alloc", "class_graphics_1_1_camera_context.html#ae2eecb2f6c7946c313043e30005423e0", null ],
     [ "Create", "class_graphics_1_1_camera_context.html#a15435fc5535f92a3a8f6f8db49920909", null ],
     [ "Dealloc", "class_graphics_1_1_camera_context.html#ada9c35f84fbdffa5a597d53e34dfd6b8", null ],
+    [ "GetDepthOfField", "class_graphics_1_1_camera_context.html#a832289779c0ed7ea2478ec19f7291439", null ],
     [ "GetLODCamera", "class_graphics_1_1_camera_context.html#a89cf59fc13b5ca26c4702d3cebcdf6cf", null ],
     [ "GetLODCameras", "class_graphics_1_1_camera_context.html#af4632fe8f4fd4234be1b78b9f83f4ea4", null ],
     [ "GetProjection", "class_graphics_1_1_camera_context.html#a9a7f75cb858ec5b50e3ce81c61e8d693", null ],
@@ -17,6 +18,7 @@ var class_graphics_1_1_camera_context =
     [ "GetView", "class_graphics_1_1_camera_context.html#a1eede3d740a84b45c49f83c5b645014e", null ],
     [ "GetViewProjection", "class_graphics_1_1_camera_context.html#a53f1745ab49eb13947674fe264a6d299", null ],
     [ "RemoveLODCamera", "class_graphics_1_1_camera_context.html#ab38000d34085caedfcb0651ebd970549", null ],
+    [ "SetDepthOfField", "class_graphics_1_1_camera_context.html#ae263bcc50793ae142a8dc9f03f2ab2fa", null ],
     [ "SetLODCamera", "class_graphics_1_1_camera_context.html#a7231d47347d0fe28492d4c9f9b002097", null ],
     [ "SetupOrthographic", "class_graphics_1_1_camera_context.html#a7ab61d20c9313510797584f3f478c9c1", null ],
     [ "SetupProjectionFov", "class_graphics_1_1_camera_context.html#a61892d43eb263a4f039e26d90886a0fa", null ],

@@ -138,6 +138,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4a9f49414d2daf2cf60defa52ae7227f"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard context  <br /></td></tr>
 <tr class="memitem:a6fc783a29891ea2eb0360cd177019ecb" id="r_a6fc783a29891ea2eb0360cd177019ecb"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6fc783a29891ea2eb0360cd177019ecb">Setup</a> ()</td></tr>
 <tr class="memdesc:a6fc783a29891ea2eb0360cd177019ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup bloom context  <br /></td></tr>
+<tr class="memitem:a69145e031dfd6db0ee0dd7321763b8b5" id="r_a69145e031dfd6db0ee0dd7321763b8b5"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a69145e031dfd6db0ee0dd7321763b8b5">SetDirtMask</a> (const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a> texture)</td></tr>
+<tr class="memdesc:a69145e031dfd6db0ee0dd7321763b8b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Screen-space lens dirt multiplied onto the bloom.  <br /></td></tr>
 <tr class="memitem:ac23aaa56f25738e17e857580d5d769d7" id="r_ac23aaa56f25738e17e857580d5d769d7"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac23aaa56f25738e17e857580d5d769d7">Resize</a> (const <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> framescriptHash, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> width, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> height)</td></tr>
 <tr class="memdesc:ac23aaa56f25738e17e857580d5d769d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle window resize.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -374,6 +376,34 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Handle window resize. </p>
+
+</div>
+</div>
+<a id="a69145e031dfd6db0ee0dd7321763b8b5" name="a69145e031dfd6db0ee0dd7321763b8b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69145e031dfd6db0ee0dd7321763b8b5">&#9670;&#160;</a></span>SetDirtMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PostEffects::BloomContext::SetDirtMask </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a></td>          <td class="paramname"><span class="paramname"><em>texture</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Screen-space lens dirt multiplied onto the bloom. </p>
+<p>White leaves it unchanged. DirtMask is a texture2D. The initial texture is <a class="el" href="namespace_core_graphics.html#ac1a236e784d3cc07aad829c23e8d9ed5">CoreGraphics::White2D</a>. </p>
 
 </div>
 </div>

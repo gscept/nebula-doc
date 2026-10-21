@@ -2,6 +2,8 @@ var dir_22b05374659b659f0725439aa4c95d41 =
 [
     [ "bloomcontext.cc", "bloomcontext_8cc.html", "bloomcontext_8cc" ],
     [ "bloomcontext.h", "bloomcontext_8h.html", "bloomcontext_8h" ],
+    [ "dofcontext.cc", "dofcontext_8cc.html", "dofcontext_8cc" ],
+    [ "dofcontext.h", "dofcontext_8h.html", "dofcontext_8h" ],
     [ "downsamplingcontext.cc", "downsamplingcontext_8cc.html", "downsamplingcontext_8cc" ],
     [ "downsamplingcontext.h", "downsamplingcontext_8h.html", "downsamplingcontext_8h" ],
     [ "histogramcontext.cc", "histogramcontext_8cc.html", "histogramcontext_8cc" ],

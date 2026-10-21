@@ -7,6 +7,7 @@ var namespace_graphics =
     [ "CameraContext", "class_graphics_1_1_camera_context.html", "class_graphics_1_1_camera_context" ],
     [ "CameraSettings", "class_graphics_1_1_camera_settings.html", "class_graphics_1_1_camera_settings" ],
     [ "ContextEntityId", "struct_graphics_1_1_context_entity_id.html", null ],
+    [ "DepthOfField", "struct_graphics_1_1_depth_of_field.html", "struct_graphics_1_1_depth_of_field" ],
     [ "EnvironmentContext", "class_graphics_1_1_environment_context.html", "class_graphics_1_1_environment_context" ],
     [ "FrameContext", "struct_graphics_1_1_frame_context.html", "struct_graphics_1_1_frame_context" ],
     [ "GlobalConstantsCreateInfo", "struct_graphics_1_1_global_constants_create_info.html", null ],

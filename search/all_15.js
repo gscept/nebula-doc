@@ -248,7 +248,7 @@ var searchData=
   ['texturegetcreated_245',['TextureGetCreated',['../namespace_core_graphics.html#ada5dcc6d982eac048400aa1ecb0b8e01',1,'CoreGraphics']]],
   ['texturegetdefaultlayout_246',['TextureGetDefaultLayout',['../namespace_core_graphics.html#a6261a365b72c9eaff825e9e3c9730f7b',1,'CoreGraphics']]],
   ['texturegetdimensions_247',['TextureGetDimensions',['../namespace_core_graphics.html#a44216caf743e036b1393e755c23b2246',1,'CoreGraphics']]],
-  ['texturegetname_248',['TextureGetName',['../namespace_core_graphics.html#a4ffa895ac016367a00891f4790fda456',1,'CoreGraphics']]],
+  ['texturegetname_248',['TextureGetName',['../namespace_core_graphics.html#a0a9371b904b750da5d19ca7078da4f7f',1,'CoreGraphics']]],
   ['texturegetnumlayers_249',['TextureGetNumLayers',['../namespace_core_graphics.html#a34ad84778aedacc66ec5b06084ba4871',1,'CoreGraphics']]],
   ['texturegetnummips_250',['TextureGetNumMips',['../namespace_core_graphics.html#a7c0f6c56f09971ad7deba5fa061f8a89',1,'CoreGraphics']]],
   ['texturegetnumsamples_251',['TextureGetNumSamples',['../namespace_core_graphics.html#af71a30451d1fd92e2373faa9793b467b',1,'CoreGraphics']]],

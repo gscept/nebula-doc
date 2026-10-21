@@ -155,6 +155,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a53f1745ab49eb13947674fe264a6d299"><td class="mdescLeft">&#160;</td><td class="mdescRight">get view-projection  <br /></td></tr>
 <tr class="memitem:a2a539130af8f0f6a42fac938471dc3b7" id="r_a2a539130af8f0f6a42fac938471dc3b7"><td class="memItemLeft">static const <a class="el" href="class_graphics_1_1_camera_settings.html">CameraSettings</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a2a539130af8f0f6a42fac938471dc3b7">GetSettings</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
 <tr class="memdesc:a2a539130af8f0f6a42fac938471dc3b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get settings  <br /></td></tr>
+<tr class="memitem:ae263bcc50793ae142a8dc9f03f2ab2fa" id="r_ae263bcc50793ae142a8dc9f03f2ab2fa"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae263bcc50793ae142a8dc9f03f2ab2fa">SetDepthOfField</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_graphics_1_1_depth_of_field.html">DepthOfField</a> &amp;dof)</td></tr>
+<tr class="memdesc:ae263bcc50793ae142a8dc9f03f2ab2fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">focus, circle of confusion, and aperture  <br /></td></tr>
+<tr class="memitem:a832289779c0ed7ea2478ec19f7291439" id="r_a832289779c0ed7ea2478ec19f7291439"><td class="memItemLeft">static const <a class="el" href="struct_graphics_1_1_depth_of_field.html">DepthOfField</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a832289779c0ed7ea2478ec19f7291439">GetDepthOfField</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
+<tr class="memdesc:a832289779c0ed7ea2478ec19f7291439"><td class="mdescLeft">&#160;</td><td class="mdescRight">focus, circle of confusion, and aperture  <br /></td></tr>
 <tr class="memitem:a3b709ac8f39afa2cba8c4bb596ab94a1" id="r_a3b709ac8f39afa2cba8c4bb596ab94a1"><td class="memItemLeft">static <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3b709ac8f39afa2cba8c4bb596ab94a1">GetStageMask</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
 <tr class="memdesc:a3b709ac8f39afa2cba8c4bb596ab94a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get stage mask.  <br /></td></tr>
 <tr class="memitem:af4632fe8f4fd4234be1b78b9f83f4ea4" id="r_af4632fe8f4fd4234be1b78b9f83f4ea4"><td class="memItemLeft">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#af4632fe8f4fd4234be1b78b9f83f4ea4">GetLODCameras</a> ()</td></tr>
@@ -177,9 +181,10 @@ Private Types</h2></td></tr>
 , <a class="el" href="#a2c969092a7d874104169787dd8c391e0a8fe70faa2cb97ac01af37989f0cf87ce">Camera_ViewProjection</a>
 , <br />
 &#160;&#160;<a class="el" href="#a2c969092a7d874104169787dd8c391e0adb2862d5d56631802f6a3721896a9068">Camera_StageMask</a>
+, <a class="el" href="#a2c969092a7d874104169787dd8c391e0acd325fba6d405bc59dcacf39b06aa0f9">Camera_DepthOfField</a>
 <br />
  }</td></tr>
-<tr class="memitem:a9feb9133ccc6dfa5e8234c3148207d57" id="r_a9feb9133ccc6dfa5e8234c3148207d57"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_graphics_1_1_camera_settings.html">Graphics::CameraSettings</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9feb9133ccc6dfa5e8234c3148207d57">CameraAllocator</a></td></tr>
+<tr class="memitem:a0cab8057769e883f9fbb0e0dd1fd1485" id="r_a0cab8057769e883f9fbb0e0dd1fd1485"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_graphics_1_1_camera_settings.html">Graphics::CameraSettings</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a>, <a class="el" href="struct_graphics_1_1_depth_of_field.html">Graphics::DepthOfField</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a0cab8057769e883f9fbb0e0dd1fd1485">CameraAllocator</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -194,7 +199,7 @@ Static Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:ac24164f617361d116566eceebda414c4" id="r_ac24164f617361d116566eceebda414c4"><td class="memItemLeft">static <a class="el" href="#a9feb9133ccc6dfa5e8234c3148207d57">CameraAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac24164f617361d116566eceebda414c4">cameraAllocator</a></td></tr>
+<tr class="memitem:ac24164f617361d116566eceebda414c4" id="r_ac24164f617361d116566eceebda414c4"><td class="memItemLeft">static <a class="el" href="#a0cab8057769e883f9fbb0e0dd1fd1485">CameraAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac24164f617361d116566eceebda414c4">cameraAllocator</a></td></tr>
 <tr class="memitem:adcf13236590b2c52caa21c100c4a3343" id="r_adcf13236590b2c52caa21c100c4a3343"><td class="memItemLeft">static <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#adcf13236590b2c52caa21c100c4a3343">LodCameras</a></td></tr>
 <tr class="memitem:a52c45fddec99b96caf3a001783b7acdb" id="r_a52c45fddec99b96caf3a001783b7acdb"><td class="memItemLeft">static <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a52c45fddec99b96caf3a001783b7acdb">lodCamera</a></td></tr>
 </table><table class="memberdecls">
@@ -207,8 +212,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a07a3787fb69d5d6e5340462ca571dc40 pro_static_methods_class_graphics_1_1_graphics_context template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_graphics_context.html#a07a3787fb69d5d6e5340462ca571dc40">InternalDefragment</a> (ID_ALLOCATOR &amp;allocator, <a class="el" href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a> &amp;&amp;state)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="a9feb9133ccc6dfa5e8234c3148207d57" name="a9feb9133ccc6dfa5e8234c3148207d57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9feb9133ccc6dfa5e8234c3148207d57">&#9670;&#160;</a></span>CameraAllocator</h2>
+<a id="a0cab8057769e883f9fbb0e0dd1fd1485" name="a0cab8057769e883f9fbb0e0dd1fd1485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cab8057769e883f9fbb0e0dd1fd1485">&#9670;&#160;</a></span>CameraAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -217,7 +222,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_graphics_1_1_camera_settings.html">Graphics::CameraSettings</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a> &gt; <a class="el" href="#a9feb9133ccc6dfa5e8234c3148207d57">Graphics::CameraContext::CameraAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="class_graphics_1_1_camera_settings.html">Graphics::CameraSettings</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>, <a class="el" href="namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09">Graphics::StageMask</a>, <a class="el" href="struct_graphics_1_1_depth_of_field.html">Graphics::DepthOfField</a> &gt; <a class="el" href="#a0cab8057769e883f9fbb0e0dd1fd1485">Graphics::CameraContext::CameraAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -255,6 +260,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a2c969092a7d874104169787dd8c391e0a2ed379350b56c2b3dac5d406f47062bc" name="a2c969092a7d874104169787dd8c391e0a2ed379350b56c2b3dac5d406f47062bc"></a>Camera_View&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2c969092a7d874104169787dd8c391e0a8fe70faa2cb97ac01af37989f0cf87ce" name="a2c969092a7d874104169787dd8c391e0a8fe70faa2cb97ac01af37989f0cf87ce"></a>Camera_ViewProjection&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a2c969092a7d874104169787dd8c391e0adb2862d5d56631802f6a3721896a9068" name="a2c969092a7d874104169787dd8c391e0adb2862d5d56631802f6a3721896a9068"></a>Camera_StageMask&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2c969092a7d874104169787dd8c391e0acd325fba6d405bc59dcacf39b06aa0f9" name="a2c969092a7d874104169787dd8c391e0acd325fba6d405bc59dcacf39b06aa0f9"></a>Camera_DepthOfField&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -437,6 +443,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>deallocate a slice </p>
+
+</div>
+</div>
+<a id="a832289779c0ed7ea2478ec19f7291439" name="a832289779c0ed7ea2478ec19f7291439"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a832289779c0ed7ea2478ec19f7291439">&#9670;&#160;</a></span>GetDepthOfField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_graphics_1_1_depth_of_field.html">DepthOfField</a> &amp; Graphics::CameraContext::GetDepthOfField </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>focus, circle of confusion, and aperture </p>
 
 </div>
 </div>
@@ -683,6 +716,37 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ae263bcc50793ae142a8dc9f03f2ab2fa" name="ae263bcc50793ae142a8dc9f03f2ab2fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae263bcc50793ae142a8dc9f03f2ab2fa">&#9670;&#160;</a></span>SetDepthOfField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Graphics::CameraContext::SetDepthOfField </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_depth_of_field.html">DepthOfField</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dof</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>focus, circle of confusion, and aperture </p>
+
+</div>
+</div>
 <a id="a7231d47347d0fe28492d4c9f9b002097" name="a7231d47347d0fe28492d4c9f9b002097"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7231d47347d0fe28492d4c9f9b002097">&#9670;&#160;</a></span>SetLODCamera()</h2>
 
@@ -881,7 +945,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a9feb9133ccc6dfa5e8234c3148207d57">CameraContext::CameraAllocator</a> Graphics::CameraContext::cameraAllocator</td>
+          <td class="memname"><a class="el" href="#a0cab8057769e883f9fbb0e0dd1fd1485">CameraContext::CameraAllocator</a> Graphics::CameraContext::cameraAllocator</td>
         </tr>
       </table>
   </td>

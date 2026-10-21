@@ -42,6 +42,7 @@ var hierarchy =
     [ "Lighting::[struct].clusterState", "struct_lighting_1_1_0fstruct_0e_8cluster_state.html", null ],
     [ "Lighting::[struct].combineState", "struct_lighting_1_1_0fstruct_0e_8combine_state.html", null ],
     [ "Decals::[struct].decalState", "struct_decals_1_1_0fstruct_0e_8decal_state.html", null ],
+    [ "PostEffects::[struct].dofState", "struct_post_effects_1_1_0fstruct_0e_8dof_state.html", null ],
     [ "Graphics::[struct].envState", "struct_graphics_1_1_0fstruct_0e_8env_state.html", null ],
     [ "GI::DDGIOptions::[struct].flags", "struct_g_i_1_1_d_d_g_i_options_1_1_0fstruct_0e_8flags.html", null ],
     [ "Fog::[struct].fogState", "struct_fog_1_1_0fstruct_0e_8fog_state.html", null ],
@@ -264,7 +265,7 @@ var hierarchy =
       [ "Ids::IdAllocator< Math::mat4 >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::vec3, float >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Volume >", "class_ids_1_1_id_allocator.html", null ],
-      [ "Ids::IdAllocator< Graphics::CameraSettings, Math::mat4, Math::mat4, Math::mat4, Graphics::StageMask >", "class_ids_1_1_id_allocator.html", null ],
+      [ "Ids::IdAllocator< Graphics::CameraSettings, Math::mat4, Math::mat4, Math::mat4, Graphics::StageMask, Graphics::DepthOfField >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Shared::ViewConstants::STRUCT, Shared::ShadowViewConstants::STRUCT, CoreGraphics::TextureId, Math::rectangle< int >, Graphics::StageMask, bool(*)(const Math::rectangle< int > &viewport, IndexT frameIndex, IndexT bufferIndex), GraphicsEntityId, bool >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Graphics::GraphicsEntityId, LightType, Math::vec3, float, bool, float, Ids::Id32, Graphics::StageMask >", "class_ids_1_1_id_allocator.html", null ],
       [ "Ids::IdAllocator< Math::transform44, CoreGraphics::TextureId, std::array< Graphics::GraphicsEntityId, 6 >, std::array< Math::rectangle< int >, 6 >, std::array< Math::mat4, 6 > >", "class_ids_1_1_id_allocator.html", null ],
@@ -537,6 +538,7 @@ var hierarchy =
     [ "Vulkan::VkDeferredCommand::Delegate", "struct_vulkan_1_1_vk_deferred_command_1_1_delegate.html", null ],
     [ "Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;", "class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html", null ],
     [ "Messaging::DelegateTable", "class_messaging_1_1_delegate_table.html", null ],
+    [ "Graphics::DepthOfField", "struct_graphics_1_1_depth_of_field.html", null ],
     [ "CoreGraphics::DepthStencilClear", "struct_core_graphics_1_1_depth_stencil_clear.html", null ],
     [ "Base::DepthStencilTargetBase", null, [
       [ "Vulkan::VkDepthStencilTarget", "class_vulkan_1_1_vk_depth_stencil_target.html", null ]
@@ -704,6 +706,7 @@ var hierarchy =
       [ "Models::ModelContext", "class_models_1_1_model_context.html", null ],
       [ "Particles::ParticleContext", "class_particles_1_1_particle_context.html", null ],
       [ "PostEffects::BloomContext", "class_post_effects_1_1_bloom_context.html", null ],
+      [ "PostEffects::DofContext", "class_post_effects_1_1_dof_context.html", null ],
       [ "PostEffects::DownsamplingContext", "class_post_effects_1_1_downsampling_context.html", null ],
       [ "PostEffects::HistogramContext", "class_post_effects_1_1_histogram_context.html", null ],
       [ "PostEffects::SSAOContext", "class_post_effects_1_1_s_s_a_o_context.html", null ],

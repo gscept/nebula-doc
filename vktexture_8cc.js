@@ -13,7 +13,7 @@ var vktexture_8cc =
     [ "CoreGraphics::TextureGetBindlessHandle", "namespace_core_graphics.html#ac9ab339cb38df148448a0fb60b961e86", null ],
     [ "CoreGraphics::TextureGetDefaultLayout", "namespace_core_graphics.html#a6261a365b72c9eaff825e9e3c9730f7b", null ],
     [ "CoreGraphics::TextureGetDimensions", "namespace_core_graphics.html#a44216caf743e036b1393e755c23b2246", null ],
-    [ "CoreGraphics::TextureGetName", "namespace_core_graphics.html#a4ffa895ac016367a00891f4790fda456", null ],
+    [ "CoreGraphics::TextureGetName", "namespace_core_graphics.html#a0a9371b904b750da5d19ca7078da4f7f", null ],
     [ "CoreGraphics::TextureGetNumLayers", "namespace_core_graphics.html#a34ad84778aedacc66ec5b06084ba4871", null ],
     [ "CoreGraphics::TextureGetNumMips", "namespace_core_graphics.html#a7c0f6c56f09971ad7deba5fa061f8a89", null ],
     [ "CoreGraphics::TextureGetNumSamples", "namespace_core_graphics.html#af71a30451d1fd92e2373faa9793b467b", null ],

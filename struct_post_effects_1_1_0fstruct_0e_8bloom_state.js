@@ -1,6 +1,7 @@
 var struct_post_effects_1_1_0fstruct_0e_8bloom_state =
 [
     [ "constants", "struct_post_effects_1_1_0fstruct_0e_8bloom_state.html#aaf947d5d3b255f054ac4f0e771eb6846", null ],
+    [ "dirtMask", "struct_post_effects_1_1_0fstruct_0e_8bloom_state.html#af738ffce9599fce04ef6112f8d7664bf", null ],
     [ "intermediateBloomBufferViews", "struct_post_effects_1_1_0fstruct_0e_8bloom_state.html#af373c5d6d8dc9f0fdeb0a42d28988209", null ],
     [ "intermediateBloomTexture", "struct_post_effects_1_1_0fstruct_0e_8bloom_state.html#aa524841702b6cb1f56a475e536956a77", null ],
     [ "intermediateProgram", "struct_post_effects_1_1_0fstruct_0e_8bloom_state.html#a12df63389782cfcf2d2e4bb359b3b19d", null ],

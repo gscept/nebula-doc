@@ -8,5 +8,6 @@ var class_post_effects_1_1_bloom_context =
     [ "Dealloc", "class_post_effects_1_1_bloom_context.html#acf00b8524cf5fee9e3c162d6ad4fd138", null ],
     [ "Discard", "class_post_effects_1_1_bloom_context.html#a4a9f49414d2daf2cf60defa52ae7227f", null ],
     [ "Resize", "class_post_effects_1_1_bloom_context.html#ac23aaa56f25738e17e857580d5d769d7", null ],
+    [ "SetDirtMask", "class_post_effects_1_1_bloom_context.html#a69145e031dfd6db0ee0dd7321763b8b5", null ],
     [ "Setup", "class_post_effects_1_1_bloom_context.html#a6fc783a29891ea2eb0360cd177019ecb", null ]
 ];
