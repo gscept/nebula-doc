@@ -172,7 +172,6 @@ var NAVTREEINDEX111 =
 "namespace_math.html#a1a2a732f8904742932f769aeb3e76f03":[8,0,46,130],
 "namespace_math.html#a1aeeed4efbfa36d4f4a956cedfbad058":[8,0,46,339],
 "namespace_math.html#a1be2416e8c7cee36404c36f2a0022655":[8,0,46,64],
-"namespace_math.html#a1d19bcea601bb87d4b30caf49ec2add1":[8,0,46,317],
 "namespace_math.html#a1eeea02f806be16a6d17e5f44eaa4f29":[8,0,46,298],
 "namespace_math.html#a1f207474dabe8da4f09a8b4647d4da1d":[8,0,46,276],
 "namespace_math.html#a2027c2c994cfcbf92e78b7f86632ca6a":[8,0,46,156],
@@ -199,7 +198,7 @@ var NAVTREEINDEX111 =
 "namespace_math.html#a2ccdb4a7be6df5698476973ec490ed9b":[8,0,46,161],
 "namespace_math.html#a2ddfa74368dc93c87ff19efc8028ef47":[8,0,46,263],
 "namespace_math.html#a2df01c5ea9fae616886c45646b5fe401":[8,0,46,93],
-"namespace_math.html#a2efecbc34173877d219dc448c888538d":[8,0,46,316],
+"namespace_math.html#a2efecbc34173877d219dc448c888538d":[8,0,46,317],
 "namespace_math.html#a2f35da779be6db9177779a95afdf48f1":[8,0,46,151],
 "namespace_math.html#a2f64970644d4ddc707cf5892519a7cb7":[8,0,46,59],
 "namespace_math.html#a3106e480d6b501b869f6d2a165c11db6":[8,0,46,108],
@@ -243,11 +242,12 @@ var NAVTREEINDEX111 =
 "namespace_math.html#a47bafb739ed77b1ff7b7b8783863ffc4":[8,0,46,230],
 "namespace_math.html#a4888e237383d5fa2f0c694ab75a8627f":[8,0,46,333],
 "namespace_math.html#a4894cf218c208c4ac9883cb0f35b41a8":[8,0,46,303],
-"namespace_math.html#a48a2cf02bac5923e6faad7366262a137":[8,0,46,313],
+"namespace_math.html#a48a2cf02bac5923e6faad7366262a137":[8,0,46,314],
 "namespace_math.html#a4956ee96f6acd2c8e6c16127a0f34aa6":[8,0,46,347],
 "namespace_math.html#a49ce4e604c3801ff09f9a78b4692e770":[8,0,46,238],
 "namespace_math.html#a4aa118bcbed4ba27bc7035fe2a9eeb19":[8,0,46,233],
 "namespace_math.html#a4aa8bda51aa0f0aff8e6aa4c51a8b8bc":[8,0,46,229],
 "namespace_math.html#a4ab119ffe050b2307c053912653fb097":[8,0,46,232],
-"namespace_math.html#a4b1bf37f41669e832fd08ed532e9ae2f":[8,0,46,257]
+"namespace_math.html#a4b1bf37f41669e832fd08ed532e9ae2f":[8,0,46,257],
+"namespace_math.html#a4c94a9fb0ec8a3239429833ad113abff":[8,0,46,48]
 };

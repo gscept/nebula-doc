@@ -168,10 +168,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a3c9a631950dcdcf744ff891779085d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Quaternion from the specified Matrix.  <br /></td></tr>
 <tr class="memitem:aadf9c0fe5c19d6b13b99617342aba9c4" id="r_aadf9c0fe5c19d6b13b99617342aba9c4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aadf9c0fe5c19d6b13b99617342aba9c4">CreateFromRotationMatrix</a> (ref <a class="el" href="struct_nebula_1_1_matrix.html">Matrix</a> matrix, out <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> result)</td></tr>
 <tr class="memdesc:aadf9c0fe5c19d6b13b99617342aba9c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Quaternion from the specified Matrix.  <br /></td></tr>
-<tr class="memitem:ade37658c86f178ae566236600df3dbd9" id="r_ade37658c86f178ae566236600df3dbd9"><td class="memItemLeft">static <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a>&#160;</td><td class="memItemRight"><a class="el" href="#ade37658c86f178ae566236600df3dbd9">CreateFromYawPitchRoll</a> (float yaw, float pitch, float roll)</td></tr>
-<tr class="memdesc:ade37658c86f178ae566236600df3dbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Quaternion from the specified yaw, pitch and roll angles.  <br /></td></tr>
-<tr class="memitem:ae5924c5d998b4c53f29f656bd7965638" id="r_ae5924c5d998b4c53f29f656bd7965638"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae5924c5d998b4c53f29f656bd7965638">CreateFromYawPitchRoll</a> (float yaw, float pitch, float roll, out <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> result)</td></tr>
-<tr class="memdesc:ae5924c5d998b4c53f29f656bd7965638"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Quaternion from the specified yaw, pitch and roll angles.  <br /></td></tr>
+<tr class="memitem:a070ba1449a72781fe28eba330eb577ac" id="r_a070ba1449a72781fe28eba330eb577ac"><td class="memItemLeft">static <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a>&#160;</td><td class="memItemRight"><a class="el" href="#a070ba1449a72781fe28eba330eb577ac">CreateFromPitchYawRoll</a> (float pitch, float yaw, float roll)</td></tr>
+<tr class="memdesc:a070ba1449a72781fe28eba330eb577ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Quaternion from the specified pitch, yaw and roll angles.  <br /></td></tr>
+<tr class="memitem:a21a5108e5fa616e51998268154726574" id="r_a21a5108e5fa616e51998268154726574"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a21a5108e5fa616e51998268154726574">CreateFromPitchYawRoll</a> (float pitch, float yaw, float roll, out <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> result)</td></tr>
+<tr class="memdesc:a21a5108e5fa616e51998268154726574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Quaternion from the specified yaw, pitch and roll angles.  <br /></td></tr>
 <tr class="memitem:acf8db130bc9511916be8cec91a51d561" id="r_acf8db130bc9511916be8cec91a51d561"><td class="memItemLeft">static <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a>&#160;</td><td class="memItemRight"><a class="el" href="#acf8db130bc9511916be8cec91a51d561">Divide</a> (<a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> quaternion1, <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> quaternion2)</td></tr>
 <tr class="memdesc:acf8db130bc9511916be8cec91a51d561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divides a Quaternion by the other Quaternion.  <br /></td></tr>
 <tr class="memitem:aa5bc586054ee02f1eed601fc2487d340" id="r_aa5bc586054ee02f1eed601fc2487d340"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa5bc586054ee02f1eed601fc2487d340">Divide</a> (ref <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> quaternion1, ref <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> quaternion2, out <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> result)</td></tr>
@@ -763,6 +763,101 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a070ba1449a72781fe28eba330eb577ac" name="a070ba1449a72781fe28eba330eb577ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a070ba1449a72781fe28eba330eb577ac">&#9670;&#160;</a></span>CreateFromPitchYawRoll() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> Nebula.Quaternion.CreateFromPitchYawRoll </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>yaw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>roll</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new Quaternion from the specified pitch, yaw and roll angles. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pitch</td><td>Pitch around the x axis in radians.</td></tr>
+    <tr><td class="paramname">yaw</td><td>Yaw around the y axis in radians.</td></tr>
+    <tr><td class="paramname">roll</td><td>Roll around the z axis in radians.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new quaternion from the concatenated pitch, yaw, and roll angles.</dd></dl>
+
+</div>
+</div>
+<a id="a21a5108e5fa616e51998268154726574" name="a21a5108e5fa616e51998268154726574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21a5108e5fa616e51998268154726574">&#9670;&#160;</a></span>CreateFromPitchYawRoll() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Quaternion.CreateFromPitchYawRoll </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>yaw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>roll</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new Quaternion from the specified yaw, pitch and roll angles. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">yaw</td><td>Yaw around the y axis in radians.</td></tr>
+    <tr><td class="paramname">pitch</td><td>Pitch around the x axis in radians.</td></tr>
+    <tr><td class="paramname">roll</td><td>Roll around the z axis in radians.</td></tr>
+    <tr><td class="paramname">result</td><td>A new quaternion from the concatenated yaw, pitch, and roll angles as an output parameter.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a3c9a631950dcdcf744ff891779085d59" name="a3c9a631950dcdcf744ff891779085d59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c9a631950dcdcf744ff891779085d59">&#9670;&#160;</a></span>CreateFromRotationMatrix() <span class="overload">[1/2]</span></h2>
 
@@ -829,101 +924,6 @@ Static Private Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">matrix</td><td>The rotation matrix.</td></tr>
     <tr><td class="paramname">result</td><td>A quaternion composed from the rotation part of the matrix as an output parameter.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="ade37658c86f178ae566236600df3dbd9" name="ade37658c86f178ae566236600df3dbd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade37658c86f178ae566236600df3dbd9">&#9670;&#160;</a></span>CreateFromYawPitchRoll() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a> Nebula.Quaternion.CreateFromYawPitchRoll </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>yaw</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>roll</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a new Quaternion from the specified yaw, pitch and roll angles. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">yaw</td><td>Yaw around the y axis in radians.</td></tr>
-    <tr><td class="paramname">pitch</td><td>Pitch around the x axis in radians.</td></tr>
-    <tr><td class="paramname">roll</td><td>Roll around the z axis in radians.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>A new quaternion from the concatenated yaw, pitch, and roll angles.</dd></dl>
-
-</div>
-</div>
-<a id="ae5924c5d998b4c53f29f656bd7965638" name="ae5924c5d998b4c53f29f656bd7965638"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5924c5d998b4c53f29f656bd7965638">&#9670;&#160;</a></span>CreateFromYawPitchRoll() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Nebula.Quaternion.CreateFromYawPitchRoll </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>yaw</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>roll</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="#a666c5e1815144ca7859074b1c500345d">Quaternion</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a new Quaternion from the specified yaw, pitch and roll angles. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">yaw</td><td>Yaw around the y axis in radians.</td></tr>
-    <tr><td class="paramname">pitch</td><td>Pitch around the x axis in radians.</td></tr>
-    <tr><td class="paramname">roll</td><td>Roll around the z axis in radians.</td></tr>
-    <tr><td class="paramname">result</td><td>A new quaternion from the concatenated yaw, pitch, and roll angles as an output parameter.</td></tr>
   </table>
   </dd>
 </dl>

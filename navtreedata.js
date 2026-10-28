@@ -191,7 +191,7 @@ var NAVTREEINDEX =
 "namespace_graphics.html#a5437fa60464cca322eb5b64cf852cfa7",
 "namespace_im3d.html#a06f7bb30455876f1e35932bac68cdaf2",
 "namespace_im3d.html#afb8800b2a27d20a1e0c8f2c7decdba46",
-"namespace_math.html#a4c94a9fb0ec8a3239429833ad113abff",
+"namespace_math.html#a4d1fc16945967376b26f2d83b92b79c5",
 "namespace_memory.html#a1c954cd05be99abf338cf8043dcd44f7",
 "namespace_multiplayer.html#a92f48654c730c65a192cc75013da0063",
 "namespace_profiling.html#a76aa35245c35c3d08b2f4b612db2ffe5",

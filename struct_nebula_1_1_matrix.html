@@ -159,10 +159,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a6d2097c0e65e810b80f3045b9cbc51ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new rotation Matrix from a Quaternion.  <br /></td></tr>
 <tr class="memitem:a537a734707c6ff0052d5faabe4a9588c" id="r_a537a734707c6ff0052d5faabe4a9588c"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a537a734707c6ff0052d5faabe4a9588c">CreateFromQuaternion</a> (ref <a class="el" href="struct_nebula_1_1_quaternion.html">Quaternion</a> quaternion, out <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a> result)</td></tr>
 <tr class="memdesc:a537a734707c6ff0052d5faabe4a9588c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new rotation Matrix from a Quaternion.  <br /></td></tr>
-<tr class="memitem:a41f2947ff98a70a2904088893bcb2745" id="r_a41f2947ff98a70a2904088893bcb2745"><td class="memItemLeft">static <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a>&#160;</td><td class="memItemRight"><a class="el" href="#a41f2947ff98a70a2904088893bcb2745">CreateFromYawPitchRoll</a> (float yaw, float pitch, float roll)</td></tr>
-<tr class="memdesc:a41f2947ff98a70a2904088893bcb2745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new rotation Matrix from the specified yaw, pitch and roll values.  <br /></td></tr>
-<tr class="memitem:ad2353e90982482e006d98fc1880e1d2c" id="r_ad2353e90982482e006d98fc1880e1d2c"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ad2353e90982482e006d98fc1880e1d2c">CreateFromYawPitchRoll</a> (float yaw, float pitch, float roll, out <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a> result)</td></tr>
-<tr class="memdesc:ad2353e90982482e006d98fc1880e1d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new rotation Matrix from the specified yaw, pitch and roll values.  <br /></td></tr>
+<tr class="memitem:af6c56c63b7bcbff70dfcb9fe6bc66d27" id="r_af6c56c63b7bcbff70dfcb9fe6bc66d27"><td class="memItemLeft">static <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a>&#160;</td><td class="memItemRight"><a class="el" href="#af6c56c63b7bcbff70dfcb9fe6bc66d27">CreateFromPitchYawRoll</a> (float pitch, float yaw, float roll)</td></tr>
+<tr class="memdesc:af6c56c63b7bcbff70dfcb9fe6bc66d27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new rotation Matrix from the specified pitch, yaw and roll values.  <br /></td></tr>
+<tr class="memitem:a3d4f771e9c038270cf1e483d1a0858b1" id="r_a3d4f771e9c038270cf1e483d1a0858b1"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a3d4f771e9c038270cf1e483d1a0858b1">CreateFromPitchYawRoll</a> (float pitch, float yaw, float roll, out <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a> result)</td></tr>
+<tr class="memdesc:a3d4f771e9c038270cf1e483d1a0858b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new rotation Matrix from the specified yaw, pitch and roll values.  <br /></td></tr>
 <tr class="memitem:a8fd249482b3396368bafcf55cd434ee8" id="r_a8fd249482b3396368bafcf55cd434ee8"><td class="memItemLeft">static <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8fd249482b3396368bafcf55cd434ee8">CreateLookAt</a> (<a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a> cameraPosition, <a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a> cameraTarget, <a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a> cameraUpVector)</td></tr>
 <tr class="memdesc:a8fd249482b3396368bafcf55cd434ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new viewing Matrix.  <br /></td></tr>
 <tr class="memitem:a663b7c4444641356f51ce698e3f0973f" id="r_a663b7c4444641356f51ce698e3f0973f"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a663b7c4444641356f51ce698e3f0973f">CreateLookAt</a> (ref <a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a> cameraPosition, ref <a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a> cameraTarget, ref <a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a> cameraUpVector, out <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a> result)</td></tr>
@@ -924,6 +924,103 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af6c56c63b7bcbff70dfcb9fe6bc66d27" name="af6c56c63b7bcbff70dfcb9fe6bc66d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6c56c63b7bcbff70dfcb9fe6bc66d27">&#9670;&#160;</a></span>CreateFromPitchYawRoll() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a> Nebula.Matrix.CreateFromPitchYawRoll </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>yaw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>roll</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new rotation Matrix from the specified pitch, yaw and roll values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pitch</td><td>The pitch rotation value in radians.</td></tr>
+    <tr><td class="paramname">yaw</td><td>The yaw rotation value in radians.</td></tr>
+    <tr><td class="paramname">roll</td><td>The roll rotation value in radians.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The rotation Matrix.</dd></dl>
+<p>For more information about yaw, pitch and roll visit <a href="http://en.wikipedia.org/wiki/Euler_angles">http://en.wikipedia.org/wiki/Euler_angles</a>. </p>
+
+</div>
+</div>
+<a id="a3d4f771e9c038270cf1e483d1a0858b1" name="a3d4f771e9c038270cf1e483d1a0858b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4f771e9c038270cf1e483d1a0858b1">&#9670;&#160;</a></span>CreateFromPitchYawRoll() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Matrix.CreateFromPitchYawRoll </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>yaw</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>roll</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new rotation Matrix from the specified yaw, pitch and roll values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">yaw</td><td>The yaw rotation value in radians.</td></tr>
+    <tr><td class="paramname">pitch</td><td>The pitch rotation value in radians.</td></tr>
+    <tr><td class="paramname">roll</td><td>The roll rotation value in radians.</td></tr>
+    <tr><td class="paramname">result</td><td>The rotation Matrix as an output parameter.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>For more information about yaw, pitch and roll visit <a href="http://en.wikipedia.org/wiki/Euler_angles">http://en.wikipedia.org/wiki/Euler_angles</a>. </p>
+
+</div>
+</div>
 <a id="a6d2097c0e65e810b80f3045b9cbc51ba" name="a6d2097c0e65e810b80f3045b9cbc51ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d2097c0e65e810b80f3045b9cbc51ba">&#9670;&#160;</a></span>CreateFromQuaternion() <span class="overload">[1/2]</span></h2>
 
@@ -993,103 +1090,6 @@ Static Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a41f2947ff98a70a2904088893bcb2745" name="a41f2947ff98a70a2904088893bcb2745"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41f2947ff98a70a2904088893bcb2745">&#9670;&#160;</a></span>CreateFromYawPitchRoll() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a> Nebula.Matrix.CreateFromYawPitchRoll </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>yaw</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>roll</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a new rotation Matrix from the specified yaw, pitch and roll values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">yaw</td><td>The yaw rotation value in radians.</td></tr>
-    <tr><td class="paramname">pitch</td><td>The pitch rotation value in radians.</td></tr>
-    <tr><td class="paramname">roll</td><td>The roll rotation value in radians.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The rotation Matrix.</dd></dl>
-<p>For more information about yaw, pitch and roll visit <a href="http://en.wikipedia.org/wiki/Euler_angles">http://en.wikipedia.org/wiki/Euler_angles</a>. </p>
-
-</div>
-</div>
-<a id="ad2353e90982482e006d98fc1880e1d2c" name="ad2353e90982482e006d98fc1880e1d2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2353e90982482e006d98fc1880e1d2c">&#9670;&#160;</a></span>CreateFromYawPitchRoll() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Nebula.Matrix.CreateFromYawPitchRoll </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>yaw</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>pitch</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>roll</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">out <a class="el" href="#a60fd26f17afc9531fea83f315c82ba71">Matrix</a></td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a new rotation Matrix from the specified yaw, pitch and roll values. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">yaw</td><td>The yaw rotation value in radians.</td></tr>
-    <tr><td class="paramname">pitch</td><td>The pitch rotation value in radians.</td></tr>
-    <tr><td class="paramname">roll</td><td>The roll rotation value in radians.</td></tr>
-    <tr><td class="paramname">result</td><td>The rotation Matrix as an output parameter.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>For more information about yaw, pitch and roll visit <a href="http://en.wikipedia.org/wiki/Euler_angles">http://en.wikipedia.org/wiki/Euler_angles</a>. </p>
 
 </div>
 </div>
