@@ -207,6 +207,14 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a65d276183efa9f25a5dc430be10c207e" id="r_a65d276183efa9f25a5dc430be10c207e"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a65d276183efa9f25a5dc430be10c207e">AccessMode</a> { <a class="el" href="#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1">READ</a>
 , <a class="el" href="#a65d276183efa9f25a5dc430be10c207ea5bbb790a6f63af9f5f2d0e2a45984826">WRITE</a>
  }</td></tr>
+<tr class="memitem:afb947a60ee89516ed8f7be69d517d97f" id="r_afb947a60ee89516ed8f7be69d517d97f"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#afb947a60ee89516ed8f7be69d517d97f">ProcessorPhase</a> : uint8_t { <a class="el" href="#afb947a60ee89516ed8f7be69d517d97fad999f8ad08aef46a91e5e5470d7e2fd7">EditorPhase</a> = 1 &lt;&lt; 0
+, <a class="el" href="#afb947a60ee89516ed8f7be69d517d97fa67a392f7a5650af6926c8f2789489390">PlayPhase</a> = 1 &lt;&lt; 1
+, <a class="el" href="#afb947a60ee89516ed8f7be69d517d97fa3d0e66f2b0eacd9098d247f177ce72b9">BothPhases</a> = EditorPhase | PlayPhase
+ }</td></tr>
+<tr class="memdesc:afb947a60ee89516ed8f7be69d517d97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">which world mode a processor is allowed to run in  <a href="#afb947a60ee89516ed8f7be69d517d97f">More...</a><br /></td></tr>
+<tr class="memitem:a7e4dd4a94c20cce1d97bc7019cc550e1" id="r_a7e4dd4a94c20cce1d97bc7019cc550e1"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a7e4dd4a94c20cce1d97bc7019cc550e1">WorldMode</a> : uint8_t { <a class="el" href="#a7e4dd4a94c20cce1d97bc7019cc550e1a4e544a060ef0f7540c0afcf2bf28f22a">EditorMode</a> = 0
+, <a class="el" href="#a7e4dd4a94c20cce1d97bc7019cc550e1a871e5f91f99bd8c8c49d80e4b951fc48">PlayMode</a> = 1
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -334,6 +342,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ad32ebbdd3a3b51b2366aacd894a5a031"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a world by hash  <br /></td></tr>
 <tr class="memitem:aad3d6db368f0ad6118d67b0f343408eb" id="r_aad3d6db368f0ad6118d67b0f343408eb"><td class="memItemLeft"><a class="el" href="class_game_1_1_world.html">World</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aad3d6db368f0ad6118d67b0f343408eb">GetWorld</a> (<a class="el" href="#acb632603de54984831d4e696a1c904b4">WorldId</a> worldId)</td></tr>
 <tr class="memdesc:aad3d6db368f0ad6118d67b0f343408eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a world by id  <br /></td></tr>
+<tr class="memitem:af59f33275e790e4b873910b2092f9b64" id="r_af59f33275e790e4b873910b2092f9b64"><td class="memItemLeft"><a class="el" href="#afb947a60ee89516ed8f7be69d517d97f">ProcessorPhase</a>&#160;</td><td class="memItemRight"><a class="el" href="#af59f33275e790e4b873910b2092f9b64">PhaseForMode</a> (<a class="el" href="#a7e4dd4a94c20cce1d97bc7019cc550e1">WorldMode</a> mode)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -497,6 +506,45 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f" name="a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f"></a>COMPONENTFLAG_DECAY&#160;</td><td class="fielddoc"><p>Component will decay. </p>
 <p>This will delay the deletion of this component by one frame, allowing managers to clean up externally allocated resources </p>
 </td></tr>
+</table>
+
+</div>
+</div>
+<a id="afb947a60ee89516ed8f7be69d517d97f" name="afb947a60ee89516ed8f7be69d517d97f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb947a60ee89516ed8f7be69d517d97f">&#9670;&#160;</a></span>ProcessorPhase</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#afb947a60ee89516ed8f7be69d517d97f">Game::ProcessorPhase</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>which world mode a processor is allowed to run in </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afb947a60ee89516ed8f7be69d517d97fad999f8ad08aef46a91e5e5470d7e2fd7" name="afb947a60ee89516ed8f7be69d517d97fad999f8ad08aef46a91e5e5470d7e2fd7"></a>EditorPhase&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afb947a60ee89516ed8f7be69d517d97fa67a392f7a5650af6926c8f2789489390" name="afb947a60ee89516ed8f7be69d517d97fa67a392f7a5650af6926c8f2789489390"></a>PlayPhase&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="afb947a60ee89516ed8f7be69d517d97fa3d0e66f2b0eacd9098d247f177ce72b9" name="afb947a60ee89516ed8f7be69d517d97fa3d0e66f2b0eacd9098d247f177ce72b9"></a>BothPhases&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a7e4dd4a94c20cce1d97bc7019cc550e1" name="a7e4dd4a94c20cce1d97bc7019cc550e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e4dd4a94c20cce1d97bc7019cc550e1">&#9670;&#160;</a></span>WorldMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a7e4dd4a94c20cce1d97bc7019cc550e1">Game::WorldMode</a> : uint8_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7e4dd4a94c20cce1d97bc7019cc550e1a4e544a060ef0f7540c0afcf2bf28f22a" name="a7e4dd4a94c20cce1d97bc7019cc550e1a4e544a060ef0f7540c0afcf2bf28f22a"></a>EditorMode&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7e4dd4a94c20cce1d97bc7019cc550e1a871e5f91f99bd8c8c49d80e4b951fc48" name="a7e4dd4a94c20cce1d97bc7019cc550e1a871e5f91f99bd8c8c49d80e4b951fc48"></a>PlayMode&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -2418,6 +2466,31 @@ template&lt;typename TYPE, std::size_t i = 0&gt; </div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool *</td>          <td class="paramname"><span class="paramname"><em>commit</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af59f33275e790e4b873910b2092f9b64" name="af59f33275e790e4b873910b2092f9b64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af59f33275e790e4b873910b2092f9b64">&#9670;&#160;</a></span>PhaseForMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#afb947a60ee89516ed8f7be69d517d97f">ProcessorPhase</a> Game::PhaseForMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7e4dd4a94c20cce1d97bc7019cc550e1">WorldMode</a></td>          <td class="paramname"><span class="paramname"><em>mode</em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>

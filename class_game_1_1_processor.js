@@ -11,5 +11,6 @@ var class_game_1_1_processor =
     [ "filter", "class_game_1_1_processor.html#a25981bcbbfb787892c2a93335ce0133d", null ],
     [ "name", "class_game_1_1_processor.html#a12a482b82843105b4c8af8b7bd3dee72", null ],
     [ "order", "class_game_1_1_processor.html#a244bfbf4443eda0fc9333ca3d3ece116", null ],
+    [ "phase", "class_game_1_1_processor.html#a7d889d4899fe8c6de1d49a2fccb2cfbb", null ],
     [ "ProcessorBuilder", "class_game_1_1_processor.html#a17ee2b3d5defbffb150d22d1ba006fb4", null ]
 ];

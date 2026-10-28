@@ -94,6 +94,7 @@ var class_game_1_1_world =
     [ "defaultTableId", "class_game_1_1_world.html#aefa31f4d8d2d98f37ff8b1f2fa831a61", null ],
     [ "entityMap", "class_game_1_1_world.html#a9a38806bb38787454757c258547332c1", null ],
     [ "hash", "class_game_1_1_world.html#afa2d8d1ad9a92a5da96e2a86b4a8ced1", null ],
+    [ "mode", "class_game_1_1_world.html#a9914b93e157f3cc80e9883123870902f", null ],
     [ "numEntities", "class_game_1_1_world.html#aedd8aa7932467db16de2eb7df45b47a5", null ],
     [ "pipeline", "class_game_1_1_world.html#a65a0dae6d7ff63f75fbe47789ee3fa05", null ],
     [ "pool", "class_game_1_1_world.html#a181915ada91cad52e45582de41e43ae3", null ],

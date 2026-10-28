@@ -142,6 +142,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1484ca50f5502d8a4d71bef7885de8c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">entities must be marked as modified for them to actually be processed  <br /></td></tr>
 <tr class="memitem:a0be7233bc74831e9f6e5f1c2342d4747" id="r_a0be7233bc74831e9f6e5f1c2342d4747"><td class="memItemLeft"><a class="el" href="#a5727e650058834c0428635730a66fdc7">ProcessorBuilder</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a0be7233bc74831e9f6e5f1c2342d4747">Order</a> (int order)</td></tr>
 <tr class="memdesc:a0be7233bc74831e9f6e5f1c2342d4747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the sorting order for the processor.  <br /></td></tr>
+<tr class="memitem:a2b7537ffd04cfc0049b679f2920b5220" id="r_a2b7537ffd04cfc0049b679f2920b5220"><td class="memItemLeft"><a class="el" href="#a5727e650058834c0428635730a66fdc7">ProcessorBuilder</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a2b7537ffd04cfc0049b679f2920b5220">EditorOnly</a> ()</td></tr>
+<tr class="memdesc:a2b7537ffd04cfc0049b679f2920b5220"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_game_1_1_processor.html">Processor</a> only runs when the world is not simulating.  <br /></td></tr>
+<tr class="memitem:aab377a546a6d43cb920e2f3ed5d6d5a8" id="r_aab377a546a6d43cb920e2f3ed5d6d5a8"><td class="memItemLeft"><a class="el" href="#a5727e650058834c0428635730a66fdc7">ProcessorBuilder</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#aab377a546a6d43cb920e2f3ed5d6d5a8">PlayOnly</a> ()</td></tr>
+<tr class="memdesc:aab377a546a6d43cb920e2f3ed5d6d5a8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_game_1_1_processor.html">Processor</a> only runs when the world is simulating.  <br /></td></tr>
 <tr class="memitem:ad82c6034747344a34abf33b297ace87b" id="r_ad82c6034747344a34abf33b297ace87b"><td class="memItemLeft"><a class="el" href="#a5727e650058834c0428635730a66fdc7">ProcessorBuilder</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ad82c6034747344a34abf33b297ace87b">RunInEditor</a> ()</td></tr>
 <tr class="memdesc:ad82c6034747344a34abf33b297ace87b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_game_1_1_processor.html">Processor</a> should always run, even in editor; when the game is paused.  <br /></td></tr>
 <tr class="memitem:a10d703edc3863aa56246f84ca8d00c05" id="r_a10d703edc3863aa56246f84ca8d00c05"><td class="memItemLeft"><a class="el" href="class_game_1_1_processor.html">Processor</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a10d703edc3863aa56246f84ca8d00c05">Build</a> ()</td></tr>
@@ -158,6 +162,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a0b27deaaa44933f7f92cc502bfd36f59" id="r_a0b27deaaa44933f7f92cc502bfd36f59"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0b27deaaa44933f7f92cc502bfd36f59">async</a> = false</td></tr>
 <tr class="memitem:ad356c81e37a1f2d735985c6cc57e6188" id="r_ad356c81e37a1f2d735985c6cc57e6188"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad356c81e37a1f2d735985c6cc57e6188">onlyModified</a> = false</td></tr>
 <tr class="memitem:a582bd77de0e40665126023c2767a289e" id="r_a582bd77de0e40665126023c2767a289e"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a582bd77de0e40665126023c2767a289e">order</a> = 100</td></tr>
+<tr class="memitem:a660e875135bdce292437e48de2a4a973" id="r_a660e875135bdce292437e48de2a4a973"><td class="memItemLeft"><a class="el" href="namespace_game.html#afb947a60ee89516ed8f7be69d517d97f">ProcessorPhase</a>&#160;</td><td class="memItemRight"><a class="el" href="#a660e875135bdce292437e48de2a4a973">phase</a> = <a class="el" href="namespace_game.html#afb947a60ee89516ed8f7be69d517d97fa67a392f7a5650af6926c8f2789489390">PlayPhase</a></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5727e650058834c0428635730a66fdc7" name="a5727e650058834c0428635730a66fdc7"></a>
@@ -242,6 +247,25 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Build the processor and attach it to the world. </p>
+
+</div>
+</div>
+<a id="a2b7537ffd04cfc0049b679f2920b5220" name="a2b7537ffd04cfc0049b679f2920b5220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b7537ffd04cfc0049b679f2920b5220">&#9670;&#160;</a></span>EditorOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5727e650058834c0428635730a66fdc7">ProcessorBuilder</a> &amp; Game::ProcessorBuilder::EditorOnly </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_game_1_1_processor.html">Processor</a> only runs when the world is not simulating. </p>
 
 </div>
 </div>
@@ -426,6 +450,25 @@ template&lt;typename ... COMPONENTS&gt; </div>
 </div><div class="memdoc">
 
 <p>Set the sorting order for the processor. </p>
+
+</div>
+</div>
+<a id="aab377a546a6d43cb920e2f3ed5d6d5a8" name="aab377a546a6d43cb920e2f3ed5d6d5a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab377a546a6d43cb920e2f3ed5d6d5a8">&#9670;&#160;</a></span>PlayOnly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a5727e650058834c0428635730a66fdc7">ProcessorBuilder</a> &amp; Game::ProcessorBuilder::PlayOnly </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_game_1_1_processor.html">Processor</a> only runs when the world is simulating. </p>
 
 </div>
 </div>
@@ -614,6 +657,28 @@ template&lt;typename ... COMPONENTS&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">int Game::ProcessorBuilder::order = 100</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a660e875135bdce292437e48de2a4a973" name="a660e875135bdce292437e48de2a4a973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a660e875135bdce292437e48de2a4a973">&#9670;&#160;</a></span>phase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_game.html#afb947a60ee89516ed8f7be69d517d97f">ProcessorPhase</a> Game::ProcessorBuilder::phase = <a class="el" href="namespace_game.html#afb947a60ee89516ed8f7be69d517d97fa67a392f7a5650af6926c8f2789489390">PlayPhase</a></td>
         </tr>
       </table>
   </td>

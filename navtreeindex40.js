@@ -1,5 +1,15 @@
 var NAVTREEINDEX40 =
 {
+"class_i_o_1_1_binary_reader.html#a982c64c8886f70af5e62ae5bfbc6e4a3":[8,0,37,5,0],
+"class_i_o_1_1_binary_reader.html#a982c64c8886f70af5e62ae5bfbc6e4a3":[9,0,34,4,0],
+"class_i_o_1_1_binary_reader.html#a9876c3ca4283d7ed6b360f52d072301d":[8,0,37,5,1],
+"class_i_o_1_1_binary_reader.html#a9876c3ca4283d7ed6b360f52d072301d":[9,0,34,4,1],
+"class_i_o_1_1_binary_reader.html#a9ace3ffbfe34eb4bbb5a09a28f9464a0":[8,0,37,5,29],
+"class_i_o_1_1_binary_reader.html#a9ace3ffbfe34eb4bbb5a09a28f9464a0":[9,0,34,4,29],
+"class_i_o_1_1_binary_reader.html#aa12a8b82eaf4950f73184cfde7b7d31e":[8,0,37,5,35],
+"class_i_o_1_1_binary_reader.html#aa12a8b82eaf4950f73184cfde7b7d31e":[9,0,34,4,35],
+"class_i_o_1_1_binary_reader.html#aab7ef73f213b9c365faf3890ef48dd39":[8,0,37,5,15],
+"class_i_o_1_1_binary_reader.html#aab7ef73f213b9c365faf3890ef48dd39":[9,0,34,4,15],
 "class_i_o_1_1_binary_reader.html#ac50b0fcd444834a13dab39e6256c7f7c":[8,0,37,5,11],
 "class_i_o_1_1_binary_reader.html#ac50b0fcd444834a13dab39e6256c7f7c":[9,0,34,4,11],
 "class_i_o_1_1_binary_reader.html#ad2741438de0cee24ea7ee9efae230076":[8,0,37,5,10],
@@ -239,15 +249,5 @@ var NAVTREEINDEX40 =
 "class_i_o_1_1_console_handler.html#a784fba20269923f741261b6589837833":[8,0,37,15,8],
 "class_i_o_1_1_console_handler.html#a784fba20269923f741261b6589837833":[9,0,34,14,8],
 "class_i_o_1_1_console_handler.html#a83ebb158b4f6639ce482100b0c392050":[8,0,37,15,7],
-"class_i_o_1_1_console_handler.html#a83ebb158b4f6639ce482100b0c392050":[9,0,34,14,7],
-"class_i_o_1_1_console_handler.html#a997ff47fe7b044ee13df3f70ea61498f":[8,0,37,15,0],
-"class_i_o_1_1_console_handler.html#a997ff47fe7b044ee13df3f70ea61498f":[9,0,34,14,0],
-"class_i_o_1_1_console_handler.html#aab14d7153c6da831de030a64d1129f75":[8,0,37,15,6],
-"class_i_o_1_1_console_handler.html#aab14d7153c6da831de030a64d1129f75":[9,0,34,14,6],
-"class_i_o_1_1_console_handler.html#aeea39f49de326773a5707e241d49717d":[8,0,37,15,9],
-"class_i_o_1_1_console_handler.html#aeea39f49de326773a5707e241d49717d":[9,0,34,14,9],
-"class_i_o_1_1_embedded_memory_stream.html":[8,0,37,16],
-"class_i_o_1_1_embedded_memory_stream.html":[9,0,34,15],
-"class_i_o_1_1_embedded_memory_stream.html#a0bdde84b5b339b53fb13561846ff7680":[8,0,37,16,1],
-"class_i_o_1_1_embedded_memory_stream.html#a0bdde84b5b339b53fb13561846ff7680":[9,0,34,15,1]
+"class_i_o_1_1_console_handler.html#a83ebb158b4f6639ce482100b0c392050":[9,0,34,14,7]
 };

@@ -58,6 +58,15 @@ var namespace_game =
       [ "COMPONENTFLAG_NONE", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a", null ],
       [ "COMPONENTFLAG_DECAY", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f", null ]
     ] ],
+    [ "ProcessorPhase", "namespace_game.html#afb947a60ee89516ed8f7be69d517d97f", [
+      [ "EditorPhase", "namespace_game.html#afb947a60ee89516ed8f7be69d517d97fad999f8ad08aef46a91e5e5470d7e2fd7", null ],
+      [ "PlayPhase", "namespace_game.html#afb947a60ee89516ed8f7be69d517d97fa67a392f7a5650af6926c8f2789489390", null ],
+      [ "BothPhases", "namespace_game.html#afb947a60ee89516ed8f7be69d517d97fa3d0e66f2b0eacd9098d247f177ce72b9", null ]
+    ] ],
+    [ "WorldMode", "namespace_game.html#a7e4dd4a94c20cce1d97bc7019cc550e1", [
+      [ "EditorMode", "namespace_game.html#a7e4dd4a94c20cce1d97bc7019cc550e1a4e544a060ef0f7540c0afcf2bf28f22a", null ],
+      [ "PlayMode", "namespace_game.html#a7e4dd4a94c20cce1d97bc7019cc550e1a871e5f91f99bd8c8c49d80e4b951fc48", null ]
+    ] ],
     [ "__ImplementClass", "namespace_game.html#a0034b34d272ba9724134e915f84c9ec0", null ],
     [ "__ImplementClass", "namespace_game.html#a84d23932cc3378e918db65cf24fec44c", null ],
     [ "__ImplementClass", "namespace_game.html#a11c1d59544c659ab5e0303c930b7bc32", null ],
@@ -122,6 +131,7 @@ var namespace_game =
     [ "GetWorld", "namespace_game.html#ad32ebbdd3a3b51b2366aacd894a5a031", null ],
     [ "GetWorld", "namespace_game.html#aad3d6db368f0ad6118d67b0f343408eb", null ],
     [ "InspectorDrawField", "namespace_game.html#ae68efec6b22e6e4f4a2c4d6f0801f193", null ],
+    [ "PhaseForMode", "namespace_game.html#af59f33275e790e4b873910b2092f9b64", null ],
     [ "Query", "namespace_game.html#a3e2891686998c0318e52a525428b783f", null ],
     [ "ReleaseDatasets", "namespace_game.html#afca219253f3d0b2360830d0f4c487625", null ],
     [ "cl_draw_entity_references", "namespace_game.html#a640176c78e3db0e076af15a69645dea1", null ],

@@ -1,5 +1,15 @@
 var NAVTREEINDEX41 =
 {
+"class_i_o_1_1_console_handler.html#a997ff47fe7b044ee13df3f70ea61498f":[8,0,37,15,0],
+"class_i_o_1_1_console_handler.html#a997ff47fe7b044ee13df3f70ea61498f":[9,0,34,14,0],
+"class_i_o_1_1_console_handler.html#aab14d7153c6da831de030a64d1129f75":[8,0,37,15,6],
+"class_i_o_1_1_console_handler.html#aab14d7153c6da831de030a64d1129f75":[9,0,34,14,6],
+"class_i_o_1_1_console_handler.html#aeea39f49de326773a5707e241d49717d":[8,0,37,15,9],
+"class_i_o_1_1_console_handler.html#aeea39f49de326773a5707e241d49717d":[9,0,34,14,9],
+"class_i_o_1_1_embedded_memory_stream.html":[8,0,37,16],
+"class_i_o_1_1_embedded_memory_stream.html":[9,0,34,15],
+"class_i_o_1_1_embedded_memory_stream.html#a0bdde84b5b339b53fb13561846ff7680":[8,0,37,16,1],
+"class_i_o_1_1_embedded_memory_stream.html#a0bdde84b5b339b53fb13561846ff7680":[9,0,34,15,1],
 "class_i_o_1_1_embedded_memory_stream.html#a134e3f6f16c67eaa7f378e402fc88df9":[8,0,37,16,2],
 "class_i_o_1_1_embedded_memory_stream.html#a134e3f6f16c67eaa7f378e402fc88df9":[9,0,34,15,2],
 "class_i_o_1_1_embedded_memory_stream.html#a40bdbaa1e492d5ad3743da3048511289":[8,0,37,16,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX41 =
 "class_i_o_1_1_io_server.html#a804cff67f10e9543d741f02a652ed916":[9,0,34,24,12],
 "class_i_o_1_1_io_server.html#a86300b01595d80f6bf5d99d05eb8a8b1":[8,0,37,25,26],
 "class_i_o_1_1_io_server.html#a86300b01595d80f6bf5d99d05eb8a8b1":[9,0,34,24,26],
-"class_i_o_1_1_io_server.html#a8f35a3f94a80d275d0f7da73a887d33e":[8,0,37,25,45],
-"class_i_o_1_1_io_server.html#a8f35a3f94a80d275d0f7da73a887d33e":[9,0,34,24,45],
-"class_i_o_1_1_io_server.html#a934fc8a75a2d2dbb02b190686a48e6e4":[8,0,37,25,30],
-"class_i_o_1_1_io_server.html#a934fc8a75a2d2dbb02b190686a48e6e4":[9,0,34,24,30],
-"class_i_o_1_1_io_server.html#a9c21f8e6891b0c93cd459c9b1cdb941f":[8,0,37,25,27],
-"class_i_o_1_1_io_server.html#a9c21f8e6891b0c93cd459c9b1cdb941f":[9,0,34,24,27],
-"class_i_o_1_1_io_server.html#aa0b4614643a3870ba04f931b68ee5363":[8,0,37,25,29],
-"class_i_o_1_1_io_server.html#aa0b4614643a3870ba04f931b68ee5363":[9,0,34,24,29],
-"class_i_o_1_1_io_server.html#aa0be5879f65fe6435ebaf4cd6dc79d11":[8,0,37,25,41],
-"class_i_o_1_1_io_server.html#aa0be5879f65fe6435ebaf4cd6dc79d11":[9,0,34,24,41],
-"class_i_o_1_1_io_server.html#aa372e2e59277d84329d6e514097ac93f":[8,0,37,25,21]
+"class_i_o_1_1_io_server.html#a8f35a3f94a80d275d0f7da73a887d33e":[8,0,37,25,45]
 };
