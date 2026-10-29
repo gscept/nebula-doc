@@ -1,5 +1,7 @@
 var NAVTREEINDEX157 =
 {
+"struct_terrain_1_1_terrain_setup_settings.html#a04b8872e9756e8e0f4670b23ef7c2d48":[8,0,80,19,4],
+"struct_terrain_1_1_terrain_setup_settings.html#a04b8872e9756e8e0f4670b23ef7c2d48":[9,0,70,19,4],
 "struct_terrain_1_1_terrain_setup_settings.html#a5e47b5daa386a6527014f042737ce9b3":[8,0,80,19,3],
 "struct_terrain_1_1_terrain_setup_settings.html#a5e47b5daa386a6527014f042737ce9b3":[9,0,70,19,3],
 "struct_terrain_1_1_terrain_setup_settings.html#a9c639696d58e8d333e97b642900bdb76":[8,0,80,19,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX157 =
 "struct_ti_xml_base_1_1_entity.html#ab721b5d4f7ed144ffd215947b38258b7":[9,0,174,1,1],
 "struct_ti_xml_cursor.html":[9,0,176],
 "struct_ti_xml_cursor.html#a1e6fa622b59dafb71b6efe595105dcdd":[9,0,176,1],
-"struct_ti_xml_cursor.html#a5694d7ed2c4d20109d350c14c417969d":[9,0,176,2],
-"struct_ti_xml_cursor.html#a5b54dd949820c2db061e2be41f3effb3":[9,0,176,3],
-"struct_ti_xml_cursor.html#a7ad233928a675f0271eb440b150e3ff1":[9,0,176,0]
+"struct_ti_xml_cursor.html#a5694d7ed2c4d20109d350c14c417969d":[9,0,176,2]
 };

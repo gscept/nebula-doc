@@ -1,5 +1,7 @@
 var NAVTREEINDEX163 =
 {
+"struct_vulkan_1_1_vk_event_info.html#a66dd28b8e1333c9ba84a5f8e3a40bc81":[8,0,87,25,5],
+"struct_vulkan_1_1_vk_event_info.html#a66dd28b8e1333c9ba84a5f8e3a40bc81":[9,0,75,25,5],
 "struct_vulkan_1_1_vk_event_info.html#a9714bc9dc88b7ff27311ef1778ee6897":[8,0,87,25,1],
 "struct_vulkan_1_1_vk_event_info.html#a9714bc9dc88b7ff27311ef1778ee6897":[9,0,75,25,1],
 "struct_vulkan_1_1_vk_event_info.html#acf916fc32dcb0a2d32cfb0597910ef6f":[8,0,87,25,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX163 =
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html":[8,0,87,39,1],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html":[9,0,75,39,1],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a94522a59f4a07742c4ccd2dab6230843":[8,0,87,39,1,1],
-"struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a94522a59f4a07742c4ccd2dab6230843":[9,0,75,39,1,1],
-"struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a97b16e8d1b94c95bed2e0ca3cbbab2d9":[8,0,87,39,1,0],
-"struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a97b16e8d1b94c95bed2e0ca3cbbab2d9":[9,0,75,39,1,0]
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view_delete.html#a94522a59f4a07742c4ccd2dab6230843":[9,0,75,39,1,1]
 };

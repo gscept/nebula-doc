@@ -1,5 +1,7 @@
 var NAVTREEINDEX133 =
 {
+"struct_game_1_1_entity.html#ad7c7eb3e20957fdbc3ec1eacbcdf0af2":[8,0,25,9,4],
+"struct_game_1_1_entity.html#ad7c7eb3e20957fdbc3ec1eacbcdf0af2":[9,0,23,8,4],
 "struct_game_1_1_entity.html#afc57dc24e5cfdce1340c757988be3e60":[8,0,25,9,9],
 "struct_game_1_1_entity.html#afc57dc24e5cfdce1340c757988be3e60":[9,0,23,8,9],
 "struct_game_1_1_entity_1_1_traits.html":[8,0,25,9,0],
@@ -58,10 +60,10 @@ var NAVTREEINDEX133 =
 "struct_game_1_1_game_server_1_1_state.html":[9,0,23,16,0],
 "struct_game_1_1_game_server_1_1_state.html#a35961d9052b755591848cfc911da6294":[8,0,25,17,0,0],
 "struct_game_1_1_game_server_1_1_state.html#a35961d9052b755591848cfc911da6294":[9,0,23,16,0,0],
-"struct_game_1_1_game_server_1_1_state.html#ad1718c5f480d6d9b5854c59d3d9a80b7":[8,0,25,17,0,2],
-"struct_game_1_1_game_server_1_1_state.html#ad1718c5f480d6d9b5854c59d3d9a80b7":[9,0,23,16,0,2],
-"struct_game_1_1_game_server_1_1_state.html#ae1ea1fd157c273f628dafbe8690e6350":[8,0,25,17,0,1],
-"struct_game_1_1_game_server_1_1_state.html#ae1ea1fd157c273f628dafbe8690e6350":[9,0,23,16,0,1],
+"struct_game_1_1_game_server_1_1_state.html#aa1e618cf9308de88ade9e95244f72ac0":[8,0,25,17,0,2],
+"struct_game_1_1_game_server_1_1_state.html#aa1e618cf9308de88ade9e95244f72ac0":[9,0,23,16,0,2],
+"struct_game_1_1_game_server_1_1_state.html#aa41d29e103e4522fc274ca5a22116630":[8,0,25,17,0,1],
+"struct_game_1_1_game_server_1_1_state.html#aa41d29e103e4522fc274ca5a22116630":[9,0,23,16,0,1],
 "struct_game_1_1_message_1_1_message_queue_id.html":[8,0,25,20,0],
 "struct_game_1_1_message_1_1_message_queue_id.html":[9,0,23,19,0],
 "struct_game_1_1_message_listener.html":[8,0,25,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX133 =
 "struct_graphics_1_1_graphics_context_function_bundle.html#aa11b158497d93161e907eec8631732fe":[8,0,29,12,4],
 "struct_graphics_1_1_graphics_context_function_bundle.html#aa11b158497d93161e907eec8631732fe":[9,0,27,12,4],
 "struct_graphics_1_1_graphics_context_state.html":[8,0,29,13],
-"struct_graphics_1_1_graphics_context_state.html":[9,0,27,13],
-"struct_graphics_1_1_graphics_context_state.html#a091f283a1f0b250e4147f8850ac2f8a7":[8,0,29,13,3],
-"struct_graphics_1_1_graphics_context_state.html#a091f283a1f0b250e4147f8850ac2f8a7":[9,0,27,13,3]
+"struct_graphics_1_1_graphics_context_state.html":[9,0,27,13]
 };

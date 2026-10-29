@@ -1,5 +1,7 @@
 var NAVTREEINDEX140 =
 {
+"struct_math_1_1_bezier_cubic.html":[9,0,42,2],
+"struct_math_1_1_bezier_cubic.html#a124dfe367c0225052fd8cb62f8405201":[8,0,46,2,0],
 "struct_math_1_1_bezier_cubic.html#a124dfe367c0225052fd8cb62f8405201":[9,0,42,2,0],
 "struct_math_1_1_bezier_cubic.html#a48924692c39aaaa0e0cc37a9bb682fef":[8,0,46,2,3],
 "struct_math_1_1_bezier_cubic.html#a48924692c39aaaa0e0cc37a9bb682fef":[9,0,42,2,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX140 =
 "struct_math_1_1plane_1_1_0fstruct_0e_8____unnamed0_____8____unnamed1____.html#a41c489a6bb9b510d9a50b46a1246fd1e":[9,0,42,20,0,1,0],
 "struct_math_1_1plane_1_1_0fstruct_0e_8____unnamed0_____8____unnamed1____.html#af0f631bc77746a49de8a19e96587a68b":[8,0,46,20,0,1,1],
 "struct_math_1_1plane_1_1_0fstruct_0e_8____unnamed0_____8____unnamed1____.html#af0f631bc77746a49de8a19e96587a68b":[9,0,42,20,0,1,1],
-"struct_math_1_1point.html":[8,0,46,21],
-"struct_math_1_1point.html":[9,0,42,21],
-"struct_math_1_1point.html#a1b68db4ff58de6c95343dc31e258b8f7":[8,0,46,21,19]
+"struct_math_1_1point.html":[8,0,46,21]
 };

@@ -105,8 +105,8 @@ var NAVTREEINDEX32 =
 "class_game_1_1_game_server.html#a28a5f56f9567099ebc481826eba72698":[9,0,23,16,13],
 "class_game_1_1_game_server.html#a35f82a3a34247dd6f2621737e8202219":[8,0,25,17,10],
 "class_game_1_1_game_server.html#a35f82a3a34247dd6f2621737e8202219":[9,0,23,16,10],
-"class_game_1_1_game_server.html#a56cfc62d74108784b11adf00aafaf9bc":[8,0,25,17,31],
-"class_game_1_1_game_server.html#a56cfc62d74108784b11adf00aafaf9bc":[9,0,23,16,31],
+"class_game_1_1_game_server.html#a56cfc62d74108784b11adf00aafaf9bc":[8,0,25,17,32],
+"class_game_1_1_game_server.html#a56cfc62d74108784b11adf00aafaf9bc":[9,0,23,16,32],
 "class_game_1_1_game_server.html#a590750dc64658984cb9181f6da11b1ed":[8,0,25,17,3],
 "class_game_1_1_game_server.html#a590750dc64658984cb9181f6da11b1ed":[9,0,23,16,3],
 "class_game_1_1_game_server.html#a61dc090eb2e9b9d5435bd7c42561daf7":[8,0,25,17,2],
@@ -129,6 +129,8 @@ var NAVTREEINDEX32 =
 "class_game_1_1_game_server.html#a88bc48efbd45d2db8b79448a91bb0902":[9,0,23,16,21],
 "class_game_1_1_game_server.html#a8ea993f4eeafed24d76e0e2874ab072c":[8,0,25,17,26],
 "class_game_1_1_game_server.html#a8ea993f4eeafed24d76e0e2874ab072c":[9,0,23,16,26],
+"class_game_1_1_game_server.html#a9a9397031541f9b81b29b6ac241c557f":[8,0,25,17,31],
+"class_game_1_1_game_server.html#a9a9397031541f9b81b29b6ac241c557f":[9,0,23,16,31],
 "class_game_1_1_game_server.html#aa1a3fb20cb6cc6bb20b9788221620929":[8,0,25,17,8],
 "class_game_1_1_game_server.html#aa1a3fb20cb6cc6bb20b9788221620929":[9,0,23,16,8],
 "class_game_1_1_game_server.html#aa353036973a11e8d170172d01c43b33a":[8,0,25,17,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX32 =
 "class_game_1_1_message.html#ad14119129f547bc0b5994c7b741aeb79":[9,0,23,19,9],
 "class_game_1_1_message.html#ad4b9ef394af2231f04b3fcf3221523af":[8,0,25,20,10],
 "class_game_1_1_message.html#ad4b9ef394af2231f04b3fcf3221523af":[9,0,23,19,10],
-"class_game_1_1_message.html#ade2e3f3a295a9ae6a00480590c29d1d3":[8,0,25,20,28],
-"class_game_1_1_message.html#ade2e3f3a295a9ae6a00480590c29d1d3":[9,0,23,19,28],
-"class_game_1_1_message.html#ae69d5aa3a156deefbac125a33e97a7a6":[8,0,25,20,25]
+"class_game_1_1_message.html#ade2e3f3a295a9ae6a00480590c29d1d3":[8,0,25,20,28]
 };

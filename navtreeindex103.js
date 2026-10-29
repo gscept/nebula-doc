@@ -1,5 +1,7 @@
 var NAVTREEINDEX103 =
 {
+"lightcontext_8cc.html#acb7429b02430fb4301b68918d90038c7":[10,0,0,7,15,0,0],
+"lightcontext_8h.html":[10,0,0,7,15,1],
 "lightcontext_8h_source.html":[10,0,0,7,15,1],
 "lightprobecontext_8cc.html":[10,0,0,7,15,2],
 "lightprobecontext_8h.html":[10,0,0,7,15,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX103 =
 "namespace_audio_feature.html#af39a393224f301aa4e2508d4cec4a545":[8,0,4,9],
 "namespace_base.html":[8,0,5],
 "namespace_base.html#a186dae4a6cdc50330b2a3664a1e55ab9":[8,0,5,25],
-"namespace_base.html#a1be87d14592c3fdc90da266a0d785d9d":[8,0,5,31],
-"namespace_base.html#a2c857c311423713ff9a3249b6efe2280":[8,0,5,18],
-"namespace_base.html#a3a1d22106f256181f3f8ad17ee62d4e6":[8,0,5,20]
+"namespace_base.html#a1be87d14592c3fdc90da266a0d785d9d":[8,0,5,31]
 };

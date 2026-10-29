@@ -1,5 +1,7 @@
 var NAVTREEINDEX162 =
 {
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a50a07fbbb771294313eab84f7e67cfbd":[8,0,87,21,18,1],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a50a07fbbb771294313eab84f7e67cfbd":[9,0,75,21,18,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_ref_command.html":[8,0,87,21,17],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_ref_command.html":[9,0,75,21,17],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_ref_command.html#a0667f9e1341e6c8934847ddf0ed16d93":[8,0,87,21,17,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX162 =
 "struct_vulkan_1_1_vk_event_info.html#a31e33219ef2a675443276074a3e96051":[8,0,87,25,0],
 "struct_vulkan_1_1_vk_event_info.html#a31e33219ef2a675443276074a3e96051":[9,0,75,25,0],
 "struct_vulkan_1_1_vk_event_info.html#a5ffdbf7dfcc11addc0c3e78b4ef1b969":[8,0,87,25,2],
-"struct_vulkan_1_1_vk_event_info.html#a5ffdbf7dfcc11addc0c3e78b4ef1b969":[9,0,75,25,2],
-"struct_vulkan_1_1_vk_event_info.html#a66dd28b8e1333c9ba84a5f8e3a40bc81":[8,0,87,25,5],
-"struct_vulkan_1_1_vk_event_info.html#a66dd28b8e1333c9ba84a5f8e3a40bc81":[9,0,75,25,5]
+"struct_vulkan_1_1_vk_event_info.html#a5ffdbf7dfcc11addc0c3e78b4ef1b969":[9,0,75,25,2]
 };

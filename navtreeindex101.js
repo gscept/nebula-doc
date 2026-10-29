@@ -1,5 +1,7 @@
 var NAVTREEINDEX101 =
 {
+"functions_y.html":[9,3,0,25],
+"functions_z.html":[9,3,0,26],
 "functions_~.html":[9,3,0,27],
 "game_8cc.html":[10,0,0,0,9,0,4],
 "game_8h.html":[10,0,0,0,9,0,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX101 =
 "httpserver_8cc.html":[10,0,0,3,6,32],
 "httpserver_8h.html":[10,0,0,3,6,33],
 "httpserver_8h.html#a1f7c980378473761029fa9aee9498a9f":[10,0,0,3,6,33,2],
-"httpserver_8h_source.html":[10,0,0,3,6,33],
-"httpserverproxy_8cc.html":[10,0,0,3,6,34],
-"httpserverproxy_8h.html":[10,0,0,3,6,35]
+"httpserver_8h_source.html":[10,0,0,3,6,33]
 };

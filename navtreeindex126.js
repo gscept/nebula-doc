@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df":[9,0,12,62,12],
+"struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7":[8,0,13,63,0],
 "struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7":[9,0,12,62,0],
 "struct_core_graphics_1_1_memory_pool.html#af23391a724c68da228bb283524ebac9f":[8,0,13,63,11],
 "struct_core_graphics_1_1_memory_pool.html#af23391a724c68da228bb283524ebac9f":[9,0,12,62,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "struct_core_graphics_1_1_pipeline_create_info.html#afa75d0ce53e94c3fb2fc8f0e7ad37ddf":[9,0,12,82,2],
 "struct_core_graphics_1_1_pipeline_id.html":[8,0,13,84],
 "struct_core_graphics_1_1_pipeline_id.html":[9,0,12,83],
-"struct_core_graphics_1_1_pipeline_ray_tracing_table.html":[8,0,13,85],
-"struct_core_graphics_1_1_pipeline_ray_tracing_table.html":[9,0,12,84],
-"struct_core_graphics_1_1_pipeline_ray_tracing_table.html#a0ae69684826bcfc2cf055959a8ac4f55":[8,0,13,85,5]
+"struct_core_graphics_1_1_pipeline_ray_tracing_table.html":[8,0,13,85]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"class_nebula_1_1_bounding_frustum.html#a96415f10f4cbf841fd45194a15f539e2":[9,0,50,2,24],
+"class_nebula_1_1_bounding_frustum.html#a99233210fb108f513e6b0dcd5982ec13":[8,0,55,2,3],
 "class_nebula_1_1_bounding_frustum.html#a99233210fb108f513e6b0dcd5982ec13":[9,0,50,2,3],
 "class_nebula_1_1_bounding_frustum.html#a9ed70e2e6f590b0f1538ed37ac2dba88":[8,0,55,2,28],
 "class_nebula_1_1_bounding_frustum.html#a9ed70e2e6f590b0f1538ed37ac2dba88":[9,0,50,2,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "class_nebula_1_1_game_1_1_world.html#a63c0a6167ccff843bd28a5d6cbab0073":[9,0,50,0,13,3],
 "class_nebula_1_1_game_1_1_world.html#a72a38eba9c916bfe59f8fe677938bfee":[8,0,55,0,13,1],
 "class_nebula_1_1_game_1_1_world.html#a72a38eba9c916bfe59f8fe677938bfee":[9,0,50,0,13,1],
-"class_nebula_1_1_game_1_1_world.html#a7797bd51b7dfe8193d72cb5ad899c2c7":[8,0,55,0,13,9],
-"class_nebula_1_1_game_1_1_world.html#a7797bd51b7dfe8193d72cb5ad899c2c7":[9,0,50,0,13,9],
-"class_nebula_1_1_game_1_1_world.html#a85cf519013d3501722338c9b20860133":[8,0,55,0,13,2]
+"class_nebula_1_1_game_1_1_world.html#a7797bd51b7dfe8193d72cb5ad899c2c7":[8,0,55,0,13,9]
 };

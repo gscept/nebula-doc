@@ -1,5 +1,7 @@
 var NAVTREEINDEX161 =
 {
+"struct_vulkan_1_1_vk_barrier_info.html#aff56b6918c465000947a8787bbdddceb":[8,0,87,17,2],
+"struct_vulkan_1_1_vk_barrier_info.html#aff56b6918c465000947a8787bbdddceb":[9,0,75,17,2],
 "struct_vulkan_1_1_vk_buffer_load_info.html":[8,0,87,18],
 "struct_vulkan_1_1_vk_buffer_load_info.html":[9,0,75,18],
 "struct_vulkan_1_1_vk_buffer_load_info.html#a5032992411d986528a4fdc59cb41eea4":[8,0,87,18,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX161 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html":[8,0,87,21,18],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html":[9,0,75,21,18],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a0392e64efc43e126ae4684aa7f997f5d":[8,0,87,21,18,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a0392e64efc43e126ae4684aa7f997f5d":[9,0,75,21,18,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a50a07fbbb771294313eab84f7e67cfbd":[8,0,87,21,18,1],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a50a07fbbb771294313eab84f7e67cfbd":[9,0,75,21,18,1]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a0392e64efc43e126ae4684aa7f997f5d":[9,0,75,21,18,0]
 };

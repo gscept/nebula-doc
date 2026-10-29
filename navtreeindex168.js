@@ -1,5 +1,7 @@
 var NAVTREEINDEX168 =
 {
+"vkloader_8h.html#a3fd2ea78e7a95294dbdb8795a74c7038":[10,0,0,7,5,6,23,44],
+"vkloader_8h.html#a40ca5b5e06b1fffe043e85a5062c037b":[10,0,0,7,5,6,23,151],
 "vkloader_8h.html#a4322d130de5c13218232a6cfaa28d1d0":[10,0,0,7,5,6,23,48],
 "vkloader_8h.html#a43a728e2f3ce405459de21ede566cf56":[10,0,0,7,5,6,23,11],
 "vkloader_8h.html#a45de7fd48ed8832a8c17eb042d96af8d":[10,0,0,7,5,6,23,84],
@@ -247,7 +249,5 @@ var NAVTREEINDEX168 =
 "win32ipaddress_8h_source.html":[10,0,0,3,15,3,1],
 "win32library_8cc.html":[10,0,0,3,17,4,3],
 "win32library_8h.html":[10,0,0,3,17,4,4],
-"win32library_8h_source.html":[10,0,0,3,17,4,4],
-"win32memory_8cc.html":[10,0,0,3,13,4,2],
-"win32memory_8cc.html#a02d9d956fa2bc0294cabf3bfcd74ecc8":[10,0,0,3,13,4,2,12]
+"win32library_8h_source.html":[10,0,0,3,17,4,4]
 };

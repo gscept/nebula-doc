@@ -31,5 +31,6 @@ var class_game_1_1_game_server =
     [ "gameFeatures", "class_game_1_1_game_server.html#a7fe75523f9d644fda26edcfac213a3fb", null ],
     [ "isOpen", "class_game_1_1_game_server.html#aa87b18d33bedc0f5feab9fef329ceac7", null ],
     [ "isStarted", "class_game_1_1_game_server.html#ad02fdd16801ff93a8d601f123e91aeff", null ],
+    [ "MaxWorlds", "class_game_1_1_game_server.html#a9a9397031541f9b81b29b6ac241c557f", null ],
     [ "state", "class_game_1_1_game_server.html#a56cfc62d74108784b11adf00aafaf9bc", null ]
 ];

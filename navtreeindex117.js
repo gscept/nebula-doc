@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"namespace_vulkan.html#a930b6bfeb03e85dd2e9e5ce6a969245d":[8,0,87,201],
+"namespace_vulkan.html#a9560ead2c17ee24b461ca22d37e4c5ae":[8,0,87,223],
 "namespace_vulkan.html#a9791adee63fb8c997686ff68d755204b":[8,0,87,220],
 "namespace_vulkan.html#a996b0fa771ae293144bcffc0912d8e2f":[8,0,87,214],
 "namespace_vulkan.html#a9a0e4946003d188a25bd19b015d6e6cd":[8,0,87,179],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "nebula__icons_8h.html#a12aa09ddaa6c77e2c072dbda92046df4":[10,0,0,0,3,16,48],
 "nebula__icons_8h.html#a138480537239b6e4a0ce186326f3f139":[10,0,0,0,3,16,30],
 "nebula__icons_8h.html#a18e96f74f252472dc9114919aa3dbabd":[10,0,0,0,3,16,15],
-"nebula__icons_8h.html#a1a7667dea2d685bcb8ef788f42c9edec":[10,0,0,0,3,16,12],
-"nebula__icons_8h.html#a1b7c88f73c42537ac7e61f03bc3df6cf":[10,0,0,0,3,16,9],
-"nebula__icons_8h.html#a27062894acaf92603bc0db5c9c4d4a0a":[10,0,0,0,3,16,5]
+"nebula__icons_8h.html#a1a7667dea2d685bcb8ef788f42c9edec":[10,0,0,0,3,16,12]
 };

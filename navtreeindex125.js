@@ -1,5 +1,7 @@
 var NAVTREEINDEX125 =
 {
+"struct_core_graphics_1_1_event_create_info.html#a978669362f2ee95633b02edb2eaa1162":[9,0,12,43,3],
+"struct_core_graphics_1_1_event_create_info.html#aa6ccfe0ea990da565ef1175d47aeff78":[8,0,13,44,5],
 "struct_core_graphics_1_1_event_create_info.html#aa6ccfe0ea990da565ef1175d47aeff78":[9,0,12,43,5],
 "struct_core_graphics_1_1_event_create_info.html#ab1c5824eb089467d007152c939e3878f":[8,0,13,44,1],
 "struct_core_graphics_1_1_event_create_info.html#ab1c5824eb089467d007152c939e3878f":[9,0,12,43,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX125 =
 "struct_core_graphics_1_1_memory_pool.html#ad5a7d487fca91e0acc1754720767f99e":[9,0,12,62,7],
 "struct_core_graphics_1_1_memory_pool.html#adc7f1cd997d739f9d723c7a656edf4fe":[8,0,13,63,14],
 "struct_core_graphics_1_1_memory_pool.html#adc7f1cd997d739f9d723c7a656edf4fe":[9,0,12,62,14],
-"struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df":[8,0,13,63,12],
-"struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df":[9,0,12,62,12],
-"struct_core_graphics_1_1_memory_pool.html#aeb92ad66140c0b107c0044861587c6d7":[8,0,13,63,0]
+"struct_core_graphics_1_1_memory_pool.html#ae23d995ee186f9b8b47fb4d24093c7df":[8,0,13,63,12]
 };

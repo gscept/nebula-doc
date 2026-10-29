@@ -1,5 +1,7 @@
 var NAVTREEINDEX132 =
 {
+"struct_g_i_1_1_0fstruct_0e_8state.html#ab22f747b310bbdce6b17c8b08f22d69b":[8,0,27,0,7],
+"struct_g_i_1_1_0fstruct_0e_8state.html#ab22f747b310bbdce6b17c8b08f22d69b":[9,0,25,0,7],
 "struct_g_i_1_1_0fstruct_0e_8state.html#abd1a0722d9e8e616e50ada9bfc559ad5":[8,0,27,0,19],
 "struct_g_i_1_1_0fstruct_0e_8state.html#abd1a0722d9e8e616e50ada9bfc559ad5":[9,0,25,0,19],
 "struct_g_i_1_1_0fstruct_0e_8state.html#ac54683791fee66ac6c1b55855826a9d4":[8,0,27,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX132 =
 "struct_game_1_1_entity.html#acdd2260cff40bbda80c8f14d9efa5b48":[8,0,25,9,10],
 "struct_game_1_1_entity.html#acdd2260cff40bbda80c8f14d9efa5b48":[9,0,23,8,10],
 "struct_game_1_1_entity.html#ad3e05a2119199705c3fbc27a511d1ca7":[8,0,25,9,2],
-"struct_game_1_1_entity.html#ad3e05a2119199705c3fbc27a511d1ca7":[9,0,23,8,2],
-"struct_game_1_1_entity.html#ad7c7eb3e20957fdbc3ec1eacbcdf0af2":[8,0,25,9,4],
-"struct_game_1_1_entity.html#ad7c7eb3e20957fdbc3ec1eacbcdf0af2":[9,0,23,8,4]
+"struct_game_1_1_entity.html#ad3e05a2119199705c3fbc27a511d1ca7":[9,0,23,8,2]
 };

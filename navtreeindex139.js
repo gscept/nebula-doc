@@ -1,5 +1,7 @@
 var NAVTREEINDEX139 =
 {
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#afb3ee7662aa94d1a8a42872936a59a70":[9,0,37,4,2,0],
+"struct_material_templates_1_1_entry.html":[8,0,44,2],
 "struct_material_templates_1_1_entry.html":[9,0,40,2],
 "struct_material_templates_1_1_entry.html#a12c5eb482482b2b37b240be25e380a9b":[8,0,44,2,5],
 "struct_material_templates_1_1_entry.html#a12c5eb482482b2b37b240be25e380a9b":[9,0,40,2,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX139 =
 "struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[9,0,39,8,0],
 "struct_materials_1_1_shader_config_batch_texture.html#aa99f920bd967ac712c9c1bd872eb2d7e":[8,0,43,8,1],
 "struct_materials_1_1_shader_config_batch_texture.html#aa99f920bd967ac712c9c1bd872eb2d7e":[9,0,39,8,1],
-"struct_math_1_1_bezier_cubic.html":[8,0,46,2],
-"struct_math_1_1_bezier_cubic.html":[9,0,42,2],
-"struct_math_1_1_bezier_cubic.html#a124dfe367c0225052fd8cb62f8405201":[8,0,46,2,0]
+"struct_math_1_1_bezier_cubic.html":[8,0,46,2]
 };

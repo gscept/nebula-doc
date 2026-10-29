@@ -1,5 +1,7 @@
 var NAVTREEINDEX158 =
 {
+"struct_ti_xml_cursor.html#a5b54dd949820c2db061e2be41f3effb3":[9,0,176,3],
+"struct_ti_xml_cursor.html#a7ad233928a675f0271eb440b150e3ff1":[9,0,176,0],
 "struct_ti_xml_string_1_1_rep.html":[9,0,184,0],
 "struct_ti_xml_string_1_1_rep.html#a3470330fe806a575dbb5909a1b908ac1":[9,0,184,0,1],
 "struct_ti_xml_string_1_1_rep.html#a88a7037a489827ec9e59b008e11342b0":[9,0,184,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX158 =
 "struct_vegetation_1_1_combined_mesh_vertex.html#adf065f28682287042fbf9c57c00af6ad":[8,0,85,1,0],
 "struct_vegetation_1_1_combined_mesh_vertex.html#adf065f28682287042fbf9c57c00af6ad":[9,0,73,1,0],
 "struct_vegetation_1_1_combined_mesh_vertex.html#ae5fd9d3564a66a8a6046bc32654ddd81":[8,0,85,1,4],
-"struct_vegetation_1_1_combined_mesh_vertex.html#ae5fd9d3564a66a8a6046bc32654ddd81":[9,0,73,1,4],
-"struct_vegetation_1_1_grass_vertex.html":[8,0,85,2],
-"struct_vegetation_1_1_grass_vertex.html":[9,0,73,2]
+"struct_vegetation_1_1_combined_mesh_vertex.html#ae5fd9d3564a66a8a6046bc32654ddd81":[9,0,73,1,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"struct_base_1_1_mouse_base_1_1_button_state.html#ab14889d561e4a4f4f08f6c0d0663a2d3":[9,0,5,10,0,4],
+"struct_characters_1_1_character_context_1_1_animation_runtime.html":[8,0,7,0,0],
 "struct_characters_1_1_character_context_1_1_animation_runtime.html":[9,0,7,0,0],
 "struct_characters_1_1_character_context_1_1_animation_runtime.html#a015245c5c632e55f58151650540dd0bc":[8,0,7,0,0,11],
 "struct_characters_1_1_character_context_1_1_animation_runtime.html#a015245c5c632e55f58151650540dd0bc":[9,0,7,0,0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "struct_core_animation_1_1_animation_id.html":[9,0,11,1],
 "struct_core_animation_1_1_animation_resource_id.html":[8,0,12,3],
 "struct_core_animation_1_1_animation_resource_id.html":[9,0,11,3],
-"struct_core_animation_1_1_nax2_curve.html":[8,0,12,15],
-"struct_core_animation_1_1_nax2_curve.html":[9,0,11,15],
-"struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[8,0,12,15,1]
+"struct_core_animation_1_1_nax2_curve.html":[8,0,12,15]
 };
