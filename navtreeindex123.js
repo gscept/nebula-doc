@@ -1,5 +1,9 @@
 var NAVTREEINDEX123 =
 {
+"struct_core_animation_1_1_animation_id.html":[9,0,11,1],
+"struct_core_animation_1_1_animation_resource_id.html":[8,0,12,3],
+"struct_core_animation_1_1_animation_resource_id.html":[9,0,11,3],
+"struct_core_animation_1_1_nax2_curve.html":[8,0,12,15],
 "struct_core_animation_1_1_nax2_curve.html":[9,0,11,15],
 "struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[8,0,12,15,1],
 "struct_core_animation_1_1_nax2_curve.html#a1d81031ce25c974cb0138cac25bf364b":[9,0,11,15,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX123 =
 "struct_core_graphics_1_1_barrier_stack_entry.html#ae3de4644fcfc87b08d93eb826a57d41b":[9,0,12,12,1],
 "struct_core_graphics_1_1_barrier_stack_entry.html#af5fa174176b2d122042f5b7908f8849d":[8,0,13,13,0],
 "struct_core_graphics_1_1_barrier_stack_entry.html#af5fa174176b2d122042f5b7908f8849d":[9,0,12,12,0],
-"struct_core_graphics_1_1_base_vertex.html":[8,0,13,14],
-"struct_core_graphics_1_1_base_vertex.html":[9,0,12,13],
-"struct_core_graphics_1_1_base_vertex.html#a32a9e16e549cf306db3497a2cc41d58f":[8,0,13,14,0],
-"struct_core_graphics_1_1_base_vertex.html#a32a9e16e549cf306db3497a2cc41d58f":[9,0,12,13,0],
-"struct_core_graphics_1_1_base_vertex.html#a9dcc0523b738906db1bb52b626814ef4":[8,0,13,14,1]
+"struct_core_graphics_1_1_base_vertex.html":[8,0,13,14]
 };

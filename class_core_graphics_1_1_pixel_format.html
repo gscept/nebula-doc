@@ -185,10 +185,11 @@ Public Types</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0a8dbdeea67b4ac5ea608e72e272e367da">B5G6R5A1</a>
 , <a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0ac99c0487a6fd12f766ce5948cc97ac1a">B4G4R4A4</a>
+, <a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0a94eada711193b16277d67cb9cbf6d68a">BC6HU</a>
 , <a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0a7e4d06bc7131b6620b6fa288aec45c92">NumPixelFormats</a>
-, <a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0aad526654dd0e6b307030469bf35b9c5f">BC1</a> = DXT1
 , <br />
-&#160;&#160;<a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0a2b370a9a0d68ab175c832309ddea14cf">BC3</a> = DXT5
+&#160;&#160;<a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0aad526654dd0e6b307030469bf35b9c5f">BC1</a> = DXT1
+, <a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0a2b370a9a0d68ab175c832309ddea14cf">BC3</a> = DXT5
 , <a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0af4a46420ffbd805cb47ac83235b65af6">BC3sRGB</a> = DXT5sRGB
 , <a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0a461e763b73451663dce75e4abe3ca188">InvalidPixelFormat</a> = 0xFFFFFFFF
 <br />
@@ -217,6 +218,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aebdce0d99ed0dac92dd6aa8291f6e7ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if depth format  <br /></td></tr>
 <tr class="memitem:a3cce9ea62ce570dd230ab8bdc459f217" id="r_a3cce9ea62ce570dd230ab8bdc459f217"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a3cce9ea62ce570dd230ab8bdc459f217">IsDepthStencilFormat</a> (<a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0">Code</a> code)</td></tr>
 <tr class="memdesc:a3cce9ea62ce570dd230ab8bdc459f217"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if depth/stencil format.  <br /></td></tr>
+<tr class="memitem:a13ed130e0f0e02a6287da9619348583e" id="r_a13ed130e0f0e02a6287da9619348583e"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a13ed130e0f0e02a6287da9619348583e">IsHighDynamicRange</a> (<a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0">Code</a> code)</td></tr>
+<tr class="memdesc:a13ed130e0f0e02a6287da9619348583e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the format stores values above 1 (float and BC6H formats).  <br /></td></tr>
 <tr class="memitem:ae6386f3b3145ddc21f2aceebb70478a1" id="r_ae6386f3b3145ddc21f2aceebb70478a1"><td class="memItemLeft">static <a class="el" href="namespace_core_graphics.html#ad27ab4eb8d8861828c541b6c25024944">CoreGraphics::ImageBits</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae6386f3b3145ddc21f2aceebb70478a1">ToImageBits</a> (<a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0">Code</a> code)</td></tr>
 <tr class="memdesc:ae6386f3b3145ddc21f2aceebb70478a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return Image bits from format.  <br /></td></tr>
 </table>
@@ -285,6 +288,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a24b206428fd09eedaa91cd3e34bfc7d0ad53cef74a7a7e1d9d07d898cc5412e07" name="a24b206428fd09eedaa91cd3e34bfc7d0ad53cef74a7a7e1d9d07d898cc5412e07"></a>B5G6R5&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a24b206428fd09eedaa91cd3e34bfc7d0a8dbdeea67b4ac5ea608e72e272e367da" name="a24b206428fd09eedaa91cd3e34bfc7d0a8dbdeea67b4ac5ea608e72e272e367da"></a>B5G6R5A1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a24b206428fd09eedaa91cd3e34bfc7d0ac99c0487a6fd12f766ce5948cc97ac1a" name="a24b206428fd09eedaa91cd3e34bfc7d0ac99c0487a6fd12f766ce5948cc97ac1a"></a>B4G4R4A4&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a24b206428fd09eedaa91cd3e34bfc7d0a94eada711193b16277d67cb9cbf6d68a" name="a24b206428fd09eedaa91cd3e34bfc7d0a94eada711193b16277d67cb9cbf6d68a"></a>BC6HU&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a24b206428fd09eedaa91cd3e34bfc7d0a7e4d06bc7131b6620b6fa288aec45c92" name="a24b206428fd09eedaa91cd3e34bfc7d0a7e4d06bc7131b6620b6fa288aec45c92"></a>NumPixelFormats&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a24b206428fd09eedaa91cd3e34bfc7d0aad526654dd0e6b307030469bf35b9c5f" name="a24b206428fd09eedaa91cd3e34bfc7d0aad526654dd0e6b307030469bf35b9c5f"></a>BC1&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a24b206428fd09eedaa91cd3e34bfc7d0a2b370a9a0d68ab175c832309ddea14cf" name="a24b206428fd09eedaa91cd3e34bfc7d0a2b370a9a0d68ab175c832309ddea14cf"></a>BC3&#160;</td><td class="fielddoc"></td></tr>
@@ -374,6 +378,33 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return true if depth/stencil format. </p>
+
+</div>
+</div>
+<a id="a13ed130e0f0e02a6287da9619348583e" name="a13ed130e0f0e02a6287da9619348583e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ed130e0f0e02a6287da9619348583e">&#9670;&#160;</a></span>IsHighDynamicRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CoreGraphics::PixelFormat::IsHighDynamicRange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a24b206428fd09eedaa91cd3e34bfc7d0">Code</a></td>          <td class="paramname"><span class="paramname"><em>code</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return true if the format stores values above 1 (float and BC6H formats). </p>
 
 </div>
 </div>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX162 =
 {
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#a3c75f7018838d74bd99e6a84d7ce8683":[8,0,87,21,21,0],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#a3c75f7018838d74bd99e6a84d7ce8683":[9,0,75,21,21,0],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#ac7ffefb644b70758c8e659c63ee9ee83":[8,0,87,21,21,1],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#ac7ffefb644b70758c8e659c63ee9ee83":[9,0,75,21,21,1],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#add2f1ba3a4c1a5b65e773d243725c172":[8,0,87,21,21,2],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#add2f1ba3a4c1a5b65e773d243725c172":[9,0,75,21,21,2],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html":[8,0,87,21,18],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html":[9,0,75,21,18],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a0392e64efc43e126ae4684aa7f997f5d":[8,0,87,21,18,0],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a0392e64efc43e126ae4684aa7f997f5d":[9,0,75,21,18,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a50a07fbbb771294313eab84f7e67cfbd":[8,0,87,21,18,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_read_mask_command.html#a50a07fbbb771294313eab84f7e67cfbd":[9,0,75,21,18,1],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_stencil_ref_command.html":[8,0,87,21,17],
@@ -239,15 +249,5 @@ var NAVTREEINDEX162 =
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html":[8,0,87,22,0,0,6],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html":[9,0,75,22,0,0,6],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html#ab47e31229f8e4ffc6894a936cb3fb5af":[8,0,87,22,0,0,6,0],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html#ab47e31229f8e4ffc6894a936cb3fb5af":[9,0,75,22,0,0,6,0],
-"struct_vulkan_1_1_vk_event_info.html":[8,0,87,25],
-"struct_vulkan_1_1_vk_event_info.html":[9,0,75,25],
-"struct_vulkan_1_1_vk_event_info.html#a0ae86b27d6f26dc3744832d9fbb1814c":[8,0,87,25,4],
-"struct_vulkan_1_1_vk_event_info.html#a0ae86b27d6f26dc3744832d9fbb1814c":[9,0,75,25,4],
-"struct_vulkan_1_1_vk_event_info.html#a21e6699844f5f04b2d2ae7d68f6af30f":[8,0,87,25,3],
-"struct_vulkan_1_1_vk_event_info.html#a21e6699844f5f04b2d2ae7d68f6af30f":[9,0,75,25,3],
-"struct_vulkan_1_1_vk_event_info.html#a31e33219ef2a675443276074a3e96051":[8,0,87,25,0],
-"struct_vulkan_1_1_vk_event_info.html#a31e33219ef2a675443276074a3e96051":[9,0,75,25,0],
-"struct_vulkan_1_1_vk_event_info.html#a5ffdbf7dfcc11addc0c3e78b4ef1b969":[8,0,87,25,2],
-"struct_vulkan_1_1_vk_event_info.html#a5ffdbf7dfcc11addc0c3e78b4ef1b969":[9,0,75,25,2]
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html#ab47e31229f8e4ffc6894a936cb3fb5af":[9,0,75,22,0,0,6,0]
 };

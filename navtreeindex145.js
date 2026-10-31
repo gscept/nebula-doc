@@ -1,5 +1,15 @@
 var NAVTREEINDEX145 =
 {
+"struct_nebula_1_1_color.html#a674afb3b844e928024fbd15c5885b58e":[9,0,50,4,164],
+"struct_nebula_1_1_color.html#a675e85b3bd35cedde2f23a0e2ed588b6":[8,0,55,4,173],
+"struct_nebula_1_1_color.html#a675e85b3bd35cedde2f23a0e2ed588b6":[9,0,50,4,173],
+"struct_nebula_1_1_color.html#a68994cfbe533f3792ce721861f479888":[8,0,55,4,52],
+"struct_nebula_1_1_color.html#a68994cfbe533f3792ce721861f479888":[9,0,50,4,52],
+"struct_nebula_1_1_color.html#a6b7affd67553a82efe525b79ce443baf":[8,0,55,4,75],
+"struct_nebula_1_1_color.html#a6b7affd67553a82efe525b79ce443baf":[9,0,50,4,75],
+"struct_nebula_1_1_color.html#a6e6ec38601d3fb8e4f61a3419ada8e05":[8,0,55,4,95],
+"struct_nebula_1_1_color.html#a6e6ec38601d3fb8e4f61a3419ada8e05":[9,0,50,4,95],
+"struct_nebula_1_1_color.html#a76ef3eed95214f32adc118b022d9a008":[8,0,55,4,97],
 "struct_nebula_1_1_color.html#a76ef3eed95214f32adc118b022d9a008":[9,0,50,4,97],
 "struct_nebula_1_1_color.html#a7759f39126fb8edbe5dc079208c2b287":[8,0,55,4,165],
 "struct_nebula_1_1_color.html#a7759f39126fb8edbe5dc079208c2b287":[9,0,50,4,165],
@@ -239,15 +249,5 @@ var NAVTREEINDEX145 =
 "struct_nebula_1_1_matrix.html#a077e9118af765db8fd04279944902c3c":[9,0,50,7,24],
 "struct_nebula_1_1_matrix.html#a0835bd0fd67b91cb143252ac075cbf91":[8,0,55,7,32],
 "struct_nebula_1_1_matrix.html#a0835bd0fd67b91cb143252ac075cbf91":[9,0,50,7,32],
-"struct_nebula_1_1_matrix.html#a0997983b90947a4ed9e9be016a75482e":[8,0,55,7,4],
-"struct_nebula_1_1_matrix.html#a0997983b90947a4ed9e9be016a75482e":[9,0,50,7,4],
-"struct_nebula_1_1_matrix.html#a0c1ff741684dbf06f94b9af111740cf6":[8,0,55,7,91],
-"struct_nebula_1_1_matrix.html#a0c1ff741684dbf06f94b9af111740cf6":[9,0,50,7,91],
-"struct_nebula_1_1_matrix.html#a0e50705ce9827ca413517caf2a342bd0":[8,0,55,7,66],
-"struct_nebula_1_1_matrix.html#a0e50705ce9827ca413517caf2a342bd0":[9,0,50,7,66],
-"struct_nebula_1_1_matrix.html#a100eb0a32654cd0ccb22710056e01fd9":[8,0,55,7,88],
-"struct_nebula_1_1_matrix.html#a100eb0a32654cd0ccb22710056e01fd9":[9,0,50,7,88],
-"struct_nebula_1_1_matrix.html#a167ebf032b2644f4482c70158c9be985":[8,0,55,7,67],
-"struct_nebula_1_1_matrix.html#a167ebf032b2644f4482c70158c9be985":[9,0,50,7,67],
-"struct_nebula_1_1_matrix.html#a1a6665e6e706cca203b7b0e7229b599c":[8,0,55,7,6]
+"struct_nebula_1_1_matrix.html#a0997983b90947a4ed9e9be016a75482e":[8,0,55,7,4]
 };

@@ -3,6 +3,7 @@ var struct_dynui_1_1_imgui_state =
     [ "colorMaskConstant", "struct_dynui_1_1_imgui_state.html#a9a9e2ba94b5ac2ff4bd7fd77bec4f266", null ],
     [ "displayEventHandler", "struct_dynui_1_1_imgui_state.html#aa6c67368051b03cbf5b7c97f2bdc7bee", null ],
     [ "dockOverViewport", "struct_dynui_1_1_imgui_state.html#a3fce35798d222dbe555aeeae61862d89", null ],
+    [ "exposureConstant", "struct_dynui_1_1_imgui_state.html#ae12b5df29bea1dc49cf52a7ac2fbfaf3", null ],
     [ "ibos", "struct_dynui_1_1_imgui_state.html#aee9f0ac05a83ce766fdbcf090f299121", null ],
     [ "indexPtrs", "struct_dynui_1_1_imgui_state.html#a7ee9f36c810b7cf5c73699367ad449ff", null ],
     [ "inputHandler", "struct_dynui_1_1_imgui_state.html#a53f5bfdfa09a26df262571da4f0ed043", null ],

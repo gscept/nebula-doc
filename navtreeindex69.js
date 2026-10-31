@@ -1,5 +1,9 @@
 var NAVTREEINDEX69 =
 {
+"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a6686656dd729411e093fbb22f317cf22":[8,0,65,16,0,17],
+"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a6686656dd729411e093fbb22f317cf22":[9,0,58,16,0,17],
+"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a69e3947133bb9c8438a8f3d712394b2e":[8,0,65,16,0,40],
+"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a69e3947133bb9c8438a8f3d712394b2e":[9,0,58,16,0,40],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a6bfe7bf1dbb569da1393cd9a927e6688":[8,0,65,16,0,6],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a6bfe7bf1dbb569da1393cd9a927e6688":[9,0,58,16,0,6],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a6e543cc5f9d3f318ecf74c010c78922b":[8,0,65,16,0,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX69 =
 "class_posix_1_1_sys_func.html#a7fc4392673db0580335385f051490fc3":[9,0,58,21,5],
 "class_posix_1_1_sys_func.html#a831b91f9c453ab5a9e28dd9df3fa9eb2":[8,0,65,21,6],
 "class_posix_1_1_sys_func.html#a831b91f9c453ab5a9e28dd9df3fa9eb2":[9,0,58,21,6],
-"class_posix_1_1_sys_func.html#a88d96e9bf8921af10bdf220f1f3c1a06":[8,0,65,21,2],
-"class_posix_1_1_sys_func.html#a88d96e9bf8921af10bdf220f1f3c1a06":[9,0,58,21,2],
-"class_posix_1_1_sys_func.html#aaac073b7369fec1c5c3b362c08540708":[8,0,65,21,8],
-"class_posix_1_1_sys_func.html#aaac073b7369fec1c5c3b362c08540708":[9,0,58,21,8],
-"class_posix_1_1_sys_func.html#abd3ec9772466b50d45e0f8e2cfdfd83f":[8,0,65,21,4]
+"class_posix_1_1_sys_func.html#a88d96e9bf8921af10bdf220f1f3c1a06":[8,0,65,21,2]
 };

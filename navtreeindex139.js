@@ -1,5 +1,15 @@
 var NAVTREEINDEX139 =
 {
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a9791102c822628d40d901f61c42edcf9":[9,0,37,4,2,7],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#ab42e4aa4528559b93321b59ed5a7f6bc":[8,0,40,4,2,1],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#ab42e4aa4528559b93321b59ed5a7f6bc":[9,0,37,4,2,1],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#abd07553f7cb8676156004bf1f561f2e0":[8,0,40,4,2,3],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#abd07553f7cb8676156004bf1f561f2e0":[9,0,37,4,2,3],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#abdfccbe705773f7424f0e1296845607d":[8,0,40,4,2,5],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#abdfccbe705773f7424f0e1296845607d":[9,0,37,4,2,5],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#ae000aab301c6a99c32a6ecbca8fc5337":[8,0,40,4,2,6],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#ae000aab301c6a99c32a6ecbca8fc5337":[9,0,37,4,2,6],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#afb3ee7662aa94d1a8a42872936a59a70":[8,0,40,4,2,0],
 "struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#afb3ee7662aa94d1a8a42872936a59a70":[9,0,37,4,2,0],
 "struct_material_templates_1_1_entry.html":[8,0,44,2],
 "struct_material_templates_1_1_entry.html":[9,0,40,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX139 =
 "struct_materials_1_1_material_variant.html#a979ada38dce52690f764d8b6aaa9ebe4":[9,0,39,7,7],
 "struct_materials_1_1_material_variant.html#aa3ca1bdaaea2f96d52890511c3784767":[8,0,43,7,6],
 "struct_materials_1_1_material_variant.html#aa3ca1bdaaea2f96d52890511c3784767":[9,0,39,7,6],
-"struct_materials_1_1_material_variant.html#aa8c8e92561b9363f0e7081dd14b3da25":[8,0,43,7,10],
-"struct_materials_1_1_material_variant.html#aa8c8e92561b9363f0e7081dd14b3da25":[9,0,39,7,10],
-"struct_materials_1_1_material_variant.html#af3433691bcece50ef576c9a682b8810f":[8,0,43,7,3],
-"struct_materials_1_1_material_variant.html#af3433691bcece50ef576c9a682b8810f":[9,0,39,7,3],
-"struct_materials_1_1_shader_config_batch_texture.html":[8,0,43,8],
-"struct_materials_1_1_shader_config_batch_texture.html":[9,0,39,8],
-"struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[8,0,43,8,0],
-"struct_materials_1_1_shader_config_batch_texture.html#a4130535820522dfd72c699d4b0366725":[9,0,39,8,0],
-"struct_materials_1_1_shader_config_batch_texture.html#aa99f920bd967ac712c9c1bd872eb2d7e":[8,0,43,8,1],
-"struct_materials_1_1_shader_config_batch_texture.html#aa99f920bd967ac712c9c1bd872eb2d7e":[9,0,39,8,1],
-"struct_math_1_1_bezier_cubic.html":[8,0,46,2]
+"struct_materials_1_1_material_variant.html#aa8c8e92561b9363f0e7081dd14b3da25":[8,0,43,7,10]
 };
