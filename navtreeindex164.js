@@ -1,5 +1,7 @@
 var NAVTREEINDEX164 =
 {
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html":[8,0,87,39,0],
+"struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html":[9,0,75,39,0],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html#a01d54e6a26e496d5e05e122eecb27208":[8,0,87,39,0,0],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html#a01d54e6a26e496d5e05e122eecb27208":[9,0,75,39,0,0],
 "struct_vulkan_1_1_vk_shader_server_1_1___pending_view.html#a9698dbc0bb2377298b98c48385eee5f1":[8,0,87,39,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX164 =
 "tbuibitmap_8cc.html":[10,0,0,0,13,0,1],
 "tbuibitmap_8h.html":[10,0,0,0,13,0,2],
 "tbuibitmap_8h_source.html":[10,0,0,0,13,0,2],
-"tbuiclipboard_8cc.html":[10,0,0,0,13,0,3],
-"tbuiclipboardinterface_8cc.html":[10,0,0,0,13,0,4],
-"tbuiclipboardinterface_8h.html":[10,0,0,0,13,0,5]
+"tbuiclipboard_8cc.html":[10,0,0,0,13,0,3]
 };

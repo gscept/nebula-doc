@@ -133,6 +133,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a73dd86b561eb448f3c84ea81a792accc" id="r_a73dd86b561eb448f3c84ea81a792accc"><td class="memTemplParams" colspan="2">template&lt;typename COMPONENT_TYPE&gt; </td></tr>
 <tr class="memitem:a73dd86b561eb448f3c84ea81a792accc template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a73dd86b561eb448f3c84ea81a792accc">Register</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component)</td></tr>
 <tr class="memitem:aeb212e8eaad3ee406d19450a04f4a8a1" id="r_aeb212e8eaad3ee406d19450a04f4a8a1"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aeb212e8eaad3ee406d19450a04f4a8a1">DrawInspector</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> owner, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, void *data, bool *commit)</td></tr>
+<tr class="memitem:ae2f5e8ed767302cd6e219d70fb052d32" id="r_ae2f5e8ed767302cd6e219d70fb052d32"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae2f5e8ed767302cd6e219d70fb052d32">OverrideInspector</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, <a class="el" href="#a4e6e07dad0073c2999a59a2fcff84020">DrawFunc</a> func)</td></tr>
+<tr class="memdesc:ae2f5e8ed767302cd6e219d70fb052d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a custom component inspector draw function.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -309,6 +311,37 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The registry's constructor is called by the <a class="el" href="#aea6c16ca5e65d92d94b81e9d36c36cce" title="The registry&#39;s constructor is called by the Instance() method, and nobody else.">Instance()</a> method, and nobody else. </p>
+
+</div>
+</div>
+<a id="ae2f5e8ed767302cd6e219d70fb052d32" name="ae2f5e8ed767302cd6e219d70fb052d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2f5e8ed767302cd6e219d70fb052d32">&#9670;&#160;</a></span>OverrideInspector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::ComponentInspection::OverrideInspector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a></td>          <td class="paramname"><span class="paramname"><em>component</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a4e6e07dad0073c2999a59a2fcff84020">DrawFunc</a></td>          <td class="paramname"><span class="paramname"><em>func</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set a custom component inspector draw function. </p>
 
 </div>
 </div>

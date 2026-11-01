@@ -1,5 +1,7 @@
 var NAVTREEINDEX167 =
 {
+"vertexcomponent_8h.html":[10,0,0,7,5,96],
+"vertexcomponent_8h_source.html":[10,0,0,7,5,96],
 "vertexcomponentbase_8h.html":[10,0,0,7,5,0,8],
 "vertexcomponentbase_8h_source.html":[10,0,0,7,5,0,8],
 "vertexlayout_8cc.html":[10,0,0,7,5,97],
@@ -247,7 +249,5 @@ var NAVTREEINDEX167 =
 "vkloader_8h.html#a28751a8167cfb20b4eefdabf16e11c64":[10,0,0,7,5,6,23,58],
 "vkloader_8h.html#a29f264f10badad623f9d81e663e14866":[10,0,0,7,5,6,23,150],
 "vkloader_8h.html#a2b337b495b8538a07f4009281b9799f7":[10,0,0,7,5,6,23,4],
-"vkloader_8h.html#a2badfa0582d26433ce6307c78cd9ca7c":[10,0,0,7,5,6,23,127],
-"vkloader_8h.html#a2cb6fff901a9f3d4728cf1015bec1aa1":[10,0,0,7,5,6,23,159],
-"vkloader_8h.html#a2d8c3f628731f0622b49c46950857e56":[10,0,0,7,5,6,23,33]
+"vkloader_8h.html#a2badfa0582d26433ce6307c78cd9ca7c":[10,0,0,7,5,6,23,127]
 };

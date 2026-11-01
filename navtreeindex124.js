@@ -1,5 +1,7 @@
 var NAVTREEINDEX124 =
 {
+"struct_core_graphics_1_1_barrier_stack_entry.html#af5fa174176b2d122042f5b7908f8849d":[9,0,12,12,0],
+"struct_core_graphics_1_1_base_vertex.html":[8,0,13,14],
 "struct_core_graphics_1_1_base_vertex.html":[9,0,12,13],
 "struct_core_graphics_1_1_base_vertex.html#a32a9e16e549cf306db3497a2cc41d58f":[8,0,13,14,0],
 "struct_core_graphics_1_1_base_vertex.html#a32a9e16e549cf306db3497a2cc41d58f":[9,0,12,13,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX124 =
 "struct_core_graphics_1_1_draw_thread_result.html#ab2751338e8ded8686fb53c80c65b0700":[9,0,12,42,1],
 "struct_core_graphics_1_1_event_create_info.html":[8,0,13,44],
 "struct_core_graphics_1_1_event_create_info.html":[9,0,12,43],
-"struct_core_graphics_1_1_event_create_info.html#a0a3d0fd9d6e994a20df4a8d137ac7e58":[8,0,13,44,2],
-"struct_core_graphics_1_1_event_create_info.html#a0a3d0fd9d6e994a20df4a8d137ac7e58":[9,0,12,43,2],
-"struct_core_graphics_1_1_event_create_info.html#a2a9d66a8ced65472ebc20b3cd4f5721f":[8,0,13,44,4]
+"struct_core_graphics_1_1_event_create_info.html#a0a3d0fd9d6e994a20df4a8d137ac7e58":[8,0,13,44,2]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX101 =
 {
+"functions_vars_w.html":[9,3,2,23],
+"functions_vars_x.html":[9,3,2,24],
 "functions_vars_y.html":[9,3,2,25],
 "functions_vars_z.html":[9,3,2,26],
 "functions_w.html":[9,3,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX101 =
 "httpresponsereader_8h.html":[10,0,0,3,6,29],
 "httpresponsereader_8h_source.html":[10,0,0,3,6,29],
 "httpresponsewriter_8cc.html":[10,0,0,3,6,30],
-"httpresponsewriter_8h.html":[10,0,0,3,6,31],
-"httpresponsewriter_8h.html#ae4c358a9b0ebaf5a82fba6959de07596":[10,0,0,3,6,31,1],
-"httpresponsewriter_8h_source.html":[10,0,0,3,6,31]
+"httpresponsewriter_8h.html":[10,0,0,3,6,31]
 };

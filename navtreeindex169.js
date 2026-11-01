@@ -1,5 +1,7 @@
 var NAVTREEINDEX169 =
 {
+"win32guid_8h.html":[10,0,0,3,20,2,1],
+"win32guid_8h_source.html":[10,0,0,3,20,2,1],
 "win32heap_8cc.html":[10,0,0,3,13,4,0],
 "win32heap_8h.html":[10,0,0,3,13,4,1],
 "win32heap_8h_source.html":[10,0,0,3,13,4,1],

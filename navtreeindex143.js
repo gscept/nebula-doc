@@ -1,5 +1,7 @@
 var NAVTREEINDEX143 =
 {
+"struct_memory_1_1_total_memory_status.html":[9,0,44,6],
+"struct_memory_1_1_total_memory_status.html#a231b74df19f614455ef4dc21c9a6e2ba":[8,0,48,6,2],
 "struct_memory_1_1_total_memory_status.html#a231b74df19f614455ef4dc21c9a6e2ba":[9,0,44,6,2],
 "struct_memory_1_1_total_memory_status.html#a3186ab0aaf32f9cbf2c24c2203b036b7":[8,0,48,6,9],
 "struct_memory_1_1_total_memory_status.html#a3186ab0aaf32f9cbf2c24c2203b036b7":[9,0,44,6,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX143 =
 "struct_nebula_1_1_bounding_box.html#a377d786a20cccd2b8b8a999fa690aeb5":[9,0,50,1,9],
 "struct_nebula_1_1_bounding_box.html#a3d4d776a891d645857dbab0cc49fa7b0":[8,0,55,1,7],
 "struct_nebula_1_1_bounding_box.html#a3d4d776a891d645857dbab0cc49fa7b0":[9,0,50,1,7],
-"struct_nebula_1_1_bounding_box.html#a4abc9d690aaf9efc0106075ba44e8440":[8,0,55,1,23],
-"struct_nebula_1_1_bounding_box.html#a4abc9d690aaf9efc0106075ba44e8440":[9,0,50,1,23],
-"struct_nebula_1_1_bounding_box.html#a4b4404ed4cc811648ff8c4c90d969d19":[8,0,55,1,1]
+"struct_nebula_1_1_bounding_box.html#a4abc9d690aaf9efc0106075ba44e8440":[8,0,55,1,23]
 };

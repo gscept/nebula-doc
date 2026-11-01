@@ -1,5 +1,7 @@
 var NAVTREEINDEX100 =
 {
+"foundation_2core_2win32_2precompiled_8h.html#ac50762666aa00bd3a4308158510f1748":[10,0,0,3,1,3,0,0],
+"foundation_2core_2win32_2precompiled_8h.html#ac7bef5d85e3dcd73eef56ad39ffc84a9":[10,0,0,3,1,3,0,15],
 "foundation_2core_2win32_2precompiled_8h.html#af883320ccbc88fe5ff2d8733ec0a034f":[10,0,0,3,1,3,0,12],
 "foundation_2core_2win32_2precompiled_8h_source.html":[10,0,0,3,1,3,0],
 "foundation_2foundation_2stdneb_8h.html":[10,0,0,3,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX100 =
 "functions_vars_s.html":[9,3,2,19],
 "functions_vars_t.html":[9,3,2,20],
 "functions_vars_u.html":[9,3,2,21],
-"functions_vars_v.html":[9,3,2,22],
-"functions_vars_w.html":[9,3,2,23],
-"functions_vars_x.html":[9,3,2,24]
+"functions_vars_v.html":[9,3,2,22]
 };

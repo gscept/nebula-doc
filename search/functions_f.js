@@ -179,6 +179,7 @@ var searchData=
   ['osxthreadlocalptr_176',['OSXThreadLocalPtr',['../class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a196d0f16b22f1c240a90598f80d1dba4',1,'OSX::OSXThreadLocalPtr::OSXThreadLocalPtr()'],['../class_o_s_x_1_1_o_s_x_thread_local_ptr.html#a196d0f16b22f1c240a90598f80d1dba4',1,'OSX::OSXThreadLocalPtr::OSXThreadLocalPtr()']]],
   ['overlaps_177',['Overlaps',['../struct_core_graphics_1_1_texture_subresource_info.html#a89d7b286fc68c8f20bec756fb401fc1c',1,'CoreGraphics::TextureSubresourceInfo::Overlaps()'],['../struct_core_graphics_1_1_buffer_subresource_info.html#a7f5bd51d37982789d1665a5c7b9dc41f',1,'CoreGraphics::BufferSubresourceInfo::Overlaps()']]],
   ['override_178',['Override',['../class_game_1_1_component_serialization.html#ac38d35313fe633181f6062a307b81f84',1,'Game::ComponentSerialization::Override()'],['../class_game_1_1_world.html#ac10768d028a058baff2cb9342f1c8331',1,'Game::World::Override()']]],
-  ['overridenebulaapp_179',['OverrideNebulaApp',['../class_nebula_1_1_runtime.html#a396878fece459ec0e9814bb65d365e13',1,'Nebula::Runtime']]],
-  ['overridetype_180',['OverrideType',['../class_game_1_1_component_serialization.html#a68ab8c699716a045371d2d6e19c4176c',1,'Game::ComponentSerialization']]]
+  ['overrideinspector_179',['OverrideInspector',['../class_game_1_1_component_inspection.html#ae2f5e8ed767302cd6e219d70fb052d32',1,'Game::ComponentInspection']]],
+  ['overridenebulaapp_180',['OverrideNebulaApp',['../class_nebula_1_1_runtime.html#a396878fece459ec0e9814bb65d365e13',1,'Nebula::Runtime']]],
+  ['overridetype_181',['OverrideType',['../class_game_1_1_component_serialization.html#a68ab8c699716a045371d2d6e19c4176c',1,'Game::ComponentSerialization']]]
 ];

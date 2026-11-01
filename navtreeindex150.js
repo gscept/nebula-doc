@@ -1,5 +1,7 @@
 var NAVTREEINDEX150 =
 {
+"struct_nebula_1_1_vector4.html#a02a186f00ec70559ff054a0b12240a96":[9,0,50,17,39],
+"struct_nebula_1_1_vector4.html#a02f143243bdd19d16acab7a024369b42":[8,0,55,17,50],
 "struct_nebula_1_1_vector4.html#a02f143243bdd19d16acab7a024369b42":[9,0,50,17,50],
 "struct_nebula_1_1_vector4.html#a0308d8e65a9f1eeb8d5a7d8e0ecca9bf":[8,0,55,17,7],
 "struct_nebula_1_1_vector4.html#a0308d8e65a9f1eeb8d5a7d8e0ecca9bf":[9,0,50,17,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX150 =
 "struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#a9975c8e5d8ea451e6407501633575abc":[9,0,54,1,0,1],
 "struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#af193cb49ed3f03306bb18c122f2404c6":[8,0,60,1,0,0],
 "struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#af193cb49ed3f03306bb18c122f2404c6":[9,0,54,1,0,0],
-"struct_particles_1_1_emitter_mesh_1_1_emitter_point.html":[8,0,60,2,0],
-"struct_particles_1_1_emitter_mesh_1_1_emitter_point.html":[9,0,54,2,0],
-"struct_particles_1_1_emitter_mesh_1_1_emitter_point.html#a5746e8d4a1f395cd7ae20a0ae32043cb":[8,0,60,2,0,2]
+"struct_particles_1_1_emitter_mesh_1_1_emitter_point.html":[8,0,60,2,0]
 };

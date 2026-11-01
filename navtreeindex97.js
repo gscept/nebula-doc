@@ -1,5 +1,7 @@
 var NAVTREEINDEX97 =
 {
+"class_win32_1_1_win32_thread.html#af8f1ddf1e7aa019f8700ceea28c069a8":[8,0,88,23,5],
+"class_win32_1_1_win32_thread.html#af8f1ddf1e7aa019f8700ceea28c069a8":[9,0,76,23,5],
 "class_win32_1_1_win32_thread_barrier.html":[8,0,88,24],
 "class_win32_1_1_win32_thread_barrier.html":[9,0,76,24],
 "class_win32_1_1_win32_thread_barrier.html#a3271692d8d9216654e7b53e88abd200c":[8,0,88,24,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX97 =
 "ddgicontext_8h_source.html":[10,0,0,7,11,1],
 "deargui_8cpp.html":[10,0,0,0,3,5,0],
 "debug_8cc.html":[10,0,0,3,1,9],
-"debug_8cc.html#a141a383b14e4ad1a22c44e2b53de3e6c":[10,0,0,3,1,9,4],
-"debug_8cc.html#a17229353ad597e4ec423d8e94e5b83c6":[10,0,0,3,1,9,6],
-"debug_8cc.html#a2a2658b58fb03d70e8c93244bd66f9a9":[10,0,0,3,1,9,10]
+"debug_8cc.html#a141a383b14e4ad1a22c44e2b53de3e6c":[10,0,0,3,1,9,4]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"shadersemantics_8h.html#ac68456827f70540b041e3abd9944c035":[10,0,0,7,5,75,48],
+"shadersemantics_8h.html#ac6e04093f85c3915249aef9a10ea07ed":[10,0,0,7,5,75,122],
 "shadersemantics_8h.html#ac727608d802b152d6e8d20f5fb69e2ad":[10,0,0,7,5,75,75],
 "shadersemantics_8h.html#acafa4a0878475358408121511ff59927":[10,0,0,7,5,75,22],
 "shadersemantics_8h.html#acbf87cfdcd1212bbdbf090345d71cf52":[10,0,0,7,5,75,95],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "struct_base_1_1_mouse_base_1_1_button_state.html":[9,0,5,10,0],
 "struct_base_1_1_mouse_base_1_1_button_state.html#a013de47755978bff5ab6e2f674eeefc0":[8,0,5,10,0,2],
 "struct_base_1_1_mouse_base_1_1_button_state.html#a013de47755978bff5ab6e2f674eeefc0":[9,0,5,10,0,2],
-"struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[8,0,5,10,0,0],
-"struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[9,0,5,10,0,0],
-"struct_base_1_1_mouse_base_1_1_button_state.html#a19955716d6c64765c526639c11d01960":[8,0,5,10,0,1]
+"struct_base_1_1_mouse_base_1_1_button_state.html#a0bfcc812f161f653d53ae9d1ea5be0ff":[8,0,5,10,0,0]
 };

@@ -347,9 +347,10 @@ var searchData=
   ['overlaps_344',['overlaps',['../struct_i_o_1_1_file_watcher_platform.html#a828a925d38dd037ba5127434ec5cfd10',1,'IO::FileWatcherPlatform']]],
   ['overridabletype_345',['OverridableType',['../class_game_1_1_component_serialization.html#a4b1ee407c47e2a1c22cc23aa7b2b78d2',1,'Game::ComponentSerialization']]],
   ['override_346',['Override',['../class_game_1_1_component_serialization.html#ac38d35313fe633181f6062a307b81f84',1,'Game::ComponentSerialization::Override()'],['../class_game_1_1_world.html#ac10768d028a058baff2cb9342f1c8331',1,'Game::World::Override()']]],
-  ['overridenebulaapp_347',['OverrideNebulaApp',['../class_nebula_1_1_runtime.html#a396878fece459ec0e9814bb65d365e13',1,'Nebula::Runtime']]],
-  ['overriderootdirectory_348',['overrideRootDirectory',['../class_app_1_1_render_application.html#a47da9bb656cdc5c74be930a5fcbcf0c6',1,'App::RenderApplication']]],
-  ['overridetype_349',['OverrideType',['../class_game_1_1_component_serialization.html#a68ab8c699716a045371d2d6e19c4176c',1,'Game::ComponentSerialization']]],
-  ['owners_350',['owners',['../class_util_1_1_array_allocator_safe.html#a99b2743209da0f914e565066e0b7b845',1,'Util::ArrayAllocatorSafe']]],
-  ['ownstimer_351',['ownsTimer',['../class_graphics_1_1_graphics_server.html#aec6869bc4fb161f22b7d7128270db8a1',1,'Graphics::GraphicsServer']]]
+  ['overrideinspector_347',['OverrideInspector',['../class_game_1_1_component_inspection.html#ae2f5e8ed767302cd6e219d70fb052d32',1,'Game::ComponentInspection']]],
+  ['overridenebulaapp_348',['OverrideNebulaApp',['../class_nebula_1_1_runtime.html#a396878fece459ec0e9814bb65d365e13',1,'Nebula::Runtime']]],
+  ['overriderootdirectory_349',['overrideRootDirectory',['../class_app_1_1_render_application.html#a47da9bb656cdc5c74be930a5fcbcf0c6',1,'App::RenderApplication']]],
+  ['overridetype_350',['OverrideType',['../class_game_1_1_component_serialization.html#a68ab8c699716a045371d2d6e19c4176c',1,'Game::ComponentSerialization']]],
+  ['owners_351',['owners',['../class_util_1_1_array_allocator_safe.html#a99b2743209da0f914e565066e0b7b845',1,'Util::ArrayAllocatorSafe']]],
+  ['ownstimer_352',['ownsTimer',['../class_graphics_1_1_graphics_server.html#aec6869bc4fb161f22b7d7128270db8a1',1,'Graphics::GraphicsServer']]]
 ];

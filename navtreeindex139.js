@@ -1,5 +1,7 @@
 var NAVTREEINDEX139 =
 {
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a829acf50aeae100286ee9b80efca5458":[9,0,37,4,2,4],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a9791102c822628d40d901f61c42edcf9":[8,0,40,4,2,7],
 "struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a9791102c822628d40d901f61c42edcf9":[9,0,37,4,2,7],
 "struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#ab42e4aa4528559b93321b59ed5a7f6bc":[8,0,40,4,2,1],
 "struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#ab42e4aa4528559b93321b59ed5a7f6bc":[9,0,37,4,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX139 =
 "struct_materials_1_1_material_variant.html#a93ce0b310a4e1cbacfa44ce38081137a":[9,0,39,7,5],
 "struct_materials_1_1_material_variant.html#a979ada38dce52690f764d8b6aaa9ebe4":[8,0,43,7,7],
 "struct_materials_1_1_material_variant.html#a979ada38dce52690f764d8b6aaa9ebe4":[9,0,39,7,7],
-"struct_materials_1_1_material_variant.html#aa3ca1bdaaea2f96d52890511c3784767":[8,0,43,7,6],
-"struct_materials_1_1_material_variant.html#aa3ca1bdaaea2f96d52890511c3784767":[9,0,39,7,6],
-"struct_materials_1_1_material_variant.html#aa8c8e92561b9363f0e7081dd14b3da25":[8,0,43,7,10]
+"struct_materials_1_1_material_variant.html#aa3ca1bdaaea2f96d52890511c3784767":[8,0,43,7,6]
 };

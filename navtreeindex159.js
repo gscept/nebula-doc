@@ -1,5 +1,7 @@
 var NAVTREEINDEX159 =
 {
+"struct_vegetation_1_1_combined_mesh_vertex.html":[8,0,85,1],
+"struct_vegetation_1_1_combined_mesh_vertex.html":[9,0,73,1],
 "struct_vegetation_1_1_combined_mesh_vertex.html#a82933977ca84b551f186974baae974da":[8,0,85,1,3],
 "struct_vegetation_1_1_combined_mesh_vertex.html#a82933977ca84b551f186974baae974da":[9,0,73,1,3],
 "struct_vegetation_1_1_combined_mesh_vertex.html#a88d8d55b6e60283ae00078b61545c7c1":[8,0,85,1,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX159 =
 "struct_vulkan_1_1_graphics_device_state.html#a2ea445eb65fd46743dcd888a13c66e48":[8,0,87,7,11],
 "struct_vulkan_1_1_graphics_device_state.html#a2ea445eb65fd46743dcd888a13c66e48":[9,0,75,7,11],
 "struct_vulkan_1_1_graphics_device_state.html#a3174ef54d06fac688e39422e58864634":[8,0,87,7,28],
-"struct_vulkan_1_1_graphics_device_state.html#a3174ef54d06fac688e39422e58864634":[9,0,75,7,28],
-"struct_vulkan_1_1_graphics_device_state.html#a33821c15e89b5d918a39f81ebe5ce9d2":[8,0,87,7,24],
-"struct_vulkan_1_1_graphics_device_state.html#a33821c15e89b5d918a39f81ebe5ce9d2":[9,0,75,7,24]
+"struct_vulkan_1_1_graphics_device_state.html#a3174ef54d06fac688e39422e58864634":[9,0,75,7,28]
 };

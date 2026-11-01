@@ -6,6 +6,7 @@ var class_game_1_1_component_inspection =
     [ "Destroy", "class_game_1_1_component_inspection.html#ad373c339a280d98bd416afb1c42a6138", null ],
     [ "DrawInspector", "class_game_1_1_component_inspection.html#aeb212e8eaad3ee406d19450a04f4a8a1", null ],
     [ "Instance", "class_game_1_1_component_inspection.html#aea6c16ca5e65d92d94b81e9d36c36cce", null ],
+    [ "OverrideInspector", "class_game_1_1_component_inspection.html#ae2f5e8ed767302cd6e219d70fb052d32", null ],
     [ "Register", "class_game_1_1_component_inspection.html#a73dd86b561eb448f3c84ea81a792accc", null ],
     [ "debug", "class_game_1_1_component_inspection.html#ab1416e699c065eb72c191acae900a936", null ],
     [ "inspectors", "class_game_1_1_component_inspection.html#a03ef42949a0409658aa5f4c4ec824761", null ],

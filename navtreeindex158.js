@@ -1,5 +1,7 @@
 var NAVTREEINDEX158 =
 {
+"struct_threading_1_1_spinlock_scope.html#a15eb3188cc27e4b0df8dbd448e0cef2f":[9,0,71,11,0],
+"struct_threading_1_1_spinlock_scope.html#a1675fd183ba32e1569636fdda58a2783":[8,0,81,11,1],
 "struct_threading_1_1_spinlock_scope.html#a1675fd183ba32e1569636fdda58a2783":[9,0,71,11,1],
 "struct_threading_1_1_spinlock_scope.html#a2a8c10bb6f1b57b42d6adf4bb2795f30":[8,0,81,11,2],
 "struct_threading_1_1_spinlock_scope.html#a2a8c10bb6f1b57b42d6adf4bb2795f30":[9,0,71,11,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX158 =
 "struct_vegetation_1_1_0fstruct_0e_8vegetation_state.html#af7cce3ca24736eda27964a75ad5827b0":[8,0,85,0,34],
 "struct_vegetation_1_1_0fstruct_0e_8vegetation_state.html#af7cce3ca24736eda27964a75ad5827b0":[9,0,73,0,34],
 "struct_vegetation_1_1_0fstruct_0e_8vegetation_state.html#afd2ba613541f7918c92245dc6c01ad76":[8,0,85,0,40],
-"struct_vegetation_1_1_0fstruct_0e_8vegetation_state.html#afd2ba613541f7918c92245dc6c01ad76":[9,0,73,0,40],
-"struct_vegetation_1_1_combined_mesh_vertex.html":[8,0,85,1],
-"struct_vegetation_1_1_combined_mesh_vertex.html":[9,0,73,1]
+"struct_vegetation_1_1_0fstruct_0e_8vegetation_state.html#afd2ba613541f7918c92245dc6c01ad76":[9,0,73,0,40]
 };

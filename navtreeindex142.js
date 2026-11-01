@@ -1,5 +1,7 @@
 var NAVTREEINDEX142 =
 {
+"struct_math_1_1vec3.html#a8d0be2b45b2d2c39ae35abe74057f724":[9,0,42,33,14],
+"struct_math_1_1vec3.html#a90fb69cfdef71c938d12e0ceb8f07989":[8,0,46,33,6],
 "struct_math_1_1vec3.html#a90fb69cfdef71c938d12e0ceb8f07989":[9,0,42,33,6],
 "struct_math_1_1vec3.html#abd3773c21ea5225eef94d7d00229a5a2":[8,0,46,33,12],
 "struct_math_1_1vec3.html#abd3773c21ea5225eef94d7d00229a5a2":[9,0,42,33,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX142 =
 "struct_memory_1_1_ring_allocator_1_1_interval.html#a187200a421dde54d2d929dfb8706aef2":[9,0,44,5,0,0],
 "struct_memory_1_1_ring_allocator_1_1_interval.html#a28e1277f58cc008d7a5f48afdc5e61ac":[8,0,48,5,0,1],
 "struct_memory_1_1_ring_allocator_1_1_interval.html#a28e1277f58cc008d7a5f48afdc5e61ac":[9,0,44,5,0,1],
-"struct_memory_1_1_total_memory_status.html":[8,0,48,6],
-"struct_memory_1_1_total_memory_status.html":[9,0,44,6],
-"struct_memory_1_1_total_memory_status.html#a231b74df19f614455ef4dc21c9a6e2ba":[8,0,48,6,2]
+"struct_memory_1_1_total_memory_status.html":[8,0,48,6]
 };

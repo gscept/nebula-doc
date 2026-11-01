@@ -1,5 +1,7 @@
 var NAVTREEINDEX162 =
 {
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html":[8,0,87,21,21],
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html":[9,0,75,21,21],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#a3c75f7018838d74bd99e6a84d7ce8683":[8,0,87,21,21,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#a3c75f7018838d74bd99e6a84d7ce8683":[9,0,75,21,21,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_set_event_command.html#ac7ffefb644b70758c8e659c63ee9ee83":[8,0,87,21,21,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX162 =
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8memory.html#a6dd5dd1f5e06fb06ac448bb1a9384b75":[8,0,87,22,0,0,1,0],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8memory.html#a6dd5dd1f5e06fb06ac448bb1a9384b75":[9,0,75,22,0,0,1,0],
 "struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html":[8,0,87,22,0,0,6],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html":[9,0,75,22,0,0,6],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html#ab47e31229f8e4ffc6894a936cb3fb5af":[8,0,87,22,0,0,6,0],
-"struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html#ab47e31229f8e4ffc6894a936cb3fb5af":[9,0,75,22,0,0,6,0]
+"struct_vulkan_1_1_vk_deferred_command_1_1_delegate_1_1_0fstruct_0e_8____unnamed0_____8pipeline_destroy.html":[9,0,75,22,0,0,6]
 };
