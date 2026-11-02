@@ -1,5 +1,11 @@
 var NAVTREEINDEX139 =
 {
+"struct_lighting_1_1_light_context_1_1_shadow_data.html#acbbf799175c50b3c8a1a43f617cbb2a7":[9,0,37,4,5,2],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html":[8,0,40,4,2],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html":[9,0,37,4,2],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a3d9d5234ec8bc537700e7ea23e28b05b":[8,0,40,4,2,2],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a3d9d5234ec8bc537700e7ea23e28b05b":[9,0,37,4,2,2],
+"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a829acf50aeae100286ee9b80efca5458":[8,0,40,4,2,4],
 "struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a829acf50aeae100286ee9b80efca5458":[9,0,37,4,2,4],
 "struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a9791102c822628d40d901f61c42edcf9":[8,0,40,4,2,7],
 "struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a9791102c822628d40d901f61c42edcf9":[9,0,37,4,2,7],
@@ -243,11 +249,5 @@ var NAVTREEINDEX139 =
 "struct_materials_1_1_material_variant.html#a6e6b7c493a1facc2c95a177ee067bf75":[9,0,39,7,8],
 "struct_materials_1_1_material_variant.html#a8e7c3610848fe2d8bdbcd389e6d232cd":[8,0,43,7,2],
 "struct_materials_1_1_material_variant.html#a8e7c3610848fe2d8bdbcd389e6d232cd":[9,0,39,7,2],
-"struct_materials_1_1_material_variant.html#a92a081c355527726979f0cc0c3ed9659":[8,0,43,7,12],
-"struct_materials_1_1_material_variant.html#a92a081c355527726979f0cc0c3ed9659":[9,0,39,7,12],
-"struct_materials_1_1_material_variant.html#a93ce0b310a4e1cbacfa44ce38081137a":[8,0,43,7,5],
-"struct_materials_1_1_material_variant.html#a93ce0b310a4e1cbacfa44ce38081137a":[9,0,39,7,5],
-"struct_materials_1_1_material_variant.html#a979ada38dce52690f764d8b6aaa9ebe4":[8,0,43,7,7],
-"struct_materials_1_1_material_variant.html#a979ada38dce52690f764d8b6aaa9ebe4":[9,0,39,7,7],
-"struct_materials_1_1_material_variant.html#aa3ca1bdaaea2f96d52890511c3784767":[8,0,43,7,6]
+"struct_materials_1_1_material_variant.html#a92a081c355527726979f0cc0c3ed9659":[8,0,43,7,12]
 };

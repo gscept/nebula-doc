@@ -1,12 +1,18 @@
 var NAVTREEINDEX138 =
 {
+"struct_jobs2_1_1_jobs2_context.html#ac868b4032305b30104d8c6ea6a1c9faf":[9,0,36,5,3],
+"struct_jobs2_1_1_lambda.html":[8,0,39,2],
 "struct_jobs2_1_1_lambda.html":[9,0,36,2],
-"struct_jobs2_1_1_lambda.html#a61a23368d4182101fbc4b2d574a057b6":[8,0,39,2,0],
-"struct_jobs2_1_1_lambda.html#a61a23368d4182101fbc4b2d574a057b6":[9,0,36,2,0],
-"struct_jobs2_1_1_lambda.html#a741128d6267ac746f73d0bf87302b6ab":[8,0,39,2,2],
-"struct_jobs2_1_1_lambda.html#a741128d6267ac746f73d0bf87302b6ab":[9,0,36,2,2],
-"struct_jobs2_1_1_lambda.html#aacdd392b183f55dd160777d34b2ccf68":[8,0,39,2,1],
-"struct_jobs2_1_1_lambda.html#aacdd392b183f55dd160777d34b2ccf68":[9,0,36,2,1],
+"struct_jobs2_1_1_lambda.html#a2386ddf3cd99adf2941182fd66c53b86":[8,0,39,2,2],
+"struct_jobs2_1_1_lambda.html#a2386ddf3cd99adf2941182fd66c53b86":[9,0,36,2,2],
+"struct_jobs2_1_1_lambda.html#a61a23368d4182101fbc4b2d574a057b6":[8,0,39,2,1],
+"struct_jobs2_1_1_lambda.html#a61a23368d4182101fbc4b2d574a057b6":[9,0,36,2,1],
+"struct_jobs2_1_1_lambda.html#a818e72779028c373d13ae81c7d2b1c24":[8,0,39,2,4],
+"struct_jobs2_1_1_lambda.html#a818e72779028c373d13ae81c7d2b1c24":[9,0,36,2,4],
+"struct_jobs2_1_1_lambda.html#aacdd392b183f55dd160777d34b2ccf68":[8,0,39,2,3],
+"struct_jobs2_1_1_lambda.html#aacdd392b183f55dd160777d34b2ccf68":[9,0,36,2,3],
+"struct_jobs2_1_1_lambda.html#aca35d19a0bf0d336bddc2f1449436dab":[8,0,39,2,0],
+"struct_jobs2_1_1_lambda.html#aca35d19a0bf0d336bddc2f1449436dab":[9,0,36,2,0],
 "struct_jobs_1_1_create_job_info.html":[8,0,38,9],
 "struct_jobs_1_1_create_job_info.html":[9,0,35,9],
 "struct_jobs_1_1_create_job_info.html#a027cd1b68a24cb825171b9293d19c849":[8,0,38,9,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX138 =
 "struct_lighting_1_1_light_context_1_1_shadow_data.html#a69c55bd77173c1b423d556314caaefc6":[9,0,37,4,5,1],
 "struct_lighting_1_1_light_context_1_1_shadow_data.html#aaa6e519c760b4b1e6639b74d8fc2e9ef":[8,0,40,4,5,0],
 "struct_lighting_1_1_light_context_1_1_shadow_data.html#aaa6e519c760b4b1e6639b74d8fc2e9ef":[9,0,37,4,5,0],
-"struct_lighting_1_1_light_context_1_1_shadow_data.html#acbbf799175c50b3c8a1a43f617cbb2a7":[8,0,40,4,5,2],
-"struct_lighting_1_1_light_context_1_1_shadow_data.html#acbbf799175c50b3c8a1a43f617cbb2a7":[9,0,37,4,5,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html":[8,0,40,4,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html":[9,0,37,4,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a3d9d5234ec8bc537700e7ea23e28b05b":[8,0,40,4,2,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a3d9d5234ec8bc537700e7ea23e28b05b":[9,0,37,4,2,2],
-"struct_lighting_1_1_light_context_1_1_spot_light_setup_info.html#a829acf50aeae100286ee9b80efca5458":[8,0,40,4,2,4]
+"struct_lighting_1_1_light_context_1_1_shadow_data.html#acbbf799175c50b3c8a1a43f617cbb2a7":[8,0,40,4,5,2]
 };

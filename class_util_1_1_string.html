@@ -497,7 +497,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a5caba9eadeeabc33f38c3598515a97a6" id="r_a5caba9eadeeabc33f38c3598515a97a6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5caba9eadeeabc33f38c3598515a97a6">Delete</a> ()</td></tr>
 <tr class="memdesc:a5caba9eadeeabc33f38c3598515a97a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete contents  <br /></td></tr>
 <tr class="memitem:a88e843ff9ab038ffe8d806f2bc3d084b" id="r_a88e843ff9ab038ffe8d806f2bc3d084b"><td class="memItemLeft">char *&#160;</td><td class="memItemRight"><a class="el" href="#a88e843ff9ab038ffe8d806f2bc3d084b">GetLastSlash</a> () const</td></tr>
-<tr class="memdesc:a88e843ff9ab038ffe8d806f2bc3d084b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pointer to last directory separator  <br /></td></tr>
+<tr class="memdesc:a88e843ff9ab038ffe8d806f2bc3d084b"><td class="mdescLeft">&#160;</td><td class="mdescRight">get pointer to last directory separator, or nullptr if there is none  <br /></td></tr>
 <tr class="memitem:a6fbbc03cac769e13d6a74bfa0c6d59e1" id="r_a6fbbc03cac769e13d6a74bfa0c6d59e1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6fbbc03cac769e13d6a74bfa0c6d59e1">Alloc</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> size)</td></tr>
 <tr class="memdesc:a6fbbc03cac769e13d6a74bfa0c6d59e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">allocate the string buffer (discards old content)  <br /></td></tr>
 <tr class="memitem:ab119d5ab5a7527f26cb3c722036a7a6d" id="r_ab119d5ab5a7527f26cb3c722036a7a6d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab119d5ab5a7527f26cb3c722036a7a6d">Realloc</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> newSize)</td></tr>
@@ -3029,8 +3029,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>get pointer to last directory separator </p>
-<p>Get a pointer to the last directory separator. </p>
+<p>get pointer to last directory separator, or nullptr if there is none </p>
+<p>Get a pointer to the last directory separator.</p>
+<p>Returns nullptr if the string contains no separator, which the Extract*() methods rely on. </p>
 
 </div>
 </div>
