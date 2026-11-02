@@ -1,5 +1,11 @@
 var NAVTREEINDEX166 =
 {
+"union_core_graphics_1_1_texture_create_info_1_1_0funion_0e_8____unnamed0____.html#af837d08b9ea6656aaa5c73fb3512f3c4":[9,0,12,137,0,2],
+"union_g_i_1_1_d_d_g_i_options.html":[8,0,27,2],
+"union_g_i_1_1_d_d_g_i_options.html":[9,0,25,2],
+"union_g_i_1_1_d_d_g_i_options.html#a1bd2b83095849acf898b4c9ed2753276":[8,0,27,2,2],
+"union_g_i_1_1_d_d_g_i_options.html#a1bd2b83095849acf898b4c9ed2753276":[9,0,25,2,2],
+"union_g_i_1_1_d_d_g_i_options.html#a7b48d7063139e384c2b2753bc01f46a0":[8,0,27,2,1],
 "union_g_i_1_1_d_d_g_i_options.html#a7b48d7063139e384c2b2753bc01f46a0":[9,0,25,2,1],
 "union_graphics_1_1_0funion_0e_dirty_set_8global_constant_state_8____unnamed0____.html":[8,0,29,1,0],
 "union_graphics_1_1_0funion_0e_dirty_set_8global_constant_state_8____unnamed0____.html":[9,0,27,1,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX166 =
 "vec4attrid_8h_source.html":[10,0,0,0,0,24],
 "vector_8cpp.html":[10,0,0,3,12,34],
 "vector_8h.html":[10,0,0,3,12,35],
-"vector_8h_source.html":[10,0,0,3,12,35],
-"vegetationcontext_8cc.html":[10,0,0,7,26,0],
-"vegetationcontext_8h.html":[10,0,0,7,26,1],
-"vegetationcontext_8h_source.html":[10,0,0,7,26,1],
-"velocity_8cc.html":[10,0,0,1,2,0,6],
-"velocity_8h.html":[10,0,0,1,2,0,7],
-"velocity_8h_source.html":[10,0,0,1,2,0,7]
+"vector_8h_source.html":[10,0,0,3,12,35]
 };

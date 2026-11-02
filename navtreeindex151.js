@@ -1,5 +1,11 @@
 var NAVTREEINDEX151 =
 {
+"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html":[9,0,54,1,0],
+"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#a9975c8e5d8ea451e6407501633575abc":[8,0,60,1,0,1],
+"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#a9975c8e5d8ea451e6407501633575abc":[9,0,54,1,0,1],
+"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#af193cb49ed3f03306bb18c122f2404c6":[8,0,60,1,0,0],
+"struct_particles_1_1_emitter_attrs_1_1_int_attributes.html#af193cb49ed3f03306bb18c122f2404c6":[9,0,54,1,0,0],
+"struct_particles_1_1_emitter_mesh_1_1_emitter_point.html":[8,0,60,2,0],
 "struct_particles_1_1_emitter_mesh_1_1_emitter_point.html":[9,0,54,2,0],
 "struct_particles_1_1_emitter_mesh_1_1_emitter_point.html#a5746e8d4a1f395cd7ae20a0ae32043cb":[8,0,60,2,0,2],
 "struct_particles_1_1_emitter_mesh_1_1_emitter_point.html#a5746e8d4a1f395cd7ae20a0ae32043cb":[9,0,54,2,0,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX151 =
 "struct_physics_1_1_character_create_info.html#a78b81b938723ed3639c077f0f754d789":[9,0,55,14,9],
 "struct_physics_1_1_character_create_info.html#ac9309adb9fd21f2fff7292a0baf3e2ef":[8,0,61,14,4],
 "struct_physics_1_1_character_create_info.html#ac9309adb9fd21f2fff7292a0baf3e2ef":[9,0,55,14,4],
-"struct_physics_1_1_character_create_info.html#ad214f581987953b7745eb5bbec8bd340":[8,0,61,14,5],
-"struct_physics_1_1_character_create_info.html#ad214f581987953b7745eb5bbec8bd340":[9,0,55,14,5],
-"struct_physics_1_1_character_create_info_1_1_box_info.html":[8,0,61,14,1],
-"struct_physics_1_1_character_create_info_1_1_box_info.html":[9,0,55,14,1],
-"struct_physics_1_1_character_create_info_1_1_box_info.html#a92a3474e83d74d0c2227c0b2f5842b36":[8,0,61,14,1,0],
-"struct_physics_1_1_character_create_info_1_1_box_info.html#a92a3474e83d74d0c2227c0b2f5842b36":[9,0,55,14,1,0],
-"struct_physics_1_1_character_create_info_1_1_capsule_info.html":[8,0,61,14,0]
+"struct_physics_1_1_character_create_info.html#ad214f581987953b7745eb5bbec8bd340":[8,0,61,14,5]
 };

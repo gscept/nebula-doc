@@ -173,8 +173,10 @@ var NAVTREEINDEX137 =
 "struct_jobs2_1_1_callable.html#a9a689dd51a70aae7a189fcb3d5a15dc2":[9,0,36,1,0],
 "struct_jobs2_1_1_callable_stub.html":[8,0,39,0],
 "struct_jobs2_1_1_callable_stub.html":[9,0,36,0],
-"struct_jobs2_1_1_callable_stub.html#a72d042acfbc5daa6d4315fc73c18a13d":[8,0,39,0,0],
-"struct_jobs2_1_1_callable_stub.html#a72d042acfbc5daa6d4315fc73c18a13d":[9,0,36,0,0],
+"struct_jobs2_1_1_callable_stub.html#a2a5f640e693970dcaba583e4ab03b49c":[8,0,39,0,0],
+"struct_jobs2_1_1_callable_stub.html#a2a5f640e693970dcaba583e4ab03b49c":[9,0,36,0,0],
+"struct_jobs2_1_1_callable_stub.html#a72d042acfbc5daa6d4315fc73c18a13d":[8,0,39,0,1],
+"struct_jobs2_1_1_callable_stub.html#a72d042acfbc5daa6d4315fc73c18a13d":[9,0,36,0,1],
 "struct_jobs2_1_1_job_context.html":[8,0,39,3],
 "struct_jobs2_1_1_job_context.html":[9,0,36,3],
 "struct_jobs2_1_1_job_context.html#a4434895552883ae40e11291833fafb85":[8,0,39,3,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX137 =
 "struct_jobs2_1_1_jobs2_context.html#aaa02579a3a3004a61db305fea7e2834d":[9,0,36,5,8],
 "struct_jobs2_1_1_jobs2_context.html#ac6d3b2f5a01dad04de8ab74384cd0755":[8,0,39,5,9],
 "struct_jobs2_1_1_jobs2_context.html#ac6d3b2f5a01dad04de8ab74384cd0755":[9,0,36,5,9],
-"struct_jobs2_1_1_jobs2_context.html#ac868b4032305b30104d8c6ea6a1c9faf":[8,0,39,5,3],
-"struct_jobs2_1_1_jobs2_context.html#ac868b4032305b30104d8c6ea6a1c9faf":[9,0,36,5,3],
-"struct_jobs2_1_1_lambda.html":[8,0,39,2]
+"struct_jobs2_1_1_jobs2_context.html#ac868b4032305b30104d8c6ea6a1c9faf":[8,0,39,5,3]
 };
