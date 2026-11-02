@@ -264,87 +264,77 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('linuxevent_8h_
 <div class="line"><a id="l00165" name="l00165"></a><span class="lineno"><a class="line" href="class_linux_1_1_linux_event.html#a1d3742924f700c7fb4f350b8b4f4673f">  165</a></span><a class="code hl_function" href="class_linux_1_1_linux_event.html#a1d3742924f700c7fb4f350b8b4f4673f">LinuxEvent::WaitTimeout</a>(<span class="keywordtype">int</span> ms)<span class="keyword"> const</span></div>
 <div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span><span class="keyword"></span>{</div>
 <div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    <span class="keywordtype">bool</span> timeOutOccured = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    <span class="comment">// compute the absolute deadline once, so spurious wakeups don&#39;t extend the timeout,</span></div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="comment">// and keep tv_nsec below one second, otherwise pthread_cond_timedwait() fails with</span></div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    <span class="comment">// EINVAL and we would busy-spin until the clock produces a valid deadline</span></div>
-<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    timespec target;</div>
-<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    clock_gettime(CLOCK_REALTIME, &amp;target);</div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>    target.tv_sec += ms / 1000;</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>    target.tv_nsec += (ms % 1000) * 1000000L;</div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>    <span class="keywordflow">if</span> (target.tv_nsec &gt;= 1000000000L)</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    {</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        target.tv_sec += 1;</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        target.tv_nsec -= 1000000000L;</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>    }</div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span> </div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    pthread_mutex_lock(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>);</div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <span class="keywordtype">bool</span> locked = <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>    <span class="keywordflow">do</span></div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>    {</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>        <span class="comment">// dont wait for cond if already triggered</span></div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>        <span class="keywordflow">if</span> (this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> == <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa44d44e3466869e5190827992b2372cb8">SIGNAL_ONE</a>)</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>        {</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> = <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa774587c4bde575cccf422b359ac7a7d0">SIGNAL_NONE</a>;</div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>            locked = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        }</div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span>( this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> == <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa349db924a78b42d72fe78b275e382b8c">SIGNAL_ALL</a>)</div>
-<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        {</div>
-<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            <span class="comment">// we are in a manual reset event, do nothing</span></div>
-<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            locked = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>        }</div>
-<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>        <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        {</div>
-<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>            <span class="keywordtype">int</span> res = pthread_cond_timedwait(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a9196f9391805d27257689568d1ef801e">cond</a>, &amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>, &amp;target);</div>
-<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>            <span class="keywordflow">if</span> (ETIMEDOUT == res)</div>
-<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>            {</div>
-<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>                timeOutOccured = <span class="keyword">true</span>;</div>
-<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>            }</div>
-<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span>            <span class="keywordflow">else</span></div>
-<div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>            {</div>
-<div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>                <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(res == 0);</div>
-<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>            }</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>        }</div>
-<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>    } <span class="keywordflow">while</span>(!locked &amp;&amp; !timeOutOccured);</div>
-<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    pthread_mutex_unlock(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>);    </div>
-<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>    <span class="keywordflow">return</span> !timeOutOccured;</div>
-<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span>}</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>    pthread_mutex_lock(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>);</div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>    </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>    <span class="keywordtype">bool</span> locked = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>    <span class="keywordflow">do</span></div>
+<div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    {</div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>        <span class="comment">// dont wait for cond if already triggered</span></div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span>        <span class="keywordflow">if</span> (this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> == <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa44d44e3466869e5190827992b2372cb8">SIGNAL_ONE</a>)</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        {</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>            this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> = <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa774587c4bde575cccf422b359ac7a7d0">SIGNAL_NONE</a>;</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>            locked = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        }</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span>( this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> == <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa349db924a78b42d72fe78b275e382b8c">SIGNAL_ALL</a>)</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>        {</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>            <span class="comment">// we are in a manual reset event, do nothing</span></div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>            locked = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>        }</div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        {</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>            timespec target;</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>            clock_gettime(CLOCK_REALTIME, &amp;target);</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>            <span class="keywordtype">int</span> secs = ms / 1000;</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>            time_t remainder = (ms - secs * 1000L);</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>            target.tv_sec += secs;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>            target.tv_nsec += remainder * 1000000L;</div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>        </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>            <span class="keywordtype">int</span> res = pthread_cond_timedwait(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a9196f9391805d27257689568d1ef801e">cond</a>, &amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>, &amp;target);</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span> </div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>            <span class="keywordflow">if</span> (ETIMEDOUT == res)</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>            {</div>
+<div class="line"><a id="l00197" name="l00197"></a><span class="lineno">  197</span>                timeOutOccured = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00198" name="l00198"></a><span class="lineno">  198</span>            }</div>
+<div class="line"><a id="l00199" name="l00199"></a><span class="lineno">  199</span>        }</div>
+<div class="line"><a id="l00200" name="l00200"></a><span class="lineno">  200</span>    } <span class="keywordflow">while</span>(!locked &amp;&amp; !timeOutOccured);</div>
+<div class="line"><a id="l00201" name="l00201"></a><span class="lineno">  201</span>    pthread_mutex_unlock(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>);    </div>
+<div class="line"><a id="l00202" name="l00202"></a><span class="lineno">  202</span>    <span class="keywordflow">return</span> !timeOutOccured;</div>
+<div class="line"><a id="l00203" name="l00203"></a><span class="lineno">  203</span>}</div>
 </div>
-<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span>    </div>
-<div class="line"><a id="l00215" name="l00215"></a><span class="lineno">  215</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00218" name="l00218"></a><span class="lineno">  218</span><span class="keyword">inline</span> <span class="keywordtype">bool</span></div>
-<div class="foldopen" id="foldopen00219" data-start="{" data-end="}">
-<div class="line"><a id="l00219" name="l00219"></a><span class="lineno"><a class="line" href="class_linux_1_1_linux_event.html#a880dcca78e0a21091f5d53942f48642a">  219</a></span><a class="code hl_function" href="class_linux_1_1_linux_event.html#a880dcca78e0a21091f5d53942f48642a">LinuxEvent::Peek</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> != <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa774587c4bde575cccf422b359ac7a7d0">SIGNAL_NONE</a>;</div>
-<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>}</div>
+<div class="line"><a id="l00204" name="l00204"></a><span class="lineno">  204</span>    </div>
+<div class="line"><a id="l00205" name="l00205"></a><span class="lineno">  205</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span><span class="keyword">inline</span> <span class="keywordtype">bool</span></div>
+<div class="foldopen" id="foldopen00209" data-start="{" data-end="}">
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno"><a class="line" href="class_linux_1_1_linux_event.html#a880dcca78e0a21091f5d53942f48642a">  209</a></span><a class="code hl_function" href="class_linux_1_1_linux_event.html#a880dcca78e0a21091f5d53942f48642a">LinuxEvent::Peek</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> != <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa774587c4bde575cccf422b359ac7a7d0">SIGNAL_NONE</a>;</div>
+<div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>}</div>
 </div>
-<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span> </div>
-<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00227" name="l00227"></a><span class="lineno">  227</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
-<div class="foldopen" id="foldopen00228" data-start="{" data-end="}">
-<div class="line"><a id="l00228" name="l00228"></a><span class="lineno"><a class="line" href="class_linux_1_1_linux_event.html#a01016a505a9c798d4bfcc71eaa34cfe7">  228</a></span><a class="code hl_function" href="class_linux_1_1_linux_event.html#a01016a505a9c798d4bfcc71eaa34cfe7">LinuxEvent::Reset</a>()</div>
-<div class="line"><a id="l00229" name="l00229"></a><span class="lineno">  229</span>{</div>
-<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>    pthread_mutex_lock(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>);</div>
-<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> = <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa774587c4bde575cccf422b359ac7a7d0">SIGNAL_NONE</a>;</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    pthread_mutex_unlock(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>);    </div>
-<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>}</div>
+<div class="line"><a id="l00213" name="l00213"></a><span class="lineno">  213</span> </div>
+<div class="line"><a id="l00214" name="l00214"></a><span class="lineno">  214</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00217" name="l00217"></a><span class="lineno">  217</span><span class="keyword">inline</span> <span class="keywordtype">void</span></div>
+<div class="foldopen" id="foldopen00218" data-start="{" data-end="}">
+<div class="line"><a id="l00218" name="l00218"></a><span class="lineno"><a class="line" href="class_linux_1_1_linux_event.html#a01016a505a9c798d4bfcc71eaa34cfe7">  218</a></span><a class="code hl_function" href="class_linux_1_1_linux_event.html#a01016a505a9c798d4bfcc71eaa34cfe7">LinuxEvent::Reset</a>()</div>
+<div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span>{</div>
+<div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    pthread_mutex_lock(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>);</div>
+<div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>    this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">status</a> = <a class="code hl_enumvalue" href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa774587c4bde575cccf422b359ac7a7d0">SIGNAL_NONE</a>;</div>
+<div class="line"><a id="l00222" name="l00222"></a><span class="lineno">  222</span>    pthread_mutex_unlock(&amp;this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">mutex</a>);    </div>
+<div class="line"><a id="l00223" name="l00223"></a><span class="lineno">  223</span>}</div>
 </div>
-<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span> </div>
+<div class="line"><a id="l00224" name="l00224"></a><span class="lineno">  224</span> </div>
+<div class="line"><a id="l00225" name="l00225"></a><span class="lineno">  225</span><span class="comment">//------------------------------------------------------------------------------</span></div>
+<div class="line"><a id="l00228" name="l00228"></a><span class="lineno">  228</span><span class="keyword">inline</span> <span class="keywordtype">bool</span> </div>
+<div class="foldopen" id="foldopen00229" data-start="{" data-end="}">
+<div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="class_linux_1_1_linux_event.html#a9d0eb0555739235c1e3739fd13ae9061">  229</a></span><a class="code hl_function" href="class_linux_1_1_linux_event.html#a9d0eb0555739235c1e3739fd13ae9061">LinuxEvent::IsManual</a>()<span class="keyword"> const</span></div>
+<div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span><span class="keyword"></span>{</div>
+<div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a258ee7dbf46fa98cf7d68ed145246c20">manualReset</a>;</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>}</div>
+</div>
+<div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span> </div>
+<div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>} <span class="comment">// namespace Linux</span></div>
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00238" name="l00238"></a><span class="lineno">  238</span><span class="keyword">inline</span> <span class="keywordtype">bool</span> </div>
-<div class="foldopen" id="foldopen00239" data-start="{" data-end="}">
-<div class="line"><a id="l00239" name="l00239"></a><span class="lineno"><a class="line" href="class_linux_1_1_linux_event.html#a9d0eb0555739235c1e3739fd13ae9061">  239</a></span><a class="code hl_function" href="class_linux_1_1_linux_event.html#a9d0eb0555739235c1e3739fd13ae9061">LinuxEvent::IsManual</a>()<span class="keyword"> const</span></div>
-<div class="line"><a id="l00240" name="l00240"></a><span class="lineno">  240</span><span class="keyword"></span>{</div>
-<div class="line"><a id="l00241" name="l00241"></a><span class="lineno">  241</span>    <span class="keywordflow">return</span> this-&gt;<a class="code hl_variable" href="class_linux_1_1_linux_event.html#a258ee7dbf46fa98cf7d68ed145246c20">manualReset</a>;</div>
-<div class="line"><a id="l00242" name="l00242"></a><span class="lineno">  242</span>}</div>
-</div>
-<div class="line"><a id="l00243" name="l00243"></a><span class="lineno">  243</span> </div>
-<div class="line"><a id="l00244" name="l00244"></a><span class="lineno">  244</span>} <span class="comment">// namespace Linux</span></div>
-<div class="line"><a id="l00245" name="l00245"></a><span class="lineno">  245</span><span class="comment">//------------------------------------------------------------------------------</span></div>
-<div class="line"><a id="l00246" name="l00246"></a><span class="lineno">  246</span> </div>
-<div class="ttc" id="aclass_linux_1_1_linux_event_html_a01016a505a9c798d4bfcc71eaa34cfe7"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a01016a505a9c798d4bfcc71eaa34cfe7">Linux::LinuxEvent::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">manually reset the event</div><div class="ttdef"><b>Definition</b> linuxevent.h:228</div></div>
+<div class="line"><a id="l00236" name="l00236"></a><span class="lineno">  236</span> </div>
+<div class="ttc" id="aclass_linux_1_1_linux_event_html_a01016a505a9c798d4bfcc71eaa34cfe7"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a01016a505a9c798d4bfcc71eaa34cfe7">Linux::LinuxEvent::Reset</a></div><div class="ttdeci">void Reset()</div><div class="ttdoc">manually reset the event</div><div class="ttdef"><b>Definition</b> linuxevent.h:218</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a019bb96e9384f26381b92800aa650d88"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a019bb96e9384f26381b92800aa650d88">Linux::LinuxEvent::LinuxEvent</a></div><div class="ttdeci">LinuxEvent(const LinuxEvent &amp;ev)=default</div><div class="ttdoc">copy constructor</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a0a717d07dee2d8c839862bf501d1fd03"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a0a717d07dee2d8c839862bf501d1fd03">Linux::LinuxEvent::operator=</a></div><div class="ttdeci">LinuxEvent &amp; operator=(const LinuxEvent &amp;ev)=default</div><div class="ttdoc">copy assignment operator</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a1d3742924f700c7fb4f350b8b4f4673f"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a1d3742924f700c7fb4f350b8b4f4673f">Linux::LinuxEvent::WaitTimeout</a></div><div class="ttdeci">bool WaitTimeout(int ms) const</div><div class="ttdoc">wait for the event with timeout in millisecs, resets the event</div><div class="ttdef"><b>Definition</b> linuxevent.h:165</div></div>
@@ -354,11 +344,11 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('linuxevent_8h_
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a2e5039048e95570f133400be7502a38aa44d44e3466869e5190827992b2372cb8"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa44d44e3466869e5190827992b2372cb8">Linux::LinuxEvent::SIGNAL_ONE</a></div><div class="ttdeci">@ SIGNAL_ONE</div><div class="ttdef"><b>Definition</b> linuxevent.h:49</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a2e5039048e95570f133400be7502a38aa774587c4bde575cccf422b359ac7a7d0"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a2e5039048e95570f133400be7502a38aa774587c4bde575cccf422b359ac7a7d0">Linux::LinuxEvent::SIGNAL_NONE</a></div><div class="ttdeci">@ SIGNAL_NONE</div><div class="ttdef"><b>Definition</b> linuxevent.h:48</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a55e3b0ae3a6d905820a3639b16464d73"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a55e3b0ae3a6d905820a3639b16464d73">Linux::LinuxEvent::mutex</a></div><div class="ttdeci">pthread_mutex_t mutex</div><div class="ttdef"><b>Definition</b> linuxevent.h:53</div></div>
-<div class="ttc" id="aclass_linux_1_1_linux_event_html_a880dcca78e0a21091f5d53942f48642a"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a880dcca78e0a21091f5d53942f48642a">Linux::LinuxEvent::Peek</a></div><div class="ttdeci">bool Peek() const</div><div class="ttdoc">check if event is signaled</div><div class="ttdef"><b>Definition</b> linuxevent.h:219</div></div>
+<div class="ttc" id="aclass_linux_1_1_linux_event_html_a880dcca78e0a21091f5d53942f48642a"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a880dcca78e0a21091f5d53942f48642a">Linux::LinuxEvent::Peek</a></div><div class="ttdeci">bool Peek() const</div><div class="ttdoc">check if event is signaled</div><div class="ttdef"><b>Definition</b> linuxevent.h:209</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a8aba9fae786b0fe70fb1d4fb5723ba84"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a8aba9fae786b0fe70fb1d4fb5723ba84">Linux::LinuxEvent::Signal</a></div><div class="ttdeci">void Signal()</div><div class="ttdoc">signal the event</div><div class="ttdef"><b>Definition</b> linuxevent.h:113</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a8ecc4953cc8218cefd7e9b01a44c5319"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a8ecc4953cc8218cefd7e9b01a44c5319">Linux::LinuxEvent::Wait</a></div><div class="ttdeci">void Wait() const</div><div class="ttdoc">wait for the event to become signalled, resets the event</div><div class="ttdef"><b>Definition</b> linuxevent.h:133</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_a9196f9391805d27257689568d1ef801e"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a9196f9391805d27257689568d1ef801e">Linux::LinuxEvent::cond</a></div><div class="ttdeci">pthread_cond_t cond</div><div class="ttdef"><b>Definition</b> linuxevent.h:54</div></div>
-<div class="ttc" id="aclass_linux_1_1_linux_event_html_a9d0eb0555739235c1e3739fd13ae9061"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a9d0eb0555739235c1e3739fd13ae9061">Linux::LinuxEvent::IsManual</a></div><div class="ttdeci">bool IsManual() const</div><div class="ttdoc">Returns true if event is manually reset.</div><div class="ttdef"><b>Definition</b> linuxevent.h:239</div></div>
+<div class="ttc" id="aclass_linux_1_1_linux_event_html_a9d0eb0555739235c1e3739fd13ae9061"><div class="ttname"><a href="class_linux_1_1_linux_event.html#a9d0eb0555739235c1e3739fd13ae9061">Linux::LinuxEvent::IsManual</a></div><div class="ttdeci">bool IsManual() const</div><div class="ttdoc">Returns true if event is manually reset.</div><div class="ttdef"><b>Definition</b> linuxevent.h:229</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_ab17acd25c9bf3c17385194e9aef9ca76"><div class="ttname"><a href="class_linux_1_1_linux_event.html#ab17acd25c9bf3c17385194e9aef9ca76">Linux::LinuxEvent::~LinuxEvent</a></div><div class="ttdeci">~LinuxEvent()</div><div class="ttdoc">destructor</div><div class="ttdef"><b>Definition</b> linuxevent.h:101</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_ad005fe08efb2534e3d549dab3941d202"><div class="ttname"><a href="class_linux_1_1_linux_event.html#ad005fe08efb2534e3d549dab3941d202">Linux::LinuxEvent::status</a></div><div class="ttdeci">volatile EventStatus status</div><div class="ttdef"><b>Definition</b> linuxevent.h:57</div></div>
 <div class="ttc" id="aclass_linux_1_1_linux_event_html_ade22fe1f1f4412657122880cad469231"><div class="ttname"><a href="class_linux_1_1_linux_event.html#ade22fe1f1f4412657122880cad469231">Linux::LinuxEvent::LinuxEvent</a></div><div class="ttdeci">LinuxEvent(bool manualReset=false)</div><div class="ttdoc">constructor</div><div class="ttdef"><b>Definition</b> linuxevent.h:64</div></div>

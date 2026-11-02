@@ -1,11 +1,5 @@
 var NAVTREEINDEX169 =
 {
-"win32filewatcher_8h.html":[10,0,0,3,9,7,5],
-"win32filewatcher_8h_source.html":[10,0,0,3,9,7,5],
-"win32fswrapper_8cc.html":[10,0,0,3,9,7,6],
-"win32fswrapper_8h.html":[10,0,0,3,9,7,7],
-"win32fswrapper_8h_source.html":[10,0,0,3,9,7,7],
-"win32guid_8cc.html":[10,0,0,3,20,2,0],
 "win32guid_8h.html":[10,0,0,3,20,2,1],
 "win32guid_8h_source.html":[10,0,0,3,20,2,1],
 "win32heap_8cc.html":[10,0,0,3,13,4,0],

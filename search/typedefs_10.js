@@ -17,7 +17,6 @@ var searchData=
   ['spotlightallocator_14',['SpotLightAllocator',['../class_lighting_1_1_light_context.html#a8a26739be6c475fcfaae5580e5fa2367',1,'Lighting::LightContext']]],
   ['stackarray_15',['StackArray',['../namespace_util.html#a87b3071227d8c725c43e4263dd4e91b6',1,'Util']]],
   ['stagemask_16',['StageMask',['../namespace_graphics.html#ac442540a16289a6dd1915a994ba88f09',1,'Graphics']]],
-  ['stub_17',['Stub',['../struct_jobs2_1_1_lambda.html#aca35d19a0bf0d336bddc2f1449436dab',1,'Jobs2::Lambda']]],
-  ['stubtype_18',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
-  ['swapchainallocator_19',['SwapchainAllocator',['../namespace_vulkan.html#ab2af3bc8ec56baf65b724b6d43f3888f',1,'Vulkan']]]
+  ['stubtype_17',['StubType',['../class_util_1_1_delegate_3_01_r_e_t_t_y_p_e_07_a_r_g_t_y_p_e_s_8_8_8_08_4.html#a903223c22b57b9bbf4363c32a785de7f',1,'Util::Delegate&lt; RETTYPE(ARGTYPES...)&gt;']]],
+  ['swapchainallocator_18',['SwapchainAllocator',['../namespace_vulkan.html#ab2af3bc8ec56baf65b724b6d43f3888f',1,'Vulkan']]]
 ];
