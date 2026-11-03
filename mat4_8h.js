@@ -3,7 +3,7 @@ var mat4_8h =
     [ "Math::mat4", "struct_math_1_1mat4.html", "struct_math_1_1mat4" ],
     [ "mm_ror_ps", "mat4_8h.html#a093b22c0052e42f3de58064f255d41f8", null ],
     [ "Math::affine", "namespace_math.html#a82b6a20d252ac6a125d1ce48e88172fb", null ],
-    [ "Math::affine", "namespace_math.html#a4c94a9fb0ec8a3239429833ad113abff", null ],
+    [ "Math::affine", "namespace_math.html#aaad1e7fc230a3f350c9bb7b46f323605", null ],
     [ "Math::affine", "namespace_math.html#ac52bd4689c3bc8a62f11cd4baff3571b", null ],
     [ "Math::affinetransformation", "namespace_math.html#af9ba7c344bb01502eefe4e45c844a5d2", null ],
     [ "Math::aseuler", "namespace_math.html#ab938599c0f29c51b92d5bca3f35b7df5", null ],

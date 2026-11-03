@@ -48,7 +48,7 @@ var namespace_math =
     [ "abs", "namespace_math.html#ac188c8ab45910789c719366e6dea073b", null ],
     [ "acos", "namespace_math.html#ad5c0ae163b8fd828adcc2e1a14476c9c", null ],
     [ "affine", "namespace_math.html#a82b6a20d252ac6a125d1ce48e88172fb", null ],
-    [ "affine", "namespace_math.html#a4c94a9fb0ec8a3239429833ad113abff", null ],
+    [ "affine", "namespace_math.html#aaad1e7fc230a3f350c9bb7b46f323605", null ],
     [ "affine", "namespace_math.html#ac52bd4689c3bc8a62f11cd4baff3571b", null ],
     [ "affinetransformation", "namespace_math.html#af9ba7c344bb01502eefe4e45c844a5d2", null ],
     [ "angle", "namespace_math.html#a3ed993786746100f3293e49c762ba985", null ],
