@@ -1,5 +1,16 @@
 var NAVTREEINDEX112 =
 {
+"namespace_math.html#a436b11e11067d7736415fff7a4485353":[8,0,46,378],
+"namespace_math.html#a43a6cf346c238513ddde6e4b0229f01c":[8,0,46,139],
+"namespace_math.html#a43b8e2e8a6c4a35f1c22cc926ec1629c":[8,0,46,311],
+"namespace_math.html#a449151084f85872201c1237d2960bdf8":[8,0,46,169],
+"namespace_math.html#a45b185959f1c682ea18626a99d096b7b":[8,0,46,103],
+"namespace_math.html#a4642bed18f8d117a3f36b336450db0b6":[8,0,46,118],
+"namespace_math.html#a46edf96890944bde113a10f2487eb372":[8,0,46,377],
+"namespace_math.html#a47b36d1e857de0d0d30e095c2472cea7":[8,0,46,85],
+"namespace_math.html#a47bafb739ed77b1ff7b7b8783863ffc4":[8,0,46,230],
+"namespace_math.html#a4888e237383d5fa2f0c694ab75a8627f":[8,0,46,333],
+"namespace_math.html#a4894cf218c208c4ac9883cb0f35b41a8":[8,0,46,303],
 "namespace_math.html#a48a2cf02bac5923e6faad7366262a137":[8,0,46,314],
 "namespace_math.html#a4956ee96f6acd2c8e6c16127a0f34aa6":[8,0,46,347],
 "namespace_math.html#a49ce4e604c3801ff09f9a78b4692e770":[8,0,46,238],
@@ -238,16 +249,5 @@ var NAVTREEINDEX112 =
 "namespace_math.html#afb16681ddab5e68acfd000b9ee1e9000":[8,0,46,111],
 "namespace_math.html#afba05de6b95dc578e9452b790b1e6897":[8,0,46,96],
 "namespace_math.html#afbb04fa340c41b23d3c56851538a1999":[8,0,46,283],
-"namespace_math.html#afe4d5c3096f54cf813284f4ef270ba80":[8,0,46,143],
-"namespace_math.html#afe854631933ae7a736b3ab9fd4106dc4":[8,0,46,162],
-"namespace_math.html#afeaeb0a6478e48897a2612cf1e2d899b":[8,0,46,305],
-"namespace_mem_db.html":[8,0,47],
-"namespace_mem_db.html#a1c2480daefd34a5a2dfe399d32f8dc78":[8,0,47,13],
-"namespace_mem_db.html#a6ee2e2e216e6dfa800474fc5e11d9761":[8,0,47,12],
-"namespace_mem_db.html#a7e5d3b331773ce3cc5ea2d7b40fcfb2a":[8,0,47,14],
-"namespace_mem_db.html#a8ee165386fef035f3bd863db6b48bd3a":[8,0,47,16],
-"namespace_mem_db.html#aeb59e3017d21c6bb374d949e615c71b3":[8,0,47,15],
-"namespace_memory.html":[8,0,48],
-"namespace_memory.html#a00bb8ce51f66e403de1499fee96f0517":[8,0,48,18],
-"namespace_memory.html#a05533d2c6154b45946e2e915fdcbb173":[8,0,48,40]
+"namespace_math.html#afe4d5c3096f54cf813284f4ef270ba80":[8,0,46,143]
 };

@@ -8,5 +8,6 @@ var searchData=
   ['imagelayout_5',['ImageLayout',['../namespace_core_graphics.html#a04d8601e946dc91033eabcbd74df3ff3',1,'CoreGraphics']]],
   ['imguifiledialogflags_5f_6',['ImGuiFileDialogFlags_',['../_im_gui_file_dialog_8h.html#aa9de5efefa95a90cbf0cfaad5e0e69fd',1,'ImGuiFileDialog.h']]],
   ['indexname_7',['IndexName',['../class_core_graphics_1_1_vertex_component.html#a50f1ce3360227abc03ce77b6a1b46e74',1,'CoreGraphics::VertexComponent']]],
-  ['intattr_8',['IntAttr',['../class_particles_1_1_emitter_attrs.html#a7549f3b944ef84c4d98068eafc68d327',1,'Particles::EmitterAttrs']]]
+  ['indextype_8',['IndexType',['../namespace_physics.html#a7ef6431140459ed72bd0b295d6233250',1,'Physics']]],
+  ['intattr_9',['IntAttr',['../class_particles_1_1_emitter_attrs.html#a7549f3b944ef84c4d98068eafc68d327',1,'Particles::EmitterAttrs']]]
 ];
