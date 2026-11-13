@@ -1,5 +1,14 @@
 var NAVTREEINDEX139 =
 {
+"struct_im3d_1_1internal_1_1_type_traits_3_01_vec3_01_4.html":[9,0,31,0,10],
+"struct_im3d_1_1internal_1_1_type_traits_3_01_vec3_01_4.html#a4a5b4cab400ee5796a6d9c8e4065f487":[8,0,33,0,10,0],
+"struct_im3d_1_1internal_1_1_type_traits_3_01_vec3_01_4.html#a4a5b4cab400ee5796a6d9c8e4065f487":[9,0,31,0,10,0],
+"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html":[8,0,33,0,11],
+"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html":[9,0,31,0,11],
+"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html#a2fcc55d3a65ee3312bf7e9a480d9d327":[8,0,33,0,11,0],
+"struct_im3d_1_1internal_1_1_type_traits_3_01_vec4_01_4.html#a2fcc55d3a65ee3312bf7e9a480d9d327":[9,0,31,0,11,0],
+"struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html":[8,0,33,0,8],
+"struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html":[9,0,31,0,8],
 "struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html#a889f548906f5d9af09c39fd94c8e25c1":[8,0,33,0,8,0],
 "struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html#a889f548906f5d9af09c39fd94c8e25c1":[9,0,31,0,8,0],
 "struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html":[8,0,33,0,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX139 =
 "struct_lighting_1_1_0fstruct_0e_8cluster_state.html#a9b5b0053aee13ae9b4a4b555265cf842":[9,0,37,0,4],
 "struct_lighting_1_1_0fstruct_0e_8cluster_state.html#aa71cc077c362c296b31bf03ef3c35e2f":[8,0,40,0,11],
 "struct_lighting_1_1_0fstruct_0e_8cluster_state.html#aa71cc077c362c296b31bf03ef3c35e2f":[9,0,37,0,11],
-"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#aaf310cbbbc7537dd5ee907a94db70002":[8,0,40,0,5],
-"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#aaf310cbbbc7537dd5ee907a94db70002":[9,0,37,0,5],
-"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#ad64944d0bf2d76ab2cbed56e26495857":[8,0,40,0,2],
-"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#ad64944d0bf2d76ab2cbed56e26495857":[9,0,37,0,2],
-"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#ae4b49bfdb3b37236b0dfd8f448dccc6e":[8,0,40,0,0],
-"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#ae4b49bfdb3b37236b0dfd8f448dccc6e":[9,0,37,0,0],
-"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#aecc79fe635296e82472b8f34483c14ea":[8,0,40,0,1],
-"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#aecc79fe635296e82472b8f34483c14ea":[9,0,37,0,1],
-"struct_lighting_1_1_0fstruct_0e_8combine_state.html":[8,0,40,1],
-"struct_lighting_1_1_0fstruct_0e_8combine_state.html":[9,0,37,1]
+"struct_lighting_1_1_0fstruct_0e_8cluster_state.html#aaf310cbbbc7537dd5ee907a94db70002":[8,0,40,0,5]
 };

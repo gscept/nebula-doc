@@ -160,6 +160,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:af90ce7b6ef87ed597f4a8bc1fc94a60a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get locked status of file  <br /></td></tr>
 <tr class="memitem:a7d04cdf6f2598873b1f042d5b953e6db" id="r_a7d04cdf6f2598873b1f042d5b953e6db"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a7d04cdf6f2598873b1f042d5b953e6db">DeleteFile</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;path)</td></tr>
 <tr class="memdesc:a7d04cdf6f2598873b1f042d5b953e6db"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete a file  <br /></td></tr>
+<tr class="memitem:aa06f0307d49181a8b80f3700efe773d2" id="r_aa06f0307d49181a8b80f3700efe773d2"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aa06f0307d49181a8b80f3700efe773d2">RenameFile</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;source, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;target)</td></tr>
+<tr class="memdesc:aa06f0307d49181a8b80f3700efe773d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">rename a file or a directory (the target must not exist)  <br /></td></tr>
 <tr class="memitem:a9f7be09d92d0e6a5fc0007a267b67ad4" id="r_a9f7be09d92d0e6a5fc0007a267b67ad4"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a9f7be09d92d0e6a5fc0007a267b67ad4">ReplaceFile</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;source, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;target)</td></tr>
 <tr class="memdesc:a9f7be09d92d0e6a5fc0007a267b67ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">rename a file  <br /></td></tr>
 <tr class="memitem:ac8da11edee96d449be62328e3474f954" id="r_ac8da11edee96d449be62328e3474f954"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ac8da11edee96d449be62328e3474f954">DeleteDirectory</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;path)</td></tr>
@@ -976,6 +978,39 @@ Static Public Member Functions</h2></td></tr>
 
 <p>read from a file </p>
 <p>Read data from a file, returns number of bytes read. </p>
+
+</div>
+</div>
+<a id="aa06f0307d49181a8b80f3700efe773d2" name="aa06f0307d49181a8b80f3700efe773d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa06f0307d49181a8b80f3700efe773d2">&#9670;&#160;</a></span>RenameFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Posix::PosixFSWrapper::RenameFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>source</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>target</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>rename a file or a directory (the target must not exist) </p>
+<p>Renames a file or a directory.</p>
+<p>The target must not exist, which is what makes rename() a move here rather than a replace. Cross-device moves fail, like they do on Windows. </p>
 
 </div>
 </div>

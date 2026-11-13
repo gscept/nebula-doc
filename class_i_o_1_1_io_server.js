@@ -30,6 +30,7 @@ var class_i_o_1_1_io_server =
     [ "MountStandardArchives", "class_i_o_1_1_io_server.html#a9c21f8e6891b0c93cd459c9b1cdb941f", null ],
     [ "NativePath", "class_i_o_1_1_io_server.html#adc84b3eb590ec6008d97e9a39b96dd86", null ],
     [ "ReadFile", "class_i_o_1_1_io_server.html#aa0b4614643a3870ba04f931b68ee5363", null ],
+    [ "RenameFile", "class_i_o_1_1_io_server.html#abc11fdea31701951863fde27570e24e3", null ],
     [ "SetArchiveFileSystemEnabled", "class_i_o_1_1_io_server.html#a934fc8a75a2d2dbb02b190686a48e6e4", null ],
     [ "SetFileWriteTime", "class_i_o_1_1_io_server.html#a203e673055fd5473bbd3fa1a05d64801", null ],
     [ "SetReadOnly", "class_i_o_1_1_io_server.html#a3e96bc92a77dc785fb2fa60b69ab060a", null ],

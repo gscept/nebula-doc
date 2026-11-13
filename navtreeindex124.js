@@ -1,5 +1,14 @@
 var NAVTREEINDEX124 =
 {
+"struct_core_1_1_c_var.html#a0f11ae2892b4231e885b91079ad33d40":[9,0,10,1,1],
+"struct_core_1_1_c_var.html#a760d93bdf34f098b215e9536d609c5fe":[8,0,11,1,3],
+"struct_core_1_1_c_var.html#a760d93bdf34f098b215e9536d609c5fe":[9,0,10,1,3],
+"struct_core_1_1_c_var.html#acdac81ce4ab1bcc83bad2da607eda032":[8,0,11,1,0],
+"struct_core_1_1_c_var.html#acdac81ce4ab1bcc83bad2da607eda032":[9,0,10,1,0],
+"struct_core_1_1_c_var.html#add49d308d5cd691dbe5c8e80f8e5170b":[8,0,11,1,2],
+"struct_core_1_1_c_var.html#add49d308d5cd691dbe5c8e80f8e5170b":[9,0,10,1,2],
+"struct_core_1_1_c_var_create_info.html":[8,0,11,2],
+"struct_core_1_1_c_var_create_info.html":[9,0,10,2],
 "struct_core_1_1_c_var_create_info.html#a028ebed532cdd9b27d5ed59535c9c512":[8,0,11,2,0],
 "struct_core_1_1_c_var_create_info.html#a028ebed532cdd9b27d5ed59535c9c512":[9,0,10,2,0],
 "struct_core_1_1_c_var_create_info.html#a15b7e67b71426cde3f049d3b173de7ab":[8,0,11,2,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX124 =
 "struct_core_graphics_1_1_barrier_context.html#ab8542934e0eb0a63e0271fb08bdaeaee":[9,0,12,8,13],
 "struct_core_graphics_1_1_barrier_context.html#abd3823e07519650ed348003f9d115b96":[8,0,13,9,2],
 "struct_core_graphics_1_1_barrier_context.html#abd3823e07519650ed348003f9d115b96":[9,0,12,8,2],
-"struct_core_graphics_1_1_barrier_context.html#ada544809dff9a731dcc1025c5bc4294a":[8,0,13,9,4],
-"struct_core_graphics_1_1_barrier_context.html#ada544809dff9a731dcc1025c5bc4294a":[9,0,12,8,4],
-"struct_core_graphics_1_1_barrier_context.html#ae7ee5a0249cc035e21cb05166ba1c06c":[8,0,13,9,10],
-"struct_core_graphics_1_1_barrier_context.html#ae7ee5a0249cc035e21cb05166ba1c06c":[9,0,12,8,10],
-"struct_core_graphics_1_1_barrier_context.html#af36dc73a41f71ab8bdf4ec5fc672c7d4":[8,0,13,9,3],
-"struct_core_graphics_1_1_barrier_context.html#af36dc73a41f71ab8bdf4ec5fc672c7d4":[9,0,12,8,3],
-"struct_core_graphics_1_1_barrier_create_info.html":[8,0,13,10],
-"struct_core_graphics_1_1_barrier_create_info.html":[9,0,12,9],
-"struct_core_graphics_1_1_barrier_create_info.html#a240d9b848066d875972398e0a0e340ea":[8,0,13,10,1],
-"struct_core_graphics_1_1_barrier_create_info.html#a240d9b848066d875972398e0a0e340ea":[9,0,12,9,1]
+"struct_core_graphics_1_1_barrier_context.html#ada544809dff9a731dcc1025c5bc4294a":[8,0,13,9,4]
 };

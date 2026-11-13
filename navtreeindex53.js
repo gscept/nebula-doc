@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"class_math_1_1bbox.html#a9099630b460486ce844a53c269082932":[8,0,46,1,14],
+"class_math_1_1bbox.html#a9099630b460486ce844a53c269082932":[9,0,42,1,14],
 "class_math_1_1bbox.html#a90d9e00e4dde030f97772d2e75105d14":[8,0,46,1,3],
 "class_math_1_1bbox.html#a90d9e00e4dde030f97772d2e75105d14":[9,0,42,1,3],
 "class_math_1_1bbox.html#a9ebd2d4bbe7c3137f1e3b4545dbb80f9":[8,0,46,1,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "class_math_1_1sphere.html#a29d63a4404d62d96a9ad74e9824ef189":[8,0,46,26,2],
 "class_math_1_1sphere.html#a29d63a4404d62d96a9ad74e9824ef189":[9,0,42,26,2],
 "class_math_1_1sphere.html#a5a09e0327c2e5245ecadf79d4f7fe811":[8,0,46,26,12],
-"class_math_1_1sphere.html#a5a09e0327c2e5245ecadf79d4f7fe811":[9,0,42,26,12],
-"class_math_1_1sphere.html#a625aac2512b479a1d0889bb033788da7":[8,0,46,26,13],
-"class_math_1_1sphere.html#a625aac2512b479a1d0889bb033788da7":[9,0,42,26,13]
+"class_math_1_1sphere.html#a5a09e0327c2e5245ecadf79d4f7fe811":[9,0,42,26,12]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX123 =
 {
+"streamwriter_8h_source.html":[10,0,0,3,9,65],
+"string_8cc.html":[10,0,0,3,20,54],
+"string_8cc.html#a03387b57d45ea4682f89d27f3ac32fcb":[10,0,0,3,20,54,1],
+"string_8h.html":[10,0,0,3,20,55],
+"string_8h.html#a03387b57d45ea4682f89d27f3ac32fcb":[10,0,0,3,20,55,2],
+"string_8h.html#ae7d0922b53700589fa242ebd9b0355f7":[10,0,0,3,20,55,1],
+"string_8h_source.html":[10,0,0,3,20,55],
+"stringatom_8cc.html":[10,0,0,3,20,56],
+"stringatom_8cc.html#a49ada00faba7e046f4db45626d884878":[10,0,0,3,20,56,0],
 "stringatom_8h.html":[10,0,0,3,20,57],
 "stringatom_8h.html#a49ada00faba7e046f4db45626d884878":[10,0,0,3,20,57,1],
 "stringatom_8h_source.html":[10,0,0,3,20,57],
@@ -240,14 +249,5 @@ var NAVTREEINDEX123 =
 "struct_clustering_1_1_0fstruct_0e_8state.html#af8a1dd1b26e804627a962b72d936b70b":[9,0,8,0,10],
 "struct_core_1_1_c_var.html":[8,0,11,1],
 "struct_core_1_1_c_var.html":[9,0,10,1],
-"struct_core_1_1_c_var.html#a0f11ae2892b4231e885b91079ad33d40":[8,0,11,1,1],
-"struct_core_1_1_c_var.html#a0f11ae2892b4231e885b91079ad33d40":[9,0,10,1,1],
-"struct_core_1_1_c_var.html#a760d93bdf34f098b215e9536d609c5fe":[8,0,11,1,3],
-"struct_core_1_1_c_var.html#a760d93bdf34f098b215e9536d609c5fe":[9,0,10,1,3],
-"struct_core_1_1_c_var.html#acdac81ce4ab1bcc83bad2da607eda032":[8,0,11,1,0],
-"struct_core_1_1_c_var.html#acdac81ce4ab1bcc83bad2da607eda032":[9,0,10,1,0],
-"struct_core_1_1_c_var.html#add49d308d5cd691dbe5c8e80f8e5170b":[8,0,11,1,2],
-"struct_core_1_1_c_var.html#add49d308d5cd691dbe5c8e80f8e5170b":[9,0,10,1,2],
-"struct_core_1_1_c_var_create_info.html":[8,0,11,2],
-"struct_core_1_1_c_var_create_info.html":[9,0,10,2]
+"struct_core_1_1_c_var.html#a0f11ae2892b4231e885b91079ad33d40":[8,0,11,1,1]
 };

@@ -30,6 +30,7 @@ var class_win32_1_1_win32_f_s_wrapper =
     [ "Map", "class_win32_1_1_win32_f_s_wrapper.html#a66f8d9e7066b6b5b914c76d717e5ba59", null ],
     [ "OpenFile", "class_win32_1_1_win32_f_s_wrapper.html#a7b3b23ff4c5c438ace31d96977bfbf29", null ],
     [ "Read", "class_win32_1_1_win32_f_s_wrapper.html#a0b442a86d7a3f4d3f7b3d5ba7826a781", null ],
+    [ "RenameFile", "class_win32_1_1_win32_f_s_wrapper.html#ad2e94cccbb0734db02f6b9ac8ca7d509", null ],
     [ "ReplaceFile", "class_win32_1_1_win32_f_s_wrapper.html#a17ba475fcbcb82453d0a937fe0bad9a3", null ],
     [ "Seek", "class_win32_1_1_win32_f_s_wrapper.html#a1b4f663da70957abbf1e1b79321035ba", null ],
     [ "SetFileWriteTime", "class_win32_1_1_win32_f_s_wrapper.html#a2474dce5a680f83bc5b71287361fc235", null ],

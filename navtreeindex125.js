@@ -1,5 +1,14 @@
 var NAVTREEINDEX125 =
 {
+"struct_core_graphics_1_1_barrier_context.html#ada544809dff9a731dcc1025c5bc4294a":[9,0,12,8,4],
+"struct_core_graphics_1_1_barrier_context.html#ae7ee5a0249cc035e21cb05166ba1c06c":[8,0,13,9,10],
+"struct_core_graphics_1_1_barrier_context.html#ae7ee5a0249cc035e21cb05166ba1c06c":[9,0,12,8,10],
+"struct_core_graphics_1_1_barrier_context.html#af36dc73a41f71ab8bdf4ec5fc672c7d4":[8,0,13,9,3],
+"struct_core_graphics_1_1_barrier_context.html#af36dc73a41f71ab8bdf4ec5fc672c7d4":[9,0,12,8,3],
+"struct_core_graphics_1_1_barrier_create_info.html":[8,0,13,10],
+"struct_core_graphics_1_1_barrier_create_info.html":[9,0,12,9],
+"struct_core_graphics_1_1_barrier_create_info.html#a240d9b848066d875972398e0a0e340ea":[8,0,13,10,1],
+"struct_core_graphics_1_1_barrier_create_info.html#a240d9b848066d875972398e0a0e340ea":[9,0,12,9,1],
 "struct_core_graphics_1_1_barrier_create_info.html#a3a40a3f29134bda04df9b58583b2d198":[8,0,13,10,0],
 "struct_core_graphics_1_1_barrier_create_info.html#a3a40a3f29134bda04df9b58583b2d198":[9,0,12,9,0],
 "struct_core_graphics_1_1_barrier_create_info.html#a6af29d55c34181a4d63a8acfe261b6c0":[8,0,13,10,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX125 =
 "struct_core_graphics_1_1_cmd_buffer_marker_bundle.html#af976dfe8ea0d5402332549afc499adbe":[9,0,12,32,0],
 "struct_core_graphics_1_1_cmd_buffer_pool_create_info.html":[8,0,13,34],
 "struct_core_graphics_1_1_cmd_buffer_pool_create_info.html":[9,0,12,33],
-"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a2eb59d47f768538ac276674d90544661":[8,0,13,34,1],
-"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a2eb59d47f768538ac276674d90544661":[9,0,12,33,1],
-"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a49e38705e25fa0fd5de505bd0e9a6359":[8,0,13,34,2],
-"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a49e38705e25fa0fd5de505bd0e9a6359":[9,0,12,33,2],
-"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a6684f010f85fb3947e80f01e7bc7eaff":[8,0,13,34,0],
-"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a6684f010f85fb3947e80f01e7bc7eaff":[9,0,12,33,0],
-"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#aff6e150778c4c68758688a17e25c69d3":[8,0,13,34,3],
-"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#aff6e150778c4c68758688a17e25c69d3":[9,0,12,33,3],
-"struct_core_graphics_1_1_cmd_buffer_pool_id.html":[8,0,13,35],
-"struct_core_graphics_1_1_cmd_buffer_pool_id.html":[9,0,12,34]
+"struct_core_graphics_1_1_cmd_buffer_pool_create_info.html#a2eb59d47f768538ac276674d90544661":[8,0,13,34,1]
 };

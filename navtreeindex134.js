@@ -1,5 +1,14 @@
 var NAVTREEINDEX134 =
 {
+"struct_game_1_1_component_decay_buffer.html#a4c6078a11f09934718b61f9e5b1b3af5":[8,0,25,2,1],
+"struct_game_1_1_component_decay_buffer.html#a4c6078a11f09934718b61f9e5b1b3af5":[9,0,23,1,1],
+"struct_game_1_1_component_decay_buffer.html#a99fd077884c489b0ef59c0207355f090":[8,0,25,2,0],
+"struct_game_1_1_component_decay_buffer.html#a99fd077884c489b0ef59c0207355f090":[9,0,23,1,0],
+"struct_game_1_1_component_decay_buffer.html#ab23549e9936dc3c729a8a65aae55eb3b":[8,0,25,2,2],
+"struct_game_1_1_component_decay_buffer.html#ab23549e9936dc3c729a8a65aae55eb3b":[9,0,23,1,2],
+"struct_game_1_1_component_register_info.html":[8,0,25,5],
+"struct_game_1_1_component_register_info.html":[9,0,23,4],
+"struct_game_1_1_component_register_info.html#a187a8efc181e185e09a6309230ac8a33":[8,0,25,5,4],
 "struct_game_1_1_component_register_info.html#a187a8efc181e185e09a6309230ac8a33":[9,0,23,4,4],
 "struct_game_1_1_component_register_info.html#a2ae803f1aa5d732d4dbef7294d32a7de":[8,0,25,5,3],
 "struct_game_1_1_component_register_info.html#a2ae803f1aa5d732d4dbef7294d32a7de":[9,0,23,4,3],
@@ -240,14 +249,5 @@ var NAVTREEINDEX134 =
 "struct_game_1_1_world_1_1_remove_component_command.html#aaa9a10383d3f721f7fa550b19b4c2574":[8,0,25,36,3,0],
 "struct_game_1_1_world_1_1_remove_component_command.html#aaa9a10383d3f721f7fa550b19b4c2574":[9,0,23,35,3,0],
 "struct_game_1_1_world_1_1_remove_component_command.html#acf687f020e21f2f5f813bd9a49cc1f32":[8,0,25,36,3,1],
-"struct_game_1_1_world_1_1_remove_component_command.html#acf687f020e21f2f5f813bd9a49cc1f32":[9,0,23,35,3,1],
-"struct_game_1_1_world_hash.html":[8,0,25,37],
-"struct_game_1_1_world_hash.html":[9,0,23,36],
-"struct_graphics_1_1_0fstruct_0e_8env_state.html":[8,0,29,0],
-"struct_graphics_1_1_0fstruct_0e_8env_state.html":[9,0,27,0],
-"struct_graphics_1_1_0fstruct_0e_8env_state.html#a0e320db4c36ce40689fe8d6117cdbfeb":[8,0,29,0,11],
-"struct_graphics_1_1_0fstruct_0e_8env_state.html#a0e320db4c36ce40689fe8d6117cdbfeb":[9,0,27,0,11],
-"struct_graphics_1_1_0fstruct_0e_8env_state.html#a32e53829f38270cb985f15f3545ccf22":[8,0,29,0,3],
-"struct_graphics_1_1_0fstruct_0e_8env_state.html#a32e53829f38270cb985f15f3545ccf22":[9,0,27,0,3],
-"struct_graphics_1_1_0fstruct_0e_8env_state.html#a7badc2e7ad06d34cbbc07f78f041b60a":[8,0,29,0,13]
+"struct_game_1_1_world_1_1_remove_component_command.html#acf687f020e21f2f5f813bd9a49cc1f32":[9,0,23,35,3,1]
 };

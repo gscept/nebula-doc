@@ -27,6 +27,7 @@ var class_posix_1_1_posix_f_s_wrapper =
     [ "Map", "class_posix_1_1_posix_f_s_wrapper.html#a133c80813fb3a9c684ba00a85dab1dda", null ],
     [ "OpenFile", "class_posix_1_1_posix_f_s_wrapper.html#a5b6b4836b2ab83807a1f99215ed39032", null ],
     [ "Read", "class_posix_1_1_posix_f_s_wrapper.html#a3ac055a9208641cef13a02cebd171032", null ],
+    [ "RenameFile", "class_posix_1_1_posix_f_s_wrapper.html#aa06f0307d49181a8b80f3700efe773d2", null ],
     [ "ReplaceFile", "class_posix_1_1_posix_f_s_wrapper.html#a9f7be09d92d0e6a5fc0007a267b67ad4", null ],
     [ "Seek", "class_posix_1_1_posix_f_s_wrapper.html#a0be9d7c599cb7daec56bb50ecd2b76ce", null ],
     [ "SetFileWriteTime", "class_posix_1_1_posix_f_s_wrapper.html#a3eaea0cea7906647b2b5edcfe1922d50", null ],

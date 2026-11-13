@@ -160,6 +160,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:acb3cc3f2badaa2020356765e51350b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">get locked status of file  <br /></td></tr>
 <tr class="memitem:adfbdf61158f3adae28043b5d7f23a1fe" id="r_adfbdf61158f3adae28043b5d7f23a1fe"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#adfbdf61158f3adae28043b5d7f23a1fe">DeleteFile</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;path)</td></tr>
 <tr class="memdesc:adfbdf61158f3adae28043b5d7f23a1fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete a file  <br /></td></tr>
+<tr class="memitem:ad2e94cccbb0734db02f6b9ac8ca7d509" id="r_ad2e94cccbb0734db02f6b9ac8ca7d509"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ad2e94cccbb0734db02f6b9ac8ca7d509">RenameFile</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;source, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;target)</td></tr>
+<tr class="memdesc:ad2e94cccbb0734db02f6b9ac8ca7d509"><td class="mdescLeft">&#160;</td><td class="mdescRight">rename a file or a directory (the target must not exist)  <br /></td></tr>
 <tr class="memitem:a17ba475fcbcb82453d0a937fe0bad9a3" id="r_a17ba475fcbcb82453d0a937fe0bad9a3"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a17ba475fcbcb82453d0a937fe0bad9a3">ReplaceFile</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;source, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;target)</td></tr>
 <tr class="memdesc:a17ba475fcbcb82453d0a937fe0bad9a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">rename a file  <br /></td></tr>
 <tr class="memitem:ac813ee4c1d7ae8ed5fff6c165d2b647f" id="r_ac813ee4c1d7ae8ed5fff6c165d2b647f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ac813ee4c1d7ae8ed5fff6c165d2b647f">DeleteDirectory</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;path)</td></tr>
@@ -1076,6 +1078,39 @@ Static Private Member Functions</h2></td></tr>
 
 <p>read from a file </p>
 <p>Read data from a file, returns number of bytes read. </p>
+
+</div>
+</div>
+<a id="ad2e94cccbb0734db02f6b9ac8ca7d509" name="ad2e94cccbb0734db02f6b9ac8ca7d509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2e94cccbb0734db02f6b9ac8ca7d509">&#9670;&#160;</a></span>RenameFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Win32::Win32FSWrapper::RenameFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>source</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>target</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>rename a file or a directory (the target must not exist) </p>
+<p>Rename a file or a directory.</p>
+<p>The target must not exist. NTFS is case-insensitive, so a rename that only changes the case has to go through a temp name to actually change it, which matches POSIX. </p>
 
 </div>
 </div>

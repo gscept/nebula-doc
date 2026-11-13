@@ -1,5 +1,14 @@
 var NAVTREEINDEX161 =
 {
+"struct_vegetation_1_1_grass_vertex.html#a0e4e052d8d69412fb4c55fb215783aa7":[8,0,84,2,2],
+"struct_vegetation_1_1_grass_vertex.html#a0e4e052d8d69412fb4c55fb215783aa7":[9,0,73,2,2],
+"struct_vegetation_1_1_grass_vertex.html#a532fdacc41c1577e70f9f6c5dea1e738":[8,0,84,2,1],
+"struct_vegetation_1_1_grass_vertex.html#a532fdacc41c1577e70f9f6c5dea1e738":[9,0,73,2,1],
+"struct_vegetation_1_1_grass_vertex.html#a5e85ae3689e265435cb6f150e2d0e15a":[8,0,84,2,0],
+"struct_vegetation_1_1_grass_vertex.html#a5e85ae3689e265435cb6f150e2d0e15a":[9,0,73,2,0],
+"struct_vegetation_1_1_vegetation_biome_id.html":[8,0,84,3],
+"struct_vegetation_1_1_vegetation_biome_id.html":[9,0,73,3],
+"struct_vegetation_1_1_vegetation_grass_setup.html":[8,0,84,5],
 "struct_vegetation_1_1_vegetation_grass_setup.html":[9,0,73,5],
 "struct_vegetation_1_1_vegetation_grass_setup.html#a0b126236e24f5521b32840ba0ac4d2a4":[8,0,84,5,0],
 "struct_vegetation_1_1_vegetation_grass_setup.html#a0b126236e24f5521b32840ba0ac4d2a4":[9,0,73,5,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX161 =
 "struct_vulkan_1_1_graphics_device_state.html#a521eeb1073836283a0da35c03bd137dd":[8,0,86,7,23],
 "struct_vulkan_1_1_graphics_device_state.html#a521eeb1073836283a0da35c03bd137dd":[9,0,75,7,23],
 "struct_vulkan_1_1_graphics_device_state.html#a5f168fe9a5712a69a024ef87b474febd":[8,0,86,7,56],
-"struct_vulkan_1_1_graphics_device_state.html#a5f168fe9a5712a69a024ef87b474febd":[9,0,75,7,56],
-"struct_vulkan_1_1_graphics_device_state.html#a700c91102744d5099c885736fc24f5a5":[8,0,86,7,44],
-"struct_vulkan_1_1_graphics_device_state.html#a700c91102744d5099c885736fc24f5a5":[9,0,75,7,44],
-"struct_vulkan_1_1_graphics_device_state.html#a73133be639900927b4f94d612c0f1d72":[8,0,86,7,27],
-"struct_vulkan_1_1_graphics_device_state.html#a73133be639900927b4f94d612c0f1d72":[9,0,75,7,27],
-"struct_vulkan_1_1_graphics_device_state.html#a7768b3e4a4af8efd4980800c7e710856":[8,0,86,7,18],
-"struct_vulkan_1_1_graphics_device_state.html#a7768b3e4a4af8efd4980800c7e710856":[9,0,75,7,18],
-"struct_vulkan_1_1_graphics_device_state.html#a7ac94a0e8dda9a4c21b8ebef48eb3a5a":[8,0,86,7,16],
-"struct_vulkan_1_1_graphics_device_state.html#a7ac94a0e8dda9a4c21b8ebef48eb3a5a":[9,0,75,7,16],
-"struct_vulkan_1_1_graphics_device_state.html#a7b0c51d8083b1c0d33a7dc7a6c44b942":[8,0,86,7,47]
+"struct_vulkan_1_1_graphics_device_state.html#a5f168fe9a5712a69a024ef87b474febd":[9,0,75,7,56]
 };

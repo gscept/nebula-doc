@@ -160,6 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae7851af91886c14eb2d1555e9cdcc4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if directory exists  <br /></td></tr>
 <tr class="memitem:ad7ab4aebaddb01b9eb6b2e8b1dd4c193" id="r_ad7ab4aebaddb01b9eb6b2e8b1dd4c193"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad7ab4aebaddb01b9eb6b2e8b1dd4c193">CopyFile</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;from, const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;to) const</td></tr>
 <tr class="memdesc:ad7ab4aebaddb01b9eb6b2e8b1dd4c193"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy a file  <br /></td></tr>
+<tr class="memitem:abc11fdea31701951863fde27570e24e3" id="r_abc11fdea31701951863fde27570e24e3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abc11fdea31701951863fde27570e24e3">RenameFile</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;from, const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;to) const</td></tr>
+<tr class="memdesc:abc11fdea31701951863fde27570e24e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">rename a file or a directory. The target must not exist as the exact name, so a rename never replaces  <br /></td></tr>
 <tr class="memitem:a804cff67f10e9543d741f02a652ed916" id="r_a804cff67f10e9543d741f02a652ed916"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a804cff67f10e9543d741f02a652ed916">DeleteFile</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;path) const</td></tr>
 <tr class="memdesc:a804cff67f10e9543d741f02a652ed916"><td class="mdescLeft">&#160;</td><td class="mdescRight">delete a file  <br /></td></tr>
 <tr class="memitem:a4b5fb3d65ed5ad69c5bb786f67193e3f" id="r_a4b5fb3d65ed5ad69c5bb786f67193e3f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4b5fb3d65ed5ad69c5bb786f67193e3f">FileExists</a> (const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;path) const</td></tr>
@@ -928,6 +930,31 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>read contents of file and return as string </p>
+
+</div>
+</div>
+<a id="abc11fdea31701951863fde27570e24e3" name="abc11fdea31701951863fde27570e24e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc11fdea31701951863fde27570e24e3">&#9670;&#160;</a></span>RenameFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool IO::IoServer::RenameFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fromUri</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_u_r_i.html">URI</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>toUri</em></span>&#160;) const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>rename a file or a directory. The target must not exist as the exact name, so a rename never replaces </p>
+<p>Renames a file or a directory on the conventional filesystem.</p>
+<p>The target must not exist as the exact name, so a rename never replaces anything. The name is looked up in the directory listing rather than through <a class="el" href="#a4b5fb3d65ed5ad69c5bb786f67193e3f" title="return true if file exists">FileExists()</a>, which is case-insensitive on Windows, so a name that differs only in case counts as a new name on both platforms. </p>
 
 </div>
 </div>

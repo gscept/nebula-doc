@@ -1,5 +1,7 @@
 var NAVTREEINDEX51 =
 {
+"class_lighting_1_1_light_context.html#a5b6239f2b52b55eb35be00f0ef73738d":[9,0,37,4,37],
+"class_lighting_1_1_light_context.html#a5e1e746f8bb3b6d5e4353340c7144939":[8,0,40,4,17],
 "class_lighting_1_1_light_context.html#a5e1e746f8bb3b6d5e4353340c7144939":[9,0,37,4,17],
 "class_lighting_1_1_light_context.html#a5e8d53a9738e71876780a3d4e4a6fdd8":[8,0,40,4,30],
 "class_lighting_1_1_light_context.html#a5e8d53a9738e71876780a3d4e4a6fdd8":[9,0,37,4,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX51 =
 "class_linux_1_1_linux_thread_local_data.html#a32b653d5347b2585ce9e03dc450a4ab9":[9,0,38,4,3],
 "class_linux_1_1_linux_thread_local_data.html#a400d1657cb923035d1214f2e32e1b033":[8,0,41,4,5],
 "class_linux_1_1_linux_thread_local_data.html#a400d1657cb923035d1214f2e32e1b033":[9,0,38,4,5],
-"class_linux_1_1_linux_thread_local_data.html#a73d9a109a73c5ed517f003b6e6fdfb32":[8,0,41,4,8],
-"class_linux_1_1_linux_thread_local_data.html#a73d9a109a73c5ed517f003b6e6fdfb32":[9,0,38,4,8],
-"class_linux_1_1_linux_thread_local_data.html#a9120a4054d8eaeb1f059f965f0f6c4fd":[8,0,41,4,4]
+"class_linux_1_1_linux_thread_local_data.html#a73d9a109a73c5ed517f003b6e6fdfb32":[8,0,41,4,8]
 };

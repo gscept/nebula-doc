@@ -1,5 +1,13 @@
 var NAVTREEINDEX102 =
 {
+"functions_w.html":[9,3,0,23],
+"functions_x.html":[9,3,0,24],
+"functions_y.html":[9,3,0,25],
+"functions_z.html":[9,3,0,26],
+"functions_~.html":[9,3,0,27],
+"game_8cc.html":[10,0,0,0,9,0,4],
+"game_8h.html":[10,0,0,0,9,0,5],
+"game_8h_source.html":[10,0,0,0,9,0,5],
 "gameapplication_8cc.html":[10,0,0,1,0,0],
 "gameapplication_8h.html":[10,0,0,1,0,1],
 "gameapplication_8h_source.html":[10,0,0,1,0,1],
@@ -241,13 +249,5 @@ var NAVTREEINDEX102 =
 "httpresponsewriter_8h.html#ae4c358a9b0ebaf5a82fba6959de07596":[10,0,0,3,6,31,1],
 "httpresponsewriter_8h_source.html":[10,0,0,3,6,31],
 "httpserver_8cc.html":[10,0,0,3,6,32],
-"httpserver_8h.html":[10,0,0,3,6,33],
-"httpserver_8h.html#a1f7c980378473761029fa9aee9498a9f":[10,0,0,3,6,33,2],
-"httpserver_8h_source.html":[10,0,0,3,6,33],
-"httpserverproxy_8cc.html":[10,0,0,3,6,34],
-"httpserverproxy_8h.html":[10,0,0,3,6,35],
-"httpserverproxy_8h.html#a1018c97d8cd2f3bebdbd9f6374c5b163":[10,0,0,3,6,35,1],
-"httpserverproxy_8h_source.html":[10,0,0,3,6,35],
-"httpstatus_8cc.html":[10,0,0,3,6,36],
-"httpstatus_8h.html":[10,0,0,3,6,37]
+"httpserver_8h.html":[10,0,0,3,6,33]
 };

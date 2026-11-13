@@ -9,5 +9,6 @@ var ioserver_8h =
     [ "IO::DirectoryExists", "namespace_i_o.html#a370ba1d998bdd72ab43f7611f81baac0", null ],
     [ "IO::FileExists", "namespace_i_o.html#a81bcff1ad548c3e18725174079fb4bff", null ],
     [ "IO::ListDirectories", "namespace_i_o.html#a1fda1a0d779bcf9a04090c10373fe53d", null ],
-    [ "IO::ListFiles", "namespace_i_o.html#a64829c8787d2005aa89e5efe0c042ffa", null ]
+    [ "IO::ListFiles", "namespace_i_o.html#a64829c8787d2005aa89e5efe0c042ffa", null ],
+    [ "IO::RenameFile", "namespace_i_o.html#a1d3c7f5c84f713301d0cf54e790f2200", null ]
 ];

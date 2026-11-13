@@ -1,5 +1,14 @@
 var NAVTREEINDEX132 =
 {
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a1960a6bb17a32e9d5e72363183ffdf7e":[8,0,22,1,8],
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a1960a6bb17a32e9d5e72363183ffdf7e":[9,0,20,1,8],
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a605d1a660ab3b5a83d61a517f8471597":[8,0,22,1,9],
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a605d1a660ab3b5a83d61a517f8471597":[9,0,20,1,9],
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a6741a0a8afc5d5a01abd9d8846c57e7c":[8,0,22,1,3],
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a6741a0a8afc5d5a01abd9d8846c57e7c":[9,0,20,1,3],
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a738be39c3ccfd1533ab76462a8bf60a7":[8,0,22,1,1],
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a738be39c3ccfd1533ab76462a8bf60a7":[9,0,20,1,1],
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a76e376de19c2bfeac64e4efbba1e8f4b":[8,0,22,1,2],
 "struct_fog_1_1_0fstruct_0e_8fog_state.html#a76e376de19c2bfeac64e4efbba1e8f4b":[9,0,20,1,2],
 "struct_fog_1_1_0fstruct_0e_8fog_state.html#a8bc007a47d407869927bb05d1ec06c16":[8,0,22,1,5],
 "struct_fog_1_1_0fstruct_0e_8fog_state.html#a8bc007a47d407869927bb05d1ec06c16":[9,0,20,1,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX132 =
 "struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html":[8,0,23,20,0],
 "struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html":[9,0,21,20,0],
 "struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad0ed1e696c3258ef9b9af45930aecf21":[8,0,23,20,0,0],
-"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad0ed1e696c3258ef9b9af45930aecf21":[9,0,21,20,0,0],
-"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad57128ba6298f55a3400680c1a8d9943":[8,0,23,20,0,1],
-"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad57128ba6298f55a3400680c1a8d9943":[9,0,21,20,0,1],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html":[8,0,23,21,0],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html":[9,0,21,21,0],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html#a3278b30870048c12601787130d648bdf":[8,0,23,21,0,1],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html#a3278b30870048c12601787130d648bdf":[9,0,21,21,0,1],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html#a4603741bfc6292087bf60a9df6065127":[8,0,23,21,0,0],
-"struct_frame_1_1_frame_subpass_plugin_1_1_compiled_impl.html#a4603741bfc6292087bf60a9df6065127":[9,0,21,21,0,0],
-"struct_frame_1_1_frame_swap_1_1_compiled_impl.html":[8,0,23,22,0]
+"struct_frame_1_1_frame_subpass_ordered_batch_1_1_compiled_impl.html#ad0ed1e696c3258ef9b9af45930aecf21":[9,0,21,20,0,0]
 };

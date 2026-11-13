@@ -1,5 +1,14 @@
 var NAVTREEINDEX127 =
 {
+"struct_core_graphics_1_1_image_load_info.html":[9,0,12,58],
+"struct_core_graphics_1_1_image_load_info.html#a24183676fe43e4c10f35085a746d51d0":[8,0,13,59,2],
+"struct_core_graphics_1_1_image_load_info.html#a24183676fe43e4c10f35085a746d51d0":[9,0,12,58,2],
+"struct_core_graphics_1_1_image_load_info.html#a3864244c0c34d016bfdacba662ed2d82":[8,0,13,59,10],
+"struct_core_graphics_1_1_image_load_info.html#a3864244c0c34d016bfdacba662ed2d82":[9,0,12,58,10],
+"struct_core_graphics_1_1_image_load_info.html#a3f51cefe9004afd286f5ef45726fba37":[8,0,13,59,4],
+"struct_core_graphics_1_1_image_load_info.html#a3f51cefe9004afd286f5ef45726fba37":[9,0,12,58,4],
+"struct_core_graphics_1_1_image_load_info.html#a4faac79d2a21131a4dbfb0a9fa4af7dd":[8,0,13,59,3],
+"struct_core_graphics_1_1_image_load_info.html#a4faac79d2a21131a4dbfb0a9fa4af7dd":[9,0,12,58,3],
 "struct_core_graphics_1_1_image_load_info.html#a527d1650ce16bfd9ab90e45b2e1ba302":[8,0,13,59,1],
 "struct_core_graphics_1_1_image_load_info.html#a527d1650ce16bfd9ab90e45b2e1ba302":[9,0,12,58,1],
 "struct_core_graphics_1_1_image_load_info.html#a87116cdf151fe097df2d147b4305d282":[8,0,13,59,5],
@@ -240,14 +249,5 @@ var NAVTREEINDEX127 =
 "struct_core_graphics_1_1_nvx3_vertex_range.html#a92e6776db5ad8a1b3c42f355ae977964":[9,0,12,78,1],
 "struct_core_graphics_1_1_nvx3_vertex_range.html#ab0a950aa981fe3b99945b5019acdfe26":[8,0,13,79,0],
 "struct_core_graphics_1_1_nvx3_vertex_range.html#ab0a950aa981fe3b99945b5019acdfe26":[9,0,12,78,0],
-"struct_core_graphics_1_1_nvx3_vertex_range.html#abdca0093a9a90ce0e6f857a9756ab281":[8,0,13,79,4],
-"struct_core_graphics_1_1_nvx3_vertex_range.html#abdca0093a9a90ce0e6f857a9756ab281":[9,0,12,78,4],
-"struct_core_graphics_1_1_nvx3_vertex_range.html#ac78a0b862aced9be45510e365773468a":[8,0,13,79,3],
-"struct_core_graphics_1_1_nvx3_vertex_range.html#ac78a0b862aced9be45510e365773468a":[9,0,12,78,3],
-"struct_core_graphics_1_1_pass_create_info.html":[8,0,13,80],
-"struct_core_graphics_1_1_pass_create_info.html":[9,0,12,79],
-"struct_core_graphics_1_1_pass_create_info.html#a1792e40c430a215333a09cf278984a2a":[8,0,13,80,1],
-"struct_core_graphics_1_1_pass_create_info.html#a1792e40c430a215333a09cf278984a2a":[9,0,12,79,1],
-"struct_core_graphics_1_1_pass_create_info.html#a1a5190db85479ce7daf1c3dcfb24e50c":[8,0,13,80,4],
-"struct_core_graphics_1_1_pass_create_info.html#a1a5190db85479ce7daf1c3dcfb24e50c":[9,0,12,79,4]
+"struct_core_graphics_1_1_nvx3_vertex_range.html#abdca0093a9a90ce0e6f857a9756ab281":[8,0,13,79,4]
 };

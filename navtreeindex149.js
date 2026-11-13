@@ -1,5 +1,14 @@
 var NAVTREEINDEX149 =
 {
+"struct_nebula_1_1_quaternion.html#a7767812272ab9b29aaaa13c41e8704ef":[9,0,50,11,25],
+"struct_nebula_1_1_quaternion.html#a81cd4500ad1ff38fc6daaf8d3348506e":[8,0,55,11,21],
+"struct_nebula_1_1_quaternion.html#a81cd4500ad1ff38fc6daaf8d3348506e":[9,0,50,11,21],
+"struct_nebula_1_1_quaternion.html#a8725d1fdd3234f6e8bcf8adb6dc7695b":[8,0,55,11,7],
+"struct_nebula_1_1_quaternion.html#a8725d1fdd3234f6e8bcf8adb6dc7695b":[9,0,50,11,7],
+"struct_nebula_1_1_quaternion.html#a8a9b2cce495415d13ec64380936890b4":[8,0,55,11,35],
+"struct_nebula_1_1_quaternion.html#a8a9b2cce495415d13ec64380936890b4":[9,0,50,11,35],
+"struct_nebula_1_1_quaternion.html#a8b8c215ea7de4d438f7f42018cec174a":[8,0,55,11,43],
+"struct_nebula_1_1_quaternion.html#a8b8c215ea7de4d438f7f42018cec174a":[9,0,50,11,43],
 "struct_nebula_1_1_quaternion.html#a8e92cfe9f7d37a3465d948f18d69dd4f":[8,0,55,11,58],
 "struct_nebula_1_1_quaternion.html#a8e92cfe9f7d37a3465d948f18d69dd4f":[9,0,50,11,58],
 "struct_nebula_1_1_quaternion.html#a8f04ce681f3df66d3e2d58bee08dbe86":[8,0,55,11,23],
@@ -240,14 +249,5 @@ var NAVTREEINDEX149 =
 "struct_nebula_1_1_vector2.html#a500aaaf849461f24ea27cfae7b081509":[9,0,50,15,14],
 "struct_nebula_1_1_vector2.html#a5bb9dcce07d66a23f91dc2ef4775c45c":[8,0,55,15,84],
 "struct_nebula_1_1_vector2.html#a5bb9dcce07d66a23f91dc2ef4775c45c":[9,0,50,15,84],
-"struct_nebula_1_1_vector2.html#a5e90a77d986f7cec9734d08bbf780442":[8,0,55,15,12],
-"struct_nebula_1_1_vector2.html#a5e90a77d986f7cec9734d08bbf780442":[9,0,50,15,12],
-"struct_nebula_1_1_vector2.html#a603e1fcc557e8191f61097c4b0052a21":[8,0,55,15,87],
-"struct_nebula_1_1_vector2.html#a603e1fcc557e8191f61097c4b0052a21":[9,0,50,15,87],
-"struct_nebula_1_1_vector2.html#a61a15d64b091df18c5a3eb5d6240aa8a":[8,0,55,15,40],
-"struct_nebula_1_1_vector2.html#a61a15d64b091df18c5a3eb5d6240aa8a":[9,0,50,15,40],
-"struct_nebula_1_1_vector2.html#a6280fc8fcf855c8c569009e906c2748b":[8,0,55,15,28],
-"struct_nebula_1_1_vector2.html#a6280fc8fcf855c8c569009e906c2748b":[9,0,50,15,28],
-"struct_nebula_1_1_vector2.html#a62f48f742737edb6689a114748c89852":[8,0,55,15,26],
-"struct_nebula_1_1_vector2.html#a62f48f742737edb6689a114748c89852":[9,0,50,15,26]
+"struct_nebula_1_1_vector2.html#a5e90a77d986f7cec9734d08bbf780442":[8,0,55,15,12]
 };

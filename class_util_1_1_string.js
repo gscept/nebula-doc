@@ -161,6 +161,7 @@ var class_util_1_1_string =
     [ "Sprintf", "class_util_1_1_string.html#acc8944e6c07d92240ad4c4ce6904c963", null ],
     [ "StrChr", "class_util_1_1_string.html#a1cecca3952c124fdc13d76d89f627cfb", null ],
     [ "StrCmp", "class_util_1_1_string.html#a86d12c9ba19d701db1ac02396669cf5b", null ],
+    [ "StrICmp", "class_util_1_1_string.html#a448fb6d826d4a93420c8f302856632d4", null ],
     [ "Strip", "class_util_1_1_string.html#aa7921f7a198e04acd6f5fbd393d6ad72", null ],
     [ "StripAssignPrefix", "class_util_1_1_string.html#a4e5667ea4a891e28508119e7e4c263f0", null ],
     [ "StripFileExtension", "class_util_1_1_string.html#a3c3039cf0ba42d5287bc4ae59f669587", null ],

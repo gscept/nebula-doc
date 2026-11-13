@@ -480,6 +480,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a349fc4d958c5229d59f8e7de97af21fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert char to uppercase  <br /></td></tr>
 <tr class="memitem:a86d12c9ba19d701db1ac02396669cf5b" id="r_a86d12c9ba19d701db1ac02396669cf5b"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a86d12c9ba19d701db1ac02396669cf5b">StrCmp</a> (const char *str0, const char *str1)</td></tr>
 <tr class="memdesc:a86d12c9ba19d701db1ac02396669cf5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">lowlevel string compare wrapper function  <br /></td></tr>
+<tr class="memitem:a448fb6d826d4a93420c8f302856632d4" id="r_a448fb6d826d4a93420c8f302856632d4"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a448fb6d826d4a93420c8f302856632d4">StrICmp</a> (const char *str0, const char *str1)</td></tr>
+<tr class="memdesc:a448fb6d826d4a93420c8f302856632d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">lowlevel case-insensitive string compare function  <br /></td></tr>
 <tr class="memitem:ab18fa8c6c8169151e82295da4d70cffd" id="r_ab18fa8c6c8169151e82295da4d70cffd"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ab18fa8c6c8169151e82295da4d70cffd">StrLen</a> (const char *str)</td></tr>
 <tr class="memdesc:ab18fa8c6c8169151e82295da4d70cffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">lowlevel string length function  <br /></td></tr>
 <tr class="memitem:a1cecca3952c124fdc13d76d89f627cfb" id="r_a1cecca3952c124fdc13d76d89f627cfb"><td class="memItemLeft">static const char *&#160;</td><td class="memItemRight"><a class="el" href="#a1cecca3952c124fdc13d76d89f627cfb">StrChr</a> (const char *str, int c)</td></tr>
@@ -4454,6 +4456,39 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p>lowlevel string compare wrapper function </p>
+
+</div>
+</div>
+<a id="a448fb6d826d4a93420c8f302856632d4" name="a448fb6d826d4a93420c8f302856632d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a448fb6d826d4a93420c8f302856632d4">&#9670;&#160;</a></span>StrICmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Util::String::StrICmp </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str0</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>str1</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>lowlevel case-insensitive string compare function </p>
+<p>Case-insensitive compare.</p>
+<p>Returns 0 when the strings are equal, a negative value when str0 sorts before str1, and a positive value otherwise. </p>
 
 </div>
 </div>

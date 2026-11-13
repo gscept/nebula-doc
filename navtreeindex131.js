@@ -1,5 +1,14 @@
 var NAVTREEINDEX131 =
 {
+"struct_core_graphics_1_1_tlas_create_info.html#aa0f49e3d755f6b4efd5e0cd85ed6e5f6":[9,0,12,153,2],
+"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[8,0,13,154,0],
+"struct_core_graphics_1_1_tlas_create_info.html#abd10e01c79b8f7732d34c15b330bb795":[9,0,12,153,0],
+"struct_core_graphics_1_1_tlas_id.html":[8,0,13,155],
+"struct_core_graphics_1_1_tlas_id.html":[9,0,12,154],
+"struct_core_graphics_1_1_vertex_alloc.html":[8,0,13,156],
+"struct_core_graphics_1_1_vertex_alloc.html":[9,0,12,155],
+"struct_core_graphics_1_1_vertex_alloc.html#a189ceb74bdf3f1a24e04aa07ebeabd68":[8,0,13,156,2],
+"struct_core_graphics_1_1_vertex_alloc.html#a189ceb74bdf3f1a24e04aa07ebeabd68":[9,0,12,155,2],
 "struct_core_graphics_1_1_vertex_alloc.html#aaf49e692b21bede0307497299455d7d9":[8,0,13,156,0],
 "struct_core_graphics_1_1_vertex_alloc.html#aaf49e692b21bede0307497299455d7d9":[9,0,12,155,0],
 "struct_core_graphics_1_1_vertex_alloc.html#abeac5140e4a030de879a77ca0e559e4f":[8,0,13,156,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX131 =
 "struct_fog_1_1_0fstruct_0e_8fog_state.html#a0c788258562b6c6275ba91e1937d195f":[8,0,22,1,12],
 "struct_fog_1_1_0fstruct_0e_8fog_state.html#a0c788258562b6c6275ba91e1937d195f":[9,0,20,1,12],
 "struct_fog_1_1_0fstruct_0e_8fog_state.html#a137d4aabc8663c575e3c79254b521f4e":[8,0,22,1,4],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a137d4aabc8663c575e3c79254b521f4e":[9,0,20,1,4],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a1960a6bb17a32e9d5e72363183ffdf7e":[8,0,22,1,8],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a1960a6bb17a32e9d5e72363183ffdf7e":[9,0,20,1,8],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a605d1a660ab3b5a83d61a517f8471597":[8,0,22,1,9],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a605d1a660ab3b5a83d61a517f8471597":[9,0,20,1,9],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a6741a0a8afc5d5a01abd9d8846c57e7c":[8,0,22,1,3],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a6741a0a8afc5d5a01abd9d8846c57e7c":[9,0,20,1,3],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a738be39c3ccfd1533ab76462a8bf60a7":[8,0,22,1,1],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a738be39c3ccfd1533ab76462a8bf60a7":[9,0,20,1,1],
-"struct_fog_1_1_0fstruct_0e_8fog_state.html#a76e376de19c2bfeac64e4efbba1e8f4b":[8,0,22,1,2]
+"struct_fog_1_1_0fstruct_0e_8fog_state.html#a137d4aabc8663c575e3c79254b521f4e":[9,0,20,1,4]
 };

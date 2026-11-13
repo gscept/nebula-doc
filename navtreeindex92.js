@@ -1,5 +1,11 @@
 var NAVTREEINDEX92 =
 {
+"class_visibility_1_1_portal_system.html#ac4d5cfb7aa67d4043f116d98b94a8365":[8,0,85,8,0],
+"class_visibility_1_1_portal_system.html#ac4d5cfb7aa67d4043f116d98b94a8365":[9,0,74,8,0],
+"class_visibility_1_1_quadtree_system.html":[8,0,85,10],
+"class_visibility_1_1_quadtree_system.html":[9,0,74,10],
+"class_visibility_1_1_quadtree_system.html#a55b4a726fab750e34020772e72b0e41d":[8,0,85,10,0],
+"class_visibility_1_1_quadtree_system.html#a55b4a726fab750e34020772e72b0e41d":[9,0,74,10,0],
 "class_visibility_1_1_quadtree_system.html#aa747929850d5410b9d36ea0eb29ab96d":[8,0,85,10,1],
 "class_visibility_1_1_quadtree_system.html#aa747929850d5410b9d36ea0eb29ab96d":[9,0,74,10,1],
 "class_visibility_1_1_visibility_container.html":[8,0,85,12],
@@ -243,11 +249,5 @@ var NAVTREEINDEX92 =
 "class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a24531685702f4ea2b84e2d66b5a0f643":[8,0,86,35,0,10],
 "class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a24531685702f4ea2b84e2d66b5a0f643":[9,0,75,35,0,10],
 "class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a2ba4291aa808911a4308d3402c90b7b1":[8,0,86,35,0,0],
-"class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a2ba4291aa808911a4308d3402c90b7b1":[9,0,75,35,0,0],
-"class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a2d1e3338f330c2c732d7f92eefb51723":[8,0,86,35,0,21],
-"class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a2d1e3338f330c2c732d7f92eefb51723":[9,0,75,35,0,21],
-"class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a32be253402a6405cf3fe4ca006eea0b6":[8,0,86,35,0,9],
-"class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a32be253402a6405cf3fe4ca006eea0b6":[9,0,75,35,0,9],
-"class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a4a0ce3ba8e62603b06ea0fe8f312fe49":[8,0,86,35,0,2],
-"class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a4a0ce3ba8e62603b06ea0fe8f312fe49":[9,0,75,35,0,2]
+"class_vulkan_1_1_vk_scheduler.html#a00ae15d7a68864d9424db383408cda39a2ba4291aa808911a4308d3402c90b7b1":[9,0,75,35,0,0]
 };

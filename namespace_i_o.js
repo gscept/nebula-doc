@@ -187,5 +187,6 @@ var namespace_i_o =
     [ "Log", "namespace_i_o.html#a479543a679a02f5185957c946e30f42e", null ],
     [ "LogError", "namespace_i_o.html#a11fd6372b9b68b459e2f423d95fe3cb9", null ],
     [ "LogSource", "namespace_i_o.html#abc87bac529ca1319b0830a2db127890b", null ],
-    [ "LogWarning", "namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10", null ]
+    [ "LogWarning", "namespace_i_o.html#a7c722915428e3fd4aba8ce70c1ee6c10", null ],
+    [ "RenameFile", "namespace_i_o.html#a1d3c7f5c84f713301d0cf54e790f2200", null ]
 ];
