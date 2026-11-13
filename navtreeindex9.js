@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"class_audio_feature_1_1_audio_manager.html#a05b43c651154462cbc59eb5f04338055":[9,0,4,1,0],
+"class_audio_feature_1_1_audio_manager.html#a10a016eaf6a2645575b6ff067545dbd7":[8,0,4,1,5],
+"class_audio_feature_1_1_audio_manager.html#a10a016eaf6a2645575b6ff067545dbd7":[9,0,4,1,5],
+"class_audio_feature_1_1_audio_manager.html#a187ea3e4fa644ddb26520cd293b6c4c3":[8,0,4,1,3],
 "class_audio_feature_1_1_audio_manager.html#a187ea3e4fa644ddb26520cd293b6c4c3":[9,0,4,1,3],
 "class_audio_feature_1_1_audio_manager.html#a44dce18dece577ae260d4bfeb9e986b1":[8,0,4,1,2],
 "class_audio_feature_1_1_audio_manager.html#a44dce18dece577ae260d4bfeb9e986b1":[9,0,4,1,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "class_base_1_1_game_pad_base.html#a0bde31ae4212db63b22cfe09794383b9":[8,0,5,3,18],
 "class_base_1_1_game_pad_base.html#a0bde31ae4212db63b22cfe09794383b9":[9,0,5,3,18],
 "class_base_1_1_game_pad_base.html#a0f5e02a2211428ee116c94b191140b2e":[8,0,5,3,25],
-"class_base_1_1_game_pad_base.html#a0f5e02a2211428ee116c94b191140b2e":[9,0,5,3,25],
-"class_base_1_1_game_pad_base.html#a257265864c30c05b010c2142468d2448":[8,0,5,3,5],
-"class_base_1_1_game_pad_base.html#a257265864c30c05b010c2142468d2448":[9,0,5,3,5],
-"class_base_1_1_game_pad_base.html#a364b53e009f2d1eb27f011f9df99e188":[8,0,5,3,2],
-"class_base_1_1_game_pad_base.html#a364b53e009f2d1eb27f011f9df99e188":[9,0,5,3,2]
+"class_base_1_1_game_pad_base.html#a0f5e02a2211428ee116c94b191140b2e":[9,0,5,3,25]
 };

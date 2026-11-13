@@ -8,10 +8,11 @@ var searchData=
   ['columnbuffer_5',['ColumnBuffer',['../class_mem_db_1_1_table.html#a0ed3b5a6e221b0e63dc2bd36a2ef639d',1,'MemDb::Table']]],
   ['completioncounter_6',['CompletionCounter',['../namespace_jobs2.html#ae7ceff6df92eaeefcc62b5b42ede81f7',1,'Jobs2']]],
   ['componentarray_7',['ComponentArray',['../namespace_game.html#a149b84fe123ad1661f46185ffad55dc9',1,'Game']]],
-  ['componentid_8',['ComponentId',['../namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8',1,'Game']]],
-  ['componentinitfunc_9',['ComponentInitFunc',['../class_game_1_1_component_interface.html#a744e823b98888da0ce11040b14ba13f8',1,'Game::ComponentInterface']]],
-  ['constantbufferoffset_10',['ConstantBufferOffset',['../namespace_core_graphics.html#a1677e6a7eb61ba86c79b1cfe128894ba',1,'CoreGraphics']]],
-  ['constiterator_11',['ConstIterator',['../class_util_1_1_array.html#a0843414733b594d6555f63df1094c73a',1,'Util::Array']]],
-  ['coreid_12',['CoreId',['../class_o_s_x_1_1_o_s_x_cpu.html#a5f1719763514bd67b1d6f10cc7204f7c',1,'OSX::OSXCpu::CoreId'],['../class_posix_1_1_posix_cpu.html#a4e43bdafc34fde129fcea1e00506bd55',1,'Posix::PosixCpu::CoreId'],['../class_win32_1_1_win32_cpu.html#ad6bcb5a51eaa9697a4343fa2d37091cf',1,'Win32::Win32Cpu::CoreId']]],
-  ['creator_13',['Creator',['../class_core_1_1_rtti.html#ad11d26a87d00bedcb32f918aaea3b9e1',1,'Core::Rtti']]]
+  ['componentdecayfunc_8',['ComponentDecayFunc',['../class_game_1_1_component_interface.html#a365db96c7a0791d9861243d087ab1444',1,'Game::ComponentInterface']]],
+  ['componentid_9',['ComponentId',['../namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8',1,'Game']]],
+  ['componentinitfunc_10',['ComponentInitFunc',['../class_game_1_1_component_interface.html#a744e823b98888da0ce11040b14ba13f8',1,'Game::ComponentInterface']]],
+  ['constantbufferoffset_11',['ConstantBufferOffset',['../namespace_core_graphics.html#a1677e6a7eb61ba86c79b1cfe128894ba',1,'CoreGraphics']]],
+  ['constiterator_12',['ConstIterator',['../class_util_1_1_array.html#a0843414733b594d6555f63df1094c73a',1,'Util::Array']]],
+  ['coreid_13',['CoreId',['../class_o_s_x_1_1_o_s_x_cpu.html#a5f1719763514bd67b1d6f10cc7204f7c',1,'OSX::OSXCpu::CoreId'],['../class_posix_1_1_posix_cpu.html#a4e43bdafc34fde129fcea1e00506bd55',1,'Posix::PosixCpu::CoreId'],['../class_win32_1_1_win32_cpu.html#ad6bcb5a51eaa9697a4343fa2d37091cf',1,'Win32::Win32Cpu::CoreId']]],
+  ['creator_14',['Creator',['../class_core_1_1_rtti.html#ad11d26a87d00bedcb32f918aaea3b9e1',1,'Core::Rtti']]]
 ];

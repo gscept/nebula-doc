@@ -114,6 +114,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('physicsfeature
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="featureunit_8h_source.html">game/featureunit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="application_2game_2frameevent_8h_source.html">game/frameevent.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timesource_8h_source.html">game/timesource.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="cvar_8h_source.html">core/cvar.h</a>&quot;</code><br />
 </div>
 <p><a href="physicsfeatureunit_8h_source.html">Go to the source code of this file.</a></p>
@@ -129,9 +131,24 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9057a793bc86a377b872aef76ff288eb" id="r_a9057a793bc86a377b872aef76ff288eb"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9057a793bc86a377b872aef76ff288eb">TIMESOURCE_PHYSICS</a>&#160;&#160;&#160;'PHTS'</td></tr>
+<tr class="memitem:a9057a793bc86a377b872aef76ff288eb" id="r_a9057a793bc86a377b872aef76ff288eb"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9057a793bc86a377b872aef76ff288eb">TIMESOURCE_PHYSICS</a>&#160;&#160;&#160;uint32_t('PHTS')</td></tr>
+<tr class="memitem:a9bf1c4f1b563015f150e8def51b8d0e8" id="r_a9bf1c4f1b563015f150e8def51b8d0e8"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9bf1c4f1b563015f150e8def51b8d0e8">PHYSICS_RATE</a>&#160;&#160;&#160;0.016</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
+<a id="a9bf1c4f1b563015f150e8def51b8d0e8" name="a9bf1c4f1b563015f150e8def51b8d0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf1c4f1b563015f150e8def51b8d0e8">&#9670;&#160;</a></span>PHYSICS_RATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PHYSICS_RATE&#160;&#160;&#160;0.016</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9057a793bc86a377b872aef76ff288eb" name="a9057a793bc86a377b872aef76ff288eb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9057a793bc86a377b872aef76ff288eb">&#9670;&#160;</a></span>TIMESOURCE_PHYSICS</h2>
 
@@ -139,7 +156,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define TIMESOURCE_PHYSICS&#160;&#160;&#160;'PHTS'</td>
+          <td class="memname">#define TIMESOURCE_PHYSICS&#160;&#160;&#160;uint32_t('PHTS')</td>
         </tr>
       </table>
 </div><div class="memdoc">

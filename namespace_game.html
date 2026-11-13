@@ -114,9 +114,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_game
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Resolves local hierarchical transforms into the mandatory world transform components. </p>
-<p><a class="el" href="class_game_1_1_editor_state.html">Game::EditorState</a>.</p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2026 Individual contributors, see AUTHORS file</dd></dl>
+<div class="textblock"><p><a class="el" href="class_game_1_1_editor_state.html">Game::EditorState</a>. </p>
 <p>A state singleton that keeps track of the state of the level editor.</p>
 <dl class="section note"><dt>Note</dt><dd>Though the editor is an external library, we still need to keep track of the editors state from the game layer in some way, which is why this exists.</dd></dl>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2024 Individual contributors, see AUTHORS file </dd></dl>
@@ -124,6 +122,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_game
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:Time" id="r_Time"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_game_1_1_time.html">Time</a></td></tr>
+<tr class="memdesc:namespace_game_1_1_time"><td class="mdescLeft">&#160;</td><td class="mdescRight">These are the standard time source objects provided by Application layer: <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -152,10 +151,11 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="class_game_1_1_feature_unit.html" title="A FeatureUnit is an encapsulated feature which can be added to an application.">FeatureUnit</a> is an encapsulated feature which can be added to an application.  <a href="class_game_1_1_feature_unit.html#details">More...</a><br /></td></tr>
 <tr class="memitem:FilterBuilder" id="r_FilterBuilder"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_filter_builder.html">FilterBuilder</a></td></tr>
 <tr class="memitem:FrameEvent" id="r_FrameEvent"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_frame_event.html">FrameEvent</a></td></tr>
+<tr class="memitem:FrameEventCreateInfo" id="r_FrameEventCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_game_1_1_frame_event_create_info.html">FrameEventCreateInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to register a frame event in the frame pipeline.  <a href="struct_game_1_1_frame_event_create_info.html#details">More...</a><br /></td></tr>
 <tr class="memitem:FramePipeline" id="r_FramePipeline"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_frame_pipeline.html">FramePipeline</a></td></tr>
 <tr class="memitem:GameServer" id="r_GameServer"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_game_server.html">GameServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The game server setups and runs the game world.  <a href="class_game_1_1_game_server.html#details">More...</a><br /></td></tr>
-<tr class="memitem:HierarchyManager" id="r_HierarchyManager"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_hierarchy_manager.html">HierarchyManager</a></td></tr>
 <tr class="memitem:Manager" id="r_Manager"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_manager.html">Manager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Managers are objects which care about some specific functionality of a feature.  <a href="class_game_1_1_manager.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Message" id="r_Message"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_message.html">Message</a></td></tr>
@@ -179,6 +179,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object that keeps track of running time and frame time (delta time).  <a href="struct_game_1_1_time_source.html#details">More...</a><br /></td></tr>
 <tr class="memitem:TimeSourceCreateInfo" id="r_TimeSourceCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_game_1_1_time_source_create_info.html">TimeSourceCreateInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a timesource.  <a href="struct_game_1_1_time_source_create_info.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TransformHierarchy" id="r_TransformHierarchy"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_transform_hierarchy.html">TransformHierarchy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent, child and sibling links of the entities in one world's hierarchy.  <a href="class_game_1_1_transform_hierarchy.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Velocity" id="r_Velocity"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_game_1_1_velocity.html">Velocity</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A component that stores the linear velocity of an entity.  <a href="struct_game_1_1_velocity.html#details">More...</a><br /></td></tr>
 <tr class="memitem:World" id="r_World"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_world.html">World</a></td></tr>
@@ -220,9 +222,11 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ab8dd168a047cf696bf1c35c42f3d0039" id="r_ab8dd168a047cf696bf1c35c42f3d0039"><td class="memItemLeft">template&lt;&gt; </td></tr>
 <tr class="memitem:ab8dd168a047cf696bf1c35c42f3d0039 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab8dd168a047cf696bf1c35c42f3d0039">ComponentDrawFuncT&lt; GraphicsFeature::AreaLightShape &gt;</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, <a class="el" href="#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a>, void *, bool *)</td></tr>
-<tr class="memitem:a11c1d59544c659ab5e0303c930b7bc32" id="r_a11c1d59544c659ab5e0303c930b7bc32"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a11c1d59544c659ab5e0303c930b7bc32">__ImplementClass</a> (<a class="el" href="class_game_1_1_hierarchy_manager.html">Game::HierarchyManager</a>, 'HiMa', <a class="el" href="class_game_1_1_manager.html">Game::Manager</a>)</td></tr>
 <tr class="memitem:adc455f99cf8a882d882c74003fc0210c" id="r_adc455f99cf8a882d882c74003fc0210c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#adc455f99cf8a882d882c74003fc0210c">__ImplementClass</a> (<a class="el" href="class_game_1_1_time_manager.html">Game::TimeManager</a>, 'TiMa', <a class="el" href="class_game_1_1_manager.html">Game::Manager</a>)</td></tr>
 <tr class="memitem:a9557fb7e6cf1465253681a5742b9ab6a" id="r_a9557fb7e6cf1465253681a5742b9ab6a"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a9557fb7e6cf1465253681a5742b9ab6a">__ImplementSingleton</a> (<a class="el" href="class_game_1_1_time_manager.html">Game::TimeManager</a>) <a class="el" href="class_game_1_1_time_manager.html">TimeManager</a></td></tr>
+<tr class="memitem:a88656a56c372cf4ab8dac54655d7542d" id="r_a88656a56c372cf4ab8dac54655d7542d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a88656a56c372cf4ab8dac54655d7542d">__ImplementClass</a> (<a class="el" href="class_game_1_1_transform_hierarchy.html">Game::TransformHierarchy</a>, 'Thie', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
+<tr class="memitem:acec6f9a71a0cc0870b7e2ccb67e21384" id="r_acec6f9a71a0cc0870b7e2ccb67e21384"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acec6f9a71a0cc0870b7e2ccb67e21384">DecayHTransform</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, Game::HTransform *component)</td></tr>
+<tr class="memdesc:acec6f9a71a0cc0870b7e2ccb67e21384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Component decay hook.  <br /></td></tr>
 <tr class="memitem:afca219253f3d0b2360830d0f4c487625" id="r_afca219253f3d0b2360830d0f4c487625"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afca219253f3d0b2360830d0f4c487625">ReleaseDatasets</a> ()</td></tr>
 <tr class="memdesc:afca219253f3d0b2360830d0f4c487625"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recycles all current datasets allocated memory to be reused.  <br /></td></tr>
 <tr class="memitem:a3e2891686998c0318e52a525428b783f" id="r_a3e2891686998c0318e52a525428b783f"><td class="memItemLeft"><a class="el" href="struct_game_1_1_dataset.html">Game::Dataset</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3e2891686998c0318e52a525428b783f">Query</a> (<a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_mem_db_1_1_database.html">MemDb::Database</a> &gt; const  &amp;db, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> &gt; &amp;tables, <a class="el" href="#a1662e5ccb92417291ab5653883de7145">Filter</a> filter)</td></tr>
@@ -602,34 +606,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a11c1d59544c659ab5e0303c930b7bc32" name="a11c1d59544c659ab5e0303c930b7bc32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11c1d59544c659ab5e0303c930b7bc32">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Game::__ImplementClass </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_hierarchy_manager.html">Game::HierarchyManager</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">'HiMa'</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="class_game_1_1_manager.html">Game::Manager</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae2a1520d306f5dc8d7f5bffc9ce80c2e" name="ae2a1520d306f5dc8d7f5bffc9ce80c2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a1520d306f5dc8d7f5bffc9ce80c2e">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[4/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a1520d306f5dc8d7f5bffc9ce80c2e">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -655,7 +633,7 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a id="adc455f99cf8a882d882c74003fc0210c" name="adc455f99cf8a882d882c74003fc0210c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc455f99cf8a882d882c74003fc0210c">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adc455f99cf8a882d882c74003fc0210c">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -674,6 +652,32 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="class_game_1_1_manager.html">Game::Manager</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88656a56c372cf4ab8dac54655d7542d" name="a88656a56c372cf4ab8dac54655d7542d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88656a56c372cf4ab8dac54655d7542d">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Game::__ImplementClass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_transform_hierarchy.html">Game::TransformHierarchy</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'Thie'</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2226,6 +2230,37 @@ template&lt;&gt; </div>
 </div><div class="memdoc">
 
 <p>retrieve the inclusive component array </p>
+
+</div>
+</div>
+<a id="acec6f9a71a0cc0870b7e2ccb67e21384" name="acec6f9a71a0cc0870b7e2ccb67e21384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec6f9a71a0cc0870b7e2ccb67e21384">&#9670;&#160;</a></span>DecayHTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::DecayHTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Game::HTransform *</td>          <td class="paramname"><span class="paramname"><em>component</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Component decay hook. </p>
+<p>Component decay hook for Game::HTransform.</p>
+<p>Taking the local transform component away takes the entity out of the hierarchy, and its children become roots with the world transform they have.</p>
+<p>Taking the component away takes the entity out of the hierarchy, and its children become roots with the world transform they have. </p>
 
 </div>
 </div>

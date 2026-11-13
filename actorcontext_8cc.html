@@ -118,6 +118,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('actorcontext_8
 <code>#include &quot;<a class="el" href="actorcontext_8h_source.html">physics/actorcontext.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="physxstate_8h_source.html">physics/physxstate.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utils_8h_source.html">physics/utils.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="geometry_8h_source.html">physics/geometry.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cooking_8h_source.html">physics/cooking.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="transform_8h_source.html">math/transform.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
@@ -129,6 +131,28 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a03611819c9f3c2771f085923e812b3ac" id="r_a03611819c9f3c2771f085923e812b3ac"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a03611819c9f3c2771f085923e812b3ac">GET_ACTOR</a>(i)</td></tr>
 <tr class="memitem:a9c337ead4c751fbd24aeb44cb5a0b7f6" id="r_a9c337ead4c751fbd24aeb44cb5a0b7f6"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a9c337ead4c751fbd24aeb44cb5a0b7f6">GET_DYNAMIC</a>(i)</td></tr>
+<tr class="memitem:acf08c5855b98382badec23f1b983bda3" id="r_acf08c5855b98382badec23f1b983bda3"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#acf08c5855b98382badec23f1b983bda3">GET_RIGID</a>(i)</td></tr>
+<tr class="memitem:aae601808a2e5dc48a7b1c09682437266" id="r_aae601808a2e5dc48a7b1c09682437266"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#aae601808a2e5dc48a7b1c09682437266">GET_SHAPE</a>(i)</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a0bd8df47b3c48d4979fd712e693a3161" id="r_a0bd8df47b3c48d4979fd712e693a3161"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#a0bd8df47b3c48d4979fd712e693a3161">Physics::IsKinematic</a> (PxRigidActor *actor)</td></tr>
+<tr class="memdesc:a0bd8df47b3c48d4979fd712e693a3161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kinematic is a rigid body flag, and the actors tracked here can be static, so the actor kind has to be checked before the flag is read.  <br /></td></tr>
+<tr class="memitem:a6c67d964263a6fa094ce3683aa25b6f3" id="r_a6c67d964263a6fa094ce3683aa25b6f3"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#a6c67d964263a6fa094ce3683aa25b6f3">Physics::HashMix</a> (uint64_t &amp;hash, uint64_t value)</td></tr>
+<tr class="memdesc:a6c67d964263a6fa094ce3683aa25b6f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">FNV-1a hash.  <br /></td></tr>
+<tr class="memitem:abf4c09aa6c2011f0a2e7a1fc0675579e" id="r_abf4c09aa6c2011f0a2e7a1fc0675579e"><td class="memItemLeft">static uint64_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#abf4c09aa6c2011f0a2e7a1fc0675579e">Physics::HashFloat</a> (float value)</td></tr>
+<tr class="memitem:af3e4f97bd30a54c23ff6dcac9b4d0af0" id="r_af3e4f97bd30a54c23ff6dcac9b4d0af0"><td class="memItemLeft">static uint64_t&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#af3e4f97bd30a54c23ff6dcac9b4d0af0">Physics::ColliderGeometryHash</a> (const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;desc)</td></tr>
+<tr class="memdesc:af3e4f97bd30a54c23ff6dcac9b4d0af0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_hash.html" title="a generic hash function class based on murmurhash3.">Hash</a> of the parts of a collider description that decide the cooked geometry.  <br /></td></tr>
+<tr class="memitem:a6201801be025357a4ed55fe6d3fa2fdb" id="r_a6201801be025357a4ed55fe6d3fa2fdb"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#a6201801be025357a4ed55fe6d3fa2fdb">Physics::BuildGeometry</a> (const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;desc, PxGeometryHolder &amp;out)</td></tr>
+<tr class="memitem:abc29b9cd4f332900de62f761a9dfa6f9" id="r_abc29b9cd4f332900de62f761a9dfa6f9"><td class="memItemLeft">static PxMaterial *&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#abc29b9cd4f332900de62f761a9dfa6f9">Physics::ResolveShapeMaterial</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> materialId)</td></tr>
+<tr class="memitem:ac0907fc8261b85e8ef6e09da3e30ad51" id="r_ac0907fc8261b85e8ef6e09da3e30ad51"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#ac0907fc8261b85e8ef6e09da3e30ad51">Physics::ResolveShapeDensity</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> materialId)</td></tr>
+<tr class="memitem:aa0c51bb655001f89043800d3d4bb2579" id="r_aa0c51bb655001f89043800d3d4bb2579"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#aa0c51bb655001f89043800d3d4bb2579">Physics::ApplyShapeFlags</a> (PxShape *shape, bool isTrigger)</td></tr>
+<tr class="memitem:a390ee55f7427cb1efe57b0a073e0b95a" id="r_a390ee55f7427cb1efe57b0a073e0b95a"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#a390ee55f7427cb1efe57b0a073e0b95a">Physics::ApplyShapeFilterData</a> (PxShape *shape, <a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> actor)</td></tr>
+<tr class="memdesc:a390ee55f7427cb1efe57b0a073e0b95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">word0 is the collision group and word1 the feedback, which is what the simulation filter reads  <br /></td></tr>
+<tr class="memitem:aa4b55b785dd3d6b6221f5ede8d34a8b1" id="r_aa4b55b785dd3d6b6221f5ede8d34a8b1"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#aa4b55b785dd3d6b6221f5ede8d34a8b1">Physics::ApplyShapeState</a> (<a class="el" href="struct_physics_1_1_shape.html">Shape</a> &amp;shape, const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;desc)</td></tr>
+<tr class="memdesc:aa4b55b785dd3d6b6221f5ede8d34a8b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the material, flags and filter data of a description onto an existing shape.  <br /></td></tr>
+<tr class="memitem:a3ef175b4d4d1132089b19bebd6fcf9c0" id="r_a3ef175b4d4d1132089b19bebd6fcf9c0"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="namespace_physics.html#a3ef175b4d4d1132089b19bebd6fcf9c0">Physics::ApplyMass</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> actor)</td></tr>
+<tr class="memdesc:a3ef175b4d4d1132089b19bebd6fcf9c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recompute the mass and inertia of a body.  <br /></td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
 <a id="a03611819c9f3c2771f085923e812b3ac" name="a03611819c9f3c2771f085923e812b3ac"></a>
@@ -164,6 +188,42 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static_cast&lt;</span>PxRigidDynamic*<span class="keyword">&gt;</span>(ActorContext::actors[Ids::Index(i.id)].actor)</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acf08c5855b98382badec23f1b983bda3" name="acf08c5855b98382badec23f1b983bda3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf08c5855b98382badec23f1b983bda3">&#9670;&#160;</a></span>GET_RIGID</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GET_RIGID</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">static_cast&lt;</span>PxRigidActor*<span class="keyword">&gt;</span>(ActorContext::actors[Ids::Index(i.id)].actor)</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aae601808a2e5dc48a7b1c09682437266" name="aae601808a2e5dc48a7b1c09682437266"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae601808a2e5dc48a7b1c09682437266">&#9670;&#160;</a></span>GET_SHAPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GET_SHAPE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">ActorContext::shapes[Ids::Index(i.id)]</div>
 </div><!-- fragment -->
 </div>
 </div>

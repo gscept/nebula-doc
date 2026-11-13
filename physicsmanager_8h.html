@@ -117,6 +117,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('physicsmanager
 <code>#include &quot;<a class="el" href="singleton_8h_source.html">core/singleton.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="manager_8h_source.html">game/manager.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="category_8h_source.html">game/category.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="component_8h_source.html">game/component.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="application_2game_2entity_8h_source.html">game/entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="world_8h_source.html">game/world.h</a>&quot;</code><br />
 <code>#include &quot;basegamefeature/components/basegamefeature.h&quot;</code><br />
@@ -135,6 +136,19 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:PhysicsFeature" id="r_PhysicsFeature"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_physics_feature.html">PhysicsFeature</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af88793e135c380d1c5ef8e4e949ef3df" id="r_af88793e135c380d1c5ef8e4e949ef3df"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="namespace_physics_feature.html#af88793e135c380d1c5ef8e4e949ef3df">PhysicsFeature::PhysicsPending</a> : uint32_t { <br />
+&#160;&#160;<a class="el" href="namespace_physics_feature.html#af88793e135c380d1c5ef8e4e949ef3dfa7fa5bd0150fbe979f7c7c65f26252f0c">PhysicsFeature::PendingPose</a> = 1 &lt;&lt; 0
+, <a class="el" href="namespace_physics_feature.html#af88793e135c380d1c5ef8e4e949ef3dfad300b2610627bfe4bae8b4a30cd8637e">PhysicsFeature::PendingShape</a> = 1 &lt;&lt; 1
+, <a class="el" href="namespace_physics_feature.html#af88793e135c380d1c5ef8e4e949ef3dfa34b07881984160980d14eb18349a1250">PhysicsFeature::PendingBody</a> = 1 &lt;&lt; 2
+, <a class="el" href="namespace_physics_feature.html#af88793e135c380d1c5ef8e4e949ef3dfa27c617e04fd65aedbf83d3c6e72572bf">PhysicsFeature::PendingStructural</a> = 1 &lt;&lt; 3
+, <br />
+&#160;&#160;<a class="el" href="namespace_physics_feature.html#af88793e135c380d1c5ef8e4e949ef3dfa315ae253cd0a4477f272aed3e1ddf823">PhysicsFeature::PendingAll</a> = PendingPose | PendingShape | PendingBody | PendingStructural
+<br />
+ }</td></tr>
+<tr class="memdesc:af88793e135c380d1c5ef8e4e949ef3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">what the physics manager has queued for an entity, mixed together in the pending field of the PhysicsActor component.  <a href="namespace_physics_feature.html#af88793e135c380d1c5ef8e4e949ef3df">More...</a><br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

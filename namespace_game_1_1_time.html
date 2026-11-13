@@ -113,7 +113,10 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_game
   <div class="headertitle"><div class="title">Game::Time Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>These are the standard time source objects provided by Application layer: </p>
+<p>@item TIMESOURCE_SYSTEM - timing for low level Application layer subsystems @item TIMESOURCE_GAMEPLAY - timing for the game logic @item TIMESOURCE_INPUT - extra time source for input handling </p>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a29f32e4e3946b84849f22fb6ef505470" id="r_a29f32e4e3946b84849f22fb6ef505470"><td class="memItemLeft"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *const&#160;</td><td class="memItemRight"><a class="el" href="#a29f32e4e3946b84849f22fb6ef505470">CreateTimeSource</a> (<a class="el" href="struct_game_1_1_time_source_create_info.html">TimeSourceCreateInfo</a> const &amp;info)</td></tr>
@@ -124,8 +127,80 @@ Functions</h2></td></tr>
 <tr class="memdesc:a8bbec80ba5d33bf0e03ae758501d6755"><td class="mdescLeft">&#160;</td><td class="mdescRight">set global time scale. This should be used sparingly. You can usually set individual time sources time factor instead.  <br /></td></tr>
 <tr class="memitem:af53a59836f71c8772f25f2c726422b62" id="r_af53a59836f71c8772f25f2c726422b62"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#af53a59836f71c8772f25f2c726422b62">GetGlobalTimeFactor</a> ()</td></tr>
 <tr class="memdesc:af53a59836f71c8772f25f2c726422b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the global time scale  <br /></td></tr>
+<tr class="memitem:ab2e1ba4ee645bf6535fd46e0bef986fc" id="r_ab2e1ba4ee645bf6535fd46e0bef986fc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab2e1ba4ee645bf6535fd46e0bef986fc">Setup</a> ()</td></tr>
+<tr class="memdesc:ab2e1ba4ee645bf6535fd46e0bef986fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup the time sources. Called by <a class="el" href="class_game_1_1_time_manager.html" title="Singleton object which manages all Game::TimeSource objects.">Game::TimeManager</a> on activate  <br /></td></tr>
+<tr class="memitem:aeaaba09c824d5722e02b0ec9ecf25436" id="r_aeaaba09c824d5722e02b0ec9ecf25436"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aeaaba09c824d5722e02b0ec9ecf25436">Discard</a> ()</td></tr>
+<tr class="memdesc:aeaaba09c824d5722e02b0ec9ecf25436"><td class="mdescLeft">&#160;</td><td class="mdescRight">discard the time sources. Called by <a class="el" href="class_game_1_1_time_manager.html" title="Singleton object which manages all Game::TimeSource objects.">Game::TimeManager</a> on deactivate  <br /></td></tr>
+<tr class="memitem:a6015c7f0b42b360e6135484cf1ba1fd5" id="r_a6015c7f0b42b360e6135484cf1ba1fd5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6015c7f0b42b360e6135484cf1ba1fd5">BeginFrame</a> (<a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a> realFrameTicks)</td></tr>
+<tr class="memdesc:a6015c7f0b42b360e6135484cf1ba1fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">advance every time source by the real frame time. A fixed source turns real time into available steps  <br /></td></tr>
+<tr class="memitem:ac8677daeb6fc13743cb6e3913956853a" id="r_ac8677daeb6fc13743cb6e3913956853a"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac8677daeb6fc13743cb6e3913956853a">ConsumeFixedStep</a> (<a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *timeSource)</td></tr>
+<tr class="memdesc:ac8677daeb6fc13743cb6e3913956853a"><td class="mdescLeft">&#160;</td><td class="mdescRight">consume one fixed step from a fixed time source. Returns false when no steps are left  <br /></td></tr>
+<tr class="memitem:a33a1c3f07da062e503cb32316ebf766a" id="r_a33a1c3f07da062e503cb32316ebf766a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a33a1c3f07da062e503cb32316ebf766a">AdvanceTimeSource</a> (<a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *timeSource, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
+<tr class="memdesc:a33a1c3f07da062e503cb32316ebf766a"><td class="mdescLeft">&#160;</td><td class="mdescRight">add time to the accumulator of a fixed time source.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="a33a1c3f07da062e503cb32316ebf766a" name="a33a1c3f07da062e503cb32316ebf766a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a1c3f07da062e503cb32316ebf766a">&#9670;&#160;</a></span>AdvanceTimeSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::Time::AdvanceTimeSource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *</td>          <td class="paramname"><span class="paramname"><em>timeSource</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>delta</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>add time to the accumulator of a fixed time source. </p>
+<p>For tests and tools which drive the rate explicitly. Warns in debug when the source's maxStepsPerFrame clamps away part of what was asked for </p>
+
+</div>
+</div>
+<a id="a6015c7f0b42b360e6135484cf1ba1fd5" name="a6015c7f0b42b360e6135484cf1ba1fd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6015c7f0b42b360e6135484cf1ba1fd5">&#9670;&#160;</a></span>BeginFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::Time::BeginFrame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a></td>          <td class="paramname"><span class="paramname"><em>realFrameTicks</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>advance every time source by the real frame time. A fixed source turns real time into available steps </p>
+
+</div>
+</div>
+<a id="ac8677daeb6fc13743cb6e3913956853a" name="ac8677daeb6fc13743cb6e3913956853a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8677daeb6fc13743cb6e3913956853a">&#9670;&#160;</a></span>ConsumeFixedStep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::Time::ConsumeFixedStep </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *</td>          <td class="paramname"><span class="paramname"><em>timeSource</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>consume one fixed step from a fixed time source. Returns false when no steps are left </p>
+
+</div>
+</div>
 <a id="a29f32e4e3946b84849f22fb6ef505470" name="a29f32e4e3946b84849f22fb6ef505470"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29f32e4e3946b84849f22fb6ef505470">&#9670;&#160;</a></span>CreateTimeSource()</h2>
 
@@ -142,6 +217,25 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>create a timesource. The global time manager handles the timesources. </p>
+
+</div>
+</div>
+<a id="aeaaba09c824d5722e02b0ec9ecf25436" name="aeaaba09c824d5722e02b0ec9ecf25436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaaba09c824d5722e02b0ec9ecf25436">&#9670;&#160;</a></span>Discard()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::Time::Discard </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>discard the time sources. Called by <a class="el" href="class_game_1_1_time_manager.html" title="Singleton object which manages all Game::TimeSource objects.">Game::TimeManager</a> on deactivate </p>
 
 </div>
 </div>
@@ -199,6 +293,25 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>set global time scale. This should be used sparingly. You can usually set individual time sources time factor instead. </p>
+
+</div>
+</div>
+<a id="ab2e1ba4ee645bf6535fd46e0bef986fc" name="ab2e1ba4ee645bf6535fd46e0bef986fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2e1ba4ee645bf6535fd46e0bef986fc">&#9670;&#160;</a></span>Setup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::Time::Setup </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>setup the time sources. Called by <a class="el" href="class_game_1_1_time_manager.html" title="Singleton object which manages all Game::TimeSource objects.">Game::TimeManager</a> on activate </p>
 
 </div>
 </div>

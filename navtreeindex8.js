@@ -1,5 +1,9 @@
 var NAVTREEINDEX8 =
 {
+"class_attr_1_1_guid_attr_id.html#ae446516ef2b8cc2b601f74d22765c0e7":[9,0,2,23,2],
+"class_attr_1_1_guid_type_class.html":[8,0,2,24],
+"class_attr_1_1_guid_type_class.html":[9,0,2,24],
+"class_attr_1_1_int64_attr_id.html":[8,0,2,25],
 "class_attr_1_1_int64_attr_id.html":[9,0,2,25],
 "class_attr_1_1_int64_attr_id.html#a573f9b27b3b77560eb0bb2bf1c2bc925":[8,0,2,25,2],
 "class_attr_1_1_int64_attr_id.html#a573f9b27b3b77560eb0bb2bf1c2bc925":[9,0,2,25,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX8 =
 "class_audio_feature_1_1_audio_feature_unit.html#afe4c09da0e4071299a7e54a66445a11a":[9,0,4,0,6],
 "class_audio_feature_1_1_audio_manager.html":[8,0,4,1],
 "class_audio_feature_1_1_audio_manager.html":[9,0,4,1],
-"class_audio_feature_1_1_audio_manager.html#a05b43c651154462cbc59eb5f04338055":[8,0,4,1,0],
-"class_audio_feature_1_1_audio_manager.html#a05b43c651154462cbc59eb5f04338055":[9,0,4,1,0],
-"class_audio_feature_1_1_audio_manager.html#a10a016eaf6a2645575b6ff067545dbd7":[8,0,4,1,5],
-"class_audio_feature_1_1_audio_manager.html#a10a016eaf6a2645575b6ff067545dbd7":[9,0,4,1,5],
-"class_audio_feature_1_1_audio_manager.html#a187ea3e4fa644ddb26520cd293b6c4c3":[8,0,4,1,3]
+"class_audio_feature_1_1_audio_manager.html#a05b43c651154462cbc59eb5f04338055":[8,0,4,1,0]
 };

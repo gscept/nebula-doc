@@ -374,6 +374,7 @@ var hierarchy =
     [ "Terrain::BiomeParameters", "struct_terrain_1_1_biome_parameters.html", null ],
     [ "Terrain::BiomeSettings", "struct_terrain_1_1_biome_settings.html", null ],
     [ "Terrain::BiomeSettingsBuilder", "struct_terrain_1_1_biome_settings_builder.html", null ],
+    [ "Util::BitArray", "class_util_1_1_bit_array.html", null ],
     [ "Util::BitField&lt; NUMBITS &gt;", "class_util_1_1_bit_field.html", null ],
     [ "Util::BitField&lt; NUMBITS &gt;::BitType&lt; S &gt;", "struct_util_1_1_bit_field_1_1_bit_type.html", null ],
     [ "Util::BitField&lt; NUMBITS &gt;::BitType&lt; 16 &gt;", "struct_util_1_1_bit_field_1_1_bit_type_3_0116_01_4.html", null ],
@@ -387,6 +388,7 @@ var hierarchy =
     [ "Util::Blob", "class_util_1_1_blob.html", null ],
     [ "Attr::BlobArrayTypeClass", "class_attr_1_1_blob_array_type_class.html", null ],
     [ "Attr::BlobTypeClass", "class_attr_1_1_blob_type_class.html", null ],
+    [ "Physics::BodyDescription", "struct_physics_1_1_body_description.html", null ],
     [ "Physics::BodyInfo", "struct_physics_1_1_body_info.html", null ],
     [ "Attr::BoolArrayTypeClass", "class_attr_1_1_bool_array_type_class.html", null ],
     [ "Particles::EmitterAttrs::BoolAttributes", "struct_particles_1_1_emitter_attrs_1_1_bool_attributes.html", null ],
@@ -433,6 +435,7 @@ var hierarchy =
     [ "Jobs2::CallableStub&lt; ARGS... &gt;", "struct_jobs2_1_1_callable_stub.html", [
       [ "Jobs2::Callable< LAMBDA, ARGS >", "struct_jobs2_1_1_callable.html", null ]
     ] ],
+    [ "Game::FrameEvent::Callback", "struct_game_1_1_frame_event_1_1_callback.html", null ],
     [ "Graphics::CameraSettings", "class_graphics_1_1_camera_settings.html", null ],
     [ "CameraSettings", "class_shared_1_1_camera_settings.html", null ],
     [ "Im3d::Capsule", "struct_im3d_1_1_capsule.html", null ],
@@ -458,6 +461,7 @@ var hierarchy =
     [ "CoreGraphics::CmdBufferMarkerBundle", "struct_core_graphics_1_1_cmd_buffer_marker_bundle.html", null ],
     [ "CoreGraphics::CmdBufferPoolCreateInfo", "struct_core_graphics_1_1_cmd_buffer_pool_create_info.html", null ],
     [ "CoreGraphics::CmdBufferPoolId", "struct_core_graphics_1_1_cmd_buffer_pool_id.html", null ],
+    [ "Physics::ColliderDescription", "struct_physics_1_1_collider_description.html", null ],
     [ "Im3d::Color", "struct_im3d_1_1_color.html", null ],
     [ "Db::Column", "class_db_1_1_column.html", null ],
     [ "MemDb::ColumnIndex", "struct_mem_db_1_1_column_index.html", null ],
@@ -490,6 +494,7 @@ var hierarchy =
     [ "Game::ComponentDecayBuffer", "struct_game_1_1_component_decay_buffer.html", null ],
     [ "Game::ComponentInspection", "class_game_1_1_component_inspection.html", null ],
     [ "Nebula.Game.ComponentManager", "class_nebula_1_1_game_1_1_component_manager.html", null ],
+    [ "Game::TransformHierarchy::ComponentPointers", "struct_game_1_1_transform_hierarchy_1_1_component_pointers.html", null ],
     [ "Game::ComponentRegisterInfo&lt; COMPONENT_TYPE &gt;", "struct_game_1_1_component_register_info.html", null ],
     [ "Game::FilterBuilder::ComponentRequest", "struct_game_1_1_filter_builder_1_1_component_request.html", null ],
     [ "Game::ComponentSerialization", "class_game_1_1_component_serialization.html", null ],
@@ -641,6 +646,7 @@ var hierarchy =
     [ "FrameBuilder", "class_game_1_1_frame_builder.html", null ],
     [ "Graphics::FrameContext", "struct_graphics_1_1_frame_context.html", null ],
     [ "Game::FrameEvent", "class_game_1_1_frame_event.html", null ],
+    [ "Game::FrameEventCreateInfo", "struct_game_1_1_frame_event_create_info.html", null ],
     [ "Frame::FrameOp", "class_frame_1_1_frame_op.html", [
       [ "Frame::FrameBarrier", "class_frame_1_1_frame_barrier.html", null ],
       [ "Frame::FrameBlit", "class_frame_1_1_frame_blit.html", null ],
@@ -1058,6 +1064,7 @@ var hierarchy =
     [ "Profiling::ProfilingContext", "struct_profiling_1_1_profiling_context.html", null ],
     [ "Profiling::ProfilingScope", "struct_profiling_1_1_profiling_scope.html", null ],
     [ "Profiling::ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", null ],
+    [ "IO::ProjectLocator", "class_i_o_1_1_project_locator.html", null ],
     [ "Nebula.Game.Property", "class_nebula_1_1_game_1_1_property.html", null ],
     [ "Nebula.Game.PropertyManager", "class_nebula_1_1_game_1_1_property_manager.html", null ],
     [ "Ptr&lt; TYPE &gt;", "class_ptr.html", null ],
@@ -1191,7 +1198,6 @@ var hierarchy =
       [ "Game::GameServer", "class_game_1_1_game_server.html", null ],
       [ "Game::Manager", "class_game_1_1_manager.html", [
         [ "AudioFeature::AudioManager", "class_audio_feature_1_1_audio_manager.html", null ],
-        [ "Game::HierarchyManager", "class_game_1_1_hierarchy_manager.html", null ],
         [ "Game::TimeManager", "class_game_1_1_time_manager.html", null ],
         [ "GraphicsFeature::CameraManager", "class_graphics_feature_1_1_camera_manager.html", null ],
         [ "GraphicsFeature::GraphicsManager", "class_graphics_feature_1_1_graphics_manager.html", null ],
@@ -1199,6 +1205,7 @@ var hierarchy =
         [ "PhysicsFeature::CharacterManager", "class_physics_feature_1_1_character_manager.html", null ],
         [ "PhysicsFeature::PhysicsManager", "class_physics_feature_1_1_physics_manager.html", null ]
       ] ],
+      [ "Game::TransformHierarchy", "class_game_1_1_transform_hierarchy.html", null ],
       [ "Graphics::GraphicsServer", "class_graphics_1_1_graphics_server.html", null ],
       [ "Http::HttpClientRegistry", "class_http_1_1_http_client_registry.html", null ],
       [ "Http::HttpRequestHandler", "class_http_1_1_http_request_handler.html", [
@@ -1424,7 +1431,9 @@ var hierarchy =
     [ "CoreGraphics::ShaderIdentifier", "class_core_graphics_1_1_shader_identifier.html", null ],
     [ "ShaderServer", "class_core_graphics_1_1_shader_server.html", null ],
     [ "Lighting::LightContext::ShadowData", "struct_lighting_1_1_light_context_1_1_shadow_data.html", null ],
+    [ "Physics::Shape", "struct_physics_1_1_shape.html", null ],
     [ "Physics::ShapeHandle", "struct_physics_1_1_shape_handle.html", null ],
+    [ "Physics::ShapeId", "struct_physics_1_1_shape_id.html", null ],
     [ "ShapeRenderer", "class_core_graphics_1_1_shape_renderer.html", null ],
     [ "Attr::ShortTypeClass", "class_attr_1_1_short_type_class.html", null ],
     [ "Util::SimpleTree&lt; VALUETYPE &gt;", "class_util_1_1_simple_tree.html", null ],

@@ -503,7 +503,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This method is called from <a class="el" href="class_game_1_1_game_server.html#af03d877f9201382d4612220ca157bca0" title="trigger actions before rendering the game world">Game::GameServer::OnBeginFrame()</a> on all game features attached to an <a class="el" href="class_game_1_1_game_server.html" title="The game server setups and runs the game world.">GameServer</a> in the order of attachment.</p>
 <p>Override this method if your <a class="el" href="class_game_1_1_feature_unit.html" title="A FeatureUnit is an encapsulated feature which can be added to an application.">FeatureUnit</a> has to do any work at the beginning of the frame. </p>
 
-<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a90d2c2933a79cee7c6e45543f7e40ae8">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#af821812bf20ebb3fe45521caabebadf9">GraphicsFeature::GraphicsFeatureUnit</a>, <a class="el" href="class_multiplayer_1_1_multiplayer_feature_unit.html#a4b59e15b3917b29b8ec0a9fa4367cba6">Multiplayer::MultiplayerFeatureUnit</a>, <a class="el" href="class_navigation_feature_1_1_navigation_feature_unit.html#a4483a3b95922ed57b094123aacc317a3">NavigationFeature::NavigationFeatureUnit</a>, <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a592d5322ab989bea92cc9404786e9bbd">PhysicsFeature::PhysicsFeatureUnit</a>, and <a class="el" href="class_scripting_1_1_script_feature_unit.html#a247cafb7b5df6e7656f0de74b9d2af6c">Scripting::ScriptFeatureUnit</a>.</p>
+<p>Reimplemented in <a class="el" href="class_audio_feature_1_1_audio_feature_unit.html#a90d2c2933a79cee7c6e45543f7e40ae8">AudioFeature::AudioFeatureUnit</a>, <a class="el" href="class_graphics_feature_1_1_graphics_feature_unit.html#af821812bf20ebb3fe45521caabebadf9">GraphicsFeature::GraphicsFeatureUnit</a>, <a class="el" href="class_multiplayer_1_1_multiplayer_feature_unit.html#a4b59e15b3917b29b8ec0a9fa4367cba6">Multiplayer::MultiplayerFeatureUnit</a>, <a class="el" href="class_navigation_feature_1_1_navigation_feature_unit.html#a4483a3b95922ed57b094123aacc317a3">NavigationFeature::NavigationFeatureUnit</a>, and <a class="el" href="class_scripting_1_1_script_feature_unit.html#a247cafb7b5df6e7656f0de74b9d2af6c">Scripting::ScriptFeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -562,8 +562,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>called after entities has been destroyed and before releasing their memory </p>
-
-<p>Reimplemented in <a class="el" href="class_physics_feature_1_1_physics_feature_unit.html#a428336e4544d7c614eb8fbcdaf0caa58">PhysicsFeature::PhysicsFeatureUnit</a>.</p>
 
 </div>
 </div>
@@ -825,7 +823,7 @@ template&lt;typename COMPONENT_TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Register a component type. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo</a></b></dt><dd>We should register the component ids to the feature unit and deregister them when the feature is detached or destroyed. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo</a></b></dt><dd>We should register the component ids to the feature unit and deregister them when the feature is detached or destroyed. </dd></dl>
 
 </div>
 </div>

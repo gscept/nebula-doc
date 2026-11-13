@@ -9,6 +9,7 @@ var dir_3efd1eb2182038baf5731b057d5f9c3b =
     [ "arrayqueue.h", "arrayqueue_8h.html", "arrayqueue_8h" ],
     [ "arraystack.h", "arraystack_8h.html", "arraystack_8h" ],
     [ "bit.h", "bit_8h.html", "bit_8h" ],
+    [ "bitarray.h", "bitarray_8h.html", "bitarray_8h" ],
     [ "bitfield.h", "bitfield_8h.html", "bitfield_8h" ],
     [ "blob.cc", "blob_8cc.html", null ],
     [ "blob.h", "blob_8h.html", "blob_8h" ],

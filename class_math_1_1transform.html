@@ -128,7 +128,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adbadc278b64b3575a31fd81086a0ed0c" id="r_adbadc278b64b3575a31fd81086a0ed0c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adbadc278b64b3575a31fd81086a0ed0c">Set</a> (const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;pos, const <a class="el" href="struct_math_1_1quat.html">Math::quat</a> &amp;rot, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;scale)</td></tr>
 <tr class="memdesc:adbadc278b64b3575a31fd81086a0ed0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">set content  <br /></td></tr>
 <tr class="memitem:a27aa11fec24161eceed3236d85ff502c" id="r_a27aa11fec24161eceed3236d85ff502c"><td class="memItemLeft"><a class="el" href="#ad001bb1b37b5d5111012a1d3765d72bd">transform</a>&#160;</td><td class="memItemRight"><a class="el" href="#a27aa11fec24161eceed3236d85ff502c">GetRelative</a> (const <a class="el" href="#ad001bb1b37b5d5111012a1d3765d72bd">transform</a> &amp;child)</td></tr>
-<tr class="memdesc:a27aa11fec24161eceed3236d85ff502c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the relative transform from this to child, expressed as matrix result = this * inv(child)  <br /></td></tr>
+<tr class="memdesc:a27aa11fec24161eceed3236d85ff502c"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the relative transform from this to child, expressed as matrix result = inv(child) * this  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -256,7 +256,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>get the relative transform from this to child, expressed as matrix result = this * inv(child) </p>
+<p>get the relative transform from this to child, expressed as matrix result = inv(child) * this </p>
 
 </div>
 </div>

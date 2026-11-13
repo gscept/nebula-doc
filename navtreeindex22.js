@@ -1,5 +1,9 @@
 var NAVTREEINDEX22 =
 {
+"class_db_1_1_db_server.html#a3c65c5840832045d0db7728680868712":[9,0,14,5,4],
+"class_db_1_1_db_server.html#a3cdba4aa1bdaf63801b48a50e12d4ee9":[8,0,15,5,14],
+"class_db_1_1_db_server.html#a3cdba4aa1bdaf63801b48a50e12d4ee9":[9,0,14,5,14],
+"class_db_1_1_db_server.html#a5f52ca88426dff7cb5ab45f0424b5947":[8,0,15,5,20],
 "class_db_1_1_db_server.html#a5f52ca88426dff7cb5ab45f0424b5947":[9,0,14,5,20],
 "class_db_1_1_db_server.html#a77dcc9d5fc8a1bd735dd200ca6f26172":[8,0,15,5,13],
 "class_db_1_1_db_server.html#a77dcc9d5fc8a1bd735dd200ca6f26172":[9,0,14,5,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX22 =
 "class_db_1_1_sqlite3_command.html#a7184a5ada071715ec5e2fee3cfd28cb3":[9,0,14,9,38],
 "class_db_1_1_sqlite3_command.html#a7c49f6ec333d0b190b11bf34684911cc":[8,0,15,9,26],
 "class_db_1_1_sqlite3_command.html#a7c49f6ec333d0b190b11bf34684911cc":[9,0,14,9,26],
-"class_db_1_1_sqlite3_command.html#a7e593559df8549cacea6129b941dd612":[8,0,15,9,4],
-"class_db_1_1_sqlite3_command.html#a7e593559df8549cacea6129b941dd612":[9,0,14,9,4],
-"class_db_1_1_sqlite3_command.html#a8693230c4e125eacc32eae54411ef545":[8,0,15,9,18],
-"class_db_1_1_sqlite3_command.html#a8693230c4e125eacc32eae54411ef545":[9,0,14,9,18],
-"class_db_1_1_sqlite3_command.html#a89f87030a805d4daff0ad7c6e0b16971":[8,0,15,9,9]
+"class_db_1_1_sqlite3_command.html#a7e593559df8549cacea6129b941dd612":[8,0,15,9,4]
 };

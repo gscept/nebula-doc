@@ -117,87 +117,21 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('timemanager_8h
 <div class="textblock"><dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><div class="textblock"><code>#include &quot;<a class="el" href="singleton_8h_source.html">core/singleton.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="manager_8h_source.html">game/manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="time_8h_source.html">timing/time.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="timesource_8h_source.html">game/timesource.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="framesynctimer_8h_source.html">framesync/framesynctimer.h</a>&quot;</code><br />
 </div>
 <p><a href="timemanager_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:Game_3A_3ATimeSourceCreateInfo" id="r_Game_3A_3ATimeSourceCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_game_1_1_time_source_create_info.html">Game::TimeSourceCreateInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to create a timesource.  <a href="struct_game_1_1_time_source_create_info.html#details">More...</a><br /></td></tr>
-<tr class="memitem:Game_3A_3ATimeSource" id="r_Game_3A_3ATimeSource"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_game_1_1_time_source.html">Game::TimeSource</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An object that keeps track of running time and frame time (delta time).  <a href="struct_game_1_1_time_source.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Game_3A_3ATimeManager" id="r_Game_3A_3ATimeManager"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_time_manager.html">Game::TimeManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_core_1_1_singleton.html" title="Implements a system specific Singleton.">Singleton</a> object which manages all <a class="el" href="struct_game_1_1_time_source.html" title="An object that keeps track of running time and frame time (delta time).">Game::TimeSource</a> objects.  <a href="class_game_1_1_time_manager.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:Game" id="r_Game"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_game.html">Game</a></td></tr>
-<tr class="memdesc:namespace_game"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves local hierarchical transforms into the mandatory world transform components. <br /></td></tr>
-<tr class="memitem:Time" id="r_Time"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_time.html">Time</a></td></tr>
-<tr class="memdesc:namespace_time"><td class="mdescLeft">&#160;</td><td class="mdescRight">These are the standard time source objects provided by Application layer: <br /></td></tr>
-<tr class="memitem:Game_3A_3ATime" id="r_Game_3A_3ATime"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_game_1_1_time.html">Game::Time</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-define-members" class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a6bc1d427f74e5df7e1766f6a3a121685" id="r_a6bc1d427f74e5df7e1766f6a3a121685"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a6bc1d427f74e5df7e1766f6a3a121685">TIMESOURCE_GAMEPLAY</a>&#160;&#160;&#160;uint32_t('GPTS')</td></tr>
-<tr class="memitem:a2b641dae0f9d058b59f20b722e57df06" id="r_a2b641dae0f9d058b59f20b722e57df06"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a2b641dae0f9d058b59f20b722e57df06">TIMESOURCE_INPUT</a>&#160;&#160;&#160;uint32_t('IPTS')</td></tr>
-<tr class="memitem:a834c5c9cfc39732cdbdbf3462d80ad70" id="r_a834c5c9cfc39732cdbdbf3462d80ad70"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a834c5c9cfc39732cdbdbf3462d80ad70">TIMESOURCE_SYSTEM</a>&#160;&#160;&#160;uint32_t('SYTS')</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a29f32e4e3946b84849f22fb6ef505470" id="r_a29f32e4e3946b84849f22fb6ef505470"><td class="memItemLeft"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *const&#160;</td><td class="memItemRight"><a class="el" href="namespace_game_1_1_time.html#a29f32e4e3946b84849f22fb6ef505470">Game::Time::CreateTimeSource</a> (<a class="el" href="struct_game_1_1_time_source_create_info.html">TimeSourceCreateInfo</a> const &amp;info)</td></tr>
-<tr class="memdesc:a29f32e4e3946b84849f22fb6ef505470"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a timesource. The global time manager handles the timesources.  <br /></td></tr>
-<tr class="memitem:aeb1fa870d1519db57e65d3ce34d872c1" id="r_aeb1fa870d1519db57e65d3ce34d872c1"><td class="memItemLeft"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *const&#160;</td><td class="memItemRight"><a class="el" href="namespace_game_1_1_time.html#aeb1fa870d1519db57e65d3ce34d872c1">Game::Time::GetTimeSource</a> (uint32_t TIMESOURCE_HASH)</td></tr>
-<tr class="memdesc:aeb1fa870d1519db57e65d3ce34d872c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a time source by hash  <br /></td></tr>
-<tr class="memitem:a8bbec80ba5d33bf0e03ae758501d6755" id="r_a8bbec80ba5d33bf0e03ae758501d6755"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_game_1_1_time.html#a8bbec80ba5d33bf0e03ae758501d6755">Game::Time::SetGlobalTimeFactor</a> (float factor)</td></tr>
-<tr class="memdesc:a8bbec80ba5d33bf0e03ae758501d6755"><td class="mdescLeft">&#160;</td><td class="mdescRight">set global time scale. This should be used sparingly. You can usually set individual time sources time factor instead.  <br /></td></tr>
-<tr class="memitem:af53a59836f71c8772f25f2c726422b62" id="r_af53a59836f71c8772f25f2c726422b62"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="namespace_game_1_1_time.html#af53a59836f71c8772f25f2c726422b62">Game::Time::GetGlobalTimeFactor</a> ()</td></tr>
-<tr class="memdesc:af53a59836f71c8772f25f2c726422b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the global time scale  <br /></td></tr>
+<tr class="memdesc:namespace_game"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_game_1_1_editor_state.html">Game::EditorState</a>. <br /></td></tr>
 </table>
-<a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
-<a id="a6bc1d427f74e5df7e1766f6a3a121685" name="a6bc1d427f74e5df7e1766f6a3a121685"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bc1d427f74e5df7e1766f6a3a121685">&#9670;&#160;</a></span>TIMESOURCE_GAMEPLAY</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIMESOURCE_GAMEPLAY&#160;&#160;&#160;uint32_t('GPTS')</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2b641dae0f9d058b59f20b722e57df06" name="a2b641dae0f9d058b59f20b722e57df06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b641dae0f9d058b59f20b722e57df06">&#9670;&#160;</a></span>TIMESOURCE_INPUT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIMESOURCE_INPUT&#160;&#160;&#160;uint32_t('IPTS')</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a834c5c9cfc39732cdbdbf3462d80ad70" name="a834c5c9cfc39732cdbdbf3462d80ad70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a834c5c9cfc39732cdbdbf3462d80ad70">&#9670;&#160;</a></span>TIMESOURCE_SYSTEM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TIMESOURCE_SYSTEM&#160;&#160;&#160;uint32_t('SYTS')</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div id="page-nav" class="page-nav-panel">

@@ -124,14 +124,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e52e0e33e7638e3fa80dc9c7aed39f8" id="r_a0e52e0e33e7638e3fa80dc9c7aed39f8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0e52e0e33e7638e3fa80dc9c7aed39f8">Setup</a> ()</td></tr>
 <tr class="memdesc:a0e52e0e33e7638e3fa80dc9c7aed39f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup Px subsystems.  <br /></td></tr>
 <tr class="memitem:a08b69ebbb9aa61c0d2457bd9e88c4ca1" id="r_a08b69ebbb9aa61c0d2457bd9e88c4ca1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a08b69ebbb9aa61c0d2457bd9e88c4ca1">Shutdown</a> ()</td></tr>
-<tr class="memitem:ab36440a17e9159ecb9308ce8960e6337" id="r_ab36440a17e9159ecb9308ce8960e6337"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab36440a17e9159ecb9308ce8960e6337">Update</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
-<tr class="memdesc:ab36440a17e9159ecb9308ce8960e6337"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience function to do a sync full simulation step. Do not mix Update and Begin/EndFrame!  <br /></td></tr>
-<tr class="memitem:a6327ece43031b32bdff846a6215116ab" id="r_a6327ece43031b32bdff846a6215116ab"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6327ece43031b32bdff846a6215116ab">BeginSimulating</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
-<tr class="memdesc:a6327ece43031b32bdff846a6215116ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicit call to simulate, will process async in the background  <br /></td></tr>
-<tr class="memitem:aa97d4a78910155c2f46305aacd603e3a" id="r_aa97d4a78910155c2f46305aacd603e3a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa97d4a78910155c2f46305aacd603e3a">EndSimulating</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
-<tr class="memdesc:aa97d4a78910155c2f46305aacd603e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicit call to fetch the results of the simulation  <br /></td></tr>
-<tr class="memitem:ac33467dc0d0247376bb8153b258b4bbe" id="r_ac33467dc0d0247376bb8153b258b4bbe"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac33467dc0d0247376bb8153b258b4bbe">FlushSimulation</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
-<tr class="memdesc:ac33467dc0d0247376bb8153b258b4bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">will block until a potential simulation step is done  <br /></td></tr>
+<tr class="memitem:acfdfd58825220e2372fa6db6a742a9cb" id="r_acfdfd58825220e2372fa6db6a742a9cb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acfdfd58825220e2372fa6db6a742a9cb">Step</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
+<tr class="memdesc:acfdfd58825220e2372fa6db6a742a9cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenience function to do a sync simulation step on every scene  <br /></td></tr>
+<tr class="memitem:a53edece8303c374ee8ce2fa5c20b274e" id="r_a53edece8303c374ee8ce2fa5c20b274e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a53edece8303c374ee8ce2fa5c20b274e">Step</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
+<tr class="memdesc:a53edece8303c374ee8ce2fa5c20b274e"><td class="mdescLeft">&#160;</td><td class="mdescRight">one sync simulation step of a single scene. <a class="el" href="struct_physics_1_1_actor.html">Actor</a> reads and writes have to happen outside of this  <br /></td></tr>
 <tr class="memitem:a0b3f4e335109bd774ee468e5a23f9e4e" id="r_a0b3f4e335109bd774ee468e5a23f9e4e"><td class="memItemLeft">physx::PxRigidActor *&#160;</td><td class="memItemRight"><a class="el" href="#a0b3f4e335109bd774ee468e5a23f9e4e">CreateActor</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">ActorType</a> type, <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> const &amp;transform)</td></tr>
 <tr class="memdesc:a0b3f4e335109bd774ee468e5a23f9e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">create new empty actor  <br /></td></tr>
 <tr class="memitem:a7161a71842b59b9caf9f44780128868d" id="r_a7161a71842b59b9caf9f44780128868d"><td class="memItemLeft">physx::PxRigidActor *&#160;</td><td class="memItemRight"><a class="el" href="#a7161a71842b59b9caf9f44780128868d">CreateActor</a> (<a class="el" href="namespace_physics.html#a303c363e8dc20be9dd9232685b2e81e3">ActorType</a> type, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;location, <a class="el" href="struct_math_1_1quat.html">Math::quat</a> const &amp;orientation)</td></tr>
@@ -188,29 +184,6 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a6327ece43031b32bdff846a6215116ab" name="a6327ece43031b32bdff846a6215116ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6327ece43031b32bdff846a6215116ab">&#9670;&#160;</a></span>BeginSimulating()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Physics::PhysxState::BeginSimulating </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>delta</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>explicit call to simulate, will process async in the background </p>
-
-</div>
-</div>
 <a id="a9c678894c0b977fd2936f77159c96118" name="a9c678894c0b977fd2936f77159c96118"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9c678894c0b977fd2936f77159c96118">&#9670;&#160;</a></span>ConnectPVD()</h2>
 
@@ -316,44 +289,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>disconnect from pvd again </p>
-
-</div>
-</div>
-<a id="aa97d4a78910155c2f46305aacd603e3a" name="aa97d4a78910155c2f46305aacd603e3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa97d4a78910155c2f46305aacd603e3a">&#9670;&#160;</a></span>EndSimulating()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Physics::PhysxState::EndSimulating </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>explicit call to fetch the results of the simulation </p>
-
-</div>
-</div>
-<a id="ac33467dc0d0247376bb8153b258b4bbe" name="ac33467dc0d0247376bb8153b258b4bbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac33467dc0d0247376bb8153b258b4bbe">&#9670;&#160;</a></span>FlushSimulation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Physics::PhysxState::FlushSimulation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>will block until a potential simulation step is done </p>
 
 </div>
 </div>
@@ -555,14 +490,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab36440a17e9159ecb9308ce8960e6337" name="ab36440a17e9159ecb9308ce8960e6337"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab36440a17e9159ecb9308ce8960e6337">&#9670;&#160;</a></span>Update()</h2>
+<a id="acfdfd58825220e2372fa6db6a742a9cb" name="acfdfd58825220e2372fa6db6a742a9cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfdfd58825220e2372fa6db6a742a9cb">&#9670;&#160;</a></span>Step() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Physics::PhysxState::Update </td>
+          <td class="memname">void Physics::PhysxState::Step </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>delta</em></span></td><td>)</td>
           <td></td>
@@ -570,7 +505,30 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>convenience function to do a sync full simulation step. Do not mix Update and Begin/EndFrame! </p>
+<p>convenience function to do a sync simulation step on every scene </p>
+
+</div>
+</div>
+<a id="a53edece8303c374ee8ce2fa5c20b274e" name="a53edece8303c374ee8ce2fa5c20b274e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53edece8303c374ee8ce2fa5c20b274e">&#9670;&#160;</a></span>Step() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::PhysxState::Step </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>delta</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>one sync simulation step of a single scene. <a class="el" href="struct_physics_1_1_actor.html">Actor</a> reads and writes have to happen outside of this </p>
 
 </div>
 </div>

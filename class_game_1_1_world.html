@@ -144,6 +144,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab5b9f33148260d7a59ed1303f1dea224"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the world hash for this world.  <br /></td></tr>
 <tr class="memitem:a294c5ef7f6d54545858322a026675381" id="r_a294c5ef7f6d54545858322a026675381"><td class="memItemLeft"><a class="el" href="namespace_game.html#acb632603de54984831d4e696a1c904b4">WorldId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a294c5ef7f6d54545858322a026675381">GetWorldId</a> () const</td></tr>
 <tr class="memdesc:a294c5ef7f6d54545858322a026675381"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the world ID for this world. This corresponds to <a class="el" href="struct_game_1_1_entity.html#a9395e9fdf6f29c1eb8bb3b43c348a01f">Game::Entity::world</a>.  <br /></td></tr>
+<tr class="memitem:a6716909ffe195767753ed437ee0b8f41" id="r_a6716909ffe195767753ed437ee0b8f41"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_game_1_1_transform_hierarchy.html">TransformHierarchy</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a6716909ffe195767753ed437ee0b8f41">GetHierarchy</a> () const</td></tr>
+<tr class="memdesc:a6716909ffe195767753ed437ee0b8f41"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transform hierarchy of this world.  <br /></td></tr>
 <tr class="memitem:a456e2a31f178575796a16eb4047e0d46" id="r_a456e2a31f178575796a16eb4047e0d46"><td class="memItemLeft"><a class="el" href="struct_game_1_1_entity.html">Entity</a>&#160;</td><td class="memItemRight"><a class="el" href="#a456e2a31f178575796a16eb4047e0d46">CreateEntity</a> (bool immediate=true)</td></tr>
 <tr class="memdesc:a456e2a31f178575796a16eb4047e0d46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new empty entity.  <br /></td></tr>
 <tr class="memitem:a55648912ed78f1c26ce973d4dbf89825" id="r_a55648912ed78f1c26ce973d4dbf89825"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a55648912ed78f1c26ce973d4dbf89825">DeleteEntity</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
@@ -219,8 +221,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afb1d7c9b4c28f475b28d200e879e401a" id="r_afb1d7c9b4c28f475b28d200e879e401a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afb1d7c9b4c28f475b28d200e879e401a">InitializeInstance</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> tableId, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> row)</td></tr>
 <tr class="memdesc:afb1d7c9b4c28f475b28d200e879e401a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize all components using an already fetched table and row.  <br /></td></tr>
 <tr class="memitem:a6a0aa64542a1f7de269faa82be279e2a" id="r_a6a0aa64542a1f7de269faa82be279e2a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6a0aa64542a1f7de269faa82be279e2a">FinalizeAllocate</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
-<tr class="memitem:abab210428b7f28771429017cbcbf7dfb" id="r_abab210428b7f28771429017cbcbf7dfb"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abab210428b7f28771429017cbcbf7dfb">DeallocateInstance</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> table, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> instance)</td></tr>
-<tr class="memdesc:abab210428b7f28771429017cbcbf7dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate an entity instance. Use this with caution!  <br /></td></tr>
+<tr class="memitem:a036039c457c6cff8db938510d341bc88" id="r_a036039c457c6cff8db938510d341bc88"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a036039c457c6cff8db938510d341bc88">DeallocateInstance</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> table, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> instance, <a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
+<tr class="memdesc:a036039c457c6cff8db938510d341bc88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate an entity instance. Use this with caution!  <br /></td></tr>
 <tr class="memitem:a0a4be208b98b32d1b64ae40b68951bb9" id="r_a0a4be208b98b32d1b64ae40b68951bb9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0a4be208b98b32d1b64ae40b68951bb9">DeallocateInstance</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
 <tr class="memdesc:a0a4be208b98b32d1b64ae40b68951bb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deallocate an entity instance. Use this with caution!  <br /></td></tr>
 <tr class="memitem:aba116b381db288074a37e51ca741227c" id="r_aba116b381db288074a37e51ca741227c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aba116b381db288074a37e51ca741227c">Defragment</a> (<a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> tableId)</td></tr>
@@ -246,6 +248,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4220d7fb8ce52c543f622701b355c6db template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4220d7fb8ce52c543f622701b355c6db">SetComponent</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> const &amp;value)</td></tr>
 <tr class="memitem:ab5e0d6306b93bf458eb1c61ab2409ad1" id="r_ab5e0d6306b93bf458eb1c61ab2409ad1"><td class="memItemLeft">template&lt;&gt; </td></tr>
 <tr class="memitem:ab5e0d6306b93bf458eb1c61ab2409ad1 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab5e0d6306b93bf458eb1c61ab2409ad1">SetComponent</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_game_1_1_scale.html">Game::Scale</a> const &amp;value)</td></tr>
+<tr class="memitem:a579a3944044d7eaeea0d188963fccbf8" id="r_a579a3944044d7eaeea0d188963fccbf8"><td class="memItemLeft">template&lt;&gt; </td></tr>
+<tr class="memitem:a579a3944044d7eaeea0d188963fccbf8 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a579a3944044d7eaeea0d188963fccbf8">SetComponent</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, Game::HTransform const &amp;value)</td></tr>
 <tr class="memitem:a29d6882c96ba8d2b844c4dcef89e5278" id="r_a29d6882c96ba8d2b844c4dcef89e5278"><td class="memItemLeft">template&lt;&gt; </td></tr>
 <tr class="memitem:a29d6882c96ba8d2b844c4dcef89e5278 template"><td class="memItemLeft"><a class="el" href="struct_game_1_1_position.html">Game::Position</a>&#160;</td><td class="memItemRight"><a class="el" href="#a29d6882c96ba8d2b844c4dcef89e5278">GetComponent</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
 <tr class="memitem:ac69348068e316f106ca55d34f2f432e3" id="r_ac69348068e316f106ca55d34f2f432e3"><td class="memItemLeft">template&lt;&gt; </td></tr>
@@ -258,6 +262,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac21ceb318e1be59809a0982c90f80502 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac21ceb318e1be59809a0982c90f80502">SetComponent</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> const &amp;)</td></tr>
 <tr class="memitem:ace312984dbfef14c715c0c4587123916" id="r_ace312984dbfef14c715c0c4587123916"><td class="memItemLeft">template&lt;&gt; </td></tr>
 <tr class="memitem:ace312984dbfef14c715c0c4587123916 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ace312984dbfef14c715c0c4587123916">SetComponent</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_game_1_1_scale.html">Game::Scale</a> const &amp;)</td></tr>
+<tr class="memitem:a68e247bc3aa380090b7674c7581b07f4" id="r_a68e247bc3aa380090b7674c7581b07f4"><td class="memItemLeft">template&lt;&gt; </td></tr>
+<tr class="memitem:a68e247bc3aa380090b7674c7581b07f4 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a68e247bc3aa380090b7674c7581b07f4">SetComponent</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, Game::HTransform const &amp;)</td></tr>
+<tr class="memdesc:a68e247bc3aa380090b7674c7581b07f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The local transform is the component which puts an entity in the transform hierarchy, which is why a write of it has to reach the instances below it.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -290,8 +297,8 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:ac0695792abc10408c50b596bc634ef5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Migrate an entity from it's current table to a different table.  <br /></td></tr>
 <tr class="memitem:a42835d6be4915c8469eb16f98cf9d4b9" id="r_a42835d6be4915c8469eb16f98cf9d4b9"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a42835d6be4915c8469eb16f98cf9d4b9">Migrate</a> (<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_game_1_1_entity.html">Entity</a> &gt; const &amp;entities, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> fromTable, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> newTable, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> &gt; &amp;newInstances)</td></tr>
 <tr class="memdesc:a42835d6be4915c8469eb16f98cf9d4b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Migrate an array of entities within the same table to a different table.  <br /></td></tr>
-<tr class="memitem:a788a0b9b103dbb3066ee290024a50805" id="r_a788a0b9b103dbb3066ee290024a50805"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a788a0b9b103dbb3066ee290024a50805">DecayComponent</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> tableId, <a class="el" href="struct_mem_db_1_1_column_index.html">MemDb::ColumnIndex</a> column, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> instance)</td></tr>
-<tr class="memdesc:a788a0b9b103dbb3066ee290024a50805"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the component to the decay table.  <br /></td></tr>
+<tr class="memitem:aa7654eed4230cebbdf1e2eb87b3d289e" id="r_aa7654eed4230cebbdf1e2eb87b3d289e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa7654eed4230cebbdf1e2eb87b3d289e">DecayComponent</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">ComponentId</a> component, <a class="el" href="struct_mem_db_1_1_table_id.html">MemDb::TableId</a> tableId, <a class="el" href="struct_mem_db_1_1_column_index.html">MemDb::ColumnIndex</a> column, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> instance, <a class="el" href="struct_game_1_1_entity.html">Entity</a> entity)</td></tr>
+<tr class="memdesc:aa7654eed4230cebbdf1e2eb87b3d289e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the component to the decay table and runs its decay callback.  <br /></td></tr>
 <tr class="memitem:a0584145a147a7dd3093fcd7e489afdce" id="r_a0584145a147a7dd3093fcd7e489afdce"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a0584145a147a7dd3093fcd7e489afdce">MoveInstance</a> (<a class="el" href="class_mem_db_1_1_table_1_1_partition.html">MemDb::Table::Partition</a> *partition, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> from, <a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a> to)</td></tr>
 <tr class="memdesc:a0584145a147a7dd3093fcd7e489afdce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move a instance/row within a partition.  <br /></td></tr>
 <tr class="memitem:a068588c5f92f3f4d1cbbf05f39a37516" id="r_a068588c5f92f3f4d1cbbf05f39a37516"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a068588c5f92f3f4d1cbbf05f39a37516">AddStagedComponentsToEntity</a> (<a class="el" href="struct_game_1_1_entity.html">Entity</a> entity, <a class="el" href="struct_game_1_1_world_1_1_add_staged_component_command.html">AddStagedComponentCommand</a> *cmds, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numCmds)</td></tr>
@@ -323,6 +330,8 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a1972da667f5aec4800c32d43b1ec4dc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores all deferred remove component commands.  <br /></td></tr>
 <tr class="memitem:ae9423f60fd6a1dfa7f4f681690a46fb9" id="r_ae9423f60fd6a1dfa7f4f681690a46fb9"><td class="memItemLeft"><a class="el" href="class_memory_1_1_arena_allocator.html">Memory::ArenaAllocator</a>&lt; 4096_KB &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ae9423f60fd6a1dfa7f4f681690a46fb9">componentStageAllocator</a></td></tr>
 <tr class="memdesc:ae9423f60fd6a1dfa7f4f681690a46fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocator for staged components.  <br /></td></tr>
+<tr class="memitem:a31102f86b8a72b0c739144f774a3f325" id="r_a31102f86b8a72b0c739144f774a3f325"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_game_1_1_transform_hierarchy.html">TransformHierarchy</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a31102f86b8a72b0c739144f774a3f325">hierarchy</a></td></tr>
+<tr class="memdesc:a31102f86b8a72b0c739144f774a3f325"><td class="mdescLeft">&#160;</td><td class="mdescRight">The transform hierarchy of the entities in this world.  <br /></td></tr>
 <tr class="memitem:a46e4c103c86194c11ee38046fbd7925c" id="r_a46e4c103c86194c11ee38046fbd7925c"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a46e4c103c86194c11ee38046fbd7925c">cacheValid</a> = false</td></tr>
 <tr class="memdesc:a46e4c103c86194c11ee38046fbd7925c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to true if the caches for the frame pipeline are valid.  <br /></td></tr>
 <tr class="memitem:a65a0dae6d7ff63f75fbe47789ee3fa05" id="r_a65a0dae6d7ff63f75fbe47789ee3fa05"><td class="memItemLeft"><a class="el" href="class_game_1_1_frame_pipeline.html">FramePipeline</a>&#160;</td><td class="memItemRight"><a class="el" href="#a65a0dae6d7ff63f75fbe47789ee3fa05">pipeline</a></td></tr>
@@ -721,8 +730,8 @@ template&lt;typename TYPE&gt; </div>
 
 </div>
 </div>
-<a id="abab210428b7f28771429017cbcbf7dfb" name="abab210428b7f28771429017cbcbf7dfb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abab210428b7f28771429017cbcbf7dfb">&#9670;&#160;</a></span>DeallocateInstance() <span class="overload">[2/2]</span></h2>
+<a id="a036039c457c6cff8db938510d341bc88" name="a036039c457c6cff8db938510d341bc88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a036039c457c6cff8db938510d341bc88">&#9670;&#160;</a></span>DeallocateInstance() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -735,7 +744,12 @@ template&lt;typename TYPE&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a></td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a></td>          <td class="paramname"><span class="paramname"><em>instance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -744,8 +758,8 @@ template&lt;typename TYPE&gt; </div>
 
 </div>
 </div>
-<a id="a788a0b9b103dbb3066ee290024a50805" name="a788a0b9b103dbb3066ee290024a50805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a788a0b9b103dbb3066ee290024a50805">&#9670;&#160;</a></span>DecayComponent()</h2>
+<a id="aa7654eed4230cebbdf1e2eb87b3d289e" name="aa7654eed4230cebbdf1e2eb87b3d289e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7654eed4230cebbdf1e2eb87b3d289e">&#9670;&#160;</a></span>DecayComponent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -771,7 +785,12 @@ template&lt;typename TYPE&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a></td>          <td class="paramname"><span class="paramname"><em>instance</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_mem_db_1_1_row_id.html">MemDb::RowId</a></td>          <td class="paramname"><span class="paramname"><em>instance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -781,7 +800,8 @@ template&lt;typename TYPE&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Copies the component to the decay table. </p>
+<p>Copies the component to the decay table and runs its decay callback. </p>
+<p>The entity is the owner of the component, which is what allows the callback to touch anything related to it </p>
 
 </div>
 </div>
@@ -1166,6 +1186,26 @@ template&lt;typename TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Get the frame pipeline. </p>
+
+</div>
+</div>
+<a id="a6716909ffe195767753ed437ee0b8f41" name="a6716909ffe195767753ed437ee0b8f41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6716909ffe195767753ed437ee0b8f41">&#9670;&#160;</a></span>GetHierarchy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_game_1_1_transform_hierarchy.html">TransformHierarchy</a> &gt; Game::World::GetHierarchy </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The transform hierarchy of this world. </p>
+<p>The world owns it, which is what lets the hierarchy read the component tables through it without knowing which world it was called from. </p>
 
 </div>
 </div>
@@ -1927,8 +1967,56 @@ template&lt;typename TYPE&gt; </div>
 
 </div>
 </div>
+<a id="a68e247bc3aa380090b7674c7581b07f4" name="a68e247bc3aa380090b7674c7581b07f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68e247bc3aa380090b7674c7581b07f4">&#9670;&#160;</a></span>SetComponent() <span class="overload">[1/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::World::SetComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Game::HTransform const &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The local transform is the component which puts an entity in the transform hierarchy, which is why a write of it has to reach the instances below it. </p>
+
+</div>
+</div>
+<a id="a579a3944044d7eaeea0d188963fccbf8" name="a579a3944044d7eaeea0d188963fccbf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a579a3944044d7eaeea0d188963fccbf8">&#9670;&#160;</a></span>SetComponent() <span class="overload">[2/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::World::SetComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Game::HTransform const &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac21ceb318e1be59809a0982c90f80502" name="ac21ceb318e1be59809a0982c90f80502"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac21ceb318e1be59809a0982c90f80502">&#9670;&#160;</a></span>SetComponent() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21ceb318e1be59809a0982c90f80502">&#9670;&#160;</a></span>SetComponent() <span class="overload">[3/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1951,7 +2039,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a4220d7fb8ce52c543f622701b355c6db" name="a4220d7fb8ce52c543f622701b355c6db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4220d7fb8ce52c543f622701b355c6db">&#9670;&#160;</a></span>SetComponent() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4220d7fb8ce52c543f622701b355c6db">&#9670;&#160;</a></span>SetComponent() <span class="overload">[4/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1974,7 +2062,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="a840ce4b40c69e6e1b013dc9c0aea989a" name="a840ce4b40c69e6e1b013dc9c0aea989a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840ce4b40c69e6e1b013dc9c0aea989a">&#9670;&#160;</a></span>SetComponent() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a840ce4b40c69e6e1b013dc9c0aea989a">&#9670;&#160;</a></span>SetComponent() <span class="overload">[5/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1997,7 +2085,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="afb73d708eaff57e4bdf0ae6cd921186d" name="afb73d708eaff57e4bdf0ae6cd921186d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb73d708eaff57e4bdf0ae6cd921186d">&#9670;&#160;</a></span>SetComponent() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afb73d708eaff57e4bdf0ae6cd921186d">&#9670;&#160;</a></span>SetComponent() <span class="overload">[6/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2020,7 +2108,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="ace312984dbfef14c715c0c4587123916" name="ace312984dbfef14c715c0c4587123916"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace312984dbfef14c715c0c4587123916">&#9670;&#160;</a></span>SetComponent() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ace312984dbfef14c715c0c4587123916">&#9670;&#160;</a></span>SetComponent() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2043,7 +2131,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="ab5e0d6306b93bf458eb1c61ab2409ad1" name="ab5e0d6306b93bf458eb1c61ab2409ad1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5e0d6306b93bf458eb1c61ab2409ad1">&#9670;&#160;</a></span>SetComponent() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5e0d6306b93bf458eb1c61ab2409ad1">&#9670;&#160;</a></span>SetComponent() <span class="overload">[8/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2066,7 +2154,7 @@ template&lt;&gt; </div>
 </div>
 </div>
 <a id="afa0e98d578ff107a1b839b9de970cd3d" name="afa0e98d578ff107a1b839b9de970cd3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa0e98d578ff107a1b839b9de970cd3d">&#9670;&#160;</a></span>SetComponent() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afa0e98d578ff107a1b839b9de970cd3d">&#9670;&#160;</a></span>SetComponent() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2499,6 +2587,30 @@ template&lt;typename TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>world hash </p>
+
+</div>
+</div>
+<a id="a31102f86b8a72b0c739144f774a3f325" name="a31102f86b8a72b0c739144f774a3f325"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31102f86b8a72b0c739144f774a3f325">&#9670;&#160;</a></span>hierarchy</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_game_1_1_transform_hierarchy.html">TransformHierarchy</a>&gt; Game::World::hierarchy</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The transform hierarchy of the entities in this world. </p>
 
 </div>
 </div>

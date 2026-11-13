@@ -8,6 +8,7 @@ var namespace_util =
     [ "ArrayAllocatorSafe", "class_util_1_1_array_allocator_safe.html", "class_util_1_1_array_allocator_safe" ],
     [ "ArrayQueue", "class_util_1_1_array_queue.html", "class_util_1_1_array_queue" ],
     [ "ArrayStack", "class_util_1_1_array_stack.html", "class_util_1_1_array_stack" ],
+    [ "BitArray", "class_util_1_1_bit_array.html", "class_util_1_1_bit_array" ],
     [ "BitField", "class_util_1_1_bit_field.html", "class_util_1_1_bit_field" ],
     [ "Blob", "class_util_1_1_blob.html", "class_util_1_1_blob" ],
     [ "Bvh", "class_util_1_1_bvh.html", "class_util_1_1_bvh" ],

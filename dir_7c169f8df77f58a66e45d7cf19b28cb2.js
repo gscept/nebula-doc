@@ -54,6 +54,8 @@ var dir_7c169f8df77f58a66e45d7cf19b28cb2 =
     [ "path.cc", "path_8cc.html", "path_8cc" ],
     [ "path.cpp", "path_8cpp.html", null ],
     [ "path.h", "path_8h.html", "path_8h" ],
+    [ "projectlocator.cc", "projectlocator_8cc.html", null ],
+    [ "projectlocator.h", "projectlocator_8h.html", "projectlocator_8h" ],
     [ "safefilestream.cc", "safefilestream_8cc.html", "safefilestream_8cc" ],
     [ "safefilestream.h", "safefilestream_8h.html", "safefilestream_8h" ],
     [ "schemeregistry.cc", "schemeregistry_8cc.html", "schemeregistry_8cc" ],

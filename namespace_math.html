@@ -311,6 +311,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a4dcd44627d84530288035a0c5c6bc1c9" id="r_a4dcd44627d84530288035a0c5c6bc1c9"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1quat.html">quat</a>&#160;</td><td class="memItemRight"><a class="el" href="#a4dcd44627d84530288035a0c5c6bc1c9">inverse</a> (const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q)</td></tr>
 <tr class="memitem:aecd49ae8998c700a0f0467848e65d937" id="r_aecd49ae8998c700a0f0467848e65d937"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1quat.html">quat</a>&#160;</td><td class="memItemRight"><a class="el" href="#aecd49ae8998c700a0f0467848e65d937">ln</a> (const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q)</td></tr>
 <tr class="memitem:aa590b2acbb6f31bb4c544e1b03c178a4" id="r_aa590b2acbb6f31bb4c544e1b03c178a4"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1quat.html">quat</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa590b2acbb6f31bb4c544e1b03c178a4">operator*</a> (const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q0, const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q1)</td></tr>
+<tr class="memdesc:aa590b2acbb6f31bb4c544e1b03c178a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Hamilton product.  <br /></td></tr>
 <tr class="memitem:a78f00aaec33550330dd4289d6d64e992" id="r_a78f00aaec33550330dd4289d6d64e992"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1quat.html">quat</a>&#160;</td><td class="memItemRight"><a class="el" href="#a78f00aaec33550330dd4289d6d64e992">normalize</a> (const <a class="el" href="struct_math_1_1quat.html">quat</a> &amp;q)</td></tr>
 <tr class="memitem:aefa31214f9bdbfa197f42f4c294635b4" id="r_aefa31214f9bdbfa197f42f4c294635b4"><td class="memItemLeft">__forceinline <a class="el" href="struct_math_1_1quat.html">quat</a>&#160;</td><td class="memItemRight"><a class="el" href="#aefa31214f9bdbfa197f42f4c294635b4">rotationquataxis</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;axis, <a class="el" href="#aa2733c5340f0e631b4e55bbda18b3243">scalar</a> angle)</td></tr>
 <tr class="memdesc:aefa31214f9bdbfa197f42f4c294635b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">quat from rotation axis + angle.  <br /></td></tr>
@@ -2089,7 +2090,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Chop float to int. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo</a></b></dt><dd>type cast to int is slow! </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo</a></b></dt><dd>type cast to int is slow! </dd></dl>
 
 </div>
 </div>
@@ -5096,6 +5097,9 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>The Hamilton product. </p>
+<p>The right operand is the one applied first, which is the same order as Math::mat4::operator*, so q0 * q1 is the rotation that turns a vector by q1 and then by q0. </p>
 
 </div>
 </div>

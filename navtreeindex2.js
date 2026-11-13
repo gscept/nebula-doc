@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"audiomanager_8h.html":[10,0,0,0,1,0,1],
+"audiomanager_8h_source.html":[10,0,0,0,1,0,1],
 "audioserver_8cc.html":[10,0,0,2,0,3],
 "audioserver_8h.html":[10,0,0,2,0,4],
 "audioserver_8h_source.html":[10,0,0,2,0,4],
@@ -29,11 +31,13 @@ var NAVTREEINDEX2 =
 "bindlessregistry_8h_source.html":[10,0,0,7,12,1],
 "bit_8h.html":[10,0,0,3,20,8],
 "bit_8h_source.html":[10,0,0,3,20,8],
-"bitfield_8h.html":[10,0,0,3,20,9],
-"bitfield_8h_source.html":[10,0,0,3,20,9],
-"blob_8cc.html":[10,0,0,3,20,10],
-"blob_8h.html":[10,0,0,3,20,11],
-"blob_8h_source.html":[10,0,0,3,20,11],
+"bitarray_8h.html":[10,0,0,3,20,9],
+"bitarray_8h_source.html":[10,0,0,3,20,9],
+"bitfield_8h.html":[10,0,0,3,20,10],
+"bitfield_8h_source.html":[10,0,0,3,20,10],
+"blob_8cc.html":[10,0,0,3,20,11],
+"blob_8h.html":[10,0,0,3,20,12],
+"blob_8h_source.html":[10,0,0,3,20,12],
 "blobattrid_8h.html":[10,0,0,0,0,13],
 "blobattrid_8h_source.html":[10,0,0,0,0,13],
 "blockinghandlerthread_8cc.html":[10,0,0,3,14,4],
@@ -55,8 +59,8 @@ var NAVTREEINDEX2 =
 "buffer_8h.html":[10,0,0,7,5,16],
 "buffer_8h_source.html":[10,0,0,7,5,16],
 "bug.html":[7],
-"bvh_8h.html":[10,0,0,3,20,12],
-"bvh_8h_source.html":[10,0,0,3,20,12],
+"bvh_8h.html":[10,0,0,3,20,13],
+"bvh_8h_source.html":[10,0,0,3,20,13],
 "bxmlfilestructs_8h.html":[10,0,0,3,9,6,0],
 "bxmlfilestructs_8h_source.html":[10,0,0,3,9,6,0],
 "bxmlloaderutil_8cc.html":[10,0,0,3,9,6,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX2 =
 "class_animation_1_1_anim_job.html#a3d1ba49315c8a6d4504cbcd73932b499":[8,0,0,3,7],
 "class_animation_1_1_anim_job.html#a3d1ba49315c8a6d4504cbcd73932b499":[9,0,0,3,7],
 "class_animation_1_1_anim_job.html#a3dff88eba95aba81a47678a6ad586850":[8,0,0,3,42],
-"class_animation_1_1_anim_job.html#a3dff88eba95aba81a47678a6ad586850":[9,0,0,3,42],
-"class_animation_1_1_anim_job.html#a3ffc202b1fbb45e986141cb8d2095080":[8,0,0,3,8],
-"class_animation_1_1_anim_job.html#a3ffc202b1fbb45e986141cb8d2095080":[9,0,0,3,8],
-"class_animation_1_1_anim_job.html#a4dc9dd08ac77b50c7113d7a67cc3f587":[8,0,0,3,32],
-"class_animation_1_1_anim_job.html#a4dc9dd08ac77b50c7113d7a67cc3f587":[9,0,0,3,32]
+"class_animation_1_1_anim_job.html#a3dff88eba95aba81a47678a6ad586850":[9,0,0,3,42]
 };

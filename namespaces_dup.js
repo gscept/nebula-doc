@@ -109,7 +109,6 @@ var namespaces_dup =
     [ "TBUI", "namespace_t_b_u_i.html", "namespace_t_b_u_i" ],
     [ "Terrain", "namespace_terrain.html", "namespace_terrain" ],
     [ "Threading", "namespace_threading.html", "namespace_threading" ],
-    [ "Time", "namespace_time.html", null ],
     [ "Timing", "namespace_timing.html", [
       [ "Tick", "namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e", null ],
       [ "Time", "namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999", null ],

@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('struct_game_1_
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="timemanager_8h_source.html">timemanager.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="timesource_8h_source.html">timesource.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Used to create a timesource. </p>
 </div><table class="memberdecls">
@@ -122,8 +122,28 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('struct_game_1_
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7073f71fd8fdbd4d03a2db05b2e30500" id="r_a7073f71fd8fdbd4d03a2db05b2e30500"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a7073f71fd8fdbd4d03a2db05b2e30500">hash</a> = 0</td></tr>
 <tr class="memdesc:a7073f71fd8fdbd4d03a2db05b2e30500"><td class="mdescLeft">&#160;</td><td class="mdescRight">time source hash number. Ex. 'ABC1'  <br /></td></tr>
+<tr class="memitem:a79d2a85df1b9a57fb07a492b6bc7089d" id="r_a79d2a85df1b9a57fb07a492b6bc7089d"><td class="memItemLeft"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight"><a class="el" href="#a79d2a85df1b9a57fb07a492b6bc7089d">fixedFrameTime</a> = 0.0</td></tr>
+<tr class="memdesc:a79d2a85df1b9a57fb07a492b6bc7089d"><td class="mdescLeft">&#160;</td><td class="mdescRight">when non-zero the time source advances in fixed steps instead of following real frame time  <br /></td></tr>
+<tr class="memitem:a059c9ac8618228fceb6a54706ed719c5" id="r_a059c9ac8618228fceb6a54706ed719c5"><td class="memItemLeft"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a059c9ac8618228fceb6a54706ed719c5">maxStepsPerFrame</a> = 5</td></tr>
+<tr class="memdesc:a059c9ac8618228fceb6a54706ed719c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many fixed steps the source can accumulate per frame. Guards against the spiral of death  <br /></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a79d2a85df1b9a57fb07a492b6bc7089d" name="a79d2a85df1b9a57fb07a492b6bc7089d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d2a85df1b9a57fb07a492b6bc7089d">&#9670;&#160;</a></span>fixedFrameTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> Game::TimeSourceCreateInfo::fixedFrameTime = 0.0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>when non-zero the time source advances in fixed steps instead of following real frame time </p>
+
+</div>
+</div>
 <a id="a7073f71fd8fdbd4d03a2db05b2e30500" name="a7073f71fd8fdbd4d03a2db05b2e30500"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7073f71fd8fdbd4d03a2db05b2e30500">&#9670;&#160;</a></span>hash</h2>
 
@@ -140,8 +160,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a059c9ac8618228fceb6a54706ed719c5" name="a059c9ac8618228fceb6a54706ed719c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a059c9ac8618228fceb6a54706ed719c5">&#9670;&#160;</a></span>maxStepsPerFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> Game::TimeSourceCreateInfo::maxStepsPerFrame = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how many fixed steps the source can accumulate per frame. Guards against the spiral of death </p>
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>/github/workspace/code/application/basegamefeature/managers/<a class="el" href="timemanager_8h_source.html">timemanager.h</a></li>
+<li>/github/workspace/code/application/game/<a class="el" href="timesource_8h_source.html">timesource.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

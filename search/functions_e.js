@@ -75,6 +75,8 @@ var searchData=
   ['numberofprimitives_72',['NumberOfPrimitives',['../class_core_graphics_1_1_primitive_topology.html#ab773c8c897448196c9a22fa54084c6df',1,'CoreGraphics::PrimitiveTopology']]],
   ['numberofvertices_73',['NumberOfVertices',['../class_core_graphics_1_1_primitive_topology.html#a8cf69f48f97c8e078227dc3a88667a64',1,'CoreGraphics::PrimitiveTopology']]],
   ['numfree_74',['NumFree',['../class_util_1_1_fixed_pool.html#acb3644786fb55c6ed3384a3a112f2ff1',1,'Util::FixedPool']]],
-  ['numused_75',['NumUsed',['../class_util_1_1_fixed_pool.html#a9ab57c8a54251eacecaeeeab98bce08d',1,'Util::FixedPool']]],
-  ['nvx3streamreader_76',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html#aa6024c6f12d45176f03bcac2d2d19d2e',1,'CoreGraphics::Nvx3StreamReader']]]
+  ['numpending_75',['NumPending',['../class_game_1_1_transform_hierarchy.html#ac3647ed70d85007d91e779ec8a70a6b4',1,'Game::TransformHierarchy']]],
+  ['numsections_76',['NumSections',['../class_util_1_1_bit_array.html#aa339517266e8a6759e60f83bb78317bf',1,'Util::BitArray']]],
+  ['numused_77',['NumUsed',['../class_util_1_1_fixed_pool.html#a9ab57c8a54251eacecaeeeab98bce08d',1,'Util::FixedPool']]],
+  ['nvx3streamreader_78',['Nvx3StreamReader',['../class_core_graphics_1_1_nvx3_stream_reader.html#aa6024c6f12d45176f03bcac2d2d19d2e',1,'CoreGraphics::Nvx3StreamReader']]]
 ];

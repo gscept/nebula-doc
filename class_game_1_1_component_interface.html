@@ -123,6 +123,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_game_1_1
 <tr class="heading"><td colspan="2"><h2 id="header-pub-types" class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a744e823b98888da0ce11040b14ba13f8" id="r_a744e823b98888da0ce11040b14ba13f8"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a744e823b98888da0ce11040b14ba13f8">ComponentInitFunc</a> = void (*)(<a class="el" href="class_game_1_1_world.html">Game::World</a>*, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, void*)</td></tr>
+<tr class="memitem:a365db96c7a0791d9861243d087ab1444" id="r_a365db96c7a0791d9861243d087ab1444"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a365db96c7a0791d9861243d087ab1444">ComponentDecayFunc</a> = void (*)(<a class="el" href="class_game_1_1_world.html">Game::World</a>*, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, void*)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -155,6 +156,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ac04edc1f061c60825ff5fccc0845f0aa" id="r_ac04edc1f061c60825ff5fccc0845f0aa"><td class="memItemLeft"><a class="el" href="#a744e823b98888da0ce11040b14ba13f8">ComponentInitFunc</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac04edc1f061c60825ff5fccc0845f0aa">Init</a> = nullptr</td></tr>
+<tr class="memitem:a14dd1c58684d92027e28f51d6f9fdf2e" id="r_a14dd1c58684d92027e28f51d6f9fdf2e"><td class="memItemLeft"><a class="el" href="#a365db96c7a0791d9861243d087ab1444">ComponentDecayFunc</a>&#160;</td><td class="memItemRight"><a class="el" href="#a14dd1c58684d92027e28f51d6f9fdf2e">Decay</a> = nullptr</td></tr>
 <tr class="inherit_header pub_attribs_class_mem_db_1_1_attribute"><td colspan="2">Public Attributes inherited from <a class="el" href="class_mem_db_1_1_attribute.html">MemDb::Attribute</a></td></tr>
 <tr class="memitem:a595f2adc86c29465444c4f80789b13b3 pub_attribs_class_mem_db_1_1_attribute" id="r_a595f2adc86c29465444c4f80789b13b3"><td class="memItemLeft"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight"><a class="el" href="class_mem_db_1_1_attribute.html#a595f2adc86c29465444c4f80789b13b3">name</a></td></tr>
 <tr class="memdesc:a595f2adc86c29465444c4f80789b13b3 pub_attribs_class_mem_db_1_1_attribute"><td class="mdescLeft">&#160;</td><td class="mdescRight">name of attribute  <br /></td></tr>
@@ -175,6 +177,20 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad178ab8be1d403e6e844a2964fa97643" id="r_ad178ab8be1d403e6e844a2964fa97643"><td class="memItemLeft">size_t&#160;</td><td class="memItemRight"><a class="el" href="#ad178ab8be1d403e6e844a2964fa97643">numFields</a> = 0</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
+<a id="a365db96c7a0791d9861243d087ab1444" name="a365db96c7a0791d9861243d087ab1444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a365db96c7a0791d9861243d087ab1444">&#9670;&#160;</a></span>ComponentDecayFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a365db96c7a0791d9861243d087ab1444">Game::ComponentInterface::ComponentDecayFunc</a> = void (*)(<a class="el" href="class_game_1_1_world.html">Game::World</a>*, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, void*)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a744e823b98888da0ce11040b14ba13f8" name="a744e823b98888da0ce11040b14ba13f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a744e823b98888da0ce11040b14ba13f8">&#9670;&#160;</a></span>ComponentInitFunc</h2>
 
@@ -398,6 +414,20 @@ template&lt;typename T&gt; </div>
 <span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a14dd1c58684d92027e28f51d6f9fdf2e" name="a14dd1c58684d92027e28f51d6f9fdf2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14dd1c58684d92027e28f51d6f9fdf2e">&#9670;&#160;</a></span>Decay</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a365db96c7a0791d9861243d087ab1444">ComponentDecayFunc</a> Game::ComponentInterface::Decay = nullptr</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

@@ -121,17 +121,98 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up and interfaces with the physics subsystem.  <a href="class_physics_feature_1_1_physics_feature_unit.html#details">More...</a><br /></td></tr>
 <tr class="memitem:PhysicsManager" id="r_PhysicsManager"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:af88793e135c380d1c5ef8e4e949ef3df" id="r_af88793e135c380d1c5ef8e4e949ef3df"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#af88793e135c380d1c5ef8e4e949ef3df">PhysicsPending</a> : uint32_t { <br />
+&#160;&#160;<a class="el" href="#af88793e135c380d1c5ef8e4e949ef3dfa7fa5bd0150fbe979f7c7c65f26252f0c">PendingPose</a> = 1 &lt;&lt; 0
+, <a class="el" href="#af88793e135c380d1c5ef8e4e949ef3dfad300b2610627bfe4bae8b4a30cd8637e">PendingShape</a> = 1 &lt;&lt; 1
+, <a class="el" href="#af88793e135c380d1c5ef8e4e949ef3dfa34b07881984160980d14eb18349a1250">PendingBody</a> = 1 &lt;&lt; 2
+, <a class="el" href="#af88793e135c380d1c5ef8e4e949ef3dfa27c617e04fd65aedbf83d3c6e72572bf">PendingStructural</a> = 1 &lt;&lt; 3
+, <br />
+&#160;&#160;<a class="el" href="#af88793e135c380d1c5ef8e4e949ef3dfa315ae253cd0a4477f272aed3e1ddf823">PendingAll</a> = PendingPose | PendingShape | PendingBody | PendingStructural
+<br />
+ }</td></tr>
+<tr class="memdesc:af88793e135c380d1c5ef8e4e949ef3df"><td class="mdescLeft">&#160;</td><td class="mdescRight">what the physics manager has queued for an entity, mixed together in the pending field of the PhysicsActor component.  <a href="#af88793e135c380d1c5ef8e4e949ef3df">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac048d915baf0c16c0ac282fdbe897887" id="r_ac048d915baf0c16c0ac282fdbe897887"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac048d915baf0c16c0ac282fdbe897887">__ImplementClass</a> (<a class="el" href="class_physics_feature_1_1_character_manager.html">PhysicsFeature::CharacterManager</a>, 'ChMa', <a class="el" href="class_game_1_1_manager.html">Game::Manager</a>)</td></tr>
 <tr class="memitem:a6e19abb1eab36b213db5f5c2ebff1d1c" id="r_a6e19abb1eab36b213db5f5c2ebff1d1c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6e19abb1eab36b213db5f5c2ebff1d1c">MoveCharacters</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> &amp;position, <a class="el" href="struct_game_1_1_velocity.html">Game::Velocity</a> &amp;velocity, Character &amp;character)</td></tr>
 <tr class="memitem:abdacd6cb56ae8cbb6c95e5962b2ec344" id="r_abdacd6cb56ae8cbb6c95e5962b2ec344"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#abdacd6cb56ae8cbb6c95e5962b2ec344">__ImplementClass</a> (<a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsFeature::PhysicsManager</a>, 'PhMa', <a class="el" href="class_game_1_1_manager.html">Game::Manager</a>)</td></tr>
 <tr class="memitem:a7b9db368fc8d87be88dda9b7a1ce23a8" id="r_a7b9db368fc8d87be88dda9b7a1ce23a8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7b9db368fc8d87be88dda9b7a1ce23a8">__ImplementSingleton</a> (<a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a>) <a class="el" href="class_physics_feature_1_1_physics_manager.html">PhysicsManager</a></td></tr>
-<tr class="memitem:aaea2fc9ab3abe429350fc120810ca685" id="r_aaea2fc9ab3abe429350fc120810ca685"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aaea2fc9ab3abe429350fc120810ca685">PollRigidbodyTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> &amp;position, <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> &amp;orientation, PhysicsFeature::PhysicsActor const &amp;actor)</td></tr>
-<tr class="memitem:ab1b4e626eeeebf4f96722eecafc78528" id="r_ab1b4e626eeeebf4f96722eecafc78528"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab1b4e626eeeebf4f96722eecafc78528">PassKinematicTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;position, <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> const &amp;orientation, PhysicsFeature::PhysicsActor &amp;actor, PhysicsFeature::IsKinematic)</td></tr>
+<tr class="memitem:a0ca5a2d239e75a69c04e3ad9155c6fb0" id="r_a0ca5a2d239e75a69c04e3ad9155c6fb0"><td class="memItemLeft">static <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0ca5a2d239e75a69c04e3ad9155c6fb0">ResolveBodyEntity</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:a0ca5a2d239e75a69c04e3ad9155c6fb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves which entity owns the physx actor a collider belongs to.  <br /></td></tr>
+<tr class="memitem:a1435b47086512185056462929e7ea7ca" id="r_a1435b47086512185056462929e7ea7ca"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1435b47086512185056462929e7ea7ca">GetValidateActorId</a> (<a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor const &amp;actor)</td></tr>
+<tr class="memdesc:a1435b47086512185056462929e7ea7ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the actorid is valid, and if the actor points to the correct entity, and returns a valid or invalid actor id based on the check.  <br /></td></tr>
+<tr class="memitem:ae05c0537229a073298495eab24288458" id="r_ae05c0537229a073298495eab24288458"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae05c0537229a073298495eab24288458">ResolveActorHandle</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:ae05c0537229a073298495eab24288458"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the physx actor of the entity  <br /></td></tr>
+<tr class="memitem:aba456c34f9be99ac1c461c610644498c" id="r_aba456c34f9be99ac1c461c610644498c"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aba456c34f9be99ac1c461c610644498c">ActorIsDynamic</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> id)</td></tr>
+<tr class="memdesc:aba456c34f9be99ac1c461c610644498c"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the actor is a rigid body, which covers both the kinematic and the dynamic actor type.  <br /></td></tr>
+<tr class="memitem:a5d4746d11b1fa6af5373cab78272df60" id="r_a5d4746d11b1fa6af5373cab78272df60"><td class="memItemLeft">static Physics::ColliderType&#160;</td><td class="memItemRight"><a class="el" href="#a5d4746d11b1fa6af5373cab78272df60">ShapeColliderType</a> (physx::PxShape const *pxShape)</td></tr>
+<tr class="memdesc:a5d4746d11b1fa6af5373cab78272df60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts from pxshape to our internal collider type enum.  <br /></td></tr>
+<tr class="memitem:a91307531c6b584820f740a602729b33e" id="r_a91307531c6b584820f740a602729b33e"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a91307531c6b584820f740a602729b33e">HasColliderOfType</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, int colliderClass)</td></tr>
+<tr class="memdesc:a91307531c6b584820f740a602729b33e"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if the entity still has the collider component matching a physx shape of this type.  <br /></td></tr>
+<tr class="memitem:ae7eef30bfa407110b6b50115b074b06f" id="r_ae7eef30bfa407110b6b50115b074b06f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ae7eef30bfa407110b6b50115b074b06f">ShapeBelongsTo</a> (<a class="el" href="struct_physics_1_1_shape_id.html">Physics::ShapeId</a> id, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:ae7eef30bfa407110b6b50115b074b06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when a shape name held by a handle still names the shape its entity built.  <br /></td></tr>
+<tr class="memitem:ae98550070fcc49fa2f77c63072e78df3" id="r_ae98550070fcc49fa2f77c63072e78df3"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_shape_id.html">Physics::ShapeId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae98550070fcc49fa2f77c63072e78df3">FindShapeForEntity</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> actorId, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memitem:aaf7df16e608318ae87cd4384c93e331a" id="r_aaf7df16e608318ae87cd4384c93e331a"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aaf7df16e608318ae87cd4384c93e331a">HasOtherCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a> component)</td></tr>
+<tr class="memdesc:aaf7df16e608318ae87cd4384c93e331a"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when the entity has a collider component other than this one.  <br /></td></tr>
+<tr class="memitem:ad6582981400e96d9e837e79a2b103444" id="r_ad6582981400e96d9e837e79a2b103444"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ad6582981400e96d9e837e79a2b103444">ClearShapeField</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memitem:a88cf62c13044c53ee27647e685dd39b8" id="r_a88cf62c13044c53ee27647e685dd39b8"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a88cf62c13044c53ee27647e685dd39b8">GarbageCollectShapes</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> bodyEntity, <a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> actorId)</td></tr>
+<tr class="memdesc:a88cf62c13044c53ee27647e685dd39b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases the shapes of an actor whose collider component is gone, or whose collider entity has been moved to another body.  <br /></td></tr>
+<tr class="memitem:a7c5dbc06e5198142e09a43b171e077b4" id="r_a7c5dbc06e5198142e09a43b171e077b4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a7c5dbc06e5198142e09a43b171e077b4">MarkOwnedShapes</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> actorId)</td></tr>
+<tr class="memdesc:a7c5dbc06e5198142e09a43b171e077b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queues the entities whose shapes hang off an actor which is about to be released, so that their shapes get built again on whichever actor they end up on.  <br /></td></tr>
+<tr class="memitem:aac73b7bb4263056abaccd3e7b72f9c0c" id="r_aac73b7bb4263056abaccd3e7b72f9c0c"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aac73b7bb4263056abaccd3e7b72f9c0c">BuildActorFromPhysicsResource</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;self)</td></tr>
+<tr class="memitem:a5ce7a7cd3c7ad559b19865be7a7dc144" id="r_a5ce7a7cd3c7ad559b19865be7a7dc144"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a5ce7a7cd3c7ad559b19865be7a7dc144">BuildRigidbody</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor)</td></tr>
+<tr class="memitem:a62dbdef99f6278e5c2d5ca6c48d434a9" id="r_a62dbdef99f6278e5c2d5ca6c48d434a9"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a62dbdef99f6278e5c2d5ca6c48d434a9">BuildStaticBody</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor)</td></tr>
+<tr class="memitem:adf5664787b3e5aaee05abf6a7619783a" id="r_adf5664787b3e5aaee05abf6a7619783a"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#adf5664787b3e5aaee05abf6a7619783a">BuildCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor, <a class="el" href="struct_physics_1_1_collider_description.html">Physics::ColliderDescription</a> &amp;desc)</td></tr>
+<tr class="memitem:a67d1bb2f211022c530561a0ca56ce5a7" id="r_a67d1bb2f211022c530561a0ca56ce5a7"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a67d1bb2f211022c530561a0ca56ce5a7">BuildBoxCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor)</td></tr>
+<tr class="memitem:a55bb33da2a0dd7a01180d05f22f91e70" id="r_a55bb33da2a0dd7a01180d05f22f91e70"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a55bb33da2a0dd7a01180d05f22f91e70">BuildSphereCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor)</td></tr>
+<tr class="memitem:ab820e07f9e485fb9ed985a0215bb3d25" id="r_ab820e07f9e485fb9ed985a0215bb3d25"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ab820e07f9e485fb9ed985a0215bb3d25">BuildCapsuleCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor)</td></tr>
+<tr class="memitem:aa0508ebcced84e6ec9c45e6c3aa4f5f0" id="r_aa0508ebcced84e6ec9c45e6c3aa4f5f0"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aa0508ebcced84e6ec9c45e6c3aa4f5f0">BuildPlaneCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor)</td></tr>
+<tr class="memitem:a2ced4155f1bc9cbb315608fd4ef6eae0" id="r_a2ced4155f1bc9cbb315608fd4ef6eae0"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a2ced4155f1bc9cbb315608fd4ef6eae0">BuildMeshCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor)</td></tr>
+<tr class="memitem:a31d8c9ee9502797c7f01b24b9899f831" id="r_a31d8c9ee9502797c7f01b24b9899f831"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a31d8c9ee9502797c7f01b24b9899f831">BuildHeightFieldCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor)</td></tr>
+<tr class="memitem:a043020a950d972d852d3f435e3918e8d" id="r_a043020a950d972d852d3f435e3918e8d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a043020a950d972d852d3f435e3918e8d">PushActorPose</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> actorId)</td></tr>
+<tr class="memdesc:a043020a950d972d852d3f435e3918e8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pushes the transform of the entity onto its actor.  <br /></td></tr>
+<tr class="memitem:a47a03071290c3aff81ee201064f6385c" id="r_a47a03071290c3aff81ee201064f6385c"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a47a03071290c3aff81ee201064f6385c">RebuildPhysicsEntity</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::PhysicsActor &amp;actor, uint32_t const pending)</td></tr>
+<tr class="memdesc:a47a03071290c3aff81ee201064f6385c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates, updates and releases physx actors and shapes for one entity, according to what is queued for it.  <br /></td></tr>
+<tr class="memitem:a3da308b808b019087d44955c76ab9b1a" id="r_a3da308b808b019087d44955c76ab9b1a"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a3da308b808b019087d44955c76ab9b1a">EnsureHandle</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memitem:a1931b83173e0f456782f82a1aaa48bd1" id="r_a1931b83173e0f456782f82a1aaa48bd1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1931b83173e0f456782f82a1aaa48bd1">PollPhysicsResourceTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> &amp;position, <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> &amp;orientation, PhysicsFeature::PhysicsResource const &amp;, PhysicsFeature::PhysicsActor const &amp;handle)</td></tr>
+<tr class="memitem:ad2afadd76384f5e3b2aec7c5ffa06b7b" id="r_ad2afadd76384f5e3b2aec7c5ffa06b7b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad2afadd76384f5e3b2aec7c5ffa06b7b">PassKinematicTransforms</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;position, <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> const &amp;orientation, PhysicsFeature::PhysicsResource const &amp;, PhysicsFeature::IsKinematic, PhysicsFeature::PhysicsActor const &amp;handle)</td></tr>
+<tr class="memitem:a82b4d1d373bc2477066ec1816397ea53" id="r_a82b4d1d373bc2477066ec1816397ea53"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a82b4d1d373bc2477066ec1816397ea53">PollRigidbodyTransform</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::Rigidbody const &amp;body, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> &amp;position, <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> &amp;orientation, PhysicsFeature::PhysicsActor const &amp;handle)</td></tr>
+<tr class="memitem:aceb6dd78399ffabbdcaa84668c306465" id="r_aceb6dd78399ffabbdcaa84668c306465"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aceb6dd78399ffabbdcaa84668c306465">WriteKinematicRigidbody</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, PhysicsFeature::Rigidbody const &amp;body, <a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;position, <a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> const &amp;orientation, PhysicsFeature::PhysicsActor const &amp;handle)</td></tr>
 <tr class="memitem:ab558b8ecc28d6ccad9082d9ba1adb06e" id="r_ab558b8ecc28d6ccad9082d9ba1adb06e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab558b8ecc28d6ccad9082d9ba1adb06e">__ImplementClass</a> (<a class="el" href="class_physics_feature_1_1_physics_feature_unit.html">PhysicsFeature::PhysicsFeatureUnit</a>, 'PXFU', <a class="el" href="class_game_1_1_feature_unit.html">Game::FeatureUnit</a>)</td></tr>
 <tr class="memitem:abd2a70e6bf713ffbe4bca760e77b3bdc" id="r_abd2a70e6bf713ffbe4bca760e77b3bdc"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#abd2a70e6bf713ffbe4bca760e77b3bdc">__ImplementSingleton</a> (<a class="el" href="class_physics_feature_1_1_physics_feature_unit.html">PhysicsFeatureUnit</a>)</td></tr>
 </table>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="af88793e135c380d1c5ef8e4e949ef3df" name="af88793e135c380d1c5ef8e4e949ef3df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af88793e135c380d1c5ef8e4e949ef3df">&#9670;&#160;</a></span>PhysicsPending</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#af88793e135c380d1c5ef8e4e949ef3df">PhysicsFeature::PhysicsPending</a> : uint32_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>what the physics manager has queued for an entity, mixed together in the pending field of the PhysicsActor component. </p>
+<p>Adding and removing components is picked up by the component inits and decay callbacks, everything else is pinged by whoever changed the entity </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af88793e135c380d1c5ef8e4e949ef3dfa7fa5bd0150fbe979f7c7c65f26252f0c" name="af88793e135c380d1c5ef8e4e949ef3dfa7fa5bd0150fbe979f7c7c65f26252f0c"></a>PendingPose&#160;</td><td class="fielddoc"><p>push the pose of the actor, and the local pose of its shapes </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af88793e135c380d1c5ef8e4e949ef3dfad300b2610627bfe4bae8b4a30cd8637e" name="af88793e135c380d1c5ef8e4e949ef3dfad300b2610627bfe4bae8b4a30cd8637e"></a>PendingShape&#160;</td><td class="fielddoc"><p>build or update the shapes of the collider components </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af88793e135c380d1c5ef8e4e949ef3dfa34b07881984160980d14eb18349a1250" name="af88793e135c380d1c5ef8e4e949ef3dfa34b07881984160980d14eb18349a1250"></a>PendingBody&#160;</td><td class="fielddoc"><p>create or update the physx actor of the body component </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af88793e135c380d1c5ef8e4e949ef3dfa27c617e04fd65aedbf83d3c6e72572bf" name="af88793e135c380d1c5ef8e4e949ef3dfa27c617e04fd65aedbf83d3c6e72572bf"></a>PendingStructural&#160;</td><td class="fielddoc"><p>the actor has to look through its shapes for owners which no longer have a component. Only needed when the handle of an entity cannot name the shape it built, because a handle which can name its shape releases that shape itself </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af88793e135c380d1c5ef8e4e949ef3dfa315ae253cd0a4477f272aed3e1ddf823" name="af88793e135c380d1c5ef8e4e949ef3dfa315ae253cd0a4477f272aed3e1ddf823"></a>PendingAll&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="ac048d915baf0c16c0ac282fdbe897887" name="ac048d915baf0c16c0ac282fdbe897887"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac048d915baf0c16c0ac282fdbe897887">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[1/3]</span></h2>
@@ -245,6 +326,638 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aba456c34f9be99ac1c461c610644498c" name="aba456c34f9be99ac1c461c610644498c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba456c34f9be99ac1c461c610644498c">&#9670;&#160;</a></span>ActorIsDynamic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::ActorIsDynamic </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the actor is a rigid body, which covers both the kinematic and the dynamic actor type. </p>
+
+</div>
+</div>
+<a id="aac73b7bb4263056abaccd3e7b72f9c0c" name="aac73b7bb4263056abaccd3e7b72f9c0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac73b7bb4263056abaccd3e7b72f9c0c">&#9670;&#160;</a></span>BuildActorFromPhysicsResource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::BuildActorFromPhysicsResource </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>self</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a67d1bb2f211022c530561a0ca56ce5a7" name="a67d1bb2f211022c530561a0ca56ce5a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67d1bb2f211022c530561a0ca56ce5a7">&#9670;&#160;</a></span>BuildBoxCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::BuildBoxCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab820e07f9e485fb9ed985a0215bb3d25" name="ab820e07f9e485fb9ed985a0215bb3d25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab820e07f9e485fb9ed985a0215bb3d25">&#9670;&#160;</a></span>BuildCapsuleCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::BuildCapsuleCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf5664787b3e5aaee05abf6a7619783a" name="adf5664787b3e5aaee05abf6a7619783a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf5664787b3e5aaee05abf6a7619783a">&#9670;&#160;</a></span>BuildCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::BuildCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_collider_description.html">Physics::ColliderDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>desc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31d8c9ee9502797c7f01b24b9899f831" name="a31d8c9ee9502797c7f01b24b9899f831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31d8c9ee9502797c7f01b24b9899f831">&#9670;&#160;</a></span>BuildHeightFieldCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::BuildHeightFieldCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2ced4155f1bc9cbb315608fd4ef6eae0" name="a2ced4155f1bc9cbb315608fd4ef6eae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ced4155f1bc9cbb315608fd4ef6eae0">&#9670;&#160;</a></span>BuildMeshCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::BuildMeshCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa0508ebcced84e6ec9c45e6c3aa4f5f0" name="aa0508ebcced84e6ec9c45e6c3aa4f5f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0508ebcced84e6ec9c45e6c3aa4f5f0">&#9670;&#160;</a></span>BuildPlaneCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::BuildPlaneCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ce7a7cd3c7ad559b19865be7a7dc144" name="a5ce7a7cd3c7ad559b19865be7a7dc144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ce7a7cd3c7ad559b19865be7a7dc144">&#9670;&#160;</a></span>BuildRigidbody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::BuildRigidbody </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a55bb33da2a0dd7a01180d05f22f91e70" name="a55bb33da2a0dd7a01180d05f22f91e70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55bb33da2a0dd7a01180d05f22f91e70">&#9670;&#160;</a></span>BuildSphereCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::BuildSphereCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62dbdef99f6278e5c2d5ca6c48d434a9" name="a62dbdef99f6278e5c2d5ca6c48d434a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62dbdef99f6278e5c2d5ca6c48d434a9">&#9670;&#160;</a></span>BuildStaticBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::BuildStaticBody </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad6582981400e96d9e837e79a2b103444" name="ad6582981400e96d9e837e79a2b103444"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6582981400e96d9e837e79a2b103444">&#9670;&#160;</a></span>ClearShapeField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::ClearShapeField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3da308b808b019087d44955c76ab9b1a" name="a3da308b808b019087d44955c76ab9b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da308b808b019087d44955c76ab9b1a">&#9670;&#160;</a></span>EnsureHandle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::EnsureHandle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae98550070fcc49fa2f77c63072e78df3" name="ae98550070fcc49fa2f77c63072e78df3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae98550070fcc49fa2f77c63072e78df3">&#9670;&#160;</a></span>FindShapeForEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_physics_1_1_shape_id.html">Physics::ShapeId</a> PhysicsFeature::FindShapeForEntity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a></td>          <td class="paramname"><span class="paramname"><em>actorId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a88cf62c13044c53ee27647e685dd39b8" name="a88cf62c13044c53ee27647e685dd39b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88cf62c13044c53ee27647e685dd39b8">&#9670;&#160;</a></span>GarbageCollectShapes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::GarbageCollectShapes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>bodyEntity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a></td>          <td class="paramname"><span class="paramname"><em>actorId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Releases the shapes of an actor whose collider component is gone, or whose collider entity has been moved to another body. </p>
+<p>Shapes that came along with an actor resource are not tracked by the actor and are left alone. This is the fallback for an entity whose handle cannot name the shape it built; an entity whose handle can name it releases that shape by itself, on the decay of its component. </p>
+
+</div>
+</div>
+<a id="a1435b47086512185056462929e7ea7ca" name="a1435b47086512185056462929e7ea7ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1435b47086512185056462929e7ea7ca">&#9670;&#160;</a></span>GetValidateActorId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> PhysicsFeature::GetValidateActorId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor const &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the actorid is valid, and if the actor points to the correct entity, and returns a valid or invalid actor id based on the check. </p>
+
+</div>
+</div>
+<a id="a91307531c6b584820f740a602729b33e" name="a91307531c6b584820f740a602729b33e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91307531c6b584820f740a602729b33e">&#9670;&#160;</a></span>HasColliderOfType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::HasColliderOfType </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>colliderClass</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True if the entity still has the collider component matching a physx shape of this type. </p>
+
+</div>
+</div>
+<a id="aaf7df16e608318ae87cd4384c93e331a" name="aaf7df16e608318ae87cd4384c93e331a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7df16e608318ae87cd4384c93e331a">&#9670;&#160;</a></span>HasOtherCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::HasOtherCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></td>          <td class="paramname"><span class="paramname"><em>component</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True when the entity has a collider component other than this one. </p>
+<p>An entity is only allowed to have one shape. </p>
+
+</div>
+</div>
+<a id="a7c5dbc06e5198142e09a43b171e077b4" name="a7c5dbc06e5198142e09a43b171e077b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c5dbc06e5198142e09a43b171e077b4">&#9670;&#160;</a></span>MarkOwnedShapes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::MarkOwnedShapes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a></td>          <td class="paramname"><span class="paramname"><em>actorId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Queues the entities whose shapes hang off an actor which is about to be released, so that their shapes get built again on whichever actor they end up on. </p>
+<p>Only shapes built from a collider description are tracked by the actor, and those are the only ones owned by an entity. </p>
+
+</div>
+</div>
 <a id="a6e19abb1eab36b213db5f5c2ebff1d1c" name="a6e19abb1eab36b213db5f5c2ebff1d1c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e19abb1eab36b213db5f5c2ebff1d1c">&#9670;&#160;</a></span>MoveCharacters()</h2>
 
@@ -276,8 +989,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab1b4e626eeeebf4f96722eecafc78528" name="ab1b4e626eeeebf4f96722eecafc78528"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1b4e626eeeebf4f96722eecafc78528">&#9670;&#160;</a></span>PassKinematicTransforms()</h2>
+<a id="ad2afadd76384f5e3b2aec7c5ffa06b7b" name="ad2afadd76384f5e3b2aec7c5ffa06b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2afadd76384f5e3b2aec7c5ffa06b7b">&#9670;&#160;</a></span>PassKinematicTransforms()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,6 +999,11 @@ Functions</h2></td></tr>
           <td class="memname">void PhysicsFeature::PassKinematicTransforms </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -300,28 +1018,38 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>, </td>
+          <td class="paramtype">PhysicsFeature::PhysicsResource const &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PhysicsFeature::IsKinematic</td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+          <td class="paramtype">PhysicsFeature::IsKinematic</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor const &amp;</td>          <td class="paramname"><span class="paramname"><em>handle</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aaea2fc9ab3abe429350fc120810ca685" name="aaea2fc9ab3abe429350fc120810ca685"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaea2fc9ab3abe429350fc120810ca685">&#9670;&#160;</a></span>PollRigidbodyTransforms()</h2>
+<a id="a1931b83173e0f456782f82a1aaa48bd1" name="a1931b83173e0f456782f82a1aaa48bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1931b83173e0f456782f82a1aaa48bd1">&#9670;&#160;</a></span>PollPhysicsResourceTransforms()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void PhysicsFeature::PollRigidbodyTransforms </td>
+          <td class="memname">void PhysicsFeature::PollPhysicsResourceTransforms </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -336,7 +1064,294 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">PhysicsFeature::PhysicsActor const &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
+          <td class="paramtype">PhysicsFeature::PhysicsResource const &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor const &amp;</td>          <td class="paramname"><span class="paramname"><em>handle</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a82b4d1d373bc2477066ec1816397ea53" name="a82b4d1d373bc2477066ec1816397ea53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82b4d1d373bc2477066ec1816397ea53">&#9670;&#160;</a></span>PollRigidbodyTransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::PollRigidbodyTransform </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::Rigidbody const &amp;</td>          <td class="paramname"><span class="paramname"><em>body</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_position.html">Game::Position</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>orientation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor const &amp;</td>          <td class="paramname"><span class="paramname"><em>handle</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a043020a950d972d852d3f435e3918e8d" name="a043020a950d972d852d3f435e3918e8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a043020a950d972d852d3f435e3918e8d">&#9670;&#160;</a></span>PushActorPose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::PushActorPose </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a></td>          <td class="paramname"><span class="paramname"><em>actorId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pushes the transform of the entity onto its actor. </p>
+<p>Only needed for bodies which are not pushed by the poll processors, which is everything that rests where it was put. </p>
+
+</div>
+</div>
+<a id="a47a03071290c3aff81ee201064f6385c" name="a47a03071290c3aff81ee201064f6385c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47a03071290c3aff81ee201064f6385c">&#9670;&#160;</a></span>RebuildPhysicsEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::RebuildPhysicsEntity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor &amp;</td>          <td class="paramname"><span class="paramname"><em>actor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t const</td>          <td class="paramname"><span class="paramname"><em>pending</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates, updates and releases physx actors and shapes for one entity, according to what is queued for it. </p>
+<p>Returns true if a shape build needs another pass. </p>
+
+</div>
+</div>
+<a id="ae05c0537229a073298495eab24288458" name="ae05c0537229a073298495eab24288458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae05c0537229a073298495eab24288458">&#9670;&#160;</a></span>ResolveActorHandle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> PhysicsFeature::ResolveActorHandle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the physx actor of the entity </p>
+
+</div>
+</div>
+<a id="a0ca5a2d239e75a69c04e3ad9155c6fb0" name="a0ca5a2d239e75a69c04e3ad9155c6fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ca5a2d239e75a69c04e3ad9155c6fb0">&#9670;&#160;</a></span>ResolveBodyEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> PhysicsFeature::ResolveBodyEntity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resolves which entity owns the physx actor a collider belongs to. </p>
+<p>A collider on a body entity resolves to itself, a collider on a child entity resolves to the body of its parent. </p>
+
+</div>
+</div>
+<a id="ae7eef30bfa407110b6b50115b074b06f" name="ae7eef30bfa407110b6b50115b074b06f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7eef30bfa407110b6b50115b074b06f">&#9670;&#160;</a></span>ShapeBelongsTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::ShapeBelongsTo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_shape_id.html">Physics::ShapeId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True when a shape name held by a handle still names the shape its entity built. </p>
+
+</div>
+</div>
+<a id="a5d4746d11b1fa6af5373cab78272df60" name="a5d4746d11b1fa6af5373cab78272df60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d4746d11b1fa6af5373cab78272df60">&#9670;&#160;</a></span>ShapeColliderType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Physics::ColliderType PhysicsFeature::ShapeColliderType </td>
+          <td>(</td>
+          <td class="paramtype">physx::PxShape const *</td>          <td class="paramname"><span class="paramname"><em>pxShape</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts from pxshape to our internal collider type enum. </p>
+
+</div>
+</div>
+<a id="aceb6dd78399ffabbdcaa84668c306465" name="aceb6dd78399ffabbdcaa84668c306465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceb6dd78399ffabbdcaa84668c306465">&#9670;&#160;</a></span>WriteKinematicRigidbody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PhysicsFeature::WriteKinematicRigidbody </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::Rigidbody const &amp;</td>          <td class="paramname"><span class="paramname"><em>body</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_position.html">Game::Position</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_orientation.html">Game::Orientation</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>orientation</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PhysicsFeature::PhysicsActor const &amp;</td>          <td class="paramname"><span class="paramname"><em>handle</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

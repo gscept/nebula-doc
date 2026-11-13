@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9"/>
 		<meta name="generator" content="Doxygen 1.18.0"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>Nebula: /github/workspace/code/application/basegamefeature/managers/hierarchymanager.cc File Reference</title>
+		<title>Nebula: /github/workspace/code/application/basegamefeature/managers/transformhierarchy.h File Reference</title>
 		<link href="tabs.css" rel="stylesheet" type="text/css"/>
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="dynsections.js"></script>
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', codefold.init);
   </div>
 </div>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('hierarchymanager_8cc.html','',''); });
+document.addEventListener('DOMContentLoaded',() => { initNavTree('transformhierarchy_8h.html','',''); });
 </script>
 <div id="container">
 <div id="doc-content">
@@ -110,27 +110,40 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('hierarchymanag
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">hierarchymanager.cc File Reference</div></div>
+  <div class="headertitle"><div class="title">transformhierarchy.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="foundation_2foundation_2stdneb_8h_source.html">foundation/stdneb.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="hierarchymanager_8h_source.html">hierarchymanager.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="refcounted_8h_source.html">core/refcounted.h</a>&quot;</code><br />
 <code>#include &quot;basegamefeature/components/basegamefeature.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="position_8h_source.html">basegamefeature/components/position.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="orientation_8h_source.html">basegamefeature/components/orientation.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="position_8h_source.html">basegamefeature/components/position.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="scale_8h_source.html">basegamefeature/components/scale.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="gameserver_8h_source.html">game/gameserver.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="application_2game_2entity_8h_source.html">game/entity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mat4_8h_source.html">math/mat4.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="hashtable_8h_source.html">util/hashtable.h</a>&quot;</code><br />
-</div><table class="memberdecls">
+<code>#include &quot;<a class="el" href="tableid_8h_source.html">memdb/tableid.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="array_8h_source.html">util/array.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="arrayallocator_8h_source.html">util/arrayallocator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="bitarray_8h_source.html">util/bitarray.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="dictionary_8h_source.html">util/dictionary.h</a>&quot;</code><br />
+</div>
+<p><a href="transformhierarchy_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:Game_3A_3ATransformHierarchy" id="r_Game_3A_3ATransformHierarchy"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_transform_hierarchy.html">Game::TransformHierarchy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The parent, child and sibling links of the entities in one world's hierarchy.  <a href="class_game_1_1_transform_hierarchy.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Game_3A_3ATransformHierarchy_3A_3AComponentPointers" id="r_Game_3A_3ATransformHierarchy_3A_3AComponentPointers"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_game_1_1_transform_hierarchy_1_1_component_pointers.html">Game::TransformHierarchy::ComponentPointers</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the component pointers of an instance.  <a href="struct_game_1_1_transform_hierarchy_1_1_component_pointers.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:Game" id="r_Game"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_game.html">Game</a></td></tr>
-<tr class="memdesc:namespace_game"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resolves local hierarchical transforms into the mandatory world transform components. <br /></td></tr>
+<tr class="memdesc:namespace_game"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_game_1_1_editor_state.html">Game::EditorState</a>. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a11c1d59544c659ab5e0303c930b7bc32" id="r_a11c1d59544c659ab5e0303c930b7bc32"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="namespace_game.html#a11c1d59544c659ab5e0303c930b7bc32">Game::__ImplementClass</a> (<a class="el" href="class_game_1_1_hierarchy_manager.html">Game::HierarchyManager</a>, 'HiMa', <a class="el" href="class_game_1_1_manager.html">Game::Manager</a>)</td></tr>
+<tr class="memitem:acec6f9a71a0cc0870b7e2ccb67e21384" id="r_acec6f9a71a0cc0870b7e2ccb67e21384"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_game.html#acec6f9a71a0cc0870b7e2ccb67e21384">Game::DecayHTransform</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, Game::HTransform *component)</td></tr>
+<tr class="memdesc:acec6f9a71a0cc0870b7e2ccb67e21384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Component decay hook.  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -145,7 +158,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 		<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
 			<ul>
-				<li class="navelem"><a href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a href="dir_8b725255f0be590c3f86ea79f422651a.html">basegamefeature</a></li><li class="navelem"><a href="dir_7046f37e8e3d534a2b012f4ff35120e4.html">managers</a></li><li class="navelem"><a href="hierarchymanager_8cc.html">hierarchymanager.cc</a></li>
+				<li class="navelem"><a href="dir_050edd66366d13764f98250ef6db77f6.html">code</a></li><li class="navelem"><a href="dir_b5156faf6c46139e7ab8a688bcfa1a4a.html">application</a></li><li class="navelem"><a href="dir_8b725255f0be590c3f86ea79f422651a.html">basegamefeature</a></li><li class="navelem"><a href="dir_7046f37e8e3d534a2b012f4ff35120e4.html">managers</a></li><li class="navelem"><a href="transformhierarchy_8h.html">transformhierarchy.h</a></li>
 				<li class="footer">
 					Generated on <span class="datetime"></span> for Nebula. Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
 				</li>

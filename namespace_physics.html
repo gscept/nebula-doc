@@ -145,11 +145,15 @@ Classes</h2></td></tr>
 <tr class="memitem:AggregateInfo" id="r_AggregateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_aggregate_info.html">AggregateInfo</a></td></tr>
 <tr class="memitem:AggregateResourceId" id="r_AggregateResourceId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_aggregate_resource_id.html">AggregateResourceId</a></td></tr>
 <tr class="memitem:Allocator" id="r_Allocator"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_physics_1_1_allocator.html">Allocator</a></td></tr>
+<tr class="memitem:BodyDescription" id="r_BodyDescription"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_body_description.html">BodyDescription</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A physics body description.  <a href="struct_physics_1_1_body_description.html#details">More...</a><br /></td></tr>
 <tr class="memitem:BodyInfo" id="r_BodyInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_body_info.html">BodyInfo</a></td></tr>
 <tr class="memitem:Character" id="r_Character"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_character.html">Character</a></td></tr>
 <tr class="memitem:CharacterContext" id="r_CharacterContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_physics_1_1_character_context.html">CharacterContext</a></td></tr>
 <tr class="memitem:CharacterCreateInfo" id="r_CharacterCreateInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_character_create_info.html">CharacterCreateInfo</a></td></tr>
 <tr class="memitem:CharacterId" id="r_CharacterId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_character_id.html">CharacterId</a></td></tr>
+<tr class="memitem:ColliderDescription" id="r_ColliderDescription"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A collider description / create info.  <a href="struct_physics_1_1_collider_description.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Constraint" id="r_Constraint"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_constraint.html">Constraint</a></td></tr>
 <tr class="memitem:ConstraintId" id="r_ConstraintId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_constraint_id.html">ConstraintId</a></td></tr>
 <tr class="memitem:ConstraintInfo" id="r_ConstraintInfo"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_constraint_info.html">ConstraintInfo</a></td></tr>
@@ -171,7 +175,9 @@ Classes</h2></td></tr>
 <tr class="memitem:PhysxState" id="r_PhysxState"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_physics_1_1_physx_state.html">PhysxState</a></td></tr>
 <tr class="memitem:Scene" id="r_Scene"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_scene.html">Scene</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">physx scene classes, foundation and physics are duplicated here for convenience instead of static getters, might be removed later on  <a href="struct_physics_1_1_scene.html#details">More...</a><br /></td></tr>
+<tr class="memitem:Shape" id="r_Shape"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_shape.html">Shape</a></td></tr>
 <tr class="memitem:ShapeHandle" id="r_ShapeHandle"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_shape_handle.html">ShapeHandle</a></td></tr>
+<tr class="memitem:ShapeId" id="r_ShapeId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a></td></tr>
 <tr class="memitem:StreamActorPool" id="r_StreamActorPool"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_physics_1_1_stream_actor_pool.html">StreamActorPool</a></td></tr>
 <tr class="memitem:VisualDebugger" id="r_VisualDebugger"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_physics_1_1_visual_debugger.html">VisualDebugger</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class that communicates with the physics visual debugger program.  <a href="class_physics_1_1_visual_debugger.html#details">More...</a><br /></td></tr>
@@ -203,12 +209,31 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aeb2001e87ef53b4261c46ab71e143bc8" id="r_aeb2001e87ef53b4261c46ab71e143bc8"><td class="memItemLeft">PxGeometryHolder&#160;</td><td class="memItemRight"><a class="el" href="#aeb2001e87ef53b4261c46ab71e143bc8">CookMesh</a> (const <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;input)</td></tr>
-<tr class="memdesc:aeb2001e87ef53b4261c46ab71e143bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cook geometry into a triangle mesh or a convex mesh, depending on the topology.  <br /></td></tr>
+<tr class="memitem:a0bd8df47b3c48d4979fd712e693a3161" id="r_a0bd8df47b3c48d4979fd712e693a3161"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a0bd8df47b3c48d4979fd712e693a3161">IsKinematic</a> (PxRigidActor *actor)</td></tr>
+<tr class="memdesc:a0bd8df47b3c48d4979fd712e693a3161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kinematic is a rigid body flag, and the actors tracked here can be static, so the actor kind has to be checked before the flag is read.  <br /></td></tr>
+<tr class="memitem:a6c67d964263a6fa094ce3683aa25b6f3" id="r_a6c67d964263a6fa094ce3683aa25b6f3"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6c67d964263a6fa094ce3683aa25b6f3">HashMix</a> (uint64_t &amp;hash, uint64_t value)</td></tr>
+<tr class="memdesc:a6c67d964263a6fa094ce3683aa25b6f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">FNV-1a hash.  <br /></td></tr>
+<tr class="memitem:abf4c09aa6c2011f0a2e7a1fc0675579e" id="r_abf4c09aa6c2011f0a2e7a1fc0675579e"><td class="memItemLeft">static uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#abf4c09aa6c2011f0a2e7a1fc0675579e">HashFloat</a> (float value)</td></tr>
+<tr class="memitem:af3e4f97bd30a54c23ff6dcac9b4d0af0" id="r_af3e4f97bd30a54c23ff6dcac9b4d0af0"><td class="memItemLeft">static uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#af3e4f97bd30a54c23ff6dcac9b4d0af0">ColliderGeometryHash</a> (const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;desc)</td></tr>
+<tr class="memdesc:af3e4f97bd30a54c23ff6dcac9b4d0af0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_hash.html" title="a generic hash function class based on murmurhash3.">Hash</a> of the parts of a collider description that decide the cooked geometry.  <br /></td></tr>
+<tr class="memitem:a6201801be025357a4ed55fe6d3fa2fdb" id="r_a6201801be025357a4ed55fe6d3fa2fdb"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a6201801be025357a4ed55fe6d3fa2fdb">BuildGeometry</a> (const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;desc, PxGeometryHolder &amp;out)</td></tr>
+<tr class="memitem:abc29b9cd4f332900de62f761a9dfa6f9" id="r_abc29b9cd4f332900de62f761a9dfa6f9"><td class="memItemLeft">static PxMaterial *&#160;</td><td class="memItemRight"><a class="el" href="#abc29b9cd4f332900de62f761a9dfa6f9">ResolveShapeMaterial</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> materialId)</td></tr>
+<tr class="memitem:ac0907fc8261b85e8ef6e09da3e30ad51" id="r_ac0907fc8261b85e8ef6e09da3e30ad51"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#ac0907fc8261b85e8ef6e09da3e30ad51">ResolveShapeDensity</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> materialId)</td></tr>
+<tr class="memitem:aa0c51bb655001f89043800d3d4bb2579" id="r_aa0c51bb655001f89043800d3d4bb2579"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa0c51bb655001f89043800d3d4bb2579">ApplyShapeFlags</a> (PxShape *shape, bool isTrigger)</td></tr>
+<tr class="memitem:a390ee55f7427cb1efe57b0a073e0b95a" id="r_a390ee55f7427cb1efe57b0a073e0b95a"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a390ee55f7427cb1efe57b0a073e0b95a">ApplyShapeFilterData</a> (PxShape *shape, <a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> actor)</td></tr>
+<tr class="memdesc:a390ee55f7427cb1efe57b0a073e0b95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">word0 is the collision group and word1 the feedback, which is what the simulation filter reads  <br /></td></tr>
+<tr class="memitem:aa4b55b785dd3d6b6221f5ede8d34a8b1" id="r_aa4b55b785dd3d6b6221f5ede8d34a8b1"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa4b55b785dd3d6b6221f5ede8d34a8b1">ApplyShapeState</a> (<a class="el" href="struct_physics_1_1_shape.html">Shape</a> &amp;shape, const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;desc)</td></tr>
+<tr class="memdesc:aa4b55b785dd3d6b6221f5ede8d34a8b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the material, flags and filter data of a description onto an existing shape.  <br /></td></tr>
+<tr class="memitem:a3ef175b4d4d1132089b19bebd6fcf9c0" id="r_a3ef175b4d4d1132089b19bebd6fcf9c0"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a3ef175b4d4d1132089b19bebd6fcf9c0">ApplyMass</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> actor)</td></tr>
+<tr class="memdesc:a3ef175b4d4d1132089b19bebd6fcf9c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Recompute the mass and inertia of a body.  <br /></td></tr>
+<tr class="memitem:ab1a757329c70a1ac6a3f1236bc717d9b" id="r_ab1a757329c70a1ac6a3f1236bc717d9b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ab1a757329c70a1ac6a3f1236bc717d9b">CookMesh</a> (const <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;input, PxGeometryHolder &amp;out)</td></tr>
 <tr class="memitem:a3f2a3bbc5ee0c043b11a3e1bc9d35558" id="r_a3f2a3bbc5ee0c043b11a3e1bc9d35558"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_physics_1_1_cooked_convex.html">CookedConvex</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a3f2a3bbc5ee0c043b11a3e1bc9d35558">CookApproxSkin</a> (const <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;input)</td></tr>
 <tr class="memdesc:a3f2a3bbc5ee0c043b11a3e1bc9d35558"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cook one convex hull per bone from skinned geometry.  <br /></td></tr>
-<tr class="memitem:a5f7f4ae544aa43a1615d548858ac57b3" id="r_a5f7f4ae544aa43a1615d548858ac57b3"><td class="memItemLeft">PxGeometryHolder&#160;</td><td class="memItemRight"><a class="el" href="#a5f7f4ae544aa43a1615d548858ac57b3">CookHeightField</a> (const <a class="el" href="struct_physics_1_1_height_field_input.html">HeightFieldInput</a> &amp;input, float heightRange, float targetSizeX, float targetSizeZ)</td></tr>
-<tr class="memdesc:a5f7f4ae544aa43a1615d548858ac57b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cook height field samples into a physx height field.  <br /></td></tr>
+<tr class="memitem:ac53563e313c26d28f56bf8f4df6cfce4" id="r_ac53563e313c26d28f56bf8f4df6cfce4"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac53563e313c26d28f56bf8f4df6cfce4">CookHeightField</a> (const <a class="el" href="struct_physics_1_1_height_field_input.html">HeightFieldInput</a> &amp;input, float heightRange, float targetSizeX, float targetSizeZ, PxGeometryHolder &amp;out)</td></tr>
+<tr class="memitem:ae90cfee6726b2ea96d2252f36c3ce9e3" id="r_ae90cfee6726b2ea96d2252f36c3ce9e3"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae90cfee6726b2ea96d2252f36c3ce9e3">CookMesh</a> (const <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;input, physx::PxGeometryHolder &amp;out)</td></tr>
+<tr class="memdesc:ae90cfee6726b2ea96d2252f36c3ce9e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cook geometry into a triangle mesh or a convex mesh, depending on the topology.  <br /></td></tr>
+<tr class="memitem:a10a0a79af89838020ce3bc81c8360e82" id="r_a10a0a79af89838020ce3bc81c8360e82"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a10a0a79af89838020ce3bc81c8360e82">CookHeightField</a> (const <a class="el" href="struct_physics_1_1_height_field_input.html">HeightFieldInput</a> &amp;input, float heightRange, float targetSizeX, float targetSizeZ, physx::PxGeometryHolder &amp;out)</td></tr>
+<tr class="memdesc:a10a0a79af89838020ce3bc81c8360e82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cook height field samples into a physx height field.  <br /></td></tr>
 <tr class="memitem:a74f874abae75269e04cb9e2d69087efd" id="r_a74f874abae75269e04cb9e2d69087efd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a74f874abae75269e04cb9e2d69087efd">SetDebugDrawInterface</a> (<a class="el" href="struct_physics_1_1_debug_draw_interface.html">DebugDrawInterface</a> const &amp;drawInterface)</td></tr>
 <tr class="memitem:a618fc67a7de06855288928cea8475c4c" id="r_a618fc67a7de06855288928cea8475c4c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a618fc67a7de06855288928cea8475c4c">UpdateDebugDrawingParameters</a> ()</td></tr>
 <tr class="memitem:a9a0c090f69cd4d143229060fab3a663c" id="r_a9a0c090f69cd4d143229060fab3a663c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9a0c090f69cd4d143229060fab3a663c">EnableDebugDrawing</a> (bool enabled)</td></tr>
@@ -226,7 +251,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a65cd5d5e4ad0e44aabc99778d79ea6cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the currently registered geometry loader  <br /></td></tr>
 <tr class="memitem:a27ec0d731e5dc8c7efd8d34eaaab8096" id="r_a27ec0d731e5dc8c7efd8d34eaaab8096"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a27ec0d731e5dc8c7efd8d34eaaab8096">IndexSize</a> (<a class="el" href="#a7ef6431140459ed72bd0b295d6233250">Physics::IndexType</a> type)</td></tr>
 <tr class="memdesc:a27ec0d731e5dc8c7efd8d34eaaab8096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Byte size of an index type.  <br /></td></tr>
-<tr class="memitem:abdc96a637f5f81087b2035553f34d904" id="r_abdc96a637f5f81087b2035553f34d904"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#abdc96a637f5f81087b2035553f34d904">CollectModified</a> (<a class="el" href="struct_physics_1_1_scene.html">Physics::Scene</a> &amp;scene)</td></tr>
+<tr class="memitem:a9c27d8aba39015a68e804818bd8a46b7" id="r_a9c27d8aba39015a68e804818bd8a46b7"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a9c27d8aba39015a68e804818bd8a46b7">CollectActiveActors</a> (<a class="el" href="struct_physics_1_1_scene.html">Physics::Scene</a> &amp;scene)</td></tr>
+<tr class="memdesc:a9c27d8aba39015a68e804818bd8a46b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fills the scene with the actors PhysX reports active.  <br /></td></tr>
 <tr class="memitem:ab73576007fc0d9dcd98b53d9a86827af" id="r_ab73576007fc0d9dcd98b53d9a86827af"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ab73576007fc0d9dcd98b53d9a86827af">PreSceneUpdates</a> (<a class="el" href="struct_physics_1_1_scene.html">Physics::Scene</a> &amp;scene)</td></tr>
 <tr class="memitem:a72eb78f81c7d024e72ef120ca0502c2d" id="r_a72eb78f81c7d024e72ef120ca0502c2d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a72eb78f81c7d024e72ef120ca0502c2d">PostSceneUpdates</a> (<a class="el" href="struct_physics_1_1_scene.html">Physics::Scene</a> &amp;scene)</td></tr>
 <tr class="memitem:a7540681513bb3c99db73f19e3cd41882" id="r_a7540681513bb3c99db73f19e3cd41882"><td class="memItemLeft">static PxShape *&#160;</td><td class="memItemRight"><a class="el" href="#a7540681513bb3c99db73f19e3cd41882">GetShapeCopy</a> (PxShape *shape, <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> const &amp;scale)</td></tr>
@@ -244,7 +270,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ab7a3d44ccfd6366c4d4aeafd2aabc0df" id="r_ab7a3d44ccfd6366c4d4aeafd2aabc0df"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab7a3d44ccfd6366c4d4aeafd2aabc0df">DestroyScene</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> sceneId)</td></tr>
 <tr class="memitem:a06a97b72f4565260a296050f0559b9c2" id="r_a06a97b72f4565260a296050f0559b9c2"><td class="memItemLeft"><a class="el" href="struct_physics_1_1_scene.html">Physics::Scene</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a06a97b72f4565260a296050f0559b9c2">GetScene</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> idx)</td></tr>
 <tr class="memitem:a5d8a186d066bc76626cea4e607f5a3fc" id="r_a5d8a186d066bc76626cea4e607f5a3fc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5d8a186d066bc76626cea4e607f5a3fc">SetEventCallback</a> (<a class="el" href="#aec146a67924686f56d93c0b669414d1d">EventCallbackType</a> callback, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> sceneId)</td></tr>
-<tr class="memitem:ac291472e0e5f0264d8199c1584d7d4c7" id="r_ac291472e0e5f0264d8199c1584d7d4c7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac291472e0e5f0264d8199c1584d7d4c7">SetActiveActorCallback</a> (<a class="el" href="#ac4be4935a750e3efb636ec09c8724869">UpdateFunctionType</a> callback, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> sceneId)</td></tr>
+<tr class="memitem:a029c6f67c107be1b1d2506b2f90863f6" id="r_a029c6f67c107be1b1d2506b2f90863f6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a029c6f67c107be1b1d2506b2f90863f6">SetActiveActorCallback</a> (<a class="el" href="#ac4be4935a750e3efb636ec09c8724869">UpdateFunctionType</a> callback, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> sceneId=0)</td></tr>
+<tr class="memdesc:a029c6f67c107be1b1d2506b2f90863f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">called once per step for every actor PhysX reported active on that step  <br /></td></tr>
 <tr class="memitem:a325331d3ad9046ad39aefd9b16c88e9b" id="r_a325331d3ad9046ad39aefd9b16c88e9b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a325331d3ad9046ad39aefd9b16c88e9b">RenderDebug</a> ()</td></tr>
 <tr class="memdesc:a325331d3ad9046ad39aefd9b16c88e9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">render a debug visualization of the level  <br /></td></tr>
 <tr class="memitem:aef5e276eb0788f39099bc2abb3e51484" id="r_aef5e276eb0788f39099bc2abb3e51484"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aef5e276eb0788f39099bc2abb3e51484">LoadCollisionFilters</a> ()</td></tr>
@@ -254,13 +281,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ae2ac4d01d9f2cd314c02e4ddabfa789f" id="r_ae2ac4d01d9f2cd314c02e4ddabfa789f"><td class="memItemLeft"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae2ac4d01d9f2cd314c02e4ddabfa789f">SetPhysicsMaterial</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name, float staticFriction, float dynamicFriction, float restitution, float density)</td></tr>
 <tr class="memitem:ae94c2d0fe8bca1aaa94b979253d03be2" id="r_ae94c2d0fe8bca1aaa94b979253d03be2"><td class="memItemLeft"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae94c2d0fe8bca1aaa94b979253d03be2">LookupMaterial</a> (<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> name)</td></tr>
 <tr class="memitem:a3b0738dc40f8ee43d14b350d394ba542" id="r_a3b0738dc40f8ee43d14b350d394ba542"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3b0738dc40f8ee43d14b350d394ba542">GetNrMaterials</a> ()</td></tr>
-<tr class="memitem:ad5748751ba9e48a61c03652dffa14298" id="r_ad5748751ba9e48a61c03652dffa14298"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad5748751ba9e48a61c03652dffa14298">Update</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
-<tr class="memdesc:ad5748751ba9e48a61c03652dffa14298"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform sync simulation step(s)  <br /></td></tr>
-<tr class="memitem:ad332aeaa2b0e5a6a7603896e53edf338" id="r_ad332aeaa2b0e5a6a7603896e53edf338"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad332aeaa2b0e5a6a7603896e53edf338">BeginSimulating</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
-<tr class="memdesc:ad332aeaa2b0e5a6a7603896e53edf338"><td class="mdescLeft">&#160;</td><td class="mdescRight">explicit calls to simulate and fetch results. Do not mix with Update!  <br /></td></tr>
-<tr class="memitem:aa7408418a1ab30235e79a6a8604c5bd5" id="r_aa7408418a1ab30235e79a6a8604c5bd5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa7408418a1ab30235e79a6a8604c5bd5">EndSimulating</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
-<tr class="memitem:a2aa83ac26e792461dc3b9a8d26f387e6" id="r_a2aa83ac26e792461dc3b9a8d26f387e6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2aa83ac26e792461dc3b9a8d26f387e6">FlushSimulation</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
-<tr class="memdesc:a2aa83ac26e792461dc3b9a8d26f387e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">this will block until simulation has ended for cleanups e.g.  <br /></td></tr>
+<tr class="memitem:ad19e742e5717c4534cfe183afe7029d1" id="r_ad19e742e5717c4534cfe183afe7029d1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad19e742e5717c4534cfe183afe7029d1">Step</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta)</td></tr>
+<tr class="memdesc:ad19e742e5717c4534cfe183afe7029d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a sync simulation step on every scene  <br /></td></tr>
+<tr class="memitem:a36a138b2363962edf4ef761196685266" id="r_a36a138b2363962edf4ef761196685266"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a36a138b2363962edf4ef761196685266">Step</a> (<a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> delta, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
+<tr class="memdesc:a36a138b2363962edf4ef761196685266"><td class="mdescLeft">&#160;</td><td class="mdescRight">one sync simulation step of a single scene. <a class="el" href="struct_physics_1_1_actor.html">Actor</a> reads and writes have to happen outside of this  <br /></td></tr>
 <tr class="memitem:a8f1ea1beffae9b6cdca84f0a1ff080d4" id="r_a8f1ea1beffae9b6cdca84f0a1ff080d4"><td class="memItemLeft"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8f1ea1beffae9b6cdca84f0a1ff080d4">CreateActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_resource_id.html">Physics::ActorResourceId</a> id, <a class="el" href="class_math_1_1transform.html">Math::transform</a> const &amp;trans, <a class="el" href="#a303c363e8dc20be9dd9232685b2e81e3">Physics::ActorType</a> type, uint64_t userData, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> scene)</td></tr>
 <tr class="memitem:ab23ccb60b91a7e41592288f856e68ef2" id="r_ab23ccb60b91a7e41592288f856e68ef2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab23ccb60b91a7e41592288f856e68ef2">DestroyActorInstance</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> id)</td></tr>
 </table><table class="memberdecls">
@@ -270,9 +294,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a0d1dfc6233813e1956e5267ced3e76f7" id="r_a0d1dfc6233813e1956e5267ced3e76f7"><td class="memItemLeft"><a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0d1dfc6233813e1956e5267ced3e76f7">controllerIdPool</a></td></tr>
 <tr class="memitem:a7c221290cf041571cb651d5e1e84f3b8" id="r_a7c221290cf041571cb651d5e1e84f3b8"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVarType::CVar_Int</a>, &quot;cl_debug_draw_physics&quot;, &quot;0&quot;, &quot;Set to 1 will enable physics debug drawing&quot;)</td></tr>
 <tr class="memitem:a7b2efad4380036c8b12df53b12c2aa93" id="r_a7b2efad4380036c8b12df53b12c2aa93"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a7b2efad4380036c8b12df53b12c2aa93">cl_physics_draw_scale</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale&quot;, &quot;1.0&quot;, &quot;Visualization drawing scale.&quot;)</td></tr>
-<tr class="memitem:aad6fa060cae7eb15491ac24e8168b843" id="r_aad6fa060cae7eb15491ac24e8168b843"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aad6fa060cae7eb15491ac24e8168b843">cl_physics_draw_scale_points</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_points&quot;, &quot;1.0&quot;, &quot;Point visualization drawing scale.&quot;)</td></tr>
-<tr class="memitem:a35c6e1c789d06ded65be98c6af61d9d8" id="r_a35c6e1c789d06ded65be98c6af61d9d8"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a35c6e1c789d06ded65be98c6af61d9d8">cl_physics_draw_scale_lines</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_lines&quot;, &quot;1.0&quot;, &quot;Line visualization drawing scale.&quot;)</td></tr>
-<tr class="memitem:aa3a4ce3a9aa7a37b192ebd004c5bb8ca" id="r_aa3a4ce3a9aa7a37b192ebd004c5bb8ca"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa3a4ce3a9aa7a37b192ebd004c5bb8ca">cl_physics_draw_scale_triangles</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_triangles&quot;, &quot;1.0&quot;, &quot;Triangle visualization drawing scale.&quot;)</td></tr>
+<tr class="memitem:aad6fa060cae7eb15491ac24e8168b843" id="r_aad6fa060cae7eb15491ac24e8168b843"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aad6fa060cae7eb15491ac24e8168b843">cl_physics_draw_scale_points</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_points&quot;, &quot;2.0&quot;, &quot;Point visualization drawing scale.&quot;)</td></tr>
+<tr class="memitem:a35c6e1c789d06ded65be98c6af61d9d8" id="r_a35c6e1c789d06ded65be98c6af61d9d8"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a35c6e1c789d06ded65be98c6af61d9d8">cl_physics_draw_scale_lines</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_lines&quot;, &quot;2.0&quot;, &quot;Line visualization drawing scale.&quot;)</td></tr>
+<tr class="memitem:aa3a4ce3a9aa7a37b192ebd004c5bb8ca" id="r_aa3a4ce3a9aa7a37b192ebd004c5bb8ca"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#aa3a4ce3a9aa7a37b192ebd004c5bb8ca">cl_physics_draw_scale_triangles</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_triangles&quot;, &quot;2.0&quot;, &quot;Triangle visualization drawing scale.&quot;)</td></tr>
 <tr class="memitem:af0676c6a1cae98f995a10c0bc277a86b" id="r_af0676c6a1cae98f995a10c0bc277a86b"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af0676c6a1cae98f995a10c0bc277a86b">cl_physics_draw_world_axes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_world_axes&quot;, &quot;0&quot;, &quot;Visualize the world axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
 <tr class="memitem:ac362b1eba383d1348c12349f4729ad60" id="r_ac362b1eba383d1348c12349f4729ad60"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ac362b1eba383d1348c12349f4729ad60">cl_physics_draw_body_axes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_axes&quot;, &quot;0&quot;, &quot;Visualize a bodies axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
 <tr class="memitem:a3b2ab6ba0a77b070bb0cfea39796a87e" id="r_a3b2ab6ba0a77b070bb0cfea39796a87e"><td class="memItemLeft"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a3b2ab6ba0a77b070bb0cfea39796a87e">cl_physics_draw_body_mass_axes</a> = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0ad07fe7141b6e88edef50a785d25c1460">Core::CVar_Int</a>, &quot;cl_physics_draw_body_mass_axes&quot;, &quot;0&quot;, &quot;Visualize a body's mass axes. Needs <a class="el" href="#a7c221290cf041571cb651d5e1e84f3b8">cl_debug_draw_physics</a> set to 1.&quot;)</td></tr>
@@ -631,26 +655,151 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad332aeaa2b0e5a6a7603896e53edf338" name="ad332aeaa2b0e5a6a7603896e53edf338"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad332aeaa2b0e5a6a7603896e53edf338">&#9670;&#160;</a></span>BeginSimulating()</h2>
+<a id="a3ef175b4d4d1132089b19bebd6fcf9c0" name="a3ef175b4d4d1132089b19bebd6fcf9c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ef175b4d4d1132089b19bebd6fcf9c0">&#9670;&#160;</a></span>ApplyMass()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Physics::BeginSimulating </td>
+          <td class="memname">void Physics::ApplyMass </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>delta</em></span>, </td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a></td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Recompute the mass and inertia of a body. </p>
+<p>A mass of 0 means the mass is derived from the shape volumes and the material densities, otherwise the mass is distributed over the shapes. </p>
+
+</div>
+</div>
+<a id="a390ee55f7427cb1efe57b0a073e0b95a" name="a390ee55f7427cb1efe57b0a073e0b95a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a390ee55f7427cb1efe57b0a073e0b95a">&#9670;&#160;</a></span>ApplyShapeFilterData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::ApplyShapeFilterData </td>
+          <td>(</td>
+          <td class="paramtype">PxShape *</td>          <td class="paramname"><span class="paramname"><em>shape</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a></td>          <td class="paramname"><span class="paramname"><em>actor</em></span>&#160;)</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>explicit calls to simulate and fetch results. Do not mix with Update! </p>
+<p>word0 is the collision group and word1 the feedback, which is what the simulation filter reads </p>
+
+</div>
+</div>
+<a id="aa0c51bb655001f89043800d3d4bb2579" name="aa0c51bb655001f89043800d3d4bb2579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0c51bb655001f89043800d3d4bb2579">&#9670;&#160;</a></span>ApplyShapeFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::ApplyShapeFlags </td>
+          <td>(</td>
+          <td class="paramtype">PxShape *</td>          <td class="paramname"><span class="paramname"><em>shape</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isTrigger</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa4b55b785dd3d6b6221f5ede8d34a8b1" name="aa4b55b785dd3d6b6221f5ede8d34a8b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4b55b785dd3d6b6221f5ede8d34a8b1">&#9670;&#160;</a></span>ApplyShapeState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::ApplyShapeState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_shape.html">Shape</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>shape</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>desc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Apply the material, flags and filter data of a description onto an existing shape. </p>
+
+</div>
+</div>
+<a id="a6201801be025357a4ed55fe6d3fa2fdb" name="a6201801be025357a4ed55fe6d3fa2fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6201801be025357a4ed55fe6d3fa2fdb">&#9670;&#160;</a></span>BuildGeometry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Physics::BuildGeometry </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>desc</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PxGeometryHolder &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -671,8 +820,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="abdc96a637f5f81087b2035553f34d904" name="abdc96a637f5f81087b2035553f34d904"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdc96a637f5f81087b2035553f34d904">&#9670;&#160;</a></span>CollectModified()</h2>
+<a id="a9c27d8aba39015a68e804818bd8a46b7" name="a9c27d8aba39015a68e804818bd8a46b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c27d8aba39015a68e804818bd8a46b7">&#9670;&#160;</a></span>CollectActiveActors()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -681,7 +830,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Physics::CollectModified </td>
+          <td class="memname">void Physics::CollectActiveActors </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_physics_1_1_scene.html">Physics::Scene</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
           <td></td>
@@ -693,6 +842,36 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Fills the scene with the actors PhysX reports active. </p>
+
+</div>
+</div>
+<a id="af3e4f97bd30a54c23ff6dcac9b4d0af0" name="af3e4f97bd30a54c23ff6dcac9b4d0af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e4f97bd30a54c23ff6dcac9b4d0af0">&#9670;&#160;</a></span>ColliderGeometryHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Physics::ColliderGeometryHash </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>desc</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_hash.html" title="a generic hash function class based on murmurhash3.">Hash</a> of the parts of a collider description that decide the cooked geometry. </p>
+<p>The transform is not hashed, because a shape can be moved without recooking, and neither is the material, which is applied without rebuilding the shape. </p>
 
 </div>
 </div>
@@ -715,14 +894,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f7f4ae544aa43a1615d548858ac57b3" name="a5f7f4ae544aa43a1615d548858ac57b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f7f4ae544aa43a1615d548858ac57b3">&#9670;&#160;</a></span>CookHeightField()</h2>
+<a id="a10a0a79af89838020ce3bc81c8360e82" name="a10a0a79af89838020ce3bc81c8360e82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a0a79af89838020ce3bc81c8360e82">&#9670;&#160;</a></span>CookHeightField() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">physx::PxGeometryHolder Physics::CookHeightField </td>
+          <td class="memname">bool Physics::CookHeightField </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="struct_physics_1_1_height_field_input.html">HeightFieldInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
         </tr>
@@ -739,7 +918,12 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>targetSizeZ</em></span>&#160;)</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>targetSizeZ</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">physx::PxGeometryHolder &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -749,22 +933,83 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aeb2001e87ef53b4261c46ab71e143bc8" name="aeb2001e87ef53b4261c46ab71e143bc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb2001e87ef53b4261c46ab71e143bc8">&#9670;&#160;</a></span>CookMesh()</h2>
+<a id="ac53563e313c26d28f56bf8f4df6cfce4" name="ac53563e313c26d28f56bf8f4df6cfce4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac53563e313c26d28f56bf8f4df6cfce4">&#9670;&#160;</a></span>CookHeightField() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">physx::PxGeometryHolder Physics::CookMesh </td>
+          <td class="memname">bool Physics::CookHeightField </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_height_field_input.html">HeightFieldInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>heightRange</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>targetSizeX</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>targetSizeZ</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PxGeometryHolder &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae90cfee6726b2ea96d2252f36c3ce9e3" name="ae90cfee6726b2ea96d2252f36c3ce9e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae90cfee6726b2ea96d2252f36c3ce9e3">&#9670;&#160;</a></span>CookMesh() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Physics::CookMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">physx::PxGeometryHolder &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Cook geometry into a triangle mesh or a convex mesh, depending on the topology. </p>
+
+</div>
+</div>
+<a id="ab1a757329c70a1ac6a3f1236bc717d9b" name="ab1a757329c70a1ac6a3f1236bc717d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1a757329c70a1ac6a3f1236bc717d9b">&#9670;&#160;</a></span>CookMesh() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Physics::CookMesh </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">PxGeometryHolder &amp;</td>          <td class="paramname"><span class="paramname"><em>out</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -950,42 +1195,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa7408418a1ab30235e79a6a8604c5bd5" name="aa7408418a1ab30235e79a6a8604c5bd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7408418a1ab30235e79a6a8604c5bd5">&#9670;&#160;</a></span>EndSimulating()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Physics::EndSimulating </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2aa83ac26e792461dc3b9a8d26f387e6" name="a2aa83ac26e792461dc3b9a8d26f387e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2aa83ac26e792461dc3b9a8d26f387e6">&#9670;&#160;</a></span>FlushSimulation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Physics::FlushSimulation </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>this will block until simulation has ended for cleanups e.g. </p>
-
-</div>
-</div>
 <a id="a65cd5d5e4ad0e44aabc99778d79ea6cb" name="a65cd5d5e4ad0e44aabc99778d79ea6cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65cd5d5e4ad0e44aabc99778d79ea6cb">&#9670;&#160;</a></span>GetGeometryLoader()</h2>
 
@@ -1085,6 +1294,62 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="abf4c09aa6c2011f0a2e7a1fc0675579e" name="abf4c09aa6c2011f0a2e7a1fc0675579e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf4c09aa6c2011f0a2e7a1fc0675579e">&#9670;&#160;</a></span>HashFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t Physics::HashFloat </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6c67d964263a6fa094ce3683aa25b6f3" name="a6c67d964263a6fa094ce3683aa25b6f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c67d964263a6fa094ce3683aa25b6f3">&#9670;&#160;</a></span>HashMix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::HashMix </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t &amp;</td>          <td class="paramname"><span class="paramname"><em>hash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>FNV-1a hash. </p>
+
+</div>
+</div>
 <a id="a27ec0d731e5dc8c7efd8d34eaaab8096" name="a27ec0d731e5dc8c7efd8d34eaaab8096"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27ec0d731e5dc8c7efd8d34eaaab8096">&#9670;&#160;</a></span>IndexSize()</h2>
 
@@ -1109,6 +1374,33 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Byte size of an index type. </p>
+
+</div>
+</div>
+<a id="a0bd8df47b3c48d4979fd712e693a3161" name="a0bd8df47b3c48d4979fd712e693a3161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bd8df47b3c48d4979fd712e693a3161">&#9670;&#160;</a></span>IsKinematic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Physics::IsKinematic </td>
+          <td>(</td>
+          <td class="paramtype">PxRigidActor *</td>          <td class="paramname"><span class="paramname"><em>actor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Kinematic is a rigid body flag, and the actors tracked here can be static, so the actor kind has to be checked before the flag is read. </p>
 
 </div>
 </div>
@@ -1286,8 +1578,58 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ac291472e0e5f0264d8199c1584d7d4c7" name="ac291472e0e5f0264d8199c1584d7d4c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac291472e0e5f0264d8199c1584d7d4c7">&#9670;&#160;</a></span>SetActiveActorCallback()</h2>
+<a id="ac0907fc8261b85e8ef6e09da3e30ad51" name="ac0907fc8261b85e8ef6e09da3e30ad51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0907fc8261b85e8ef6e09da3e30ad51">&#9670;&#160;</a></span>ResolveShapeDensity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Physics::ResolveShapeDensity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>materialId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc29b9cd4f332900de62f761a9dfa6f9" name="abc29b9cd4f332900de62f761a9dfa6f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc29b9cd4f332900de62f761a9dfa6f9">&#9670;&#160;</a></span>ResolveShapeMaterial()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PxMaterial * Physics::ResolveShapeMaterial </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>materialId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a029c6f67c107be1b1d2506b2f90863f6" name="a029c6f67c107be1b1d2506b2f90863f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a029c6f67c107be1b1d2506b2f90863f6">&#9670;&#160;</a></span>SetActiveActorCallback()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1304,6 +1646,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>called once per step for every actor PhysX reported active on that step </p>
 
 </div>
 </div>
@@ -1472,14 +1816,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad5748751ba9e48a61c03652dffa14298" name="ad5748751ba9e48a61c03652dffa14298"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5748751ba9e48a61c03652dffa14298">&#9670;&#160;</a></span>Update()</h2>
+<a id="ad19e742e5717c4534cfe183afe7029d1" name="ad19e742e5717c4534cfe183afe7029d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad19e742e5717c4534cfe183afe7029d1">&#9670;&#160;</a></span>Step() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Physics::Update </td>
+          <td class="memname">void Physics::Step </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>delta</em></span></td><td>)</td>
           <td></td>
@@ -1487,7 +1831,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>perform sync simulation step(s) </p>
+<p>perform a sync simulation step on every scene </p>
+
+</div>
+</div>
+<a id="a36a138b2363962edf4ef761196685266" name="a36a138b2363962edf4ef761196685266"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a138b2363962edf4ef761196685266">&#9670;&#160;</a></span>Step() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::Step </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>delta</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>scene</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>one sync simulation step of a single scene. <a class="el" href="struct_physics_1_1_actor.html">Actor</a> reads and writes have to happen outside of this </p>
 
 </div>
 </div>
@@ -1866,7 +2233,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_lines = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_lines&quot;, &quot;1.0&quot;, &quot;Line visualization drawing scale.&quot;)</td>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_lines = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_lines&quot;, &quot;2.0&quot;, &quot;Line visualization drawing scale.&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1880,7 +2247,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_points = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_points&quot;, &quot;1.0&quot;, &quot;Point visualization drawing scale.&quot;)</td>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_points = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_points&quot;, &quot;2.0&quot;, &quot;Point visualization drawing scale.&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1894,7 +2261,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_triangles = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_triangles&quot;, &quot;1.0&quot;, &quot;Triangle visualization drawing scale.&quot;)</td>
+          <td class="memname"><a class="el" href="struct_core_1_1_c_var.html">Core::CVar</a>* Physics::cl_physics_draw_scale_triangles = <a class="el" href="namespace_core.html#a39c4d7bd171eac5cc54894341cd6b032">Core::CVarCreate</a>(<a class="el" href="namespace_core.html#abb90d3e3d45b14ad8b8a3b4d31ce8eb0a171e5e0c640d0a484439c001971006bd">Core::CVar_Float</a>, &quot;cl_physics_draw_scale_triangles&quot;, &quot;2.0&quot;, &quot;Triangle visualization drawing scale.&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

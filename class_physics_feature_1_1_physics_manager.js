@@ -1,10 +1,30 @@
 var class_physics_feature_1_1_physics_manager =
 [
     [ "~PhysicsManager", "class_physics_feature_1_1_physics_manager.html#a7135ab9456d9487511dfb27aa54fbd17", null ],
+    [ "GetShapeForEntity", "class_physics_feature_1_1_physics_manager.html#a196953d88905c16e5ccec7c8e148c0bd", null ],
+    [ "InitBoxCollider", "class_physics_feature_1_1_physics_manager.html#ac9e3eaade64d9cacd325f22a25146ce1", null ],
+    [ "InitCapsuleCollider", "class_physics_feature_1_1_physics_manager.html#a43efa9d7e4dacee6cf1f78ca7de2e43e", null ],
+    [ "InitHeightFieldCollider", "class_physics_feature_1_1_physics_manager.html#a47d353473c03b397ad948af65f53bda5", null ],
+    [ "InitMeshCollider", "class_physics_feature_1_1_physics_manager.html#a6bff2174964799f8b16003104664133e", null ],
     [ "InitPhysicsActor", "class_physics_feature_1_1_physics_manager.html#a66d57f5ef8e4d29e31dc5465f0374a40", null ],
-    [ "InitPollTransformProcessor", "class_physics_feature_1_1_physics_manager.html#a90cefd32de7ce7dc58c8eba6292d31d1", null ],
+    [ "InitPhysicsFrameEvent", "class_physics_feature_1_1_physics_manager.html#a812497a2f8c493efa8b615222bec8d24", null ],
+    [ "InitPhysicsResource", "class_physics_feature_1_1_physics_manager.html#a62960583cbb1e3ee9b50491461c81687", null ],
+    [ "InitPlaneCollider", "class_physics_feature_1_1_physics_manager.html#abd40a7fd637f3a729976127a07dd3221", null ],
+    [ "InitRigidbody", "class_physics_feature_1_1_physics_manager.html#a3ef11451be39a55fd6f9f665e6c23661", null ],
+    [ "InitSphereCollider", "class_physics_feature_1_1_physics_manager.html#a19847587581f63263c03e19a30b8cd89", null ],
+    [ "InitStaticBody", "class_physics_feature_1_1_physics_manager.html#addf8ecd1aecc7b9389c46f309da876c1", null ],
+    [ "Mark", "class_physics_feature_1_1_physics_manager.html#a953fc5660c4f1b0ac84db9f2376e569e", null ],
+    [ "MarkBodyChanged", "class_physics_feature_1_1_physics_manager.html#a578c5c6e7b6f29cf64e4d6dffce368ce", null ],
+    [ "MarkComponentChange", "class_physics_feature_1_1_physics_manager.html#a65a65562ca1e695faacd98461e4169dd", null ],
+    [ "MarkPoseChanged", "class_physics_feature_1_1_physics_manager.html#a73d177e34910f85b6acce998987c6cfa", null ],
+    [ "MarkShapeChanged", "class_physics_feature_1_1_physics_manager.html#a8f0ac14e5a97b45084eedcfc0f82a38b", null ],
     [ "OnActivate", "class_physics_feature_1_1_physics_manager.html#aab636be565bff8e5e8b40f7ca51319b1", null ],
+    [ "OnBodyComponentDecay", "class_physics_feature_1_1_physics_manager.html#a93db5a85b9d7fb727d8ef586e9a52049", null ],
     [ "OnCleanup", "class_physics_feature_1_1_physics_manager.html#afecf6e868f2deed4adf1988849e194ce", null ],
+    [ "OnColliderComponentDecay", "class_physics_feature_1_1_physics_manager.html#add9a387d7a223b0084e019c6f19e97e1", null ],
     [ "OnDeactivate", "class_physics_feature_1_1_physics_manager.html#a3adec5d05b41eaf7f7cbdf52da4145ed", null ],
-    [ "OnDecay", "class_physics_feature_1_1_physics_manager.html#a038031ac69754108e47b7c74095e7935", null ]
+    [ "OnDecay", "class_physics_feature_1_1_physics_manager.html#a038031ac69754108e47b7c74095e7935", null ],
+    [ "RebuildQueued", "class_physics_feature_1_1_physics_manager.html#aa6c1e14d7043a305c9e6a544a47ccaea", null ],
+    [ "ReleaseShapeForEntity", "class_physics_feature_1_1_physics_manager.html#aa6c50455c52790bf04d9ffcc2f9c2438", null ],
+    [ "rebuildQueue", "class_physics_feature_1_1_physics_manager.html#aa1a6bd8d0717647d9a76ff9551fc7e65", null ]
 ];

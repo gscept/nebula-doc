@@ -117,6 +117,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_game_1_1
 <p><code>#include &lt;<a class="el" href="timemanager_8h_source.html">timemanager.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_core_1_1_singleton.html" title="Implements a system specific Singleton.">Singleton</a> object which manages all <a class="el" href="struct_game_1_1_time_source.html" title="An object that keeps track of running time and frame time (delta time).">Game::TimeSource</a> objects. </p>
+<p>The time sources themselves are in <a class="el" href="timesource_8h.html">game/timesource.h</a>, this is the per-frame driver which feeds them the real frame time. </p>
 </div>
 <p>Inherits <a class="el" href="class_game_1_1_manager.html">Game::Manager</a>.</p>
 <table class="memberdecls">
@@ -129,6 +130,11 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a995cf45f818aa181af5b9de719ec5c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when removed from game server  <br /></td></tr>
 <tr class="memitem:a1e2eec6f46daf57b50fcd5f536756c32" id="r_a1e2eec6f46daf57b50fcd5f536756c32"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1e2eec6f46daf57b50fcd5f536756c32">OnBeginFrame</a> () override</td></tr>
 <tr class="memdesc:a1e2eec6f46daf57b50fcd5f536756c32"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame by the feature  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a04fb31848459f77b6847e037833c032a" id="r_a04fb31848459f77b6847e037833c032a"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_frame_sync_1_1_frame_sync_timer.html">FrameSync::FrameSyncTimer</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a04fb31848459f77b6847e037833c032a">frameSyncTimer</a></td></tr>
+<tr class="memitem:aa3c504b2ff21a7ba2512b8506b5bbfc2" id="r_aa3c504b2ff21a7ba2512b8506b5bbfc2"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa3c504b2ff21a7ba2512b8506b5bbfc2">frameSyncTimerOwner</a> = false</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -275,6 +281,51 @@ Additional Inherited Members</h2></td></tr>
 <p>called when removed from game server </p>
 
 <p>Reimplemented from <a class="el" href="class_game_1_1_manager.html#a41009d7a4b305847e48efadfcfb00fa7">Game::Manager</a>.</p>
+
+</div>
+</div>
+<a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
+<a id="a04fb31848459f77b6847e037833c032a" name="a04fb31848459f77b6847e037833c032a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04fb31848459f77b6847e037833c032a">&#9670;&#160;</a></span>frameSyncTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ptr.html">Ptr</a>&lt;<a class="el" href="class_frame_sync_1_1_frame_sync_timer.html">FrameSync::FrameSyncTimer</a>&gt; Game::TimeManager::frameSyncTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa3c504b2ff21a7ba2512b8506b5bbfc2" name="aa3c504b2ff21a7ba2512b8506b5bbfc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3c504b2ff21a7ba2512b8506b5bbfc2">&#9670;&#160;</a></span>frameSyncTimerOwner</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::TimeManager::frameSyncTimerOwner = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

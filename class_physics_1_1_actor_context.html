@@ -148,22 +148,38 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab038f9f8c0a2633bb64edfdcd69dbc7d" id="r_ab038f9f8c0a2633bb64edfdcd69dbc7d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ab038f9f8c0a2633bb64edfdcd69dbc7d">GetShapes</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id, <a class="el" href="#a4f3e2af4781b1114464274a5c6f71e55">ShapeArrayType</a> &amp;shapes)</td></tr>
 <tr class="memitem:acc455aa703e7f65406311b6b339cf3b5" id="r_acc455aa703e7f65406311b6b339cf3b5"><td class="memItemLeft">static <a class="el" href="class_math_1_1transform.html">Math::transform</a>&#160;</td><td class="memItemRight"><a class="el" href="#acc455aa703e7f65406311b6b339cf3b5">GetShapeTransform</a> (const <a class="el" href="struct_physics_1_1_shape_handle.html">ShapeHandle</a> &amp;shape)</td></tr>
 <tr class="memitem:abf7771b86b46d51c363174586dcd85df" id="r_abf7771b86b46d51c363174586dcd85df"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#abf7771b86b46d51c363174586dcd85df">SetShapeTransform</a> (const <a class="el" href="struct_physics_1_1_shape_handle.html">ShapeHandle</a> &amp;shape, const <a class="el" href="class_math_1_1transform.html">Math::transform</a> &amp;transform)</td></tr>
+<tr class="memitem:a2347e4aa5369c343d939544cce239b77" id="r_a2347e4aa5369c343d939544cce239b77"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2347e4aa5369c343d939544cce239b77">CreateActor</a> (const <a class="el" href="struct_physics_1_1_body_description.html">BodyDescription</a> &amp;desc)</td></tr>
+<tr class="memdesc:a2347e4aa5369c343d939544cce239b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a body from plain data. Shapes are added separately with AddShape.  <br /></td></tr>
+<tr class="memitem:a9a0298260f836a1c7bb8f299a203a236" id="r_a9a0298260f836a1c7bb8f299a203a236"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a9a0298260f836a1c7bb8f299a203a236">UpdateBody</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id, const <a class="el" href="struct_physics_1_1_body_description.html">BodyDescription</a> &amp;desc)</td></tr>
+<tr class="memdesc:a9a0298260f836a1c7bb8f299a203a236"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply the body properties of the description onto an existing actor  <br /></td></tr>
+<tr class="memitem:ac04ccc247e86fe7bdf778fff053f47de" id="r_ac04ccc247e86fe7bdf778fff053f47de"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac04ccc247e86fe7bdf778fff053f47de">AddShape</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> actor, const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;desc)</td></tr>
+<tr class="memdesc:ac04ccc247e86fe7bdf778fff053f47de"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a shape to an actor  <br /></td></tr>
+<tr class="memitem:a909af5890843447f1085262b9afa67fd" id="r_a909af5890843447f1085262b9afa67fd"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a909af5890843447f1085262b9afa67fd">UpdateShape</a> (<a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a> shape, const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;desc)</td></tr>
+<tr class="memdesc:a909af5890843447f1085262b9afa67fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">apply a description onto an existing shape. The geometry is rebuilt if the shape parameters changed  <br /></td></tr>
+<tr class="memitem:aafe458db8909c2cf7b2f865051a0488f" id="r_aafe458db8909c2cf7b2f865051a0488f"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aafe458db8909c2cf7b2f865051a0488f">RemoveShape</a> (<a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a> shape)</td></tr>
+<tr class="memdesc:aafe458db8909c2cf7b2f865051a0488f"><td class="mdescLeft">&#160;</td><td class="mdescRight">detach and release a shape from its actor  <br /></td></tr>
+<tr class="memitem:a1a0ef9784ec0204e63dd687fa3a4aec2" id="r_a1a0ef9784ec0204e63dd687fa3a4aec2"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_shape.html">Shape</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a1a0ef9784ec0204e63dd687fa3a4aec2">GetShape</a> (<a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a> id)</td></tr>
+<tr class="memitem:aca24d0327957df05a31df936292fd791" id="r_aca24d0327957df05a31df936292fd791"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aca24d0327957df05a31df936292fd791">IsValidShape</a> (<a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a> id)</td></tr>
 <tr class="memitem:af909a9ff0a4989358d6334dc6a840a68" id="r_af909a9ff0a4989358d6334dc6a840a68"><td class="memItemLeft">static physx::PxRigidActor *&#160;</td><td class="memItemRight"><a class="el" href="#af909a9ff0a4989358d6334dc6a840a68">GetPxActor</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
 <tr class="memdesc:af909a9ff0a4989358d6334dc6a840a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">shortcut for getting the pxactor object  <br /></td></tr>
 <tr class="memitem:a65ebbc517cf0d5d8900340333041efd4" id="r_a65ebbc517cf0d5d8900340333041efd4"><td class="memItemLeft">static physx::PxRigidDynamic *&#160;</td><td class="memItemRight"><a class="el" href="#a65ebbc517cf0d5d8900340333041efd4">GetPxDynamic</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
 <tr class="memdesc:a65ebbc517cf0d5d8900340333041efd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">shortcut for getting the pxactor object  <br /></td></tr>
 <tr class="memitem:ac64ce1f887b21698be82c8b6c94ff1a0" id="r_ac64ce1f887b21698be82c8b6c94ff1a0"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ac64ce1f887b21698be82c8b6c94ff1a0">IsValid</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
+<tr class="memitem:a00218f901892a66a8611a57a624a63f4" id="r_a00218f901892a66a8611a57a624a63f4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a00218f901892a66a8611a57a624a63f4">DiscardActor</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
+<tr class="memdesc:a00218f901892a66a8611a57a624a63f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy an actor and the shapes it owns  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-methods" class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
 Static Private Member Functions</h2></td></tr>
 <tr class="memitem:ac3f81a6cf4d4eb411f7e6ffcb68dd328" id="r_ac3f81a6cf4d4eb411f7e6ffcb68dd328"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac3f81a6cf4d4eb411f7e6ffcb68dd328">AllocateActorId</a> (physx::PxRigidActor *pxActor)</td></tr>
 <tr class="memitem:a8a4a8203c0b13021d8a0506e5b0582a6" id="r_a8a4a8203c0b13021d8a0506e5b0582a6"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8a4a8203c0b13021d8a0506e5b0582a6">AllocateActorId</a> (physx::PxRigidActor *pxActor, <a class="el" href="struct_physics_1_1_actor_resource_id.html">ActorResourceId</a> res)</td></tr>
-<tr class="memitem:a00218f901892a66a8611a57a624a63f4" id="r_a00218f901892a66a8611a57a624a63f4"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a00218f901892a66a8611a57a624a63f4">DiscardActor</a> (<a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> id)</td></tr>
+<tr class="memitem:a3b24dff3bf10629cc5a5003f62133cb4" id="r_a3b24dff3bf10629cc5a5003f62133cb4"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3b24dff3bf10629cc5a5003f62133cb4">AllocateShapeId</a> (physx::PxShape *pxShape, <a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> actor, uint64_t geometryHash, uint64_t userData)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:a7ca23096d2f907f301ed75f77099e06e" id="r_a7ca23096d2f907f301ed75f77099e06e"><td class="memItemLeft">static <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_physics_1_1_actor.html">Actor</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a7ca23096d2f907f301ed75f77099e06e">actors</a></td></tr>
 <tr class="memitem:a51de30c874a81fa6a27787adc00a5fbb" id="r_a51de30c874a81fa6a27787adc00a5fbb"><td class="memItemLeft">static <a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a>&#160;</td><td class="memItemRight"><a class="el" href="#a51de30c874a81fa6a27787adc00a5fbb">actorPool</a></td></tr>
+<tr class="memitem:a5f316ffd8735d934992ef7ce8eecd908" id="r_a5f316ffd8735d934992ef7ce8eecd908"><td class="memItemLeft">static <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_physics_1_1_shape.html">Shape</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a5f316ffd8735d934992ef7ce8eecd908">shapes</a></td></tr>
+<tr class="memitem:aba3cbf6692e50b0c5530f8ab9a6b404e" id="r_aba3cbf6692e50b0c5530f8ab9a6b404e"><td class="memItemLeft">static <a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a>&#160;</td><td class="memItemRight"><a class="el" href="#aba3cbf6692e50b0c5530f8ab9a6b404e">shapePool</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-friends" class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -204,6 +220,37 @@ Friends</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ac04ccc247e86fe7bdf778fff053f47de" name="ac04ccc247e86fe7bdf778fff053f47de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac04ccc247e86fe7bdf778fff053f47de">&#9670;&#160;</a></span>AddShape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a> Physics::ActorContext::AddShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a></td>          <td class="paramname"><span class="paramname"><em>actor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>desc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>add a shape to an actor </p>
+
+</div>
+</div>
 <a id="ac3f81a6cf4d4eb411f7e6ffcb68dd328" name="ac3f81a6cf4d4eb411f7e6ffcb68dd328"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac3f81a6cf4d4eb411f7e6ffcb68dd328">&#9670;&#160;</a></span>AllocateActorId() <span class="overload">[1/2]</span></h2>
 
@@ -258,6 +305,45 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a3b24dff3bf10629cc5a5003f62133cb4" name="a3b24dff3bf10629cc5a5003f62133cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b24dff3bf10629cc5a5003f62133cb4">&#9670;&#160;</a></span>AllocateShapeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a> Physics::ActorContext::AllocateShapeId </td>
+          <td>(</td>
+          <td class="paramtype">physx::PxShape *</td>          <td class="paramname"><span class="paramname"><em>pxShape</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a></td>          <td class="paramname"><span class="paramname"><em>actor</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>geometryHash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>userData</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a39eccc951d304a457424b0c0bd2d964e" name="a39eccc951d304a457424b0c0bd2d964e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39eccc951d304a457424b0c0bd2d964e">&#9670;&#160;</a></span>ApplyImpulseAtPos()</h2>
 
@@ -291,6 +377,33 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 
 <p>apply a global impulse vector at the next time step at a global position </p>
+
+</div>
+</div>
+<a id="a2347e4aa5369c343d939544cce239b77" name="a2347e4aa5369c343d939544cce239b77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2347e4aa5369c343d939544cce239b77">&#9670;&#160;</a></span>CreateActor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a> Physics::ActorContext::CreateActor </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_body_description.html">BodyDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>desc</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a body from plain data. Shapes are added separately with AddShape. </p>
 
 </div>
 </div>
@@ -537,10 +650,12 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>destroy an actor and the shapes it owns </p>
 
 </div>
 </div>
@@ -707,6 +822,31 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a1a0ef9784ec0204e63dd687fa3a4aec2" name="a1a0ef9784ec0204e63dd687fa3a4aec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a0ef9784ec0204e63dd687fa3a4aec2">&#9670;&#160;</a></span>GetShape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_physics_1_1_shape.html">Shape</a> &amp; Physics::ActorContext::GetShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aeb85330db1acb12ec480983962c3baad" name="aeb85330db1acb12ec480983962c3baad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb85330db1acb12ec480983962c3baad">&#9670;&#160;</a></span>GetShapeCount()</h2>
 
@@ -833,6 +973,59 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aca24d0327957df05a31df936292fd791" name="aca24d0327957df05a31df936292fd791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca24d0327957df05a31df936292fd791">&#9670;&#160;</a></span>IsValidShape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Physics::ActorContext::IsValidShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aafe458db8909c2cf7b2f865051a0488f" name="aafe458db8909c2cf7b2f865051a0488f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafe458db8909c2cf7b2f865051a0488f">&#9670;&#160;</a></span>RemoveShape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::ActorContext::RemoveShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a></td>          <td class="paramname"><span class="paramname"><em>shape</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>detach and release a shape from its actor </p>
+<p>Detach and release a shape from its actor. </p>
 
 </div>
 </div>
@@ -1017,6 +1210,70 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a9a0298260f836a1c7bb8f299a203a236" name="a9a0298260f836a1c7bb8f299a203a236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0298260f836a1c7bb8f299a203a236">&#9670;&#160;</a></span>UpdateBody()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Physics::ActorContext::UpdateBody </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_actor_id.html">ActorId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_body_description.html">BodyDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>desc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>apply the body properties of the description onto an existing actor </p>
+
+</div>
+</div>
+<a id="a909af5890843447f1085262b9afa67fd" name="a909af5890843447f1085262b9afa67fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a909af5890843447f1085262b9afa67fd">&#9670;&#160;</a></span>UpdateShape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Physics::ActorContext::UpdateShape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_physics_1_1_shape_id.html">ShapeId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_physics_1_1_collider_description.html">ColliderDescription</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>desc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>apply a description onto an existing shape. The geometry is rebuilt if the shape parameters changed </p>
+<p>Apply a description onto an existing shape.</p>
+<p>Physx shapes can not change their geometry, so when the geometry hash changes the shape is replaced by a newly cooked one. Returns false if the geometry could not be built. </p>
+
+</div>
+</div>
 <a name="doc-related-members" id="doc-related-members"></a><h2 id="header-doc-related-members" class="groupheader">Friends And Related Symbol Documentation</h2>
 <a id="adfcf2b2d64925281939607c900344a44" name="adfcf2b2d64925281939607c900344a44"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adfcf2b2d64925281939607c900344a44">&#9670;&#160;</a></span>PhysxState</h2>
@@ -1096,6 +1353,50 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_physics_1_1_actor.html">Actor</a> &gt; Physics::ActorContext::actors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba3cbf6692e50b0c5530f8ab9a6b404e" name="aba3cbf6692e50b0c5530f8ab9a6b404e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba3cbf6692e50b0c5530f8ab9a6b404e">&#9670;&#160;</a></span>shapePool</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_ids_1_1_id_generation_pool.html">Ids::IdGenerationPool</a> Physics::ActorContext::shapePool</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5f316ffd8735d934992ef7ce8eecd908" name="a5f316ffd8735d934992ef7ce8eecd908"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f316ffd8735d934992ef7ce8eecd908">&#9670;&#160;</a></span>shapes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_physics_1_1_shape.html">Shape</a> &gt; Physics::ActorContext::shapes</td>
         </tr>
       </table>
   </td>
