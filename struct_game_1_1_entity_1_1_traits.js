@@ -8,5 +8,6 @@ var struct_game_1_1_entity_1_1_traits =
     [ "fixed_column_index", "struct_game_1_1_entity_1_1_traits.html#aa5f9c78418935fde2f2a0dffb770ee78", null ],
     [ "fully_qualified_name", "struct_game_1_1_entity_1_1_traits.html#a380b7d011936f6cda57e95e1977336e0", null ],
     [ "name", "struct_game_1_1_entity_1_1_traits.html#a86dfe2b7c3e32ecf3403f7bdb188dcbf", null ],
+    [ "namespace_name", "struct_game_1_1_entity_1_1_traits.html#af441bc7a06bd85a2ed27816e95a98440", null ],
     [ "num_fields", "struct_game_1_1_entity_1_1_traits.html#aa1acffe68363914c75ed58b606fd2814", null ]
 ];

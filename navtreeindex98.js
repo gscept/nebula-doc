@@ -1,5 +1,17 @@
 var NAVTREEINDEX98 =
 {
+"class_win32_1_1_win32_thread.html#af8f1ddf1e7aa019f8700ceea28c069a8":[8,0,87,23,5],
+"class_win32_1_1_win32_thread.html#af8f1ddf1e7aa019f8700ceea28c069a8":[9,0,76,23,5],
+"class_win32_1_1_win32_thread_barrier.html":[8,0,87,24],
+"class_win32_1_1_win32_thread_barrier.html":[9,0,76,24],
+"class_win32_1_1_win32_thread_barrier.html#a3271692d8d9216654e7b53e88abd200c":[8,0,87,24,1],
+"class_win32_1_1_win32_thread_barrier.html#a3271692d8d9216654e7b53e88abd200c":[9,0,76,24,1],
+"class_win32_1_1_win32_thread_barrier.html#a54ef7f04d7eaa6f4f28e3907b47162fe":[8,0,87,24,6],
+"class_win32_1_1_win32_thread_barrier.html#a54ef7f04d7eaa6f4f28e3907b47162fe":[9,0,76,24,6],
+"class_win32_1_1_win32_thread_barrier.html#a6c81a3cdf3b7ddb8afac07fafff3d94d":[8,0,87,24,0],
+"class_win32_1_1_win32_thread_barrier.html#a6c81a3cdf3b7ddb8afac07fafff3d94d":[9,0,76,24,0],
+"class_win32_1_1_win32_thread_barrier.html#a6f59440e38425eb5e1646cdb77d677ff":[8,0,87,24,10],
+"class_win32_1_1_win32_thread_barrier.html#a6f59440e38425eb5e1646cdb77d677ff":[9,0,76,24,10],
 "class_win32_1_1_win32_thread_barrier.html#a8f6a286243a7044e4a56928a5bbb3edd":[8,0,87,24,5],
 "class_win32_1_1_win32_thread_barrier.html#a8f6a286243a7044e4a56928a5bbb3edd":[9,0,76,24,5],
 "class_win32_1_1_win32_thread_barrier.html#a9a6ff9708fc06002a81c0043d8f2712e":[8,0,87,24,4],
@@ -237,17 +249,5 @@ var NAVTREEINDEX98 =
 "ddgicontext_8cc.html#a576b83e6e71cd7a45ce6536d89040b2d":[10,0,0,7,11,0,3],
 "ddgicontext_8cc.html#a7b6845cf62365fc1ca2bc780700995e8":[10,0,0,7,11,0,4],
 "ddgicontext_8h.html":[10,0,0,7,11,1],
-"ddgicontext_8h_source.html":[10,0,0,7,11,1],
-"dds_8cc.html":[10,0,0,6,0,0,0],
-"deargui_8cpp.html":[10,0,0,0,3,5,0],
-"debug_8cc.html":[10,0,0,3,1,9],
-"debug_8cc.html#a141a383b14e4ad1a22c44e2b53de3e6c":[10,0,0,3,1,9,4],
-"debug_8cc.html#a17229353ad597e4ec423d8e94e5b83c6":[10,0,0,3,1,9,6],
-"debug_8cc.html#a2a2658b58fb03d70e8c93244bd66f9a9":[10,0,0,3,1,9,10],
-"debug_8cc.html#a44db3b21f678ac8e3f8eb0f1d6ed4723":[10,0,0,3,1,9,15],
-"debug_8cc.html#a8289d6af0d5e6fa330eeee132ae740c0":[10,0,0,3,1,9,5],
-"debug_8cc.html#a83e91a4134b9809e0890140c63387824":[10,0,0,3,1,9,13],
-"debug_8cc.html#a947bca6420f50ea2a074b0b383ba12fd":[10,0,0,3,1,9,8],
-"debug_8cc.html#adcea0c4788e7f721332e6924877c96bf":[10,0,0,3,1,9,16],
-"debug_8cc.html#adf05d36738de0f439ed12c5127a197dd":[10,0,0,3,1,9,7]
+"ddgicontext_8h_source.html":[10,0,0,7,11,1]
 };

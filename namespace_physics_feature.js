@@ -27,6 +27,7 @@ var namespace_physics_feature =
     [ "BuildSphereCollider", "namespace_physics_feature.html#a55bb33da2a0dd7a01180d05f22f91e70", null ],
     [ "BuildStaticBody", "namespace_physics_feature.html#a62dbdef99f6278e5c2d5ca6c48d434a9", null ],
     [ "ClearShapeField", "namespace_physics_feature.html#ad6582981400e96d9e837e79a2b103444", null ],
+    [ "ColliderComponents", "namespace_physics_feature.html#ae1c19c5da429cb8cabb6d74ab4174da6", null ],
     [ "EnsureHandle", "namespace_physics_feature.html#a3da308b808b019087d44955c76ab9b1a", null ],
     [ "FindShapeForEntity", "namespace_physics_feature.html#ae98550070fcc49fa2f77c63072e78df3", null ],
     [ "GarbageCollectShapes", "namespace_physics_feature.html#a88cf62c13044c53ee27647e685dd39b8", null ],

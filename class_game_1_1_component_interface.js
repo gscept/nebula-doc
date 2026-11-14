@@ -8,6 +8,7 @@ var class_game_1_1_component_interface =
     [ "GetFieldTypenames", "class_game_1_1_component_interface.html#a55ae6e4bf651fa782f278bd4b5263042", null ],
     [ "GetFullyQualifiedName", "class_game_1_1_component_interface.html#a430d5c52e70282620dc17ea5b23ace10", null ],
     [ "GetName", "class_game_1_1_component_interface.html#ade8004ed635c406dace30900edb2e501", null ],
+    [ "GetNamespace", "class_game_1_1_component_interface.html#a32587eef98b4d5c03dffaa62df90795e", null ],
     [ "GetNumFields", "class_game_1_1_component_interface.html#afe3b6401464cc746a08c19ca60bdbbec", null ],
     [ "componentName", "class_game_1_1_component_interface.html#a584bff05bd312818163f4a0f6cfc8854", null ],
     [ "Decay", "class_game_1_1_component_interface.html#a14dd1c58684d92027e28f51d6f9fdf2e", null ],
@@ -16,5 +17,6 @@ var class_game_1_1_component_interface =
     [ "fieldTypenames", "class_game_1_1_component_interface.html#a5db0f5d02d24533afeda5e3ae8a9bc9e", null ],
     [ "fullyQualifiedName", "class_game_1_1_component_interface.html#a337080948c250d4151339bfe480290da", null ],
     [ "Init", "class_game_1_1_component_interface.html#ac04edc1f061c60825ff5fccc0845f0aa", null ],
+    [ "namespaceName", "class_game_1_1_component_interface.html#aaaf727a7c8d1dafecec2f96cb7453468", null ],
     [ "numFields", "class_game_1_1_component_interface.html#ad178ab8be1d403e6e844a2964fa97643", null ]
 ];

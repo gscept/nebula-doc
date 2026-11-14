@@ -10,5 +10,6 @@ var struct_game_1_1_angular_velocity_1_1_traits =
     [ "field_typenames", "struct_game_1_1_angular_velocity_1_1_traits.html#a9864a62ce2e3c4be671e0e2dfd279d44", null ],
     [ "fully_qualified_name", "struct_game_1_1_angular_velocity_1_1_traits.html#af9b77a1c3792e619e6fab3e6f068da5a", null ],
     [ "name", "struct_game_1_1_angular_velocity_1_1_traits.html#a24cf6b51fff03f6b1328b4e862cc3f3c", null ],
+    [ "namespace_name", "struct_game_1_1_angular_velocity_1_1_traits.html#a55c75971a735594433454003810c034a", null ],
     [ "num_fields", "struct_game_1_1_angular_velocity_1_1_traits.html#a22d3b9f968fbfd50226a346878fd3886", null ]
 ];

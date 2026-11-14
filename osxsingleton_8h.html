@@ -137,7 +137,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a60044d7c40c042e675a575c216d94947" id="r_a60044d7c40c042e675a575c216d94947"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a60044d7c40c042e675a575c216d94947">__ImplementInterfaceSingleton</a>(type)</td></tr>
 <tr class="memitem:a75f803d2aac92e98072993a810a64a99" id="r_a75f803d2aac92e98072993a810a64a99"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a75f803d2aac92e98072993a810a64a99">__ConstructSingleton</a>&#160;&#160;&#160;<a class="el" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(!Singleton.isvalid()); Singleton.set(this);</td></tr>
 <tr class="memitem:ac1a7badb214ae8dc87d0bf11c5b6b0d6" id="r_ac1a7badb214ae8dc87d0bf11c5b6b0d6"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#ac1a7badb214ae8dc87d0bf11c5b6b0d6">__ConstructInterfaceSingleton</a>&#160;&#160;&#160;<a class="el" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(0 == <a class="el" href="class_core_1_1_singleton.html">Singleton</a>); <a class="el" href="class_core_1_1_singleton.html">Singleton</a> = this;</td></tr>
-<tr class="memitem:a2a8ad85fba9955f0c14a6151337273f6" id="r_a2a8ad85fba9955f0c14a6151337273f6"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a2a8ad85fba9955f0c14a6151337273f6">__DestructSingleton</a>&#160;&#160;&#160;<a class="el" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(Singleton.isvalid()); Singleton.set(0);</td></tr>
+<tr class="memitem:a2a8ad85fba9955f0c14a6151337273f6" id="r_a2a8ad85fba9955f0c14a6151337273f6"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a2a8ad85fba9955f0c14a6151337273f6">__DestructSingleton</a>&#160;&#160;&#160;<a class="el" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="el" href="class_core_1_1_singleton.html">Singleton</a> == this); Singleton.set(0);</td></tr>
 <tr class="memitem:a77e9605e52e56b1566d7d0de4c82e70f" id="r_a77e9605e52e56b1566d7d0de4c82e70f"><td class="memItemLeft">#define&#160;</td><td class="memItemRight"><a class="el" href="#a77e9605e52e56b1566d7d0de4c82e70f">__DestructInterfaceSingleton</a>&#160;&#160;&#160;<a class="el" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="el" href="class_core_1_1_singleton.html">Singleton</a>); <a class="el" href="class_core_1_1_singleton.html">Singleton</a> = 0;</td></tr>
 </table>
 <a name="doc-define-members" id="doc-define-members"></a><h2 id="header-doc-define-members" class="groupheader">Macro Definition Documentation</h2>
@@ -209,7 +209,7 @@ Macros</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keyword">public</span>: \</div>
 <div class="line"><span class="keyword">static</span> <a class="code hl_class" href="class_o_s_x_1_1_o_s_x_thread_local_ptr.html">OSX::OSXThreadLocalPtr&lt;type&gt;</a> <a class="code hl_class" href="class_core_1_1_singleton.html">Singleton</a>; \</div>
-<div class="line"><span class="keyword">static</span> type * Instance() { <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(!<a class="code hl_class" href="class_core_1_1_singleton.html">Singleton</a>.isvalid()); <span class="keywordflow">return</span> <a class="code hl_class" href="class_core_1_1_singleton.html">Singleton</a>.get(); }; \</div>
+<div class="line"><span class="keyword">static</span> type * Instance() { <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="code hl_class" href="class_core_1_1_singleton.html">Singleton</a>.isvalid()); <span class="keywordflow">return</span> <a class="code hl_class" href="class_core_1_1_singleton.html">Singleton</a>.get(); }; \</div>
 <div class="line"><span class="keyword">static</span> <span class="keywordtype">bool</span> HasInstance() { <span class="keywordflow">return</span> <a class="code hl_class" href="class_core_1_1_singleton.html">Singleton</a>.isvalid(); }; \</div>
 <div class="line"><span class="keyword">private</span>:</div>
 <div class="ttc" id="aclass_o_s_x_1_1_o_s_x_thread_local_ptr_html"><div class="ttname"><a href="class_o_s_x_1_1_o_s_x_thread_local_ptr.html">OSX::OSXThreadLocalPtr</a></div><div class="ttdoc">GCC doesn&#39;t implement the __thread modifier on OSX.</div><div class="ttdef"><b>Definition</b> osxthreadlocalptr.h:28</div></div>
@@ -237,7 +237,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define __DestructSingleton&#160;&#160;&#160;<a class="el" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(Singleton.isvalid()); Singleton.set(0);</td>
+          <td class="memname">#define __DestructSingleton&#160;&#160;&#160;<a class="el" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(<a class="el" href="class_core_1_1_singleton.html">Singleton</a> == this); Singleton.set(0);</td>
         </tr>
       </table>
 </div><div class="memdoc">

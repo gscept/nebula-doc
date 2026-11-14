@@ -158,6 +158,12 @@ Static Private Member Functions</h2></td></tr>
 <tr class="memdesc:a73d177e34910f85b6acce998987c6cfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">the entity moved.  <br /></td></tr>
 <tr class="memitem:a65a65562ca1e695faacd98461e4169dd" id="r_a65a65562ca1e695faacd98461e4169dd"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a65a65562ca1e695faacd98461e4169dd">MarkComponentChange</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a>)</td></tr>
 <tr class="memdesc:a65a65562ca1e695faacd98461e4169dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">the value of a component was written on an entity which already has a handle.  <br /></td></tr>
+<tr class="memitem:ab12eaf942d8138206fbcc169a1602991" id="r_ab12eaf942d8138206fbcc169a1602991"><td class="memItemLeft">static <a class="el" href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a> const &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ab12eaf942d8138206fbcc169a1602991">ColliderSignature</a> ()</td></tr>
+<tr class="memdesc:ab12eaf942d8138206fbcc169a1602991"><td class="mdescLeft">&#160;</td><td class="mdescRight">the collider components as a signature.  <br /></td></tr>
+<tr class="memitem:a9333dd9bb968edad5f8fc945d42f9149" id="r_a9333dd9bb968edad5f8fc945d42f9149"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a9333dd9bb968edad5f8fc945d42f9149">HasCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>)</td></tr>
+<tr class="memdesc:a9333dd9bb968edad5f8fc945d42f9149"><td class="mdescLeft">&#160;</td><td class="mdescRight">true when the entity has any of the collider components  <br /></td></tr>
+<tr class="memitem:ab4e5e9b943b09e0d281e2455264f09c3" id="r_ab4e5e9b943b09e0d281e2455264f09c3"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ab4e5e9b943b09e0d281e2455264f09c3">IsColliderComponent</a> (<a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a>)</td></tr>
+<tr class="memdesc:ab4e5e9b943b09e0d281e2455264f09c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">true when the component is one of the collider components  <br /></td></tr>
 <tr class="memitem:a196953d88905c16e5ccec7c8e148c0bd" id="r_a196953d88905c16e5ccec7c8e148c0bd"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_shape_id.html">Physics::ShapeId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a196953d88905c16e5ccec7c8e148c0bd">GetShapeForEntity</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>)</td></tr>
 <tr class="memitem:aa6c50455c52790bf04d9ffcc2f9c2438" id="r_aa6c50455c52790bf04d9ffcc2f9c2438"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa6c50455c52790bf04d9ffcc2f9c2438">ReleaseShapeForEntity</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a>)</td></tr>
 <tr class="memitem:add9a387d7a223b0084e019c6f19e97e1" id="r_add9a387d7a223b0084e019c6f19e97e1"><td class="memTemplParams" colspan="2">template&lt;typename COMPONENT_TYPE&gt; </td></tr>
@@ -232,6 +238,34 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ab12eaf942d8138206fbcc169a1602991" name="ab12eaf942d8138206fbcc169a1602991"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab12eaf942d8138206fbcc169a1602991">&#9670;&#160;</a></span>ColliderSignature()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a> const  &amp; PhysicsFeature::PhysicsManager::ColliderSignature </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the collider components as a signature. </p>
+<p>An entity is only allowed one of them, so this can be used e.g. to check if an entity already has any collider component. </p>
+
+</div>
+</div>
 <a id="a196953d88905c16e5ccec7c8e148c0bd" name="a196953d88905c16e5ccec7c8e148c0bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a196953d88905c16e5ccec7c8e148c0bd">&#9670;&#160;</a></span>GetShapeForEntity()</h2>
 
@@ -258,6 +292,38 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9333dd9bb968edad5f8fc945d42f9149" name="a9333dd9bb968edad5f8fc945d42f9149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9333dd9bb968edad5f8fc945d42f9149">&#9670;&#160;</a></span>HasCollider()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::PhysicsManager::HasCollider </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true when the entity has any of the collider components </p>
+<p>True when the entity has any of the collider components. </p>
 
 </div>
 </div>
@@ -626,6 +692,35 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4e5e9b943b09e0d281e2455264f09c3" name="ab4e5e9b943b09e0d281e2455264f09c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e5e9b943b09e0d281e2455264f09c3">&#9670;&#160;</a></span>IsColliderComponent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PhysicsFeature::PhysicsManager::IsColliderComponent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a></td>          <td class="paramname"><span class="paramname"><em>component</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>true when the component is one of the collider components </p>
+<p>True when the component is one of the collider components.</p>
+<p>The signature only has the collider bits set, so a bit test against it is the membership test. </p>
 
 </div>
 </div>

@@ -13,7 +13,6 @@ var class_i_o_1_1_file_watcher =
     [ "Update", "class_i_o_1_1_file_watcher.html#afd4a7f326b1094f780fac2b1d9c7ff80", null ],
     [ "Watch", "class_i_o_1_1_file_watcher.html#a36c1528e52d8b7231ef195e338367161", null ],
     [ "interval", "class_i_o_1_1_file_watcher.html#a0ff803338b8d77fec4756212c8e7ea9b", null ],
-    [ "ioServer", "class_i_o_1_1_file_watcher.html#a156fd888cf37926a000c9338e72e3dfd", null ],
     [ "watcherQueue", "class_i_o_1_1_file_watcher.html#ad516e51ce4c29057905ca0d052728e25", null ],
     [ "watchers", "class_i_o_1_1_file_watcher.html#a0f347ba86cd3fc886da430796d1bcab9", null ]
 ];

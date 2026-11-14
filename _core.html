@@ -159,7 +159,7 @@ Implementing A New Nebula Class</h2>
 <div class="line">    ...</div>
 <div class="line">};</div>
 <div class="line">RegisterClass(MyClass);</div>
-<div class="ttc" id="aclass_core_1_1_ref_counted_html"><div class="ttname"><a href="class_core_1_1_ref_counted.html">Core::RefCounted</a></div><div class="ttdoc">The common base class of Nebula.</div><div class="ttdef"><b>Definition</b> refcounted.h:38</div></div>
+<div class="ttc" id="aclass_core_1_1_ref_counted_html"><div class="ttname"><a href="class_core_1_1_ref_counted.html">Core::RefCounted</a></div><div class="ttdoc">The common base class of Nebula.</div><div class="ttdef"><b>Definition</b> refcounted.h:45</div></div>
 </div><!-- fragment --><p>Notice the DeclareClass() macro, the default constructor and the virtual destructor and the RegisterClass() macro outside of the class declaration. The DeclareClass() macro adds some minimal Nebula-specific information to the class declaration for the RTTI and factory mechanism. The DeclareClass() macro generally hides the internals of the <a class="el" href="namespace_nebula.html">Nebula</a> object model from the programmer, so that (hopefully), internals of the object model can be changed without affecting existing classes. The RegisterClass() macro is optional and registers the class with the central factory object. If you know that objects of this class will never be created by string class name or fourcc code, the RegisterClass() macro can be omitted.</p>
 <p>The .cc side of the class needs to contain the following <a class="el" href="namespace_nebula.html">Nebula</a> specific information:</p>
 <div class="fragment"><div class="line"><span class="keyword">namespace </span>MyNamespace</div>

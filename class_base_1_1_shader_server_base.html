@@ -186,6 +186,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a6bdc2f9217057536944df883e80cd4 pub_methods_class_core_1_1_ref_counted" id="r_a9a6bdc2f9217057536944df883e80cd4"><td class="memItemLeft"><a class="el" href="class_util_1_1_four_c_c.html">Util::FourCC</a>&#160;</td><td class="memItemRight"><a class="el" href="class_core_1_1_ref_counted.html#a9a6bdc2f9217057536944df883e80cd4">GetClassFourCC</a> () const</td></tr>
 <tr class="memdesc:a9a6bdc2f9217057536944df883e80cd4 pub_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the class <a class="el" href="class_util_1_1_four_c_c.html" title="A four-character-code is a quasi-human-readable 32-bit-id.">FourCC</a> code  <br /></td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pro-methods" class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ab098d0a09e3f5cc7e68aec01e3727df4" id="r_ab098d0a09e3f5cc7e68aec01e3727df4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab098d0a09e3f5cc7e68aec01e3727df4">CompileShaderFile</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;changedFile)</td></tr>
+<tr class="memdesc:ab098d0a09e3f5cc7e68aec01e3727df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">compile a shader source  <br /></td></tr>
+<tr class="inherit_header pro_methods_class_core_1_1_ref_counted"><td colspan="2">Protected Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
+<tr class="memitem:a46880dfb2181b1d2726c59d7de4a4af4 pro_methods_class_core_1_1_ref_counted" id="r_a46880dfb2181b1d2726c59d7de4a4af4"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="class_core_1_1_ref_counted.html#a46880dfb2181b1d2726c59d7de4a4af4">~RefCounted</a> ()</td></tr>
+<tr class="memdesc:a46880dfb2181b1d2726c59d7de4a4af4 pro_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor (called when refcount reaches zero)  <br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:af2263b7fb353b5a7f649d6743f6cecdb" id="r_af2263b7fb353b5a7f649d6743f6cecdb"><td class="memItemLeft"><a class="el" href="class_core_graphics_1_1_shader_identifier.html">CoreGraphics::ShaderIdentifier</a>&#160;</td><td class="memItemRight"><a class="el" href="#af2263b7fb353b5a7f649d6743f6cecdb">shaderIdentifierRegistry</a></td></tr>
@@ -194,6 +202,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aa885f69c2a7450d37522ac600cb22d34" id="r_aa885f69c2a7450d37522ac600cb22d34"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a>, Resources::ResourceId &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa885f69c2a7450d37522ac600cb22d34">shaders</a></td></tr>
 <tr class="memitem:a117f99e206c454df649e8169354be382" id="r_a117f99e206c454df649e8169354be382"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a>, <a class="el" href="class_util_1_1_set.html">Util::Set</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a117f99e206c454df649e8169354be382">shaderReloadMap</a></td></tr>
 <tr class="memitem:a68dd33490d7a8b6a1fc0ec51660be4df" id="r_a68dd33490d7a8b6a1fc0ec51660be4df"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a68dd33490d7a8b6a1fc0ec51660be4df">shaderWatchFolders</a></td></tr>
+<tr class="memitem:a08025746163c1b0ae9812ec45d03377a" id="r_a08025746163c1b0ae9812ec45d03377a"><td class="memItemLeft"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a08025746163c1b0ae9812ec45d03377a">pendingShaderCompiles</a></td></tr>
 <tr class="memitem:a195d9f522448ab902d060d3ff203b199" id="r_a195d9f522448ab902d060d3ff203b199"><td class="memItemLeft"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt; <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a195d9f522448ab902d060d3ff203b199">pendingShaderReloads</a></td></tr>
 <tr class="memitem:ac978e589a564b90d9691237130bc845b" id="r_ac978e589a564b90d9691237130bc845b"><td class="memItemLeft"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac978e589a564b90d9691237130bc845b">objectIdShaderVar</a></td></tr>
 <tr class="memitem:a8827b84bfba5f7eefde9adc531ee93ed" id="r_a8827b84bfba5f7eefde9adc531ee93ed"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8827b84bfba5f7eefde9adc531ee93ed">isOpen</a></td></tr>
@@ -213,9 +222,6 @@ Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_class_core_1_1_ref_counted"><td colspan="2">Static Public Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
 <tr class="memitem:a3d9102870430bcbda9f1749c740d701e pub_static_methods_class_core_1_1_ref_counted" id="r_a3d9102870430bcbda9f1749c740d701e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="class_core_1_1_ref_counted.html#a3d9102870430bcbda9f1749c740d701e">DumpRefCountingLeaks</a> ()</td></tr>
 <tr class="memdesc:a3d9102870430bcbda9f1749c740d701e pub_static_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">dump refcounting leaks, call at end of application (NEBULA_DEBUG builds only!)  <br /></td></tr>
-<tr class="inherit_header pro_methods_class_core_1_1_ref_counted"><td colspan="2">Protected Member Functions inherited from <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a></td></tr>
-<tr class="memitem:a46880dfb2181b1d2726c59d7de4a4af4 pro_methods_class_core_1_1_ref_counted" id="r_a46880dfb2181b1d2726c59d7de4a4af4"><td class="memItemLeft">virtual&#160;</td><td class="memItemRight"><a class="el" href="class_core_1_1_ref_counted.html#a46880dfb2181b1d2726c59d7de4a4af4">~RefCounted</a> ()</td></tr>
-<tr class="memdesc:a46880dfb2181b1d2726c59d7de4a4af4 pro_methods_class_core_1_1_ref_counted"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor (called when refcount reaches zero)  <br /></td></tr>
 </table>
 <a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="afb44e35a3b7e083304cbd551417e2219" name="afb44e35a3b7e083304cbd551417e2219"></a>
@@ -377,6 +383,33 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>close the shader server </p>
+
+</div>
+</div>
+<a id="ab098d0a09e3f5cc7e68aec01e3727df4" name="ab098d0a09e3f5cc7e68aec01e3727df4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab098d0a09e3f5cc7e68aec01e3727df4">&#9670;&#160;</a></span>CompileShaderFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Base::ShaderServerBase::CompileShaderFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>changedFile</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>compile a shader source </p>
 
 </div>
 </div>
@@ -762,6 +795,28 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="namespace_ids.html#aa0d7db4adc4f444ebea663b861bfcd1c">Ids::Id32</a> Base::ShaderServerBase::objectIdShaderVar</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a08025746163c1b0ae9812ec45d03377a" name="a08025746163c1b0ae9812ec45d03377a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08025746163c1b0ae9812ec45d03377a">&#9670;&#160;</a></span>pendingShaderCompiles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>&gt; Base::ShaderServerBase::pendingShaderCompiles</td>
         </tr>
       </table>
   </td>

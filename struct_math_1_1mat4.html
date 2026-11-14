@@ -117,6 +117,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('struct_math_1_
 <p><code>#include &lt;<a class="el" href="mat4_8h_source.html">mat4.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A 4x4 single point precision float matrix. </p>
+<p>The convention is that these are stored as row-major matrices.</p>
+<p>The naming of the axes (x_axis, y_axis, z_axis, position) assume that the matrix represents a local-to-world matrix. If the matrix represents any other space conversion, this assumption might not hold.</p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
@@ -165,9 +167,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ade552cb8ce2346e82c4164146240ffba" id="r_ade552cb8ce2346e82c4164146240ffba"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ade552cb8ce2346e82c4164146240ffba">translate</a> (const float x, const float y, const float z)</td></tr>
 <tr class="memdesc:ade552cb8ce2346e82c4164146240ffba"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a translation to pos_component  <br /></td></tr>
 <tr class="memitem:a43bc658f27651864d025b4219aa95d6b" id="r_a43bc658f27651864d025b4219aa95d6b"><td class="memItemLeft"><a class="el" href="struct_math_1_1vec4.html">vec4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a43bc658f27651864d025b4219aa95d6b">get_x</a> () const</td></tr>
+<tr class="memdesc:a43bc658f27651864d025b4219aa95d6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the x-axis of a local-&gt;world matrix (row0)  <br /></td></tr>
 <tr class="memitem:aafe93b11625cb15fde9272d5084cfdb8" id="r_aafe93b11625cb15fde9272d5084cfdb8"><td class="memItemLeft"><a class="el" href="struct_math_1_1vec4.html">vec4</a>&#160;</td><td class="memItemRight"><a class="el" href="#aafe93b11625cb15fde9272d5084cfdb8">get_y</a> () const</td></tr>
+<tr class="memdesc:aafe93b11625cb15fde9272d5084cfdb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the y-axis of a local-&gt;world matrix (row1)  <br /></td></tr>
 <tr class="memitem:ad879307ca32d0c856d91128a9544ef5e" id="r_ad879307ca32d0c856d91128a9544ef5e"><td class="memItemLeft"><a class="el" href="struct_math_1_1vec4.html">vec4</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad879307ca32d0c856d91128a9544ef5e">get_z</a> () const</td></tr>
+<tr class="memdesc:ad879307ca32d0c856d91128a9544ef5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the z-axis of a local-&gt;world matrix (row2)  <br /></td></tr>
 <tr class="memitem:a3ceea357e37322d32fe52fcc4aee6c77" id="r_a3ceea357e37322d32fe52fcc4aee6c77"><td class="memItemLeft"><a class="el" href="struct_math_1_1vec4.html">vec4</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3ceea357e37322d32fe52fcc4aee6c77">get_w</a> () const</td></tr>
+<tr class="memdesc:a3ceea357e37322d32fe52fcc4aee6c77"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the "position" of a local-&gt;world matrix (row4)  <br /></td></tr>
 <tr class="memitem:a76a895ea468acd08d174bca75506f84e" id="r_a76a895ea468acd08d174bca75506f84e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a76a895ea468acd08d174bca75506f84e">scale</a> (const <a class="el" href="struct_math_1_1vec3.html">vec3</a> &amp;v)</td></tr>
 <tr class="memdesc:a76a895ea468acd08d174bca75506f84e"><td class="mdescLeft">&#160;</td><td class="mdescRight">scale matrix  <br /></td></tr>
 <tr class="memitem:aea436587532c12ad2d1ae0ad1ad998bd" id="r_aea436587532c12ad2d1ae0ad1ad998bd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aea436587532c12ad2d1ae0ad1ad998bd">scale</a> (const float x, const float y, const float z)</td></tr>
@@ -389,6 +395,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>returns the "position" of a local-&gt;world matrix (row4) </p>
+
 </div>
 </div>
 <a id="a43bc658f27651864d025b4219aa95d6b" name="a43bc658f27651864d025b4219aa95d6b"></a>
@@ -405,6 +413,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>returns the x-axis of a local-&gt;world matrix (row0) </p>
 
 </div>
 </div>
@@ -423,6 +433,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>returns the y-axis of a local-&gt;world matrix (row1) </p>
+
 </div>
 </div>
 <a id="ad879307ca32d0c856d91128a9544ef5e" name="ad879307ca32d0c856d91128a9544ef5e"></a>
@@ -439,6 +451,8 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>returns the z-axis of a local-&gt;world matrix (row2) </p>
 
 </div>
 </div>

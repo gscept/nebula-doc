@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"class_nebula_1_1_game_1_1_entity.html#ac0796a076a367bf012b3c26dd4484c8d":[9,0,50,0,1,19],
+"class_nebula_1_1_game_1_1_entity.html#aea07312ebd729c53514f31731d8c7758":[8,0,55,0,1,23],
+"class_nebula_1_1_game_1_1_entity.html#aea07312ebd729c53514f31731d8c7758":[9,0,50,0,1,23],
+"class_nebula_1_1_game_1_1_entity.html#af6158518636e9bdc2b86250e05ccc791":[8,0,55,0,1,17],
+"class_nebula_1_1_game_1_1_entity.html#af6158518636e9bdc2b86250e05ccc791":[9,0,50,0,1,17],
+"class_nebula_1_1_game_1_1_entity.html#af8bc8b13d7a963b45082487333e1550d":[8,0,55,0,1,6],
 "class_nebula_1_1_game_1_1_entity.html#af8bc8b13d7a963b45082487333e1550d":[9,0,50,0,1,6],
 "class_nebula_1_1_game_1_1_msg_dispatcher.html":[8,0,55,0,6],
 "class_nebula_1_1_game_1_1_msg_dispatcher.html":[9,0,50,0,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "class_nebula_1_1_runtime.html#a4e5ce0284a17d4d197fe8a07939d674a":[9,0,50,14,5],
 "class_nebula_1_1_runtime.html#a657146b85bedd9c75289fbbdffc802b8":[8,0,55,14,3],
 "class_nebula_1_1_runtime.html#a657146b85bedd9c75289fbbdffc802b8":[9,0,50,14,3],
-"class_nebula_1_1_runtime.html#a8db845e91f0f047130db490467dd8551":[8,0,55,14,10],
-"class_nebula_1_1_runtime.html#a8db845e91f0f047130db490467dd8551":[9,0,50,14,10],
-"class_nebula_1_1_runtime.html#a9ef8e9c4b2ff2fd1cf982252e2de3a38":[8,0,55,14,2],
-"class_nebula_1_1_runtime.html#a9ef8e9c4b2ff2fd1cf982252e2de3a38":[9,0,50,14,2],
-"class_nebula_1_1_runtime.html#aa4ea899f2785b047ab2983f26eeafe3c":[8,0,55,14,6],
-"class_nebula_1_1_runtime.html#aa4ea899f2785b047ab2983f26eeafe3c":[9,0,50,14,6],
-"class_nebula_1_1_runtime.html#acff17ca332a89e26ca706cedb921dd9d":[8,0,55,14,9]
+"class_nebula_1_1_runtime.html#a8db845e91f0f047130db490467dd8551":[8,0,55,14,10]
 };

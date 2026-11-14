@@ -11,5 +11,6 @@ var struct_game_1_1_scale_1_1_traits =
     [ "fixed_column_index", "struct_game_1_1_scale_1_1_traits.html#ae21f6d510079a0686936045866a6ff0d", null ],
     [ "fully_qualified_name", "struct_game_1_1_scale_1_1_traits.html#a07207eb3ecf007a1b3772dd30c7c0e90", null ],
     [ "name", "struct_game_1_1_scale_1_1_traits.html#a7783ac100437b62d6efcd8384c27f2f5", null ],
+    [ "namespace_name", "struct_game_1_1_scale_1_1_traits.html#a8aa663540e010f853bdde7d4f9ef6977", null ],
     [ "num_fields", "struct_game_1_1_scale_1_1_traits.html#aab9cf316b1132356863dcddc8a2bc084", null ]
 ];

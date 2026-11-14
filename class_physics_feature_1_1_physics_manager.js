@@ -1,7 +1,9 @@
 var class_physics_feature_1_1_physics_manager =
 [
     [ "~PhysicsManager", "class_physics_feature_1_1_physics_manager.html#a7135ab9456d9487511dfb27aa54fbd17", null ],
+    [ "ColliderSignature", "class_physics_feature_1_1_physics_manager.html#ab12eaf942d8138206fbcc169a1602991", null ],
     [ "GetShapeForEntity", "class_physics_feature_1_1_physics_manager.html#a196953d88905c16e5ccec7c8e148c0bd", null ],
+    [ "HasCollider", "class_physics_feature_1_1_physics_manager.html#a9333dd9bb968edad5f8fc945d42f9149", null ],
     [ "InitBoxCollider", "class_physics_feature_1_1_physics_manager.html#ac9e3eaade64d9cacd325f22a25146ce1", null ],
     [ "InitCapsuleCollider", "class_physics_feature_1_1_physics_manager.html#a43efa9d7e4dacee6cf1f78ca7de2e43e", null ],
     [ "InitHeightFieldCollider", "class_physics_feature_1_1_physics_manager.html#a47d353473c03b397ad948af65f53bda5", null ],
@@ -13,6 +15,7 @@ var class_physics_feature_1_1_physics_manager =
     [ "InitRigidbody", "class_physics_feature_1_1_physics_manager.html#a3ef11451be39a55fd6f9f665e6c23661", null ],
     [ "InitSphereCollider", "class_physics_feature_1_1_physics_manager.html#a19847587581f63263c03e19a30b8cd89", null ],
     [ "InitStaticBody", "class_physics_feature_1_1_physics_manager.html#addf8ecd1aecc7b9389c46f309da876c1", null ],
+    [ "IsColliderComponent", "class_physics_feature_1_1_physics_manager.html#ab4e5e9b943b09e0d281e2455264f09c3", null ],
     [ "Mark", "class_physics_feature_1_1_physics_manager.html#a953fc5660c4f1b0ac84db9f2376e569e", null ],
     [ "MarkBodyChanged", "class_physics_feature_1_1_physics_manager.html#a578c5c6e7b6f29cf64e4d6dffce368ce", null ],
     [ "MarkComponentChange", "class_physics_feature_1_1_physics_manager.html#a65a65562ca1e695faacd98461e4169dd", null ],

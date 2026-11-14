@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('win32singleton
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
 <div class="foldopen" id="foldopen00050" data-start="" data-end="">
 <div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="win32singleton_8h.html#a2a8ad85fba9955f0c14a6151337273f6">   50</a></span><span class="preprocessor">#define __DestructSingleton \</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">    n_assert(Singleton); Singleton = nullptr;</span></div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span><span class="preprocessor">    n_assert(Singleton == this); Singleton = nullptr;</span></div>
 </div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="foldopen" id="foldopen00053" data-start="" data-end="">

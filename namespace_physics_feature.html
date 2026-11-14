@@ -155,6 +155,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ae7eef30bfa407110b6b50115b074b06f" id="r_ae7eef30bfa407110b6b50115b074b06f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ae7eef30bfa407110b6b50115b074b06f">ShapeBelongsTo</a> (<a class="el" href="struct_physics_1_1_shape_id.html">Physics::ShapeId</a> id, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
 <tr class="memdesc:ae7eef30bfa407110b6b50115b074b06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when a shape name held by a handle still names the shape its entity built.  <br /></td></tr>
 <tr class="memitem:ae98550070fcc49fa2f77c63072e78df3" id="r_ae98550070fcc49fa2f77c63072e78df3"><td class="memItemLeft">static <a class="el" href="struct_physics_1_1_shape_id.html">Physics::ShapeId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae98550070fcc49fa2f77c63072e78df3">FindShapeForEntity</a> (<a class="el" href="struct_physics_1_1_actor_id.html">Physics::ActorId</a> actorId, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memitem:ae1c19c5da429cb8cabb6d74ab4174da6" id="r_ae1c19c5da429cb8cabb6d74ab4174da6"><td class="memItemLeft">static <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a> &gt; const &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ae1c19c5da429cb8cabb6d74ab4174da6">ColliderComponents</a> ()</td></tr>
+<tr class="memdesc:ae1c19c5da429cb8cabb6d74ab4174da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The collider components.  <br /></td></tr>
 <tr class="memitem:aaf7df16e608318ae87cd4384c93e331a" id="r_aaf7df16e608318ae87cd4384c93e331a"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#aaf7df16e608318ae87cd4384c93e331a">HasOtherCollider</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a> component)</td></tr>
 <tr class="memdesc:aaf7df16e608318ae87cd4384c93e331a"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when the entity has a collider component other than this one.  <br /></td></tr>
 <tr class="memitem:ad6582981400e96d9e837e79a2b103444" id="r_ad6582981400e96d9e837e79a2b103444"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ad6582981400e96d9e837e79a2b103444">ClearShapeField</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
@@ -727,6 +729,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="ae1c19c5da429cb8cabb6d74ab4174da6" name="ae1c19c5da429cb8cabb6d74ab4174da6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1c19c5da429cb8cabb6d74ab4174da6">&#9670;&#160;</a></span>ColliderComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="namespace_game.html#a0c9c4162a88a58417e2ba2b2762ac0e8">Game::ComponentId</a> &gt; const  &amp; PhysicsFeature::ColliderComponents </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The collider components. </p>
+<p>An entity is only allowed one of them, so this is the list both the component inits assert against and the caller that asks for one reads. </p>
+
+</div>
+</div>
 <a id="a3da308b808b019087d44955c76ab9b1a" name="a3da308b808b019087d44955c76ab9b1a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3da308b808b019087d44955c76ab9b1a">&#9670;&#160;</a></span>EnsureHandle()</h2>
 
@@ -922,7 +952,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>True when the entity has a collider component other than this one. </p>
-<p>An entity is only allowed to have one shape. </p>
 
 </div>
 </div>
