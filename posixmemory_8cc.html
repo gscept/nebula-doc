@@ -135,8 +135,12 @@ Functions</h2></td></tr>
 <tr class="memitem:abc662e08dffa62cae36e6cc379545a7e" id="r_abc662e08dffa62cae36e6cc379545a7e"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#abc662e08dffa62cae36e6cc379545a7e">operator new[]</a> (size_t size, std::align_val_t al, const std::nothrow_t &amp;tag) noexcept</td></tr>
 <tr class="memitem:a7988d271b794871cc241b736a115251a" id="r_a7988d271b794871cc241b736a115251a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7988d271b794871cc241b736a115251a">operator delete</a> (void *p) noexcept</td></tr>
 <tr class="memdesc:a7988d271b794871cc241b736a115251a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement global delete operator.  <br /></td></tr>
+<tr class="memitem:ab03107bb14ed6fadd7b70084c70138d4" id="r_ab03107bb14ed6fadd7b70084c70138d4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab03107bb14ed6fadd7b70084c70138d4">operator delete</a> (void *p, size_t size) noexcept</td></tr>
+<tr class="memdesc:ab03107bb14ed6fadd7b70084c70138d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sized global delete operator.  <br /></td></tr>
 <tr class="memitem:a110a5118acd3eee17e00fca299b0451a" id="r_a110a5118acd3eee17e00fca299b0451a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a110a5118acd3eee17e00fca299b0451a">operator delete[]</a> (void *p) noexcept</td></tr>
 <tr class="memdesc:a110a5118acd3eee17e00fca299b0451a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement global delete[] operator.  <br /></td></tr>
+<tr class="memitem:a70b5e660aaf712baf06087c2dbad3cae" id="r_a70b5e660aaf712baf06087c2dbad3cae"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a70b5e660aaf712baf06087c2dbad3cae">operator delete[]</a> (void *p, size_t size) noexcept</td></tr>
+<tr class="memdesc:a70b5e660aaf712baf06087c2dbad3cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sized global delete[] operator.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
@@ -144,7 +148,7 @@ Variables</h2></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a7988d271b794871cc241b736a115251a" name="a7988d271b794871cc241b736a115251a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7988d271b794871cc241b736a115251a">&#9670;&#160;</a></span>operator delete()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7988d271b794871cc241b736a115251a">&#9670;&#160;</a></span>operator delete() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -170,8 +174,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="ab03107bb14ed6fadd7b70084c70138d4" name="ab03107bb14ed6fadd7b70084c70138d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab03107bb14ed6fadd7b70084c70138d4">&#9670;&#160;</a></span>operator delete() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void operator delete </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sized global delete operator. </p>
+<p>The size is not used, the heap knows the block, but the overload has to exist for the sized deallocation to be used. </p>
+
+</div>
+</div>
 <a id="a110a5118acd3eee17e00fca299b0451a" name="a110a5118acd3eee17e00fca299b0451a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a110a5118acd3eee17e00fca299b0451a">&#9670;&#160;</a></span>operator delete[]()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a110a5118acd3eee17e00fca299b0451a">&#9670;&#160;</a></span>operator delete[]() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,6 +230,38 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Replacement global delete[] operator. </p>
+
+</div>
+</div>
+<a id="a70b5e660aaf712baf06087c2dbad3cae" name="a70b5e660aaf712baf06087c2dbad3cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70b5e660aaf712baf06087c2dbad3cae">&#9670;&#160;</a></span>operator delete[]() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void operator delete[] </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>p</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel noexcept">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sized global delete[] operator. </p>
+<p>See the sized delete operator above. </p>
 
 </div>
 </div>

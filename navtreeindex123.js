@@ -1,5 +1,10 @@
 var NAVTREEINDEX123 =
 {
+"streamactorpool_8cc.html":[10,0,0,6,0,15],
+"streamactorpool_8cc.html#a71879273a40deb021451c66467c252da":[10,0,0,6,0,15,0],
+"streamactorpool_8h.html":[10,0,0,6,0,16],
+"streamactorpool_8h_source.html":[10,0,0,6,0,16],
+"streamcache_8cc.html":[10,0,0,3,9,2,4],
 "streamcache_8h.html":[10,0,0,3,9,2,5],
 "streamcache_8h_source.html":[10,0,0,3,9,2,5],
 "streamnavmeshcache_8cc.html":[10,0,0,0,7,7],
@@ -244,10 +249,5 @@ var NAVTREEINDEX123 =
 "struct_clustering_1_1_0fstruct_0e_8state.html#a71c22fea38dbbfd4b628cba1e0ef01cf":[8,0,8,0,7],
 "struct_clustering_1_1_0fstruct_0e_8state.html#a71c22fea38dbbfd4b628cba1e0ef01cf":[9,0,8,0,7],
 "struct_clustering_1_1_0fstruct_0e_8state.html#a8eb7feb53ca2386390e99ee6f4f30840":[8,0,8,0,15],
-"struct_clustering_1_1_0fstruct_0e_8state.html#a8eb7feb53ca2386390e99ee6f4f30840":[9,0,8,0,15],
-"struct_clustering_1_1_0fstruct_0e_8state.html#a914822d5af1f858518d80d763bc6059e":[8,0,8,0,10],
-"struct_clustering_1_1_0fstruct_0e_8state.html#a914822d5af1f858518d80d763bc6059e":[9,0,8,0,10],
-"struct_clustering_1_1_0fstruct_0e_8state.html#a976c00f29610a397922a779e3e7d3989":[8,0,8,0,13],
-"struct_clustering_1_1_0fstruct_0e_8state.html#a976c00f29610a397922a779e3e7d3989":[9,0,8,0,13],
-"struct_clustering_1_1_0fstruct_0e_8state.html#aa7d38bd962b07306214d4f480d9961c5":[8,0,8,0,4]
+"struct_clustering_1_1_0fstruct_0e_8state.html#a8eb7feb53ca2386390e99ee6f4f30840":[9,0,8,0,15]
 };

@@ -187,15 +187,15 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('componentinspe
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>            fieldName.<a class="code hl_function" href="class_util_1_1_string.html#a1e333d02969cca9765baf8678ee943cc">Capitalize</a>();</div>
 <div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>            ImGui::TableSetColumnIndex(0);</div>
 <div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>            ImGui::AlignTextToFramePadding();</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            ImGui::Text(fieldName.<a class="code hl_function" href="class_util_1_1_string.html#aae44fd420cacbfa974b220218a3732c0">AsCharPtr</a>());</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>            ImGui::Text(<span class="stringliteral">&quot;%s&quot;</span>, fieldName.<a class="code hl_function" href="class_util_1_1_string.html#aae44fd420cacbfa974b220218a3732c0">AsCharPtr</a>());</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            <span class="keywordflow">if</span> (TYPE::Traits::field_descriptions[i] != <span class="keyword">nullptr</span>)</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            {</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>                <span class="keywordflow">if</span> (ImGui::IsItemHovered(ImGuiHoveredFlags_AllowWhenDisabled))</div>
 <div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>                {</div>
 <div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                    <span class="keywordflow">if</span> (ImGui::BeginTooltip())</div>
 <div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>                    {</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                        ImGui::TextDisabled(TYPE::Traits::field_typenames[i]);</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                        ImGui::Text(TYPE::Traits::field_descriptions[i]);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>                        ImGui::TextDisabled(<span class="stringliteral">&quot;%s&quot;</span>, TYPE::Traits::field_typenames[i]);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                        ImGui::Text(<span class="stringliteral">&quot;%s&quot;</span>, TYPE::Traits::field_descriptions[i]);</div>
 <div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>                        ImGui::EndTooltip();</div>
 <div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>                    }</div>
 <div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                }</div>
@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('componentinspe
 <div class="ttc" id="ascale_8h_html"><div class="ttname"><a href="scale_8h.html">scale.h</a></div></div>
 <div class="ttc" id="astringatom_8h_html"><div class="ttname"><a href="stringatom_8h.html">stringatom.h</a></div></div>
 <div class="ttc" id="astruct_game_1_1_entity_html"><div class="ttname"><a href="struct_game_1_1_entity.html">Game::Entity</a></div><div class="ttdoc">An entity is essentially just an Id with some utility functions attached.</div><div class="ttdef"><b>Definition</b> entity.h:35</div></div>
-<div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:41</div></div>
+<div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:49</div></div>
 <div class="ttc" id="avelocity_8h_html"><div class="ttname"><a href="velocity_8h.html">velocity.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,5 +1,7 @@
 var NAVTREEINDEX99 =
 {
+"ddgicontext_8h.html":[10,0,0,7,11,1],
+"ddgicontext_8h_source.html":[10,0,0,7,11,1],
 "dds_8cc.html":[10,0,0,6,0,0,0],
 "deargui_8cpp.html":[10,0,0,0,3,5,0],
 "debug_8cc.html":[10,0,0,3,1,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "dir_9f4d573ad1ec83e1c3e241780e1e2304.html":[10,0,0,7,14,1],
 "dir_9f6a9da6d13be67c57567c19b5bef798.html":[10,0,0,3,18,5],
 "dir_9ff27f76eff6e3f486b94f33427b0518.html":[10,0,0,6,0,0],
-"dir_a2a533cbbb7070e19e1f021947bbb229.html":[10,0,0,2,0],
-"dir_a42aadf925508a0f11fe3fda2d07949e.html":[10,0,0,3,2],
-"dir_a6646c6eb093c0c91a561bee3ffda923.html":[10,0,0,0,6,1]
+"dir_a2a533cbbb7070e19e1f021947bbb229.html":[10,0,0,2,0]
 };

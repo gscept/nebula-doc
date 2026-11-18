@@ -1,7 +1,9 @@
 var posixmemory_8cc =
 [
     [ "operator delete", "posixmemory_8cc.html#a7988d271b794871cc241b736a115251a", null ],
+    [ "operator delete", "posixmemory_8cc.html#ab03107bb14ed6fadd7b70084c70138d4", null ],
     [ "operator delete[]", "posixmemory_8cc.html#a110a5118acd3eee17e00fca299b0451a", null ],
+    [ "operator delete[]", "posixmemory_8cc.html#a70b5e660aaf712baf06087c2dbad3cae", null ],
     [ "operator new", "posixmemory_8cc.html#a02d9d956fa2bc0294cabf3bfcd74ecc8", null ],
     [ "operator new", "posixmemory_8cc.html#a4406b1067262a389467b7b1592ca2356", null ],
     [ "operator new", "posixmemory_8cc.html#a2a2dbbd792702e177d8e343572cc5b2a", null ],

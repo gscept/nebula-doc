@@ -10,6 +10,7 @@ var types_8h =
     [ "N_RGBA", "types_8h.html#a053ee346948af06b621d58f6506e7d8a", null ],
     [ "N_XRGB", "types_8h.html#ac7e3cfa2df1402f4205cfc664746b0cf", null ],
     [ "NEBULA_ALIGN16", "types_8h.html#a62b54e124b46a5c16f602209a2f3892b", null ],
+    [ "NEBULA_CACHE_LINE_SIZE", "types_8h.html#a7b01d8d963d0b5af6872a64da7ff0c6d", null ],
     [ "Index64T", "types_8h.html#ac1029234caa23d215a75c9a71c8d9073", null ],
     [ "IndexT", "types_8h.html#ad119735112d40fd29a3017de944ccc98", null ],
     [ "PtrDiff", "types_8h.html#a631b6ce1ca2927ef71a9a193b2f4ba70", null ],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX134 =
 {
+"struct_game_1_1_angular_velocity_1_1_traits.html#a24cf6b51fff03f6b1328b4e862cc3f3c":[9,0,23,0,0,9],
+"struct_game_1_1_angular_velocity_1_1_traits.html#a3b0600deaabd29a117f8f8c0ee054628":[8,0,25,1,0,3],
+"struct_game_1_1_angular_velocity_1_1_traits.html#a3b0600deaabd29a117f8f8c0ee054628":[9,0,23,0,0,3],
+"struct_game_1_1_angular_velocity_1_1_traits.html#a3e1cd23b7e2179c95df2e46395189c58":[8,0,25,1,0,2],
+"struct_game_1_1_angular_velocity_1_1_traits.html#a3e1cd23b7e2179c95df2e46395189c58":[9,0,23,0,0,2],
 "struct_game_1_1_angular_velocity_1_1_traits.html#a4bc9e1b06c07485d1f3a87a198360dde":[8,0,25,1,0,6],
 "struct_game_1_1_angular_velocity_1_1_traits.html#a4bc9e1b06c07485d1f3a87a198360dde":[9,0,23,0,0,6],
 "struct_game_1_1_angular_velocity_1_1_traits.html#a55c75971a735594433454003810c034a":[8,0,25,1,0,10],
@@ -244,10 +249,5 @@ var NAVTREEINDEX134 =
 "struct_game_1_1_transform_hierarchy_1_1_component_pointers.html#a50f7235bee991b43a7eb844dd366bb3b":[9,0,23,33,0,3],
 "struct_game_1_1_transform_hierarchy_1_1_component_pointers.html#ac252f5d1cf38b721228c0a994a52b5c1":[8,0,25,34,0,0],
 "struct_game_1_1_transform_hierarchy_1_1_component_pointers.html#ac252f5d1cf38b721228c0a994a52b5c1":[9,0,23,33,0,0],
-"struct_game_1_1_transform_hierarchy_1_1_component_pointers.html#acd1af1f390cd19f6538e5160ae881e29":[8,0,25,34,0,1],
-"struct_game_1_1_transform_hierarchy_1_1_component_pointers.html#acd1af1f390cd19f6538e5160ae881e29":[9,0,23,33,0,1],
-"struct_game_1_1_world_1_1_add_staged_component_command.html":[8,0,25,36,2],
-"struct_game_1_1_world_1_1_add_staged_component_command.html":[9,0,23,35,2],
-"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[8,0,25,36,2,0],
-"struct_game_1_1_world_1_1_add_staged_component_command.html#a074688df16c62763f1ebf43915f16f72":[9,0,23,35,2,0]
+"struct_game_1_1_transform_hierarchy_1_1_component_pointers.html#acd1af1f390cd19f6538e5160ae881e29":[8,0,25,34,0,1]
 };

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['x_5faxis_0',['x_axis',['../struct_math_1_1quat.html#af545f90f112163feeebf35efb8580d4e',1,'Math::quat']]],
+  ['x_5faxis_0',['x_axis',['../struct_math_1_1mat4.html#afbf009b0b38fba172f6f007079f02e30',1,'Math::mat4::x_axis()'],['../struct_math_1_1mat4.html#ae0c9eafa6eadf354482ac2a9638ab02a',1,'Math::mat4::x_axis() const'],['../struct_math_1_1quat.html#af545f90f112163feeebf35efb8580d4e',1,'Math::quat::x_axis()']]],
   ['xmlreader_1',['XmlReader',['../class_i_o_1_1_xml_reader.html#a482781758870a30480cc6b5df64c20b9',1,'IO::XmlReader']]],
   ['xmlwriter_2',['XmlWriter',['../class_i_o_1_1_xml_writer.html#a9f79cc7a5a2b1505c46f5df9063e5a05',1,'IO::XmlWriter']]],
   ['xor_3',['Xor',['../class_gcc_1_1_gcc_interlocked.html#a0c8e4ae48e8d9686a0d8cc26565922c0',1,'Gcc::GccInterlocked::Xor()'],['../namespace_threading_1_1_interlocked.html#ab73eb507a10993a3cdcdb57a4e30533e',1,'Threading::Interlocked::Xor(int volatile  *var, int value)'],['../namespace_threading_1_1_interlocked.html#a3ec90bea1ce884dd7c5584d7da52693d',1,'Threading::Interlocked::Xor(int64 volatile  *var, int64 value)']]],

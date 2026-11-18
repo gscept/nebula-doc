@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('attributeregis
 <div class="line"><a id="l00229" name="l00229"></a><span class="lineno"><a class="line" href="class_mem_db_1_1_attribute_registry.html#acbc3b601b6fae4372713e10652677ed9">  229</a></span><a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#acbc3b601b6fae4372713e10652677ed9">AttributeRegistry::GetAttribute</a>(<a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a> descriptor)</div>
 <div class="line"><a id="l00230" name="l00230"></a><span class="lineno">  230</span>{</div>
 <div class="line"><a id="l00231" name="l00231"></a><span class="lineno">  231</span>    <span class="keyword">auto</span>* reg = <a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#a4365ac68eaf663a5172d2bddde62ba76">Instance</a>();</div>
-<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <span class="keywordflow">if</span> (descriptor.id &gt;= 0 &amp;&amp; descriptor.id &lt; reg-&gt;componentDescriptions.Size())</div>
+<div class="line"><a id="l00232" name="l00232"></a><span class="lineno">  232</span>    <span class="keywordflow">if</span> (descriptor.id &lt; reg-&gt;componentDescriptions.Size())</div>
 <div class="line"><a id="l00233" name="l00233"></a><span class="lineno">  233</span>    {</div>
 <div class="line"><a id="l00234" name="l00234"></a><span class="lineno">  234</span>        <a class="code hl_define" href="debug_8h.html#a2e45ccc969dc521c78c8bf7733aedcaa">n_assert2</a>(</div>
 <div class="line"><a id="l00235" name="l00235"></a><span class="lineno">  235</span>            reg-&gt;componentDescriptions[descriptor.id] != <span class="keyword">nullptr</span>, <span class="stringliteral">&quot;Trying to get description of attribute that is not registered!&quot;</span></div>
@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('attributeregis
 <div class="line"><a id="l00247" name="l00247"></a><span class="lineno"><a class="line" href="class_mem_db_1_1_attribute_registry.html#aa9634291c4e68b72e38ff7dabd0c888e">  247</a></span><a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#aa9634291c4e68b72e38ff7dabd0c888e">AttributeRegistry::TypeSize</a>(<a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a> descriptor)</div>
 <div class="line"><a id="l00248" name="l00248"></a><span class="lineno">  248</span>{</div>
 <div class="line"><a id="l00249" name="l00249"></a><span class="lineno">  249</span>    <span class="keyword">auto</span>* reg = <a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#a4365ac68eaf663a5172d2bddde62ba76">Instance</a>();</div>
-<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(descriptor.id &gt;= 0 &amp;&amp; descriptor.id &lt; reg-&gt;componentDescriptions.Size());</div>
+<div class="line"><a id="l00250" name="l00250"></a><span class="lineno">  250</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(descriptor.id &lt; reg-&gt;componentDescriptions.Size());</div>
 <div class="line"><a id="l00251" name="l00251"></a><span class="lineno">  251</span>    <span class="keywordflow">return</span> reg-&gt;componentDescriptions[descriptor.id]-&gt;typeSize;</div>
 <div class="line"><a id="l00252" name="l00252"></a><span class="lineno">  252</span>}</div>
 </div>
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('attributeregis
 <div class="line"><a id="l00258" name="l00258"></a><span class="lineno"><a class="line" href="class_mem_db_1_1_attribute_registry.html#a4b92bbcb4b4d97a299a639cfc462a870">  258</a></span><a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#a4b92bbcb4b4d97a299a639cfc462a870">AttributeRegistry::Flags</a>(<a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a> descriptor)</div>
 <div class="line"><a id="l00259" name="l00259"></a><span class="lineno">  259</span>{</div>
 <div class="line"><a id="l00260" name="l00260"></a><span class="lineno">  260</span>    <span class="keyword">auto</span>* reg = <a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#a4365ac68eaf663a5172d2bddde62ba76">Instance</a>();</div>
-<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(descriptor.id &gt;= 0 &amp;&amp; descriptor.id &lt; reg-&gt;componentDescriptions.Size());</div>
+<div class="line"><a id="l00261" name="l00261"></a><span class="lineno">  261</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(descriptor.id &lt; reg-&gt;componentDescriptions.Size());</div>
 <div class="line"><a id="l00262" name="l00262"></a><span class="lineno">  262</span>    <span class="keywordflow">return</span> reg-&gt;componentDescriptions[descriptor.id]-&gt;externalFlags;</div>
 <div class="line"><a id="l00263" name="l00263"></a><span class="lineno">  263</span>}</div>
 </div>
@@ -365,7 +365,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('attributeregis
 <div class="line"><a id="l00269" name="l00269"></a><span class="lineno"><a class="line" href="class_mem_db_1_1_attribute_registry.html#a7f394d64a5f6b9f6387b55c350b76628">  269</a></span><a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#a7f394d64a5f6b9f6387b55c350b76628">AttributeRegistry::DefaultValue</a>(<a class="code hl_struct" href="struct_mem_db_1_1_attribute_id.html">AttributeId</a> descriptor)</div>
 <div class="line"><a id="l00270" name="l00270"></a><span class="lineno">  270</span>{</div>
 <div class="line"><a id="l00271" name="l00271"></a><span class="lineno">  271</span>    <span class="keyword">auto</span>* reg = <a class="code hl_function" href="class_mem_db_1_1_attribute_registry.html#a4365ac68eaf663a5172d2bddde62ba76">Instance</a>();</div>
-<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(descriptor.id &gt;= 0 &amp;&amp; descriptor.id &lt; reg-&gt;componentDescriptions.Size());</div>
+<div class="line"><a id="l00272" name="l00272"></a><span class="lineno">  272</span>    <a class="code hl_define" href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a>(descriptor.id &lt; reg-&gt;componentDescriptions.Size());</div>
 <div class="line"><a id="l00273" name="l00273"></a><span class="lineno">  273</span>    <span class="keywordflow">return</span> reg-&gt;componentDescriptions[descriptor.id]-&gt;defVal;</div>
 <div class="line"><a id="l00274" name="l00274"></a><span class="lineno">  274</span>}</div>
 </div>
@@ -411,8 +411,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('attributeregis
 <div class="ttc" id="anamespace_mem_db_html_aeb59e3017d21c6bb374d949e615c71b3"><div class="ttname"><a href="namespace_mem_db.html#aeb59e3017d21c6bb374d949e615c71b3">MemDb::GetAttributeId</a></div><div class="ttdeci">AttributeId GetAttributeId()</div><div class="ttdef"><b>Definition</b> attributeregistry.h:67</div></div>
 <div class="ttc" id="astringatom_8h_html"><div class="ttname"><a href="stringatom_8h.html">stringatom.h</a></div></div>
 <div class="ttc" id="astruct_mem_db_1_1_attribute_id_html"><div class="ttname"><a href="struct_mem_db_1_1_attribute_id.html">MemDb::AttributeId</a></div><div class="ttdef"><b>Definition</b> attributeid.h:19</div></div>
-<div class="ttc" id="atypes_8h_html_a869418dc7a0404b6441ebc39c5b4bb37"><div class="ttname"><a href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div><div class="ttdeci">int SizeT</div><div class="ttdef"><b>Definition</b> types.h:42</div></div>
-<div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:41</div></div>
+<div class="ttc" id="atypes_8h_html_a869418dc7a0404b6441ebc39c5b4bb37"><div class="ttname"><a href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a></div><div class="ttdeci">int SizeT</div><div class="ttdef"><b>Definition</b> types.h:50</div></div>
+<div class="ttc" id="atypes_8h_html_ad119735112d40fd29a3017de944ccc98"><div class="ttname"><a href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></div><div class="ttdeci">int IndexT</div><div class="ttdef"><b>Definition</b> types.h:49</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 </div><!-- container -->

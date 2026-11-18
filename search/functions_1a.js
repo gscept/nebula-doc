@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['z_5faxis_0',['z_axis',['../struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5',1,'Math::quat']]],
+  ['z_5faxis_0',['z_axis',['../struct_math_1_1mat4.html#a17c82f300dc72465f42d58eac84bcadb',1,'Math::mat4::z_axis()'],['../struct_math_1_1mat4.html#a20ac123102a9498812e903dbda78f5e8',1,'Math::mat4::z_axis() const'],['../struct_math_1_1quat.html#afcbd72c5feeea14508e157e4fc070dc5',1,'Math::quat::z_axis()']]],
   ['ziparchive_1',['ZipArchive',['../class_i_o_1_1_zip_archive.html#a359181ed43c0f96d2a459d3f2cb6d73e',1,'IO::ZipArchive']]],
   ['zipdirentry_2',['ZipDirEntry',['../class_i_o_1_1_zip_dir_entry.html#a959f4747b7079ef9879f56f8f147b08e',1,'IO::ZipDirEntry']]],
   ['zipfileentry_3',['ZipFileEntry',['../class_i_o_1_1_zip_file_entry.html#a7db32d9a9b18ed29a6a19f96fc845513',1,'IO::ZipFileEntry']]],
