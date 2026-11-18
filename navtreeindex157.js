@@ -1,5 +1,10 @@
 var NAVTREEINDEX157 =
 {
+"struct_t_b_u_i_1_1_t_b_u_i_vertex.html#a36560ed46973a554328f99d1d0751ab9":[8,0,79,10,0],
+"struct_t_b_u_i_1_1_t_b_u_i_vertex.html#a36560ed46973a554328f99d1d0751ab9":[9,0,69,10,0],
+"struct_t_b_u_i_1_1_t_b_u_i_vertex.html#ae931f116559a8276418c4044ea05b4bd":[8,0,79,10,1],
+"struct_t_b_u_i_1_1_t_b_u_i_vertex.html#ae931f116559a8276418c4044ea05b4bd":[9,0,69,10,1],
+"struct_terrain_1_1_0fstruct_0e_8raytracing_state.html":[8,0,80,0],
 "struct_terrain_1_1_0fstruct_0e_8raytracing_state.html":[9,0,70,0],
 "struct_terrain_1_1_0fstruct_0e_8raytracing_state.html#a062db16a26407555229319466eee31c1":[8,0,80,0,5],
 "struct_terrain_1_1_0fstruct_0e_8raytracing_state.html#a062db16a26407555229319466eee31c1":[9,0,70,0,5],
@@ -244,10 +249,5 @@ var NAVTREEINDEX157 =
 "struct_terrain_1_1_sub_texture_update_job_output.html#a5ee144d1b1b98eb1d3e0622f6a1dc9cb":[8,0,80,13,6],
 "struct_terrain_1_1_sub_texture_update_job_output.html#a5ee144d1b1b98eb1d3e0622f6a1dc9cb":[9,0,70,13,6],
 "struct_terrain_1_1_sub_texture_update_job_output.html#abb73bd335e6f70645079cddf1239d698":[8,0,80,13,1],
-"struct_terrain_1_1_sub_texture_update_job_output.html#abb73bd335e6f70645079cddf1239d698":[9,0,70,13,1],
-"struct_terrain_1_1_sub_texture_update_job_output.html#abeb105f3ce548c037296ba5285ca9a22":[8,0,80,13,2],
-"struct_terrain_1_1_sub_texture_update_job_output.html#abeb105f3ce548c037296ba5285ca9a22":[9,0,70,13,2],
-"struct_terrain_1_1_sub_texture_update_job_output.html#ad7b0cef758ed7d29ca9d86e4f64fd9c0":[8,0,80,13,3],
-"struct_terrain_1_1_sub_texture_update_job_output.html#ad7b0cef758ed7d29ca9d86e4f64fd9c0":[9,0,70,13,3],
-"struct_terrain_1_1_sub_texture_update_job_uniforms.html":[8,0,80,14]
+"struct_terrain_1_1_sub_texture_update_job_output.html#abb73bd335e6f70645079cddf1239d698":[9,0,70,13,1]
 };

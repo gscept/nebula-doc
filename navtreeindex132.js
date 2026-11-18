@@ -1,5 +1,8 @@
 var NAVTREEINDEX132 =
 {
+"struct_fog_1_1_0fstruct_0e_8blur_state.html#a4fae2bd1c6f62bd6fac521aa03a266bf":[8,0,22,0,4],
+"struct_fog_1_1_0fstruct_0e_8blur_state.html#a4fae2bd1c6f62bd6fac521aa03a266bf":[9,0,20,0,4],
+"struct_fog_1_1_0fstruct_0e_8blur_state.html#a69d75306ee634a7e048d79bade782f84":[8,0,22,0,0],
 "struct_fog_1_1_0fstruct_0e_8blur_state.html#a69d75306ee634a7e048d79bade782f84":[9,0,20,0,0],
 "struct_fog_1_1_0fstruct_0e_8blur_state.html#aabf0e20fde2a50a4258cdff852ae402c":[8,0,22,0,2],
 "struct_fog_1_1_0fstruct_0e_8blur_state.html#aabf0e20fde2a50a4258cdff852ae402c":[9,0,20,0,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX132 =
 "struct_frame_1_1_frame_subpass_1_1_compiled_impl.html#afa9729886aa5649c797c0c2f864c6fa8":[8,0,23,17,0,4],
 "struct_frame_1_1_frame_subpass_1_1_compiled_impl.html#afa9729886aa5649c797c0c2f864c6fa8":[9,0,21,17,0,4],
 "struct_frame_1_1_frame_subpass_batch_1_1_compiled_impl.html":[8,0,23,18,0],
-"struct_frame_1_1_frame_subpass_batch_1_1_compiled_impl.html":[9,0,21,18,0],
-"struct_frame_1_1_frame_subpass_batch_1_1_compiled_impl.html#a396c901323ea4e3e41df52a643696c05":[8,0,23,18,0,1],
-"struct_frame_1_1_frame_subpass_batch_1_1_compiled_impl.html#a396c901323ea4e3e41df52a643696c05":[9,0,21,18,0,1],
-"struct_frame_1_1_frame_subpass_batch_1_1_compiled_impl.html#acfea8c6c98ee423eb10dfba69c7b7123":[8,0,23,18,0,0]
+"struct_frame_1_1_frame_subpass_batch_1_1_compiled_impl.html":[9,0,21,18,0]
 };

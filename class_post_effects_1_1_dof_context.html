@@ -378,6 +378,8 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Handle window resize. </p>
+<p>Called after the frame script recreated its textures and recorded this frame.</p>
+<p>This frame isn't submitted yet and the table bindings are update-after-bind, so its table is rebound now. The other buffered frames may still be on the GPU, their tables are rebound when they are recorded next. </p>
 
 </div>
 </div>

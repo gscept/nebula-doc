@@ -121,8 +121,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft">CoreGraphics::ShaderProgramId&#160;</td><td class="memItemRight"><a class="el" href="#ae312086e7915119473dae644b922c092">gatherProgram</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft">CoreGraphics::ShaderProgramId&#160;</td><td class="memItemRight"><a class="el" href="#a08eac5e35cde55592f4baeaa2f43366a">compositeProgram</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_shader_id.html">CoreGraphics::ShaderId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5615a07a23ac3e0d95e69224ba4449f6">shader</a></td></tr>
-<tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_resource_table_id.html">CoreGraphics::ResourceTableId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab56ec9d99e6846a2b09ca0f5689a0eaf">resourceTable</a></td></tr>
-<tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a>&#160;</td><td class="memItemRight"><a class="el" href="#abfb356a33e7e48786b46a05bd28d083e">constants</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_resource_table_set.html">CoreGraphics::ResourceTableSet</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa9cf96f5055841495c87e42517bc0a4c">resourceTables</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a5bcab16c1722d81404f6b7a2ad559b28">tablesDirty</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_graphics_1_1_buffer_id.html">CoreGraphics::BufferId</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a71bb1916607d513171e903b912538ba9">constants</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a157671c5f4bacbf43d71002af29a760f">bokehMask</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft"><a class="el" href="struct_core_graphics_1_1_texture_id.html">CoreGraphics::TextureId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a0c363356a8236323f0cf0503cab194ad">dirtMask</a></td></tr>
 <tr class="memitem:"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8d3a5fc52c45951fe89b69394f908843">bokehDirty</a></td></tr>
@@ -171,14 +172,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abfb356a33e7e48786b46a05bd28d083e" name="abfb356a33e7e48786b46a05bd28d083e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfb356a33e7e48786b46a05bd28d083e">&#9670;&#160;</a></span>constants</h2>
+<a id="a71bb1916607d513171e903b912538ba9" name="a71bb1916607d513171e903b912538ba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71bb1916607d513171e903b912538ba9">&#9670;&#160;</a></span>constants</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">CoreGraphics::BufferId <a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">PostEffects::[struct].dofState</a> constants</td>
+          <td class="memname">Util::FixedArray&lt;CoreGraphics::BufferId&gt; <a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">PostEffects::[struct].dofState</a> constants</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -227,14 +228,14 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab56ec9d99e6846a2b09ca0f5689a0eaf" name="ab56ec9d99e6846a2b09ca0f5689a0eaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab56ec9d99e6846a2b09ca0f5689a0eaf">&#9670;&#160;</a></span>resourceTable</h2>
+<a id="aa9cf96f5055841495c87e42517bc0a4c" name="aa9cf96f5055841495c87e42517bc0a4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9cf96f5055841495c87e42517bc0a4c">&#9670;&#160;</a></span>resourceTables</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">CoreGraphics::ResourceTableId <a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">PostEffects::[struct].dofState</a> resourceTable</td>
+          <td class="memname">CoreGraphics::ResourceTableSet <a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">PostEffects::[struct].dofState</a> resourceTables</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -263,6 +264,20 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">CoreGraphics::ShaderId <a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">PostEffects::[struct].dofState</a> shader</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bcab16c1722d81404f6b7a2ad559b28" name="a5bcab16c1722d81404f6b7a2ad559b28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bcab16c1722d81404f6b7a2ad559b28">&#9670;&#160;</a></span>tablesDirty</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Util::FixedArray&lt;bool&gt; <a class="el" href="struct_post_effects_1_1_0fstruct_0e_8dof_state.html">PostEffects::[struct].dofState</a> tablesDirty</td>
         </tr>
       </table>
 </div><div class="memdoc">

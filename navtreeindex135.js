@@ -1,5 +1,8 @@
 var NAVTREEINDEX135 =
 {
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a7325acb5e92b024de3c5ec9fcd297e5f":[8,0,25,36,2,2],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#a7325acb5e92b024de3c5ec9fcd297e5f":[9,0,23,35,2,2],
+"struct_game_1_1_world_1_1_add_staged_component_command.html#aaa833bb9c57c6858468b5a468f4cb6ce":[8,0,25,36,2,1],
 "struct_game_1_1_world_1_1_add_staged_component_command.html#aaa833bb9c57c6858468b5a468f4cb6ce":[9,0,23,35,2,1],
 "struct_game_1_1_world_1_1_add_staged_component_command.html#aaccdcec57b6fe0465cf696d696ad37b0":[8,0,25,36,2,3],
 "struct_game_1_1_world_1_1_add_staged_component_command.html#aaccdcec57b6fe0465cf696d696ad37b0":[9,0,23,35,2,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX135 =
 "struct_i_o_1_1_event_handler_data.html#a32658b63e1934a53e9e4b2b4525a8a1a":[9,0,34,16,1],
 "struct_i_o_1_1_event_handler_data.html#aa58a95250bab6d355e50ae39ebc5f093":[8,0,37,17,2],
 "struct_i_o_1_1_event_handler_data.html#aa58a95250bab6d355e50ae39ebc5f093":[9,0,34,16,2],
-"struct_i_o_1_1_event_handler_data.html#aa9722e4ac6f9cd3fc4edd78ca834e78f":[8,0,37,17,3],
-"struct_i_o_1_1_event_handler_data.html#aa9722e4ac6f9cd3fc4edd78ca834e78f":[9,0,34,16,3],
-"struct_i_o_1_1_event_handler_data.html#ac3ef30bb6c50c8a4d84aee8d3d068229":[8,0,37,17,0],
-"struct_i_o_1_1_event_handler_data.html#ac3ef30bb6c50c8a4d84aee8d3d068229":[9,0,34,16,0]
+"struct_i_o_1_1_event_handler_data.html#aa9722e4ac6f9cd3fc4edd78ca834e78f":[8,0,37,17,3]
 };
