@@ -154,6 +154,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7fdde31351ad8728d122d7f4079a30b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup character context  <br /></td></tr>
 <tr class="memitem:a57f98e9792227e1efabc85b846f2c766" id="r_a57f98e9792227e1efabc85b846f2c766"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a57f98e9792227e1efabc85b846f2c766">Setup</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;skeletonResource, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> skeletonIndex, const <a class="el" href="namespace_resources.html#a913868da5a35b82db9988805bd5bcaf0">Resources::ResourceName</a> &amp;animationResource, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> animationIndex, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag, bool supportBlending=true)</td></tr>
 <tr class="memdesc:a57f98e9792227e1efabc85b846f2c766"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup character context, assumes there is already a model attached, by loading a skeleton and animation resource  <br /></td></tr>
+<tr class="memitem:a54e7fe8dfc2bf134e4db8a58fa2e879c" id="r_a54e7fe8dfc2bf134e4db8a58fa2e879c"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a54e7fe8dfc2bf134e4db8a58fa2e879c">SetupFromModel</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="class_i_o_1_1_path.html">IO::Path</a> &amp;model, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;tag)</td></tr>
+<tr class="memdesc:a54e7fe8dfc2bf134e4db8a58fa2e879c"><td class="mdescLeft">&#160;</td><td class="mdescRight">if the entity's model is skinned, register and setup the entity as a character using the skeleton and animation packaged with the model (folder:file:ske and folder:file:ani), and play its first clip.  <br /></td></tr>
 <tr class="memitem:a2d4fde28eef44bc280395b36ccbb7e1e" id="r_a2d4fde28eef44bc280395b36ccbb7e1e"><td class="memItemLeft">static <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2d4fde28eef44bc280395b36ccbb7e1e">GetClipIndex</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
 <tr class="memdesc:a2d4fde28eef44bc280395b36ccbb7e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">perform a clip name lookup  <br /></td></tr>
 <tr class="memitem:a7875265361b633fe25cf9561a88db96b" id="r_a7875265361b633fe25cf9561a88db96b"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a7875265361b633fe25cf9561a88db96b">PlayClip</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">CoreAnimation::AnimSampleMask</a> *mask, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> clipIndex, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track, const <a class="el" href="namespace_characters.html#ae4ad265a7161cf04bbaee511c95ae613">EnqueueMode</a> mode, const float weight=1.0f, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> loopCount=1, const float startTime=0.0f, const float fadeIn=0.0f, const float fadeOut=0.0f, const float timeOffset=0.0f, const float timeFactor=1.0f)</td></tr>
@@ -176,6 +178,20 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a575a32e320fd01998c9ad9d0c487cce1"><td class="mdescLeft">&#160;</td><td class="mdescRight">set time factor for track  <br /></td></tr>
 <tr class="memitem:a1b30e620562ae08962746d2b0199d8e3" id="r_a1b30e620562ae08962746d2b0199d8e3"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a1b30e620562ae08962746d2b0199d8e3">QueryClips</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_core_animation_1_1_anim_clip.html">CoreAnimation::AnimClip</a> &gt; &amp;outClips)</td></tr>
 <tr class="memdesc:a1b30e620562ae08962746d2b0199d8e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve animation clip names and lengths  <br /></td></tr>
+<tr class="memitem:a20042a95251f3337b4706a30e6c923f4" id="r_a20042a95251f3337b4706a30e6c923f4"><td class="memItemLeft">static const <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a20042a95251f3337b4706a30e6c923f4">GetSkeleton</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
+<tr class="memdesc:a20042a95251f3337b4706a30e6c923f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the skeleton, invalid until it's loaded  <br /></td></tr>
+<tr class="memitem:a9c2694b83370dda6b51b9d1fb5a6f382" id="r_a9c2694b83370dda6b51b9d1fb5a6f382"><td class="memItemLeft">static const <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a9c2694b83370dda6b51b9d1fb5a6f382">GetAnimation</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
+<tr class="memdesc:a9c2694b83370dda6b51b9d1fb5a6f382"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the animation, invalid until it's loaded  <br /></td></tr>
+<tr class="memitem:ac28b9d00b38bd34d4a857b142b5db859" id="r_ac28b9d00b38bd34d4a857b142b5db859"><td class="memItemLeft">static const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ac28b9d00b38bd34d4a857b142b5db859">GetJointTransforms</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
+<tr class="memdesc:ac28b9d00b38bd34d4a857b142b5db859"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the model space transforms of the joints in the last evaluated pose, one per joint of the skeleton  <br /></td></tr>
+<tr class="memitem:a1eae92e097a3dd6dc7f89a336368cb63" id="r_a1eae92e097a3dd6dc7f89a336368cb63"><td class="memItemLeft">static const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1eae92e097a3dd6dc7f89a336368cb63">GetPlayingClip</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track)</td></tr>
+<tr class="memdesc:a1eae92e097a3dd6dc7f89a336368cb63"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the clip playing on a track, InvalidIndex if none is  <br /></td></tr>
+<tr class="memitem:a8a5e62d313d4244340482feedf298ca8" id="r_a8a5e62d313d4244340482feedf298ca8"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a8a5e62d313d4244340482feedf298ca8">IsTrackPaused</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track)</td></tr>
+<tr class="memdesc:a8a5e62d313d4244340482feedf298ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the clip playing on a track is paused  <br /></td></tr>
+<tr class="memitem:a79054a7954a33f12dc54e4509fd4da30" id="r_a79054a7954a33f12dc54e4509fd4da30"><td class="memItemLeft">static <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight"><a class="el" href="#a79054a7954a33f12dc54e4509fd4da30">GetTrackTime</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track)</td></tr>
+<tr class="memdesc:a79054a7954a33f12dc54e4509fd4da30"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the time in the clip playing on a track in seconds, within its duration for looped clips, 0 if none is playing  <br /></td></tr>
+<tr class="memitem:ad1f685245461ce794ff7bfea8589a889" id="r_ad1f685245461ce794ff7bfea8589a889"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ad1f685245461ce794ff7bfea8589a889">SeekTrack</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track, const <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> time)</td></tr>
+<tr class="memdesc:ad1f685245461ce794ff7bfea8589a889"><td class="mdescLeft">&#160;</td><td class="mdescRight">move the clip playing on a track to a time in it in seconds, it plays on from there, a paused one shows the pose at that time  <br /></td></tr>
 <tr class="memitem:afdd5d688933e5e7ce92e22c55e241be0" id="r_afdd5d688933e5e7ce92e22c55e241be0"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#afdd5d688933e5e7ce92e22c55e241be0">UpdateAnimations</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:afdd5d688933e5e7ce92e22c55e241be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">runs before frame is updated  <br /></td></tr>
 <tr class="memitem:a98c3e51ac4da5394a05d82e4d60f4619" id="r_a98c3e51ac4da5394a05d82e4d60f4619"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a98c3e51ac4da5394a05d82e4d60f4619">WaitForCharacterJobs</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
@@ -210,9 +226,11 @@ Private Types</h2></td></tr>
 , <a class="el" href="#a9391489899b5ce4a6928e244bcc8599da86d83650a14f6100a43db9edde7b4ec0">EntityId</a>
 , <br />
 &#160;&#160;<a class="el" href="#a9391489899b5ce4a6928e244bcc8599da477eef3d41f4c395d6f33df135ec6680">CharacterSkinNodeIndexOffset</a>
+, <a class="el" href="#a9391489899b5ce4a6928e244bcc8599da9337ad4c36c37bc3c6eea90c0066e3be">AnimationResource</a>
+, <a class="el" href="#a9391489899b5ce4a6928e244bcc8599da9bbcdd50a199904cb419dc12ff9e5565">AnimationIndex</a>
 <br />
  }</td></tr>
-<tr class="memitem:aa5f3d3cabccc38b77ba7ee094dce19fd" id="r_aa5f3d3cabccc38b77ba7ee094dce19fd"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a>, <a class="el" href="#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a> &gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa5f3d3cabccc38b77ba7ee094dce19fd">CharacterContextAllocator</a></td></tr>
+<tr class="memitem:ab9cbc85e857780e9d2cc7c652f7c7c68" id="r_ab9cbc85e857780e9d2cc7c652f7c7c68"><td class="memItemLeft">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a>, <a class="el" href="#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a> &gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, Resources::ResourceId, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab9cbc85e857780e9d2cc7c652f7c7c68">CharacterContextAllocator</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -228,7 +246,7 @@ Static Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr class="memitem:ae9496d1464044413ee22950ba04486a5" id="r_ae9496d1464044413ee22950ba04486a5"><td class="memItemLeft">static const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae9496d1464044413ee22950ba04486a5">MaxNumTracks</a> = 16</td></tr>
-<tr class="memitem:ad07008288699f3dc7db1ea0dc56cc541" id="r_ad07008288699f3dc7db1ea0dc56cc541"><td class="memItemLeft">static <a class="el" href="#aa5f3d3cabccc38b77ba7ee094dce19fd">CharacterContextAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad07008288699f3dc7db1ea0dc56cc541">characterContextAllocator</a></td></tr>
+<tr class="memitem:ad07008288699f3dc7db1ea0dc56cc541" id="r_ad07008288699f3dc7db1ea0dc56cc541"><td class="memItemLeft">static <a class="el" href="#ab9cbc85e857780e9d2cc7c652f7c7c68">CharacterContextAllocator</a>&#160;</td><td class="memItemRight"><a class="el" href="#ad07008288699f3dc7db1ea0dc56cc541">characterContextAllocator</a></td></tr>
 <tr class="memitem:ab0bc98d532605879aa9d3d3a4651cdf9" id="r_ab0bc98d532605879aa9d3d3a4651cdf9"><td class="memItemLeft">static <a class="el" href="class_util_1_1_hash_table.html">Util::HashTable</a>&lt; <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>, <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">CoreAnimation::AnimSampleMask</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ab0bc98d532605879aa9d3d3a4651cdf9">masks</a></td></tr>
 <tr class="memitem:aec7634dfe7fc07e20d428a60140f4c27" id="r_aec7634dfe7fc07e20d428a60140f4c27"><td class="memItemLeft">static <a class="el" href="class_threading_1_1_event.html">Threading::Event</a>&#160;</td><td class="memItemRight"><a class="el" href="#aec7634dfe7fc07e20d428a60140f4c27">totalCompletionEvent</a></td></tr>
 </table><table class="memberdecls">
@@ -249,8 +267,8 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a07a3787fb69d5d6e5340462ca571dc40 pro_static_methods_class_graphics_1_1_graphics_context template"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="class_graphics_1_1_graphics_context.html#a07a3787fb69d5d6e5340462ca571dc40">InternalDefragment</a> (ID_ALLOCATOR &amp;allocator, <a class="el" href="struct_graphics_1_1_graphics_context_state.html">Graphics::GraphicsContextState</a> &amp;&amp;state)</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Member Typedef Documentation</h2>
-<a id="aa5f3d3cabccc38b77ba7ee094dce19fd" name="aa5f3d3cabccc38b77ba7ee094dce19fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5f3d3cabccc38b77ba7ee094dce19fd">&#9670;&#160;</a></span>CharacterContextAllocator</h2>
+<a id="ab9cbc85e857780e9d2cc7c652f7c7c68" name="ab9cbc85e857780e9d2cc7c652f7c7c68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9cbc85e857780e9d2cc7c652f7c7c68">&#9670;&#160;</a></span>CharacterContextAllocator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +277,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a>, <a class="el" href="#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a>&gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; <a class="el" href="#aa5f3d3cabccc38b77ba7ee094dce19fd">Characters::CharacterContext::CharacterContextAllocator</a></td>
+          <td class="memname">typedef <a class="el" href="class_ids_1_1_id_allocator.html">Ids::IdAllocator</a>&lt; <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>, <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a>, <a class="el" href="#aac59f671d0194b51f3b224ad13c9c0eb">LoadState</a>, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_tracks.html">AnimationTracks</a>, <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_math_1_1mat4.html">Math::mat4</a>&gt;, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt;<a class="el" href="struct_characters_1_1_skeleton_job_joint.html">SkeletonJobJoint</a>&gt;, <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a>, bool, <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a>, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>, Resources::ResourceId, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt; <a class="el" href="#ab9cbc85e857780e9d2cc7c652f7c7c68">Characters::CharacterContext::CharacterContextAllocator</a></td>
         </tr>
       </table>
   </td>
@@ -305,6 +323,8 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a9391489899b5ce4a6928e244bcc8599da9ace58e831075c875512f01458fe32ae" name="a9391489899b5ce4a6928e244bcc8599da9ace58e831075c875512f01458fe32ae"></a>SupportMix&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9391489899b5ce4a6928e244bcc8599da86d83650a14f6100a43db9edde7b4ec0" name="a9391489899b5ce4a6928e244bcc8599da86d83650a14f6100a43db9edde7b4ec0"></a>EntityId&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a9391489899b5ce4a6928e244bcc8599da477eef3d41f4c395d6f33df135ec6680" name="a9391489899b5ce4a6928e244bcc8599da477eef3d41f4c395d6f33df135ec6680"></a>CharacterSkinNodeIndexOffset&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9391489899b5ce4a6928e244bcc8599da9337ad4c36c37bc3c6eea90c0066e3be" name="a9391489899b5ce4a6928e244bcc8599da9337ad4c36c37bc3c6eea90c0066e3be"></a>AnimationResource&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a9391489899b5ce4a6928e244bcc8599da9bbcdd50a199904cb419dc12ff9e5565" name="a9391489899b5ce4a6928e244bcc8599da9bbcdd50a199904cb419dc12ff9e5565"></a>AnimationIndex&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -513,6 +533,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9c2694b83370dda6b51b9d1fb5a6f382" name="a9c2694b83370dda6b51b9d1fb5a6f382"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2694b83370dda6b51b9d1fb5a6f382">&#9670;&#160;</a></span>GetAnimation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a> Characters::CharacterContext::GetAnimation </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the animation, invalid until it's loaded </p>
+
+</div>
+</div>
 <a id="a4abc3bccf72b78e58d0c3072ef606f6f" name="a4abc3bccf72b78e58d0c3072ef606f6f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4abc3bccf72b78e58d0c3072ef606f6f">&#9670;&#160;</a></span>GetAnimSampleMask()</h2>
 
@@ -571,6 +618,92 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ac28b9d00b38bd34d4a857b142b5db859" name="ac28b9d00b38bd34d4a857b142b5db859"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac28b9d00b38bd34d4a857b142b5db859">&#9670;&#160;</a></span>GetJointTransforms()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1mat4.html">Math::mat4</a> &gt; &amp; Characters::CharacterContext::GetJointTransforms </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the model space transforms of the joints in the last evaluated pose, one per joint of the skeleton </p>
+<p>The scaled palette holds the joints in model space, the skinning palette has the inverse bind pose applied. </p>
+
+</div>
+</div>
+<a id="a1eae92e097a3dd6dc7f89a336368cb63" name="a1eae92e097a3dd6dc7f89a336368cb63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eae92e097a3dd6dc7f89a336368cb63">&#9670;&#160;</a></span>GetPlayingClip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> Characters::CharacterContext::GetPlayingClip </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>track</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the clip playing on a track, InvalidIndex if none is </p>
+
+</div>
+</div>
+<a id="a20042a95251f3337b4706a30e6c923f4" name="a20042a95251f3337b4706a30e6c923f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20042a95251f3337b4706a30e6c923f4">&#9670;&#160;</a></span>GetSkeleton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a> Characters::CharacterContext::GetSkeleton </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the skeleton, invalid until it's loaded </p>
+
+</div>
+</div>
 <a id="afa1c0d3110e51f8420825c2122982a5d" name="afa1c0d3110e51f8420825c2122982a5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afa1c0d3110e51f8420825c2122982a5d">&#9670;&#160;</a></span>GetTime()</h2>
 
@@ -598,6 +731,38 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a79054a7954a33f12dc54e4509fd4da30" name="a79054a7954a33f12dc54e4509fd4da30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79054a7954a33f12dc54e4509fd4da30">&#9670;&#160;</a></span>GetTrackTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> Characters::CharacterContext::GetTrackTime </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>track</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the time in the clip playing on a track in seconds, within its duration for looped clips, 0 if none is playing </p>
+<p>The time is taken from the time since the clip started as of the last update, or the last seek, so a seek shows right away. </p>
+
+</div>
+</div>
 <a id="a0fd619d03392faa6d3ff1bc371c13ef9" name="a0fd619d03392faa6d3ff1bc371c13ef9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0fd619d03392faa6d3ff1bc371c13ef9">&#9670;&#160;</a></span>IsPlaying()</h2>
 
@@ -622,6 +787,37 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>check if any animation is playing </p>
+
+</div>
+</div>
+<a id="a8a5e62d313d4244340482feedf298ca8" name="a8a5e62d313d4244340482feedf298ca8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5e62d313d4244340482feedf298ca8">&#9670;&#160;</a></span>IsTrackPaused()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Characters::CharacterContext::IsTrackPaused </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>track</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>check if the clip playing on a track is paused </p>
 
 </div>
 </div>
@@ -826,6 +1022,44 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad1f685245461ce794ff7bfea8589a889" name="ad1f685245461ce794ff7bfea8589a889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1f685245461ce794ff7bfea8589a889">&#9670;&#160;</a></span>SeekTrack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Characters::CharacterContext::SeekTrack </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a></td>          <td class="paramname"><span class="paramname"><em>time</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>move the clip playing on a track to a time in it in seconds, it plays on from there, a paused one shows the pose at that time </p>
+<p>The clip's start is moved, the next update gets the time since the clip started from it.</p>
+<p>That keeps the time a clip that isn't looped stops at in step with the time it's moved to </p>
+
+</div>
+</div>
 <a id="a575a32e320fd01998c9ad9d0c487cce1" name="a575a32e320fd01998c9ad9d0c487cce1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a575a32e320fd01998c9ad9d0c487cce1">&#9670;&#160;</a></span>SetTrackTimeFactor()</h2>
 
@@ -951,6 +1185,45 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>setup character context, assumes there is already a model attached, by loading a skeleton and animation resource </p>
+
+</div>
+</div>
+<a id="a54e7fe8dfc2bf134e4db8a58fa2e879c" name="a54e7fe8dfc2bf134e4db8a58fa2e879c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54e7fe8dfc2bf134e4db8a58fa2e879c">&#9670;&#160;</a></span>SetupFromModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Characters::CharacterContext::SetupFromModel </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_i_o_1_1_path.html">IO::Path</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>model</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>tag</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>if the entity's model is skinned, register and setup the entity as a character using the skeleton and animation packaged with the model (folder:file:ske and folder:file:ani), and play its first clip. </p>
+<p>The packager writes a model's skeleton and animation under the model's name, so a skinned model that's placed without naming them (like a model asset dropped in the editor) still gets skinned.</p>
+<p>Call when the model is loaded and the entity is observable. Returns false if the model isn't skinned or doesn't have both</p>
+<p>Without a character the skinned shaders read a joint palette that's never uploaded </p>
 
 </div>
 </div>
@@ -1223,7 +1496,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#aa5f3d3cabccc38b77ba7ee094dce19fd">CharacterContext::CharacterContextAllocator</a> Characters::CharacterContext::characterContextAllocator</td>
+          <td class="memname"><a class="el" href="#ab9cbc85e857780e9d2cc7c652f7c7c68">CharacterContext::CharacterContextAllocator</a> Characters::CharacterContext::characterContextAllocator</td>
         </tr>
       </table>
   </td>

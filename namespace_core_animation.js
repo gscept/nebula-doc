@@ -49,6 +49,7 @@ var namespace_core_animation =
     [ "DestroyAnimation", "namespace_core_animation.html#a447a0fed9caff97cbefb9a6029ee0f49", null ],
     [ "DestroyAnimationResource", "namespace_core_animation.html#a2f9269180c37fb6b3d2cb7c1219c3412", null ],
     [ "FindNextInterval", "namespace_core_animation.html#a08706436048c329af15f4123d60fcd3f", null ],
+    [ "LoadAnimations", "namespace_core_animation.html#a12389fad2cf4f02453d5cde6e35e263d", null ],
     [ "operator!=", "namespace_core_animation.html#a9476ea4aa51a59c6673a38cf43035f06", null ],
     [ "operator<", "namespace_core_animation.html#a4d56297df3fc8f95e39e82507694988e", null ],
     [ "operator<=", "namespace_core_animation.html#ac35185532751a0efd1edb9e44b11409b", null ],

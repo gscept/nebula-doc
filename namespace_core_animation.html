@@ -201,6 +201,7 @@ Functions</h2></td></tr>
 <tr class="memitem:aa72e322ff2137e497c47ae794701d28d" id="r_aa72e322ff2137e497c47ae794701d28d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aa72e322ff2137e497c47ae794701d28d">AnimSampleLinear</a> (const <a class="el" href="class_core_animation_1_1_anim_clip.html">AnimClip</a> &amp;clip, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> &gt; &amp;curves, const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a> time, const <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &amp;velocityScale, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &gt; &amp;idleSamples, const float *srcSamplePtr, const <a class="el" href="struct_core_animation_1_1_anim_key_buffer_1_1_interval.html">AnimKeyBuffer::Interval</a> *intervalPtr, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> *outSampleKeyPtr, float *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
 <tr class="memitem:ac3af878f8ce263fad462a04b53020096" id="r_ac3af878f8ce263fad462a04b53020096"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac3af878f8ce263fad462a04b53020096">AnimMix</a> (const <a class="el" href="class_core_animation_1_1_anim_clip.html">AnimClip</a> &amp;clip, const <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> numSamples, const <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">AnimSampleMask</a> *mask, float mixWeight, const float *src0SamplePtr, const float *src1SamplePtr, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src0SampleCounts, const <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *src1SampleCounts, float *outSamplePtr, <a class="el" href="types_8h.html#a65f85814a8290f9797005d3b28e7e5fc">uchar</a> *outSampleCounts)</td></tr>
 <tr class="memitem:ac7c89001d2ebee77dfeaaa2175065e89" id="r_ac7c89001d2ebee77dfeaaa2175065e89"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac7c89001d2ebee77dfeaaa2175065e89">__ImplementClass</a> (<a class="el" href="class_core_animation_1_1_animation_loader.html">CoreAnimation::AnimationLoader</a>, 'SANL', <a class="el" href="class_resources_1_1_resource_loader.html">Resources::ResourceLoader</a>)</td></tr>
+<tr class="memitem:a12389fad2cf4f02453d5cde6e35e263d" id="r_a12389fad2cf4f02453d5cde6e35e263d"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#a12389fad2cf4f02453d5cde6e35e263d">LoadAnimations</a> (const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;stream, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a> &gt; &amp;outAnimations)</td></tr>
 <tr class="memitem:a6aa2f6e21cb0edb8199c3339039b6dc4" id="r_a6aa2f6e21cb0edb8199c3339039b6dc4"><td class="memItemLeft">const <a class="el" href="struct_core_animation_1_1_animation_id.html">AnimationId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6aa2f6e21cb0edb8199c3339039b6dc4">AnimationResourceGetAnimation</a> (const <a class="el" href="struct_core_animation_1_1_animation_resource_id.html">AnimationResourceId</a> id, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> index)</td></tr>
 <tr class="memdesc:a6aa2f6e21cb0edb8199c3339039b6dc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get animation from resource.  <br /></td></tr>
 <tr class="memitem:a2f9269180c37fb6b3d2cb7c1219c3412" id="r_a2f9269180c37fb6b3d2cb7c1219c3412"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2f9269180c37fb6b3d2cb7c1219c3412">DestroyAnimationResource</a> (const <a class="el" href="struct_core_animation_1_1_animation_resource_id.html">AnimationResourceId</a> id)</td></tr>
@@ -1084,6 +1085,35 @@ Variables</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel extern">extern</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12389fad2cf4f02453d5cde6e35e263d" name="a12389fad2cf4f02453d5cde6e35e263d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12389fad2cf4f02453d5cde6e35e263d">&#9670;&#160;</a></span>LoadAnimations()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CoreAnimation::LoadAnimations </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>stream</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>outAnimations</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

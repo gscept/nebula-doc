@@ -201,9 +201,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a98b9398b3cb2017c9e18cf9097f1f62a" id="r_a98b9398b3cb2017c9e18cf9097f1f62a"><td class="memItemLeft">static <a class="el" href="#aafc057541e601f81900ec38299909406">Path</a>&#160;</td><td class="memItemRight"><a class="el" href="#a98b9398b3cb2017c9e18cf9097f1f62a">File</a> (const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;folder, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;file, const char *type)</td></tr>
 <tr class="memdesc:a98b9398b3cb2017c9e18cf9097f1f62a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from folder, file and type separately.  <br /></td></tr>
 <tr class="memitem:afecec6c0ef7151bdb3f9b9d44039a7b8" id="r_afecec6c0ef7151bdb3f9b9d44039a7b8"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#afecec6c0ef7151bdb3f9b9d44039a7b8">AddExportMapping</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;ns, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;extension)</td></tr>
-<tr class="memdesc:afecec6c0ef7151bdb3f9b9d44039a7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an export binding using namespace -&gt; file extension to use with ExportURI.  <br /></td></tr>
+<tr class="memdesc:afecec6c0ef7151bdb3f9b9d44039a7b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an export binding using namespace -&gt; file extension to use with ExportURI. Adding the same binding again is allowed, binding a namespace to another extension is not.  <br /></td></tr>
 <tr class="memitem:aa322781f87bf5ee22d8475b9ab8f30c0" id="r_aa322781f87bf5ee22d8475b9ab8f30c0"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#aa322781f87bf5ee22d8475b9ab8f30c0">AddWorkMapping</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;ns, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;extension)</td></tr>
-<tr class="memdesc:aa322781f87bf5ee22d8475b9ab8f30c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a work binding using namespace -&gt; file extension to use with WorkURI.  <br /></td></tr>
+<tr class="memdesc:aa322781f87bf5ee22d8475b9ab8f30c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a work binding using namespace -&gt; file extension to use with WorkURI. Adding the same binding again is allowed, binding a namespace to another extension is not.  <br /></td></tr>
 <tr class="memitem:a5198ac5578f879b33cbe77cdebc0b0f0" id="r_a5198ac5578f879b33cbe77cdebc0b0f0"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a5198ac5578f879b33cbe77cdebc0b0f0">SetWorkRoot</a> (const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;root)</td></tr>
 <tr class="memdesc:a5198ac5578f879b33cbe77cdebc0b0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> the work folder.  <br /></td></tr>
 </table><table class="memberdecls">
@@ -333,7 +333,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Add an export binding using namespace -&gt; file extension to use with ExportURI. </p>
+<p>Add an export binding using namespace -&gt; file extension to use with ExportURI. Adding the same binding again is allowed, binding a namespace to another extension is not. </p>
+<p>Several systems read the same namespace, such as graphics and physics both reading meshes, and each registers the mappings it needs regardless of setup order.</p>
+<p>They have to agree though. </p>
 
 </div>
 </div>
@@ -364,7 +366,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Add a work binding using namespace -&gt; file extension to use with WorkURI. </p>
+<p>Add a work binding using namespace -&gt; file extension to use with WorkURI. Adding the same binding again is allowed, binding a namespace to another extension is not. </p>
+<p>Several systems read the same namespace and each registers the mappings it needs regardless of setup order.</p>
+<p>They have to agree though. </p>
 
 </div>
 </div>

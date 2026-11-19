@@ -14,6 +14,7 @@ var struct_characters_1_1_character_context_1_1_animation_runtime =
     [ "prevEvalTime", "struct_characters_1_1_character_context_1_1_animation_runtime.html#a015245c5c632e55f58151650540dd0bc", null ],
     [ "prevSampleTime", "struct_characters_1_1_character_context_1_1_animation_runtime.html#ac5ee16b261fcb8df3d5e61e956525cb7", null ],
     [ "sampleTime", "struct_characters_1_1_character_context_1_1_animation_runtime.html#a5d140c05fdd2400f15f4cda5e8e14b11", null ],
+    [ "started", "struct_characters_1_1_character_context_1_1_animation_runtime.html#a9a6a8a52693810761331eb423711e608", null ],
     [ "startTime", "struct_characters_1_1_character_context_1_1_animation_runtime.html#abdbb272da77f8b8042ce66e95f85d8ad", null ],
     [ "timeFactor", "struct_characters_1_1_character_context_1_1_animation_runtime.html#aeda10e59420ba5aabd8bb780efff99c8", null ],
     [ "timeOffset", "struct_characters_1_1_character_context_1_1_animation_runtime.html#a162b776c3617147e947a428aecf2a58b", null ]
