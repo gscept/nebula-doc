@@ -166,6 +166,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a22c6edfca5da8858300b143216009e1a" id="r_a22c6edfca5da8858300b143216009e1a"><td class="memItemLeft">const bool&#160;</td><td class="memItemRight"><a class="el" href="#a22c6edfca5da8858300b143216009e1a">IsExpired</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime, const <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> time)</td></tr>
 <tr class="memitem:a34affec1c456d2bd96ce2d7debe4f2c8" id="r_a34affec1c456d2bd96ce2d7debe4f2c8"><td class="memItemLeft">const bool&#160;</td><td class="memItemRight"><a class="el" href="#a34affec1c456d2bd96ce2d7debe4f2c8">IsInfinite</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime)</td></tr>
 <tr class="memitem:a21e80b2d8993ce540b525aa8e7c7390a" id="r_a21e80b2d8993ce540b525aa8e7c7390a"><td class="memItemLeft"><a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a>&#160;</td><td class="memItemRight"><a class="el" href="#a21e80b2d8993ce540b525aa8e7c7390a">GetAbsoluteStopTime</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime)</td></tr>
+<tr class="memitem:ac6eb629c7a8be2867228169dbc89d68e" id="r_ac6eb629c7a8be2867228169dbc89d68e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac6eb629c7a8be2867228169dbc89d68e">CollectFiredEvents</a> (const <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a> anim, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> clipIndex, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track, const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a> from, const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a> to, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_characters_1_1_character_context_1_1_fired_event.html">CharacterContext::FiredEvent</a> &gt; &amp;outEvents)</td></tr>
+<tr class="memdesc:ac6eb629c7a8be2867228169dbc89d68e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the events of a clip that are passed going from one sample time to a later one, the start isn't included.  <br /></td></tr>
 <tr class="memitem:ac883e3ed3ac83bd705ce8f00b014fdf7" id="r_ac883e3ed3ac83bd705ce8f00b014fdf7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac883e3ed3ac83bd705ce8f00b014fdf7">EvalCharacter</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalJobs, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> groupIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> invocationOffset, void *ctx)</td></tr>
 <tr class="memitem:ac596dc49035c05e3bac610c45a430a84" id="r_ac596dc49035c05e3bac610c45a430a84"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac596dc49035c05e3bac610c45a430a84">__ImplementEnumBitOperators</a> (<a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">CharacterContext::LoadState</a>)</td></tr>
 <tr class="memitem:a045aa3c288ead42327274369c3f6fd5b" id="r_a045aa3c288ead42327274369c3f6fd5b"><td class="memItemLeft">const <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a045aa3c288ead42327274369c3f6fd5b">CreateSkeleton</a> (const <a class="el" href="struct_characters_1_1_skeleton_create_info.html">SkeletonCreateInfo</a> &amp;info)</td></tr>
@@ -326,6 +328,58 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6eb629c7a8be2867228169dbc89d68e" name="ac6eb629c7a8be2867228169dbc89d68e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6eb629c7a8be2867228169dbc89d68e">&#9670;&#160;</a></span>CollectFiredEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Characters::CollectFiredEvents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a></td>          <td class="paramname"><span class="paramname"><em>anim</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>clipIndex</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>track</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a></td>          <td class="paramname"><span class="paramname"><em>from</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a></td>          <td class="paramname"><span class="paramname"><em>to</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_characters_1_1_character_context_1_1_fired_event.html">CharacterContext::FiredEvent</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>outEvents</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add the events of a clip that are passed going from one sample time to a later one, the start isn't included. </p>
+<p>The times go on past the clip's duration when it loops, an event is added once however often it's passed </p>
 
 </div>
 </div>

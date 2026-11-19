@@ -1,5 +1,13 @@
 var NAVTREEINDEX99 =
 {
+"debugtimer_8h.html#ad8753d403f1bcceb0731489ff2327ea7":[10,0,0,3,2,13,6],
+"debugtimer_8h.html#af30092e2000b54ae0bc7b627d9e24ba6":[10,0,0,3,2,13,3],
+"debugtimer_8h_source.html":[10,0,0,3,2,13],
+"debugui_8cc.html":[10,0,0,6,0,9],
+"debugui_8h.html":[10,0,0,6,0,10],
+"debugui_8h_source.html":[10,0,0,6,0,10],
+"decalcontext_8cc.html":[10,0,0,7,7,0],
+"decalcontext_8h.html":[10,0,0,7,7,1],
 "decalcontext_8h_source.html":[10,0,0,7,7,1],
 "default_8json_8h.html":[10,0,0,7,9,0],
 "default_8json_8h_source.html":[10,0,0,7,9,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX99 =
 "emittermesh_8h_source.html":[10,0,0,7,18,3],
 "entitypool_8cc.html":[10,0,0,1,3,18],
 "entitypool_8h.html":[10,0,0,1,3,19],
-"entitypool_8h_source.html":[10,0,0,1,3,19],
-"envelopecurve_8cc.html":[10,0,0,7,18,4],
-"envelopecurve_8h.html":[10,0,0,7,18,5],
-"envelopecurve_8h_source.html":[10,0,0,7,18,5],
-"envelopesamplebuffer_8cc.html":[10,0,0,7,18,6],
-"envelopesamplebuffer_8h.html":[10,0,0,7,18,7],
-"envelopesamplebuffer_8h_source.html":[10,0,0,7,18,7],
-"environment_8h.html":[10,0,0,3,17,8],
-"environment_8h_source.html":[10,0,0,3,17,8]
+"entitypool_8h_source.html":[10,0,0,1,3,19]
 };

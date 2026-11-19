@@ -1,5 +1,15 @@
 var NAVTREEINDEX107 =
 {
+"namespace_core_graphics.html#a85a85266c0e92332f47d7b1909f37d6a":[8,0,13,717],
+"namespace_core_graphics.html#a85b965a9110541f29d80c5c8902ab52a":[8,0,13,377],
+"namespace_core_graphics.html#a865e7621b9fbbf184e772b8c0c95d107":[8,0,13,523],
+"namespace_core_graphics.html#a87177b55f14207e7855387c38466858b":[8,0,13,290],
+"namespace_core_graphics.html#a87b4040323154a2d7823f0d275b99364":[8,0,13,668],
+"namespace_core_graphics.html#a88101da7d7814b3b9f38f23d1a771809":[8,0,13,437],
+"namespace_core_graphics.html#a884d1130edfcbbb2f840196cbd31fae8":[8,0,13,614],
+"namespace_core_graphics.html#a885f0e46d1c09c35f96dd4a6bce1892f":[8,0,13,309],
+"namespace_core_graphics.html#a88dd3cf1294e0749e039e513661fcb92":[8,0,13,224],
+"namespace_core_graphics.html#a89bdba4b6e350cbf230b43fec9d9c3ee":[8,0,13,526],
 "namespace_core_graphics.html#a8aa6837b0b48c551a9acdb72bdd58650":[8,0,13,226],
 "namespace_core_graphics.html#a8aafff37eae2348e676425a03e4152f9":[8,0,13,260],
 "namespace_core_graphics.html#a8b01f1668a6c3c19b63e65490046d713":[8,0,13,466],
@@ -239,15 +249,5 @@ var NAVTREEINDEX107 =
 "namespace_core_graphics.html#adcfc40395ca45f001c9603fa5eb04f65ad039ca77c3ed079230503383f44493e7":[8,0,13,177,4],
 "namespace_core_graphics.html#adcfc40395ca45f001c9603fa5eb04f65af1086ffe78088286afb3d43f59de7be2":[8,0,13,177,3],
 "namespace_core_graphics.html#add139055b7275c41e44182ad5f44d6e9":[8,0,13,530],
-"namespace_core_graphics.html#add7c6631ce669ff848c73d8d6fb3982f":[8,0,13,193],
-"namespace_core_graphics.html#add7c6631ce669ff848c73d8d6fb3982fa5b5f2ec7081e8e1b5481f70a31174ec3":[8,0,13,193,0],
-"namespace_core_graphics.html#add7c6631ce669ff848c73d8d6fb3982fac6061129c32f2cb70e9d9caaabb9fabc":[8,0,13,193,1],
-"namespace_core_graphics.html#add898b7a6ecf569c19cc7a084b7d337f":[8,0,13,279],
-"namespace_core_graphics.html#adda575eedeed1f7e1f498fb96241be32":[8,0,13,327],
-"namespace_core_graphics.html#addc58d88bd2414386cc0eeffc8c54528":[8,0,13,492],
-"namespace_core_graphics.html#ade53d77ba021265f7f7a73498c0fe4ec":[8,0,13,680],
-"namespace_core_graphics.html#adf8061714da864f6e76b61f80627c14c":[8,0,13,269],
-"namespace_core_graphics.html#adf9233acad3f14f94999d43e62c74fbb":[8,0,13,416],
-"namespace_core_graphics.html#adf9f8a377d66671106d4f924252494b2":[8,0,13,317],
-"namespace_core_graphics.html#ae03c4b9365d1995c2d7fc1280a15138a":[8,0,13,691]
+"namespace_core_graphics.html#add7c6631ce669ff848c73d8d6fb3982f":[8,0,13,193]
 };

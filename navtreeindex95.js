@@ -1,5 +1,13 @@
 var NAVTREEINDEX95 =
 {
+"class_win32_1_1_win32_event.html#a661bdc3263eda5c2d76cb486365852c4":[9,0,76,8,2],
+"class_win32_1_1_win32_event.html#a75a3b3f3b751a766e43d8bf0274f93a9":[8,0,87,8,4],
+"class_win32_1_1_win32_event.html#a75a3b3f3b751a766e43d8bf0274f93a9":[9,0,76,8,4],
+"class_win32_1_1_win32_event.html#a76ba9b7c8fa9898e4c69952c7a136329":[8,0,87,8,0],
+"class_win32_1_1_win32_event.html#a76ba9b7c8fa9898e4c69952c7a136329":[9,0,76,8,0],
+"class_win32_1_1_win32_event.html#a8186734bbf1c229c11e7ff02c9cf60cb":[8,0,87,8,8],
+"class_win32_1_1_win32_event.html#a8186734bbf1c229c11e7ff02c9cf60cb":[9,0,76,8,8],
+"class_win32_1_1_win32_event.html#acabed8601db370f903c12b200694c2a5":[8,0,87,8,7],
 "class_win32_1_1_win32_event.html#acabed8601db370f903c12b200694c2a5":[9,0,76,8,7],
 "class_win32_1_1_win32_event.html#ad1cda20ecc32197093bdd633dc5db1ae":[8,0,87,8,5],
 "class_win32_1_1_win32_event.html#ad1cda20ecc32197093bdd633dc5db1ae":[9,0,76,8,5],
@@ -241,13 +249,5 @@ var NAVTREEINDEX95 =
 "class_win32_1_1_win32_library.html#ae6c0aed5b42b252183e8245861621b61":[8,0,87,14,2],
 "class_win32_1_1_win32_library.html#ae6c0aed5b42b252183e8245861621b61":[9,0,76,14,2],
 "class_win32_1_1_win32_memory_pool.html":[8,0,87,15],
-"class_win32_1_1_win32_memory_pool.html":[9,0,76,15],
-"class_win32_1_1_win32_memory_pool.html#a176a51a3a7284f382afc56ca8c43aed3":[8,0,87,15,21],
-"class_win32_1_1_win32_memory_pool.html#a176a51a3a7284f382afc56ca8c43aed3":[9,0,76,15,21],
-"class_win32_1_1_win32_memory_pool.html#a2872d93603af4c4f41a97a4147442c11":[8,0,87,15,20],
-"class_win32_1_1_win32_memory_pool.html#a2872d93603af4c4f41a97a4147442c11":[9,0,76,15,20],
-"class_win32_1_1_win32_memory_pool.html#a2c8935ba2db6938eddc7583197353365":[8,0,87,15,17],
-"class_win32_1_1_win32_memory_pool.html#a2c8935ba2db6938eddc7583197353365":[9,0,76,15,17],
-"class_win32_1_1_win32_memory_pool.html#a33ae9e58b4819fdcadb4338bfe5372fe":[8,0,87,15,11],
-"class_win32_1_1_win32_memory_pool.html#a33ae9e58b4819fdcadb4338bfe5372fe":[9,0,76,15,11]
+"class_win32_1_1_win32_memory_pool.html":[9,0,76,15]
 };

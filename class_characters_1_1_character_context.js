@@ -1,8 +1,9 @@
 var class_characters_1_1_character_context =
 [
+    [ "FiredEvent", "struct_characters_1_1_character_context_1_1_fired_event.html", "struct_characters_1_1_character_context_1_1_fired_event" ],
     [ "AnimationRuntime", "struct_characters_1_1_character_context_1_1_animation_runtime.html", "struct_characters_1_1_character_context_1_1_animation_runtime" ],
     [ "AnimationTracks", "struct_characters_1_1_character_context_1_1_animation_tracks.html", "struct_characters_1_1_character_context_1_1_animation_tracks" ],
-    [ "CharacterContextAllocator", "class_characters_1_1_character_context.html#ab9cbc85e857780e9d2cc7c652f7c7c68", null ],
+    [ "CharacterContextAllocator", "class_characters_1_1_character_context.html#aea374d49911f3788a0d8ab557af873ec", null ],
     [ "LoadState", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb", [
       [ "NoneLoaded", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0ebac15cc1516221b5e23d83322f7bd846e2", null ],
       [ "SkeletonLoaded", "class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0ebaa18b4161fb3a459e6d98bfbc33e1cd56", null ],
@@ -18,6 +19,7 @@ var class_characters_1_1_character_context =
     [ "GetAnimation", "class_characters_1_1_character_context.html#a9c2694b83370dda6b51b9d1fb5a6f382", null ],
     [ "GetAnimSampleMask", "class_characters_1_1_character_context.html#a4abc3bccf72b78e58d0c3072ef606f6f", null ],
     [ "GetClipIndex", "class_characters_1_1_character_context.html#a2d4fde28eef44bc280395b36ccbb7e1e", null ],
+    [ "GetFiredEvents", "class_characters_1_1_character_context.html#a9c8dda940d8661641b1c5f3ecb943ae0", null ],
     [ "GetJointTransforms", "class_characters_1_1_character_context.html#ac28b9d00b38bd34d4a857b142b5db859", null ],
     [ "GetPlayingClip", "class_characters_1_1_character_context.html#a1eae92e097a3dd6dc7f89a336368cb63", null ],
     [ "GetSkeleton", "class_characters_1_1_character_context.html#a20042a95251f3337b4706a30e6c923f4", null ],

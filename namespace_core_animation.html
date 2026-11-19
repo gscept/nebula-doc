@@ -194,6 +194,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a815bd248d464662266ce1fd521a2a83f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get anim buffer.  <br /></td></tr>
 <tr class="memitem:adade2e87785aa49c5b2f57b3e70c7a98" id="r_adade2e87785aa49c5b2f57b3e70c7a98"><td class="memItemLeft">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#adade2e87785aa49c5b2f57b3e70c7a98">AnimGetCurves</a> (const <a class="el" href="struct_core_animation_1_1_animation_id.html">AnimationId</a> &amp;id)</td></tr>
 <tr class="memdesc:adade2e87785aa49c5b2f57b3e70c7a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get curves.  <br /></td></tr>
+<tr class="memitem:aeddc4f78c5532684e0f9c524e34777c1" id="r_aeddc4f78c5532684e0f9c524e34777c1"><td class="memItemLeft">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_core_animation_1_1_anim_event.html">AnimEvent</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#aeddc4f78c5532684e0f9c524e34777c1">AnimGetEvents</a> (const <a class="el" href="struct_core_animation_1_1_animation_id.html">AnimationId</a> &amp;id)</td></tr>
+<tr class="memdesc:aeddc4f78c5532684e0f9c524e34777c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get events, the ones of a clip start at its first event.  <br /></td></tr>
 <tr class="memitem:abb16532a48d8b8e13d9e053346e34677" id="r_abb16532a48d8b8e13d9e053346e34677"><td class="memItemLeft">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#abb16532a48d8b8e13d9e053346e34677">AnimGetIndex</a> (const <a class="el" href="struct_core_animation_1_1_animation_id.html">AnimationId</a> &amp;id, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;name)</td></tr>
 <tr class="memdesc:abb16532a48d8b8e13d9e053346e34677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get anim clip index.  <br /></td></tr>
 <tr class="memitem:a08706436048c329af15f4123d60fcd3f" id="r_a08706436048c329af15f4123d60fcd3f"><td class="memItemLeft"><a class="el" href="struct_core_animation_1_1_anim_key_buffer_1_1_interval.html">AnimKeyBuffer::Interval</a>&#160;</td><td class="memItemRight"><a class="el" href="#a08706436048c329af15f4123d60fcd3f">FindNextInterval</a> (const <a class="el" href="class_core_animation_1_1_anim_curve.html">AnimCurve</a> &amp;curve, const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a> time, <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> &amp;key, const <a class="el" href="struct_core_animation_1_1_anim_key_buffer_1_1_interval.html">AnimKeyBuffer::Interval</a> *sampleTimes)</td></tr>
@@ -434,6 +436,25 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get curves. </p>
+
+</div>
+</div>
+<a id="aeddc4f78c5532684e0f9c524e34777c1" name="aeddc4f78c5532684e0f9c524e34777c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeddc4f78c5532684e0f9c524e34777c1">&#9670;&#160;</a></span>AnimGetEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="class_core_animation_1_1_anim_event.html">AnimEvent</a> &gt; &amp; CoreAnimation::AnimGetEvents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_core_animation_1_1_animation_id.html">AnimationId</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get events, the ones of a clip start at its first event. </p>
 
 </div>
 </div>

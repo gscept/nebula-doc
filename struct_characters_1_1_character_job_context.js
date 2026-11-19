@@ -3,6 +3,7 @@ var struct_characters_1_1_character_job_context =
     [ "animMixInfos", "struct_characters_1_1_character_job_context.html#a434b699bbbe704c2114577ffb98ae129", null ],
     [ "anims", "struct_characters_1_1_character_job_context.html#ab1263972abf7098dc0908f3274bf9ba5", null ],
     [ "entities", "struct_characters_1_1_character_job_context.html#aaf9386ece5d0afed1a4fa4a3e89d0ea6", null ],
+    [ "firedEvents", "struct_characters_1_1_character_job_context.html#a15054b436fdfabdc02d2596b34f9c8d1", null ],
     [ "frameTime", "struct_characters_1_1_character_job_context.html#a970b613f6cfe515e8327f87c6237a4f3", null ],
     [ "jobJoints", "struct_characters_1_1_character_job_context.html#ab81e0eed3d161269d76d01697c6eb722", null ],
     [ "jointPalettes", "struct_characters_1_1_character_job_context.html#aabbc7f66ce15345879074b310b1b2f69", null ],

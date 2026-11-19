@@ -1,5 +1,6 @@
 var struct_dynui_1_1_imgui_state =
 [
+    [ "baseStyle", "struct_dynui_1_1_imgui_state.html#a1043babd0ce321db18ec03f21b062cf7", null ],
     [ "colorMaskConstant", "struct_dynui_1_1_imgui_state.html#a9a9e2ba94b5ac2ff4bd7fd77bec4f266", null ],
     [ "displayEventHandler", "struct_dynui_1_1_imgui_state.html#aa6c67368051b03cbf5b7c97f2bdc7bee", null ],
     [ "dockOverViewport", "struct_dynui_1_1_imgui_state.html#a3fce35798d222dbe555aeeae61862d89", null ],
@@ -14,6 +15,7 @@ var struct_dynui_1_1_imgui_state =
     [ "rangeMaxConstant", "struct_dynui_1_1_imgui_state.html#a605c2efef3a9cc210cb8d9673243c9cd", null ],
     [ "rangeMinConstant", "struct_dynui_1_1_imgui_state.html#a7879a80555f745131b6576df4e55d97a", null ],
     [ "resourceTable", "struct_dynui_1_1_imgui_state.html#a2dbd400615dcae2b8621b5ac8243a19a", null ],
+    [ "styleScale", "struct_dynui_1_1_imgui_state.html#adebafa8c8b81e878e3fb77067073c38b", null ],
     [ "textProjectionConstant", "struct_dynui_1_1_imgui_state.html#a7d482416cc9574559fb4375db3db2f58", null ],
     [ "uiShader", "struct_dynui_1_1_imgui_state.html#a2b50504615cf7601152492786bf2b567", null ],
     [ "vbos", "struct_dynui_1_1_imgui_state.html#ac17052933c97cb74179f7a3bc15539f0", null ],

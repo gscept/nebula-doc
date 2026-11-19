@@ -146,6 +146,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7d72dd686573e48093c3d8ec1c9ce173"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before frame  <br /></td></tr>
 <tr class="memitem:a281d241fe632365a0d78d1295610b795" id="r_a281d241fe632365a0d78d1295610b795"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a281d241fe632365a0d78d1295610b795">EndFrame</a> (const <a class="el" href="struct_graphics_1_1_frame_context.html">Graphics::FrameContext</a> &amp;ctx)</td></tr>
 <tr class="memdesc:a281d241fe632365a0d78d1295610b795"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after frame  <br /></td></tr>
+<tr class="memitem:a0773f6d3a09c8d241456cf9532d72fc8" id="r_a0773f6d3a09c8d241456cf9532d72fc8"><td class="memItemLeft">static ImGuiStyle &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a0773f6d3a09c8d241456cf9532d72fc8">GetBaseStyle</a> ()</td></tr>
+<tr class="memdesc:a0773f6d3a09c8d241456cf9532d72fc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the unscaled base style, call ApplyBaseStyle after modifying it  <br /></td></tr>
+<tr class="memitem:a6635d9f27fac180a3faa5d5cdd017da6" id="r_a6635d9f27fac180a3faa5d5cdd017da6"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#a6635d9f27fac180a3faa5d5cdd017da6">GetStyleScale</a> ()</td></tr>
+<tr class="memdesc:a6635d9f27fac180a3faa5d5cdd017da6"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the content scale applied on top of the base style  <br /></td></tr>
+<tr class="memitem:a699d5743c4a45df2ced77ef6d6e2de01" id="r_a699d5743c4a45df2ced77ef6d6e2de01"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a699d5743c4a45df2ced77ef6d6e2de01">ApplyBaseStyle</a> ()</td></tr>
+<tr class="memdesc:a699d5743c4a45df2ced77ef6d6e2de01"><td class="mdescLeft">&#160;</td><td class="mdescRight">copy the base style into the active ImGui style, scaled by the content scale  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-methods" class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -236,6 +242,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a699d5743c4a45df2ced77ef6d6e2de01" name="a699d5743c4a45df2ced77ef6d6e2de01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a699d5743c4a45df2ced77ef6d6e2de01">&#9670;&#160;</a></span>ApplyBaseStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Dynui::ImguiContext::ApplyBaseStyle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>copy the base style into the active ImGui style, scaled by the content scale </p>
+
+</div>
+</div>
 <a id="a749808f2a669e262971831dde911743c" name="a749808f2a669e262971831dde911743c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a749808f2a669e262971831dde911743c">&#9670;&#160;</a></span>Create()</h2>
 
@@ -314,6 +347,60 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>called after frame </p>
+
+</div>
+</div>
+<a id="a0773f6d3a09c8d241456cf9532d72fc8" name="a0773f6d3a09c8d241456cf9532d72fc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0773f6d3a09c8d241456cf9532d72fc8">&#9670;&#160;</a></span>GetBaseStyle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ImGuiStyle &amp; Dynui::ImguiContext::GetBaseStyle </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the unscaled base style, call ApplyBaseStyle after modifying it </p>
+
+</div>
+</div>
+<a id="a6635d9f27fac180a3faa5d5cdd017da6" name="a6635d9f27fac180a3faa5d5cdd017da6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6635d9f27fac180a3faa5d5cdd017da6">&#9670;&#160;</a></span>GetStyleScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Dynui::ImguiContext::GetStyleScale </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get the content scale applied on top of the base style </p>
 
 </div>
 </div>

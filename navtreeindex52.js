@@ -1,5 +1,13 @@
 var NAVTREEINDEX52 =
 {
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6":[8,0,46,5,0],
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6":[9,0,42,5,0],
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a":[8,0,46,5,0,1],
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a0cff1ecc1cb1d80fb8ae13b70a14b48a":[9,0,42,5,0,1],
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a3a4a4b058665673c2827bf29f9b4725a":[8,0,46,5,0,0],
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a3a4a4b058665673c2827bf29f9b4725a":[9,0,42,5,0,0],
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a634ecc08efc643c661ba09308fc392d5":[8,0,46,5,0,2],
+"class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a634ecc08efc643c661ba09308fc392d5":[9,0,42,5,0,2],
 "class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a9f448363d4cf7ad92eb0b09a44f4f52f":[8,0,46,5,0,3],
 "class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a9f448363d4cf7ad92eb0b09a44f4f52f":[9,0,42,5,0,3],
 "class_math_1_1_extrapolator.html":[8,0,46,6],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "class_math_1_1frustum.html#af24dfab441dec0f95dd862402a6e8a9f":[9,0,42,10,5],
 "class_math_1_1frustum.html#af271f300af21276aff2b4cdc9e4dd5fa":[8,0,46,10,2],
 "class_math_1_1frustum.html#af271f300af21276aff2b4cdc9e4dd5fa":[9,0,42,10,2],
-"class_math_1_1frustum.html#af751289486836a9d84a132094d858929":[8,0,46,10,18],
-"class_math_1_1frustum.html#af751289486836a9d84a132094d858929":[9,0,42,10,18],
-"class_math_1_1half.html":[8,0,46,11],
-"class_math_1_1half.html":[9,0,42,11],
-"class_math_1_1half.html#a00f3b28fbd8af0ac4e8aaa1cec7f0bd8":[8,0,46,11,22],
-"class_math_1_1half.html#a00f3b28fbd8af0ac4e8aaa1cec7f0bd8":[9,0,42,11,22],
-"class_math_1_1half.html#a0279bfe1d0e699d7e3b205ef8eb23ecd":[8,0,46,11,26],
-"class_math_1_1half.html#a0279bfe1d0e699d7e3b205ef8eb23ecd":[9,0,42,11,26],
-"class_math_1_1half.html#a075e3311269a24bcb59cf52601c55b19":[8,0,46,11,10]
+"class_math_1_1frustum.html#af751289486836a9d84a132094d858929":[8,0,46,10,18]
 };

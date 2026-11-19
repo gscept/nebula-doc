@@ -1,5 +1,13 @@
 var NAVTREEINDEX86 =
 {
+"class_util_1_1_ring_buffer.html#a322359e8f02307f769f5744d5c8b4797":[9,0,72,46,19],
+"class_util_1_1_ring_buffer.html#a362680d4bb894e50d44b57c1c4e58d06":[8,0,83,46,1],
+"class_util_1_1_ring_buffer.html#a362680d4bb894e50d44b57c1c4e58d06":[9,0,72,46,1],
+"class_util_1_1_ring_buffer.html#a3671108f521c6dd6606d368e91d9ce46":[8,0,83,46,17],
+"class_util_1_1_ring_buffer.html#a3671108f521c6dd6606d368e91d9ce46":[9,0,72,46,17],
+"class_util_1_1_ring_buffer.html#a3700d37d77c04b518b20256259bbe801":[8,0,83,46,10],
+"class_util_1_1_ring_buffer.html#a3700d37d77c04b518b20256259bbe801":[9,0,72,46,10],
+"class_util_1_1_ring_buffer.html#a38a7bfec9db64fd13260c5ebfc60484a":[8,0,83,46,3],
 "class_util_1_1_ring_buffer.html#a38a7bfec9db64fd13260c5ebfc60484a":[9,0,72,46,3],
 "class_util_1_1_ring_buffer.html#a68152b2d934de6687b7efc54b7a17bc6":[8,0,83,46,18],
 "class_util_1_1_ring_buffer.html#a68152b2d934de6687b7efc54b7a17bc6":[9,0,72,46,18],
@@ -241,13 +249,5 @@ var NAVTREEINDEX86 =
 "class_util_1_1_string.html#a09a544f647a9378c7517d71e903a22ee":[9,0,72,53,25],
 "class_util_1_1_string.html#a09b810fb15c24a5236fb0364fd7bd1a9":[8,0,83,53,104],
 "class_util_1_1_string.html#a09b810fb15c24a5236fb0364fd7bd1a9":[9,0,72,53,104],
-"class_util_1_1_string.html#a09f5248e4024819ecc520d80fa8632ef":[8,0,83,53,90],
-"class_util_1_1_string.html#a09f5248e4024819ecc520d80fa8632ef":[9,0,72,53,90],
-"class_util_1_1_string.html#a0d3f14726cafb1fcb17ecd28860fcd99":[8,0,83,53,148],
-"class_util_1_1_string.html#a0d3f14726cafb1fcb17ecd28860fcd99":[9,0,72,53,148],
-"class_util_1_1_string.html#a0dfc29c00cdf985ed6df8624f56a1b31":[8,0,83,53,174],
-"class_util_1_1_string.html#a0dfc29c00cdf985ed6df8624f56a1b31":[9,0,72,53,174],
-"class_util_1_1_string.html#a0e4775b6580e73a66dce3719f12775b0":[8,0,83,53,117],
-"class_util_1_1_string.html#a0e4775b6580e73a66dce3719f12775b0":[9,0,72,53,117],
-"class_util_1_1_string.html#a1092de2fbae6b83133a71e75f192eaa4":[8,0,83,53,170]
+"class_util_1_1_string.html#a09f5248e4024819ecc520d80fa8632ef":[8,0,83,53,90]
 };

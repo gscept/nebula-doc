@@ -34,6 +34,7 @@ var namespace_core_animation =
     [ "AnimGetClip", "namespace_core_animation.html#ab3f98480a3c45b5c94165f173c69ba63", null ],
     [ "AnimGetClips", "namespace_core_animation.html#a222bdf9986c810c981fc7bf8b2772ce2", null ],
     [ "AnimGetCurves", "namespace_core_animation.html#adade2e87785aa49c5b2f57b3e70c7a98", null ],
+    [ "AnimGetEvents", "namespace_core_animation.html#aeddc4f78c5532684e0f9c524e34777c1", null ],
     [ "AnimGetIndex", "namespace_core_animation.html#abb16532a48d8b8e13d9e053346e34677", null ],
     [ "AnimJobUtilMix", "namespace_core_animation.html#ae8cce6c910abea2928af3d479fd8b16a", null ],
     [ "AnimJobUtilSampleLinear", "namespace_core_animation.html#a21ad37102ca2fa91640fc6db72fe2bb4", null ],

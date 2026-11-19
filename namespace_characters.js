@@ -21,6 +21,7 @@ var namespace_characters =
     [ "__ImplementClass", "namespace_characters.html#a67763736c96c426685001936258809ee", null ],
     [ "__ImplementContext", "namespace_characters.html#a969705a559fb41ba2b6edd841dbd09f8", null ],
     [ "__ImplementEnumBitOperators", "namespace_characters.html#ac596dc49035c05e3bac610c45a430a84", null ],
+    [ "CollectFiredEvents", "namespace_characters.html#ac6eb629c7a8be2867228169dbc89d68e", null ],
     [ "CreateSkeleton", "namespace_characters.html#a045aa3c288ead42327274369c3f6fd5b", null ],
     [ "DestroySkeleton", "namespace_characters.html#ad6bbec5c5582bd44ff0825bcdaf6c21a", null ],
     [ "DestroySkeletonResource", "namespace_characters.html#a60528ce5baad4ee12c5806bb53ead0eb", null ],
