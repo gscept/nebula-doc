@@ -21,7 +21,6 @@ var class_app_1_1_game_application =
     [ "gameContentServer", "class_app_1_1_game_application.html#a4df0f88eb3d08e43b794b7680a424362", null ],
     [ "gameServer", "class_app_1_1_game_application.html#a8db4eb2d2a56a10839f946eaa48c4bc6", null ],
     [ "ioInterface", "class_app_1_1_game_application.html#a21fb7eeecd44d12cc8613c45a3f1d882", null ],
-    [ "ioServer", "class_app_1_1_game_application.html#a2c7b1a7224e1fc421a0672b47c9f138b", null ],
     [ "quitRequested", "class_app_1_1_game_application.html#a27d52b8ce0c16ef52e1240c6adcc0571", null ],
     [ "resourceServer", "class_app_1_1_game_application.html#a01977992e372e19d319e5ecbf4a13895", null ]
 ];

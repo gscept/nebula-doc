@@ -286,7 +286,7 @@ var searchData=
   ['httpclient_2ecc_283',['httpclient.cc',['../httpclient_8cc.html',1,'']]],
   ['httpclient_2eh_284',['httpclient.h',['../httpclient_8h.html',1,'']]],
   ['httpclientregistry_285',['HttpClientRegistry',['../class_http_1_1_http_client_registry.html',1,'Http::HttpClientRegistry'],['../class_http_1_1_http_client_registry.html#a1c45192a61c5d3e92d0121761f5c0cf3',1,'Http::HttpClientRegistry::HttpClientRegistry()']]],
-  ['httpclientregistry_286',['httpClientRegistry',['../class_i_o_1_1_io_server.html#ad565a6c28f5d82fc9d162e042d2a8cbe',1,'IO::IoServer']]],
+  ['httpclientregistry_286',['httpClientRegistry',['../struct_i_o_1_1_0fstruct_0e_8state.html#a2f203970aa0e124fc61275a65a3de53d',1,'IO::[struct].state']]],
   ['httpclientregistry_2ecc_287',['httpclientregistry.cc',['../httpclientregistry_8cc.html',1,'']]],
   ['httpclientregistry_2eh_288',['httpclientregistry.h',['../httpclientregistry_8h.html',1,'']]],
   ['httpinterface_289',['HttpInterface',['../class_http_1_1_http_interface.html',1,'Http::HttpInterface'],['../class_http_1_1_http_interface.html#a8d8581674875e5ddacfc729847b2bf10',1,'Http::HttpInterface::HttpInterface()']]],

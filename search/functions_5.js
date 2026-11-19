@@ -52,7 +52,7 @@ var searchData=
   ['enqueuejob_49',['EnqueueJob',['../class_resources_1_1_resource_loader.html#a129d8359931ef9a53ccf0d9f6c832c83',1,'Resources::ResourceLoader']]],
   ['enqueueuploadsflushandfree_50',['EnqueueUploadsFlushAndFree',['../namespace_core_graphics.html#a88101da7d7814b3b9f38f23d1a771809',1,'CoreGraphics']]],
   ['ensurebit_51',['EnsureBit',['../class_util_1_1_bit_array.html#a47f486ef91eb955d5c4d3be52be3caef',1,'Util::BitArray']]],
-  ['ensuredirectoriesforfile_52',['EnsureDirectoriesForFile',['../class_i_o_1_1_io_server.html#acf131ee69c5a82bd9f977c7bb7d15efa',1,'IO::IoServer']]],
+  ['ensuredirectoriesforfile_52',['EnsureDirectoriesForFile',['../namespace_i_o.html#a904807f769ebe85d13a315c0edf6a617',1,'IO']]],
   ['ensurehandle_53',['EnsureHandle',['../namespace_physics_feature.html#a3da308b808b019087d44955c76ab9b1a',1,'PhysicsFeature']]],
   ['ensureinstance_54',['EnsureInstance',['../class_game_1_1_transform_hierarchy.html#ad4722ee507ae890d365b57669382d3f1',1,'Game::TransformHierarchy']]],
   ['enter_55',['Enter',['../class_o_s_x_1_1_o_s_x_critical_section.html#ac3864bcbfc991cb11c3ca0b81eda4163',1,'OSX::OSXCriticalSection::Enter()'],['../class_posix_1_1_posix_critical_section.html#ae277010df87df7e281077d097784fb3d',1,'Posix::PosixCriticalSection::Enter()'],['../class_win32_1_1_win32_critical_section.html#a78c26873173918c3125e6567d14795b8',1,'Win32::Win32CriticalSection::Enter()']]],

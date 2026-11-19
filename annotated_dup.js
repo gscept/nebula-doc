@@ -11,7 +11,6 @@ var annotated_dup =
     ] ],
     [ "App", "namespace_app.html", [
       [ "Application", "class_app_1_1_application.html", "class_app_1_1_application" ],
-      [ "ConsoleApplication", "class_app_1_1_console_application.html", "class_app_1_1_console_application" ],
       [ "GameApplication", "class_app_1_1_game_application.html", "class_app_1_1_game_application" ],
       [ "RenderApplication", "class_app_1_1_render_application.html", "class_app_1_1_render_application" ],
       [ "ViewerApplication", "class_app_1_1_viewer_application.html", "class_app_1_1_viewer_application" ]
@@ -599,6 +598,7 @@ var annotated_dup =
       [ "InterfaceHandlerBase", "class_interface_1_1_interface_handler_base.html", "class_interface_1_1_interface_handler_base" ]
     ] ],
     [ "IO", "namespace_i_o.html", [
+      [ "[struct].state", "struct_i_o_1_1_0fstruct_0e_8state.html", "struct_i_o_1_1_0fstruct_0e_8state" ],
       [ "ArchiveBase", "class_i_o_1_1_archive_base.html", "class_i_o_1_1_archive_base" ],
       [ "ArchiveFileSystemBase", "class_i_o_1_1_archive_file_system_base.html", "class_i_o_1_1_archive_file_system_base" ],
       [ "Assign", "class_i_o_1_1_assign.html", "class_i_o_1_1_assign" ],
@@ -618,12 +618,12 @@ var annotated_dup =
       [ "EventHandlerData", "struct_i_o_1_1_event_handler_data.html", "struct_i_o_1_1_event_handler_data" ],
       [ "ExcelXmlReader", "class_i_o_1_1_excel_xml_reader.html", "class_i_o_1_1_excel_xml_reader" ],
       [ "FileStream", "class_i_o_1_1_file_stream.html", "class_i_o_1_1_file_stream" ],
+      [ "FilesystemStartupInfo", "struct_i_o_1_1_filesystem_startup_info.html", null ],
       [ "FileWatcher", "class_i_o_1_1_file_watcher.html", "class_i_o_1_1_file_watcher" ],
       [ "FileWatcherImpl", "class_i_o_1_1_file_watcher_impl.html", "class_i_o_1_1_file_watcher_impl" ],
       [ "FileWatcherPlatform", "struct_i_o_1_1_file_watcher_platform.html", "struct_i_o_1_1_file_watcher_platform" ],
       [ "HistoryConsoleHandler", "class_i_o_1_1_history_console_handler.html", "class_i_o_1_1_history_console_handler" ],
       [ "IoInterface", "class_i_o_1_1_io_interface.html", "class_i_o_1_1_io_interface" ],
-      [ "IoServer", "class_i_o_1_1_io_server.html", "class_i_o_1_1_io_server" ],
       [ "IOStat", "struct_i_o_1_1_i_o_stat.html", "struct_i_o_1_1_i_o_stat" ],
       [ "JsonReader", "class_i_o_1_1_json_reader.html", "class_i_o_1_1_json_reader" ],
       [ "JsonWriter", "class_i_o_1_1_json_writer.html", "class_i_o_1_1_json_writer" ],
@@ -1326,6 +1326,7 @@ var annotated_dup =
     [ "InstanceServerBase", "class_instancing_1_1_instance_server_base.html", null ],
     [ "Interface", "class_i_o_1_1_interface.html", null ],
     [ "Interlocked", "class_threading_1_1_interlocked.html", "class_threading_1_1_interlocked" ],
+    [ "IoServer", "class_i_o_1_1_io_server.html", null ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
     [ "Library", "class_system_1_1_library.html", null ],

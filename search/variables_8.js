@@ -86,7 +86,7 @@ var searchData=
   ['hour_83',['hour',['../class_base_1_1_calendar_time_base.html#afc9fdd9b53d40600aae50b44aac219e2',1,'Base::CalendarTimeBase']]],
   ['hs_84',['hs',['../struct_vulkan_1_1_vk_shader_program_runtime_info.html#ad7894205bfc2d87e688221c6549e3548',1,'Vulkan::VkShaderProgramRuntimeInfo']]],
   ['httpclient_85',['httpClient',['../struct_http_1_1_http_client_registry_1_1_connection.html#a3ef030693380e9d845a869339948a015',1,'Http::HttpClientRegistry::Connection']]],
-  ['httpclientregistry_86',['httpClientRegistry',['../class_i_o_1_1_io_server.html#ad565a6c28f5d82fc9d162e042d2a8cbe',1,'IO::IoServer']]],
+  ['httpclientregistry_86',['httpClientRegistry',['../struct_i_o_1_1_0fstruct_0e_8state.html#a2f203970aa0e124fc61275a65a3de53d',1,'IO::[struct].state']]],
   ['httpmethod_87',['httpMethod',['../class_http_1_1_http_request_reader.html#a1520bb3366f42d3764c6be65c08fe9b1',1,'Http::HttpRequestReader::httpMethod'],['../class_http_1_1_http_request_writer.html#a6475030f1d99d3cf1a8920ac1122edf3',1,'Http::HttpRequestWriter::httpMethod']]],
   ['httprequest_88',['httpRequest',['../struct_http_1_1_http_server_1_1_pending_request.html#a8139e3f6aec1d7f6a82e47fe3ff85d1a',1,'Http::HttpServer::PendingRequest']]],
   ['httpserver_89',['httpServer',['../class_http_1_1_http_message_handler.html#aad5990233115f3db7011c2445b820283',1,'Http::HttpMessageHandler']]],

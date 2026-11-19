@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('flatbufferinte
 <div class="line"><a id="l00112" name="l00112"></a><span class="lineno"><a class="line" href="class_flat_1_1_flatbuffer_interface.html#a122b37a5d25469e2a0a234a69cf598b5">  112</a></span><a class="code hl_function" href="class_flat_1_1_flatbuffer_interface.html#a122b37a5d25469e2a0a234a69cf598b5">FlatbufferInterface::DeserializeFlatbufferFile</a>(ItemT&amp; item, <a class="code hl_class" href="class_i_o_1_1_u_r_i.html">IO::URI</a> <span class="keyword">const</span>&amp; file)</div>
 <div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>{</div>
 <div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    <a class="code hl_class" href="class_util_1_1_string.html">Util::String</a> contents;</div>
-<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordflow">if</span> (IO::IoServer::Instance()-&gt;ReadFile(file, contents))</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="namespace_i_o.html#ad4ab749ac622928cf8dd539afd705a1f">IO::ReadFile</a>(file, contents))</div>
 <div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    {</div>
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>        <span class="keyword">const</span> BaseT* bItem = flatbuffers::GetRoot&lt;BaseT&gt;(contents.<a class="code hl_function" href="class_util_1_1_string.html#aae44fd420cacbfa974b220218a3732c0">AsCharPtr</a>());</div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        bItem-&gt;UnPackTo(&amp;item);</div>
@@ -261,6 +261,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('flatbufferinte
 <div class="ttc" id="adebug_8h_html_af07fc1acd3d67e0bcafa5ef5bcba4042"><div class="ttname"><a href="debug_8h.html#af07fc1acd3d67e0bcafa5ef5bcba4042">n_assert</a></div><div class="ttdeci">#define n_assert(exp)</div><div class="ttdef"><b>Definition</b> debug.h:58</div></div>
 <div class="ttc" id="aioserver_8h_html"><div class="ttname"><a href="ioserver_8h.html">ioserver.h</a></div></div>
 <div class="ttc" id="anamespace_flat_html"><div class="ttname"><a href="namespace_flat.html">Flat</a></div><div class="ttdoc">Flatbuffer to Nebula type conversion functions.</div><div class="ttdef"><b>Definition</b> flatbufferinterface.h:28</div></div>
+<div class="ttc" id="anamespace_i_o_html_ad4ab749ac622928cf8dd539afd705a1f"><div class="ttname"><a href="namespace_i_o.html#ad4ab749ac622928cf8dd539afd705a1f">IO::ReadFile</a></div><div class="ttdeci">bool ReadFile(const URI &amp;path, Util::String &amp;contents)</div><div class="ttdoc">read contents of file and return as string</div><div class="ttdef"><b>Definition</b> ioserver.cc:712</div></div>
 <div class="ttc" id="anebula__flat_8h_html"><div class="ttname"><a href="nebula__flat_8h.html">nebula_flat.h</a></div></div>
 <div class="ttc" id="astringatom_8h_html"><div class="ttname"><a href="stringatom_8h.html">stringatom.h</a></div></div>
 <div class="ttc" id="auri_8h_html"><div class="ttname"><a href="uri_8h.html">uri.h</a></div></div>

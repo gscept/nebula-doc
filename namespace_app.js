@@ -1,7 +1,6 @@
 var namespace_app =
 [
     [ "Application", "class_app_1_1_application.html", "class_app_1_1_application" ],
-    [ "ConsoleApplication", "class_app_1_1_console_application.html", "class_app_1_1_console_application" ],
     [ "GameApplication", "class_app_1_1_game_application.html", "class_app_1_1_game_application" ],
     [ "RenderApplication", "class_app_1_1_render_application.html", "class_app_1_1_render_application" ],
     [ "ViewerApplication", "class_app_1_1_viewer_application.html", "class_app_1_1_viewer_application" ],

@@ -116,7 +116,7 @@ var searchData=
   ['enqueuemode_113',['enqueueMode',['../class_animation_1_1_anim_job.html#ae875cdcec308dc86a32807266b8d7ad3',1,'Animation::AnimJob::enqueueMode'],['../struct_characters_1_1_character_context_1_1_animation_runtime.html#a2cda0312d16e3abbd73f42a84344d574',1,'Characters::CharacterContext::AnimationRuntime::enqueueMode']]],
   ['enqueueuploadsflushandfree_114',['EnqueueUploadsFlushAndFree',['../namespace_core_graphics.html#a88101da7d7814b3b9f38f23d1a771809',1,'CoreGraphics']]],
   ['ensurebit_115',['EnsureBit',['../class_util_1_1_bit_array.html#a47f486ef91eb955d5c4d3be52be3caef',1,'Util::BitArray']]],
-  ['ensuredirectoriesforfile_116',['EnsureDirectoriesForFile',['../class_i_o_1_1_io_server.html#acf131ee69c5a82bd9f977c7bb7d15efa',1,'IO::IoServer']]],
+  ['ensuredirectoriesforfile_116',['EnsureDirectoriesForFile',['../namespace_i_o.html#a904807f769ebe85d13a315c0edf6a617',1,'IO']]],
   ['ensurehandle_117',['EnsureHandle',['../namespace_physics_feature.html#a3da308b808b019087d44955c76ab9b1a',1,'PhysicsFeature']]],
   ['ensureinstance_118',['EnsureInstance',['../class_game_1_1_transform_hierarchy.html#ad4722ee507ae890d365b57669382d3f1',1,'Game::TransformHierarchy']]],
   ['ent_119',['ent',['../class_visibility_1_1_visibility_system.html#a4e94f2becf5ed0b0317cbefeec3a72f2',1,'Visibility::VisibilitySystem']]],

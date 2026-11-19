@@ -55,6 +55,7 @@ var hierarchy =
     [ "Debug::[struct].state", "struct_debug_1_1_0fstruct_0e_8state.html", null ],
     [ "GI::[struct].state", "struct_g_i_1_1_0fstruct_0e_8state.html", null ],
     [ "Graphics::[struct].state", "struct_graphics_1_1_0fstruct_0e_8state.html", null ],
+    [ "IO::[struct].state", "struct_i_o_1_1_0fstruct_0e_8state.html", null ],
     [ "Particles::[struct].state", "struct_particles_1_1_0fstruct_0e_8state.html", null ],
     [ "PostEffects::[struct].state", "struct_post_effects_1_1_0fstruct_0e_8state.html", null ],
     [ "Raytracing::[struct].state", "struct_raytracing_1_1_0fstruct_0e_8state.html", null ],
@@ -148,7 +149,6 @@ var hierarchy =
     [ "Im3d::AppData", "struct_im3d_1_1_app_data.html", null ],
     [ "NebulaEngine.AppEntry", "class_nebula_engine_1_1_app_entry.html", null ],
     [ "App::Application", "class_app_1_1_application.html", [
-      [ "App::ConsoleApplication", "class_app_1_1_console_application.html", null ],
       [ "App::GameApplication", "class_app_1_1_game_application.html", null ],
       [ "App::RenderApplication", "class_app_1_1_render_application.html", [
         [ "App::ViewerApplication", "class_app_1_1_viewer_application.html", null ]
@@ -612,6 +612,7 @@ var hierarchy =
     [ "Fibers::FiberQueueCreateInfo", "struct_fibers_1_1_fiber_queue_create_info.html", null ],
     [ "Fibers::FiberWaitContext", "struct_fibers_1_1_fiber_wait_context.html", null ],
     [ "FileDialog", "class_i_o_1_1_file_dialog.html", null ],
+    [ "IO::FilesystemStartupInfo", "struct_i_o_1_1_filesystem_startup_info.html", null ],
     [ "FileTime", "class_i_o_1_1_file_time.html", null ],
     [ "FileWatcher", "class_linux_1_1_file_watcher.html", null ],
     [ "FileWatcher", "class_win32_1_1_file_watcher.html", null ],
@@ -812,6 +813,7 @@ var hierarchy =
     [ "CoreAnimation::AnimKeyBuffer::Interval", "struct_core_animation_1_1_anim_key_buffer_1_1_interval.html", null ],
     [ "Memory::RingAllocator&lt; SYNCPOINTS &gt;::Interval", "struct_memory_1_1_ring_allocator_1_1_interval.html", null ],
     [ "Attr::IntTypeClass", "class_attr_1_1_int_type_class.html", null ],
+    [ "IoServer", "class_i_o_1_1_io_server.html", null ],
     [ "IO::IOStat", "struct_i_o_1_1_i_o_stat.html", null ],
     [ "IpAddress", "class_net_1_1_ip_address.html", null ],
     [ "Util::HashTable&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;::Iterator", "class_util_1_1_hash_table_1_1_iterator.html", null ],
@@ -1244,7 +1246,6 @@ var hierarchy =
         [ "Posix::PosixConsoleHandler", "class_posix_1_1_posix_console_handler.html", null ],
         [ "Win32::Win32ConsoleHandler", "class_win32_1_1_win32_console_handler.html", null ]
       ] ],
-      [ "IO::IoServer", "class_i_o_1_1_io_server.html", null ],
       [ "IO::SchemeRegistry", "class_i_o_1_1_scheme_registry.html", null ],
       [ "IO::Stream", "class_i_o_1_1_stream.html", [
         [ "IO::CachedStream", "class_i_o_1_1_cached_stream.html", [
