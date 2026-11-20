@@ -1,5 +1,19 @@
 var tupleutility_8h =
 [
+    [ "Util::NamedSlot&lt; NAME, TYPE &gt;", "class_util_1_1_named_slot.html", "class_util_1_1_named_slot" ],
+    [ "Util::soa_storage&lt; TYPE &gt;", "struct_util_1_1soa__storage.html", "struct_util_1_1soa__storage" ],
+    [ "Util::soa_storage&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;", "struct_util_1_1soa__storage_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html", "struct_util_1_1soa__storage_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4" ],
+    [ "Util::soa_value_type&lt; TYPE &gt;", "struct_util_1_1soa__value__type.html", "struct_util_1_1soa__value__type" ],
+    [ "Util::soa_value_type&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;", "struct_util_1_1soa__value__type_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html", "struct_util_1_1soa__value__type_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4" ],
+    [ "Util::soa_slot_name&lt; TYPE &gt;", "struct_util_1_1soa__slot__name.html", "struct_util_1_1soa__slot__name" ],
+    [ "Util::soa_slot_name&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;", "struct_util_1_1soa__slot__name_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html", "struct_util_1_1soa__slot__name_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4" ],
+    [ "Util::soa_named_slot_count&lt; NAME &gt;", "struct_util_1_1soa__named__slot__count_3_01_n_a_m_e_01_4.html", "struct_util_1_1soa__named__slot__count_3_01_n_a_m_e_01_4" ],
+    [ "Util::soa_named_slot_count&lt; NAME, TYPE, TYPES... &gt;", "struct_util_1_1soa__named__slot__count_3_01_n_a_m_e_00_01_t_y_p_e_00_01_t_y_p_e_s_8_8_8_01_4.html", "struct_util_1_1soa__named__slot__count_3_01_n_a_m_e_00_01_t_y_p_e_00_01_t_y_p_e_s_8_8_8_01_4" ],
+    [ "Util::soa_names_unique&lt;&gt;", "struct_util_1_1soa__names__unique_3_4.html", "struct_util_1_1soa__names__unique_3_4" ],
+    [ "Util::soa_names_unique&lt; TYPE, TYPES... &gt;", "struct_util_1_1soa__names__unique_3_01_t_y_p_e_00_01_t_y_p_e_s_8_8_8_01_4.html", "struct_util_1_1soa__names__unique_3_01_t_y_p_e_00_01_t_y_p_e_s_8_8_8_01_4" ],
+    [ "Util::soa_tuple_index&lt; NAME, INDEX, TYPE, TYPES &gt;", "struct_util_1_1soa__tuple__index.html", "struct_util_1_1soa__tuple__index" ],
+    [ "Util::soa_tuple_index&lt; NAME, INDEX, TYPE &gt;", "struct_util_1_1soa__tuple__index_3_01_n_a_m_e_00_01_i_n_d_e_x_00_01_t_y_p_e_01_4.html", "struct_util_1_1soa__tuple__index_3_01_n_a_m_e_00_01_i_n_d_e_x_00_01_t_y_p_e_01_4" ],
+    [ "Util::get_template_type&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;", "struct_util_1_1get__template__type_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4" ],
     [ "Util::get_template_type&lt; C&lt; T &gt; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_01_4_01_4" ],
     [ "Util::get_template_type&lt; C&lt; T, I &gt; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4" ],
     [ "Util::get_template_type&lt; C&lt; I, T &gt; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_i_00_01_t_01_4_01_4" ],
@@ -8,8 +22,10 @@ var tupleutility_8h =
     [ "Util::get_template_type&lt; C&lt; T, I &gt; &amp; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_6_01_4.html", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_6_01_4" ],
     [ "Util::get_template_type_t", "namespace_util.html#ae1c0ba58693827acd3c85fff898c00e6", null ],
     [ "Util::Pair", "namespace_util.html#afc8e46504284e2b7fda1b3dc21a510c3", null ],
+    [ "Util::soa_storage_t", "namespace_util.html#a01f787dc0b3c6a2afc20330c9297fe5c", null ],
+    [ "Util::soa_value_type_t", "namespace_util.html#a12a00e2b623e1b61926220f252abd780", null ],
     [ "Util::Tuple", "namespace_util.html#ad8f63293b6e3a30890b850ecb295f53f", null ],
-    [ "Util::tuple_array_t", "namespace_util.html#a727242ef4571513f2628ad972baf2183", null ],
+    [ "Util::tuple_array_t", "namespace_util.html#ae04935b7688686c9212e81f4cf312245", null ],
     [ "Util::alloc_for_each_in_tuple", "namespace_util.html#a3cff58ce5395906b4582f60064540e9d", null ],
     [ "Util::alloc_for_each_in_tuple", "namespace_util.html#a3158c18bad3c53f6b28e106254d1bd99", null ],
     [ "Util::clear_for_each_in_tuple", "namespace_util.html#ac523806fb17029f288ac10791bbc7b00", null ],
@@ -31,5 +47,6 @@ var tupleutility_8h =
     [ "Util::set_for_each_in_tuple", "namespace_util.html#a6b9f61b2d8d27bd199cf5d9b3b7902c4", null ],
     [ "Util::set_for_each_in_tuple", "namespace_util.html#a62ee071178937aed8148ce1b5fb46ea7", null ],
     [ "Util::set_size_for_each_in_tuple", "namespace_util.html#a0c334f60eb2cdfdf2e9272804e012a34", null ],
-    [ "Util::set_size_for_each_in_tuple", "namespace_util.html#adb0e576da37feb940e959259ba7751d2", null ]
+    [ "Util::set_size_for_each_in_tuple", "namespace_util.html#adb0e576da37feb940e959259ba7751d2", null ],
+    [ "Util::soa_tuple_index_v", "namespace_util.html#ab28333180a195cd475191008a08ce904", null ]
 ];

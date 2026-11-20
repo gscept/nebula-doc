@@ -154,6 +154,10 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:a3ad01452364dd2bf99bdd59b707b50e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within GameServer::Load()  <br /></td></tr>
 <tr class="memitem:a043c9734c7f6030ccf26d6b34af3f7a4" id="r_a043c9734c7f6030ccf26d6b34af3f7a4"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a043c9734c7f6030ccf26d6b34af3f7a4">OnStart</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
 <tr class="memdesc:a043c9734c7f6030ccf26d6b34af3f7a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within GameServer::OnStart() after OnLoad  <br /></td></tr>
+<tr class="memitem:a26917d922e97dca62364167ef53688af" id="r_a26917d922e97dca62364167ef53688af"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a26917d922e97dca62364167ef53688af">OnWorldCreated</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
+<tr class="memdesc:a26917d922e97dca62364167ef53688af"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within <a class="el" href="class_game_1_1_game_server.html#a65bd20262367a083e62f9b017845c971" title="create a world. The game server handles all worlds">GameServer::CreateWorld()</a> Worlds created before the feature is attached are reported by <a class="el" href="#a043c9734c7f6030ccf26d6b34af3f7a4" title="called from within GameServer::OnStart() after OnLoad">OnStart()</a> instead.  <br /></td></tr>
+<tr class="memitem:acd577ccbdfc49058b182d475883a41f2" id="r_acd577ccbdfc49058b182d475883a41f2"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#acd577ccbdfc49058b182d475883a41f2">OnWorldDestroyed</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
+<tr class="memdesc:acd577ccbdfc49058b182d475883a41f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within <a class="el" href="class_game_1_1_game_server.html#a04d97837b79621170f5b3e22796b98d4" title="destroy a world">GameServer::DestroyWorld()</a> before the world is deleted  <br /></td></tr>
 <tr class="memitem:a8dc17743b2fc1d47d5d7a9f4f3c0bf65" id="r_a8dc17743b2fc1d47d5d7a9f4f3c0bf65"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a8dc17743b2fc1d47d5d7a9f4f3c0bf65">OnSave</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
 <tr class="memdesc:a8dc17743b2fc1d47d5d7a9f4f3c0bf65"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within GameServer::Save()  <br /></td></tr>
 <tr class="memitem:a500d414dda598e1929fe9f42b5262c6c" id="r_a500d414dda598e1929fe9f42b5262c6c"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a500d414dda598e1929fe9f42b5262c6c">OnBeforeLoad</a> (<a class="el" href="class_game_1_1_world.html">World</a> *world)</td></tr>
@@ -563,6 +567,8 @@ Additional Inherited Members</h2></td></tr>
 
 <p>called after entities has been destroyed and before releasing their memory </p>
 
+<p>Reimplemented in <a class="el" href="class_scripting_1_1_script_feature_unit.html#a9b48a5c07eab72962ccb32cdb910394f">Scripting::ScriptFeatureUnit</a>.</p>
+
 </div>
 </div>
 <a id="ab1ebcc1baeb2aa06d1f331425c90aaae" name="ab1ebcc1baeb2aa06d1f331425c90aaae"></a>
@@ -768,6 +774,8 @@ Additional Inherited Members</h2></td></tr>
 <p>This method is called from within Game::GameServer::OnStart().</p>
 <p>Its called after all game features are activated and have initialized their subsystems. </p>
 
+<p>Reimplemented in <a class="el" href="class_scripting_1_1_script_feature_unit.html#ad2118f948c2ea8becc5e8f01b9acf99d">Scripting::ScriptFeatureUnit</a>.</p>
+
 </div>
 </div>
 <a id="a13218e9146911873fa28d8279a06cffe" name="a13218e9146911873fa28d8279a06cffe"></a>
@@ -797,6 +805,66 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a26917d922e97dca62364167ef53688af" name="a26917d922e97dca62364167ef53688af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26917d922e97dca62364167ef53688af">&#9670;&#160;</a></span>OnWorldCreated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::FeatureUnit::OnWorldCreated </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from within <a class="el" href="class_game_1_1_game_server.html#a65bd20262367a083e62f9b017845c971" title="create a world. The game server handles all worlds">GameServer::CreateWorld()</a> Worlds created before the feature is attached are reported by <a class="el" href="#a043c9734c7f6030ccf26d6b34af3f7a4" title="called from within GameServer::OnStart() after OnLoad">OnStart()</a> instead. </p>
+<p>Called from <a class="el" href="class_game_1_1_game_server.html#a65bd20262367a083e62f9b017845c971" title="create a world. The game server handles all worlds">GameServer::CreateWorld()</a>. </p>
+
+<p>Reimplemented in <a class="el" href="class_scripting_1_1_script_feature_unit.html#add7d6182cffa1c4a5a0b8a99e87476d6">Scripting::ScriptFeatureUnit</a>.</p>
+
+</div>
+</div>
+<a id="acd577ccbdfc49058b182d475883a41f2" name="acd577ccbdfc49058b182d475883a41f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd577ccbdfc49058b182d475883a41f2">&#9670;&#160;</a></span>OnWorldDestroyed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Game::FeatureUnit::OnWorldDestroyed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from within <a class="el" href="class_game_1_1_game_server.html#a04d97837b79621170f5b3e22796b98d4" title="destroy a world">GameServer::DestroyWorld()</a> before the world is deleted </p>
+<p>Called from <a class="el" href="class_game_1_1_game_server.html#a04d97837b79621170f5b3e22796b98d4" title="destroy a world">GameServer::DestroyWorld()</a> before the world is deleted. </p>
+
+<p>Reimplemented in <a class="el" href="class_scripting_1_1_script_feature_unit.html#adf2e25b2ca0e72334e61c3e3a718a91b">Scripting::ScriptFeatureUnit</a>.</p>
+
+</div>
+</div>
 <a id="ac78956d30d734aba5b6d0443d91a3c21" name="ac78956d30d734aba5b6d0443d91a3c21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac78956d30d734aba5b6d0443d91a3c21">&#9670;&#160;</a></span>RegisterComponentType()</h2>
 
@@ -823,7 +891,7 @@ template&lt;typename COMPONENT_TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>Register a component type. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo</a></b></dt><dd>We should register the component ids to the feature unit and deregister them when the feature is detached or destroyed. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo</a></b></dt><dd>We should register the component ids to the feature unit and deregister them when the feature is detached or destroyed. </dd></dl>
 
 </div>
 </div>

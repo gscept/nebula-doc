@@ -460,6 +460,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a11c4888140cb43623de67da1ce076c74" id="r_a11c4888140cb43623de67da1ce076c74"><td class="memItemLeft">template&lt;&gt; </td></tr>
 <tr class="memitem:a11c4888140cb43623de67da1ce076c74 template"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a11c4888140cb43623de67da1ce076c74">JsonReader::GetOpt&lt; Util::Array&lt; Util::String &gt; &gt;</a> (<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt; &amp;target, const char *attr)</td></tr>
 <tr class="memitem:ad70e5c134749315269b095ab21e54038" id="r_ad70e5c134749315269b095ab21e54038"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad70e5c134749315269b095ab21e54038">__ImplementClass</a> (<a class="el" href="class_i_o_1_1_json_writer.html">IO::JsonWriter</a>, 'JSOW', <a class="el" href="class_i_o_1_1_stream_writer.html">IO::StreamWriter</a>)</td></tr>
+<tr class="memitem:a95f5e2ea7858c8815b2f4a243dd18dfe" id="r_a95f5e2ea7858c8815b2f4a243dd18dfe"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a95f5e2ea7858c8815b2f4a243dd18dfe">CopyRawNode</a> (pjson::value_variant &amp;dst, const pjson::value_variant &amp;src, pjson::pool_allocator &amp;alloc)</td></tr>
+<tr class="memdesc:a95f5e2ea7858c8815b2f4a243dd18dfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">pjson parses in place, and a parsed string's size does not include the null terminator it wrote over the delimiter.  <br /></td></tr>
 <tr class="memitem:ab296333a791f2d76330994077094ad61" id="r_ab296333a791f2d76330994077094ad61"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ab296333a791f2d76330994077094ad61">__ImplementClass</a> (<a class="el" href="class_i_o_1_1_log_file_console_handler.html">IO::LogFileConsoleHandler</a>, 'LFCH', <a class="el" href="class_i_o_1_1_console_handler.html">IO::ConsoleHandler</a>)</td></tr>
 <tr class="memitem:a3157a2a8a46d8e526875129eca6b2d90" id="r_a3157a2a8a46d8e526875129eca6b2d90"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a3157a2a8a46d8e526875129eca6b2d90">__ImplementClass</a> (<a class="el" href="class_i_o_1_1_memory_stream.html">IO::MemoryStream</a>, 'MSTR', <a class="el" href="class_i_o_1_1_stream.html">IO::Stream</a>)</td></tr>
 <tr class="memitem:af4e9c1f0a6c90ceb33945c5c4d5d8112" id="r_af4e9c1f0a6c90ceb33945c5c4d5d8112"><td class="memItemLeft">static uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#af4e9c1f0a6c90ceb33945c5c4d5d8112">CreateNotifyMask</a> (<a class="el" href="class_util_1_1_bit_field.html">Util::BitField</a>&lt; 8 &gt; flags)</td></tr>
@@ -1643,6 +1645,43 @@ Variables</h2></td></tr>
 
 <p>This copies a file to another file. </p>
 <p>copy a file </p>
+
+</div>
+</div>
+<a id="a95f5e2ea7858c8815b2f4a243dd18dfe" name="a95f5e2ea7858c8815b2f4a243dd18dfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95f5e2ea7858c8815b2f4a243dd18dfe">&#9670;&#160;</a></span>CopyRawNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::CopyRawNode </td>
+          <td>(</td>
+          <td class="paramtype">pjson::value_variant &amp;</td>          <td class="paramname"><span class="paramname"><em>dst</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const pjson::value_variant &amp;</td>          <td class="paramname"><span class="paramname"><em>src</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">pjson::pool_allocator &amp;</td>          <td class="paramname"><span class="paramname"><em>alloc</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>pjson parses in place, and a parsed string's size does not include the null terminator it wrote over the delimiter. </p>
+<p>pjson's own copy keeps that size, which is what leaves the copied string unterminated, so a parsed node has to be copied through the string text instead. </p>
 
 </div>
 </div>

@@ -119,8 +119,6 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_nebula_1
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-methods" class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1f3c8128ffbe612287ee29ad1bf1007f" id="r_a1f3c8128ffbe612287ee29ad1bf1007f"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1f3c8128ffbe612287ee29ad1bf1007f">IsValid</a> ()</td></tr>
-<tr class="memdesc:a1f3c8128ffbe612287ee29ad1bf1007f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity is valid (not destroyed).  <br /></td></tr>
 <tr class="memitem:aac8118c95f3e58ec4b7145ac72114ae6" id="r_aac8118c95f3e58ec4b7145ac72114ae6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aac8118c95f3e58ec4b7145ac72114ae6">HasComponent&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:aac8118c95f3e58ec4b7145ac72114ae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if entity has some unmanaged component.  <br /></td></tr>
 <tr class="memitem:ab23936b184342c5fca7b81cd2901397d" id="r_ab23936b184342c5fca7b81cd2901397d"><td class="memItemLeft">unsafe void&#160;</td><td class="memItemRight"><a class="el" href="#ab23936b184342c5fca7b81cd2901397d">SetComponent&lt; T &gt;</a> (in T component)</td></tr>
@@ -129,8 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a520ea8f183e98218415f0259f07139a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value copy of the native, unmanaged component.  <br /></td></tr>
 <tr class="memitem:a3d895b4d48f44dcd08e15fe7f163f57b" id="r_a3d895b4d48f44dcd08e15fe7f163f57b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a3d895b4d48f44dcd08e15fe7f163f57b">HasProperty&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:a3d895b4d48f44dcd08e15fe7f163f57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the entity has a certain property.  <br /></td></tr>
-<tr class="memitem:a261261274e934abc8f96aa935e7ed913" id="r_a261261274e934abc8f96aa935e7ed913"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a261261274e934abc8f96aa935e7ed913">AddProperty</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property)</td></tr>
-<tr class="memdesc:a261261274e934abc8f96aa935e7ed913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a property to the entity.  <br /></td></tr>
+<tr class="memitem:a7eee0fb87dd868f534472efc212c3c6c" id="r_a7eee0fb87dd868f534472efc212c3c6c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7eee0fb87dd868f534472efc212c3c6c">AddProperty</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property, bool active=true)</td></tr>
+<tr class="memdesc:a7eee0fb87dd868f534472efc212c3c6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a property to the entity.  <br /></td></tr>
 <tr class="memitem:af8bc8b13d7a963b45082487333e1550d" id="r_af8bc8b13d7a963b45082487333e1550d"><td class="memItemLeft">T&#160;</td><td class="memItemRight"><a class="el" href="#af8bc8b13d7a963b45082487333e1550d">GetProperty&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:af8bc8b13d7a963b45082487333e1550d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the property if it exists in the entity.  <br /></td></tr>
 <tr class="memitem:a763fe520ea72b6ead07357014640b320" id="r_a763fe520ea72b6ead07357014640b320"><td class="memItemLeft"><a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight"><a class="el" href="#a763fe520ea72b6ead07357014640b320">GetPosition</a> ()</td></tr>
@@ -158,8 +156,16 @@ Static Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pac-methods" class="groupheader"><a id="pac-methods" name="pac-methods"></a>
 Package Functions</h2></td></tr>
 <tr class="memitem:a57536aca47a92c871ef75df39924b77e" id="r_a57536aca47a92c871ef75df39924b77e"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a57536aca47a92c871ef75df39924b77e">Entity</a> (<a class="el" href="#a6ea9572f1fd2159cc793240e9eb3d28d">World</a> world, UInt64 entityId)</td></tr>
+<tr class="memitem:af406a5ef5128826f9449bb21d3d95e5a" id="r_af406a5ef5128826f9449bb21d3d95e5a"><td class="memItemLeft"><a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a>&#160;</td><td class="memItemRight"><a class="el" href="#af406a5ef5128826f9449bb21d3d95e5a">GetProperty</a> (Type type)</td></tr>
+<tr class="memdesc:af406a5ef5128826f9449bb21d3d95e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the property by its type, for a type that is only known at runtime.  <br /></td></tr>
 <tr class="memitem:a16b7d81094d892bc7875f79ead8a673c" id="r_a16b7d81094d892bc7875f79ead8a673c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a16b7d81094d892bc7875f79ead8a673c">RegisterMessage&lt; T &gt;</a> (IMessageHandler&lt; T &gt; handler)</td></tr>
 <tr class="memitem:a50a91017e28ea931447810bdb7fe34b3" id="r_a50a91017e28ea931447810bdb7fe34b3"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a50a91017e28ea931447810bdb7fe34b3">UnregisterMessages</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property)</td></tr>
+<tr class="memitem:a96286fb06331df87bbbc4f9deef15394" id="r_a96286fb06331df87bbbc4f9deef15394"><td class="memItemLeft"><a class="el" href="class_util_1_1_list.html">List</a>&lt; <a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a96286fb06331df87bbbc4f9deef15394">GetProperties</a> ()</td></tr>
+<tr class="memitem:a5d93c47fbe9d063bee1b9f8e1b90d9c4" id="r_a5d93c47fbe9d063bee1b9f8e1b90d9c4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5d93c47fbe9d063bee1b9f8e1b90d9c4">ClearProperties</a> ()</td></tr>
+<tr class="memitem:ac5cd0bf4b638a8b8c040e097cd6459f0" id="r_ac5cd0bf4b638a8b8c040e097cd6459f0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ac5cd0bf4b638a8b8c040e097cd6459f0">RemoveProperty</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property)</td></tr>
+<tr class="memdesc:ac5cd0bf4b638a8b8c040e097cd6459f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes one property from this entity.  <br /></td></tr>
+<tr class="memitem:a290b8cfc90536270c25833aa35b89013" id="r_a290b8cfc90536270c25833aa35b89013"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a290b8cfc90536270c25833aa35b89013">Detach</a> ()</td></tr>
+<tr class="memdesc:a290b8cfc90536270c25833aa35b89013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release the managed side of the entity without touching the native one.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -167,10 +173,13 @@ Properties</h2></td></tr>
 <tr class="memdesc:a6ea9572f1fd2159cc793240e9eb3d28d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The world that this entity belongs to.  <br /></td></tr>
 <tr class="memitem:aea07312ebd729c53514f31731d8c7758" id="r_aea07312ebd729c53514f31731d8c7758"><td class="memItemLeft">UInt64&#160;</td><td class="memItemRight"><a class="el" href="#aea07312ebd729c53514f31731d8c7758">Id</a><code> [get]</code></td></tr>
 <tr class="memdesc:aea07312ebd729c53514f31731d8c7758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unique identifier for the entity.  <br /></td></tr>
+<tr class="memitem:a42dfc2e468e4306efc9fc270688ec810" id="r_a42dfc2e468e4306efc9fc270688ec810"><td class="memItemLeft">IReadOnlyList&lt; <a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a42dfc2e468e4306efc9fc270688ec810">Properties</a><code> [get]</code></td></tr>
+<tr class="memdesc:a42dfc2e468e4306efc9fc270688ec810"><td class="mdescLeft">&#160;</td><td class="mdescRight">The properties of the entity, in the order they were added.  <br /></td></tr>
+<tr class="memitem:a27a2c04707fc4b57b11755c4a8683755" id="r_a27a2c04707fc4b57b11755c4a8683755"><td class="memItemLeft"><a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a>&#160;</td><td class="memItemRight"><a class="el" href="#a27a2c04707fc4b57b11755c4a8683755">Position</a><code> [get, set]</code></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a8c4af39616fcbf18ca6588ca6d406de7" id="r_a8c4af39616fcbf18ca6588ca6d406de7"><td class="memItemLeft"><a class="el" href="#a6ea9572f1fd2159cc793240e9eb3d28d">World</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8c4af39616fcbf18ca6588ca6d406de7">world</a> = null</td></tr>
+<tr class="memitem:ab4739fdcbe98424c2b7a7ed73b33d980" id="r_ab4739fdcbe98424c2b7a7ed73b33d980"><td class="memItemLeft">readonly <a class="el" href="#a6ea9572f1fd2159cc793240e9eb3d28d">World</a>&#160;</td><td class="memItemRight"><a class="el" href="#ab4739fdcbe98424c2b7a7ed73b33d980">world</a></td></tr>
 <tr class="memitem:a5a122330c7aec7f360e6eedbf444caf8" id="r_a5a122330c7aec7f360e6eedbf444caf8"><td class="memItemLeft">UInt64&#160;</td><td class="memItemRight"><a class="el" href="#a5a122330c7aec7f360e6eedbf444caf8">id</a> = 0xFFFFFFFFFFFFFFFF</td></tr>
 <tr class="memitem:a790464f81d9d230c51d95f72e2763cbd" id="r_a790464f81d9d230c51d95f72e2763cbd"><td class="memItemLeft"><a class="el" href="class_util_1_1_list.html">List</a>&lt; <a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a790464f81d9d230c51d95f72e2763cbd">properties</a></td></tr>
 <tr class="memitem:ac0796a076a367bf012b3c26dd4484c8d" id="r_ac0796a076a367bf012b3c26dd4484c8d"><td class="memItemLeft"><a class="el" href="class_nebula_1_1_game_1_1_msg_dispatcher.html">MsgDispatcher</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac0796a076a367bf012b3c26dd4484c8d">dispatcher</a></td></tr>
@@ -207,8 +216,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
-<a id="a261261274e934abc8f96aa935e7ed913" name="a261261274e934abc8f96aa935e7ed913"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a261261274e934abc8f96aa935e7ed913">&#9670;&#160;</a></span>AddProperty()</h2>
+<a id="a7eee0fb87dd868f534472efc212c3c6c" name="a7eee0fb87dd868f534472efc212c3c6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eee0fb87dd868f534472efc212c3c6c">&#9670;&#160;</a></span>AddProperty()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,8 +228,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void Nebula.Game.Entity.AddProperty </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>active</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -231,6 +244,32 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds a property to the entity. </p>
+<p>The property is activated here when this world is simulating. In a world that is only being authored the value is recorded and OnActivate happens when the world starts simulating, which is what an editor's play button does. </p>
+
+</div>
+</div>
+<a id="a5d93c47fbe9d063bee1b9f8e1b90d9c4" name="a5d93c47fbe9d063bee1b9f8e1b90d9c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d93c47fbe9d063bee1b9f8e1b90d9c4">&#9670;&#160;</a></span>ClearProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.Entity.ClearProperties </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -259,6 +298,34 @@ Private Attributes</h2></td></tr>
 
 <p>Schedule the entity for destruction. </p>
 <p>Note that this does not immediately remove the entity from the native backend. </p>
+
+</div>
+</div>
+<a id="a290b8cfc90536270c25833aa35b89013" name="a290b8cfc90536270c25833aa35b89013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290b8cfc90536270c25833aa35b89013">&#9670;&#160;</a></span>Detach()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.Entity.Detach </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Release the managed side of the entity without touching the native one. </p>
+<p>Used when the world the entity belongs to goes away, because the native entities are gone with it and there is nothing left to delete through the api. </p>
 
 </div>
 </div>
@@ -353,6 +420,59 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a96286fb06331df87bbbc4f9deef15394" name="a96286fb06331df87bbbc4f9deef15394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96286fb06331df87bbbc4f9deef15394">&#9670;&#160;</a></span>GetProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_list.html">List</a>&lt; <a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> &gt; Nebula.Game.Entity.GetProperties </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af406a5ef5128826f9449bb21d3d95e5a" name="af406a5ef5128826f9449bb21d3d95e5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af406a5ef5128826f9449bb21d3d95e5a">&#9670;&#160;</a></span>GetProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> Nebula.Game.Entity.GetProperty </td>
+          <td>(</td>
+          <td class="paramtype">Type</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the property by its type, for a type that is only known at runtime. </p>
+<p>This is what the level format reads with, since a property named by a file has no type to name in the generic version. </p>
+
+</div>
+</div>
 <a id="af8bc8b13d7a963b45082487333e1550d" name="af8bc8b13d7a963b45082487333e1550d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af8bc8b13d7a963b45082487333e1550d">&#9670;&#160;</a></span>GetProperty&lt; T &gt;()</h2>
 
@@ -363,7 +483,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T Nebula.Game.Entity.GetProperty&lt; T &gt; </td>
+          <td class="memname">T <a class="el" href="#af406a5ef5128826f9449bb21d3d95e5a">Nebula.Game.Entity.GetProperty</a>&lt; T &gt; </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -489,33 +609,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1f3c8128ffbe612287ee29ad1bf1007f" name="a1f3c8128ffbe612287ee29ad1bf1007f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f3c8128ffbe612287ee29ad1bf1007f">&#9670;&#160;</a></span>IsValid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Nebula.Game.Entity.IsValid </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Check if entity is valid (not destroyed). </p>
-
-</div>
-</div>
 <a id="a16b7d81094d892bc7875f79ead8a673c" name="a16b7d81094d892bc7875f79ead8a673c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16b7d81094d892bc7875f79ead8a673c">&#9670;&#160;</a></span>RegisterMessage&lt; T &gt;()</h2>
 
@@ -546,6 +639,34 @@ Private Attributes</h2></td></tr>
 </dd>
 </dl>
 </div>
+
+</div>
+</div>
+<a id="ac5cd0bf4b638a8b8c040e097cd6459f0" name="ac5cd0bf4b638a8b8c040e097cd6459f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5cd0bf4b638a8b8c040e097cd6459f0">&#9670;&#160;</a></span>RemoveProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nebula.Game.Entity.RemoveProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a></td>          <td class="paramname"><span class="paramname"><em>property</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes one property from this entity. </p>
+<p>This is the single property version of ClearProperties, and it is what an undo of an add takes: the command removes the property it added. </p>
 
 </div>
 </div>
@@ -822,8 +943,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a8c4af39616fcbf18ca6588ca6d406de7" name="a8c4af39616fcbf18ca6588ca6d406de7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c4af39616fcbf18ca6588ca6d406de7">&#9670;&#160;</a></span>world</h2>
+<a id="ab4739fdcbe98424c2b7a7ed73b33d980" name="ab4739fdcbe98424c2b7a7ed73b33d980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4739fdcbe98424c2b7a7ed73b33d980">&#9670;&#160;</a></span>world</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -832,7 +953,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a6ea9572f1fd2159cc793240e9eb3d28d">World</a> Nebula.Game.Entity.world = null</td>
+          <td class="memname">readonly <a class="el" href="#a6ea9572f1fd2159cc793240e9eb3d28d">World</a> Nebula.Game.Entity.world</td>
         </tr>
       </table>
   </td>
@@ -866,6 +987,53 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Unique identifier for the entity. </p>
+
+</div>
+</div>
+<a id="a27a2c04707fc4b57b11755c4a8683755" name="a27a2c04707fc4b57b11755c4a8683755"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27a2c04707fc4b57b11755c4a8683755">&#9670;&#160;</a></span>Position</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_nebula_1_1_vector3.html">Vector3</a> Nebula.Game.Entity.Position</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel set">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a42dfc2e468e4306efc9fc270688ec810" name="a42dfc2e468e4306efc9fc270688ec810"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42dfc2e468e4306efc9fc270688ec810">&#9670;&#160;</a></span>Properties</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IReadOnlyList&lt;<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a>&gt; Nebula.Game.Entity.Properties</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The properties of the entity, in the order they were added. </p>
+<p>This is what the level format writes, because the order the properties were added in is the order the file gets. </p>
 
 </div>
 </div>

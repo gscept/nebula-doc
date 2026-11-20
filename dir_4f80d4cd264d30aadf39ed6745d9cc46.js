@@ -6,6 +6,8 @@ var dir_4f80d4cd264d30aadf39ed6745d9cc46 =
     [ "audio.h", "audio_8h.html", null ],
     [ "game.cc", "game_8cc.html", "game_8cc" ],
     [ "game.h", "game_8h.html", "game_8h" ],
+    [ "input.cc", "input_8cc.html", "input_8cc" ],
+    [ "input.h", "input_8h.html", "input_8h" ],
     [ "render.cc", "render_8cc.html", null ],
     [ "render.h", "render_8h.html", null ]
 ];

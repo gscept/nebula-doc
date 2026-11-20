@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('struct_game_1_
 <p>Each time source tracks its own time independently from the other time sources, they can also be paused and unpaused independentlty from each other, and they may also run faster or slower then realtime.</p>
 <p>A time source created with a fixed frame time does not follow realtime. It accumulates real time and turns it into whole steps of fixedFrameTime, and frameTime is then always that step. The steps are consumed by <a class="el" href="namespace_game_1_1_time.html#ac8677daeb6fc13743cb6e3913956853a" title="consume one fixed step from a fixed time source. Returns false when no steps are left">Game::Time::ConsumeFixedStep</a>, which is what a fixed frame event in the frame pipeline runs on.</p>
 <dl class="section note"><dt>Note</dt><dd>You should never create TimeSources by using <span class="tt">new</span>. Instead, use <a class="el" href="namespace_game_1_1_time.html#a29f32e4e3946b84849f22fb6ef505470" title="create a timesource. The global time manager handles the timesources.">Game::Time::CreateTimeSource</a>.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo</a></b></dt><dd>These are currently not thread safe.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo</a></b></dt><dd>These are currently not thread safe.</dd></dl>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="namespace_game_1_1_time.html#a29f32e4e3946b84849f22fb6ef505470" title="create a timesource. The global time manager handles the timesources.">Game::Time::CreateTimeSource</a> </dd>
 <dd>
 <a class="el" href="namespace_game_1_1_time.html#aeb1fa870d1519db57e65d3ce34d872c1" title="get a time source by hash">Game::Time::GetTimeSource</a> </dd>
@@ -147,6 +147,8 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ab1afeafcfe9eb9bb7a6e4424fa6eee04"><td class="mdescLeft">&#160;</td><td class="mdescRight">increment this to pause time, decrement to continue running  <br /></td></tr>
 <tr class="memitem:a0eba3a97e0562c506b1e08354b6d7256" id="r_a0eba3a97e0562c506b1e08354b6d7256"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a0eba3a97e0562c506b1e08354b6d7256">timeFactor</a></td></tr>
 <tr class="memdesc:a0eba3a97e0562c506b1e08354b6d7256"><td class="mdescLeft">&#160;</td><td class="mdescRight">time factor for this time source  <br /></td></tr>
+<tr class="memitem:afe7703b6d9e66aab928a151df9633cf6" id="r_afe7703b6d9e66aab928a151df9633cf6"><td class="memItemLeft">uint32_t const&#160;</td><td class="memItemRight"><a class="el" href="#afe7703b6d9e66aab928a151df9633cf6">hash</a></td></tr>
+<tr class="memdesc:afe7703b6d9e66aab928a151df9633cf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">the hash this source was created with  <br /></td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="ac726b16d7ee72cf0ef4a8044af14a90b" name="ac726b16d7ee72cf0ef4a8044af14a90b"></a>
@@ -210,6 +212,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>delta time between this frame and last frame. Always fixedFrameTime for a fixed time source </p>
+
+</div>
+</div>
+<a id="afe7703b6d9e66aab928a151df9633cf6" name="afe7703b6d9e66aab928a151df9633cf6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe7703b6d9e66aab928a151df9633cf6">&#9670;&#160;</a></span>hash</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t const Game::TimeSource::hash</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the hash this source was created with </p>
 
 </div>
 </div>

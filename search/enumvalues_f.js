@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['o_0',['O',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a342c6c4aeaf1ee4bf5847366399e1084',1,'Input::Key']]],
+  ['o_0',['O',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a342c6c4aeaf1ee4bf5847366399e1084',1,'Input::Key::O'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80af186217753c37b9b9f958d906208506e',1,'Nebula.Game.O']]],
   ['object_1',['Object',['../class_http_1_1_html_element.html#ae196ece680a077d1deb56fbb6f9da9e9a456f07ee1c7e34500a99b05bcf6d3431',1,'Http::HtmlElement::Object'],['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba50fc28253a7047de17c4587e64758d6f',1,'Util::Variant::Object']]],
   ['objectarrayheap_2',['ObjectArrayHeap',['../namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56ab871d02286eb23fd256c2482db9a2cfe',1,'Memory']]],
   ['objectheap_3',['ObjectHeap',['../namespace_memory.html#a876b4d169c56fbc6a73614d357a46a56a4ff80c59d09738d4a7c49b982c990f71',1,'Memory']]],

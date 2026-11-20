@@ -9,6 +9,7 @@ var class_nebula_1_1_runtime =
     [ "OnEndFrame", "class_nebula_1_1_runtime.html#aa4ea899f2785b047ab2983f26eeafe3c", null ],
     [ "OnFrame", "class_nebula_1_1_runtime.html#afb468f8d4804653fb67588c4e7f6ea64", null ],
     [ "OverrideNebulaApp", "class_nebula_1_1_runtime.html#a396878fece459ec0e9814bb65d365e13", null ],
+    [ "ResetNebulaApp", "class_nebula_1_1_runtime.html#a7b4b054de48388a41c5189446b50cbce", null ],
     [ "Setup", "class_nebula_1_1_runtime.html#acff17ca332a89e26ca706cedb921dd9d", null ],
     [ "Start", "class_nebula_1_1_runtime.html#a8db845e91f0f047130db490467dd8551", null ],
     [ "runtimeData", "class_nebula_1_1_runtime.html#ada96e20fcdcee4fbfb21442f1ccda850", null ]

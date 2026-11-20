@@ -160,6 +160,7 @@ var hierarchy =
     [ "Lighting::LightContext::AreaLightSetupInfo", "struct_lighting_1_1_light_context_1_1_area_light_setup_info.html", null ],
     [ "Memory::ArenaAllocator&lt; ChunkSize &gt;", "class_memory_1_1_arena_allocator.html", null ],
     [ "Util::Array&lt; TYPE, SMALL_VECTOR_SIZE &gt;", "class_util_1_1_array.html", [
+      [ "Util::NamedSlot< NAME, TYPE >", "class_util_1_1_named_slot.html", null ],
       [ "Util::PinnedArray< MAX_ALLOCS, TYPE >", "class_util_1_1_pinned_array.html", null ],
       [ "Util::TrivialArray< TYPE >", "class_util_1_1_trivial_array.html", null ]
     ] ],
@@ -318,6 +319,12 @@ var hierarchy =
     [ "Threading::Interlocked::AtomicInt", "struct_threading_1_1_interlocked_1_1_atomic_int.html", null ],
     [ "Threading::Interlocked::AtomicInt64", "struct_threading_1_1_interlocked_1_1_atomic_int64.html", null ],
     [ "Threading::Interlocked::AtomicPointer", "struct_threading_1_1_interlocked_1_1_atomic_pointer.html", null ],
+    [ "Attribute", null, [
+      [ "Nebula.ExportTypeAttribute", "class_nebula_1_1_export_type_attribute.html", null ],
+      [ "Nebula.HotReloadFactoryAttribute", "class_nebula_1_1_hot_reload_factory_attribute.html", null ],
+      [ "Nebula.NebulaGamePluginAttribute", "class_nebula_1_1_nebula_game_plugin_attribute.html", null ],
+      [ "Nebula.NoHotReloadAttribute", "class_nebula_1_1_no_hot_reload_attribute.html", null ]
+    ] ],
     [ "MemDb::Attribute", "class_mem_db_1_1_attribute.html", [
       [ "Game::ComponentInterface", "class_game_1_1_component_interface.html", null ]
     ] ],
@@ -559,6 +566,7 @@ var hierarchy =
     [ "RenderUtil::DrawFullScreenQuad", "class_render_util_1_1_draw_full_screen_quad.html", null ],
     [ "Im3d::DrawList", "struct_im3d_1_1_draw_list.html", null ],
     [ "Models::ShaderStateNode::DrawPacket", "struct_models_1_1_shader_state_node_1_1_draw_packet.html", null ],
+    [ "Nebula.DrawSurface", "class_nebula_1_1_draw_surface.html", null ],
     [ "CoreGraphics::DrawThreadResult", "struct_core_graphics_1_1_draw_thread_result.html", null ],
     [ "duDebugDraw", null, [
       [ "Navigation::DebugDraw", "struct_navigation_1_1_debug_draw.html", null ]
@@ -572,6 +580,7 @@ var hierarchy =
     [ "Nebula.Game.Entity", "class_nebula_1_1_game_1_1_entity.html", null ],
     [ "TiXmlBase::Entity", "struct_ti_xml_base_1_1_entity.html", null ],
     [ "Visibility::VisibilitySystem::Entity", "struct_visibility_1_1_visibility_system_1_1_entity.html", null ],
+    [ "Nebula.Game.EntityExtensions", "class_nebula_1_1_game_1_1_entity_extensions.html", null ],
     [ "Game::PackedLevel::EntityGroup", "struct_game_1_1_packed_level_1_1_entity_group.html", null ],
     [ "Nebula.Game.EntityId", "struct_nebula_1_1_game_1_1_entity_id.html", null ],
     [ "Game::EntityMapping", "struct_game_1_1_entity_mapping.html", null ],
@@ -674,6 +683,7 @@ var hierarchy =
     [ "FSWrapper", "class_i_o_1_1_f_s_wrapper.html", null ],
     [ "GameContentServer", "class_i_o_1_1_game_content_server.html", null ],
     [ "GamePad", "class_input_1_1_game_pad.html", null ],
+    [ "Nebula.GamePluginContext", "class_nebula_1_1_game_plugin_context.html", null ],
     [ "Gcc::GccInterlocked", "class_gcc_1_1_gcc_interlocked.html", null ],
     [ "Base::GenericMemoryPool", "class_base_1_1_generic_memory_pool.html", null ],
     [ "RenderUtil::Geometry", "struct_render_util_1_1_geometry.html", null ],
@@ -688,6 +698,10 @@ var hierarchy =
     [ "Util::get_template_type&lt; C&lt; T, I &gt; &amp; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_6_01_4.html", null ],
     [ "Util::get_template_type&lt; C&lt; T, I &gt; &gt;", "struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4.html", null ],
     [ "Util::get_template_type&lt; const C&lt; T &gt; &amp; &gt;", "struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html", null ],
+    [ "Util::get_template_type&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;", "struct_util_1_1get__template__type_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html", null ],
+    [ "AssemblyLoadContextPath.GetFileNameWithoutExtensionpluginPath", null, [
+      [ "Nebula.GamePluginContext.PluginLoadContext", "class_nebula_1_1_game_plugin_context_1_1_plugin_load_context.html", null ]
+    ] ],
     [ "GLFWDisplayDevice", "class_open_g_l4_1_1_g_l_f_w_display_device.html", null ],
     [ "GLFWInputServer", "class_open_g_l4_1_1_g_l_f_w_input_server.html", null ],
     [ "CoreGraphics::Gliml", "class_core_graphics_1_1_gliml.html", null ],
@@ -743,6 +757,9 @@ var hierarchy =
     [ "Util::HashTable&lt; KEYTYPE, VALUETYPE, TABLE_SIZE, STACK_SIZE &gt;", "class_util_1_1_hash_table.html", null ],
     [ "Heap", "class_memory_1_1_heap.html", null ],
     [ "Physics::HeightFieldInput", "struct_physics_1_1_height_field_input.html", null ],
+    [ "Nebula.HotReload", "class_nebula_1_1_hot_reload.html", null ],
+    [ "Nebula.HotReloadManager", "class_nebula_1_1_hot_reload_manager.html", null ],
+    [ "Nebula.HotReloadState", "class_nebula_1_1_hot_reload_state.html", null ],
     [ "Http::HtmlElement", "class_http_1_1_html_element.html", null ],
     [ "HttpClient", "class_simple_1_1_http_client.html", null ],
     [ "Http::HttpMethod", "class_http_1_1_http_method.html", null ],
@@ -751,6 +768,9 @@ var hierarchy =
     [ "Messaging::Id", "class_messaging_1_1_id.html", null ],
     [ "Ids::IdGenerationPool", "class_ids_1_1_id_generation_pool.html", null ],
     [ "Ids::IdPool", "class_ids_1_1_id_pool.html", null ],
+    [ "IEqualityComparer", null, [
+      [ "Nebula.HotReloadState.ReferenceComparer", "class_nebula_1_1_hot_reload_state_1_1_reference_comparer.html", null ]
+    ] ],
     [ "IEquatable", null, [
       [ "Nebula.BoundingBox", "struct_nebula_1_1_bounding_box.html", null ],
       [ "Nebula.BoundingFrustum", "class_nebula_1_1_bounding_frustum.html", null ],
@@ -766,9 +786,11 @@ var hierarchy =
       [ "Nebula.Vector3", "struct_nebula_1_1_vector3.html", null ],
       [ "Nebula.Vector4", "struct_nebula_1_1_vector4.html", null ]
     ] ],
+    [ "Nebula.IGamePlugin", "interface_nebula_1_1_i_game_plugin.html", null ],
     [ "IGFD_FileDialog_Config", "struct_i_g_f_d___file_dialog___config.html", null ],
     [ "IGFD_Selection", "struct_i_g_f_d___selection.html", null ],
     [ "IGFD_Selection_Pair", "struct_i_g_f_d___selection___pair.html", null ],
+    [ "Nebula.IHotReloadManaged", "interface_nebula_1_1_i_hot_reload_managed.html", null ],
     [ "Im3dContext", "class_im3d_context.html", null ],
     [ "Im3d::Im3dState", "struct_im3d_1_1_im3d_state.html", null ],
     [ "CoreGraphics::ImageCreateInfoData", "struct_core_graphics_1_1_image_create_info_data.html", null ],
@@ -795,9 +817,11 @@ var hierarchy =
       [ "Nebula.Game.NebulaApiV1", "class_nebula_1_1_game_1_1_nebula_api_v1.html", null ]
     ] ],
     [ "CoreAnimation::InfinityType", "class_core_animation_1_1_infinity_type.html", null ],
+    [ "Nebula.Game.Input", "class_nebula_1_1_game_1_1_input.html", null ],
     [ "CoreGraphics::InputAssemblyKey", "union_core_graphics_1_1_input_assembly_key.html", null ],
     [ "Input::InputEvent", "class_input_1_1_input_event.html", null ],
     [ "Input::InputPriority", "class_input_1_1_input_priority.html", null ],
+    [ "Scripting::Api::InputSnapshot", "struct_scripting_1_1_api_1_1_input_snapshot.html", null ],
     [ "InstanceRenderer", "class_instancing_1_1_instance_renderer.html", null ],
     [ "InstanceRendererBase", "class_instancing_1_1_instance_renderer_base.html", null ],
     [ "InstanceServer", "class_instancing_1_1_instance_server.html", null ],
@@ -833,6 +857,14 @@ var hierarchy =
     [ "Jobs::JobThread::JobThreadCommand", "struct_jobs_1_1_job_thread_1_1_job_thread_command.html", null ],
     [ "Jobs::JobUniformData", "struct_jobs_1_1_job_uniform_data.html", null ],
     [ "Models::JointMask", "struct_models_1_1_joint_mask.html", null ],
+    [ "JsonConverter", null, [
+      [ "Nebula.PropertyLevelFormat.ColorConverter", "class_nebula_1_1_property_level_format_1_1_color_converter.html", null ],
+      [ "Nebula.PropertyLevelFormat.EntityConverter", "class_nebula_1_1_property_level_format_1_1_entity_converter.html", null ],
+      [ "Nebula.PropertyLevelFormat.QuaternionConverter", "class_nebula_1_1_property_level_format_1_1_quaternion_converter.html", null ],
+      [ "Nebula.PropertyLevelFormat.Vector2Converter", "class_nebula_1_1_property_level_format_1_1_vector2_converter.html", null ],
+      [ "Nebula.PropertyLevelFormat.Vector3Converter", "class_nebula_1_1_property_level_format_1_1_vector3_converter.html", null ],
+      [ "Nebula.PropertyLevelFormat.Vector4Converter", "class_nebula_1_1_property_level_format_1_1_vector4_converter.html", null ]
+    ] ],
     [ "Input::Key", "class_input_1_1_key.html", null ],
     [ "Keyboard", "class_input_1_1_keyboard.html", null ],
     [ "Base::KeyboardBase::KeyState", "class_base_1_1_keyboard_base_1_1_key_state.html", null ],
@@ -843,7 +875,11 @@ var hierarchy =
     [ "Util::KeyValuePair&lt; Util::String, Util::String &gt;", "class_util_1_1_key_value_pair.html", [
       [ "IO::Assign", "class_i_o_1_1_assign.html", null ]
     ] ],
+    [ "Nebula.Game.Input.KeyWords", "struct_nebula_1_1_game_1_1_input_1_1_key_words.html", null ],
+    [ "Scripting::Api::KeyWords", "struct_scripting_1_1_api_1_1_key_words.html", null ],
     [ "Jobs2::Lambda", "struct_jobs2_1_1_lambda.html", null ],
+    [ "Game::LevelExtension", "class_game_1_1_level_extension.html", null ],
+    [ "Game::LevelExtensionRegistry", "class_game_1_1_level_extension_registry.html", null ],
     [ "Base::Library", "class_base_1_1_library.html", [
       [ "Posix::PosixLibrary", "class_posix_1_1_posix_library.html", null ],
       [ "Win32::Win32Library", "class_win32_1_1_win32_library.html", null ]
@@ -871,6 +907,7 @@ var hierarchy =
     [ "ultralight::Logger", null, [
       [ "StaticUI::Logger", "struct_static_u_i_1_1_logger.html", null ]
     ] ],
+    [ "Nebula.HotReloadState.ManagedCallback", "class_nebula_1_1_hot_reload_state_1_1_managed_callback.html", null ],
     [ "Im3d::Mat3", "struct_im3d_1_1_mat3.html", null ],
     [ "Im3d::Mat4", "struct_im3d_1_1_mat4.html", null ],
     [ "Math::mat4", "struct_math_1_1mat4.html", null ],
@@ -1066,7 +1103,11 @@ var hierarchy =
     [ "Profiling::ProfilingScopeLock", "struct_profiling_1_1_profiling_scope_lock.html", null ],
     [ "IO::ProjectLocator", "class_i_o_1_1_project_locator.html", null ],
     [ "Nebula.Game.Property", "class_nebula_1_1_game_1_1_property.html", null ],
+    [ "Nebula.Game.PropertyExtensions", "class_nebula_1_1_game_1_1_property_extensions.html", null ],
+    [ "Scripting::PropertyLevelExtension", "class_scripting_1_1_property_level_extension.html", null ],
+    [ "Nebula.PropertyLevelFormat", "class_nebula_1_1_property_level_format.html", null ],
     [ "Nebula.Game.PropertyManager", "class_nebula_1_1_game_1_1_property_manager.html", null ],
+    [ "Nebula.HotReloadState.PropertyReplacement", "class_nebula_1_1_hot_reload_state_1_1_property_replacement.html", null ],
     [ "Ptr&lt; TYPE &gt;", "class_ptr.html", null ],
     [ "System::ByteOrder::PunDoubleULL", "union_system_1_1_byte_order_1_1_pun_double_u_l_l.html", null ],
     [ "System::ByteOrder::PunFloatUL", "union_system_1_1_byte_order_1_1_pun_float_u_l.html", null ],
@@ -1358,6 +1399,7 @@ var hierarchy =
       [ "Win32::Win32Socket", "class_win32_1_1_win32_socket.html", null ],
       [ "Win32::Win32Thread", "class_win32_1_1_win32_thread.html", null ]
     ] ],
+    [ "Nebula.HotReloadManager.ReloadRequest", "class_nebula_1_1_hot_reload_manager_1_1_reload_request.html", null ],
     [ "Game::World::RemoveComponentCommand", "struct_game_1_1_world_1_1_remove_component_command.html", null ],
     [ "Models::ModelContext::ModelInstance::Renderable", "struct_models_1_1_model_context_1_1_model_instance_1_1_renderable.html", null ],
     [ "StaticUI::UltralightRenderer::RenderBufferHandle", "struct_static_u_i_1_1_ultralight_renderer_1_1_render_buffer_handle.html", null ],
@@ -1396,6 +1438,7 @@ var hierarchy =
     [ "CoreGraphics::ResourceTableTextureView", "struct_core_graphics_1_1_resource_table_texture_view.html", null ],
     [ "CoreGraphics::ResourceTableTlas", "struct_core_graphics_1_1_resource_table_tlas.html", null ],
     [ "Resources::ResourceUnknownId", "struct_resources_1_1_resource_unknown_id.html", null ],
+    [ "Nebula.HotReloadManager.RetiredContext", "class_nebula_1_1_hot_reload_manager_1_1_retired_context.html", null ],
     [ "Memory::RingAlloc", "struct_memory_1_1_ring_alloc.html", null ],
     [ "Memory::RingAllocator&lt; SYNCPOINTS &gt;", "class_memory_1_1_ring_allocator.html", null ],
     [ "Util::RingBuffer&lt; TYPE &gt;", "class_util_1_1_ring_buffer.html", null ],
@@ -1441,6 +1484,21 @@ var hierarchy =
     [ "Characters::SkeletonId", "struct_characters_1_1_skeleton_id.html", null ],
     [ "Characters::SkeletonJobJoint", "struct_characters_1_1_skeleton_job_joint.html", null ],
     [ "Characters::SkeletonResourceId", "struct_characters_1_1_skeleton_resource_id.html", null ],
+    [ "Nebula.Game.Input.Snapshot", "struct_nebula_1_1_game_1_1_input_1_1_snapshot.html", null ],
+    [ "Util::soa_named_slot_count&lt; NAME, TYPES &gt;", "struct_util_1_1soa__named__slot__count.html", null ],
+    [ "Util::soa_named_slot_count&lt; NAME &gt;", "struct_util_1_1soa__named__slot__count_3_01_n_a_m_e_01_4.html", null ],
+    [ "Util::soa_named_slot_count&lt; NAME, TYPE, TYPES... &gt;", "struct_util_1_1soa__named__slot__count_3_01_n_a_m_e_00_01_t_y_p_e_00_01_t_y_p_e_s_8_8_8_01_4.html", null ],
+    [ "Util::soa_names_unique&lt; TYPES &gt;", "struct_util_1_1soa__names__unique.html", null ],
+    [ "Util::soa_names_unique&lt; TYPE, TYPES... &gt;", "struct_util_1_1soa__names__unique_3_01_t_y_p_e_00_01_t_y_p_e_s_8_8_8_01_4.html", null ],
+    [ "Util::soa_names_unique&lt;&gt;", "struct_util_1_1soa__names__unique_3_4.html", null ],
+    [ "Util::soa_slot_name&lt; TYPE &gt;", "struct_util_1_1soa__slot__name.html", null ],
+    [ "Util::soa_slot_name&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;", "struct_util_1_1soa__slot__name_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html", null ],
+    [ "Util::soa_storage&lt; TYPE &gt;", "struct_util_1_1soa__storage.html", null ],
+    [ "Util::soa_storage&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;", "struct_util_1_1soa__storage_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html", null ],
+    [ "Util::soa_tuple_index&lt; NAME, INDEX, TYPE, TYPES &gt;", "struct_util_1_1soa__tuple__index.html", null ],
+    [ "Util::soa_tuple_index&lt; NAME, INDEX, TYPE &gt;", "struct_util_1_1soa__tuple__index_3_01_n_a_m_e_00_01_i_n_d_e_x_00_01_t_y_p_e_01_4.html", null ],
+    [ "Util::soa_value_type&lt; TYPE &gt;", "struct_util_1_1soa__value__type.html", null ],
+    [ "Util::soa_value_type&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;", "struct_util_1_1soa__value__type_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html", null ],
     [ "Socket", "class_net_1_1_socket.html", null ],
     [ "Vulkan::VkSubContextHandler::SparseBindSubmission", "struct_vulkan_1_1_vk_sub_context_handler_1_1_sparse_bind_submission.html", null ],
     [ "Vulkan::GraphicsDeviceState::SparseBufferBind", "struct_vulkan_1_1_graphics_device_state_1_1_sparse_buffer_bind.html", null ],
@@ -1595,12 +1653,18 @@ var hierarchy =
     [ "ThreadBarrier", "class_threading_1_1_thread_barrier.html", null ],
     [ "ThreadLocalMiniHeap", "struct_thread_local_mini_heap.html", null ],
     [ "Terrain::TileCacheEntry", "struct_terrain_1_1_tile_cache_entry.html", null ],
+    [ "Nebula.Game.Time", "class_nebula_1_1_game_1_1_time.html", null ],
     [ "Physics::VisualDebugger::TimedDrawData", "class_physics_1_1_visual_debugger_1_1_timed_draw_data.html", null ],
     [ "Vulkan::VkSubContextHandler::TimelineSubmission", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission.html", null ],
     [ "Vulkan::VkSubContextHandler::TimelineSubmission2", "struct_vulkan_1_1_vk_sub_context_handler_1_1_timeline_submission2.html", null ],
+    [ "Nebula.Game.TimeManager", "class_nebula_1_1_game_1_1_time_manager.html", null ],
     [ "Timer", "class_timing_1_1_timer.html", null ],
     [ "Game::TimeSource", "struct_game_1_1_time_source.html", null ],
+    [ "Nebula.Game.TimeSource", "class_nebula_1_1_game_1_1_time_source.html", null ],
     [ "Game::TimeSourceCreateInfo", "struct_game_1_1_time_source_create_info.html", null ],
+    [ "Nebula.Game.TimeSourceHash", "class_nebula_1_1_game_1_1_time_source_hash.html", null ],
+    [ "Nebula.Game.TimeSourceSnapshot", "struct_nebula_1_1_game_1_1_time_source_snapshot.html", null ],
+    [ "Scripting::Api::TimeSourceSnapshot", "struct_scripting_1_1_api_1_1_time_source_snapshot.html", null ],
     [ "IO::XmlReader::TinyXmlInitHelper", "class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html", null ],
     [ "TiXmlAttributeSet", "class_ti_xml_attribute_set.html", null ],
     [ "TiXmlBase", "class_ti_xml_base.html", [
@@ -1635,6 +1699,9 @@ var hierarchy =
     [ "Math::transform44", "class_math_1_1transform44.html", null ],
     [ "Attr::Transform44TypeClass", "class_attr_1_1_transform44_type_class.html", null ],
     [ "Models::ModelContext::ModelInstance::Transformable", "struct_models_1_1_model_context_1_1_model_instance_1_1_transformable.html", null ],
+    [ "true", null, [
+      [ "Nebula.GamePluginContext.PluginLoadContext", "class_nebula_1_1_game_plugin_context_1_1_plugin_load_context.html", null ]
+    ] ],
     [ "Im3d::internal::TypeTraits&lt; T &gt;", "struct_im3d_1_1internal_1_1_type_traits.html", null ],
     [ "Im3d::internal::TypeTraits&lt; float &gt;", "struct_im3d_1_1internal_1_1_type_traits_3_01float_01_4.html", null ],
     [ "Im3d::internal::TypeTraits&lt; int &gt;", "struct_im3d_1_1internal_1_1_type_traits_3_01int_01_4.html", null ],

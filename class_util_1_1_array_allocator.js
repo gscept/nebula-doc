@@ -21,6 +21,6 @@ var class_util_1_1_array_allocator =
     [ "SetSize", "class_util_1_1_array_allocator.html#a44d83712b03d07940c4430cb41d7d7c8", null ],
     [ "Size", "class_util_1_1_array_allocator.html#a235204ce591eebb5047116b6183c7928", null ],
     [ "UpdateSize", "class_util_1_1_array_allocator.html#a12c042b71807596dd6511d49c6f6f0db", null ],
-    [ "objects", "class_util_1_1_array_allocator.html#a7720be9fd4101bdee5fcda46f343d72a", null ],
+    [ "objects", "class_util_1_1_array_allocator.html#a1bed01812469b9e855cda4a1a0525fc7", null ],
     [ "size", "class_util_1_1_array_allocator.html#a683c0f2e1b958d3c85ad721f27bdcb2f", null ]
 ];

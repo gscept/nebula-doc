@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['v_0',['V',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a2f31ebe7707f1b55cb47a241b8c81be9',1,'Input::Key']]],
+  ['v_0',['V',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a2f31ebe7707f1b55cb47a241b8c81be9',1,'Input::Key::V'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80a5206560a306a2e085a437fd258eb57ce',1,'Nebula.Game.V']]],
   ['vec2_1',['Vec2',['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba396103ddc32ee1bcbbeec60792fd6e10',1,'Util::Variant::Vec2'],['../struct_material_templates_1_1_material_template_value.html#a5cec53c29d139bda9e81bd1918aa740dafd1123882a4ade3eba87036894850b81',1,'MaterialTemplates::MaterialTemplateValue::Vec2'],['../struct_material_templates_g_p_u_lang_1_1_material_template_value.html#afff2f533d6bd3d6212dc5489cab3e2caa82143742b5cce6674ab5d4150ba7c364',1,'MaterialTemplatesGPULang::MaterialTemplateValue::Vec2']]],
   ['vec2array_2',['Vec2Array',['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534ebab81d16311a58b05f6bee46e3bd276de1',1,'Util::Variant']]],
   ['vec2arraytype_3',['Vec2ArrayType',['../namespace_attr.html#a2bdbf3eb528c8ac1da768d63483748b3abf9091cb3662a406e2f1ebb591f46114',1,'Attr']]],
@@ -55,7 +55,7 @@ var searchData=
   ['voidptrtype_52',['VoidPtrType',['../namespace_attr.html#a2bdbf3eb528c8ac1da768d63483748b3af1aaefcc9f0c6588f76fc08929b71be6',1,'Attr']]],
   ['voidtype_53',['VoidType',['../namespace_attr.html#a2bdbf3eb528c8ac1da768d63483748b3af7d03fb9f43c0016e89ba6e19e35d44d',1,'Attr']]],
   ['volume_54',['VOLUME',['../class_audio_1_1_audio_device.html#a93e5502348cf788f6cb0a228cdcfcb28ade61888cb725345c5d0520160b6f877b',1,'Audio::AudioDevice']]],
-  ['volumedown_55',['VolumeDown',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a9ee978cb6f5c23717052d835407082cf',1,'Input::Key']]],
-  ['volumemute_56',['VolumeMute',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a8b83258605130347e20bcc2a4a77e08e',1,'Input::Key']]],
-  ['volumeup_57',['VolumeUp',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a20b8e645c6fa0356853ef3b94e0c897f',1,'Input::Key']]]
+  ['volumedown_55',['VolumeDown',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a9ee978cb6f5c23717052d835407082cf',1,'Input::Key::VolumeDown'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80a91f1f883ea91306f79dbf0ca1b108bad',1,'Nebula.Game.VolumeDown']]],
+  ['volumemute_56',['VolumeMute',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a8b83258605130347e20bcc2a4a77e08e',1,'Input::Key::VolumeMute'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80a98e0efccef4b465cb0edb78d2ddc4eed',1,'Nebula.Game.VolumeMute']]],
+  ['volumeup_57',['VolumeUp',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a20b8e645c6fa0356853ef3b94e0c897f',1,'Input::Key::VolumeUp'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80af5311ec6ce071e43882685428cc9d56a',1,'Nebula.Game.VolumeUp']]]
 ];

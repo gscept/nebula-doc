@@ -55,6 +55,7 @@ var class_i_o_1_1_json_writer =
     [ "Add", "class_i_o_1_1_json_writer.html#a5f800e99ce713a36bb23fbe8db0d5836", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#a6e95fbccbacfcc5da9479ed5e8f1ad4e", null ],
     [ "Add", "class_i_o_1_1_json_writer.html#afb8caa5566b26462dee02ac3ea473d4f", null ],
+    [ "AddRaw", "class_i_o_1_1_json_writer.html#a40e6ac2d8e8cbaa843e3838d58fb0302", null ],
     [ "BeginArray", "class_i_o_1_1_json_writer.html#acb3a5eaa4264afbf717fdf166f986e38", null ],
     [ "BeginObject", "class_i_o_1_1_json_writer.html#a47257190dff3354f1f328f1981eeaada", null ],
     [ "Close", "class_i_o_1_1_json_writer.html#a52547eb7ea271950ed2086d5da4439d2", null ],

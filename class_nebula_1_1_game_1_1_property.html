@@ -118,6 +118,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_nebula_1
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5daea934bc171ff25ef67114681238d7" id="r_a5daea934bc171ff25ef67114681238d7"><td class="memItemLeft">virtual <a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f">Nebula.Game.FrameEvent</a>[]&#160;</td><td class="memItemRight"><a class="el" href="#a5daea934bc171ff25ef67114681238d7">AcceptedEvents</a> ()</td></tr>
 <tr class="memdesc:a5daea934bc171ff25ef67114681238d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override in subclass to tell the property manager which methods to call for this class.  <br /></td></tr>
+<tr class="memitem:a49c2a6aaabc15d8d603e2a978580ac05" id="r_a49c2a6aaabc15d8d603e2a978580ac05"><td class="memItemLeft">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a>&#160;</td><td class="memItemRight"><a class="el" href="#a49c2a6aaabc15d8d603e2a978580ac05">FixedTimeSource</a> ()</td></tr>
+<tr class="memdesc:a49c2a6aaabc15d8d603e2a978580ac05"><td class="mdescLeft">&#160;</td><td class="mdescRight">The time source this property's fixed events run on.  <br /></td></tr>
 <tr class="memitem:a15ab44b1b8a2489ffec5e65d08a2c628" id="r_a15ab44b1b8a2489ffec5e65d08a2c628"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a15ab44b1b8a2489ffec5e65d08a2c628">OnMessage</a> (in <a class="el" href="interface_nebula_1_1_game_1_1_msg.html">Msg</a> msg)</td></tr>
 <tr class="memdesc:a15ab44b1b8a2489ffec5e65d08a2c628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a message is sent to the property's associated entity.  <br /></td></tr>
 <tr class="memitem:ad8930b48e3a15445846f2a5ab8fe9170" id="r_ad8930b48e3a15445846f2a5ab8fe9170"><td class="memItemLeft">override string&#160;</td><td class="memItemRight"><a class="el" href="#ad8930b48e3a15445846f2a5ab8fe9170">ToString</a> ()</td></tr>
@@ -128,6 +130,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5f206384f8f586209a2d2c47cf590527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the property is detached from an entity, or when <a class="el" href="#ae6bcf2a1519bb757d33681ecea357da8" title="Activate or deactivate property This is not trivial and can potentially be costly.">Property.Active</a> is changed to false.  <br /></td></tr>
 <tr class="memitem:ab940a2cc0953a34182becb0d572ac6f6" id="r_ab940a2cc0953a34182becb0d572ac6f6"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#ab940a2cc0953a34182becb0d572ac6f6">OnBeginFrame</a> ()</td></tr>
 <tr class="memdesc:ab940a2cc0953a34182becb0d572ac6f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once every frame at the beginning of the frame.  <br /></td></tr>
+<tr class="memitem:a2be51785cfe6728cb9700a02ea0c162a" id="r_a2be51785cfe6728cb9700a02ea0c162a"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a2be51785cfe6728cb9700a02ea0c162a">OnFixedFrame</a> ()</td></tr>
+<tr class="memdesc:a2be51785cfe6728cb9700a02ea0c162a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once for every fixed step the time source has available this frame.  <br /></td></tr>
 <tr class="memitem:a3b2ff5ae87dc6223f57b92ab283beb1e" id="r_a3b2ff5ae87dc6223f57b92ab283beb1e"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a3b2ff5ae87dc6223f57b92ab283beb1e">OnFrame</a> ()</td></tr>
 <tr class="memdesc:a3b2ff5ae87dc6223f57b92ab283beb1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called once every frame.  <br /></td></tr>
 <tr class="memitem:a5c268759642c2458c1b4d012503fa3c9" id="r_a5c268759642c2458c1b4d012503fa3c9"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#a5c268759642c2458c1b4d012503fa3c9">OnEndFrame</a> ()</td></tr>
@@ -142,6 +146,12 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pac-methods" class="groupheader"><a id="pac-methods" name="pac-methods"></a>
 Package Functions</h2></td></tr>
+<tr class="memitem:a47e85c746fc923cf81fcb48e655ad988" id="r_a47e85c746fc923cf81fcb48e655ad988"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a47e85c746fc923cf81fcb48e655ad988">IsSimulating</a> ()</td></tr>
+<tr class="memdesc:a47e85c746fc923cf81fcb48e655ad988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the property's world is simulating.  <br /></td></tr>
+<tr class="memitem:af1637aa701b25aad9ee3f92b1207d451" id="r_af1637aa701b25aad9ee3f92b1207d451"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af1637aa701b25aad9ee3f92b1207d451">Activate</a> ()</td></tr>
+<tr class="memdesc:af1637aa701b25aad9ee3f92b1207d451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs OnActivate and records that it has run.  <br /></td></tr>
+<tr class="memitem:a9f87c04c9ac6484d92afb0344e16dd5b" id="r_a9f87c04c9ac6484d92afb0344e16dd5b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9f87c04c9ac6484d92afb0344e16dd5b">Deactivate</a> ()</td></tr>
+<tr class="memdesc:a9f87c04c9ac6484d92afb0344e16dd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs OnDeactivate for a property that was activated.  <br /></td></tr>
 <tr class="memitem:a8ad4fe24c9c806568ecb3fd1528c78d1" id="r_a8ad4fe24c9c806568ecb3fd1528c78d1"><td class="memItemLeft"><a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f">FrameEvent</a>[]&#160;</td><td class="memItemRight"><a class="el" href="#a8ad4fe24c9c806568ecb3fd1528c78d1">GetAcceptedEvents</a> ()</td></tr>
 <tr class="memitem:abe74dc1b1419ca53921079a2aa2bbc7a" id="r_abe74dc1b1419ca53921079a2aa2bbc7a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abe74dc1b1419ca53921079a2aa2bbc7a">AttachMessages</a> ()</td></tr>
 <tr class="memitem:a39d1edf2b9e177f9da382252accbedf1" id="r_a39d1edf2b9e177f9da382252accbedf1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a39d1edf2b9e177f9da382252accbedf1">DetachMessages</a> ()</td></tr>
@@ -150,15 +160,16 @@ Package Functions</h2></td></tr>
 Properties</h2></td></tr>
 <tr class="memitem:ae6bcf2a1519bb757d33681ecea357da8" id="r_ae6bcf2a1519bb757d33681ecea357da8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae6bcf2a1519bb757d33681ecea357da8">Active</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ae6bcf2a1519bb757d33681ecea357da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activate or deactivate property This is not trivial and can potentially be costly.  <br /></td></tr>
+<tr class="memitem:ade2d129a658dffd66682ff0e5222c0a7" id="r_ade2d129a658dffd66682ff0e5222c0a7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ade2d129a658dffd66682ff0e5222c0a7">RequestedActive</a><code> [get]</code></td></tr>
+<tr class="memdesc:ade2d129a658dffd66682ff0e5222c0a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">What the property was asked to be, which is what a world that starts simulating activates its properties from.  <br /></td></tr>
 <tr class="memitem:a2c4ea73ff05ad3cad3693b45461fab47" id="r_a2c4ea73ff05ad3cad3693b45461fab47"><td class="memItemLeft">Entity&#160;</td><td class="memItemRight"><a class="el" href="#a2c4ea73ff05ad3cad3693b45461fab47">Entity</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a2c4ea73ff05ad3cad3693b45461fab47"><td class="mdescLeft">&#160;</td><td class="mdescRight">The entity that owns this property.  <br /></td></tr>
-<tr class="memitem:af2482a18588f9ff80119b47e7980c8aa" id="r_af2482a18588f9ff80119b47e7980c8aa"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#af2482a18588f9ff80119b47e7980c8aa">IsValid</a><code> [get]</code></td></tr>
-<tr class="memdesc:af2482a18588f9ff80119b47e7980c8aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the property is valid (attached to an entity).  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:acebee534bb7397709d605a9afd9e804d" id="r_acebee534bb7397709d605a9afd9e804d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acebee534bb7397709d605a9afd9e804d">active</a> = false</td></tr>
-<tr class="memitem:aadb292dac03184fb2f213b2d645d28ff" id="r_aadb292dac03184fb2f213b2d645d28ff"><td class="memItemLeft"><a class="el" href="#a2c4ea73ff05ad3cad3693b45461fab47">Entity</a>&#160;</td><td class="memItemRight"><a class="el" href="#aadb292dac03184fb2f213b2d645d28ff">entity</a> = null</td></tr>
+<tr class="memitem:a9a3f947b6f27965b3f93aebd17ba8d40" id="r_a9a3f947b6f27965b3f93aebd17ba8d40"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a9a3f947b6f27965b3f93aebd17ba8d40">requestedActive</a></td></tr>
+<tr class="memitem:acebee534bb7397709d605a9afd9e804d" id="r_acebee534bb7397709d605a9afd9e804d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#acebee534bb7397709d605a9afd9e804d">active</a></td></tr>
+<tr class="memitem:aadb292dac03184fb2f213b2d645d28ff" id="r_aadb292dac03184fb2f213b2d645d28ff"><td class="memItemLeft"><a class="el" href="#a2c4ea73ff05ad3cad3693b45461fab47">Entity</a>&#160;</td><td class="memItemRight"><a class="el" href="#aadb292dac03184fb2f213b2d645d28ff">entity</a></td></tr>
 <tr class="memitem:a93cce2d809556acd3bc3eaca921a97ff" id="r_a93cce2d809556acd3bc3eaca921a97ff"><td class="memItemLeft"><a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f">FrameEvent</a>[]&#160;</td><td class="memItemRight"><a class="el" href="#a93cce2d809556acd3bc3eaca921a97ff">acceptedEvents</a></td></tr>
 <tr class="memitem:aa5eea1881fd903c1216091609df176f8" id="r_aa5eea1881fd903c1216091609df176f8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa5eea1881fd903c1216091609df176f8">acceptedEventsCached</a></td></tr>
 </table>
@@ -190,6 +201,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af1637aa701b25aad9ee3f92b1207d451" name="af1637aa701b25aad9ee3f92b1207d451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1637aa701b25aad9ee3f92b1207d451">&#9670;&#160;</a></span>Activate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.Property.Activate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Runs OnActivate and records that it has run. </p>
+<p>Called by the setter when the world is simulating, and by the world when its mode changes to simulating </p>
+
+</div>
+</div>
 <a id="abe74dc1b1419ca53921079a2aa2bbc7a" name="abe74dc1b1419ca53921079a2aa2bbc7a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abe74dc1b1419ca53921079a2aa2bbc7a">&#9670;&#160;</a></span>AttachMessages()</h2>
 
@@ -212,6 +251,34 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f87c04c9ac6484d92afb0344e16dd5b" name="a9f87c04c9ac6484d92afb0344e16dd5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f87c04c9ac6484d92afb0344e16dd5b">&#9670;&#160;</a></span>Deactivate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.Property.Deactivate </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Runs OnDeactivate for a property that was activated. </p>
+<p>A property that was never activated has nothing to deactivate </p>
 
 </div>
 </div>
@@ -268,6 +335,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a49c2a6aaabc15d8d603e2a978580ac05" name="a49c2a6aaabc15d8d603e2a978580ac05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c2a6aaabc15d8d603e2a978580ac05">&#9670;&#160;</a></span>FixedTimeSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> Nebula.Game.Property.FixedTimeSource </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The time source this property's fixed events run on. </p>
+<p>Override in subclass to run on a fixed source of its own, such as the physics one. The default is the game logic source. </p>
+
+</div>
+</div>
 <a id="a8ad4fe24c9c806568ecb3fd1528c78d1" name="a8ad4fe24c9c806568ecb3fd1528c78d1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ad4fe24c9c806568ecb3fd1528c78d1">&#9670;&#160;</a></span>GetAcceptedEvents()</h2>
 
@@ -290,6 +385,33 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a47e85c746fc923cf81fcb48e655ad988" name="a47e85c746fc923cf81fcb48e655ad988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47e85c746fc923cf81fcb48e655ad988">&#9670;&#160;</a></span>IsSimulating()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nebula.Game.Property.IsSimulating </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the property's world is simulating. </p>
 
 </div>
 </div>
@@ -317,7 +439,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called when the property is attached to an entity, or when <a class="el" href="#ae6bcf2a1519bb757d33681ecea357da8" title="Activate or deactivate property This is not trivial and can potentially be costly.">Property.Active</a> is changed to true. </p>
-<p>Override in subclass. </p>
+<p>Override in subclass. This only happens in a world that is simulating. A property in a world the editor is only authoring is not running, so its activation waits for the world to start simulating. </p>
 
 </div>
 </div>
@@ -345,7 +467,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called once every frame at the beginning of the frame. </p>
-<p>Override in subclass. The property AcceptedEvents must return the <a class="el" href="class_threading_1_1_event.html">Event</a> code for this method to be called at all. </p>
+<p>Override in subclass. The property AcceptedEvents must return the <a class="el" href="class_threading_1_1_event.html">Event</a> code for this method to be called at all, and the property has to be active, which only happens in a world that is simulating. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#a5daea934bc171ff25ef67114681238d7" title="Override in subclass to tell the property manager which methods to call for this class.">AcceptedEvents()</a></dd></dl>
 
 </div>
@@ -374,7 +496,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called when the property is detached from an entity, or when <a class="el" href="#ae6bcf2a1519bb757d33681ecea357da8" title="Activate or deactivate property This is not trivial and can potentially be costly.">Property.Active</a> is changed to false. </p>
-<p>Override in subclass. </p>
+<p>Override in subclass. Only called for a property that was activated, and when its world stops simulating. </p>
 
 </div>
 </div>
@@ -402,8 +524,37 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called once every frame at the end of the frame. </p>
-<p>Override in subclass. The property AcceptedEvents must return the <a class="el" href="class_threading_1_1_event.html">Event</a> code for this method to be called at all. </p>
+<p>Override in subclass. The property AcceptedEvents must return the <a class="el" href="class_threading_1_1_event.html">Event</a> code for this method to be called at all, and the property has to be active, which only happens in a world that is simulating. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#a5daea934bc171ff25ef67114681238d7" title="Override in subclass to tell the property manager which methods to call for this class.">AcceptedEvents()</a></dd></dl>
+
+</div>
+</div>
+<a id="a2be51785cfe6728cb9700a02ea0c162a" name="a2be51785cfe6728cb9700a02ea0c162a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2be51785cfe6728cb9700a02ea0c162a">&#9670;&#160;</a></span>OnFixedFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Nebula.Game.Property.OnFixedFrame </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called once for every fixed step the time source has available this frame. </p>
+<p>Override in subclass. The property AcceptedEvents must return the <a class="el" href="class_threading_1_1_event.html">Event</a> code for this method to be called at all, and the property has to be active, which only happens in a world that is simulating. A source with no fixed step gives one call per frame. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="#a5daea934bc171ff25ef67114681238d7" title="Override in subclass to tell the property manager which methods to call for this class.">AcceptedEvents()</a>, <a class="el" href="#a49c2a6aaabc15d8d603e2a978580ac05" title="The time source this property&#39;s fixed events run on.">FixedTimeSource()</a></dd></dl>
 
 </div>
 </div>
@@ -431,7 +582,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called once every frame. </p>
-<p>Override in subclass. The property AcceptedEvents must return the <a class="el" href="class_threading_1_1_event.html">Event</a> code for this method to be called at all. </p>
+<p>Override in subclass. The property AcceptedEvents must return the <a class="el" href="class_threading_1_1_event.html">Event</a> code for this method to be called at all, and the property has to be active, which only happens in a world that is simulating. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="#a5daea934bc171ff25ef67114681238d7" title="Override in subclass to tell the property manager which methods to call for this class.">AcceptedEvents()</a></dd></dl>
 
 </div>
@@ -460,6 +611,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Called when a message is sent to the property's associated entity. </p>
+<p>Only called for a property in a world that is simulating, which is the same rule the update methods have </p>
 
 </div>
 </div>
@@ -603,7 +755,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Nebula.Game.Property.active = false</td>
+          <td class="memname">bool Nebula.Game.Property.active</td>
         </tr>
       </table>
   </td>
@@ -625,7 +777,29 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="#a2c4ea73ff05ad3cad3693b45461fab47">Entity</a> Nebula.Game.Property.entity = null</td>
+          <td class="memname"><a class="el" href="#a2c4ea73ff05ad3cad3693b45461fab47">Entity</a> Nebula.Game.Property.entity</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a3f947b6f27965b3f93aebd17ba8d40" name="a9a3f947b6f27965b3f93aebd17ba8d40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a3f947b6f27965b3f93aebd17ba8d40">&#9670;&#160;</a></span>requestedActive</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nebula.Game.Property.requestedActive</td>
         </tr>
       </table>
   </td>
@@ -659,6 +833,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Activate or deactivate property This is not trivial and can potentially be costly. </p>
+<p>The value is whether the property is really running, which is the result of OnActivate having been called. When the world is not simulating the setter only records the intent, and the activation happens when the world starts simulating. </p>
 
 </div>
 </div>
@@ -687,8 +862,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af2482a18588f9ff80119b47e7980c8aa" name="af2482a18588f9ff80119b47e7980c8aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2482a18588f9ff80119b47e7980c8aa">&#9670;&#160;</a></span>IsValid</h2>
+<a id="ade2d129a658dffd66682ff0e5222c0a7" name="ade2d129a658dffd66682ff0e5222c0a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade2d129a658dffd66682ff0e5222c0a7">&#9670;&#160;</a></span>RequestedActive</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -697,17 +872,17 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Nebula.Game.Property.IsValid</td>
+          <td class="memname">bool Nebula.Game.Property.RequestedActive</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel get">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel get">get</span><span class="mlabel package">package</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if the property is valid (attached to an entity). </p>
+<p>What the property was asked to be, which is what a world that starts simulating activates its properties from. </p>
 
 </div>
 </div>

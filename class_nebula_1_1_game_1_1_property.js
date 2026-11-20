@@ -1,14 +1,19 @@
 var class_nebula_1_1_game_1_1_property =
 [
     [ "AcceptedEvents", "class_nebula_1_1_game_1_1_property.html#a5daea934bc171ff25ef67114681238d7", null ],
+    [ "Activate", "class_nebula_1_1_game_1_1_property.html#af1637aa701b25aad9ee3f92b1207d451", null ],
     [ "AttachMessages", "class_nebula_1_1_game_1_1_property.html#abe74dc1b1419ca53921079a2aa2bbc7a", null ],
+    [ "Deactivate", "class_nebula_1_1_game_1_1_property.html#a9f87c04c9ac6484d92afb0344e16dd5b", null ],
     [ "Destroy", "class_nebula_1_1_game_1_1_property.html#a041e69c99baa1ded033eead5d9c82aba", null ],
     [ "DetachMessages", "class_nebula_1_1_game_1_1_property.html#a39d1edf2b9e177f9da382252accbedf1", null ],
+    [ "FixedTimeSource", "class_nebula_1_1_game_1_1_property.html#a49c2a6aaabc15d8d603e2a978580ac05", null ],
     [ "GetAcceptedEvents", "class_nebula_1_1_game_1_1_property.html#a8ad4fe24c9c806568ecb3fd1528c78d1", null ],
+    [ "IsSimulating", "class_nebula_1_1_game_1_1_property.html#a47e85c746fc923cf81fcb48e655ad988", null ],
     [ "OnActivate", "class_nebula_1_1_game_1_1_property.html#a585e470e8af996e18b99328bde0c08e1", null ],
     [ "OnBeginFrame", "class_nebula_1_1_game_1_1_property.html#ab940a2cc0953a34182becb0d572ac6f6", null ],
     [ "OnDeactivate", "class_nebula_1_1_game_1_1_property.html#a5f206384f8f586209a2d2c47cf590527", null ],
     [ "OnEndFrame", "class_nebula_1_1_game_1_1_property.html#a5c268759642c2458c1b4d012503fa3c9", null ],
+    [ "OnFixedFrame", "class_nebula_1_1_game_1_1_property.html#a2be51785cfe6728cb9700a02ea0c162a", null ],
     [ "OnFrame", "class_nebula_1_1_game_1_1_property.html#a3b2ff5ae87dc6223f57b92ab283beb1e", null ],
     [ "OnMessage", "class_nebula_1_1_game_1_1_property.html#a15ab44b1b8a2489ffec5e65d08a2c628", null ],
     [ "RegisterMessage< T >", "class_nebula_1_1_game_1_1_property.html#a6fae5b47028dbd43e0746f0bfeacc115", null ],
@@ -18,7 +23,8 @@ var class_nebula_1_1_game_1_1_property =
     [ "acceptedEventsCached", "class_nebula_1_1_game_1_1_property.html#aa5eea1881fd903c1216091609df176f8", null ],
     [ "active", "class_nebula_1_1_game_1_1_property.html#acebee534bb7397709d605a9afd9e804d", null ],
     [ "entity", "class_nebula_1_1_game_1_1_property.html#aadb292dac03184fb2f213b2d645d28ff", null ],
+    [ "requestedActive", "class_nebula_1_1_game_1_1_property.html#a9a3f947b6f27965b3f93aebd17ba8d40", null ],
     [ "Active", "class_nebula_1_1_game_1_1_property.html#ae6bcf2a1519bb757d33681ecea357da8", null ],
     [ "Entity", "class_nebula_1_1_game_1_1_property.html#a2c4ea73ff05ad3cad3693b45461fab47", null ],
-    [ "IsValid", "class_nebula_1_1_game_1_1_property.html#af2482a18588f9ff80119b47e7980c8aa", null ]
+    [ "RequestedActive", "class_nebula_1_1_game_1_1_property.html#ade2d129a658dffd66682ff0e5222c0a7", null ]
 ];

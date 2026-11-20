@@ -117,7 +117,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_util_1_1
 <p><code>#include &lt;<a class="el" href="arrayallocatorsafe_8h_source.html">arrayallocatorsafe.h</a>&gt;</code></p>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> MAX_ALLOCS = 0xFFFF, class ... TYPES&gt;<br />
-class Util::ArrayAllocatorSafe&lt; MAX_ALLOCS, TYPES &gt;</div><p>The <a class="el" href="class_util_1_1_array_allocator_safe.html" title="The ArrayAllocatorSafe provides a thread safe variadic list of types which is to be contained in the ...">ArrayAllocatorSafe</a> provides a thread safe variadic list of types which is to be contained in the allocator and fetching each value by providing the index into the list of types, which means the members are nameless. </p>
+class Util::ArrayAllocatorSafe&lt; MAX_ALLOCS, TYPES &gt;</div><p>The <a class="el" href="class_util_1_1_array_allocator_safe.html" title="The ArrayAllocatorSafe provides a thread safe variadic list of types which is to be contained in the ...">ArrayAllocatorSafe</a> provides a thread safe variadic list of types which is to be contained in the allocator and fetching each value by providing the index into the list of types. </p>
+<p><a class="el" href="class_util_1_1_named_slot.html">NamedSlot</a> can be used to associate a compile-time name with a type and fetch it by that name instead.</p>
 <p>Note that this is not a container for multiple arrays, but a object allocator that uses multiple arrays to store their variables parallelly, and should be treated as such.</p>
 <p>There are two versions of this type, an unsafe and a safe one. Both are implemented in the same way.</p>
 <p>The thread safe allocator requires the Get-methods to be within an Enter/Leave lockstep phase.</p>
@@ -145,22 +146,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab22bc6855d69f5f5850148898e466c01" id="r_ab22bc6855d69f5f5850148898e466c01"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab22bc6855d69f5f5850148898e466c01">EraseIndexSwap</a> (const uint32_t id)</td></tr>
 <tr class="memdesc:ab22bc6855d69f5f5850148898e466c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erase element for each.  <br /></td></tr>
 <tr class="memitem:a9c2a9e31e0f2c88c4167dbb6f14d7d78" id="r_a9c2a9e31e0f2c88c4167dbb6f14d7d78"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
-<tr class="memitem:a9c2a9e31e0f2c88c4167dbb6f14d7d78 template"><td class="memItemLeft"><a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a9c2a9e31e0f2c88c4167dbb6f14d7d78">Get</a> (const uint32_t index)</td></tr>
+<tr class="memitem:a9c2a9e31e0f2c88c4167dbb6f14d7d78 template"><td class="memItemLeft"><a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a9c2a9e31e0f2c88c4167dbb6f14d7d78">Get</a> (const uint32_t index)</td></tr>
 <tr class="memdesc:a9c2a9e31e0f2c88c4167dbb6f14d7d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">get single item from resource  <br /></td></tr>
 <tr class="memitem:a39368afb16d00faffcdafbcc3c59bc6e" id="r_a39368afb16d00faffcdafbcc3c59bc6e"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
-<tr class="memitem:a39368afb16d00faffcdafbcc3c59bc6e template"><td class="memItemLeft">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a39368afb16d00faffcdafbcc3c59bc6e">ConstGet</a> (const uint32_t index) const</td></tr>
+<tr class="memitem:a39368afb16d00faffcdafbcc3c59bc6e template"><td class="memItemLeft">const <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a39368afb16d00faffcdafbcc3c59bc6e">ConstGet</a> (const uint32_t index) const</td></tr>
 <tr class="memdesc:a39368afb16d00faffcdafbcc3c59bc6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get const explicitly.  <br /></td></tr>
 <tr class="memitem:ad1a0ea47fe7c215e7e3ab31c254d9d1c" id="r_ad1a0ea47fe7c215e7e3ab31c254d9d1c"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
-<tr class="memitem:ad1a0ea47fe7c215e7e3ab31c254d9d1c template"><td class="memItemLeft">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ad1a0ea47fe7c215e7e3ab31c254d9d1c">Get</a> (const uint32_t index) const</td></tr>
+<tr class="memitem:ad1a0ea47fe7c215e7e3ab31c254d9d1c template"><td class="memItemLeft">const <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ad1a0ea47fe7c215e7e3ab31c254d9d1c">Get</a> (const uint32_t index) const</td></tr>
 <tr class="memdesc:ad1a0ea47fe7c215e7e3ab31c254d9d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as 32 bit get, but const  <br /></td></tr>
 <tr class="memitem:a7f62cf236a19c76d5e1ae6d83602fb42" id="r_a7f62cf236a19c76d5e1ae6d83602fb42"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
-<tr class="memitem:a7f62cf236a19c76d5e1ae6d83602fb42 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7f62cf236a19c76d5e1ae6d83602fb42">Set</a> (const uint32_t index, const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;type)</td></tr>
+<tr class="memitem:a7f62cf236a19c76d5e1ae6d83602fb42 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7f62cf236a19c76d5e1ae6d83602fb42">Set</a> (const uint32_t index, const <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;type)</td></tr>
 <tr class="memdesc:a7f62cf236a19c76d5e1ae6d83602fb42"><td class="mdescLeft">&#160;</td><td class="mdescRight">set single item  <br /></td></tr>
 <tr class="memitem:ab3c9ce81386ce1cc310ea6319fcec025" id="r_ab3c9ce81386ce1cc310ea6319fcec025"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
-<tr class="memitem:ab3c9ce81386ce1cc310ea6319fcec025 template"><td class="memItemLeft">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ab3c9ce81386ce1cc310ea6319fcec025">GetArray</a> () const</td></tr>
+<tr class="memitem:ab3c9ce81386ce1cc310ea6319fcec025 template"><td class="memItemLeft">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ab3c9ce81386ce1cc310ea6319fcec025">GetArray</a> () const</td></tr>
 <tr class="memdesc:ab3c9ce81386ce1cc310ea6319fcec025"><td class="mdescLeft">&#160;</td><td class="mdescRight">get array const reference  <br /></td></tr>
 <tr class="memitem:a8ad03b9209cbaa5e368d442cf3941ea4" id="r_a8ad03b9209cbaa5e368d442cf3941ea4"><td class="memTemplParams" colspan="2">template&lt;int MEMBER&gt; </td></tr>
-<tr class="memitem:a8ad03b9209cbaa5e368d442cf3941ea4 template"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a8ad03b9209cbaa5e368d442cf3941ea4">GetArray</a> ()</td></tr>
+<tr class="memitem:a8ad03b9209cbaa5e368d442cf3941ea4 template"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a8ad03b9209cbaa5e368d442cf3941ea4">GetArray</a> ()</td></tr>
 <tr class="memdesc:a8ad03b9209cbaa5e368d442cf3941ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get array  <br /></td></tr>
 <tr class="memitem:a1bbc072b5e2c3cd94f162e6e0586cdb0" id="r_a1bbc072b5e2c3cd94f162e6e0586cdb0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1bbc072b5e2c3cd94f162e6e0586cdb0">Set</a> (const uint32_t index, TYPES...)</td></tr>
 <tr class="memdesc:a1bbc072b5e2c3cd94f162e6e0586cdb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">set for each in tuple  <br /></td></tr>
@@ -182,7 +183,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a0becee333fe7147060d5fd3ebd7caeda" id="r_a0becee333fe7147060d5fd3ebd7caeda"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a0becee333fe7147060d5fd3ebd7caeda">size</a></td></tr>
-<tr class="memitem:a9cac7bfbe2cdc99f66bd9c511138c83b" id="r_a9cac7bfbe2cdc99f66bd9c511138c83b"><td class="memItemLeft">std::tuple&lt; <a class="el" href="class_util_1_1_pinned_array.html">Util::PinnedArray</a>&lt; MAX_ALLOCS, TYPES &gt;... &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9cac7bfbe2cdc99f66bd9c511138c83b">objects</a></td></tr>
+<tr class="memitem:afab29d29134dd4fe55f7ce7ee0ade11f" id="r_afab29d29134dd4fe55f7ce7ee0ade11f"><td class="memItemLeft">std::tuple&lt; <a class="el" href="class_util_1_1_pinned_array.html">Util::PinnedArray</a>&lt; MAX_ALLOCS, <a class="el" href="namespace_util.html#a12a00e2b623e1b61926220f252abd780">soa_value_type_t</a>&lt; TYPES &gt; &gt;... &gt;&#160;</td><td class="memItemRight"><a class="el" href="#afab29d29134dd4fe55f7ce7ee0ade11f">objects</a></td></tr>
 <tr class="memitem:a99b2743209da0f914e565066e0b7b845" id="r_a99b2743209da0f914e565066e0b7b845"><td class="memItemLeft"><a class="el" href="class_util_1_1_pinned_array.html">Util::PinnedArray</a>&lt; MAX_ALLOCS, <a class="el" href="namespace_threading.html#a5a3ee688d0de0946e6d8f66b15736b86">Threading::ThreadId</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a99b2743209da0f914e565066e0b7b845">owners</a></td></tr>
 <tr class="memitem:a559ff8f8ac6a646cdd7a505d6a3dad35" id="r_a559ff8f8ac6a646cdd7a505d6a3dad35"><td class="memItemLeft"><a class="el" href="class_threading_1_1_spinlock.html">Threading::Spinlock</a>&#160;</td><td class="memItemRight"><a class="el" href="#a559ff8f8ac6a646cdd7a505d6a3dad35">allocationLock</a></td></tr>
 </table>
@@ -398,7 +399,7 @@ template&lt;int MEMBER&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::ConstGet </td>
+          <td class="memname">const <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::ConstGet </td>
           <td>(</td>
           <td class="paramtype">const uint32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td> const</td>
@@ -487,7 +488,7 @@ template&lt;int MEMBER&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::Get </td>
+          <td class="memname"><a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::Get </td>
           <td>(</td>
           <td class="paramtype">const uint32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td></td>
@@ -518,7 +519,7 @@ template&lt;int MEMBER&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::Get </td>
+          <td class="memname">const <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::Get </td>
           <td>(</td>
           <td class="paramtype">const uint32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
           <td> const</td>
@@ -549,7 +550,7 @@ template&lt;int MEMBER&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::GetArray </td>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::GetArray </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -580,7 +581,7 @@ template&lt;int MEMBER&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::GetArray </td>
+          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &gt; &amp; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::GetArray </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
@@ -726,7 +727,7 @@ template&lt;int MEMBER&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespace_util.html#a727242ef4571513f2628ad972baf2183">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="namespace_util.html#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a>&lt; MEMBER, TYPES... &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -862,8 +863,8 @@ template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14"
 
 </div>
 </div>
-<a id="a9cac7bfbe2cdc99f66bd9c511138c83b" name="a9cac7bfbe2cdc99f66bd9c511138c83b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cac7bfbe2cdc99f66bd9c511138c83b">&#9670;&#160;</a></span>objects</h2>
+<a id="afab29d29134dd4fe55f7ce7ee0ade11f" name="afab29d29134dd4fe55f7ce7ee0ade11f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab29d29134dd4fe55f7ce7ee0ade11f">&#9670;&#160;</a></span>objects</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -874,7 +875,7 @@ template&lt;<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14"
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::tuple&lt;<a class="el" href="class_util_1_1_pinned_array.html">Util::PinnedArray</a>&lt;MAX_ALLOCS, TYPES&gt;...&gt; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::objects</td>
+          <td class="memname">std::tuple&lt;<a class="el" href="class_util_1_1_pinned_array.html">Util::PinnedArray</a>&lt;MAX_ALLOCS, <a class="el" href="namespace_util.html#a12a00e2b623e1b61926220f252abd780">soa_value_type_t</a>&lt;TYPES&gt; &gt;...&gt; <a class="el" href="class_util_1_1_array_allocator_safe.html">Util::ArrayAllocatorSafe</a>&lt; MAX_ALLOCS, TYPES &gt;::objects</td>
         </tr>
       </table>
   </td>

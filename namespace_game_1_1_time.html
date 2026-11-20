@@ -123,6 +123,12 @@ Functions</h2></td></tr>
 <tr class="memdesc:a29f32e4e3946b84849f22fb6ef505470"><td class="mdescLeft">&#160;</td><td class="mdescRight">create a timesource. The global time manager handles the timesources.  <br /></td></tr>
 <tr class="memitem:aeb1fa870d1519db57e65d3ce34d872c1" id="r_aeb1fa870d1519db57e65d3ce34d872c1"><td class="memItemLeft"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *const&#160;</td><td class="memItemRight"><a class="el" href="#aeb1fa870d1519db57e65d3ce34d872c1">GetTimeSource</a> (uint32_t TIMESOURCE_HASH)</td></tr>
 <tr class="memdesc:aeb1fa870d1519db57e65d3ce34d872c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">get a time source by hash  <br /></td></tr>
+<tr class="memitem:a34ccd6418ee29974a5d347074faa9dad" id="r_a34ccd6418ee29974a5d347074faa9dad"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a34ccd6418ee29974a5d347074faa9dad">GetNumTimeSources</a> ()</td></tr>
+<tr class="memdesc:a34ccd6418ee29974a5d347074faa9dad"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many time sources have been created  <br /></td></tr>
+<tr class="memitem:abe60e6e3b2babad66d78197f5b1f7faa" id="r_abe60e6e3b2babad66d78197f5b1f7faa"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#abe60e6e3b2babad66d78197f5b1f7faa">HasTimeSource</a> (uint32_t TIMESOURCE_HASH)</td></tr>
+<tr class="memdesc:abe60e6e3b2babad66d78197f5b1f7faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">true when a time source with this hash exists. GetTimeSource asserts on one that does not  <br /></td></tr>
+<tr class="memitem:aba57247d7b1786a50f68161a7159a37b" id="r_aba57247d7b1786a50f68161a7159a37b"><td class="memItemLeft"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *const&#160;</td><td class="memItemRight"><a class="el" href="#aba57247d7b1786a50f68161a7159a37b">GetTimeSourceByIndex</a> (uint32_t index)</td></tr>
+<tr class="memdesc:aba57247d7b1786a50f68161a7159a37b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the time source at an index. The hash table only maps hash to index, so this is what enumerates them  <br /></td></tr>
 <tr class="memitem:a8bbec80ba5d33bf0e03ae758501d6755" id="r_a8bbec80ba5d33bf0e03ae758501d6755"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a8bbec80ba5d33bf0e03ae758501d6755">SetGlobalTimeFactor</a> (float factor)</td></tr>
 <tr class="memdesc:a8bbec80ba5d33bf0e03ae758501d6755"><td class="mdescLeft">&#160;</td><td class="mdescRight">set global time scale. This should be used sparingly. You can usually set individual time sources time factor instead.  <br /></td></tr>
 <tr class="memitem:af53a59836f71c8772f25f2c726422b62" id="r_af53a59836f71c8772f25f2c726422b62"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#af53a59836f71c8772f25f2c726422b62">GetGlobalTimeFactor</a> ()</td></tr>
@@ -258,6 +264,25 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a34ccd6418ee29974a5d347074faa9dad" name="a34ccd6418ee29974a5d347074faa9dad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ccd6418ee29974a5d347074faa9dad">&#9670;&#160;</a></span>GetNumTimeSources()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t Game::Time::GetNumTimeSources </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>how many time sources have been created </p>
+
+</div>
+</div>
 <a id="aeb1fa870d1519db57e65d3ce34d872c1" name="aeb1fa870d1519db57e65d3ce34d872c1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeb1fa870d1519db57e65d3ce34d872c1">&#9670;&#160;</a></span>GetTimeSource()</h2>
 
@@ -274,6 +299,44 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get a time source by hash </p>
+
+</div>
+</div>
+<a id="aba57247d7b1786a50f68161a7159a37b" name="aba57247d7b1786a50f68161a7159a37b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba57247d7b1786a50f68161a7159a37b">&#9670;&#160;</a></span>GetTimeSourceByIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_game_1_1_time_source.html">TimeSource</a> *const Game::Time::GetTimeSourceByIndex </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the time source at an index. The hash table only maps hash to index, so this is what enumerates them </p>
+
+</div>
+</div>
+<a id="abe60e6e3b2babad66d78197f5b1f7faa" name="abe60e6e3b2babad66d78197f5b1f7faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe60e6e3b2babad66d78197f5b1f7faa">&#9670;&#160;</a></span>HasTimeSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Game::Time::HasTimeSource </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>TIMESOURCE_HASH</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>true when a time source with this hash exists. GetTimeSource asserts on one that does not </p>
 
 </div>
 </div>

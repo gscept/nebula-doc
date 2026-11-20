@@ -136,13 +136,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a89a882ab0873eb1c66fade38b48a7107"><td class="mdescLeft">&#160;</td><td class="mdescRight">open the script server  <br /></td></tr>
 <tr class="memitem:a71e4460527ca258b958749de82b1aa87" id="r_a71e4460527ca258b958749de82b1aa87"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a71e4460527ca258b958749de82b1aa87">Close</a> ()</td></tr>
 <tr class="memdesc:a71e4460527ca258b958749de82b1aa87"><td class="mdescLeft">&#160;</td><td class="mdescRight">close the script server  <br /></td></tr>
-<tr class="memitem:a93cb3fd0d7bc44483bd65a4726c2b67d" id="r_a93cb3fd0d7bc44483bd65a4726c2b67d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a93cb3fd0d7bc44483bd65a4726c2b67d">SetDebuggingEnabled</a> (bool enabled)</td></tr>
-<tr class="memdesc:a93cb3fd0d7bc44483bd65a4726c2b67d"><td class="mdescLeft">&#160;</td><td class="mdescRight">enable debugging. this needs to be called before <a class="el" href="#a89a882ab0873eb1c66fade38b48a7107" title="open the script server">Open()</a>  <br /></td></tr>
-<tr class="memitem:a849b275d1edde02b293a6fbb3bec22c0" id="r_a849b275d1edde02b293a6fbb3bec22c0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a849b275d1edde02b293a6fbb3bec22c0">WaitForDebuggerToConnect</a> (bool enabled)</td></tr>
 <tr class="memitem:ae87ab3a5d3b73689efcf8dc07f9ef89e" id="r_ae87ab3a5d3b73689efcf8dc07f9ef89e"><td class="memItemLeft"><a class="el" href="struct_scripting_1_1_assembly_id.html">AssemblyId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae87ab3a5d3b73689efcf8dc07f9ef89e">LoadAssembly</a> (<a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> const &amp;uri)</td></tr>
 <tr class="memdesc:ae87ab3a5d3b73689efcf8dc07f9ef89e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load dotnet exe or DLL at path.  <br /></td></tr>
 <tr class="memitem:a956b086516e5082af25e926d7ef91589" id="r_a956b086516e5082af25e926d7ef91589"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a956b086516e5082af25e926d7ef91589">ExecUnmanagedCall</a> (<a class="el" href="struct_scripting_1_1_assembly_id.html">AssemblyId</a> assemblyId, <a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;function)</td></tr>
 <tr class="memdesc:a956b086516e5082af25e926d7ef91589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute function in an assembly. This is not very efficient and should not be used in place of delegates.  <br /></td></tr>
+<tr class="memitem:a14481c25bdef586b33caea1d4ae7f7e1" id="r_a14481c25bdef586b33caea1d4ae7f7e1"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a14481c25bdef586b33caea1d4ae7f7e1">ExecUnmanagedCall</a> (<a class="el" href="struct_scripting_1_1_assembly_id.html">AssemblyId</a> assemblyId, <a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;function, <a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;argument)</td></tr>
+<tr class="memdesc:a14481c25bdef586b33caea1d4ae7f7e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute a managed function with a UTF-8 string argument.  <br /></td></tr>
 <tr class="memitem:aaba8d3630a354e7fba843592cfec4ab2" id="r_aaba8d3630a354e7fba843592cfec4ab2"><td class="memItemLeft">bool const&#160;</td><td class="memItemRight"><a class="el" href="#aaba8d3630a354e7fba843592cfec4ab2">IsOpen</a> ()</td></tr>
 <tr class="memdesc:aaba8d3630a354e7fba843592cfec4ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if server is open.  <br /></td></tr>
 <tr class="memitem:af135969a186e65a622f08cd8112f88dd" id="r_af135969a186e65a622f08cd8112f88dd"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#af135969a186e65a622f08cd8112f88dd">GetDelegatePointer</a> (<a class="el" href="struct_scripting_1_1_assembly_id.html">AssemblyId</a> assemblyId, <a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;assemblyQualifiedFunctionName, <a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;assemblyQualifiedDelegateName)</td></tr>
@@ -186,9 +185,6 @@ Private Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a16858ec66fda01920a18e74504692d6a" id="r_a16858ec66fda01920a18e74504692d6a"><td class="memItemLeft"><a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt; <a class="el" href="struct_scripting_1_1_n_sharp_server_1_1_assembly.html">Assembly</a> * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a16858ec66fda01920a18e74504692d6a">assemblies</a></td></tr>
-<tr class="memitem:a145497ca1fb46859d3a99252fd04f0fa" id="r_a145497ca1fb46859d3a99252fd04f0fa"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a>, uint32_t &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a145497ca1fb46859d3a99252fd04f0fa">assemblyTable</a></td></tr>
-<tr class="memitem:ad4a0ef77dc61a2d46ddc6d19fb6de3f0" id="r_ad4a0ef77dc61a2d46ddc6d19fb6de3f0"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ad4a0ef77dc61a2d46ddc6d19fb6de3f0">debuggerEnabled</a></td></tr>
-<tr class="memitem:a0a5ea96c18f2184a2cab172765309474" id="r_a0a5ea96c18f2184a2cab172765309474"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0a5ea96c18f2184a2cab172765309474">waitForDebugger</a></td></tr>
 <tr class="memitem:a1369425feb3874f6d36ee9cbcb414c8d" id="r_a1369425feb3874f6d36ee9cbcb414c8d"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a1369425feb3874f6d36ee9cbcb414c8d">isOpen</a></td></tr>
 <tr class="memitem:a421d509c4ecbd11647e401f95f9ceda9" id="r_a421d509c4ecbd11647e401f95f9ceda9"><td class="memItemLeft"><a class="el" href="namespace_system.html#afeb8cc67f96af7a67ee3bdac62e6fb88">System::Library</a>&#160;</td><td class="memItemRight"><a class="el" href="#a421d509c4ecbd11647e401f95f9ceda9">hostfxr</a></td></tr>
 </table><table class="memberdecls">
@@ -315,7 +311,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>close the script server </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo</a></b></dt><dd>Unload assemblies and clear the assemblies array </dd></dl>
 
 </div>
 </div>
@@ -345,7 +340,7 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a id="a956b086516e5082af25e926d7ef91589" name="a956b086516e5082af25e926d7ef91589"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a956b086516e5082af25e926d7ef91589">&#9670;&#160;</a></span>ExecUnmanagedCall()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a956b086516e5082af25e926d7ef91589">&#9670;&#160;</a></span>ExecUnmanagedCall() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -364,6 +359,35 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Execute function in an assembly. This is not very efficient and should not be used in place of delegates. </p>
+<p>Function should be formatted as: "Namespace.Namespace.Class+NestedClass::Function()". </p>
+
+</div>
+</div>
+<a id="a14481c25bdef586b33caea1d4ae7f7e1" name="a14481c25bdef586b33caea1d4ae7f7e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14481c25bdef586b33caea1d4ae7f7e1">&#9670;&#160;</a></span>ExecUnmanagedCall() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Scripting::NSharpServer::ExecUnmanagedCall </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_scripting_1_1_assembly_id.html">AssemblyId</a></td>          <td class="paramname"><span class="paramname"><em>assemblyId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>function</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>argument</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Execute a managed function with a UTF-8 string argument. </p>
 <p>Function should be formatted as: "Namespace.Namespace.Class+NestedClass::Function()". </p>
 
 </div>
@@ -411,13 +435,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>assemblyQualifiedFunctionName</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>function</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Get a function pointer ([UnmanagedCallersOnly]) from an assembly. </p>
-<p>Function should be formatted as: "Namespace.Namespace.Class+NestedClass::Function()". </p>
+<p>Function should be formatted as: "Namespace.Namespace.Class+NestedClass::Function()" Resolved pointers are cached on the assembly so that the frame entry points do not have to be looked up through hostfxr every frame.</p>
+<p>A cached pointer is only valid while the assembly it came from stays loaded; the engine assembly is never unloaded, so its entry points survive a plugin reload. </p>
 
 </div>
 </div>
@@ -506,42 +531,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a93cb3fd0d7bc44483bd65a4726c2b67d" name="a93cb3fd0d7bc44483bd65a4726c2b67d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93cb3fd0d7bc44483bd65a4726c2b67d">&#9670;&#160;</a></span>SetDebuggingEnabled()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scripting::NSharpServer::SetDebuggingEnabled </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>enabled</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>enable debugging. this needs to be called before <a class="el" href="#a89a882ab0873eb1c66fade38b48a7107" title="open the script server">Open()</a> </p>
-
-</div>
-</div>
-<a id="a849b275d1edde02b293a6fbb3bec22c0" name="a849b275d1edde02b293a6fbb3bec22c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a849b275d1edde02b293a6fbb3bec22c0">&#9670;&#160;</a></span>WaitForDebuggerToConnect()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Scripting::NSharpServer::WaitForDebuggerToConnect </td>
-          <td>(</td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>enabled</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
 <a id="a16858ec66fda01920a18e74504692d6a" name="a16858ec66fda01920a18e74504692d6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16858ec66fda01920a18e74504692d6a">&#9670;&#160;</a></span>assemblies</h2>
@@ -554,50 +543,6 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_util_1_1_array_allocator.html">Util::ArrayAllocator</a>&lt;<a class="el" href="struct_scripting_1_1_n_sharp_server_1_1_assembly.html">Assembly</a>*&gt; Scripting::NSharpServer::assemblies</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a145497ca1fb46859d3a99252fd04f0fa" name="a145497ca1fb46859d3a99252fd04f0fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a145497ca1fb46859d3a99252fd04f0fa">&#9670;&#160;</a></span>assemblyTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>, uint32_t&gt; Scripting::NSharpServer::assemblyTable</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad4a0ef77dc61a2d46ddc6d19fb6de3f0" name="ad4a0ef77dc61a2d46ddc6d19fb6de3f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4a0ef77dc61a2d46ddc6d19fb6de3f0">&#9670;&#160;</a></span>debuggerEnabled</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Scripting::NSharpServer::debuggerEnabled</td>
         </tr>
       </table>
   </td>
@@ -642,28 +587,6 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">bool Scripting::NSharpServer::isOpen</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0a5ea96c18f2184a2cab172765309474" name="a0a5ea96c18f2184a2cab172765309474"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a5ea96c18f2184a2cab172765309474">&#9670;&#160;</a></span>waitForDebugger</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Scripting::NSharpServer::waitForDebugger</td>
         </tr>
       </table>
   </td>

@@ -124,11 +124,25 @@ Classes</h2></td></tr>
 <tr class="memitem:DotNET_5FAPI" id="r_DotNET_5FAPI"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_scripting_1_1_dot_n_e_t___a_p_i.html">DotNET_API</a></td></tr>
 <tr class="memitem:NSharpServer" id="r_NSharpServer"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_scripting_1_1_n_sharp_server.html">NSharpServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">C# backend for the <a class="el" href="namespace_nebula.html">Nebula</a> scripting subsystem.  <a href="class_scripting_1_1_n_sharp_server.html#details">More...</a><br /></td></tr>
+<tr class="memitem:PropertyLevelExtension" id="r_PropertyLevelExtension"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_scripting_1_1_property_level_extension.html">PropertyLevelExtension</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The level formats' contribution for managed properties.  <a href="class_scripting_1_1_property_level_extension.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ScriptFeatureUnit" id="r_ScriptFeatureUnit"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_scripting_1_1_script_feature_unit.html">ScriptFeatureUnit</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-typedef-members" class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a504027b89f8942b24c9abd372bd7a04d" id="r_a504027b89f8942b24c9abd372bd7a04d"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a504027b89f8942b24c9abd372bd7a04d">DotNetString</a> = std::string</td></tr>
+<tr class="memitem:a9acca5da603b3f21741748433711d5d4" id="r_a9acca5da603b3f21741748433711d5d4"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#a9acca5da603b3f21741748433711d5d4">SerializePropertiesFn</a>(uint64_t, void *, int)</td></tr>
+<tr class="memitem:ad894f2c7194299c515cfd3fb793c7d65" id="r_ad894f2c7194299c515cfd3fb793c7d65"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#ad894f2c7194299c515cfd3fb793c7d65">ApplyPropertiesFn</a>(uint64_t, const char *, int)</td></tr>
+<tr class="memitem:afaf06f61c35f86928c7c65c4e8079d7e" id="r_afaf06f61c35f86928c7c65c4e8079d7e"><td class="memItemLeft">typedef void(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#afaf06f61c35f86928c7c65c4e8079d7e">DrawPropertiesFn</a>(uint64_t)</td></tr>
+<tr class="memitem:a5c0e18212ac5c2b5ef466a4a381e946e" id="r_a5c0e18212ac5c2b5ef466a4a381e946e"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#a5c0e18212ac5c2b5ef466a4a381e946e">HasPropertyFn</a>(uint64_t, const char *, int)</td></tr>
+<tr class="memitem:a07aa446769bfc65fca15783f59ed5ba5" id="r_a07aa446769bfc65fca15783f59ed5ba5"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#a07aa446769bfc65fca15783f59ed5ba5">DefaultPropertyJsonFn</a>(const char *, int, void *, int)</td></tr>
+<tr class="memitem:a1912ddcdca87a8f9a87d0dd89d79e260" id="r_a1912ddcdca87a8f9a87d0dd89d79e260"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#a1912ddcdca87a8f9a87d0dd89d79e260">SerializeKeysFn</a>(uint64_t, const char *, int, void *, int)</td></tr>
+<tr class="memitem:ac17f73c4b0cb72107b06d18f02b33c57" id="r_ac17f73c4b0cb72107b06d18f02b33c57"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#ac17f73c4b0cb72107b06d18f02b33c57">JsonKeysFn</a>(const char *, int, void *, int)</td></tr>
+<tr class="memitem:aaf6bce8e239ca56bfdefb002eca1d12e" id="r_aaf6bce8e239ca56bfdefb002eca1d12e"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#aaf6bce8e239ca56bfdefb002eca1d12e">MergeJsonFn</a>(const char *, int, const char *, int, void *, int)</td></tr>
+<tr class="memitem:a9e43319096329bce0934396454e26eb2" id="r_a9e43319096329bce0934396454e26eb2"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#a9e43319096329bce0934396454e26eb2">ResolveJsonFn</a>(const char *, int, const char *, int, void *, int)</td></tr>
+<tr class="memitem:aecd8d1766cf5ef7a920f05d4ddc39d2d" id="r_aecd8d1766cf5ef7a920f05d4ddc39d2d"><td class="memItemLeft">typedef void(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#aecd8d1766cf5ef7a920f05d4ddc39d2d">SetRefContextFn</a>(const char *, int)</td></tr>
+<tr class="memitem:a1ef01c5c294b481097a77c3df8144b59" id="r_a1ef01c5c294b481097a77c3df8144b59"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#a1ef01c5c294b481097a77c3df8144b59">FlushEntityCreateQueueFn</a>(void *, int)</td></tr>
+<tr class="memitem:a8054ce7b89eb955778887514af15d76d" id="r_a8054ce7b89eb955778887514af15d76d"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#a8054ce7b89eb955778887514af15d76d">CollectGarbageFn</a>(uint32_t)</td></tr>
+<tr class="memitem:a7ef5f55b7aff728e0dfab94beab2353f" id="r_a7ef5f55b7aff728e0dfab94beab2353f"><td class="memItemLeft">typedef int(CORECLR_DELEGATE_CALLTYPE *)&#160;</td><td class="memItemRight"><a class="el" href="#a7ef5f55b7aff728e0dfab94beab2353f">ClearWorldFn</a>(uint32_t)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -143,16 +157,21 @@ Functions</h2></td></tr>
 <tr class="memitem:a10e569060d03931835e5292c88733821" id="r_a10e569060d03931835e5292c88733821"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a10e569060d03931835e5292c88733821">N_Error</a> (const char *string, int32_t is_stdout)</td></tr>
 <tr class="memitem:aeb1c667fa51350103b1418746b4552d1" id="r_aeb1c667fa51350103b1418746b4552d1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#aeb1c667fa51350103b1418746b4552d1">N_Log</a> (const char *log_domain, const char *log_level, const char *message, int32_t fatal, void *user_data)</td></tr>
 <tr class="memitem:a871a293856d620e03914d6791ccfeff8" id="r_a871a293856d620e03914d6791ccfeff8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a871a293856d620e03914d6791ccfeff8">N_Assert</a> (bool value)</td></tr>
+<tr class="memitem:a5316eb47134328e2ca894de5ee6ec1d5" id="r_a5316eb47134328e2ca894de5ee6ec1d5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5316eb47134328e2ca894de5ee6ec1d5">RecordPropertyChange</a> (uint64_t entityId, const char *path, const char *oldText, const char *newText)</td></tr>
+<tr class="memdesc:a5316eb47134328e2ca894de5ee6ec1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The managed write path calls this when it writes a field.  <br /></td></tr>
+<tr class="memitem:a05a2ecd9be008484c05f40719c55ba38" id="r_a05a2ecd9be008484c05f40719c55ba38"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a05a2ecd9be008484c05f40719c55ba38">RequestPropertyRevert</a> (uint64_t entityId, const char *path)</td></tr>
+<tr class="memdesc:a05a2ecd9be008484c05f40719c55ba38"><td class="mdescLeft">&#160;</td><td class="mdescRight">The managed inspector calls this when the override marker on a row is pressed.  <br /></td></tr>
+<tr class="memitem:a69450b7cd6369a722cf66cd27e34f405" id="r_a69450b7cd6369a722cf66cd27e34f405"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a69450b7cd6369a722cf66cd27e34f405">PropertyExtension_IsAuthored</a> (uint64_t entityId, const char *path)</td></tr>
+<tr class="memdesc:a69450b7cd6369a722cf66cd27e34f405"><td class="mdescLeft">&#160;</td><td class="mdescRight">The managed inspector calls this for a row, to ask whether the editor's marker says the entity authored that key.  <br /></td></tr>
+<tr class="memitem:adbbd43b8cdc0bb4f440387ffd3c748f8" id="r_adbbd43b8cdc0bb4f440387ffd3c748f8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adbbd43b8cdc0bb4f440387ffd3c748f8">PropertyExtension_AddName</a> (const char *propertyName)</td></tr>
+<tr class="memdesc:adbbd43b8cdc0bb4f440387ffd3c748f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The property names the editor's dropdown lists.  <br /></td></tr>
+<tr class="memitem:afe5e1ec249dee548d3367b9b30478796" id="r_afe5e1ec249dee548d3367b9b30478796"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#afe5e1ec249dee548d3367b9b30478796">PropertyExtension_ClearNames</a> ()</td></tr>
 <tr class="memitem:acebba91f092211599e75b600e4237243" id="r_acebba91f092211599e75b600e4237243"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#acebba91f092211599e75b600e4237243">__ImplementClass</a> (<a class="el" href="class_scripting_1_1_n_sharp_server.html">Scripting::NSharpServer</a>, 'N#Sv', <a class="el" href="class_core_1_1_ref_counted.html">Core::RefCounted</a>)</td></tr>
 <tr class="memitem:ad878306dc92d2888112113730a26e689" id="r_ad878306dc92d2888112113730a26e689"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad878306dc92d2888112113730a26e689">__ImplementSingleton</a> (<a class="el" href="class_scripting_1_1_n_sharp_server.html">Scripting::NSharpServer</a>)</td></tr>
-<tr class="memitem:a1dc5bc26dbf85b820542f65d7f696023" id="r_a1dc5bc26dbf85b820542f65d7f696023"><td class="memItemLeft"><a class="el" href="#a504027b89f8942b24c9abd372bd7a04d">DotNetString</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1dc5bc26dbf85b820542f65d7f696023">ToWideString</a> (<a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;str)</td></tr>
-<tr class="memitem:ad5bea2d97c1eabc3e5b3ed5407e690be" id="r_ad5bea2d97c1eabc3e5b3ed5407e690be"><td class="memItemLeft">static void *&#160;</td><td class="memItemRight"><a class="el" href="#ad5bea2d97c1eabc3e5b3ed5407e690be">ScriptingAlloc</a> (size_t bytes)</td></tr>
-<tr class="memitem:aa7caf9e9ce8b97b18abbf0a8d9573cc1" id="r_aa7caf9e9ce8b97b18abbf0a8d9573cc1"><td class="memItemLeft">static void *&#160;</td><td class="memItemRight"><a class="el" href="#aa7caf9e9ce8b97b18abbf0a8d9573cc1">ScriptingRealloc</a> (void *ptr, size_t bytes)</td></tr>
-<tr class="memitem:a8c664ab9f3743ef4acd56859aadb0c56" id="r_a8c664ab9f3743ef4acd56859aadb0c56"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8c664ab9f3743ef4acd56859aadb0c56">ScriptingDealloc</a> (void *ptr)</td></tr>
-<tr class="memitem:aa35d58a52fb08490e189587016d0f88e" id="r_aa35d58a52fb08490e189587016d0f88e"><td class="memItemLeft">static void *&#160;</td><td class="memItemRight"><a class="el" href="#aa35d58a52fb08490e189587016d0f88e">ScriptingCalloc</a> (size_t count, size_t size)</td></tr>
+<tr class="memitem:ae25c67030c69abcbc9e7a539aa3d4dbe" id="r_ae25c67030c69abcbc9e7a539aa3d4dbe"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ae25c67030c69abcbc9e7a539aa3d4dbe">ToDotNetString</a> (<a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;str, char_t *out)</td></tr>
+<tr class="memdesc:ae25c67030c69abcbc9e7a539aa3d4dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">nethost and hostfxr take char_t strings: wchar_t (UTF-16) on Windows, char (UTF-8) on <a class="el" href="namespace_linux.html">Linux</a>.  <br /></td></tr>
 <tr class="memitem:a537906ffc3346a510cebf2641636fc74" id="r_a537906ffc3346a510cebf2641636fc74"><td class="memItemLeft">load_assembly_and_get_function_pointer_fn&#160;</td><td class="memItemRight"><a class="el" href="#a537906ffc3346a510cebf2641636fc74">LoadAssemblyAndGetExport</a> (<a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;configPath)</td></tr>
-<tr class="memitem:a27a15c3ed72308bdd7d26ed90b00b02f" id="r_a27a15c3ed72308bdd7d26ed90b00b02f"><td class="memItemLeft">load_assembly_and_get_function_pointer_fn&#160;</td><td class="memItemRight"><a class="el" href="#a27a15c3ed72308bdd7d26ed90b00b02f">LoadAssemblyAndGetExport</a> (<a class="el" href="class_util_1_1_command_line_args.html">Util::CommandLineArgs</a> const &amp;args)</td></tr>
-<tr class="memitem:a2e759611668eecb9992949b4a5d35883" id="r_a2e759611668eecb9992949b4a5d35883"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2e759611668eecb9992949b4a5d35883">__ImplementClass</a> (<a class="el" href="class_scripting_1_1_script_feature_unit.html">Scripting::ScriptFeatureUnit</a>, 'AUFU', <a class="el" href="class_game_1_1_feature_unit.html">Game::FeatureUnit</a>)</td></tr>
+<tr class="memitem:a98eb1d9e44285d466998c2b362259aca" id="r_a98eb1d9e44285d466998c2b362259aca"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a98eb1d9e44285d466998c2b362259aca">__ImplementClass</a> (<a class="el" href="class_scripting_1_1_script_feature_unit.html">Scripting::ScriptFeatureUnit</a>, 'SCFU', <a class="el" href="class_game_1_1_feature_unit.html">Game::FeatureUnit</a>)</td></tr>
 <tr class="memitem:a897e6f623b9661214e91b5b40cd9388c" id="r_a897e6f623b9661214e91b5b40cd9388c"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a897e6f623b9661214e91b5b40cd9388c">__ImplementSingleton</a> (<a class="el" href="class_scripting_1_1_script_feature_unit.html">ScriptFeatureUnit</a>)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
@@ -160,14 +179,182 @@ Variables</h2></td></tr>
 <tr class="memitem:a76932edbbe20c7a61317893897d359dc" id="r_a76932edbbe20c7a61317893897d359dc"><td class="memItemLeft">static <a class="el" href="struct_scripting_1_1_dot_n_e_t___a_p_i.html">DotNET_API</a>&#160;</td><td class="memItemRight"><a class="el" href="#a76932edbbe20c7a61317893897d359dc">api</a></td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
-<a id="a504027b89f8942b24c9abd372bd7a04d" name="a504027b89f8942b24c9abd372bd7a04d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a504027b89f8942b24c9abd372bd7a04d">&#9670;&#160;</a></span>DotNetString</h2>
+<a id="ad894f2c7194299c515cfd3fb793c7d65" name="ad894f2c7194299c515cfd3fb793c7d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad894f2c7194299c515cfd3fb793c7d65">&#9670;&#160;</a></span>ApplyPropertiesFn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a504027b89f8942b24c9abd372bd7a04d">Scripting::DotNetString</a> = std::string</td>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::ApplyPropertiesFn(uint64_t, const char *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7ef5f55b7aff728e0dfab94beab2353f" name="a7ef5f55b7aff728e0dfab94beab2353f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ef5f55b7aff728e0dfab94beab2353f">&#9670;&#160;</a></span>ClearWorldFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::ClearWorldFn(uint32_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8054ce7b89eb955778887514af15d76d" name="a8054ce7b89eb955778887514af15d76d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8054ce7b89eb955778887514af15d76d">&#9670;&#160;</a></span>CollectGarbageFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::CollectGarbageFn(uint32_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07aa446769bfc65fca15783f59ed5ba5" name="a07aa446769bfc65fca15783f59ed5ba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07aa446769bfc65fca15783f59ed5ba5">&#9670;&#160;</a></span>DefaultPropertyJsonFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::DefaultPropertyJsonFn(const char *, int, void *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afaf06f61c35f86928c7c65c4e8079d7e" name="afaf06f61c35f86928c7c65c4e8079d7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afaf06f61c35f86928c7c65c4e8079d7e">&#9670;&#160;</a></span>DrawPropertiesFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(CORECLR_DELEGATE_CALLTYPE *) Scripting::DrawPropertiesFn(uint64_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ef01c5c294b481097a77c3df8144b59" name="a1ef01c5c294b481097a77c3df8144b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ef01c5c294b481097a77c3df8144b59">&#9670;&#160;</a></span>FlushEntityCreateQueueFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::FlushEntityCreateQueueFn(void *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5c0e18212ac5c2b5ef466a4a381e946e" name="a5c0e18212ac5c2b5ef466a4a381e946e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c0e18212ac5c2b5ef466a4a381e946e">&#9670;&#160;</a></span>HasPropertyFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::HasPropertyFn(uint64_t, const char *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac17f73c4b0cb72107b06d18f02b33c57" name="ac17f73c4b0cb72107b06d18f02b33c57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac17f73c4b0cb72107b06d18f02b33c57">&#9670;&#160;</a></span>JsonKeysFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::JsonKeysFn(const char *, int, void *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf6bce8e239ca56bfdefb002eca1d12e" name="aaf6bce8e239ca56bfdefb002eca1d12e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf6bce8e239ca56bfdefb002eca1d12e">&#9670;&#160;</a></span>MergeJsonFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::MergeJsonFn(const char *, int, const char *, int, void *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9e43319096329bce0934396454e26eb2" name="a9e43319096329bce0934396454e26eb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e43319096329bce0934396454e26eb2">&#9670;&#160;</a></span>ResolveJsonFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::ResolveJsonFn(const char *, int, const char *, int, void *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1912ddcdca87a8f9a87d0dd89d79e260" name="a1912ddcdca87a8f9a87d0dd89d79e260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1912ddcdca87a8f9a87d0dd89d79e260">&#9670;&#160;</a></span>SerializeKeysFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::SerializeKeysFn(uint64_t, const char *, int, void *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9acca5da603b3f21741748433711d5d4" name="a9acca5da603b3f21741748433711d5d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9acca5da603b3f21741748433711d5d4">&#9670;&#160;</a></span>SerializePropertiesFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef int(CORECLR_DELEGATE_CALLTYPE *) Scripting::SerializePropertiesFn(uint64_t, void *, int)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aecd8d1766cf5ef7a920f05d4ddc39d2d" name="aecd8d1766cf5ef7a920f05d4ddc39d2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd8d1766cf5ef7a920f05d4ddc39d2d">&#9670;&#160;</a></span>SetRefContextFn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(CORECLR_DELEGATE_CALLTYPE *) Scripting::SetRefContextFn(const char *, int)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -221,8 +408,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2e759611668eecb9992949b4a5d35883" name="a2e759611668eecb9992949b4a5d35883"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e759611668eecb9992949b4a5d35883">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[2/2]</span></h2>
+<a id="a98eb1d9e44285d466998c2b362259aca" name="a98eb1d9e44285d466998c2b362259aca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98eb1d9e44285d466998c2b362259aca">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +422,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">'AUFU'</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+          <td class="paramtype">'SCFU'</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -281,25 +468,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a27a15c3ed72308bdd7d26ed90b00b02f" name="a27a15c3ed72308bdd7d26ed90b00b02f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27a15c3ed72308bdd7d26ed90b00b02f">&#9670;&#160;</a></span>LoadAssemblyAndGetExport() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">load_assembly_and_get_function_pointer_fn Scripting::LoadAssemblyAndGetExport </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_command_line_args.html">Util::CommandLineArgs</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>args</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a537906ffc3346a510cebf2641636fc74" name="a537906ffc3346a510cebf2641636fc74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a537906ffc3346a510cebf2641636fc74">&#9670;&#160;</a></span>LoadAssemblyAndGetExport() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a537906ffc3346a510cebf2641636fc74">&#9670;&#160;</a></span>LoadAssemblyAndGetExport()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -410,103 +580,148 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ad5bea2d97c1eabc3e5b3ed5407e690be" name="ad5bea2d97c1eabc3e5b3ed5407e690be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5bea2d97c1eabc3e5b3ed5407e690be">&#9670;&#160;</a></span>ScriptingAlloc()</h2>
+<a id="adbbd43b8cdc0bb4f440387ffd3c748f8" name="adbbd43b8cdc0bb4f440387ffd3c748f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbbd43b8cdc0bb4f440387ffd3c748f8">&#9670;&#160;</a></span>PropertyExtension_AddName()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void * Scripting::ScriptingAlloc </td>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> void Scripting::PropertyExtension_AddName </td>
           <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span></td><td>)</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>propertyName</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+<p>The property names the editor's dropdown lists. </p>
+<p>The managed side mirrors its registry into the extension with these, because the panel reads names and text and has no way to read a managed dictionary.</p>
+<p>Same reason as RecordPropertyChange: these have to be in the object library for a managed DllImport to find them. </p>
+
+</div>
+</div>
+<a id="afe5e1ec249dee548d3367b9b30478796" name="afe5e1ec249dee548d3367b9b30478796"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5e1ec249dee548d3367b9b30478796">&#9670;&#160;</a></span>PropertyExtension_ClearNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> void Scripting::PropertyExtension_ClearNames </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="aa35d58a52fb08490e189587016d0f88e" name="aa35d58a52fb08490e189587016d0f88e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa35d58a52fb08490e189587016d0f88e">&#9670;&#160;</a></span>ScriptingCalloc()</h2>
+<a id="a69450b7cd6369a722cf66cd27e34f405" name="a69450b7cd6369a722cf66cd27e34f405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69450b7cd6369a722cf66cd27e34f405">&#9670;&#160;</a></span>PropertyExtension_IsAuthored()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void * Scripting::ScriptingCalloc </td>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> bool Scripting::PropertyExtension_IsAuthored </td>
           <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>count</em></span>, </td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>entityId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span>&#160;)</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p>The managed inspector calls this for a row, to ask whether the editor's marker says the entity authored that key. </p>
+<p>The marker is the editor's own and the managed side cannot read it, so this is the only way a row learns whether it is the instance's own. A path with no field asks whether any field of the property is authored, which is what a section row asks with.</p>
+<p>Same reason as RecordPropertyChange: this has to be in the object library for a managed DllImport to find it. </p>
 
 </div>
 </div>
-<a id="a8c664ab9f3743ef4acd56859aadb0c56" name="a8c664ab9f3743ef4acd56859aadb0c56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c664ab9f3743ef4acd56859aadb0c56">&#9670;&#160;</a></span>ScriptingDealloc()</h2>
+<a id="a5316eb47134328e2ca894de5ee6ec1d5" name="a5316eb47134328e2ca894de5ee6ec1d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5316eb47134328e2ca894de5ee6ec1d5">&#9670;&#160;</a></span>RecordPropertyChange()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Scripting::ScriptingDealloc </td>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> void Scripting::RecordPropertyChange </td>
           <td>(</td>
-          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa7caf9e9ce8b97b18abbf0a8d9573cc1" name="aa7caf9e9ce8b97b18abbf0a8d9573cc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7caf9e9ce8b97b18abbf0a8d9573cc1">&#9670;&#160;</a></span>ScriptingRealloc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void * Scripting::ScriptingRealloc </td>
-          <td>(</td>
-          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>entityId</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>bytes</em></span>&#160;)</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>oldText</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>newText</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The managed write path calls this when it writes a field. </p>
+<p>It reports the text the entity had and the text it would have after the write, and the editor turns that into a command. Nothing is attached in a build with no editor, and this does nothing for that build.</p>
+<p>The path is the key inside the text the change is about, as the extension names it. A path with no field is the whole property, which is what an add and a removal report.</p>
+<p>This is here rather than in <a class="el" href="propertyextension_8cc.html">propertyextension.cc</a>, because the object library is what puts the symbol in the executable's dynamic symbol table. A symbol from the static nsharp archive is not one a managed DllImport can find. </p>
+
+</div>
+</div>
+<a id="a05a2ecd9be008484c05f40719c55ba38" name="a05a2ecd9be008484c05f40719c55ba38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a2ecd9be008484c05f40719c55ba38">&#9670;&#160;</a></span>RequestPropertyRevert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> void Scripting::RequestPropertyRevert </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>entityId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>path</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The managed inspector calls this when the override marker on a row is pressed. </p>
+<p>It says which key was pressed on, and the editor decides what that means: the value the prefab chain gives for that key, put back over what the instance authored for the rest. Nothing is attached in a build with no editor, and this does nothing for that build.</p>
+<p>Same reason as RecordPropertyChange: this has to be in the object library for a managed DllImport to find it. </p>
+
+</div>
+</div>
+<a id="ae25c67030c69abcbc9e7a539aa3d4dbe" name="ae25c67030c69abcbc9e7a539aa3d4dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae25c67030c69abcbc9e7a539aa3d4dbe">&#9670;&#160;</a></span>ToDotNetString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scripting::ToDotNetString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char_t *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -516,22 +731,8 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a1dc5bc26dbf85b820542f65d7f696023" name="a1dc5bc26dbf85b820542f65d7f696023"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dc5bc26dbf85b820542f65d7f696023">&#9670;&#160;</a></span>ToWideString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#a504027b89f8942b24c9abd372bd7a04d">DotNetString</a> Scripting::ToWideString </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_util_1_1_string.html">Util::String</a> const &amp;</td>          <td class="paramname"><span class="paramname"><em>str</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>nethost and hostfxr take char_t strings: wchar_t (UTF-16) on Windows, char (UTF-8) on <a class="el" href="namespace_linux.html">Linux</a>. </p>
+<p><a class="el" href="class_util_1_1_string.html" title="Nebula&#39;s universal string class.">Util::String</a> is UTF-8, so this converts on Windows and copies on <a class="el" href="namespace_linux.html">Linux</a>. out must be at least NEBULA_MAXPATH char_t wide. </p>
 
 </div>
 </div>

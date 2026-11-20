@@ -24,7 +24,7 @@ var class_util_1_1_array_allocator_safe =
     [ "TryAcquire", "class_util_1_1_array_allocator_safe.html#ac2c0f0b36513a3bb66566bdf2864dbfc", null ],
     [ "UpdateSize", "class_util_1_1_array_allocator_safe.html#a91557cd489d0c2274bd7dc642719b210", null ],
     [ "allocationLock", "class_util_1_1_array_allocator_safe.html#a559ff8f8ac6a646cdd7a505d6a3dad35", null ],
-    [ "objects", "class_util_1_1_array_allocator_safe.html#a9cac7bfbe2cdc99f66bd9c511138c83b", null ],
+    [ "objects", "class_util_1_1_array_allocator_safe.html#afab29d29134dd4fe55f7ce7ee0ade11f", null ],
     [ "owners", "class_util_1_1_array_allocator_safe.html#a99b2743209da0f914e565066e0b7b845", null ],
     [ "size", "class_util_1_1_array_allocator_safe.html#a0becee333fe7147060d5fd3ebd7caeda", null ]
 ];

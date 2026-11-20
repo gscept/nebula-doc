@@ -11,7 +11,10 @@ var timesource_8h =
     [ "Game::Time::CreateTimeSource", "namespace_game_1_1_time.html#a29f32e4e3946b84849f22fb6ef505470", null ],
     [ "Game::Time::Discard", "namespace_game_1_1_time.html#aeaaba09c824d5722e02b0ec9ecf25436", null ],
     [ "Game::Time::GetGlobalTimeFactor", "namespace_game_1_1_time.html#af53a59836f71c8772f25f2c726422b62", null ],
+    [ "Game::Time::GetNumTimeSources", "namespace_game_1_1_time.html#a34ccd6418ee29974a5d347074faa9dad", null ],
     [ "Game::Time::GetTimeSource", "namespace_game_1_1_time.html#aeb1fa870d1519db57e65d3ce34d872c1", null ],
+    [ "Game::Time::GetTimeSourceByIndex", "namespace_game_1_1_time.html#aba57247d7b1786a50f68161a7159a37b", null ],
+    [ "Game::Time::HasTimeSource", "namespace_game_1_1_time.html#abe60e6e3b2babad66d78197f5b1f7faa", null ],
     [ "Game::Time::SetGlobalTimeFactor", "namespace_game_1_1_time.html#a8bbec80ba5d33bf0e03ae758501d6755", null ],
     [ "Game::Time::Setup", "namespace_game_1_1_time.html#ab2e1ba4ee645bf6535fd46e0bef986fc", null ]
 ];

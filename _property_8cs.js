@@ -1,6 +1,7 @@
 var _property_8cs =
 [
     [ "Nebula.Game.Property", "class_nebula_1_1_game_1_1_property.html", "class_nebula_1_1_game_1_1_property" ],
+    [ "Nebula.Game.PropertyExtensions", "class_nebula_1_1_game_1_1_property_extensions.html", "class_nebula_1_1_game_1_1_property_extensions" ],
     [ "Nebula.Game.FrameEvent", "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9f", [
       [ "Nebula.Game.FrameEvent.OnBeginFrame", "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9fa8fcb50af7be99005d23a7264cd8acb0d", null ],
       [ "Nebula.Game.FrameEvent.OnFixedFrame", "namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9fac64c693e4c67dce69078f8ba39c52743", null ],

@@ -1,5 +1,6 @@
 var game_8cc =
 [
+    [ "Scripting::Api::TimeSourceSnapshot", "struct_scripting_1_1_api_1_1_time_source_snapshot.html", "struct_scripting_1_1_api_1_1_time_source_snapshot" ],
     [ "Scripting::Api::ComponentGetData", "namespace_scripting_1_1_api.html#a3016420c8e45f373f958f6c6be3ebbc5", null ],
     [ "Scripting::Api::ComponentGetId", "namespace_scripting_1_1_api.html#ad1c7a241f123fa83b81b69805f4e8b0d", null ],
     [ "Scripting::Api::ComponentGetIdUtf8", "namespace_scripting_1_1_api.html#a00b56f1f3a8d896cfb81773621d1c1fd", null ],
@@ -10,9 +11,18 @@ var game_8cc =
     [ "Scripting::Api::EntityGetPosition", "namespace_scripting_1_1_api.html#a6c450f4ee72ef0ef6016b85d80ea3607", null ],
     [ "Scripting::Api::EntityGetScale", "namespace_scripting_1_1_api.html#a98c88332bde0d583e6187ce1cd541d3c", null ],
     [ "Scripting::Api::EntityHasComponent", "namespace_scripting_1_1_api.html#aae0f3c8de7d05b5101b2015a12b302b7", null ],
+    [ "Scripting::Api::EntityHasInstance", "namespace_scripting_1_1_api.html#a232bb181c95d762263ebbf235cd74dd4", null ],
     [ "Scripting::Api::EntityIsValid", "namespace_scripting_1_1_api.html#ae7e7e7607dfa8de2332c799fc80068c8", null ],
     [ "Scripting::Api::EntitySetOrientation", "namespace_scripting_1_1_api.html#aabfe747e2cc935a21197cc3a7521573c", null ],
     [ "Scripting::Api::EntitySetPosition", "namespace_scripting_1_1_api.html#a98328546fabfaa267ecedcee66068bab", null ],
     [ "Scripting::Api::EntitySetScale", "namespace_scripting_1_1_api.html#ac807d7cecf85d65e6e80556b495740ce", null ],
-    [ "Scripting::Api::WorldGetDefaultWorldId", "namespace_scripting_1_1_api.html#ad63e6e6464b623c3b562a33fc1aae446", null ]
+    [ "Scripting::Api::TimeGetGlobalTimeFactor", "namespace_scripting_1_1_api.html#a8ffd4293140eb32cc73e54324fa761e3", null ],
+    [ "Scripting::Api::TimeSetGlobalTimeFactor", "namespace_scripting_1_1_api.html#adfbfb54425ae1a65610250cbc253dbe2", null ],
+    [ "Scripting::Api::TimeSourceCreate", "namespace_scripting_1_1_api.html#a07bfbcbdee1e40e5250f6fbf7bece143", null ],
+    [ "Scripting::Api::TimeSourceSetPauseCounter", "namespace_scripting_1_1_api.html#a002ed6a90c3595c2fd2b36a5f9fbd0dd", null ],
+    [ "Scripting::Api::TimeSourceSetTimeFactor", "namespace_scripting_1_1_api.html#a10b8225931a61799e892a68825296943", null ],
+    [ "Scripting::Api::TimeSourceSync", "namespace_scripting_1_1_api.html#a8eb843b1c32e52aaec976a9f081fede0", null ],
+    [ "Scripting::Api::WorldGetDefaultWorldId", "namespace_scripting_1_1_api.html#ad63e6e6464b623c3b562a33fc1aae446", null ],
+    [ "Scripting::Api::WorldHasWorld", "namespace_scripting_1_1_api.html#a8562f52702efa83a855a455911d07e15", null ],
+    [ "Scripting::Api::WorldIsSimulating", "namespace_scripting_1_1_api.html#a0df3846b3971db36d8f4e729f6d1027b", null ]
 ];

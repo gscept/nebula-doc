@@ -68,6 +68,7 @@ var searchData=
   ['downsamplingcontext_2eh_65',['downsamplingcontext.h',['../downsamplingcontext_8h.html',1,'']]],
   ['drawfullscreenquad_2ecc_66',['drawfullscreenquad.cc',['../drawfullscreenquad_8cc.html',1,'']]],
   ['drawfullscreenquad_2eh_67',['drawfullscreenquad.h',['../drawfullscreenquad_8h.html',1,'']]],
-  ['drawthread_2ecc_68',['drawthread.cc',['../drawthread_8cc.html',1,'']]],
-  ['drawthread_2eh_69',['drawthread.h',['../drawthread_8h.html',1,'']]]
+  ['drawsurface_2ecs_68',['DrawSurface.cs',['../_draw_surface_8cs.html',1,'']]],
+  ['drawthread_2ecc_69',['drawthread.cc',['../drawthread_8cc.html',1,'']]],
+  ['drawthread_2eh_70',['drawthread.h',['../drawthread_8h.html',1,'']]]
 ];

@@ -116,8 +116,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('nsbindings_8h.
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bindings specifically for C# scripting. </p>
 <p>(C) 2019 Individual contributors, see AUTHORS file </p>
-</div><div class="textblock"><code>#include &quot;<a class="el" href="nsconfig_8h_source.html">nsconfig.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="application_2game_2entity_8h_source.html">game/entity.h</a>&quot;</code><br />
+</div><div class="textblock"><code>#include &quot;<a class="el" href="nsconfig_8h_source.html">nsharp/nsconfig.h</a>&quot;</code><br />
 </div>
 <p><a href="nsbindings_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -131,6 +130,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a10e569060d03931835e5292c88733821" id="r_a10e569060d03931835e5292c88733821"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_scripting.html#a10e569060d03931835e5292c88733821">Scripting::N_Error</a> (const char *string, int32_t is_stdout)</td></tr>
 <tr class="memitem:aeb1c667fa51350103b1418746b4552d1" id="r_aeb1c667fa51350103b1418746b4552d1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_scripting.html#aeb1c667fa51350103b1418746b4552d1">Scripting::N_Log</a> (const char *log_domain, const char *log_level, const char *message, int32_t fatal, void *user_data)</td></tr>
 <tr class="memitem:a871a293856d620e03914d6791ccfeff8" id="r_a871a293856d620e03914d6791ccfeff8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_scripting.html#a871a293856d620e03914d6791ccfeff8">Scripting::N_Assert</a> (bool value)</td></tr>
+<tr class="memitem:a5316eb47134328e2ca894de5ee6ec1d5" id="r_a5316eb47134328e2ca894de5ee6ec1d5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_scripting.html#a5316eb47134328e2ca894de5ee6ec1d5">Scripting::RecordPropertyChange</a> (uint64_t entityId, const char *path, const char *oldText, const char *newText)</td></tr>
+<tr class="memdesc:a5316eb47134328e2ca894de5ee6ec1d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The managed write path calls this when it writes a field.  <br /></td></tr>
+<tr class="memitem:a05a2ecd9be008484c05f40719c55ba38" id="r_a05a2ecd9be008484c05f40719c55ba38"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_scripting.html#a05a2ecd9be008484c05f40719c55ba38">Scripting::RequestPropertyRevert</a> (uint64_t entityId, const char *path)</td></tr>
+<tr class="memdesc:a05a2ecd9be008484c05f40719c55ba38"><td class="mdescLeft">&#160;</td><td class="mdescRight">The managed inspector calls this when the override marker on a row is pressed.  <br /></td></tr>
+<tr class="memitem:a69450b7cd6369a722cf66cd27e34f405" id="r_a69450b7cd6369a722cf66cd27e34f405"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_scripting.html#a69450b7cd6369a722cf66cd27e34f405">Scripting::PropertyExtension_IsAuthored</a> (uint64_t entityId, const char *path)</td></tr>
+<tr class="memdesc:a69450b7cd6369a722cf66cd27e34f405"><td class="mdescLeft">&#160;</td><td class="mdescRight">The managed inspector calls this for a row, to ask whether the editor's marker says the entity authored that key.  <br /></td></tr>
+<tr class="memitem:adbbd43b8cdc0bb4f440387ffd3c748f8" id="r_adbbd43b8cdc0bb4f440387ffd3c748f8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_scripting.html#adbbd43b8cdc0bb4f440387ffd3c748f8">Scripting::PropertyExtension_AddName</a> (const char *propertyName)</td></tr>
+<tr class="memdesc:adbbd43b8cdc0bb4f440387ffd3c748f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The property names the editor's dropdown lists.  <br /></td></tr>
+<tr class="memitem:afe5e1ec249dee548d3367b9b30478796" id="r_afe5e1ec249dee548d3367b9b30478796"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_scripting.html#afe5e1ec249dee548d3367b9b30478796">Scripting::PropertyExtension_ClearNames</a> ()</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

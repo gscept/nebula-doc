@@ -156,6 +156,10 @@ Classes</h2></td></tr>
 <tr class="memitem:FramePipeline" id="r_FramePipeline"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_frame_pipeline.html">FramePipeline</a></td></tr>
 <tr class="memitem:GameServer" id="r_GameServer"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_game_server.html">GameServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The game server setups and runs the game world.  <a href="class_game_1_1_game_server.html#details">More...</a><br /></td></tr>
+<tr class="memitem:LevelExtension" id="r_LevelExtension"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_level_extension.html">LevelExtension</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A feature's contribution to the level formats.  <a href="class_game_1_1_level_extension.html#details">More...</a><br /></td></tr>
+<tr class="memitem:LevelExtensionRegistry" id="r_LevelExtensionRegistry"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_level_extension_registry.html">LevelExtensionRegistry</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The extensions the level formats write and read.  <a href="class_game_1_1_level_extension_registry.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Manager" id="r_Manager"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_manager.html">Manager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Managers are objects which care about some specific functionality of a feature.  <a href="class_game_1_1_manager.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Message" id="r_Message"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_game_1_1_message.html">Message</a></td></tr>
@@ -199,6 +203,8 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a7a9645dc98e40c7474e0839d0c32f896" id="r_a7a9645dc98e40c7474e0839d0c32f896"><td class="memItemLeft">typedef <a class="el" href="class_mem_db_1_1_table_signature.html">MemDb::TableSignature</a>&#160;</td><td class="memItemRight"><a class="el" href="#a7a9645dc98e40c7474e0839d0c32f896">ExclusiveTableMask</a></td></tr>
 <tr class="memitem:a74b0ad357b08d17f221b65b804193303" id="r_a74b0ad357b08d17f221b65b804193303"><td class="memItemLeft">typedef uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a74b0ad357b08d17f221b65b804193303">ProcessorHandle</a></td></tr>
 <tr class="memdesc:a74b0ad357b08d17f221b65b804193303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opaque processor handle.  <br /></td></tr>
+<tr class="memitem:a1fcf763a287e56aac5b6eb1620f5772b" id="r_a1fcf763a287e56aac5b6eb1620f5772b"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a1fcf763a287e56aac5b6eb1620f5772b">EntityCreatedCallback</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt;void(<a class="el" href="class_game_1_1_world.html">World</a>*, <a class="el" href="struct_game_1_1_entity.html">Entity</a>)&gt;</td></tr>
+<tr class="memdesc:a1fcf763a287e56aac5b6eb1620f5772b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for every entity instance allocated in a world.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -395,6 +401,22 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1fcf763a287e56aac5b6eb1620f5772b" name="a1fcf763a287e56aac5b6eb1620f5772b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fcf763a287e56aac5b6eb1620f5772b">&#9670;&#160;</a></span>EntityCreatedCallback</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a1fcf763a287e56aac5b6eb1620f5772b">Game::EntityCreatedCallback</a> = <a class="el" href="class_util_1_1_delegate.html">Util::Delegate</a>&lt;void(<a class="el" href="class_game_1_1_world.html">World</a>*, <a class="el" href="struct_game_1_1_entity.html">Entity</a>)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called for every entity instance allocated in a world. </p>
 
 </div>
 </div>

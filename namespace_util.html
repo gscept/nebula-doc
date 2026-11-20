@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_util
 <dd>
 (C) 2022 Individual contributors, see AUTHORS file</dd>
 <dd>
-(C) 2018-2020 Individual contributors, see AUTHORS file</dd></dl>
+(C) 2018-2026 Individual contributors, see AUTHORS file</dd></dl>
 <p>Function to implement type-punning, explanation here: <a href="http://mail-index.netbsd.org/tech-kern/2003/08/11/0001.html">http://mail-index.netbsd.org/tech-kern/2003/08/11/0001.html</a> <a href="http://gcc.gnu.org/onlinedocs/gcc-4.1.1/gcc/Optimize-Options.html#Optimize-Options">http://gcc.gnu.org/onlinedocs/gcc-4.1.1/gcc/Optimize-Options.html#Optimize-Options</a></p>
 <dl class="section copyright"><dt>Copyright</dt><dd>(C) 2009 Radon Labs GmbH (C) 2013-2020 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
@@ -134,9 +134,9 @@ Classes</h2></td></tr>
 <tr class="memitem:Array" id="r_Array"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_array.html">Array</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_nebula.html">Nebula</a>'s dynamic array class.  <a href="class_util_1_1_array.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ArrayAllocator" id="r_ArrayAllocator"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_array_allocator.html">ArrayAllocator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_util_1_1_array_allocator.html" title="The ArrayAllocator provides a variadic list of types which is to be contained in the allocator and fe...">ArrayAllocator</a> provides a variadic list of types which is to be contained in the allocator and fetching each value by providing the index into the list of types, which means the members are nameless.  <a href="class_util_1_1_array_allocator.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_util_1_1_array_allocator.html" title="The ArrayAllocator provides a variadic list of types which is to be contained in the allocator and fe...">ArrayAllocator</a> provides a variadic list of types which is to be contained in the allocator and fetching each value by providing the index into the list of types.  <a href="class_util_1_1_array_allocator.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ArrayAllocatorSafe" id="r_ArrayAllocatorSafe"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_array_allocator_safe.html">ArrayAllocatorSafe</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_util_1_1_array_allocator_safe.html" title="The ArrayAllocatorSafe provides a thread safe variadic list of types which is to be contained in the ...">ArrayAllocatorSafe</a> provides a thread safe variadic list of types which is to be contained in the allocator and fetching each value by providing the index into the list of types, which means the members are nameless.  <a href="class_util_1_1_array_allocator_safe.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_util_1_1_array_allocator_safe.html" title="The ArrayAllocatorSafe provides a thread safe variadic list of types which is to be contained in the ...">ArrayAllocatorSafe</a> provides a thread safe variadic list of types which is to be contained in the allocator and fetching each value by providing the index into the list of types.  <a href="class_util_1_1_array_allocator_safe.html#details">More...</a><br /></td></tr>
 <tr class="memitem:ArrayQueue" id="r_ArrayQueue"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_array_queue.html">ArrayQueue</a></td></tr>
 <tr class="memitem:ArrayStack" id="r_ArrayStack"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_array_stack.html">ArrayStack</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespace_nebula.html">Nebula</a>'s small vector optimized array.  <a href="class_util_1_1_array_stack.html#details">More...</a><br /></td></tr>
@@ -183,6 +183,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inner type of two types.  <a href="struct_util_1_1get__template__type_3_01_c_3_01_t_00_01_i_01_4_01_4.html#details">More...</a><br /></td></tr>
 <tr class="memitem:get_5Ftemplate_5Ftype_3C_20const_20C_3C_20T_20_3E_20_26_20_3E" id="r_get_5Ftemplate_5Ftype_3C_20const_20C_3C_20T_20_3E_20_26_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html">get_template_type&lt; const C&lt; T &gt; &amp; &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get inner type of a constant ref outer type.  <a href="struct_util_1_1get__template__type_3_01const_01_c_3_01_t_01_4_01_6_01_4.html#details">More...</a><br /></td></tr>
+<tr class="memitem:get_5Ftemplate_5Ftype_3C_20NamedSlot_3C_20NAME_2C_20TYPE_20_3E_20_3E" id="r_get_5Ftemplate_5Ftype_3C_20NamedSlot_3C_20NAME_2C_20TYPE_20_3E_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1get__template__type_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html">get_template_type&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;</a></td></tr>
 <tr class="memitem:GlobalStringAtomTable" id="r_GlobalStringAtomTable"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_global_string_atom_table.html">GlobalStringAtomTable</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Global string atom table.  <a href="class_util_1_1_global_string_atom_table.html#details">More...</a><br /></td></tr>
 <tr class="memitem:HashTable" id="r_HashTable"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_hash_table.html">HashTable</a></td></tr>
@@ -193,6 +194,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements a doubly linked list.  <a href="class_util_1_1_list.html#details">More...</a><br /></td></tr>
 <tr class="memitem:LocalStringAtomTable" id="r_LocalStringAtomTable"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_local_string_atom_table.html">LocalStringAtomTable</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implements a thread-local string atom table which is used as a cache to prevent excessive locking when creating string atoms.  <a href="class_util_1_1_local_string_atom_table.html#details">More...</a><br /></td></tr>
+<tr class="memitem:NamedSlot" id="r_NamedSlot"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_named_slot.html">NamedSlot</a></td></tr>
 <tr class="memitem:OccupancyQuadTree" id="r_OccupancyQuadTree"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_occupancy_quad_tree.html">OccupancyQuadTree</a></td></tr>
 <tr class="memitem:PinnedArray" id="r_PinnedArray"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_pinned_array.html">PinnedArray</a></td></tr>
 <tr class="memitem:PriorityArray" id="r_PriorityArray"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_priority_array.html">PriorityArray</a></td></tr>
@@ -212,6 +214,20 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A collection of unique values with quick lookup.  <a href="class_util_1_1_set.html#details">More...</a><br /></td></tr>
 <tr class="memitem:SimpleTree" id="r_SimpleTree"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_simple_tree.html">SimpleTree</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A simple tree class which stores its nodes in Util::Arrays.  <a href="class_util_1_1_simple_tree.html#details">More...</a><br /></td></tr>
+<tr class="memitem:soa_5Fnamed_5Fslot_5Fcount" id="r_soa_5Fnamed_5Fslot_5Fcount"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__named__slot__count.html">soa_named_slot_count</a></td></tr>
+<tr class="memitem:soa_5Fnamed_5Fslot_5Fcount_3C_20NAME_20_3E" id="r_soa_5Fnamed_5Fslot_5Fcount_3C_20NAME_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__named__slot__count_3_01_n_a_m_e_01_4.html">soa_named_slot_count&lt; NAME &gt;</a></td></tr>
+<tr class="memitem:soa_5Fnamed_5Fslot_5Fcount_3C_20NAME_2C_20TYPE_2C_20TYPES_2E_2E_2E_20_3E" id="r_soa_5Fnamed_5Fslot_5Fcount_3C_20NAME_2C_20TYPE_2C_20TYPES_2E_2E_2E_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__named__slot__count_3_01_n_a_m_e_00_01_t_y_p_e_00_01_t_y_p_e_s_8_8_8_01_4.html">soa_named_slot_count&lt; NAME, TYPE, TYPES... &gt;</a></td></tr>
+<tr class="memitem:soa_5Fnames_5Funique" id="r_soa_5Fnames_5Funique"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__names__unique.html">soa_names_unique</a></td></tr>
+<tr class="memitem:soa_5Fnames_5Funique_3C_20TYPE_2C_20TYPES_2E_2E_2E_20_3E" id="r_soa_5Fnames_5Funique_3C_20TYPE_2C_20TYPES_2E_2E_2E_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__names__unique_3_01_t_y_p_e_00_01_t_y_p_e_s_8_8_8_01_4.html">soa_names_unique&lt; TYPE, TYPES... &gt;</a></td></tr>
+<tr class="memitem:soa_5Fnames_5Funique_3C_3E" id="r_soa_5Fnames_5Funique_3C_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__names__unique_3_4.html">soa_names_unique&lt;&gt;</a></td></tr>
+<tr class="memitem:soa_5Fslot_5Fname" id="r_soa_5Fslot_5Fname"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__slot__name.html">soa_slot_name</a></td></tr>
+<tr class="memitem:soa_5Fslot_5Fname_3C_20NamedSlot_3C_20NAME_2C_20TYPE_20_3E_20_3E" id="r_soa_5Fslot_5Fname_3C_20NamedSlot_3C_20NAME_2C_20TYPE_20_3E_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__slot__name_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html">soa_slot_name&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;</a></td></tr>
+<tr class="memitem:soa_5Fstorage" id="r_soa_5Fstorage"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__storage.html">soa_storage</a></td></tr>
+<tr class="memitem:soa_5Fstorage_3C_20NamedSlot_3C_20NAME_2C_20TYPE_20_3E_20_3E" id="r_soa_5Fstorage_3C_20NamedSlot_3C_20NAME_2C_20TYPE_20_3E_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__storage_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html">soa_storage&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;</a></td></tr>
+<tr class="memitem:soa_5Ftuple_5Findex" id="r_soa_5Ftuple_5Findex"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__tuple__index.html">soa_tuple_index</a></td></tr>
+<tr class="memitem:soa_5Ftuple_5Findex_3C_20NAME_2C_20INDEX_2C_20TYPE_20_3E" id="r_soa_5Ftuple_5Findex_3C_20NAME_2C_20INDEX_2C_20TYPE_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__tuple__index_3_01_n_a_m_e_00_01_i_n_d_e_x_00_01_t_y_p_e_01_4.html">soa_tuple_index&lt; NAME, INDEX, TYPE &gt;</a></td></tr>
+<tr class="memitem:soa_5Fvalue_5Ftype" id="r_soa_5Fvalue_5Ftype"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__value__type.html">soa_value_type</a></td></tr>
+<tr class="memitem:soa_5Fvalue_5Ftype_3C_20NamedSlot_3C_20NAME_2C_20TYPE_20_3E_20_3E" id="r_soa_5Fvalue_5Ftype_3C_20NamedSlot_3C_20NAME_2C_20TYPE_20_3E_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_util_1_1soa__value__type_3_01_named_slot_3_01_n_a_m_e_00_01_t_y_p_e_01_4_01_4.html">soa_value_type&lt; NamedSlot&lt; NAME, TYPE &gt; &gt;</a></td></tr>
 <tr class="memitem:SparseTable" id="r_SparseTable"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_sparse_table.html">SparseTable</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A 2D sparse table where many entries may be redundant and support for multiple entries per cell.  <a href="class_util_1_1_sparse_table.html#details">More...</a><br /></td></tr>
 <tr class="memitem:Stack" id="r_Stack"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_util_1_1_stack.html">Stack</a></td></tr>
@@ -234,6 +250,10 @@ Classes</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a87b3071227d8c725c43e4263dd4e91b6" id="r_a87b3071227d8c725c43e4263dd4e91b6"><td class="memTemplParams" colspan="2">template&lt;class TYPE, int STACK_SIZE&gt; </td></tr>
 <tr class="memitem:a87b3071227d8c725c43e4263dd4e91b6 template"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a87b3071227d8c725c43e4263dd4e91b6">StackArray</a> = <a class="el" href="class_util_1_1_array.html">Array</a>&lt;TYPE, STACK_SIZE&gt;</td></tr>
+<tr class="memitem:a01f787dc0b3c6a2afc20330c9297fe5c" id="r_a01f787dc0b3c6a2afc20330c9297fe5c"><td class="memTemplParams" colspan="2">template&lt;class TYPE&gt; </td></tr>
+<tr class="memitem:a01f787dc0b3c6a2afc20330c9297fe5c template"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a01f787dc0b3c6a2afc20330c9297fe5c">soa_storage_t</a> = typename <a class="el" href="struct_util_1_1soa__storage.html">soa_storage</a>&lt;TYPE&gt;::type</td></tr>
+<tr class="memitem:a12a00e2b623e1b61926220f252abd780" id="r_a12a00e2b623e1b61926220f252abd780"><td class="memTemplParams" colspan="2">template&lt;class TYPE&gt; </td></tr>
+<tr class="memitem:a12a00e2b623e1b61926220f252abd780 template"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a12a00e2b623e1b61926220f252abd780">soa_value_type_t</a> = typename <a class="el" href="struct_util_1_1soa__value__type.html">soa_value_type</a>&lt;TYPE&gt;::type</td></tr>
 <tr class="memitem:ad8f63293b6e3a30890b850ecb295f53f" id="r_ad8f63293b6e3a30890b850ecb295f53f"><td class="memTemplParams" colspan="2">template&lt;typename... T&gt; </td></tr>
 <tr class="memitem:ad8f63293b6e3a30890b850ecb295f53f template"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#ad8f63293b6e3a30890b850ecb295f53f">Tuple</a> = std::tuple&lt;T...&gt;</td></tr>
 <tr class="memdesc:ad8f63293b6e3a30890b850ecb295f53f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrap std::tuple.  <br /></td></tr>
@@ -243,9 +263,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae1c0ba58693827acd3c85fff898c00e6" id="r_ae1c0ba58693827acd3c85fff898c00e6"><td class="memTemplParams" colspan="2">template&lt;typename C&gt; </td></tr>
 <tr class="memitem:ae1c0ba58693827acd3c85fff898c00e6 template"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#ae1c0ba58693827acd3c85fff898c00e6">get_template_type_t</a> = typename <a class="el" href="struct_util_1_1get__template__type.html">get_template_type</a>&lt;C&gt;::type</td></tr>
 <tr class="memdesc:ae1c0ba58693827acd3c85fff898c00e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper typedef so that the above expression can be used like decltype.  <br /></td></tr>
-<tr class="memitem:a727242ef4571513f2628ad972baf2183" id="r_a727242ef4571513f2628ad972baf2183"><td class="memTemplParams" colspan="2">template&lt;int MEMBER, class ... TYPES&gt; </td></tr>
-<tr class="memitem:a727242ef4571513f2628ad972baf2183 template"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#a727242ef4571513f2628ad972baf2183">tuple_array_t</a> = <a class="el" href="#ae1c0ba58693827acd3c85fff898c00e6">get_template_type_t</a>&lt;std::tuple_element_t&lt;MEMBER, std::tuple&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;TYPES&gt;...&gt;&gt;&gt;</td></tr>
-<tr class="memdesc:a727242ef4571513f2628ad972baf2183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get type of contained element in <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Util::Array</a> stored in std::tuple.  <br /></td></tr>
+<tr class="memitem:ae04935b7688686c9212e81f4cf312245" id="r_ae04935b7688686c9212e81f4cf312245"><td class="memTemplParams" colspan="2">template&lt;int MEMBER, class ... TYPES&gt; </td></tr>
+<tr class="memitem:ae04935b7688686c9212e81f4cf312245 template"><td class="memItemLeft">using&#160;</td><td class="memItemRight"><a class="el" href="#ae04935b7688686c9212e81f4cf312245">tuple_array_t</a> = <a class="el" href="#a12a00e2b623e1b61926220f252abd780">soa_value_type_t</a>&lt;std::tuple_element_t&lt;<a class="el" href="#ab28333180a195cd475191008a08ce904">soa_tuple_index_v</a>&lt;MEMBER, TYPES...&gt;, std::tuple&lt;TYPES...&gt;&gt;&gt;</td></tr>
+<tr class="memdesc:ae04935b7688686c9212e81f4cf312245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get type of contained element in <a class="el" href="class_util_1_1_array.html" title="Nebula&#39;s dynamic array class.">Util::Array</a> stored in std::tuple.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -369,6 +389,8 @@ Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:ad2341ddb03f60914f00952e4bda6dbb8" id="r_ad2341ddb03f60914f00952e4bda6dbb8"><td class="memItemLeft">auto&#160;</td><td class="memItemRight"><a class="el" href="#ad2341ddb03f60914f00952e4bda6dbb8">Format</a> = &amp;<a class="el" href="class_util_1_1_string.html#acc8944e6c07d92240ad4c4ce6904c963">String::Sprintf</a></td></tr>
+<tr class="memitem:ab28333180a195cd475191008a08ce904" id="r_ab28333180a195cd475191008a08ce904"><td class="memTemplParams" colspan="2">template&lt;int NAME, class... TYPES&gt; </td></tr>
+<tr class="memitem:ab28333180a195cd475191008a08ce904 template"><td class="memItemLeft">constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#ab28333180a195cd475191008a08ce904">soa_tuple_index_v</a> = <a class="el" href="struct_util_1_1soa__tuple__index.html">soa_tuple_index</a>&lt;NAME, 0, TYPES...&gt;::value</td></tr>
 </table>
 <a name="doc-typedef-members" id="doc-typedef-members"></a><h2 id="header-doc-typedef-members" class="groupheader">Typedef Documentation</h2>
 <a id="ae1c0ba58693827acd3c85fff898c00e6" name="ae1c0ba58693827acd3c85fff898c00e6"></a>
@@ -407,6 +429,38 @@ template&lt;typename A, typename B&gt; </div>
 
 </div>
 </div>
+<a id="a01f787dc0b3c6a2afc20330c9297fe5c" name="a01f787dc0b3c6a2afc20330c9297fe5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f787dc0b3c6a2afc20330c9297fe5c">&#9670;&#160;</a></span>soa_storage_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a01f787dc0b3c6a2afc20330c9297fe5c">Util.soa_storage_t</a> = typename <a class="el" href="struct_util_1_1soa__storage.html">soa_storage</a>&lt;TYPE&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12a00e2b623e1b61926220f252abd780" name="a12a00e2b623e1b61926220f252abd780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12a00e2b623e1b61926220f252abd780">&#9670;&#160;</a></span>soa_value_type_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TYPE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#a12a00e2b623e1b61926220f252abd780">Util.soa_value_type_t</a> = typename <a class="el" href="struct_util_1_1soa__value__type.html">soa_value_type</a>&lt;TYPE&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a87b3071227d8c725c43e4263dd4e91b6" name="a87b3071227d8c725c43e4263dd4e91b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87b3071227d8c725c43e4263dd4e91b6">&#9670;&#160;</a></span>StackArray</h2>
 
@@ -441,8 +495,8 @@ template&lt;typename... T&gt; </div>
 
 </div>
 </div>
-<a id="a727242ef4571513f2628ad972baf2183" name="a727242ef4571513f2628ad972baf2183"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a727242ef4571513f2628ad972baf2183">&#9670;&#160;</a></span>tuple_array_t</h2>
+<a id="ae04935b7688686c9212e81f4cf312245" name="ae04935b7688686c9212e81f4cf312245"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae04935b7688686c9212e81f4cf312245">&#9670;&#160;</a></span>tuple_array_t</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -450,7 +504,7 @@ template&lt;typename... T&gt; </div>
 template&lt;int MEMBER, class ... TYPES&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="#a727242ef4571513f2628ad972baf2183">Util.tuple_array_t</a> = <a class="el" href="#ae1c0ba58693827acd3c85fff898c00e6">get_template_type_t</a>&lt;std::tuple_element_t&lt;MEMBER, std::tuple&lt;<a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;TYPES&gt;...&gt;&gt;&gt;</td>
+          <td class="memname">using <a class="el" href="#ae04935b7688686c9212e81f4cf312245">Util.tuple_array_t</a> = <a class="el" href="#a12a00e2b623e1b61926220f252abd780">soa_value_type_t</a>&lt;std::tuple_element_t&lt;<a class="el" href="#ab28333180a195cd475191008a08ce904">soa_tuple_index_v</a>&lt;MEMBER, TYPES...&gt;, std::tuple&lt;TYPES...&gt;&gt;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2242,6 +2296,30 @@ template&lt;typename A, typename B&gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab28333180a195cd475191008a08ce904" name="ab28333180a195cd475191008a08ce904"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28333180a195cd475191008a08ce904">&#9670;&#160;</a></span>soa_tuple_index_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int NAME, class... TYPES&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Util.soa_tuple_index_v = <a class="el" href="struct_util_1_1soa__tuple__index.html">soa_tuple_index</a>&lt;NAME, 0, TYPES...&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel constexpr">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

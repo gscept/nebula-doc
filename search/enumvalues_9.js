@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['i_0',['I',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a02045cf40aa299b4b53ba225063e9482',1,'Input::Key']]],
+  ['i_0',['I',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a02045cf40aa299b4b53ba225063e9482',1,'Input::Key::I'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80add7536794b63bf90eccfd37f9b147d7f',1,'Nebula.Game.I']]],
   ['igfd_5ffilestyle_5fnone_1',['IGFD_FileStyle_None',['../_im_gui_file_dialog_8h.html#a3bc690e9ec2a47e628c39cf981c11df8ac34028d2c676af849e6d933149f674a2',1,'ImGuiFileDialog.h']]],
   ['igfd_5ffilestylebycontainedinfullname_2',['IGFD_FileStyleByContainedInFullName',['../_im_gui_file_dialog_8h.html#a3bc690e9ec2a47e628c39cf981c11df8a800b53e839b7fba9325f911f970eb173',1,'ImGuiFileDialog.h']]],
   ['igfd_5ffilestylebyextention_3',['IGFD_FileStyleByExtention',['../_im_gui_file_dialog_8h.html#a3bc690e9ec2a47e628c39cf981c11df8a7b074ef8f5c8d3510bee4506fb1468b6',1,'ImGuiFileDialog.h']]],
@@ -55,7 +55,7 @@ var searchData=
   ['inputassemblylevel_52',['InputAssemblyLevel',['../class_vulkan_1_1_vk_pipeline_database.html#ad28910c1ecfecc690f90265d06ae9b14ab8df4d3f46fc9022c2aaf59ee62ddd87',1,'Vulkan::VkPipelineDatabase']]],
   ['inputassemblyvertex_53',['InputAssemblyVertex',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15baf42620cde494e1d72c89a1b1980dbc2a',1,'CoreGraphics::DrawThread']]],
   ['inputattachment_54',['InputAttachment',['../namespace_core_graphics.html#aed8b029205bc57b3c286ddc8021a5147a261d965f5dd43c6873489b68730dbe57',1,'CoreGraphics']]],
-  ['insert_55',['Insert',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a678c2a156951d9c40c14d17a2857d55e',1,'Input::Key']]],
+  ['insert_55',['Insert',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18a678c2a156951d9c40c14d17a2857d55e',1,'Input::Key::Insert'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80aa458be0f08b7e4ff3c0f633c100176c0',1,'Nebula.Game.Insert']]],
   ['insertmarker_56',['InsertMarker',['../class_core_graphics_1_1_draw_thread.html#a5c09ce72391128fb77e39fa05179f15ba6ae63186ce72de222f438ba37947ab27',1,'CoreGraphics::DrawThread']]],
   ['inside_57',['Inside',['../class_math_1_1_clip_status.html#a1e61b403e4a0c041c5c9a8f07ede10e6a3a4a4b058665673c2827bf29f9b4725a',1,'Math::ClipStatus']]],
   ['int_58',['Int',['../class_util_1_1_variant.html#a0ff299d8917212d20ebeae543ef534eba0765a4cd36d6685b968d00041ecd6d88',1,'Util::Variant::Int'],['../class_base_1_1_vertex_component_base.html#afcc209940e2de35c2d63d09001e15df8a28095e107737b4447153a89e196276b8',1,'Base::VertexComponentBase::Int'],['../class_core_graphics_1_1_vertex_component.html#a03e2476cc323a97a99cd9201404bd1b0aae90266a5468759d28ff78f28fad561e',1,'CoreGraphics::VertexComponent::Int'],['../struct_material_templates_1_1_material_template_value.html#a5cec53c29d139bda9e81bd1918aa740dadeafd3aa020abbde91664a1ad44d68f7',1,'MaterialTemplates::MaterialTemplateValue::Int'],['../struct_material_templates_g_p_u_lang_1_1_material_template_value.html#afff2f533d6bd3d6212dc5489cab3e2caa5bef9d5bea18934c2e4f563905c3db8e',1,'MaterialTemplatesGPULang::MaterialTemplateValue::Int']]],
@@ -90,8 +90,8 @@ var searchData=
   ['invalidimagefileformat_87',['InvalidImageFileFormat',['../class_core_graphics_1_1_image_file_format.html#a3d6599ecffd28b4c78ccb3aa0a9767c7a9b29bd1f99b0d9de7552650f0b0329bb',1,'CoreGraphics::ImageFileFormat']]],
   ['invalidindextype_88',['InvalidIndexType',['../namespace_physics.html#a7ef6431140459ed72bd0b295d6233250a24fc9469ca1f2828720a437a10b9dce6',1,'Physics']]],
   ['invalidinfinitytype_89',['InvalidInfinityType',['../class_core_animation_1_1_infinity_type.html#a837e3b01df757ecf7bba3f6dea292d4ea217b6974ace0a7c2c17d6c5274d00bcd',1,'CoreAnimation::InfinityType']]],
-  ['invalidkey_90',['InvalidKey',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18ac9fb3c88e3d8304454c180a2e79a5cd8',1,'Input::Key']]],
-  ['invalidmousebutton_91',['InvalidMouseButton',['../class_input_1_1_mouse_button.html#af23250c9be1bb7af6b68c95ecb11f912a681f0ccfa8394ebfaf53b04258791d96',1,'Input::MouseButton']]],
+  ['invalidkey_90',['InvalidKey',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18ac9fb3c88e3d8304454c180a2e79a5cd8',1,'Input::Key::InvalidKey'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80a0011e5adf86cf2b7dbc981fa5124af1b',1,'Nebula.Game.InvalidKey']]],
+  ['invalidmousebutton_91',['InvalidMouseButton',['../class_input_1_1_mouse_button.html#af23250c9be1bb7af6b68c95ecb11f912a681f0ccfa8394ebfaf53b04258791d96',1,'Input::MouseButton::InvalidMouseButton'],['../namespace_nebula_1_1_game.html#a89075f36fb2582c31b75419e288204ccacc5006125a08e9ef6d185d40853b8b30',1,'Nebula.Game.InvalidMouseButton']]],
   ['invalidpipeline_92',['InvalidPipeline',['../namespace_core_graphics.html#abae9cceb5c5bb86ed89f84d3d3a8c8eeaac48b145fdb77b41a87bec85ad9ab397',1,'CoreGraphics']]],
   ['invalidpixelformat_93',['InvalidPixelFormat',['../class_core_graphics_1_1_pixel_format.html#a24b206428fd09eedaa91cd3e34bfc7d0a461e763b73451663dce75e4abe3ca188',1,'CoreGraphics::PixelFormat']]],
   ['invalidprimitivetopology_94',['InvalidPrimitiveTopology',['../class_core_graphics_1_1_primitive_topology.html#a1aab21ba463f8fb76b8a8b7ef51c09dba4a7d9552711e22a258e0a09d1a8edc45',1,'CoreGraphics::PrimitiveTopology']]],

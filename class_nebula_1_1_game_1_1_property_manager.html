@@ -121,10 +121,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abd0dc251410da9a0a5e40a5c6ae51626" id="r_abd0dc251410da9a0a5e40a5c6ae51626"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#abd0dc251410da9a0a5e40a5c6ae51626">UnregisterProperty</a> (<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> property)</td></tr>
 <tr class="memitem:a118c71207443bd624d3428ec9998f2d4" id="r_a118c71207443bd624d3428ec9998f2d4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a118c71207443bd624d3428ec9998f2d4">OnBeginFrame</a> ()</td></tr>
 <tr class="memdesc:a118c71207443bd624d3428ec9998f2d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls all eventlistener properties that has subscribed to the OnBeginFrame event.  <br /></td></tr>
+<tr class="memitem:a4589271ba8382b0fa10487e32ae0baed" id="r_a4589271ba8382b0fa10487e32ae0baed"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4589271ba8382b0fa10487e32ae0baed">OnFixedFrame</a> ()</td></tr>
+<tr class="memdesc:a4589271ba8382b0fa10487e32ae0baed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls all eventlistener properties that has subscribed to the OnFixedFrame event, once for every fixed step their time source has available this frame.  <br /></td></tr>
 <tr class="memitem:a38186524571118564c171f567e1ec59f" id="r_a38186524571118564c171f567e1ec59f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a38186524571118564c171f567e1ec59f">OnFrame</a> ()</td></tr>
 <tr class="memdesc:a38186524571118564c171f567e1ec59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls all eventlistener properties that has subscribed to the OnFrame event.  <br /></td></tr>
 <tr class="memitem:ac85340bb5d157b6344608fac44b5c312" id="r_ac85340bb5d157b6344608fac44b5c312"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac85340bb5d157b6344608fac44b5c312">OnEndFrame</a> ()</td></tr>
 <tr class="memdesc:ac85340bb5d157b6344608fac44b5c312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls all eventlistener properties that has subscribed to the OnEndFrame event.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pac-methods" class="groupheader"><a id="pac-methods" name="pac-methods"></a>
+Package Functions</h2></td></tr>
+<tr class="memitem:add97371abce43e6b1ea2f55bd980f977" id="r_add97371abce43e6b1ea2f55bd980f977"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add97371abce43e6b1ea2f55bd980f977">Clear</a> ()</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-properties" class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -141,7 +147,7 @@ Static Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a51810dc076c79f9afa68a0c92e87db1e" id="r_a51810dc076c79f9afa68a0c92e87db1e"><td class="memItemLeft"><a class="el" href="class_util_1_1_list.html">List</a>&lt; <a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> &gt;[]&#160;</td><td class="memItemRight"><a class="el" href="#a51810dc076c79f9afa68a0c92e87db1e">eventListeners</a> = new <a class="el" href="class_util_1_1_list.html">List</a>&lt;<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a>&gt;[(int)<a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9faca38e2fb0fe2c043bc63beb75198b78e">Nebula.Game.FrameEvent.NumEvents</a>]</td></tr>
+<tr class="memitem:a3fb6a4f70a3bb87f8d2ec837dacf5046" id="r_a3fb6a4f70a3bb87f8d2ec837dacf5046"><td class="memItemLeft">readonly List&lt; <a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a> &gt;[]&#160;</td><td class="memItemRight"><a class="el" href="#a3fb6a4f70a3bb87f8d2ec837dacf5046">eventListeners</a> = new List&lt;<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a>&gt;[(int)<a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9faca38e2fb0fe2c043bc63beb75198b78e">Nebula.Game.FrameEvent.NumEvents</a>]</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-static-attribs" class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -199,6 +205,31 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="add97371abce43e6b1ea2f55bd980f977" name="add97371abce43e6b1ea2f55bd980f977"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add97371abce43e6b1ea2f55bd980f977">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.PropertyManager.Clear </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a118c71207443bd624d3428ec9998f2d4" name="a118c71207443bd624d3428ec9998f2d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a118c71207443bd624d3428ec9998f2d4">&#9670;&#160;</a></span>OnBeginFrame()</h2>
 
@@ -250,6 +281,33 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calls all eventlistener properties that has subscribed to the OnEndFrame event. </p>
+
+</div>
+</div>
+<a id="a4589271ba8382b0fa10487e32ae0baed" name="a4589271ba8382b0fa10487e32ae0baed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4589271ba8382b0fa10487e32ae0baed">&#9670;&#160;</a></span>OnFixedFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nebula.Game.PropertyManager.OnFixedFrame </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calls all eventlistener properties that has subscribed to the OnFixedFrame event, once for every fixed step their time source has available this frame. </p>
 
 </div>
 </div>
@@ -335,8 +393,8 @@ Static Private Attributes</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="a51810dc076c79f9afa68a0c92e87db1e" name="a51810dc076c79f9afa68a0c92e87db1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51810dc076c79f9afa68a0c92e87db1e">&#9670;&#160;</a></span>eventListeners</h2>
+<a id="a3fb6a4f70a3bb87f8d2ec837dacf5046" name="a3fb6a4f70a3bb87f8d2ec837dacf5046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fb6a4f70a3bb87f8d2ec837dacf5046">&#9670;&#160;</a></span>eventListeners</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -345,7 +403,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_util_1_1_list.html">List</a>&lt;<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a>&gt; [] Nebula.Game.PropertyManager.eventListeners = new <a class="el" href="class_util_1_1_list.html">List</a>&lt;<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a>&gt;[(int)<a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9faca38e2fb0fe2c043bc63beb75198b78e">Nebula.Game.FrameEvent.NumEvents</a>]</td>
+          <td class="memname">readonly List&lt;<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a>&gt; [] Nebula.Game.PropertyManager.eventListeners = new List&lt;<a class="el" href="class_nebula_1_1_game_1_1_property.html">Property</a>&gt;[(int)<a class="el" href="namespace_nebula_1_1_game.html#a3e616b2f32af017ff6f872f269572f9faca38e2fb0fe2c043bc63beb75198b78e">Nebula.Game.FrameEvent.NumEvents</a>]</td>
         </tr>
       </table>
   </td>

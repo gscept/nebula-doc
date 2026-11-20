@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['year_0',['Year',['../class_base_1_1_calendar_time_base.html#a6dab603afedb05e732222af9292c98f1',1,'Base::CalendarTimeBase']]]
+  ['watchdelegate_0',['WatchDelegate',['../namespace_i_o.html#a123285c6d91c8f0f00da55e7ac54ae3c',1,'IO']]],
+  ['worldid_1',['WorldId',['../namespace_game.html#acb632603de54984831d4e696a1c904b4',1,'Game']]]
 ];

@@ -131,20 +131,52 @@ Private Member Functions</h2></td></tr>
 <tr class="memdesc:aaf2483af29e81f8c1829807c0786d2cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after GameServer::AttachGameFeature()  <br /></td></tr>
 <tr class="memitem:acace73780d608cac55bd3ad27009816c" id="r_acace73780d608cac55bd3ad27009816c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acace73780d608cac55bd3ad27009816c">OnDeactivate</a> () override</td></tr>
 <tr class="memdesc:acace73780d608cac55bd3ad27009816c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before GameServer::RemoveGameFeature()  <br /></td></tr>
+<tr class="memitem:ad2118f948c2ea8becc5e8f01b9acf99d" id="r_ad2118f948c2ea8becc5e8f01b9acf99d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad2118f948c2ea8becc5e8f01b9acf99d">OnStart</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world) override</td></tr>
+<tr class="memdesc:ad2118f948c2ea8becc5e8f01b9acf99d"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within GameServer::OnStart() after OnLoad  <br /></td></tr>
+<tr class="memitem:add7d6182cffa1c4a5a0b8a99e87476d6" id="r_add7d6182cffa1c4a5a0b8a99e87476d6"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#add7d6182cffa1c4a5a0b8a99e87476d6">OnWorldCreated</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world) override</td></tr>
+<tr class="memdesc:add7d6182cffa1c4a5a0b8a99e87476d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within GameServer::CreateWorld() Worlds created before the feature is attached are reported by <a class="el" href="#ad2118f948c2ea8becc5e8f01b9acf99d" title="called from within GameServer::OnStart() after OnLoad">OnStart()</a> instead.  <br /></td></tr>
+<tr class="memitem:adf2e25b2ca0e72334e61c3e3a718a91b" id="r_adf2e25b2ca0e72334e61c3e3a718a91b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adf2e25b2ca0e72334e61c3e3a718a91b">OnWorldDestroyed</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world) override</td></tr>
+<tr class="memdesc:adf2e25b2ca0e72334e61c3e3a718a91b"><td class="mdescLeft">&#160;</td><td class="mdescRight">called from within GameServer::DestroyWorld() before the world is deleted  <br /></td></tr>
 <tr class="memitem:a247cafb7b5df6e7656f0de74b9d2af6c" id="r_a247cafb7b5df6e7656f0de74b9d2af6c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a247cafb7b5df6e7656f0de74b9d2af6c">OnBeginFrame</a> () override</td></tr>
 <tr class="memdesc:a247cafb7b5df6e7656f0de74b9d2af6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called on begin of frame  <br /></td></tr>
 <tr class="memitem:ab1a5d5c094d599eba17dcbdd5f5c274e" id="r_ab1a5d5c094d599eba17dcbdd5f5c274e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab1a5d5c094d599eba17dcbdd5f5c274e">OnFrame</a> () override</td></tr>
 <tr class="memdesc:ab1a5d5c094d599eba17dcbdd5f5c274e"><td class="mdescLeft">&#160;</td><td class="mdescRight">called in the middle of the feature trigger cycle  <br /></td></tr>
 <tr class="memitem:a1767bf25098a68e706a60a5e9fb4965f" id="r_a1767bf25098a68e706a60a5e9fb4965f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a1767bf25098a68e706a60a5e9fb4965f">OnEndFrame</a> () override</td></tr>
 <tr class="memdesc:a1767bf25098a68e706a60a5e9fb4965f"><td class="mdescLeft">&#160;</td><td class="mdescRight">called at the end of the feature trigger cycle  <br /></td></tr>
+<tr class="memitem:a9b48a5c07eab72962ccb32cdb910394f" id="r_a9b48a5c07eab72962ccb32cdb910394f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a9b48a5c07eab72962ccb32cdb910394f">OnDecay</a> () override</td></tr>
+<tr class="memdesc:a9b48a5c07eab72962ccb32cdb910394f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entity deletion is deferred, and the game server runs ManageEntities() before <a class="el" href="#a9b48a5c07eab72962ccb32cdb910394f" title="Entity deletion is deferred, and the game server runs ManageEntities() before OnDecay(),...">OnDecay()</a>, so this is the point where the managed side can drop entities that no longer exist natively.  <br /></td></tr>
 <tr class="memitem:ac46e11768acaa3102905992fde9521ca" id="r_ac46e11768acaa3102905992fde9521ca"><td class="memItemLeft">virtual void&#160;</td><td class="memItemRight"><a class="el" href="#ac46e11768acaa3102905992fde9521ca">OnRenderDebug</a> ()</td></tr>
 <tr class="memdesc:ac46e11768acaa3102905992fde9521ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when game debug visualization is on  <br /></td></tr>
+<tr class="memitem:a5b7663de74b960367ea2280cda7a02e1" id="r_a5b7663de74b960367ea2280cda7a02e1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5b7663de74b960367ea2280cda7a02e1">RegisterWorld</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world)</td></tr>
+<tr class="memdesc:a5b7663de74b960367ea2280cda7a02e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Register a world with the managed mirror.  <br /></td></tr>
+<tr class="memitem:af825ab0a4605592536a20bdb3e15c647" id="r_af825ab0a4605592536a20bdb3e15c647"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#af825ab0a4605592536a20bdb3e15c647">OnEntityCreated</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:af825ab0a4605592536a20bdb3e15c647"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by every registered world when an entity instance is allocated in it.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pri-attribs" class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a1ed788a5f23dc026019b23d3970ac911" id="r_a1ed788a5f23dc026019b23d3970ac911"><td class="memItemLeft"><a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1ed788a5f23dc026019b23d3970ac911">engineAssemblyPath</a></td></tr>
 <tr class="memitem:a8f7b5545f15da0792ddfee629e8af2fc" id="r_a8f7b5545f15da0792ddfee629e8af2fc"><td class="memItemLeft"><a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a>&#160;</td><td class="memItemRight"><a class="el" href="#a8f7b5545f15da0792ddfee629e8af2fc">assemblyPath</a></td></tr>
-<tr class="memitem:ac3febeddcedea5c13429c63d9e4d9c29" id="r_ac3febeddcedea5c13429c63d9e4d9c29"><td class="memItemLeft"><a class="el" href="struct_scripting_1_1_assembly_id.html">Scripting::AssemblyId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac3febeddcedea5c13429c63d9e4d9c29">assemblyId</a></td></tr>
+<tr class="memitem:ac0d17a4d8301f6ca9759c8bfe4d8ad10" id="r_ac0d17a4d8301f6ca9759c8bfe4d8ad10"><td class="memItemLeft"><a class="el" href="struct_scripting_1_1_assembly_id.html">Scripting::AssemblyId</a>&#160;</td><td class="memItemRight"><a class="el" href="#ac0d17a4d8301f6ca9759c8bfe4d8ad10">engineAssemblyId</a></td></tr>
 <tr class="memitem:a22014f07b582e346c26e80ca07ee8790" id="r_a22014f07b582e346c26e80ca07ee8790"><td class="memItemLeft"><a class="el" href="class_ptr.html">Ptr</a>&lt; <a class="el" href="class_scripting_1_1_n_sharp_server.html">Scripting::NSharpServer</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a22014f07b582e346c26e80ca07ee8790">server</a></td></tr>
+<tr class="memitem:aa401f2f82398610eb874dfb3d4d74204" id="r_aa401f2f82398610eb874dfb3d4d74204"><td class="memItemLeft"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#aa401f2f82398610eb874dfb3d4d74204">reloadQueue</a></td></tr>
+<tr class="memitem:a1562e7c1c4292bb05ec66823daff4ef2" id="r_a1562e7c1c4292bb05ec66823daff4ef2"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_util_1_1_string.html">Util::String</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a1562e7c1c4292bb05ec66823daff4ef2">reloads</a></td></tr>
+<tr class="memitem:a3d4c2abbbca5a62ddec90226f04888aa" id="r_a3d4c2abbbca5a62ddec90226f04888aa"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3d4c2abbbca5a62ddec90226f04888aa">reloadWatchPath</a></td></tr>
+<tr class="memitem:ac67b601d6a3821a6305b57636e3ecf36" id="r_ac67b601d6a3821a6305b57636e3ecf36"><td class="memItemLeft"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt; uint32_t, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac67b601d6a3821a6305b57636e3ecf36">worldEntityCounts</a></td></tr>
+<tr class="memdesc:ac67b601d6a3821a6305b57636e3ecf36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Worlds mirrored in the managed runtime, mapped to the entity count they had at the last decay sweep.  <br /></td></tr>
+<tr class="memitem:a2bc920b5c5c12559f99141364379b559" id="r_a2bc920b5c5c12559f99141364379b559"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; uint64_t &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a2bc920b5c5c12559f99141364379b559">entityCreateQueue</a></td></tr>
+<tr class="memdesc:a2bc920b5c5c12559f99141364379b559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entity ids created since the last flush.  <br /></td></tr>
+<tr class="memitem:aa6275dd439e24e6008509692ca259cca" id="r_aa6275dd439e24e6008509692ca259cca"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#aa6275dd439e24e6008509692ca259cca">flushEntityCreates</a></td></tr>
+<tr class="memitem:ae8b49bc9aefc84ba44c7d5bc7117997c" id="r_ae8b49bc9aefc84ba44c7d5bc7117997c"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#ae8b49bc9aefc84ba44c7d5bc7117997c">collectGarbage</a></td></tr>
+<tr class="memitem:a6adea55b06b5bec0adc1e02af99106ff" id="r_a6adea55b06b5bec0adc1e02af99106ff"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#a6adea55b06b5bec0adc1e02af99106ff">clearWorld</a></td></tr>
+<tr class="memitem:aec48fb49ca8058416439bccc2336c3be" id="r_aec48fb49ca8058416439bccc2336c3be"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#aec48fb49ca8058416439bccc2336c3be">mainEntry</a></td></tr>
+<tr class="memitem:a1b59494cfa944b0d0d8122f4bcf6dd2c" id="r_a1b59494cfa944b0d0d8122f4bcf6dd2c"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a1b59494cfa944b0d0d8122f4bcf6dd2c">exitEntry</a></td></tr>
+<tr class="memitem:a6f8193d7b782112d7c9fff8e637af04e" id="r_a6f8193d7b782112d7c9fff8e637af04e"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a6f8193d7b782112d7c9fff8e637af04e">beginFrameEntry</a></td></tr>
+<tr class="memitem:afb60dca3e3112e1a52602ecddcc13fce" id="r_afb60dca3e3112e1a52602ecddcc13fce"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#afb60dca3e3112e1a52602ecddcc13fce">frameEntry</a></td></tr>
+<tr class="memitem:adcec3eb6366e0b1f4c6248539db100f8" id="r_adcec3eb6366e0b1f4c6248539db100f8"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#adcec3eb6366e0b1f4c6248539db100f8">endFrameEntry</a></td></tr>
+<tr class="memitem:acd0a7061cdfb991bad4dcab8b7a05535" id="r_acd0a7061cdfb991bad4dcab8b7a05535"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#acd0a7061cdfb991bad4dcab8b7a05535">reloadEntry</a></td></tr>
+<tr class="memitem:a3e867cacc936efab48e04619713c24bf" id="r_a3e867cacc936efab48e04619713c24bf"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3e867cacc936efab48e04619713c24bf">flushEntityCreateQueueEntry</a></td></tr>
+<tr class="memitem:a44121379ae579d3f48af486671df2364" id="r_a44121379ae579d3f48af486671df2364"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a44121379ae579d3f48af486671df2364">collectGarbageEntry</a></td></tr>
+<tr class="memitem:a72706ef018eedbac79582a19c4be5692" id="r_a72706ef018eedbac79582a19c4be5692"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a72706ef018eedbac79582a19c4be5692">clearWorldEntry</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -332,6 +364,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a9b48a5c07eab72962ccb32cdb910394f" name="a9b48a5c07eab72962ccb32cdb910394f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b48a5c07eab72962ccb32cdb910394f">&#9670;&#160;</a></span>OnDecay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scripting::ScriptFeatureUnit::OnDecay </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Entity deletion is deferred, and the game server runs ManageEntities() before <a class="el" href="#a9b48a5c07eab72962ccb32cdb910394f" title="Entity deletion is deferred, and the game server runs ManageEntities() before OnDecay(),...">OnDecay()</a>, so this is the point where the managed side can drop entities that no longer exist natively. </p>
+<p>Worlds whose entity count did not change are ignored </p>
+
+<p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#a685cfe63268e8a2205d510071f27a5a1">Game::FeatureUnit</a>.</p>
+
+</div>
+</div>
 <a id="a1767bf25098a68e706a60a5e9fb4965f" name="a1767bf25098a68e706a60a5e9fb4965f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1767bf25098a68e706a60a5e9fb4965f">&#9670;&#160;</a></span>OnEndFrame()</h2>
 
@@ -360,6 +422,38 @@ Additional Inherited Members</h2></td></tr>
 <p>Override this method if your FeatureUnit has any work to do before rendering happens. </p>
 
 <p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#ab1ebcc1baeb2aa06d1f331425c90aaae">Game::FeatureUnit</a>.</p>
+
+</div>
+</div>
+<a id="af825ab0a4605592536a20bdb3e15c647" name="af825ab0a4605592536a20bdb3e15c647"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af825ab0a4605592536a20bdb3e15c647">&#9670;&#160;</a></span>OnEntityCreated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scripting::ScriptFeatureUnit::OnEntityCreated </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by every registered world when an entity instance is allocated in it. </p>
+<p>The entity id is blittable and carries its world id, so the queue can be flushed to the managed runtime with a single call. </p>
 
 </div>
 </div>
@@ -425,6 +519,127 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="ad2118f948c2ea8becc5e8f01b9acf99d" name="ad2118f948c2ea8becc5e8f01b9acf99d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2118f948c2ea8becc5e8f01b9acf99d">&#9670;&#160;</a></span>OnStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scripting::ScriptFeatureUnit::OnStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from within GameServer::OnStart() after OnLoad </p>
+<p>This method is called from within Game::GameServer::OnStart().</p>
+<p>Its called after all game features are activated and have initialized their subsystems. </p>
+
+<p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#a043c9734c7f6030ccf26d6b34af3f7a4">Game::FeatureUnit</a>.</p>
+
+</div>
+</div>
+<a id="add7d6182cffa1c4a5a0b8a99e87476d6" name="add7d6182cffa1c4a5a0b8a99e87476d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add7d6182cffa1c4a5a0b8a99e87476d6">&#9670;&#160;</a></span>OnWorldCreated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scripting::ScriptFeatureUnit::OnWorldCreated </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from within GameServer::CreateWorld() Worlds created before the feature is attached are reported by <a class="el" href="#ad2118f948c2ea8becc5e8f01b9acf99d" title="called from within GameServer::OnStart() after OnLoad">OnStart()</a> instead. </p>
+<p>Called from GameServer::CreateWorld(). </p>
+
+<p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#a26917d922e97dca62364167ef53688af">Game::FeatureUnit</a>.</p>
+
+</div>
+</div>
+<a id="adf2e25b2ca0e72334e61c3e3a718a91b" name="adf2e25b2ca0e72334e61c3e3a718a91b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf2e25b2ca0e72334e61c3e3a718a91b">&#9670;&#160;</a></span>OnWorldDestroyed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scripting::ScriptFeatureUnit::OnWorldDestroyed </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span><span class="mlabel private">private</span><span class="mlabel virtual">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called from within GameServer::DestroyWorld() before the world is deleted </p>
+<p>Called from GameServer::DestroyWorld() before the world is deleted. </p>
+
+<p>Reimplemented from <a class="el" href="class_game_1_1_feature_unit.html#acd577ccbdfc49058b182d475883a41f2">Game::FeatureUnit</a>.</p>
+
+</div>
+</div>
+<a id="a5b7663de74b960367ea2280cda7a02e1" name="a5b7663de74b960367ea2280cda7a02e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b7663de74b960367ea2280cda7a02e1">&#9670;&#160;</a></span>RegisterWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Scripting::ScriptFeatureUnit::RegisterWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Register a world with the managed mirror. </p>
+<p>Native is the source of truth for entities, so a mirrored world is kept in sync by a callback rather than by walking the database.</p>
+<p>Sets the entity callback, seeds the queue with the entities that already exist in the world, and remembers the entity count for the next decay sweep.</p>
+<p>The walk here only seeds the queue with entities that already existed when the callback was registered, which is the case for entities authored by C++ before the script assembly is loaded, and for worlds that exist before a reload. </p>
+
+</div>
+</div>
 <a id="aa16089cc306618dc7fc8c0422deb5a0d" name="aa16089cc306618dc7fc8c0422deb5a0d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa16089cc306618dc7fc8c0422deb5a0d">&#9670;&#160;</a></span>SetScriptAssembly()</h2>
 
@@ -453,28 +668,6 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
-<a id="ac3febeddcedea5c13429c63d9e4d9c29" name="ac3febeddcedea5c13429c63d9e4d9c29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3febeddcedea5c13429c63d9e4d9c29">&#9670;&#160;</a></span>assemblyId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_scripting_1_1_assembly_id.html">Scripting::AssemblyId</a> Scripting::ScriptFeatureUnit::assemblyId</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8f7b5545f15da0792ddfee629e8af2fc" name="a8f7b5545f15da0792ddfee629e8af2fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f7b5545f15da0792ddfee629e8af2fc">&#9670;&#160;</a></span>assemblyPath</h2>
 
@@ -486,6 +679,404 @@ Additional Inherited Members</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> Scripting::ScriptFeatureUnit::assemblyPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6f8193d7b782112d7c9fff8e637af04e" name="a6f8193d7b782112d7c9fff8e637af04e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f8193d7b782112d7c9fff8e637af04e">&#9670;&#160;</a></span>beginFrameEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::beginFrameEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6adea55b06b5bec0adc1e02af99106ff" name="a6adea55b06b5bec0adc1e02af99106ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6adea55b06b5bec0adc1e02af99106ff">&#9670;&#160;</a></span>clearWorld</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* Scripting::ScriptFeatureUnit::clearWorld</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72706ef018eedbac79582a19c4be5692" name="a72706ef018eedbac79582a19c4be5692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72706ef018eedbac79582a19c4be5692">&#9670;&#160;</a></span>clearWorldEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::clearWorldEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae8b49bc9aefc84ba44c7d5bc7117997c" name="ae8b49bc9aefc84ba44c7d5bc7117997c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8b49bc9aefc84ba44c7d5bc7117997c">&#9670;&#160;</a></span>collectGarbage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* Scripting::ScriptFeatureUnit::collectGarbage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a44121379ae579d3f48af486671df2364" name="a44121379ae579d3f48af486671df2364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44121379ae579d3f48af486671df2364">&#9670;&#160;</a></span>collectGarbageEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::collectGarbageEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adcec3eb6366e0b1f4c6248539db100f8" name="adcec3eb6366e0b1f4c6248539db100f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcec3eb6366e0b1f4c6248539db100f8">&#9670;&#160;</a></span>endFrameEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::endFrameEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac0d17a4d8301f6ca9759c8bfe4d8ad10" name="ac0d17a4d8301f6ca9759c8bfe4d8ad10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d17a4d8301f6ca9759c8bfe4d8ad10">&#9670;&#160;</a></span>engineAssemblyId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_scripting_1_1_assembly_id.html">Scripting::AssemblyId</a> Scripting::ScriptFeatureUnit::engineAssemblyId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ed788a5f23dc026019b23d3970ac911" name="a1ed788a5f23dc026019b23d3970ac911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed788a5f23dc026019b23d3970ac911">&#9670;&#160;</a></span>engineAssemblyPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_i_o_1_1_u_r_i.html">IO::URI</a> Scripting::ScriptFeatureUnit::engineAssemblyPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bc920b5c5c12559f99141364379b559" name="a2bc920b5c5c12559f99141364379b559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc920b5c5c12559f99141364379b559">&#9670;&#160;</a></span>entityCreateQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;uint64_t&gt; Scripting::ScriptFeatureUnit::entityCreateQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Entity ids created since the last flush. </p>
+
+</div>
+</div>
+<a id="a1b59494cfa944b0d0d8122f4bcf6dd2c" name="a1b59494cfa944b0d0d8122f4bcf6dd2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b59494cfa944b0d0d8122f4bcf6dd2c">&#9670;&#160;</a></span>exitEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::exitEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e867cacc936efab48e04619713c24bf" name="a3e867cacc936efab48e04619713c24bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e867cacc936efab48e04619713c24bf">&#9670;&#160;</a></span>flushEntityCreateQueueEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::flushEntityCreateQueueEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6275dd439e24e6008509692ca259cca" name="aa6275dd439e24e6008509692ca259cca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6275dd439e24e6008509692ca259cca">&#9670;&#160;</a></span>flushEntityCreates</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* Scripting::ScriptFeatureUnit::flushEntityCreates</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afb60dca3e3112e1a52602ecddcc13fce" name="afb60dca3e3112e1a52602ecddcc13fce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb60dca3e3112e1a52602ecddcc13fce">&#9670;&#160;</a></span>frameEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::frameEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec48fb49ca8058416439bccc2336c3be" name="aec48fb49ca8058416439bccc2336c3be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec48fb49ca8058416439bccc2336c3be">&#9670;&#160;</a></span>mainEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::mainEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd0a7061cdfb991bad4dcab8b7a05535" name="acd0a7061cdfb991bad4dcab8b7a05535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd0a7061cdfb991bad4dcab8b7a05535">&#9670;&#160;</a></span>reloadEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::reloadEntry</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa401f2f82398610eb874dfb3d4d74204" name="aa401f2f82398610eb874dfb3d4d74204"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa401f2f82398610eb874dfb3d4d74204">&#9670;&#160;</a></span>reloadQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_threading_1_1_safe_queue.html">Threading::SafeQueue</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>&gt; Scripting::ScriptFeatureUnit::reloadQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1562e7c1c4292bb05ec66823daff4ef2" name="a1562e7c1c4292bb05ec66823daff4ef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1562e7c1c4292bb05ec66823daff4ef2">&#9670;&#160;</a></span>reloads</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt;<a class="el" href="class_util_1_1_string.html">Util::String</a>&gt; Scripting::ScriptFeatureUnit::reloads</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3d4c2abbbca5a62ddec90226f04888aa" name="a3d4c2abbbca5a62ddec90226f04888aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d4c2abbbca5a62ddec90226f04888aa">&#9670;&#160;</a></span>reloadWatchPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> Scripting::ScriptFeatureUnit::reloadWatchPath</td>
         </tr>
       </table>
   </td>
@@ -516,6 +1107,30 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac67b601d6a3821a6305b57636e3ecf36" name="ac67b601d6a3821a6305b57636e3ecf36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac67b601d6a3821a6305b57636e3ecf36">&#9670;&#160;</a></span>worldEntityCounts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_dictionary.html">Util::Dictionary</a>&lt;uint32_t, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&gt; Scripting::ScriptFeatureUnit::worldEntityCounts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Worlds mirrored in the managed runtime, mapped to the entity count they had at the last decay sweep. </p>
 
 </div>
 </div>

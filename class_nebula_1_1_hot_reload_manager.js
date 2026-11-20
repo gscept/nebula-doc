@@ -1,0 +1,27 @@
+var class_nebula_1_1_hot_reload_manager =
+[
+    [ "ReloadRequest", "class_nebula_1_1_hot_reload_manager_1_1_reload_request.html", "class_nebula_1_1_hot_reload_manager_1_1_reload_request" ],
+    [ "RetiredContext", "class_nebula_1_1_hot_reload_manager_1_1_retired_context.html", "class_nebula_1_1_hot_reload_manager_1_1_retired_context" ],
+    [ "CollectUnloadedContexts", "class_nebula_1_1_hot_reload_manager.html#afd4dcb4bc1e5c46815b84ab0de714b61", null ],
+    [ "DeleteStagingDirectory", "class_nebula_1_1_hot_reload_manager.html#a31c542676b816a007e3c38c54171a2fd", null ],
+    [ "HasChanged", "class_nebula_1_1_hot_reload_manager.html#a78009add234bf018c1a34f3e61c9b9be", null ],
+    [ "Load", "class_nebula_1_1_hot_reload_manager.html#aeb469bcc1f4b4aa236292d88f0f15c4e", null ],
+    [ "ProcessPendingReload", "class_nebula_1_1_hot_reload_manager.html#a02b01ee8bdaf42f6e613858b141abdd9", null ],
+    [ "Reload", "class_nebula_1_1_hot_reload_manager.html#ac2c4dbb28ccf5a6e7a9d8c3024ae122c", null ],
+    [ "RememberBuild", "class_nebula_1_1_hot_reload_manager.html#a7be95106ec80253ea21b472331c42151", null ],
+    [ "RequestReload", "class_nebula_1_1_hot_reload_manager.html#ad960d7b066d9e8b234b17b70f3ad0675", null ],
+    [ "RequestReload", "class_nebula_1_1_hot_reload_manager.html#aba00f6282e8421183bf7ae35f7ad85bf", null ],
+    [ "ShouldStage", "class_nebula_1_1_hot_reload_manager.html#a7c64cb99917cd60069b85e505020bb69", null ],
+    [ "Stage", "class_nebula_1_1_hot_reload_manager.html#af58cb65b2290a7a92c0edbdff63ff8c1", null ],
+    [ "TrackUnloadedContext", "class_nebula_1_1_hot_reload_manager.html#a0bd491b95033e29d023559a3c1a87d2f", null ],
+    [ "Unload", "class_nebula_1_1_hot_reload_manager.html#a9821e2a44a9d15b869f3bc7be13c0042", null ],
+    [ "gamePlugin", "class_nebula_1_1_hot_reload_manager.html#aa1e2f9d9bdffe8186e4ecfacdadcfd7a", null ],
+    [ "generation", "class_nebula_1_1_hot_reload_manager.html#acf3ce6293afdd19bdca41fbc5821b9a9", null ],
+    [ "loadedLength", "class_nebula_1_1_hot_reload_manager.html#a5f44dea81687b1d33d081d5faf4afd31", null ],
+    [ "loadedStagingDirectory", "class_nebula_1_1_hot_reload_manager.html#ae5ae35fac83084a2aaa1a22a611504fb", null ],
+    [ "loadedWriteTime", "class_nebula_1_1_hot_reload_manager.html#a35195d8d6b04e5d56f684c0ec1bf3785", null ],
+    [ "pendingRequest", "class_nebula_1_1_hot_reload_manager.html#a88ba4942ef383daab10ded837cdfa22a", null ],
+    [ "pluginPath", "class_nebula_1_1_hot_reload_manager.html#a10b3a98e369a07cfcf5116383593b3e6", null ],
+    [ "requestLock", "class_nebula_1_1_hot_reload_manager.html#a0a67906be68b7a3fc8f8f426d00f1f20", null ],
+    [ "unloadedContexts", "class_nebula_1_1_hot_reload_manager.html#ae79a74b92e26fb16abb1f6e7f6b07841", null ]
+];

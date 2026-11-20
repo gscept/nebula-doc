@@ -117,6 +117,7 @@ var namespace_i_o =
     [ "AddWatchRecursive", "namespace_i_o.html#a4f826826a0f73a85bbcdfa47e17eef89", null ],
     [ "ComputeFileCrc", "namespace_i_o.html#a8fff311074ca59c01997f01c15c4efd6", null ],
     [ "CopyFile", "namespace_i_o.html#a9e0631470b81fc136e009b17b73ee29f", null ],
+    [ "CopyRawNode", "namespace_i_o.html#a95f5e2ea7858c8815b2f4a243dd18dfe", null ],
     [ "CreateDirectory", "namespace_i_o.html#a5dd6bc655555474996238c4dd5dd83d4", null ],
     [ "CreateNotifyMask", "namespace_i_o.html#af4e9c1f0a6c90ceb33945c5c4d5d8112", null ],
     [ "CreateStream", "namespace_i_o.html#a9fd92a845c59b94c60f52c0773dbdec2", null ],

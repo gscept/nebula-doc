@@ -1,18 +1,27 @@
 var class_nebula_1_1_game_1_1_nebula_api_v1 =
 [
     [ "CreateEntity", "class_nebula_1_1_game_1_1_nebula_api_v1.html#ad65845d4ccda58796e3e4d4ce6d62e7b", null ],
+    [ "CreateTimeSource", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a2d71b604e80a9f5ba5b212830e7897e4", null ],
     [ "DeleteEntity", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a3b11af328d175cfe8030f73a57953255", null ],
     [ "GetComponentData", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a6b59789a61bd11e1b55c393f0bfe4c5d", null ],
     [ "GetComponentId", "class_nebula_1_1_game_1_1_nebula_api_v1.html#af4e85a9eaa8bd341e765a716860860d3", null ],
     [ "GetComponentIdUtf8", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a5574624f9b9feb272b5231119b957aa2", null ],
     [ "GetDefaultWorldId", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a54dca603c04665108e303e6502b0f2cf", null ],
+    [ "GetGlobalTimeFactor", "class_nebula_1_1_game_1_1_nebula_api_v1.html#ae9fa1b08d11c2e922045a6be5c5bebc8", null ],
     [ "GetOrientation", "class_nebula_1_1_game_1_1_nebula_api_v1.html#aa1352d127caa8ebaef6053b806010edc", null ],
     [ "GetPosition", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a1b4da1aff9badf1fa80dc523964332a5", null ],
     [ "GetScale", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a1385b97361521ed07e990371c588dd3c", null ],
     [ "HasComponent", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a19fe55f3b3141ca8065986313098d4e5", null ],
+    [ "HasInstance", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a528844e5dce6709fa850779649ed543e", null ],
+    [ "HasWorld", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a69f30b616028494363d11c0cf0af8c85", null ],
+    [ "IsSimulating", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a85abc2918b082a0b551e30d3630d9c95", null ],
     [ "IsValid", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a312908939aafd1c6b6b64b70b0b068c0", null ],
     [ "SetComponentData", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a947b8c0078d2218bd3ad0481bf6e0c64", null ],
+    [ "SetGlobalTimeFactor", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a002b586771c557e0e1b5a34ddd70afb7", null ],
     [ "SetOrientation", "class_nebula_1_1_game_1_1_nebula_api_v1.html#ae36daad47962cfeea576f76cad6e2488", null ],
     [ "SetPosition", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a048e2006333eb1710c7823886284bc05", null ],
-    [ "SetScale", "class_nebula_1_1_game_1_1_nebula_api_v1.html#a234eb6aecc96f145b90633e93f52b570", null ]
+    [ "SetScale", "class_nebula_1_1_game_1_1_nebula_api_v1.html#acb588f523130ce2f41966d9d0866adfc", null ],
+    [ "SetTimeSourcePauseCounter", "class_nebula_1_1_game_1_1_nebula_api_v1.html#ac08f136236adce18639775180e0da3a9", null ],
+    [ "SetTimeSourceTimeFactor", "class_nebula_1_1_game_1_1_nebula_api_v1.html#acbe2fd49cad3ad1e70b1b2f5c060a059", null ],
+    [ "SyncTimeSources", "class_nebula_1_1_game_1_1_nebula_api_v1.html#ae869489a2a8f1e04adafea8add32deb6", null ]
 ];

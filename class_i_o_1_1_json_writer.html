@@ -140,6 +140,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7f40a1f190bb824a4ce3640be2639931" id="r_a7f40a1f190bb824a4ce3640be2639931"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
 <tr class="memitem:a7f40a1f190bb824a4ce3640be2639931 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7f40a1f190bb824a4ce3640be2639931">Add</a> (const T &amp;value, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name=&quot;&quot;)</td></tr>
 <tr class="memdesc:a7f40a1f190bb824a4ce3640be2639931"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a value to the current array node  <br /></td></tr>
+<tr class="memitem:a40e6ac2d8e8cbaa843e3838d58fb0302" id="r_a40e6ac2d8e8cbaa843e3838d58fb0302"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a40e6ac2d8e8cbaa843e3838d58fb0302">AddRaw</a> (const char *jsonText, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name=&quot;&quot;)</td></tr>
+<tr class="memdesc:a40e6ac2d8e8cbaa843e3838d58fb0302"><td class="mdescLeft">&#160;</td><td class="mdescRight">add a json subtree that was built elsewhere and is only known as text.  <br /></td></tr>
 <tr class="memitem:a6e95fbccbacfcc5da9479ed5e8f1ad4e" id="r_a6e95fbccbacfcc5da9479ed5e8f1ad4e"><td class="memTemplParams" colspan="2">template&lt;typename T, size_t N&gt; </td></tr>
 <tr class="memitem:a6e95fbccbacfcc5da9479ed5e8f1ad4e template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a6e95fbccbacfcc5da9479ed5e8f1ad4e">Add</a> (std::array&lt; T, N &gt; const &amp;values, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;name=&quot;&quot;)</td></tr>
 <tr class="memdesc:a6e95fbccbacfcc5da9479ed5e8f1ad4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">add std::array values to the current node  <br /></td></tr>
@@ -1595,6 +1597,32 @@ template&lt;unsigned int N&gt; </div>
 </div><div class="memdoc">
 
 <p>add bitfield of N size </p>
+
+</div>
+</div>
+<a id="a40e6ac2d8e8cbaa843e3838d58fb0302" name="a40e6ac2d8e8cbaa843e3838d58fb0302"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40e6ac2d8e8cbaa843e3838d58fb0302">&#9670;&#160;</a></span>AddRaw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void IO::JsonWriter::AddRaw </td>
+          <td>(</td>
+          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>jsonText</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>name</em></span><span class="paramdefsep"> = </span><span class="paramdefval">&quot;&quot;</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>add a json subtree that was built elsewhere and is only known as text. </p>
+<p>Parse the text into its own document and copy the resulting subtree into this writer's allocator.</p>
+<p>This is what lets a feature contribute a node the writer has no type knowledge of</p>
+<p>pjson parses in place, so the text needs a mutable copy that outlives the parse until the subtree has been copied. </p>
 
 </div>
 </div>

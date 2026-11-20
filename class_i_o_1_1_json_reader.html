@@ -162,6 +162,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a79f23f6763b53b8a6d515b9b05c3063c"><td class="mdescLeft">&#160;</td><td class="mdescRight">return names of all attrs on current node  <br /></td></tr>
 <tr class="memitem:a215f07bd3b958ef9d60ff2c2800df23a" id="r_a215f07bd3b958ef9d60ff2c2800df23a"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a215f07bd3b958ef9d60ff2c2800df23a">GetCurrentNodeName</a> () const</td></tr>
 <tr class="memdesc:a215f07bd3b958ef9d60ff2c2800df23a"><td class="mdescLeft">&#160;</td><td class="mdescRight">get name of current node  <br /></td></tr>
+<tr class="memitem:a15be91c2a812425d41d768bc7621401c" id="r_a15be91c2a812425d41d768bc7621401c"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#a15be91c2a812425d41d768bc7621401c">GetRawJson</a> () const</td></tr>
+<tr class="memdesc:a15be91c2a812425d41d768bc7621401c"><td class="mdescLeft">&#160;</td><td class="mdescRight">the current node as json text.  <br /></td></tr>
 <tr class="memitem:aa02516cbd0894785fb983ddcfc55e532" id="r_aa02516cbd0894785fb983ddcfc55e532"><td class="memItemLeft"><a class="el" href="class_util_1_1_string.html">Util::String</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa02516cbd0894785fb983ddcfc55e532">GetString</a> (const char *attr=0) const</td></tr>
 <tr class="memdesc:aa02516cbd0894785fb983ddcfc55e532"><td class="mdescLeft">&#160;</td><td class="mdescRight">get string attribute value from current node  <br /></td></tr>
 <tr class="memitem:adac536fe9b7c5819800d4afc8ab0f13c" id="r_adac536fe9b7c5819800d4afc8ab0f13c"><td class="memItemLeft"><a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a>&#160;</td><td class="memItemRight"><a class="el" href="#adac536fe9b7c5819800d4afc8ab0f13c">GetStringAtom</a> (const char *attr=0) const</td></tr>
@@ -341,6 +343,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a13074d697503a97e51b05d66a02e3dbc" id="r_a13074d697503a97e51b05d66a02e3dbc"><td class="memItemLeft"><a class="el" href="class_util_1_1_stack.html">Util::Stack</a>&lt; const pjson::value_variant * &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a13074d697503a97e51b05d66a02e3dbc">parents</a></td></tr>
 <tr class="memitem:a9b094fd0f509cb4a7c20fefd7decaa8c" id="r_a9b094fd0f509cb4a7c20fefd7decaa8c"><td class="memItemLeft"><a class="el" href="class_util_1_1_stack.html">Util::Stack</a>&lt; <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a9b094fd0f509cb4a7c20fefd7decaa8c">parentIdx</a></td></tr>
 <tr class="memitem:afb8ffc95ec8a515ed6b7cfee2d54e1f2" id="r_afb8ffc95ec8a515ed6b7cfee2d54e1f2"><td class="memItemLeft">char *&#160;</td><td class="memItemRight"><a class="el" href="#afb8ffc95ec8a515ed6b7cfee2d54e1f2">buffer</a> = nullptr</td></tr>
+<tr class="memitem:a46080c8284431f029f2a313b48dd4932" id="r_a46080c8284431f029f2a313b48dd4932"><td class="memItemLeft"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a>&#160;</td><td class="memItemRight"><a class="el" href="#a46080c8284431f029f2a313b48dd4932">bufferSize</a> = 0</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-inherited" class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -1833,6 +1836,28 @@ template&lt;&gt; </div>
 
 </div>
 </div>
+<a id="a15be91c2a812425d41d768bc7621401c" name="a15be91c2a812425d41d768bc7621401c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15be91c2a812425d41d768bc7621401c">&#9670;&#160;</a></span>GetRawJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_string.html">Util::String</a> IO::JsonReader::GetRawJson </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the current node as json text. </p>
+<p>Serialize the current node back to text.</p>
+<p>This is what lets a feature read a node the reader has no type knowledge of</p>
+<p>Written unformatted, which is what keeps the result no longer than the text the node was parsed from, and what makes the read buffer a safe bound. </p>
+
+</div>
+</div>
 <a id="aa02516cbd0894785fb983ddcfc55e532" name="aa02516cbd0894785fb983ddcfc55e532"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa02516cbd0894785fb983ddcfc55e532">&#9670;&#160;</a></span>GetString()</h2>
 
@@ -2241,6 +2266,28 @@ template&lt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">char* IO::JsonReader::buffer = nullptr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46080c8284431f029f2a313b48dd4932" name="a46080c8284431f029f2a313b48dd4932"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46080c8284431f029f2a313b48dd4932">&#9670;&#160;</a></span>bufferSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> IO::JsonReader::bufferSize = 0</td>
         </tr>
       </table>
   </td>

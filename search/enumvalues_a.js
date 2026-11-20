@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['j_0',['J',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18aa267c043752c164c50a4f473ed7cb987',1,'Input::Key']]],
+  ['j_0',['J',['../class_input_1_1_key.html#a5d63b7cb4e8f8305039e218c08e06c18aa267c043752c164c50a4f473ed7cb987',1,'Input::Key::J'],['../namespace_nebula_1_1_game.html#a1c07289800ca6b2ab86ee387f9b3bd80aff44570aca8241914870afbc310cdb85',1,'Nebula.Game.J']]],
   ['january_1',['January',['../class_base_1_1_calendar_time_base.html#ae1f166cb8ce8e6cd1a937188eeaef49ba26e19b47e07d1082b1b9fe6964f7b4a4',1,'Base::CalendarTimeBase']]],
   ['job_5fcallbackfunc_2',['Job_CallbackFunc',['../namespace_jobs.html#ac9edd7170549fad848a84266969b54aca3b2717cbae08c8d7aa33d0699f38d69c',1,'Jobs']]],
   ['job_5fcreateinfo_3',['Job_CreateInfo',['../namespace_jobs.html#ac9edd7170549fad848a84266969b54aca174cddaaf460406f06617ef0f68acaff',1,'Jobs']]],

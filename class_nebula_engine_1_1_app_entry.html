@@ -116,10 +116,203 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('class_nebula_e
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a47dbdffedd92a12f181174a1a030f44b" id="r_a47dbdffedd92a12f181174a1a030f44b"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a47dbdffedd92a12f181174a1a030f44b">Main</a> ()</td></tr>
+<tr class="memitem:a87a4befeba1d0fed6709577078973d92" id="r_a87a4befeba1d0fed6709577078973d92"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a87a4befeba1d0fed6709577078973d92">Main</a> (IntPtr pluginPath, int pluginPathLength)</td></tr>
 <tr class="memitem:a434f8c96c7f3288b14b314b15e1775e6" id="r_a434f8c96c7f3288b14b314b15e1775e6"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a434f8c96c7f3288b14b314b15e1775e6">Exit</a> ()</td></tr>
+<tr class="memitem:ac75848c7d22d5ee14aeabd6954de7ae6" id="r_ac75848c7d22d5ee14aeabd6954de7ae6"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ac75848c7d22d5ee14aeabd6954de7ae6">RequestReload</a> (IntPtr pluginPath, int pluginPathLength)</td></tr>
+<tr class="memitem:a6095a2eb74f544742071226e1999ffa6" id="r_a6095a2eb74f544742071226e1999ffa6"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a6095a2eb74f544742071226e1999ffa6">OnBeginFrame</a> ()</td></tr>
+<tr class="memitem:ab086702e4a1317a5c7ac2c95614d2e38" id="r_ab086702e4a1317a5c7ac2c95614d2e38"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ab086702e4a1317a5c7ac2c95614d2e38">OnFrame</a> ()</td></tr>
+<tr class="memitem:ab4cc5b1ef1141a2455f5269b8c16904a" id="r_ab4cc5b1ef1141a2455f5269b8c16904a"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ab4cc5b1ef1141a2455f5269b8c16904a">OnEndFrame</a> ()</td></tr>
+<tr class="memitem:aef566cf81a4103ac393992fbcd66a8f3" id="r_aef566cf81a4103ac393992fbcd66a8f3"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#aef566cf81a4103ac393992fbcd66a8f3">FlushEntityCreateQueue</a> (IntPtr ids, int count)</td></tr>
+<tr class="memdesc:aef566cf81a4103ac393992fbcd66a8f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the script feature unit at the beginning of the frame with the entities created since the last flush.  <br /></td></tr>
+<tr class="memitem:af6eedeb34e52b5e724f28efd75061d61" id="r_af6eedeb34e52b5e724f28efd75061d61"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#af6eedeb34e52b5e724f28efd75061d61">CollectGarbage</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> worldId)</td></tr>
+<tr class="memdesc:af6eedeb34e52b5e724f28efd75061d61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the script feature unit after the game server has managed its entities, for every world whose entity count changed since the last sweep.  <br /></td></tr>
+<tr class="memitem:af0f153affc3cc941eedf768935e509e3" id="r_af0f153affc3cc941eedf768935e509e3"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#af0f153affc3cc941eedf768935e509e3">ClearWorld</a> (<a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a> worldId)</td></tr>
+<tr class="memdesc:af0f153affc3cc941eedf768935e509e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the script feature unit when a world is destroyed.  <br /></td></tr>
+<tr class="memitem:a54c4859b70de1a770f14bba3f360c259" id="r_a54c4859b70de1a770f14bba3f360c259"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a54c4859b70de1a770f14bba3f360c259">SerializeProperties</a> (<a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a> entityId, IntPtr outBuffer, int maxLen)</td></tr>
+<tr class="memdesc:a54c4859b70de1a770f14bba3f360c259"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the level format for every entity it writes.  <br /></td></tr>
+<tr class="memitem:af3624a9f54ed02ed4f6b0ee3a4b5a688" id="r_af3624a9f54ed02ed4f6b0ee3a4b5a688"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#af3624a9f54ed02ed4f6b0ee3a4b5a688">ApplyProperties</a> (<a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a> entityId, IntPtr jsonUtf8, int length)</td></tr>
+<tr class="memdesc:af3624a9f54ed02ed4f6b0ee3a4b5a688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the level format for every entity it reads.  <br /></td></tr>
+<tr class="memitem:a22b6df9b20239cb90e835c13fdda3556" id="r_a22b6df9b20239cb90e835c13fdda3556"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a22b6df9b20239cb90e835c13fdda3556">DrawProperties</a> (<a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a> entityId)</td></tr>
+<tr class="memdesc:a22b6df9b20239cb90e835c13fdda3556"><td class="mdescLeft">&#160;</td><td class="mdescRight">The property section the inspector draws.  <br /></td></tr>
+<tr class="memitem:a71907585b40ccac930e59e2d76079051" id="r_a71907585b40ccac930e59e2d76079051"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a71907585b40ccac930e59e2d76079051">HasProperty</a> (<a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a> entityId, IntPtr nameUtf8, int nameLen)</td></tr>
+<tr class="memdesc:a71907585b40ccac930e59e2d76079051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the entity has the property, which is what makes the editor's dropdown row read as already added.  <br /></td></tr>
+<tr class="memitem:a6654d7c2e0b037c68e9b094c1198d6f8" id="r_a6654d7c2e0b037c68e9b094c1198d6f8"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a6654d7c2e0b037c68e9b094c1198d6f8">DefaultPropertyJson</a> (IntPtr nameUtf8, int nameLen, IntPtr outBuffer, int maxLen)</td></tr>
+<tr class="memdesc:a6654d7c2e0b037c68e9b094c1198d6f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text a default instance of the property produces, which is what the editor's add writes.  <br /></td></tr>
+<tr class="memitem:ad6b3aa64b070d3f36c43b3b8c3ac4cfb" id="r_ad6b3aa64b070d3f36c43b3b8c3ac4cfb"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ad6b3aa64b070d3f36c43b3b8c3ac4cfb">SerializeKeys</a> (<a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a> entityId, IntPtr keysUtf8, int keysLen, IntPtr outBuffer, int maxLen)</td></tr>
+<tr class="memdesc:ad6b3aa64b070d3f36c43b3b8c3ac4cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The entity's text with only the keys it authored.  <br /></td></tr>
+<tr class="memitem:a334b917cfa6eb3821f658e42806665dc" id="r_a334b917cfa6eb3821f658e42806665dc"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a334b917cfa6eb3821f658e42806665dc">JsonKeys</a> (IntPtr textUtf8, int length, IntPtr outBuffer, int maxLen)</td></tr>
+<tr class="memdesc:a334b917cfa6eb3821f658e42806665dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The keys one text carries, answered as newline separated paths.  <br /></td></tr>
+<tr class="memitem:ac1c22e36e7a9cd5bcb1ad50d185df0a2" id="r_ac1c22e36e7a9cd5bcb1ad50d185df0a2"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#ac1c22e36e7a9cd5bcb1ad50d185df0a2">MergeJson</a> (IntPtr baseJsonUtf8, int baseLen, IntPtr overJsonUtf8, int overLen, IntPtr outBuffer, int maxLen)</td></tr>
+<tr class="memdesc:ac1c22e36e7a9cd5bcb1ad50d185df0a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">What one text gives when the keys another text carries are put over it.  <br /></td></tr>
+<tr class="memitem:a78e6193066983482a80036253638ad29" id="r_a78e6193066983482a80036253638ad29"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a78e6193066983482a80036253638ad29">SetRefContext</a> (IntPtr pairsUtf8, int length)</td></tr>
+<tr class="memdesc:a78e6193066983482a80036253638ad29"><td class="mdescLeft">&#160;</td><td class="mdescRight">The file's guid map, as "guid:entityId" pairs, for the duration of the call that needs it.  <br /></td></tr>
+<tr class="memitem:a12940f658642af487b6738b130fb0a44" id="r_a12940f658642af487b6738b130fb0a44"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a12940f658642af487b6738b130fb0a44">ResolveJson</a> (IntPtr baseJsonUtf8, int baseLen, IntPtr keysUtf8, int keysLen, IntPtr outBuffer, int maxLen)</td></tr>
+<tr class="memdesc:a12940f658642af487b6738b130fb0a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text for the named keys, each value read from the base text, or the field's default when the base has nothing.  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pac-static-methods" class="groupheader"><a id="pac-static-methods" name="pac-static-methods"></a>
+Static Package Functions</h2></td></tr>
+<tr class="memitem:a259a640f528f846956f963abb53c5b8d" id="r_a259a640f528f846956f963abb53c5b8d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a259a640f528f846956f963abb53c5b8d">RequestManagedReload</a> ()</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="af3624a9f54ed02ed4f6b0ee3a4b5a688" name="af3624a9f54ed02ed4f6b0ee3a4b5a688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3624a9f54ed02ed4f6b0ee3a4b5a688">&#9670;&#160;</a></span>ApplyProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.ApplyProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a></td>          <td class="paramname"><span class="paramname"><em>entityId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>jsonUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>length</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by the level format for every entity it reads. </p>
+
+</div>
+</div>
+<a id="af0f153affc3cc941eedf768935e509e3" name="af0f153affc3cc941eedf768935e509e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0f153affc3cc941eedf768935e509e3">&#9670;&#160;</a></span>ClearWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.ClearWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>worldId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by the script feature unit when a world is destroyed. </p>
+
+</div>
+</div>
+<a id="af6eedeb34e52b5e724f28efd75061d61" name="af6eedeb34e52b5e724f28efd75061d61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6eedeb34e52b5e724f28efd75061d61">&#9670;&#160;</a></span>CollectGarbage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.CollectGarbage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a91ad9478d81a7aaf2593e8d9c3d06a14">uint</a></td>          <td class="paramname"><span class="paramname"><em>worldId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by the script feature unit after the game server has managed its entities, for every world whose entity count changed since the last sweep. </p>
+
+</div>
+</div>
+<a id="a6654d7c2e0b037c68e9b094c1198d6f8" name="a6654d7c2e0b037c68e9b094c1198d6f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6654d7c2e0b037c68e9b094c1198d6f8">&#9670;&#160;</a></span>DefaultPropertyJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.DefaultPropertyJson </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>nameUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>nameLen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>outBuffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text a default instance of the property produces, which is what the editor's add writes. </p>
+
+</div>
+</div>
+<a id="a22b6df9b20239cb90e835c13fdda3556" name="a22b6df9b20239cb90e835c13fdda3556"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22b6df9b20239cb90e835c13fdda3556">&#9670;&#160;</a></span>DrawProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NebulaEngine.AppEntry.DrawProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a></td>          <td class="paramname"><span class="paramname"><em>entityId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The property section the inspector draws. </p>
+<p>Called from inside the editor's ImGui frame, through the editor's surface. </p>
+
+</div>
+</div>
 <a id="a434f8c96c7f3288b14b314b15e1775e6" name="a434f8c96c7f3288b14b314b15e1775e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a434f8c96c7f3288b14b314b15e1775e6">&#9670;&#160;</a></span>Exit()</h2>
 
@@ -145,8 +338,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a47dbdffedd92a12f181174a1a030f44b" name="a47dbdffedd92a12f181174a1a030f44b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47dbdffedd92a12f181174a1a030f44b">&#9670;&#160;</a></span>Main()</h2>
+<a id="aef566cf81a4103ac393992fbcd66a8f3" name="aef566cf81a4103ac393992fbcd66a8f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef566cf81a4103ac393992fbcd66a8f3">&#9670;&#160;</a></span>FlushEntityCreateQueue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,7 +348,197 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void NebulaEngine.AppEntry.Main </td>
+          <td class="memname">int NebulaEngine.AppEntry.FlushEntityCreateQueue </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>ids</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by the script feature unit at the beginning of the frame with the entities created since the last flush. </p>
+<p>The buffer is a blittable array of entity ids and is only valid for the duration of the call, so the mirror has to be populated here. </p>
+
+</div>
+</div>
+<a id="a71907585b40ccac930e59e2d76079051" name="a71907585b40ccac930e59e2d76079051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71907585b40ccac930e59e2d76079051">&#9670;&#160;</a></span>HasProperty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.HasProperty </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a></td>          <td class="paramname"><span class="paramname"><em>entityId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>nameUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>nameLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the entity has the property, which is what makes the editor's dropdown row read as already added. </p>
+
+</div>
+</div>
+<a id="a334b917cfa6eb3821f658e42806665dc" name="a334b917cfa6eb3821f658e42806665dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334b917cfa6eb3821f658e42806665dc">&#9670;&#160;</a></span>JsonKeys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.JsonKeys </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>textUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>length</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>outBuffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The keys one text carries, answered as newline separated paths. </p>
+<p>This is what lets the level format know which part of an entity's text it authored, without reading it. </p>
+
+</div>
+</div>
+<a id="a87a4befeba1d0fed6709577078973d92" name="a87a4befeba1d0fed6709577078973d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87a4befeba1d0fed6709577078973d92">&#9670;&#160;</a></span>Main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.Main </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>pluginPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pluginPathLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac1c22e36e7a9cd5bcb1ad50d185df0a2" name="ac1c22e36e7a9cd5bcb1ad50d185df0a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c22e36e7a9cd5bcb1ad50d185df0a2">&#9670;&#160;</a></span>MergeJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.MergeJson </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>baseJsonUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>baseLen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>overJsonUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>overLen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>outBuffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>What one text gives when the keys another text carries are put over it. </p>
+
+</div>
+</div>
+<a id="a6095a2eb74f544742071226e1999ffa6" name="a6095a2eb74f544742071226e1999ffa6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6095a2eb74f544742071226e1999ffa6">&#9670;&#160;</a></span>OnBeginFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NebulaEngine.AppEntry.OnBeginFrame </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -167,6 +550,277 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4cc5b1ef1141a2455f5269b8c16904a" name="ab4cc5b1ef1141a2455f5269b8c16904a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4cc5b1ef1141a2455f5269b8c16904a">&#9670;&#160;</a></span>OnEndFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NebulaEngine.AppEntry.OnEndFrame </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab086702e4a1317a5c7ac2c95614d2e38" name="ab086702e4a1317a5c7ac2c95614d2e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab086702e4a1317a5c7ac2c95614d2e38">&#9670;&#160;</a></span>OnFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NebulaEngine.AppEntry.OnFrame </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a259a640f528f846956f963abb53c5b8d" name="a259a640f528f846956f963abb53c5b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a259a640f528f846956f963abb53c5b8d">&#9670;&#160;</a></span>RequestManagedReload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NebulaEngine.AppEntry.RequestManagedReload </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span><span class="mlabel package">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac75848c7d22d5ee14aeabd6954de7ae6" name="ac75848c7d22d5ee14aeabd6954de7ae6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac75848c7d22d5ee14aeabd6954de7ae6">&#9670;&#160;</a></span>RequestReload()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.RequestReload </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>pluginPath</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pluginPathLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a12940f658642af487b6738b130fb0a44" name="a12940f658642af487b6738b130fb0a44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12940f658642af487b6738b130fb0a44">&#9670;&#160;</a></span>ResolveJson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.ResolveJson </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>baseJsonUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>baseLen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>keysUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>keysLen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>outBuffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text for the named keys, each value read from the base text, or the field's default when the base has nothing. </p>
+<p>This is what a revert to the prefab writes. </p>
+
+</div>
+</div>
+<a id="ad6b3aa64b070d3f36c43b3b8c3ac4cfb" name="ad6b3aa64b070d3f36c43b3b8c3ac4cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b3aa64b070d3f36c43b3b8c3ac4cfb">&#9670;&#160;</a></span>SerializeKeys()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.SerializeKeys </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a></td>          <td class="paramname"><span class="paramname"><em>entityId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>keysUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>keysLen</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>outBuffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The entity's text with only the keys it authored. </p>
+<p>The keys are newline separated paths, because the level format holds them as strings and cannot see inside the text it is writing. </p>
+
+</div>
+</div>
+<a id="a54c4859b70de1a770f14bba3f360c259" name="a54c4859b70de1a770f14bba3f360c259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54c4859b70de1a770f14bba3f360c259">&#9670;&#160;</a></span>SerializeProperties()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NebulaEngine.AppEntry.SerializeProperties </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a718b4eb2652c286f4d42dc18a8e71a1a">ulong</a></td>          <td class="paramname"><span class="paramname"><em>entityId</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>outBuffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by the level format for every entity it writes. </p>
+<p>The json is written into a buffer the native side owns, and the length needed is answered when that buffer was too small. </p>
+
+</div>
+</div>
+<a id="a78e6193066983482a80036253638ad29" name="a78e6193066983482a80036253638ad29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e6193066983482a80036253638ad29">&#9670;&#160;</a></span>SetRefContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NebulaEngine.AppEntry.SetRefContext </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr</td>          <td class="paramname"><span class="paramname"><em>pairsUtf8</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>length</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The file's guid map, as "guid:entityId" pairs, for the duration of the call that needs it. </p>
 
 </div>
 </div>

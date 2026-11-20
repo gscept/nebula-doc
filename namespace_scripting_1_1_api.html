@@ -114,9 +114,20 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_scri
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:InputSnapshot" id="r_InputSnapshot"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_scripting_1_1_api_1_1_input_snapshot.html">InputSnapshot</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layout the managed input mirror is built from.  <a href="struct_scripting_1_1_api_1_1_input_snapshot.html#details">More...</a><br /></td></tr>
+<tr class="memitem:KeyWords" id="r_KeyWords"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_scripting_1_1_api_1_1_key_words.html">KeyWords</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">One key as three words: held through the frame, pressed during it, released during it.  <a href="struct_scripting_1_1_api_1_1_key_words.html#details">More...</a><br /></td></tr>
+<tr class="memitem:TimeSourceSnapshot" id="r_TimeSourceSnapshot"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_scripting_1_1_api_1_1_time_source_snapshot.html">TimeSourceSnapshot</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layout the managed time source mirror is built from.  <a href="struct_scripting_1_1_api_1_1_time_source_snapshot.html#details">More...</a><br /></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ae7e7e7607dfa8de2332c799fc80068c8" id="r_ae7e7e7607dfa8de2332c799fc80068c8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#ae7e7e7607dfa8de2332c799fc80068c8">EntityIsValid</a> (uint64_t entity)</td></tr>
+<tr class="memitem:a232bb181c95d762263ebbf235cd74dd4" id="r_a232bb181c95d762263ebbf235cd74dd4"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a232bb181c95d762263ebbf235cd74dd4">EntityHasInstance</a> (uint64_t entity)</td></tr>
+<tr class="memdesc:a232bb181c95d762263ebbf235cd74dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the entity has an instance.  <br /></td></tr>
 <tr class="memitem:a0c7801a5998ab8055cfdb50dfce55189" id="r_a0c7801a5998ab8055cfdb50dfce55189"><td class="memItemLeft">uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a0c7801a5998ab8055cfdb50dfce55189">EntityCreate</a> (uint32_t worldId)</td></tr>
 <tr class="memitem:ac16123837fd359becab944b61767446b" id="r_ac16123837fd359becab944b61767446b"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac16123837fd359becab944b61767446b">EntityDelete</a> (uint64_t entity)</td></tr>
 <tr class="memitem:aae0f3c8de7d05b5101b2015a12b302b7" id="r_aae0f3c8de7d05b5101b2015a12b302b7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aae0f3c8de7d05b5101b2015a12b302b7">EntityHasComponent</a> (uint64_t entity, uint32_t componentId)</td></tr>
@@ -131,6 +142,20 @@ Functions</h2></td></tr>
 <tr class="memitem:a3016420c8e45f373f958f6c6be3ebbc5" id="r_a3016420c8e45f373f958f6c6be3ebbc5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3016420c8e45f373f958f6c6be3ebbc5">ComponentGetData</a> (uint64_t entityId, uint32_t componentId, void *outData, int dataSize)</td></tr>
 <tr class="memitem:a939d2476a20f8ccf89f02bfb5dc902d1" id="r_a939d2476a20f8ccf89f02bfb5dc902d1"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a939d2476a20f8ccf89f02bfb5dc902d1">ComponentSetData</a> (uint64_t entityId, uint32_t componentId, void *data, int dataSize)</td></tr>
 <tr class="memitem:ad63e6e6464b623c3b562a33fc1aae446" id="r_ad63e6e6464b623c3b562a33fc1aae446"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#ad63e6e6464b623c3b562a33fc1aae446">WorldGetDefaultWorldId</a> ()</td></tr>
+<tr class="memitem:a8562f52702efa83a855a455911d07e15" id="r_a8562f52702efa83a855a455911d07e15"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a8562f52702efa83a855a455911d07e15">WorldHasWorld</a> (uint32_t worldId)</td></tr>
+<tr class="memitem:a0df3846b3971db36d8f4e729f6d1027b" id="r_a0df3846b3971db36d8f4e729f6d1027b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a0df3846b3971db36d8f4e729f6d1027b">WorldIsSimulating</a> (uint32_t worldId)</td></tr>
+<tr class="memdesc:a0df3846b3971db36d8f4e729f6d1027b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the world is simulating.  <br /></td></tr>
+<tr class="memitem:a8eb843b1c32e52aaec976a9f081fede0" id="r_a8eb843b1c32e52aaec976a9f081fede0"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a8eb843b1c32e52aaec976a9f081fede0">TimeSourceSync</a> (void *buffer, int maxEntries)</td></tr>
+<tr class="memdesc:a8eb843b1c32e52aaec976a9f081fede0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy every time source into the buffer C# owns.  <br /></td></tr>
+<tr class="memitem:a10b8225931a61799e892a68825296943" id="r_a10b8225931a61799e892a68825296943"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a10b8225931a61799e892a68825296943">TimeSourceSetTimeFactor</a> (uint32_t hash, float factor)</td></tr>
+<tr class="memitem:a002ed6a90c3595c2fd2b36a5f9fbd0dd" id="r_a002ed6a90c3595c2fd2b36a5f9fbd0dd"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a002ed6a90c3595c2fd2b36a5f9fbd0dd">TimeSourceSetPauseCounter</a> (uint32_t hash, int counter)</td></tr>
+<tr class="memitem:a07bfbcbdee1e40e5250f6fbf7bece143" id="r_a07bfbcbdee1e40e5250f6fbf7bece143"><td class="memItemLeft">uint32_t&#160;</td><td class="memItemRight"><a class="el" href="#a07bfbcbdee1e40e5250f6fbf7bece143">TimeSourceCreate</a> (uint32_t hash, double fixedFrameTime, int maxStepsPerFrame)</td></tr>
+<tr class="memitem:adfbfb54425ae1a65610250cbc253dbe2" id="r_adfbfb54425ae1a65610250cbc253dbe2"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#adfbfb54425ae1a65610250cbc253dbe2">TimeSetGlobalTimeFactor</a> (float factor)</td></tr>
+<tr class="memitem:a8ffd4293140eb32cc73e54324fa761e3" id="r_a8ffd4293140eb32cc73e54324fa761e3"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a8ffd4293140eb32cc73e54324fa761e3">TimeGetGlobalTimeFactor</a> ()</td></tr>
+<tr class="memitem:a1137a4b25d3f867b1549ec09b4ff9f82" id="r_a1137a4b25d3f867b1549ec09b4ff9f82"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a1137a4b25d3f867b1549ec09b4ff9f82">InputSync</a> (void *buffer, int bufferSize)</td></tr>
+<tr class="memdesc:a1137a4b25d3f867b1549ec09b4ff9f82"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state is read as it stands when the call is made, which is why the managed side calls this at the beginning of its frame and not anywhere else.  <br /></td></tr>
+<tr class="memitem:a7d04ba43e356f0bca80114cbc4a56917" id="r_a7d04ba43e356f0bca80114cbc4a56917"><td class="memItemLeft">int&#160;</td><td class="memItemRight"><a class="el" href="#a7d04ba43e356f0bca80114cbc4a56917">InputCharInput</a> (char *outBuffer, int outLen)</td></tr>
+<tr class="memdesc:a7d04ba43e356f0bca80114cbc4a56917"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text the keyboard produced during this frame, as utf8 into the buffer C# owns.  <br /></td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
 <a id="a3016420c8e45f373f958f6c6be3ebbc5" name="a3016420c8e45f373f958f6c6be3ebbc5"></a>
@@ -339,6 +364,26 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a232bb181c95d762263ebbf235cd74dd4" name="a232bb181c95d762263ebbf235cd74dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a232bb181c95d762263ebbf235cd74dd4">&#9670;&#160;</a></span>EntityHasInstance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> bool Scripting::Api::EntityHasInstance </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t</td>          <td class="paramname"><span class="paramname"><em>entity</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether the entity has an instance. </p>
+<p>IsValid only says the id is allocated, and an id can be held by something that has taken the instance out of the world, which is what an editor command does while it waits for a redo. A mirror entity that is only an id has nothing for a component access to read. </p>
+
+</div>
+</div>
 <a id="ae7e7e7607dfa8de2332c799fc80068c8" name="ae7e7e7607dfa8de2332c799fc80068c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae7e7e7607dfa8de2332c799fc80068c8">&#9670;&#160;</a></span>EntityIsValid()</h2>
 
@@ -419,6 +464,183 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7d04ba43e356f0bca80114cbc4a56917" name="a7d04ba43e356f0bca80114cbc4a56917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d04ba43e356f0bca80114cbc4a56917">&#9670;&#160;</a></span>InputCharInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> int Scripting::Api::InputCharInput </td>
+          <td>(</td>
+          <td class="paramtype">char *</td>          <td class="paramname"><span class="paramname"><em>outBuffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>outLen</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The text the keyboard produced during this frame, as utf8 into the buffer C# owns. </p>
+<p>Text cannot come back through the marshaler, because a DllImport that returns a string makes the marshaler free the pointer it was given, so this is the only way text crosses. The buffer is terminated, and the answer is the number of bytes written, not counting the terminator. </p>
+
+</div>
+</div>
+<a id="a1137a4b25d3f867b1549ec09b4ff9f82" name="a1137a4b25d3f867b1549ec09b4ff9f82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1137a4b25d3f867b1549ec09b4ff9f82">&#9670;&#160;</a></span>InputSync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> int Scripting::Api::InputSync </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>buffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>bufferSize</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The state is read as it stands when the call is made, which is why the managed side calls this at the beginning of its frame and not anywhere else. </p>
+<p>Copy the state of the default keyboard and mouse handlers into the buffer C# owns.</p>
+<p>The per-frame flags are cleared at the start of the input frame and set again by the events that arrive during the pump, so a sync before the pump reads the frame that is about to be built, and a sync after EndFrame() reads nothing.</p>
+<p>Returns the number of bytes written, or 0 when there is no input server, which is what a build with no window has. The managed side clears its mirror when nothing is written, so a windowless run reads nothing rather than the state the previous frame had.</p>
+<p>This has to be in the object library for a managed DllImport to find it, same as the other entry points. </p>
+
+</div>
+</div>
+<a id="a8ffd4293140eb32cc73e54324fa761e3" name="a8ffd4293140eb32cc73e54324fa761e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ffd4293140eb32cc73e54324fa761e3">&#9670;&#160;</a></span>TimeGetGlobalTimeFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> float Scripting::Api::TimeGetGlobalTimeFactor </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adfbfb54425ae1a65610250cbc253dbe2" name="adfbfb54425ae1a65610250cbc253dbe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfbfb54425ae1a65610250cbc253dbe2">&#9670;&#160;</a></span>TimeSetGlobalTimeFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> void Scripting::Api::TimeSetGlobalTimeFactor </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>factor</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07bfbcbdee1e40e5250f6fbf7bece143" name="a07bfbcbdee1e40e5250f6fbf7bece143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07bfbcbdee1e40e5250f6fbf7bece143">&#9670;&#160;</a></span>TimeSourceCreate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> uint32_t Scripting::Api::TimeSourceCreate </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>hash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>fixedFrameTime</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxStepsPerFrame</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a002ed6a90c3595c2fd2b36a5f9fbd0dd" name="a002ed6a90c3595c2fd2b36a5f9fbd0dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a002ed6a90c3595c2fd2b36a5f9fbd0dd">&#9670;&#160;</a></span>TimeSourceSetPauseCounter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> void Scripting::Api::TimeSourceSetPauseCounter </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>hash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>counter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10b8225931a61799e892a68825296943" name="a10b8225931a61799e892a68825296943"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10b8225931a61799e892a68825296943">&#9670;&#160;</a></span>TimeSourceSetTimeFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> void Scripting::Api::TimeSourceSetTimeFactor </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>hash</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>factor</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8eb843b1c32e52aaec976a9f081fede0" name="a8eb843b1c32e52aaec976a9f081fede0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8eb843b1c32e52aaec976a9f081fede0">&#9670;&#160;</a></span>TimeSourceSync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> int Scripting::Api::TimeSourceSync </td>
+          <td>(</td>
+          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>buffer</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxEntries</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy every time source into the buffer C# owns. </p>
+<p>The layout is the contract between the two sides, and the doubles come before the ints so that neither side pads. Returns the number of entries written. </p>
+
+</div>
+</div>
 <a id="ad63e6e6464b623c3b562a33fc1aae446" name="ad63e6e6464b623c3b562a33fc1aae446"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad63e6e6464b623c3b562a33fc1aae446">&#9670;&#160;</a></span>WorldGetDefaultWorldId()</h2>
 
@@ -433,6 +655,44 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8562f52702efa83a855a455911d07e15" name="a8562f52702efa83a855a455911d07e15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8562f52702efa83a855a455911d07e15">&#9670;&#160;</a></span>WorldHasWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> bool Scripting::Api::WorldHasWorld </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>worldId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0df3846b3971db36d8f4e729f6d1027b" name="a0df3846b3971db36d8f4e729f6d1027b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0df3846b3971db36d8f4e729f6d1027b">&#9670;&#160;</a></span>WorldIsSimulating()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="nsconfig_8h.html#ab5bbd4f827236b0a685fcd0d673d4157">NEBULA_EXPORT</a> bool Scripting::Api::WorldIsSimulating </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>worldId</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether the world is simulating. </p>
+<p>A world that is not simulating is one the editor is only authoring, and nothing that runs gameplay should run against it</p>
+<p>This is the same rule a processor has: a property only runs in a world whose mode is PlayMode, which is what keeps an editor's authoring world from running anything. </p>
 
 </div>
 </div>

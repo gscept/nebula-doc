@@ -9,6 +9,8 @@ var dir_3f4de981491daf7040893230a7873228 =
     [ "nsconfig.h", "nsconfig_8h.html", "nsconfig_8h" ],
     [ "nsharpserver.cc", "nsharpserver_8cc.html", "nsharpserver_8cc" ],
     [ "nsharpserver.h", "nsharpserver_8h.html", "nsharpserver_8h" ],
+    [ "propertyextension.cc", "propertyextension_8cc.html", "propertyextension_8cc" ],
+    [ "propertyextension.h", "propertyextension_8h.html", "propertyextension_8h" ],
     [ "scriptfeatureunit.cc", "scriptfeatureunit_8cc.html", "scriptfeatureunit_8cc" ],
     [ "scriptfeatureunit.h", "scriptfeatureunit_8h.html", "scriptfeatureunit_8h" ]
 ];
