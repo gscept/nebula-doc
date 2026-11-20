@@ -51,6 +51,7 @@ var namespace_models =
     [ "CreateModel", "namespace_models.html#a9c46f7e8b40e869f3881bf9953d0171d", null ],
     [ "DestroyModel", "namespace_models.html#a2c1aae4f2466c8c4ebf819884f81405b", null ],
     [ "ModelGetBoundingBox", "namespace_models.html#a6a713529ef9618e0e28128f3a7727edd", null ],
+    [ "ModelGetJointMasks", "namespace_models.html#a2cea418bf5faa9ad09211ce8c102e0a6", null ],
     [ "ModelGetNodes", "namespace_models.html#ac8a019572bef03d92f59d49fde738ca0", null ],
     [ "ModelSetJointMasks", "namespace_models.html#a304f3f0d15caac0147bf512f145b11d8", null ],
     [ "ModelSetNodes", "namespace_models.html#a288a3e66347a47bc284bc39484347a1a", null ],

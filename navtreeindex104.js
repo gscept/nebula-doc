@@ -1,5 +1,17 @@
 var NAVTREEINDEX104 =
 {
+"emitterattrs_8cc.html":[10,0,0,7,18,0],
+"emitterattrs_8h.html":[10,0,0,7,18,1],
+"emitterattrs_8h_source.html":[10,0,0,7,18,1],
+"emittermesh_8cc.html":[10,0,0,7,18,2],
+"emittermesh_8h.html":[10,0,0,7,18,3],
+"emittermesh_8h_source.html":[10,0,0,7,18,3],
+"entitypool_8cc.html":[10,0,0,1,3,18],
+"entitypool_8h.html":[10,0,0,1,3,19],
+"entitypool_8h_source.html":[10,0,0,1,3,19],
+"envelopecurve_8cc.html":[10,0,0,7,18,4],
+"envelopecurve_8h.html":[10,0,0,7,18,5],
+"envelopecurve_8h_source.html":[10,0,0,7,18,5],
 "envelopesamplebuffer_8cc.html":[10,0,0,7,18,6],
 "envelopesamplebuffer_8h.html":[10,0,0,7,18,7],
 "envelopesamplebuffer_8h_source.html":[10,0,0,7,18,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX104 =
 "frameresolve_8h.html":[10,0,0,7,9,23],
 "frameresolve_8h_source.html":[10,0,0,7,9,23],
 "framescript_8cc.html":[10,0,0,7,9,24],
-"framescript_8h.html":[10,0,0,7,9,25],
-"framescript_8h_source.html":[10,0,0,7,9,25],
-"framescriptinspector_8cc.html":[10,0,0,7,6,0],
-"framescriptinspector_8h.html":[10,0,0,7,6,1],
-"framescriptinspector_8h_source.html":[10,0,0,7,6,1],
-"framescriptloader_8cc.html":[10,0,0,7,9,26],
-"framescriptloader_8h.html":[10,0,0,7,9,27],
-"framescriptloader_8h_source.html":[10,0,0,7,9,27],
-"framescripts_8cc.html":[10,0,0,7,10,0],
-"framescripts_8h.html":[10,0,0,7,10,1],
-"framescripts_8h_source.html":[10,0,0,7,10,1],
-"frameserver_8cc.html":[10,0,0,7,9,28],
-"frameserver_8h.html":[10,0,0,7,9,29]
+"framescript_8h.html":[10,0,0,7,9,25]
 };

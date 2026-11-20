@@ -1,5 +1,15 @@
 var NAVTREEINDEX46 =
 {
+"class_i_o_1_1_text_writer.html#a089812ffcab00d2105de73e7f680c78b":[9,0,34,41,7],
+"class_i_o_1_1_text_writer.html#a0b253c4ece00bc8b5f56ff12a8722b3f":[8,0,37,42,4],
+"class_i_o_1_1_text_writer.html#a0b253c4ece00bc8b5f56ff12a8722b3f":[9,0,34,41,4],
+"class_i_o_1_1_text_writer.html#a1e0918cdf3055cbc49c158c62598c689":[8,0,37,42,0],
+"class_i_o_1_1_text_writer.html#a1e0918cdf3055cbc49c158c62598c689":[9,0,34,41,0],
+"class_i_o_1_1_text_writer.html#a576459b5b54a52a5d922cbb7501a1678":[8,0,37,42,2],
+"class_i_o_1_1_text_writer.html#a576459b5b54a52a5d922cbb7501a1678":[9,0,34,41,2],
+"class_i_o_1_1_text_writer.html#a674114d3255a08d438537ff23f6e0c53":[8,0,37,42,8],
+"class_i_o_1_1_text_writer.html#a674114d3255a08d438537ff23f6e0c53":[9,0,34,41,8],
+"class_i_o_1_1_text_writer.html#a8b29394ea4bf177bdad26202cca38dc4":[8,0,37,42,1],
 "class_i_o_1_1_text_writer.html#a8b29394ea4bf177bdad26202cca38dc4":[9,0,34,41,1],
 "class_i_o_1_1_text_writer.html#abff1d5d0e6d91a5dd68380551d41433d":[8,0,37,42,5],
 "class_i_o_1_1_text_writer.html#abff1d5d0e6d91a5dd68380551d41433d":[9,0,34,41,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX46 =
 "class_i_o_1_1_xml_reader.html#af7e6513ea58bc300e8dd4160b899feb0":[9,0,34,45,23],
 "class_i_o_1_1_xml_reader.html#af8ba01e851efadda009004c128afb5a3":[8,0,37,46,12],
 "class_i_o_1_1_xml_reader.html#af8ba01e851efadda009004c128afb5a3":[9,0,34,45,12],
-"class_i_o_1_1_xml_reader.html#af9d25706be4905f04873409e03fa5d01":[8,0,37,46,21],
-"class_i_o_1_1_xml_reader.html#af9d25706be4905f04873409e03fa5d01":[9,0,34,45,21],
-"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html":[8,0,37,46,0],
-"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html":[9,0,34,45,0],
-"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html#ac21365137811cfabe9b8405b5544ed73":[8,0,37,46,0,0],
-"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html#ac21365137811cfabe9b8405b5544ed73":[9,0,34,45,0,0],
-"class_i_o_1_1_xml_writer.html":[8,0,37,47],
-"class_i_o_1_1_xml_writer.html":[9,0,34,46],
-"class_i_o_1_1_xml_writer.html#a0a4f6528b353cd5b26c6a821709f7fd5":[8,0,37,47,8],
-"class_i_o_1_1_xml_writer.html#a0a4f6528b353cd5b26c6a821709f7fd5":[9,0,34,46,8],
-"class_i_o_1_1_xml_writer.html#a0b9458e09d8e1ae54f245b9bf889e045":[8,0,37,47,9]
+"class_i_o_1_1_xml_reader.html#af9d25706be4905f04873409e03fa5d01":[8,0,37,46,21]
 };

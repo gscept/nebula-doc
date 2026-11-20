@@ -14,7 +14,7 @@ var struct_characters_1_1_character_job_context =
     [ "time", "struct_characters_1_1_character_job_context.html#a72041e74e4b9cf7451c4360058d7ae1b", null ],
     [ "times", "struct_characters_1_1_character_job_context.html#a57da9381f5e43dda1b4d0dc6e727f245", null ],
     [ "tmpJoints", "struct_characters_1_1_character_job_context.html#aed9f7a5ea0f4f1502ef057b177dbc1f8", null ],
-    [ "tmpSampleIndices", "struct_characters_1_1_character_job_context.html#af1cb213fe7a86043018ed28a29c59de4", null ],
+    [ "tmpSampleCounts", "struct_characters_1_1_character_job_context.html#a2e24a87ce32ef52ec346cfb41842ccc3", null ],
     [ "tmpSamples", "struct_characters_1_1_character_job_context.html#a16d88f572ed6c125dc186e9f3535ca71", null ],
     [ "tracks", "struct_characters_1_1_character_job_context.html#aaa2622c5f9ee93d408d4f96fab9a2067", null ],
     [ "userJoints", "struct_characters_1_1_character_job_context.html#a1ca975e2aa05d51909c7ce9db1f66baa", null ]

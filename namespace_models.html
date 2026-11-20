@@ -191,6 +191,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:ac8a019572bef03d92f59d49fde738ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get model nodes.  <br /></td></tr>
 <tr class="memitem:a288a3e66347a47bc284bc39484347a1a" id="r_a288a3e66347a47bc284bc39484347a1a"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a288a3e66347a47bc284bc39484347a1a">ModelSetNodes</a> (const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a> id, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="class_models_1_1_model_node.html">Models::ModelNode</a> * &gt; &amp;nodes)</td></tr>
 <tr class="memdesc:a288a3e66347a47bc284bc39484347a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> model nodes.  <br /></td></tr>
+<tr class="memitem:a2cea418bf5faa9ad09211ce8c102e0a6" id="r_a2cea418bf5faa9ad09211ce8c102e0a6"><td class="memItemLeft">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_models_1_1_joint_mask.html">JointMask</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a2cea418bf5faa9ad09211ce8c102e0a6">ModelGetJointMasks</a> (const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a> id)</td></tr>
+<tr class="memdesc:a2cea418bf5faa9ad09211ce8c102e0a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get model joint masks, the weights of a mask are per joint of the model's skeleton.  <br /></td></tr>
 <tr class="memitem:a304f3f0d15caac0147bf512f145b11d8" id="r_a304f3f0d15caac0147bf512f145b11d8"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a304f3f0d15caac0147bf512f145b11d8">ModelSetJointMasks</a> (const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a> id, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_models_1_1_joint_mask.html">JointMask</a> &gt; &amp;masks)</td></tr>
 <tr class="memdesc:a304f3f0d15caac0147bf512f145b11d8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> model joint masks.  <br /></td></tr>
 <tr class="memitem:ab6f833e8fc02b8ac8ac138a946263d2c" id="r_ab6f833e8fc02b8ac8ac138a946263d2c"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ab6f833e8fc02b8ac8ac138a946263d2c">ModelSetTakes</a> (const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a> id, const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_models_1_1_take.html">Take</a> &gt; &amp;takes)</td></tr>
@@ -495,6 +497,25 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get model bounding box. </p>
+
+</div>
+</div>
+<a id="a2cea418bf5faa9ad09211ce8c102e0a6" name="a2cea418bf5faa9ad09211ce8c102e0a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cea418bf5faa9ad09211ce8c102e0a6">&#9670;&#160;</a></span>ModelGetJointMasks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_models_1_1_joint_mask.html">JointMask</a> &gt; &amp; Models::ModelGetJointMasks </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_models_1_1_model_id.html">ModelId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get model joint masks, the weights of a mask are per joint of the model's skeleton. </p>
 
 </div>
 </div>

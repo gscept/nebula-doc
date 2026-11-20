@@ -1,5 +1,15 @@
 var NAVTREEINDEX47 =
 {
+"class_i_o_1_1_xml_reader.html#af9d25706be4905f04873409e03fa5d01":[9,0,34,45,21],
+"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html":[8,0,37,46,0],
+"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html":[9,0,34,45,0],
+"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html#ac21365137811cfabe9b8405b5544ed73":[8,0,37,46,0,0],
+"class_i_o_1_1_xml_reader_1_1_tiny_xml_init_helper.html#ac21365137811cfabe9b8405b5544ed73":[9,0,34,45,0,0],
+"class_i_o_1_1_xml_writer.html":[8,0,37,47],
+"class_i_o_1_1_xml_writer.html":[9,0,34,46],
+"class_i_o_1_1_xml_writer.html#a0a4f6528b353cd5b26c6a821709f7fd5":[8,0,37,47,8],
+"class_i_o_1_1_xml_writer.html#a0a4f6528b353cd5b26c6a821709f7fd5":[9,0,34,46,8],
+"class_i_o_1_1_xml_writer.html#a0b9458e09d8e1ae54f245b9bf889e045":[8,0,37,47,9],
 "class_i_o_1_1_xml_writer.html#a0b9458e09d8e1ae54f245b9bf889e045":[9,0,34,46,9],
 "class_i_o_1_1_xml_writer.html#a2385a56f9cd8ffbe10ad12b9b1641275":[8,0,37,47,7],
 "class_i_o_1_1_xml_writer.html#a2385a56f9cd8ffbe10ad12b9b1641275":[9,0,34,46,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX47 =
 "class_ids_1_1_id_allocator_safe.html#a418800523c6d97e3c7a05542535cedec":[9,0,30,2,4],
 "class_ids_1_1_id_allocator_safe.html#a6d24381e53c7e35123de61b5b9c1c7ef":[8,0,32,2,1],
 "class_ids_1_1_id_allocator_safe.html#a6d24381e53c7e35123de61b5b9c1c7ef":[9,0,30,2,1],
-"class_ids_1_1_id_allocator_safe.html#aaefa00a3547330e539afbb7481d2ccfd":[8,0,32,2,2],
-"class_ids_1_1_id_allocator_safe.html#aaefa00a3547330e539afbb7481d2ccfd":[9,0,30,2,2],
-"class_ids_1_1_id_allocator_safe.html#ae0c032af60442ba16516101b11116e61":[8,0,32,2,3],
-"class_ids_1_1_id_allocator_safe.html#ae0c032af60442ba16516101b11116e61":[9,0,30,2,3],
-"class_ids_1_1_id_allocator_safe.html#ae63d9fe113ecadbd0ef64560511ed20a":[8,0,32,2,0],
-"class_ids_1_1_id_allocator_safe.html#ae63d9fe113ecadbd0ef64560511ed20a":[9,0,30,2,0],
-"class_ids_1_1_id_generation_pool.html":[8,0,32,3],
-"class_ids_1_1_id_generation_pool.html":[9,0,30,3],
-"class_ids_1_1_id_generation_pool.html#a07833079d9a1d3c8c7f8e74363a4425c":[8,0,32,3,3],
-"class_ids_1_1_id_generation_pool.html#a07833079d9a1d3c8c7f8e74363a4425c":[9,0,30,3,3],
-"class_ids_1_1_id_generation_pool.html#a2235b36c78e305ee36f28b54aa4f7824":[8,0,32,3,4]
+"class_ids_1_1_id_allocator_safe.html#aaefa00a3547330e539afbb7481d2ccfd":[8,0,32,2,2]
 };

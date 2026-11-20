@@ -163,11 +163,21 @@ Enumerations</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a969705a559fb41ba2b6edd841dbd09f8" id="r_a969705a559fb41ba2b6edd841dbd09f8"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a969705a559fb41ba2b6edd841dbd09f8">__ImplementContext</a> (<a class="el" href="class_characters_1_1_character_context.html">CharacterContext</a>, <a class="el" href="class_characters_1_1_character_context.html#ad07008288699f3dc7db1ea0dc56cc541">CharacterContext::characterContextAllocator</a>)</td></tr>
+<tr class="memitem:ab418e27b5399e9626d731338c7555b1c" id="r_ab418e27b5399e9626d731338c7555b1c"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ab418e27b5399e9626d731338c7555b1c">FetchJointMasks</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">CoreAnimation::AnimSampleMask</a> &gt; &amp;outMasks)</td></tr>
+<tr class="memdesc:ab418e27b5399e9626d731338c7555b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the joint masks of the model of a character, they're kept with the character so the clips playing with them can point to them.  <br /></td></tr>
+<tr class="memitem:a5f3de9cc5fc52c11bc10d920dddd20e4" id="r_a5f3de9cc5fc52c11bc10d920dddd20e4"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a5f3de9cc5fc52c11bc10d920dddd20e4">TakeOverTrack</a> (<a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;playing, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;fading, <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;next, const bool appended)</td></tr>
+<tr class="memdesc:a5f3de9cc5fc52c11bc10d920dddd20e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">A clip takes the track over.  <br /></td></tr>
+<tr class="memitem:a7fe00d8206666fda5c047e12d587b41e" id="r_a7fe00d8206666fda5c047e12d587b41e"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7fe00d8206666fda5c047e12d587b41e">AdvanceRuntime</a> (<a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime, const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a> ticks)</td></tr>
+<tr class="memdesc:a7fe00d8206666fda5c047e12d587b41e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move a clip on to the time of the update.  <br /></td></tr>
+<tr class="memitem:a61f89eaa1ee1482d2206e8c1e8bfc7eb" id="r_a61f89eaa1ee1482d2206e8c1e8bfc7eb"><td class="memItemLeft">float&#160;</td><td class="memItemRight"><a class="el" href="#a61f89eaa1ee1482d2206e8c1e8bfc7eb">FadeWeight</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime)</td></tr>
+<tr class="memdesc:a61f89eaa1ee1482d2206e8c1e8bfc7eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">How far a clip is faded in, and out as it ends if it isn't infinite, from 0 to 1.  <br /></td></tr>
 <tr class="memitem:a22c6edfca5da8858300b143216009e1a" id="r_a22c6edfca5da8858300b143216009e1a"><td class="memItemLeft">const bool&#160;</td><td class="memItemRight"><a class="el" href="#a22c6edfca5da8858300b143216009e1a">IsExpired</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime, const <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> time)</td></tr>
 <tr class="memitem:a34affec1c456d2bd96ce2d7debe4f2c8" id="r_a34affec1c456d2bd96ce2d7debe4f2c8"><td class="memItemLeft">const bool&#160;</td><td class="memItemRight"><a class="el" href="#a34affec1c456d2bd96ce2d7debe4f2c8">IsInfinite</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime)</td></tr>
 <tr class="memitem:a21e80b2d8993ce540b525aa8e7c7390a" id="r_a21e80b2d8993ce540b525aa8e7c7390a"><td class="memItemLeft"><a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a>&#160;</td><td class="memItemRight"><a class="el" href="#a21e80b2d8993ce540b525aa8e7c7390a">GetAbsoluteStopTime</a> (const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;runtime)</td></tr>
 <tr class="memitem:ac6eb629c7a8be2867228169dbc89d68e" id="r_ac6eb629c7a8be2867228169dbc89d68e"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac6eb629c7a8be2867228169dbc89d68e">CollectFiredEvents</a> (const <a class="el" href="struct_core_animation_1_1_animation_id.html">CoreAnimation::AnimationId</a> anim, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> clipIndex, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track, const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a> from, const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a> to, <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_characters_1_1_character_context_1_1_fired_event.html">CharacterContext::FiredEvent</a> &gt; &amp;outEvents)</td></tr>
 <tr class="memdesc:ac6eb629c7a8be2867228169dbc89d68e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the events of a clip that are passed going from one sample time to a later one, the start isn't included.  <br /></td></tr>
+<tr class="memitem:acc7b65cfba1ee69931297171a7273eee" id="r_acc7b65cfba1ee69931297171a7273eee"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#acc7b65cfba1ee69931297171a7273eee">IdleSamples</a> (const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &gt; &amp;idleSamples, const <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a> &amp;sampleBuffer)</td></tr>
+<tr class="memdesc:acc7b65cfba1ee69931297171a7273eee"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> the samples to the idle pose, a translation, rotation and scale per joint, for clips to be mixed over.  <br /></td></tr>
 <tr class="memitem:ac883e3ed3ac83bd705ce8f00b014fdf7" id="r_ac883e3ed3ac83bd705ce8f00b014fdf7"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ac883e3ed3ac83bd705ce8f00b014fdf7">EvalCharacter</a> (<a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> totalJobs, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> groupSize, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> groupIndex, <a class="el" href="types_8h.html#a869418dc7a0404b6441ebc39c5b4bb37">SizeT</a> invocationOffset, void *ctx)</td></tr>
 <tr class="memitem:ac596dc49035c05e3bac610c45a430a84" id="r_ac596dc49035c05e3bac610c45a430a84"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac596dc49035c05e3bac610c45a430a84">__ImplementEnumBitOperators</a> (<a class="el" href="class_characters_1_1_character_context.html#aac59f671d0194b51f3b224ad13c9c0eb">CharacterContext::LoadState</a>)</td></tr>
 <tr class="memitem:a045aa3c288ead42327274369c3f6fd5b" id="r_a045aa3c288ead42327274369c3f6fd5b"><td class="memItemLeft">const <a class="el" href="struct_characters_1_1_skeleton_id.html">SkeletonId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a045aa3c288ead42327274369c3f6fd5b">CreateSkeleton</a> (const <a class="el" href="struct_characters_1_1_skeleton_create_info.html">SkeletonCreateInfo</a> &amp;info)</td></tr>
@@ -331,6 +341,30 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a7fe00d8206666fda5c047e12d587b41e" name="a7fe00d8206666fda5c047e12d587b41e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe00d8206666fda5c047e12d587b41e">&#9670;&#160;</a></span>AdvanceRuntime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Characters::AdvanceRuntime </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>runtime</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespace_timing.html#a1884fd8969a4a431040692fbcf9f5f1e">Timing::Tick</a></td>          <td class="paramname"><span class="paramname"><em>ticks</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move a clip on to the time of the update. </p>
+<p>It starts on the first update it's in, a paused clip holds its time </p>
+
+</div>
+</div>
 <a id="ac6eb629c7a8be2867228169dbc89d68e" name="ac6eb629c7a8be2867228169dbc89d68e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6eb629c7a8be2867228169dbc89d68e">&#9670;&#160;</a></span>CollectFiredEvents()</h2>
 
@@ -477,6 +511,57 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a61f89eaa1ee1482d2206e8c1e8bfc7eb" name="a61f89eaa1ee1482d2206e8c1e8bfc7eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61f89eaa1ee1482d2206e8c1e8bfc7eb">&#9670;&#160;</a></span>FadeWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Characters::FadeWeight </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>runtime</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>How far a clip is faded in, and out as it ends if it isn't infinite, from 0 to 1. </p>
+<p>The fades go by the time since the clip started, not its own time, so they take as long whatever the clip's speed </p>
+
+</div>
+</div>
+<a id="ab418e27b5399e9626d731338c7555b1c" name="ab418e27b5399e9626d731338c7555b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab418e27b5399e9626d731338c7555b1c">&#9670;&#160;</a></span>FetchJointMasks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Characters::FetchJointMasks </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_core_animation_1_1_anim_sample_mask.html">CoreAnimation::AnimSampleMask</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>outMasks</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copy the joint masks of the model of a character, they're kept with the character so the clips playing with them can point to them. </p>
+
+</div>
+</div>
 <a id="a21e80b2d8993ce540b525aa8e7c7390a" name="a21e80b2d8993ce540b525aa8e7c7390a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a21e80b2d8993ce540b525aa8e7c7390a">&#9670;&#160;</a></span>GetAbsoluteStopTime()</h2>
 
@@ -491,6 +576,37 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc7b65cfba1ee69931297171a7273eee" name="acc7b65cfba1ee69931297171a7273eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc7b65cfba1ee69931297171a7273eee">&#9670;&#160;</a></span>IdleSamples()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Characters::IdleSamples </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_fixed_array.html">Util::FixedArray</a>&lt; <a class="el" href="struct_math_1_1vec4.html">Math::vec4</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>idleSamples</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_core_animation_1_1_anim_sample_buffer.html">CoreAnimation::AnimSampleBuffer</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>sampleBuffer</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_util_1_1_set.html" title="A collection of unique values with quick lookup.">Set</a> the samples to the idle pose, a translation, rotation and scale per joint, for clips to be mixed over. </p>
 
 </div>
 </div>
@@ -686,6 +802,40 @@ Variables</h2></td></tr>
 
 <p>Fetch skeleton from loaded resource. </p>
 <p>Get skeleton from resource. </p>
+
+</div>
+</div>
+<a id="a5f3de9cc5fc52c11bc10d920dddd20e4" name="a5f3de9cc5fc52c11bc10d920dddd20e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3de9cc5fc52c11bc10d920dddd20e4">&#9670;&#160;</a></span>TakeOverTrack()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Characters::TakeOverTrack </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>playing</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>fading</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_characters_1_1_character_context_1_1_animation_runtime.html">CharacterContext::AnimationRuntime</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>next</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const bool</td>          <td class="paramname"><span class="paramname"><em>appended</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A clip takes the track over. </p>
+<p>The clip playing plays on under it while it fades in, a clip appended after the playing one fades in for as long as the playing one fades out if that's longer. Without a fade the clip playing is dropped, and so is one still fading from before </p>
 
 </div>
 </div>

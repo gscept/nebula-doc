@@ -9,7 +9,7 @@ var animation_8h =
     [ "CoreAnimation::AnimGetCurves", "namespace_core_animation.html#adade2e87785aa49c5b2f57b3e70c7a98", null ],
     [ "CoreAnimation::AnimGetEvents", "namespace_core_animation.html#aeddc4f78c5532684e0f9c524e34777c1", null ],
     [ "CoreAnimation::AnimGetIndex", "namespace_core_animation.html#abb16532a48d8b8e13d9e053346e34677", null ],
-    [ "CoreAnimation::AnimMix", "namespace_core_animation.html#ac3af878f8ce263fad462a04b53020096", null ],
+    [ "CoreAnimation::AnimMix", "namespace_core_animation.html#a6963e0b9de887e4cab132f5bcd629726", null ],
     [ "CoreAnimation::AnimSampleLinear", "namespace_core_animation.html#aa72e322ff2137e497c47ae794701d28d", null ],
     [ "CoreAnimation::AnimSampleStep", "namespace_core_animation.html#a539b229913a3e70a58090618e4d5c4e0", null ],
     [ "CoreAnimation::CreateAnimation", "namespace_core_animation.html#a7c85ac044674d3c623d28f39a106c8a5", null ],

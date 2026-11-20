@@ -1,5 +1,17 @@
 var NAVTREEINDEX98 =
 {
+"class_vulkan_1_1_vk_types.html#a09778cc9e7e78f0de30bca40fc06c3a4":[8,0,86,50,12],
+"class_vulkan_1_1_vk_types.html#a09778cc9e7e78f0de30bca40fc06c3a4":[9,0,75,50,12],
+"class_vulkan_1_1_vk_types.html#a0ced37354d21bb397cc0a2b27be66880":[8,0,86,50,2],
+"class_vulkan_1_1_vk_types.html#a0ced37354d21bb397cc0a2b27be66880":[9,0,75,50,2],
+"class_vulkan_1_1_vk_types.html#a0d36513a5327c7c0eac04cfd4e01bc00":[8,0,86,50,9],
+"class_vulkan_1_1_vk_types.html#a0d36513a5327c7c0eac04cfd4e01bc00":[9,0,75,50,9],
+"class_vulkan_1_1_vk_types.html#a10d4becc01224dd75e535dfd86e20032":[8,0,86,50,17],
+"class_vulkan_1_1_vk_types.html#a10d4becc01224dd75e535dfd86e20032":[9,0,75,50,17],
+"class_vulkan_1_1_vk_types.html#a22dfa7a3fa4206e081446ad890249fd6":[8,0,86,50,10],
+"class_vulkan_1_1_vk_types.html#a22dfa7a3fa4206e081446ad890249fd6":[9,0,75,50,10],
+"class_vulkan_1_1_vk_types.html#a2a1d86e150f95adf69d0ffe52ee809f4":[8,0,86,50,1],
+"class_vulkan_1_1_vk_types.html#a2a1d86e150f95adf69d0ffe52ee809f4":[9,0,75,50,1],
 "class_vulkan_1_1_vk_types.html#a544c0e26d04ab1161db0419ff50d5fd0":[8,0,86,50,7],
 "class_vulkan_1_1_vk_types.html#a544c0e26d04ab1161db0419ff50d5fd0":[9,0,75,50,7],
 "class_vulkan_1_1_vk_types.html#a5563d011d12cc9b3d6449631c75afa06":[8,0,86,50,19],
@@ -237,17 +249,5 @@ var NAVTREEINDEX98 =
 "class_win32_1_1_win32_event.html":[8,0,87,8],
 "class_win32_1_1_win32_event.html":[9,0,76,8],
 "class_win32_1_1_win32_event.html#a0cca656364749be3436c4c523f506a5b":[8,0,87,8,11],
-"class_win32_1_1_win32_event.html#a0cca656364749be3436c4c523f506a5b":[9,0,76,8,11],
-"class_win32_1_1_win32_event.html#a52eb5de5b73b6e416c5fd61bc0de7f5a":[8,0,87,8,1],
-"class_win32_1_1_win32_event.html#a52eb5de5b73b6e416c5fd61bc0de7f5a":[9,0,76,8,1],
-"class_win32_1_1_win32_event.html#a5caa1938f045a6f1541500eeb64d4e45":[8,0,87,8,3],
-"class_win32_1_1_win32_event.html#a5caa1938f045a6f1541500eeb64d4e45":[9,0,76,8,3],
-"class_win32_1_1_win32_event.html#a63359824792fb6dd9e0f5fb95dbbf45d":[8,0,87,8,10],
-"class_win32_1_1_win32_event.html#a63359824792fb6dd9e0f5fb95dbbf45d":[9,0,76,8,10],
-"class_win32_1_1_win32_event.html#a661bdc3263eda5c2d76cb486365852c4":[8,0,87,8,2],
-"class_win32_1_1_win32_event.html#a661bdc3263eda5c2d76cb486365852c4":[9,0,76,8,2],
-"class_win32_1_1_win32_event.html#a75a3b3f3b751a766e43d8bf0274f93a9":[8,0,87,8,4],
-"class_win32_1_1_win32_event.html#a75a3b3f3b751a766e43d8bf0274f93a9":[9,0,76,8,4],
-"class_win32_1_1_win32_event.html#a76ba9b7c8fa9898e4c69952c7a136329":[8,0,87,8,0],
-"class_win32_1_1_win32_event.html#a76ba9b7c8fa9898e4c69952c7a136329":[9,0,76,8,0]
+"class_win32_1_1_win32_event.html#a0cca656364749be3436c4c523f506a5b":[9,0,76,8,11]
 };

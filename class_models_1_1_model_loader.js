@@ -10,6 +10,7 @@ var class_models_1_1_model_loader =
     [ "StreamResource", "class_models_1_1_model_loader.html#a001a352244744b8e5002aec270617e1a", null ],
     [ "Unload", "class_models_1_1_model_loader.html#a303095897c68d655e14fab6177551fe3", null ],
     [ "CharacterNode", "class_models_1_1_model_loader.html#a7d30dcbc6df52540ffdb43f6006a3122", null ],
+    [ "Characters::CharacterContext", "class_models_1_1_model_loader.html#a7adc1e27d899837c8ae7d800fe31bf63", null ],
     [ "CharacterSkinNode", "class_models_1_1_model_loader.html#a5086e9b11bed51eb1a08b21bc2a8caa2", null ],
     [ "Models::ModelContext", "class_models_1_1_model_loader.html#aac7d2bce836049fdd614c263886ccdd1", null ],
     [ "ParticleSystemNode", "class_models_1_1_model_loader.html#a774dfed92a81951944a28ba290053894", null ],

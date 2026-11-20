@@ -39,7 +39,7 @@ var namespace_core_animation =
     [ "AnimJobUtilMix", "namespace_core_animation.html#ae8cce6c910abea2928af3d479fd8b16a", null ],
     [ "AnimJobUtilSampleLinear", "namespace_core_animation.html#a21ad37102ca2fa91640fc6db72fe2bb4", null ],
     [ "AnimJobUtilSampleStep", "namespace_core_animation.html#a0f6e2801d69d23bf0c4aca46d344ef5a", null ],
-    [ "AnimMix", "namespace_core_animation.html#ac3af878f8ce263fad462a04b53020096", null ],
+    [ "AnimMix", "namespace_core_animation.html#a6963e0b9de887e4cab132f5bcd629726", null ],
     [ "AnimSampleJob", "namespace_core_animation.html#a3e619473c2bc48174a51d963be0838bb", null ],
     [ "AnimSampleJobFunc", "namespace_core_animation.html#aa2aff4e6e4e0edc23678a04570565a14", null ],
     [ "AnimSampleJobWithMix", "namespace_core_animation.html#a62b466068b71a1a9af785b997e099a40", null ],

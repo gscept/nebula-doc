@@ -1,5 +1,17 @@
 var NAVTREEINDEX63 =
 {
+"class_nebula_1_1_game_plugin_context.html#a406b2769a763b310cf26ee1c91e8303d":[9,0,50,8,8],
+"class_nebula_1_1_game_plugin_context.html#a4e3cf2e682790fef54e0425269d89686":[8,0,55,8,14],
+"class_nebula_1_1_game_plugin_context.html#a4e3cf2e682790fef54e0425269d89686":[9,0,50,8,14],
+"class_nebula_1_1_game_plugin_context.html#a6cf75d7d2a2de84571bcafd2031a7c8c":[8,0,55,8,5],
+"class_nebula_1_1_game_plugin_context.html#a6cf75d7d2a2de84571bcafd2031a7c8c":[9,0,50,8,5],
+"class_nebula_1_1_game_plugin_context.html#aa125e288464843aafce64f00ad2adf37":[8,0,55,8,6],
+"class_nebula_1_1_game_plugin_context.html#aa125e288464843aafce64f00ad2adf37":[9,0,50,8,6],
+"class_nebula_1_1_game_plugin_context.html#abf1cf6bbf449b21ccbf2700c278d9ed8":[8,0,55,8,11],
+"class_nebula_1_1_game_plugin_context.html#abf1cf6bbf449b21ccbf2700c278d9ed8":[9,0,50,8,11],
+"class_nebula_1_1_game_plugin_context.html#ad24dd1bd27694c206d1ce731cb912f5a":[8,0,55,8,4],
+"class_nebula_1_1_game_plugin_context.html#ad24dd1bd27694c206d1ce731cb912f5a":[9,0,50,8,4],
+"class_nebula_1_1_game_plugin_context.html#ad33200532397d0cf9d71b7479e5f58ff":[8,0,55,8,10],
 "class_nebula_1_1_game_plugin_context.html#ad33200532397d0cf9d71b7479e5f58ff":[9,0,50,8,10],
 "class_nebula_1_1_game_plugin_context.html#ae0b20a9bec8efafbdfaebc4d255395cb":[8,0,55,8,12],
 "class_nebula_1_1_game_plugin_context.html#ae0b20a9bec8efafbdfaebc4d255395cb":[9,0,50,8,12],
@@ -237,17 +249,5 @@ var NAVTREEINDEX63 =
 "class_nebula_1_1_hot_reload_state_1_1_managed_callback.html#a098a1b902a22f42e3830a196e03e5028":[9,0,50,12,1,2],
 "class_nebula_1_1_hot_reload_state_1_1_managed_callback.html#a455ddb285c3c3bf1970ef84e8d44e96f":[8,0,55,12,1,0],
 "class_nebula_1_1_hot_reload_state_1_1_managed_callback.html#a455ddb285c3c3bf1970ef84e8d44e96f":[9,0,50,12,1,0],
-"class_nebula_1_1_hot_reload_state_1_1_managed_callback.html#a4c7feba84be6425924b9fca29bf14fc2":[8,0,55,12,1,1],
-"class_nebula_1_1_hot_reload_state_1_1_managed_callback.html#a4c7feba84be6425924b9fca29bf14fc2":[9,0,50,12,1,1],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html":[8,0,55,12,2],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html":[9,0,50,12,2],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#a32adfc4d3d359c1528a2d1f4c6367740":[8,0,55,12,2,1],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#a32adfc4d3d359c1528a2d1f4c6367740":[9,0,50,12,2,1],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#a4e7ee25ead48a797389ce8fd782011d1":[8,0,55,12,2,2],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#a4e7ee25ead48a797389ce8fd782011d1":[9,0,50,12,2,2],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#aa62b7e77aaae49bd676086555e45b5cc":[8,0,55,12,2,3],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#aa62b7e77aaae49bd676086555e45b5cc":[9,0,50,12,2,3],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#aaafa4943dcf934c210b19e70b7a9926a":[8,0,55,12,2,0],
-"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#aaafa4943dcf934c210b19e70b7a9926a":[9,0,50,12,2,0],
-"class_nebula_1_1_hot_reload_state_1_1_reference_comparer.html":[8,0,55,12,0]
+"class_nebula_1_1_hot_reload_state_1_1_managed_callback.html#a4c7feba84be6425924b9fca29bf14fc2":[8,0,55,12,1,1]
 };

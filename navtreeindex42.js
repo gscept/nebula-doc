@@ -1,5 +1,15 @@
 var NAVTREEINDEX42 =
 {
+"class_i_o_1_1_console_handler.html#a83ebb158b4f6639ce482100b0c392050":[9,0,34,15,7],
+"class_i_o_1_1_console_handler.html#a997ff47fe7b044ee13df3f70ea61498f":[8,0,37,16,0],
+"class_i_o_1_1_console_handler.html#a997ff47fe7b044ee13df3f70ea61498f":[9,0,34,15,0],
+"class_i_o_1_1_console_handler.html#aab14d7153c6da831de030a64d1129f75":[8,0,37,16,6],
+"class_i_o_1_1_console_handler.html#aab14d7153c6da831de030a64d1129f75":[9,0,34,15,6],
+"class_i_o_1_1_console_handler.html#aeea39f49de326773a5707e241d49717d":[8,0,37,16,9],
+"class_i_o_1_1_console_handler.html#aeea39f49de326773a5707e241d49717d":[9,0,34,15,9],
+"class_i_o_1_1_embedded_memory_stream.html":[8,0,37,17],
+"class_i_o_1_1_embedded_memory_stream.html":[9,0,34,16],
+"class_i_o_1_1_embedded_memory_stream.html#a0bdde84b5b339b53fb13561846ff7680":[8,0,37,17,1],
 "class_i_o_1_1_embedded_memory_stream.html#a0bdde84b5b339b53fb13561846ff7680":[9,0,34,16,1],
 "class_i_o_1_1_embedded_memory_stream.html#a134e3f6f16c67eaa7f378e402fc88df9":[8,0,37,17,2],
 "class_i_o_1_1_embedded_memory_stream.html#a134e3f6f16c67eaa7f378e402fc88df9":[9,0,34,16,2],
@@ -239,15 +249,5 @@ var NAVTREEINDEX42 =
 "class_i_o_1_1_json_reader.html#a36ad9f0f56efac04bc04854c751411f2":[8,0,37,28,41],
 "class_i_o_1_1_json_reader.html#a36ad9f0f56efac04bc04854c751411f2":[9,0,34,27,40],
 "class_i_o_1_1_json_reader.html#a36ad9f0f56efac04bc04854c751411f2":[9,0,34,27,41],
-"class_i_o_1_1_json_reader.html#a3e6d30a75b17795dff4bd295ad14e764":[8,0,37,28,77],
-"class_i_o_1_1_json_reader.html#a3e6d30a75b17795dff4bd295ad14e764":[9,0,34,27,77],
-"class_i_o_1_1_json_reader.html#a40b334ce619ca8b146127aea091b91e9":[8,0,37,28,25],
-"class_i_o_1_1_json_reader.html#a40b334ce619ca8b146127aea091b91e9":[8,0,37,28,26],
-"class_i_o_1_1_json_reader.html#a40b334ce619ca8b146127aea091b91e9":[9,0,34,27,25],
-"class_i_o_1_1_json_reader.html#a40b334ce619ca8b146127aea091b91e9":[9,0,34,27,26],
-"class_i_o_1_1_json_reader.html#a451f8a03d74b7df0761573c70906091a":[8,0,37,28,79],
-"class_i_o_1_1_json_reader.html#a451f8a03d74b7df0761573c70906091a":[9,0,34,27,79],
-"class_i_o_1_1_json_reader.html#a45f96ab9c1b5dc8fb8832da908540ef8":[8,0,37,28,0],
-"class_i_o_1_1_json_reader.html#a45f96ab9c1b5dc8fb8832da908540ef8":[9,0,34,27,0],
-"class_i_o_1_1_json_reader.html#a46080c8284431f029f2a313b48dd4932":[8,0,37,28,83]
+"class_i_o_1_1_json_reader.html#a3e6d30a75b17795dff4bd295ad14e764":[8,0,37,28,77]
 };

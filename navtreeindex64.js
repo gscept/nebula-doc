@@ -1,5 +1,17 @@
 var NAVTREEINDEX64 =
 {
+"class_nebula_1_1_hot_reload_state_1_1_managed_callback.html#a4c7feba84be6425924b9fca29bf14fc2":[9,0,50,12,1,1],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html":[8,0,55,12,2],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html":[9,0,50,12,2],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#a32adfc4d3d359c1528a2d1f4c6367740":[8,0,55,12,2,1],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#a32adfc4d3d359c1528a2d1f4c6367740":[9,0,50,12,2,1],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#a4e7ee25ead48a797389ce8fd782011d1":[8,0,55,12,2,2],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#a4e7ee25ead48a797389ce8fd782011d1":[9,0,50,12,2,2],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#aa62b7e77aaae49bd676086555e45b5cc":[8,0,55,12,2,3],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#aa62b7e77aaae49bd676086555e45b5cc":[9,0,50,12,2,3],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#aaafa4943dcf934c210b19e70b7a9926a":[8,0,55,12,2,0],
+"class_nebula_1_1_hot_reload_state_1_1_property_replacement.html#aaafa4943dcf934c210b19e70b7a9926a":[9,0,50,12,2,0],
+"class_nebula_1_1_hot_reload_state_1_1_reference_comparer.html":[8,0,55,12,0],
 "class_nebula_1_1_hot_reload_state_1_1_reference_comparer.html":[9,0,50,12,0],
 "class_nebula_1_1_hot_reload_state_1_1_reference_comparer.html#a5a0a71ef2b546aeaddec011830bd1b89":[8,0,55,12,0,2],
 "class_nebula_1_1_hot_reload_state_1_1_reference_comparer.html#a5a0a71ef2b546aeaddec011830bd1b89":[9,0,50,12,0,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX64 =
 "class_nebula_1_1_runtime.html#a40f364aaa69bed8df7ae15f8c16314d0":[9,0,50,26,1],
 "class_nebula_1_1_runtime.html#a4e5ce0284a17d4d197fe8a07939d674a":[8,0,55,26,5],
 "class_nebula_1_1_runtime.html#a4e5ce0284a17d4d197fe8a07939d674a":[9,0,50,26,5],
-"class_nebula_1_1_runtime.html#a657146b85bedd9c75289fbbdffc802b8":[8,0,55,26,3],
-"class_nebula_1_1_runtime.html#a657146b85bedd9c75289fbbdffc802b8":[9,0,50,26,3],
-"class_nebula_1_1_runtime.html#a7b4b054de48388a41c5189446b50cbce":[8,0,55,26,9],
-"class_nebula_1_1_runtime.html#a7b4b054de48388a41c5189446b50cbce":[9,0,50,26,9],
-"class_nebula_1_1_runtime.html#a8db845e91f0f047130db490467dd8551":[8,0,55,26,11],
-"class_nebula_1_1_runtime.html#a8db845e91f0f047130db490467dd8551":[9,0,50,26,11],
-"class_nebula_1_1_runtime.html#a9ef8e9c4b2ff2fd1cf982252e2de3a38":[8,0,55,26,2],
-"class_nebula_1_1_runtime.html#a9ef8e9c4b2ff2fd1cf982252e2de3a38":[9,0,50,26,2],
-"class_nebula_1_1_runtime.html#aa4ea899f2785b047ab2983f26eeafe3c":[8,0,55,26,6],
-"class_nebula_1_1_runtime.html#aa4ea899f2785b047ab2983f26eeafe3c":[9,0,50,26,6],
-"class_nebula_1_1_runtime.html#acff17ca332a89e26ca706cedb921dd9d":[8,0,55,26,10],
-"class_nebula_1_1_runtime.html#acff17ca332a89e26ca706cedb921dd9d":[9,0,50,26,10],
-"class_nebula_1_1_runtime.html#ada96e20fcdcee4fbfb21442f1ccda850":[8,0,55,26,12]
+"class_nebula_1_1_runtime.html#a657146b85bedd9c75289fbbdffc802b8":[8,0,55,26,3]
 };

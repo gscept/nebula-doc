@@ -1,5 +1,15 @@
 var NAVTREEINDEX22 =
 {
+"class_db_1_1_db_factory.html#a39e601c94026a0842de18c4759f20a17":[8,0,15,4,4],
+"class_db_1_1_db_factory.html#a39e601c94026a0842de18c4759f20a17":[9,0,14,4,4],
+"class_db_1_1_db_factory.html#a429d863d9f467ae6ef3b65b010451ab3":[8,0,15,4,1],
+"class_db_1_1_db_factory.html#a429d863d9f467ae6ef3b65b010451ab3":[9,0,14,4,1],
+"class_db_1_1_db_factory.html#a4901663633bd6101a6adfdfcf01db028":[8,0,15,4,7],
+"class_db_1_1_db_factory.html#a4901663633bd6101a6adfdfcf01db028":[9,0,14,4,7],
+"class_db_1_1_db_factory.html#a6efef52d7a939622bbc934ff6b90ffe0":[8,0,15,4,13],
+"class_db_1_1_db_factory.html#a6efef52d7a939622bbc934ff6b90ffe0":[9,0,14,4,13],
+"class_db_1_1_db_factory.html#a71abd57e733142a4a28dfe89ece63f11":[8,0,15,4,8],
+"class_db_1_1_db_factory.html#a71abd57e733142a4a28dfe89ece63f11":[9,0,14,4,8],
 "class_db_1_1_db_factory.html#a72e1f1ce0e3ba2442dbe9c8fd351e3e2":[8,0,15,4,5],
 "class_db_1_1_db_factory.html#a72e1f1ce0e3ba2442dbe9c8fd351e3e2":[9,0,14,4,5],
 "class_db_1_1_db_factory.html#a8441f7e40bc2e1065f7517cacb7818ed":[8,0,15,4,12],
@@ -239,15 +249,5 @@ var NAVTREEINDEX22 =
 "class_db_1_1_relation.html#a8cf0a6665fe7473fdc74a770c7e665cc":[8,0,15,8,6],
 "class_db_1_1_relation.html#a8cf0a6665fe7473fdc74a770c7e665cc":[9,0,14,8,6],
 "class_db_1_1_relation.html#a9e076caf18f2b0480afd42905a397605":[8,0,15,8,5],
-"class_db_1_1_relation.html#a9e076caf18f2b0480afd42905a397605":[9,0,14,8,5],
-"class_db_1_1_sqlite3_command.html":[8,0,15,9],
-"class_db_1_1_sqlite3_command.html":[9,0,14,9],
-"class_db_1_1_sqlite3_command.html#a02281659ae4a116b45a5499d6b4d0c49":[8,0,15,9,17],
-"class_db_1_1_sqlite3_command.html#a02281659ae4a116b45a5499d6b4d0c49":[9,0,14,9,17],
-"class_db_1_1_sqlite3_command.html#a0421eb7a21b3bc279215bb44fb5c3fb5":[8,0,15,9,2],
-"class_db_1_1_sqlite3_command.html#a0421eb7a21b3bc279215bb44fb5c3fb5":[9,0,14,9,2],
-"class_db_1_1_sqlite3_command.html#a1974a4d1f0eacdad2e5871ec70d564e3":[8,0,15,9,20],
-"class_db_1_1_sqlite3_command.html#a1974a4d1f0eacdad2e5871ec70d564e3":[9,0,14,9,20],
-"class_db_1_1_sqlite3_command.html#a341744637b6d50f0912c0e5bbe8ea4bd":[8,0,15,9,3],
-"class_db_1_1_sqlite3_command.html#a341744637b6d50f0912c0e5bbe8ea4bd":[9,0,14,9,3]
+"class_db_1_1_relation.html#a9e076caf18f2b0480afd42905a397605":[9,0,14,8,5]
 };
