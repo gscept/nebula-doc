@@ -819,16 +819,36 @@ var annotated_dup =
       [ "StandardMultiplayerServer", "class_multiplayer_1_1_standard_multiplayer_server.html", "class_multiplayer_1_1_standard_multiplayer_server" ]
     ] ],
     [ "Navigation", "namespace_navigation.html", [
-      [ "AgentContext", "class_navigation_1_1_agent_context.html", "class_navigation_1_1_agent_context" ],
-      [ "CrowdAgentId", "struct_navigation_1_1_crowd_agent_id.html", null ],
+      [ "Build", "namespace_navigation_1_1_build.html", [
+        [ "AreaDefinition", "struct_navigation_1_1_build_1_1_area_definition.html", "struct_navigation_1_1_build_1_1_area_definition" ],
+        [ "AreaPrism", "struct_navigation_1_1_build_1_1_area_prism.html", "struct_navigation_1_1_build_1_1_area_prism" ],
+        [ "AreaTable", "class_navigation_1_1_build_1_1_area_table.html", "class_navigation_1_1_build_1_1_area_table" ],
+        [ "AreaVolume", "struct_navigation_1_1_build_1_1_area_volume.html", "struct_navigation_1_1_build_1_1_area_volume" ],
+        [ "BuildInput", "struct_navigation_1_1_build_1_1_build_input.html", "struct_navigation_1_1_build_1_1_build_input" ],
+        [ "BuildOutput", "struct_navigation_1_1_build_1_1_build_output.html", "struct_navigation_1_1_build_1_1_build_output" ],
+        [ "BuildStats", "struct_navigation_1_1_build_1_1_build_stats.html", "struct_navigation_1_1_build_1_1_build_stats" ],
+        [ "HeightFieldSource", "struct_navigation_1_1_build_1_1_height_field_source.html", "struct_navigation_1_1_build_1_1_height_field_source" ],
+        [ "InputHasher", "class_navigation_1_1_build_1_1_input_hasher.html", "class_navigation_1_1_build_1_1_input_hasher" ],
+        [ "LogContext", "class_navigation_1_1_build_1_1_log_context.html", "class_navigation_1_1_build_1_1_log_context" ],
+        [ "MeshSource", "struct_navigation_1_1_build_1_1_mesh_source.html", "struct_navigation_1_1_build_1_1_mesh_source" ],
+        [ "Tile", "struct_navigation_1_1_build_1_1_tile.html", "struct_navigation_1_1_build_1_1_tile" ],
+        [ "TileGrid", "struct_navigation_1_1_build_1_1_tile_grid.html", "struct_navigation_1_1_build_1_1_tile_grid" ],
+        [ "TileScratch", "struct_navigation_1_1_build_1_1_tile_scratch.html", "struct_navigation_1_1_build_1_1_tile_scratch" ],
+        [ "WorldMeshes", "struct_navigation_1_1_build_1_1_world_meshes.html", "struct_navigation_1_1_build_1_1_world_meshes" ]
+      ] ],
       [ "DebugDraw", "struct_navigation_1_1_debug_draw.html", "struct_navigation_1_1_debug_draw" ],
       [ "NavigationPageHandler", "class_navigation_1_1_navigation_page_handler.html", "class_navigation_1_1_navigation_page_handler" ],
       [ "NavMeshId", "struct_navigation_1_1_nav_mesh_id.html", null ],
       [ "StreamNavMeshCache", "class_navigation_1_1_stream_nav_mesh_cache.html", "class_navigation_1_1_stream_nav_mesh_cache" ]
     ] ],
     [ "NavigationFeature", "namespace_navigation_feature.html", [
+      [ "ActiveNavMesh", "struct_navigation_feature_1_1_active_nav_mesh.html", "struct_navigation_feature_1_1_active_nav_mesh" ],
+      [ "AgentAccess", "struct_navigation_feature_1_1_agent_access.html", "struct_navigation_feature_1_1_agent_access" ],
+      [ "AgentManager", "class_navigation_feature_1_1_agent_manager.html", "class_navigation_feature_1_1_agent_manager" ],
       [ "NavigationFeatureUnit", "class_navigation_feature_1_1_navigation_feature_unit.html", "class_navigation_feature_1_1_navigation_feature_unit" ],
-      [ "NavigationManager", "class_navigation_feature_1_1_navigation_manager.html", "class_navigation_feature_1_1_navigation_manager" ]
+      [ "NavigationManager", "class_navigation_feature_1_1_navigation_manager.html", "class_navigation_feature_1_1_navigation_manager" ],
+      [ "NavPath", "struct_navigation_feature_1_1_nav_path.html", "struct_navigation_feature_1_1_nav_path" ],
+      [ "QueryFilter", "struct_navigation_feature_1_1_query_filter.html", "struct_navigation_feature_1_1_query_filter" ]
     ] ],
     [ "Nebula", "namespace_nebula.html", [
       [ "Game", "namespace_nebula_1_1_game.html", [

@@ -121,7 +121,8 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('struct_physics
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af9e2a02e756f210d205c8a71dc4c3e3a" id="r_af9e2a02e756f210d205c8a71dc4c3e3a"><td class="memItemLeft">std::function&lt; bool(<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> resource, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> primGroup, <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;out)&gt;&#160;</td><td class="memItemRight"><a class="el" href="#af9e2a02e756f210d205c8a71dc4c3e3a">LoadMesh</a> = nullptr</td></tr>
+<tr class="memitem:ac44dd9fd54a24f932640eb61fa24f1ce" id="r_ac44dd9fd54a24f932640eb61fa24f1ce"><td class="memItemLeft">std::function&lt; bool(<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> resource, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> meshIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> primGroup, <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a> &amp;out)&gt;&#160;</td><td class="memItemRight"><a class="el" href="#ac44dd9fd54a24f932640eb61fa24f1ce">LoadMesh</a> = nullptr</td></tr>
+<tr class="memdesc:ac44dd9fd54a24f932640eb61fa24f1ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">meshIndex selects the mesh in a file holding several, primGroup the primitive group within that mesh  <br /></td></tr>
 <tr class="memitem:a45d84f0d74ddd5b39be03ede1084ec4c" id="r_a45d84f0d74ddd5b39be03ede1084ec4c"><td class="memItemLeft">std::function&lt; bool(<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> resource, <a class="el" href="struct_physics_1_1_height_field_input.html">HeightFieldInput</a> &amp;out)&gt;&#160;</td><td class="memItemRight"><a class="el" href="#a45d84f0d74ddd5b39be03ede1084ec4c">LoadHeightField</a> = nullptr</td></tr>
 </table>
 <a name="doc-variable-members" id="doc-variable-members"></a><h2 id="header-doc-variable-members" class="groupheader">Member Data Documentation</h2>
@@ -139,17 +140,19 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af9e2a02e756f210d205c8a71dc4c3e3a" name="af9e2a02e756f210d205c8a71dc4c3e3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9e2a02e756f210d205c8a71dc4c3e3a">&#9670;&#160;</a></span>LoadMesh</h2>
+<a id="ac44dd9fd54a24f932640eb61fa24f1ce" name="ac44dd9fd54a24f932640eb61fa24f1ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac44dd9fd54a24f932640eb61fa24f1ce">&#9670;&#160;</a></span>LoadMesh</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::function&lt;bool(<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> resource, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> primGroup, <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a>&amp; out)&gt; Physics::GeometryLoader::LoadMesh = nullptr</td>
+          <td class="memname">std::function&lt;bool(<a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> resource, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> meshIndex, <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> primGroup, <a class="el" href="struct_physics_1_1_mesh_geometry_input.html">MeshGeometryInput</a>&amp; out)&gt; Physics::GeometryLoader::LoadMesh = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>meshIndex selects the mesh in a file holding several, primGroup the primitive group within that mesh </p>
 
 </div>
 </div>

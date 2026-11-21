@@ -26,6 +26,7 @@ var class_characters_1_1_character_context =
     [ "GetPlayingClip", "class_characters_1_1_character_context.html#a1eae92e097a3dd6dc7f89a336368cb63", null ],
     [ "GetSkeleton", "class_characters_1_1_character_context.html#a20042a95251f3337b4706a30e6c923f4", null ],
     [ "GetTime", "class_characters_1_1_character_context.html#afa1c0d3110e51f8420825c2122982a5d", null ],
+    [ "GetTrackFadeWeight", "class_characters_1_1_character_context.html#a9a7ffd33e6e07dd70a244fe97ca696f7", null ],
     [ "GetTrackTime", "class_characters_1_1_character_context.html#a79054a7954a33f12dc54e4509fd4da30", null ],
     [ "IsPlaying", "class_characters_1_1_character_context.html#a0fd619d03392faa6d3ff1bc371c13ef9", null ],
     [ "IsTrackPaused", "class_characters_1_1_character_context.html#a8a5e62d313d4244340482feedf298ca8", null ],

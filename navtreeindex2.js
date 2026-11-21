@@ -1,12 +1,15 @@
 var NAVTREEINDEX2 =
 {
+"attributeregistry_8h_source.html":[10,0,0,0,5,3],
+"attributetable_8cc.html":[10,0,0,0,0,9],
+"attributetable_8h.html":[10,0,0,0,0,10],
 "attributetable_8h_source.html":[10,0,0,0,0,10],
 "attrid_8cc.html":[10,0,0,0,0,11],
 "attrid_8h.html":[10,0,0,0,0,12],
 "attrid_8h_source.html":[10,0,0,0,0,12],
-"audio_8cc.html":[10,0,0,0,9,0,2],
-"audio_8h.html":[10,0,0,0,9,0,3],
-"audio_8h_source.html":[10,0,0,0,9,0,3],
+"audio_8cc.html":[10,0,0,0,10,0,2],
+"audio_8h.html":[10,0,0,0,10,0,3],
+"audio_8h_source.html":[10,0,0,0,10,0,3],
 "audioclip_8h.html":[10,0,0,2,0,0],
 "audioclip_8h_source.html":[10,0,0,2,0,0],
 "audiodevice_8cc.html":[10,0,0,2,0,1],
@@ -116,9 +119,9 @@ var NAVTREEINDEX2 =
 "category_8h_source.html":[10,0,0,1,3,4],
 "char_8h.html":[10,0,0,4,0,2],
 "char_8h_source.html":[10,0,0,4,0,2],
-"charactermanager_8cc.html":[10,0,0,0,10,0,0],
-"charactermanager_8h.html":[10,0,0,0,10,0,1],
-"charactermanager_8h_source.html":[10,0,0,0,10,0,1],
+"charactermanager_8cc.html":[10,0,0,0,11,0,0],
+"charactermanager_8h.html":[10,0,0,0,11,0,1],
+"charactermanager_8h_source.html":[10,0,0,0,11,0,1],
 "characternode_8cc.html":[10,0,0,7,17,0,0],
 "characternode_8h.html":[10,0,0,7,17,0,1],
 "characternode_8h_source.html":[10,0,0,7,17,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "class_animation_1_1_anim_job.html#a201f372df16e972ca8977212b9a5bd0a":[8,0,0,3,3],
 "class_animation_1_1_anim_job.html#a201f372df16e972ca8977212b9a5bd0a":[9,0,0,3,3],
 "class_animation_1_1_anim_job.html#a21c0066a5c820a1325d43c29f03d1154":[8,0,0,3,48],
-"class_animation_1_1_anim_job.html#a21c0066a5c820a1325d43c29f03d1154":[9,0,0,3,48],
-"class_animation_1_1_anim_job.html#a240c11f57c27c51509b13c44318314a8":[8,0,0,3,12],
-"class_animation_1_1_anim_job.html#a240c11f57c27c51509b13c44318314a8":[9,0,0,3,12],
-"class_animation_1_1_anim_job.html#a26f5f6183dc76b81cef04bdc0028eaed":[8,0,0,3,29]
+"class_animation_1_1_anim_job.html#a21c0066a5c820a1325d43c29f03d1154":[9,0,0,3,48]
 };

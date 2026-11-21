@@ -13,7 +13,7 @@ var class_game_1_1_game_server =
     [ "GetWorld", "class_game_1_1_game_server.html#a35f82a3a34247dd6f2621737e8202219", null ],
     [ "HasStarted", "class_game_1_1_game_server.html#a06de337609b0a18d18ca0c995dec7a7b", null ],
     [ "IsFeatureAttached", "class_game_1_1_game_server.html#a72cbd53c7974633e0bfa83bde840041a", null ],
-    [ "NotifyBeforeCleanup", "class_game_1_1_game_server.html#a28a5f56f9567099ebc481826eba72698", null ],
+    [ "NotifyBeforeCleanup", "class_game_1_1_game_server.html#a84dbc4a0b67eea989b372ff3f857c6d9", null ],
     [ "NotifyBeforeLoad", "class_game_1_1_game_server.html#afd7b12edf57a0bbb2bd04c53879c0b5f", null ],
     [ "NotifyGameLoad", "class_game_1_1_game_server.html#a126fc1d75d223fece2435cbcad5335fc", null ],
     [ "NotifyGameSave", "class_game_1_1_game_server.html#a83253a9aaf77befe4165effcb4d5adf1", null ],

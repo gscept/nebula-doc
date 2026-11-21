@@ -114,19 +114,33 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_navi
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="namespace_navigation_1_1_recast.html">Navigation::Recast</a>. </p>
-<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2022 Individual contributors, see AUTHORS file</dd></dl>
-<p>Helper functions for generating navmesh data</p>
-<p>(C) 2022 Individual contributors, see AUTHORS file </p>
+<div class="textblock"><p><a class="el" href="namespace_navigation_1_1_build.html">Navigation::Build</a> geometry sources. </p>
+<p><a class="el" href="namespace_navigation_1_1_build.html">Navigation::Build</a>.</p>
+<p><a class="el" href="namespace_navigation_1_1_build.html">Navigation::Build</a> navmesh assets.</p>
+<p><a class="el" href="namespace_navigation_1_1_build.html">Navigation::Build</a> area table.</p>
+<p>Fills navmesh build sources from resource URNs through the registered <a class="el" href="struct_physics_1_1_geometry_loader.html" title="Holds function pointers for reading meshes and heightfields from resources.">Physics::GeometryLoader</a>, so the navmesh reads exactly the geometry the colliders are cooked from.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2026 Individual contributors, see AUTHORS file</dd></dl>
+<p>The areas a project classifies walkable surface with. The table is written as work/data/tables/navareas.json and compiled to nav:navareas.navareas.</p>
+<p>Area 0, "none", is not walkable and area 63, "default", is every surface nothing marks. Both always exist, the table adds areas 1 to 62.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2026 Individual contributors, see AUTHORS file</dd></dl>
+<p>Ties the navmesh builder to the asset formats.</p>
+<p>Navmeshes are addressed with URNs of the nav type, folder:file:nav. The work file, work:folder/file.nanav, holds a Navigation::NavMesh description. Baking it writes nav:folder/file.navmesh, a Navigation::BakedNavMesh with the Detour tiles.</p>
+<p>A bake is skipped when the export holds the hash of the same inputs: the work file, the area table and the geometry of every source as the geometry loader reads it, so editing a mesh, heightmap or area a navmesh uses bakes it again.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2026 Individual contributors, see AUTHORS file</dd></dl>
+<p>Builds tiled Detour navmesh data from world space geometry.</p>
+<p>The builder is format agnostic: it takes geometry which is already loaded, so it can run in the editor, the asset batcher or a test without any resource system. Use the functions in <a class="el" href="geometrysources_8h.html">navbuild/geometrysources.h</a> to fill sources from URNs.</p>
+<p>Every source carries the world transform it is placed with. Height fields follow the physics height field convention exactly, so the navmesh lies on the collision surface: the origin is the corner of the field, sample (x, z) sits at local (x * sizeX / width, height, z * sizeZ / height) and the height is (sample &gt;&gt; 1) * heightRange / 32767.</p>
+<p>The result is always tiled. A tile covers settings.tile_size cells along x and z, tiles without any walkable surface are left out.</p>
+<p>Areas are Recast areas: 0 is not walkable, 63 (RC_WALKABLE_AREA) is the default walkable area and anything in between can be assigned with area volumes. Detour polygons keep the Recast area id and get the flags BuildInput::areaFlags lists for it.</p>
+<p>Area volumes are applied after the surface is eroded by the agent radius, in the order of their priority, so where volumes overlap the one with the higher priority wins. Convex prisms come from NavArea entities, cylinders are the stamps of painted areas.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2026 Individual contributors, see AUTHORS file </dd></dl>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
-<tr class="memitem:Recast" id="r_Recast"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_1_1_recast.html">Recast</a></td></tr>
+<tr class="memitem:Build" id="r_Build"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_1_1_build.html">Build</a></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:AgentContext" id="r_AgentContext"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_navigation_1_1_agent_context.html">AgentContext</a></td></tr>
-<tr class="memitem:CrowdAgentId" id="r_CrowdAgentId"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_navigation_1_1_crowd_agent_id.html">CrowdAgentId</a></td></tr>
 <tr class="memitem:DebugDraw" id="r_DebugDraw"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_navigation_1_1_debug_draw.html">DebugDraw</a></td></tr>
 <tr class="memitem:NavigationPageHandler" id="r_NavigationPageHandler"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_navigation_1_1_navigation_page_handler.html">NavigationPageHandler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide information about the navigation system.  <a href="class_navigation_1_1_navigation_page_handler.html#details">More...</a><br /></td></tr>
@@ -147,8 +161,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad53f7274bca51d976a4e0ad9d3b7d192" id="r_ad53f7274bca51d976a4e0ad9d3b7d192"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ad53f7274bca51d976a4e0ad9d3b7d192">agentType</a></td></tr>
-<tr class="memitem:a17f44fd9ce04cfc2c4f00e8805000a37" id="r_a17f44fd9ce04cfc2c4f00e8805000a37"><td class="memItemLeft"><a class="el" href="class_navigation_1_1_stream_nav_mesh_cache.html">StreamNavMeshCache</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a17f44fd9ce04cfc2c4f00e8805000a37">navMeshCache</a></td></tr>
+<tr class="memitem:a003a7dcfd485323fc38df514767fef09" id="r_a003a7dcfd485323fc38df514767fef09"><td class="memItemLeft"><a class="el" href="class_navigation_1_1_stream_nav_mesh_cache.html">StreamNavMeshCache</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a003a7dcfd485323fc38df514767fef09">navMeshCache</a></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
 <a id="a7b03024af9c90a1c931fc369431c537c" name="a7b03024af9c90a1c931fc369431c537c"></a>
@@ -272,28 +285,14 @@ Variables</h2></td></tr>
 </div>
 </div>
 <a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
-<a id="ad53f7274bca51d976a4e0ad9d3b7d192" name="ad53f7274bca51d976a4e0ad9d3b7d192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad53f7274bca51d976a4e0ad9d3b7d192">&#9670;&#160;</a></span>agentType</h2>
+<a id="a003a7dcfd485323fc38df514767fef09" name="a003a7dcfd485323fc38df514767fef09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a003a7dcfd485323fc38df514767fef09">&#9670;&#160;</a></span>navMeshCache</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Navigation::agentType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a17f44fd9ce04cfc2c4f00e8805000a37" name="a17f44fd9ce04cfc2c4f00e8805000a37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17f44fd9ce04cfc2c4f00e8805000a37">&#9670;&#160;</a></span>navMeshCache</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_navigation_1_1_stream_nav_mesh_cache.html">StreamNavMeshCache</a>* Navigation::navMeshCache</td>
+          <td class="memname"><a class="el" href="class_navigation_1_1_stream_nav_mesh_cache.html">StreamNavMeshCache</a> * Navigation::navMeshCache</td>
         </tr>
       </table>
 </div><div class="memdoc">

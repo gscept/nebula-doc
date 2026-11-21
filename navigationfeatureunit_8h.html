@@ -116,6 +116,7 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('navigationfeat
 <div class="textblock"><code>#include &quot;<a class="el" href="featureunit_8h_source.html">game/featureunit.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="graphicsentity_8h_source.html">graphics/graphicsentity.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="streamnavmeshcache_8h_source.html">streamnavmeshcache.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="navareas_8h_source.html">navbuild/navareas.h</a>&quot;</code><br />
 </div>
 <p><a href="navigationfeatureunit_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -126,11 +127,20 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:NavigationFeature" id="r_NavigationFeature"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html">NavigationFeature</a></td></tr>
+<tr class="memdesc:namespace_navigation_feature"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queries on a loaded navmesh. <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:acf8db598e8ae9eb2eefb70e3413a6393" id="r_acf8db598e8ae9eb2eefb70e3413a6393"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#acf8db598e8ae9eb2eefb70e3413a6393">NavigationFeature::RenderUI</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> camera)</td></tr>
 <tr class="memdesc:acf8db598e8ae9eb2eefb70e3413a6393"><td class="mdescLeft">&#160;</td><td class="mdescRight">render editor ui  <br /></td></tr>
+<tr class="memitem:af0740323ecc2c8e84bfb43b87e844464" id="r_af0740323ecc2c8e84bfb43b87e844464"><td class="memItemLeft"><a class="el" href="class_navigation_1_1_stream_nav_mesh_cache.html">Navigation::StreamNavMeshCache</a> *&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#af0740323ecc2c8e84bfb43b87e844464">NavigationFeature::GetNavMeshCache</a> ()</td></tr>
+<tr class="memdesc:af0740323ecc2c8e84bfb43b87e844464"><td class="mdescLeft">&#160;</td><td class="mdescRight">the loader of the baked navmeshes, null before the feature is activated  <br /></td></tr>
+<tr class="memitem:ab4fe1f63f0b06e4eeb638002533bde82" id="r_ab4fe1f63f0b06e4eeb638002533bde82"><td class="memItemLeft">const <a class="el" href="class_navigation_1_1_build_1_1_area_table.html">Navigation::Build::AreaTable</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#ab4fe1f63f0b06e4eeb638002533bde82">NavigationFeature::GetAreaTable</a> ()</td></tr>
+<tr class="memdesc:ab4fe1f63f0b06e4eeb638002533bde82"><td class="mdescLeft">&#160;</td><td class="mdescRight">the area table of the project, loaded when the feature is activated  <br /></td></tr>
+<tr class="memitem:a681245f71b8fdd574ff07e386c2f0b12" id="r_a681245f71b8fdd574ff07e386c2f0b12"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#a681245f71b8fdd574ff07e386c2f0b12">NavigationFeature::ReloadAreaTable</a> ()</td></tr>
+<tr class="memdesc:a681245f71b8fdd574ff07e386c2f0b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">load the compiled area table again  <br /></td></tr>
+<tr class="memitem:a726fcf3c49d2151408e807819b20b3d7" id="r_a726fcf3c49d2151408e807819b20b3d7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#a726fcf3c49d2151408e807819b20b3d7">NavigationFeature::RaycastNavMeshes</a> (const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;start, const <a class="el" href="struct_math_1_1vector.html">Math::vector</a> &amp;dir, float &amp;outT)</td></tr>
+<tr class="memdesc:a726fcf3c49d2151408e807819b20b3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersect a ray with the surface of every loaded navmesh, t is in units of dir. Returns false if it misses all  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

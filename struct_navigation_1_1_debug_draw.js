@@ -2,6 +2,7 @@ var struct_navigation_1_1_debug_draw =
 [
     [ "DebugDraw", "struct_navigation_1_1_debug_draw.html#aa290dbab04e7756367c8e1eece9a1398", null ],
     [ "~DebugDraw", "struct_navigation_1_1_debug_draw.html#a334ab21a7fd3a809a5b785f17dcbd2bb", null ],
+    [ "areaToCol", "struct_navigation_1_1_debug_draw.html#ac2e0584bc40cf8880d959ef094cacea6", null ],
     [ "begin", "struct_navigation_1_1_debug_draw.html#a8c203e968ba71c6840a1e1bfa962cc15", null ],
     [ "depthMask", "struct_navigation_1_1_debug_draw.html#abebcd8f81e7c3ae44bae251d496ee2fd", null ],
     [ "end", "struct_navigation_1_1_debug_draw.html#a80d506f8a71751d6d168d4b8987e6c87", null ],

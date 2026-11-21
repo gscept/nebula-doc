@@ -116,18 +116,33 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('navigationmana
 <div class="textblock"><code>#include &quot;<a class="el" href="refcounted_8h_source.html">core/refcounted.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="singleton_8h_source.html">core/singleton.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="manager_8h_source.html">game/manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="category_8h_source.html">game/category.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="world_8h_source.html">game/world.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="streamnavmeshcache_8h_source.html">navigationfeature/streamnavmeshcache.h</a>&quot;</code><br />
 </div>
 <p><a href="navigationmanager_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:NavigationFeature_3A_3AActiveNavMesh" id="r_NavigationFeature_3A_3AActiveNavMesh"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">NavigationFeature::ActiveNavMesh</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a navmesh a NavMesh component has loaded  <a href="struct_navigation_feature_1_1_active_nav_mesh.html#details">More...</a><br /></td></tr>
 <tr class="memitem:NavigationFeature_3A_3ANavigationManager" id="r_NavigationFeature_3A_3ANavigationManager"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_navigation_feature_1_1_navigation_manager.html">NavigationFeature::NavigationManager</a></td></tr>
-<tr class="memitem:NavigationFeature_3A_3ANavigationManager_3A_3APids" id="r_NavigationFeature_3A_3ANavigationManager_3A_3APids"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_navigation_feature_1_1_navigation_manager_1_1_pids.html">NavigationFeature::NavigationManager::Pids</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps the navmeshes of the level loaded.  <a href="class_navigation_feature_1_1_navigation_manager.html#details">More...</a><br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-namespaces" class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:NavigationFeature" id="r_NavigationFeature"><td class="memItemLeft">namespace &#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html">NavigationFeature</a></td></tr>
+<tr class="memdesc:namespace_navigation_feature"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queries on a loaded navmesh. <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae499a97888a55365d7f00d03792dec00" id="r_ae499a97888a55365d7f00d03792dec00"><td class="memItemLeft">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#ae499a97888a55365d7f00d03792dec00">NavigationFeature::GetActiveNavMeshes</a> ()</td></tr>
+<tr class="memdesc:ae499a97888a55365d7f00d03792dec00"><td class="mdescLeft">&#160;</td><td class="mdescRight">the navmeshes NavMesh components have loaded, including ones which failed to load  <br /></td></tr>
+<tr class="memitem:a379054ee55742902d3699ef756c5f854" id="r_a379054ee55742902d3699ef756c5f854"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#a379054ee55742902d3699ef756c5f854">NavigationFeature::IsNavMeshLoaded</a> (const <a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &amp;navMesh)</td></tr>
+<tr class="memdesc:a379054ee55742902d3699ef756c5f854"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the navmesh is loaded, a failed load has no Detour navmesh  <br /></td></tr>
+<tr class="memitem:aee25424acf6872f6c6022324b25c32f7" id="r_aee25424acf6872f6c6022324b25c32f7"><td class="memItemLeft"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#aee25424acf6872f6c6022324b25c32f7">NavigationFeature::FindNavMesh</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;agentKind)</td></tr>
+<tr class="memdesc:aee25424acf6872f6c6022324b25c32f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">the first loaded navmesh in the world baked for an agent kind, invalid if there is none  <br /></td></tr>
+<tr class="memitem:a925049329b6dcc8213f17ba00dd5765f" id="r_a925049329b6dcc8213f17ba00dd5765f"><td class="memItemLeft"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a>&#160;</td><td class="memItemRight"><a class="el" href="namespace_navigation_feature.html#a925049329b6dcc8213f17ba00dd5765f">NavigationFeature::GetNavMesh</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:a925049329b6dcc8213f17ba00dd5765f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the navmesh an entity with a NavMesh component has loaded, invalid if it has none or it failed to load  <br /></td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

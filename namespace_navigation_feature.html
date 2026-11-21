@@ -113,24 +113,246 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('namespace_navi
   <div class="headertitle"><div class="title">NavigationFeature Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
+<a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Queries on a loaded navmesh. </p>
+<p>Points are found on the surface of a navmesh, paths follow it from one point to another. A navmesh is picked with <a class="el" href="#aee25424acf6872f6c6022324b25c32f7" title="the first loaded navmesh in the world baked for an agent kind, invalid if there is none">NavigationFeature::FindNavMesh</a>, by the agent kind it was baked for.</p>
+<p>A filter decides which polygons a query may use, and what walking on each area costs. The default filter has the costs of the area table and lets every polygon with a flag through, a polygon of an area without flags is never used.</p>
+<p>Every navmesh has one Detour query, the functions run on the game thread only.</p>
+<dl class="section copyright"><dt>Copyright</dt><dd>(C) 2026 Individual contributors, see AUTHORS file </dd></dl>
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:ActiveNavMesh" id="r_ActiveNavMesh"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a navmesh a NavMesh component has loaded  <a href="struct_navigation_feature_1_1_active_nav_mesh.html#details">More...</a><br /></td></tr>
+<tr class="memitem:AgentAccess" id="r_AgentAccess"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_navigation_feature_1_1_agent_access.html">AgentAccess</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">what the feature unit's debug draw and the free functions reach into  <a href="struct_navigation_feature_1_1_agent_access.html#details">More...</a><br /></td></tr>
+<tr class="memitem:AgentManager" id="r_AgentManager"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_navigation_feature_1_1_agent_manager.html">AgentManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the entities with a NavAgent component over the navmeshes of the level.  <a href="class_navigation_feature_1_1_agent_manager.html#details">More...</a><br /></td></tr>
 <tr class="memitem:NavigationFeatureUnit" id="r_NavigationFeatureUnit"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_navigation_feature_1_1_navigation_feature_unit.html">NavigationFeatureUnit</a></td></tr>
 <tr class="memitem:NavigationManager" id="r_NavigationManager"><td class="memItemLeft">class &#160;</td><td class="memItemRight"><a class="el" href="class_navigation_feature_1_1_navigation_manager.html">NavigationManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps the navmeshes of the level loaded.  <a href="class_navigation_feature_1_1_navigation_manager.html#details">More...</a><br /></td></tr>
+<tr class="memitem:NavPath" id="r_NavPath"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_navigation_feature_1_1_nav_path.html">NavPath</a></td></tr>
+<tr class="memitem:QueryFilter" id="r_QueryFilter"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-enum-members" class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a77c33c592206f17aad133ccf8a0300cf" id="r_a77c33c592206f17aad133ccf8a0300cf"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a77c33c592206f17aad133ccf8a0300cf">MoveState</a> { <br />
+&#160;&#160;<a class="el" href="#a77c33c592206f17aad133ccf8a0300cfae599161956d626eda4cb0a5ffb85271c">Idle</a>
+, <a class="el" href="#a77c33c592206f17aad133ccf8a0300cfadefe967ad0373b2274fc298f19125ca7">Moving</a>
+, <a class="el" href="#a77c33c592206f17aad133ccf8a0300cfa168d3e51452f6d8988f75ed882e74eb6">Arrived</a>
+, <a class="el" href="#a77c33c592206f17aad133ccf8a0300cfa4bed942140642650ca78039de000796a">Unreachable</a>
+, <br />
+&#160;&#160;<a class="el" href="#a77c33c592206f17aad133ccf8a0300cfad7c8c85bf79bbe1b7188497c32c3b0ca">Failed</a>
+, <a class="el" href="#a77c33c592206f17aad133ccf8a0300cfa642c8178d01f7f8c64c2256400e56433">NoNavMesh</a>
+<br />
+ }</td></tr>
+<tr class="memitem:a432cb248fc1fda57e8ca38755651161c" id="r_a432cb248fc1fda57e8ca38755651161c"><td class="memItemLeft">enum class &#160;</td><td class="memItemRight"><a class="el" href="#a432cb248fc1fda57e8ca38755651161c">PathStatus</a> { <br />
+&#160;&#160;<a class="el" href="#a432cb248fc1fda57e8ca38755651161ca5d695cc28c6a7ea955162fbdd0ae42b9">Found</a>
+, <a class="el" href="#a432cb248fc1fda57e8ca38755651161ca44ffd38a6dea695cbe2b34efdcc6cf27">Partial</a>
+, <a class="el" href="#a432cb248fc1fda57e8ca38755651161caf5cea8e63c8b2bb41ee7e25ee91a7dd2">NoStart</a>
+, <a class="el" href="#a432cb248fc1fda57e8ca38755651161caac1cd8612879e6b8d26657e73ebcb80c">NoEnd</a>
+, <br />
+&#160;&#160;<a class="el" href="#a432cb248fc1fda57e8ca38755651161cad7c8c85bf79bbe1b7188497c32c3b0ca">Failed</a>
+<br />
+ }</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ac3088a290b422b1b9be758a865b771cf" id="r_ac3088a290b422b1b9be758a865b771cf"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#ac3088a290b422b1b9be758a865b771cf">__ImplementClass</a> (<a class="el" href="class_navigation_feature_1_1_agent_manager.html">NavigationFeature::AgentManager</a>, 'NvAg', <a class="el" href="class_game_1_1_manager.html">Game::Manager</a>)</td></tr>
+<tr class="memitem:a2e2da77346e83fae25b6f6f5bdbb0a1d" id="r_a2e2da77346e83fae25b6f6f5bdbb0a1d"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a2e2da77346e83fae25b6f6f5bdbb0a1d">__ImplementSingleton</a> (<a class="el" href="class_navigation_feature_1_1_agent_manager.html">AgentManager</a>) static const expr int MinCrowdAgents</td></tr>
+<tr class="memdesc:a2e2da77346e83fae25b6f6f5bdbb0a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the fewest agents a crowd is made for.  <br /></td></tr>
+<tr class="memitem:ae6566cceba2034d356488576e97fdcda" id="r_ae6566cceba2034d356488576e97fdcda"><td class="memItemLeft">static <a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *&#160;</td><td class="memItemRight"><a class="el" href="#ae6566cceba2034d356488576e97fdcda">FindAgent</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memitem:a5fe8c8974456a5fd29499038e16933c7" id="r_a5fe8c8974456a5fd29499038e16933c7"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a5fe8c8974456a5fd29499038e16933c7">LeaveCrowd</a> (<a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *agent)</td></tr>
+<tr class="memitem:a0bfd2151746f83f6310fe97ffc4ffc79" id="r_a0bfd2151746f83f6310fe97ffc4ffc79"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a0bfd2151746f83f6310fe97ffc4ffc79">FreeCrowd</a> (<a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> crowdIndex)</td></tr>
+<tr class="memdesc:a0bfd2151746f83f6310fe97ffc4ffc79"><td class="mdescLeft">&#160;</td><td class="mdescRight">The agents of the crowd join again when its navmesh is back.  <br /></td></tr>
+<tr class="memitem:ab4547516161422b358f9c4af47260dbe" id="r_ab4547516161422b358f9c4af47260dbe"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ab4547516161422b358f9c4af47260dbe">CrowdIsCurrent</a> (const <a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_crowd_record.html">AgentManager::CrowdRecord</a> *crowd)</td></tr>
+<tr class="memdesc:ab4547516161422b358f9c4af47260dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">A crowd is stale when its navmesh was unloaded or reloaded, the crowd points into the old one.  <br /></td></tr>
+<tr class="memitem:a77c5c713c9153843e926ddf20fe4e6cf" id="r_a77c5c713c9153843e926ddf20fe4e6cf"><td class="memItemLeft">static <a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_crowd_record.html">AgentManager::CrowdRecord</a> *&#160;</td><td class="memItemRight"><a class="el" href="#a77c5c713c9153843e926ddf20fe4e6cf">GetCrowd</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> navMesh)</td></tr>
+<tr class="memitem:ab4497fc1689103ababba71c70f67573f" id="r_ab4497fc1689103ababba71c70f67573f"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ab4497fc1689103ababba71c70f67573f">JoinCrowd</a> (<a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *agent, const NavAgent &amp;component)</td></tr>
+<tr class="memitem:a02c926d8419e14bac9baf67d8c8aaf2c" id="r_a02c926d8419e14bac9baf67d8c8aaf2c"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a02c926d8419e14bac9baf67d8c8aaf2c">SearchPath</a> (<a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *agent)</td></tr>
+<tr class="memdesc:a02c926d8419e14bac9baf67d8c8aaf2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The whole path to the target, handed to the crowd as the agent's corridor.  <br /></td></tr>
+<tr class="memitem:a7c445861f4b45dd685a1f3c6e5b256ce" id="r_a7c445861f4b45dd685a1f3c6e5b256ce"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a7c445861f4b45dd685a1f3c6e5b256ce">RequestTarget</a> (<a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *agent)</td></tr>
+<tr class="memdesc:a7c445861f4b45dd685a1f3c6e5b256ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts the target on the surface closest to it, and searches its path now, or with the next update when this one has searched enough.  <br /></td></tr>
+<tr class="memitem:a35b23e1ceefbef2f21b64a3582d1846c" id="r_a35b23e1ceefbef2f21b64a3582d1846c"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a35b23e1ceefbef2f21b64a3582d1846c">FollowEntity</a> (<a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *agent, const NavAgent &amp;component)</td></tr>
+<tr class="memdesc:a35b23e1ceefbef2f21b64a3582d1846c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The crowd follows the entity, which may have been moved by physics or the editor.  <br /></td></tr>
+<tr class="memitem:a9c7c60f1594c0f9231bd1fd9d946685d" id="r_a9c7c60f1594c0f9231bd1fd9d946685d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a9c7c60f1594c0f9231bd1fd9d946685d">StopAgent</a> (<a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *agent, <a class="el" href="#a77c33c592206f17aad133ccf8a0300cf">MoveState</a> state)</td></tr>
+<tr class="memitem:a998d26df4de54c2679c01aaf90f2c55d" id="r_a998d26df4de54c2679c01aaf90f2c55d"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a998d26df4de54c2679c01aaf90f2c55d">CheckArrival</a> (<a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *agent, const NavAgent &amp;component)</td></tr>
+<tr class="memitem:a8b051656159bf3f67676ec4b8517efe8" id="r_a8b051656159bf3f67676ec4b8517efe8"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#a8b051656159bf3f67676ec4b8517efe8">TurnTowards</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, const float *velocity, float turnSpeed, float dt)</td></tr>
+<tr class="memdesc:a8b051656159bf3f67676ec4b8517efe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns the +z axis of the entity towards where it walks, around the up axis.  <br /></td></tr>
+<tr class="memitem:ac4363b553956e9df7eaaebf051798cc2" id="r_ac4363b553956e9df7eaaebf051798cc2"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ac4363b553956e9df7eaaebf051798cc2">OnNavMeshReloaded</a> (Resources::ResourceId id)</td></tr>
+<tr class="memdesc:ac4363b553956e9df7eaaebf051798cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A reloaded navmesh is checked by the next update, this makes sure a navmesh which is reloaded at the address of the old one isn't missed.  <br /></td></tr>
+<tr class="memitem:aa731fb98349679c2902c24b30c6571eb" id="r_aa731fb98349679c2902c24b30c6571eb"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#aa731fb98349679c2902c24b30c6571eb">SetMoveTarget</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity, const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;target)</td></tr>
+<tr class="memdesc:aa731fb98349679c2902c24b30c6571eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">walk to a target. Returns false if the entity has no NavAgent  <br /></td></tr>
+<tr class="memitem:a2bbb78ccb263903e8673f7747cd49b82" id="r_a2bbb78ccb263903e8673f7747cd49b82"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a2bbb78ccb263903e8673f7747cd49b82">StopMoving</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:a2bbb78ccb263903e8673f7747cd49b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">stop where the agent is  <br /></td></tr>
+<tr class="memitem:ae81fd9a5936d25b96dec8818b6fc59e9" id="r_ae81fd9a5936d25b96dec8818b6fc59e9"><td class="memItemLeft"><a class="el" href="#a77c33c592206f17aad133ccf8a0300cf">MoveState</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae81fd9a5936d25b96dec8818b6fc59e9">GetMoveState</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:ae81fd9a5936d25b96dec8818b6fc59e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">what the agent is doing, Idle if the entity has no NavAgent  <br /></td></tr>
+<tr class="memitem:a3595b2962787707290bf4fa0b748b990" id="r_a3595b2962787707290bf4fa0b748b990"><td class="memItemLeft"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>&#160;</td><td class="memItemRight"><a class="el" href="#a3595b2962787707290bf4fa0b748b990">GetAgentVelocity</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:a3595b2962787707290bf4fa0b748b990"><td class="mdescLeft">&#160;</td><td class="mdescRight">the velocity the crowd moves the agent with, zero if it isn't moving  <br /></td></tr>
+<tr class="memitem:a4d54dfe5f7f8c70293ea1711dff22826" id="r_a4d54dfe5f7f8c70293ea1711dff22826"><td class="memItemLeft"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_math_1_1point.html">Math::point</a> &gt;&#160;</td><td class="memItemRight"><a class="el" href="#a4d54dfe5f7f8c70293ea1711dff22826">GetAgentCorners</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:a4d54dfe5f7f8c70293ea1711dff22826"><td class="mdescLeft">&#160;</td><td class="mdescRight">the corners of the path ahead of the agent, the next few the crowd steers by  <br /></td></tr>
+<tr class="memitem:a24d3d74badb240993844f0b3e365877f" id="r_a24d3d74badb240993844f0b3e365877f"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a24d3d74badb240993844f0b3e365877f">DrawAgents</a> ()</td></tr>
+<tr class="memdesc:a24d3d74badb240993844f0b3e365877f"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw the agents, their targets and the corners ahead of them  <br /></td></tr>
 <tr class="memitem:a8918b28b7082f18d1fa9fa30ff7baebf" id="r_a8918b28b7082f18d1fa9fa30ff7baebf"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a8918b28b7082f18d1fa9fa30ff7baebf">__ImplementClass</a> (<a class="el" href="class_navigation_feature_1_1_navigation_manager.html">NavigationFeature::NavigationManager</a>, 'NvMa', <a class="el" href="class_game_1_1_manager.html">Game::Manager</a>)</td></tr>
 <tr class="memitem:a7dfbde5437ebb2b0b87a96551b7427cc" id="r_a7dfbde5437ebb2b0b87a96551b7427cc"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a7dfbde5437ebb2b0b87a96551b7427cc">__ImplementSingleton</a> (<a class="el" href="class_navigation_feature_1_1_navigation_manager.html">NavigationManager</a>) <a class="el" href="class_navigation_feature_1_1_navigation_manager.html">NavigationManager</a></td></tr>
+<tr class="memitem:afd8a5ce07768e85a4990217553c70990" id="r_afd8a5ce07768e85a4990217553c70990"><td class="memItemLeft">static <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a>&#160;</td><td class="memItemRight"><a class="el" href="#afd8a5ce07768e85a4990217553c70990">FindActive</a> (const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &gt; &amp;navMeshes, <a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memitem:ace91624713016b865866e302eb9d3bd9" id="r_ace91624713016b865866e302eb9d3bd9"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ace91624713016b865866e302eb9d3bd9">ReleaseNavMesh</a> (<a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &amp;navMesh)</td></tr>
+<tr class="memitem:ae499a97888a55365d7f00d03792dec00" id="r_ae499a97888a55365d7f00d03792dec00"><td class="memItemLeft">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ae499a97888a55365d7f00d03792dec00">GetActiveNavMeshes</a> ()</td></tr>
+<tr class="memdesc:ae499a97888a55365d7f00d03792dec00"><td class="mdescLeft">&#160;</td><td class="mdescRight">the navmeshes NavMesh components have loaded, including ones which failed to load  <br /></td></tr>
+<tr class="memitem:a379054ee55742902d3699ef756c5f854" id="r_a379054ee55742902d3699ef756c5f854"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a379054ee55742902d3699ef756c5f854">IsNavMeshLoaded</a> (const <a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &amp;navMesh)</td></tr>
+<tr class="memdesc:a379054ee55742902d3699ef756c5f854"><td class="mdescLeft">&#160;</td><td class="mdescRight">true if the navmesh is loaded, a failed load has no Detour navmesh  <br /></td></tr>
+<tr class="memitem:aee25424acf6872f6c6022324b25c32f7" id="r_aee25424acf6872f6c6022324b25c32f7"><td class="memItemLeft"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a>&#160;</td><td class="memItemRight"><a class="el" href="#aee25424acf6872f6c6022324b25c32f7">FindNavMesh</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;agentKind)</td></tr>
+<tr class="memdesc:aee25424acf6872f6c6022324b25c32f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">the first loaded navmesh in the world baked for an agent kind, invalid if there is none  <br /></td></tr>
+<tr class="memitem:a925049329b6dcc8213f17ba00dd5765f" id="r_a925049329b6dcc8213f17ba00dd5765f"><td class="memItemLeft"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a>&#160;</td><td class="memItemRight"><a class="el" href="#a925049329b6dcc8213f17ba00dd5765f">GetNavMesh</a> (<a class="el" href="class_game_1_1_world.html">Game::World</a> *world, <a class="el" href="struct_game_1_1_entity.html">Game::Entity</a> entity)</td></tr>
+<tr class="memdesc:a925049329b6dcc8213f17ba00dd5765f"><td class="mdescLeft">&#160;</td><td class="mdescRight">the navmesh an entity with a NavMesh component has loaded, invalid if it has none or it failed to load  <br /></td></tr>
 <tr class="memitem:a81d9823cfbb1d428aed3f42cad0905e5" id="r_a81d9823cfbb1d428aed3f42cad0905e5"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a81d9823cfbb1d428aed3f42cad0905e5">__ImplementClass</a> (<a class="el" href="class_navigation_feature_1_1_navigation_feature_unit.html">NavigationFeature::NavigationFeatureUnit</a>, 'NAFU', <a class="el" href="class_game_1_1_feature_unit.html">Game::FeatureUnit</a>)</td></tr>
 <tr class="memitem:a422b0336330467234fe7706c51c0b2c1" id="r_a422b0336330467234fe7706c51c0b2c1"><td class="memItemLeft">&#160;</td><td class="memItemRight"><a class="el" href="#a422b0336330467234fe7706c51c0b2c1">__ImplementSingleton</a> (<a class="el" href="class_navigation_feature_1_1_navigation_feature_unit.html">NavigationFeatureUnit</a>)</td></tr>
+<tr class="memitem:abc8a8092e829c0c32facd6ad4f5f8476" id="r_abc8a8092e829c0c32facd6ad4f5f8476"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#abc8a8092e829c0c32facd6ad4f5f8476">DrawLoadedNavMeshes</a> ()</td></tr>
+<tr class="memitem:af0740323ecc2c8e84bfb43b87e844464" id="r_af0740323ecc2c8e84bfb43b87e844464"><td class="memItemLeft"><a class="el" href="class_navigation_1_1_stream_nav_mesh_cache.html">Navigation::StreamNavMeshCache</a> *&#160;</td><td class="memItemRight"><a class="el" href="#af0740323ecc2c8e84bfb43b87e844464">GetNavMeshCache</a> ()</td></tr>
+<tr class="memdesc:af0740323ecc2c8e84bfb43b87e844464"><td class="mdescLeft">&#160;</td><td class="mdescRight">the loader of the baked navmeshes, null before the feature is activated  <br /></td></tr>
+<tr class="memitem:ab4fe1f63f0b06e4eeb638002533bde82" id="r_ab4fe1f63f0b06e4eeb638002533bde82"><td class="memItemLeft">const <a class="el" href="class_navigation_1_1_build_1_1_area_table.html">Navigation::Build::AreaTable</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#ab4fe1f63f0b06e4eeb638002533bde82">GetAreaTable</a> ()</td></tr>
+<tr class="memdesc:ab4fe1f63f0b06e4eeb638002533bde82"><td class="mdescLeft">&#160;</td><td class="mdescRight">the area table of the project, loaded when the feature is activated  <br /></td></tr>
+<tr class="memitem:a681245f71b8fdd574ff07e386c2f0b12" id="r_a681245f71b8fdd574ff07e386c2f0b12"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a681245f71b8fdd574ff07e386c2f0b12">ReloadAreaTable</a> ()</td></tr>
+<tr class="memdesc:a681245f71b8fdd574ff07e386c2f0b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">load the compiled area table again  <br /></td></tr>
+<tr class="memitem:a726fcf3c49d2151408e807819b20b3d7" id="r_a726fcf3c49d2151408e807819b20b3d7"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a726fcf3c49d2151408e807819b20b3d7">RaycastNavMeshes</a> (const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;start, const <a class="el" href="struct_math_1_1vector.html">Math::vector</a> &amp;dir, float &amp;outT)</td></tr>
+<tr class="memdesc:a726fcf3c49d2151408e807819b20b3d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">intersect a ray with the surface of every loaded navmesh, t is in units of dir. Returns false if it misses all  <br /></td></tr>
 <tr class="memitem:acf8db598e8ae9eb2eefb70e3413a6393" id="r_acf8db598e8ae9eb2eefb70e3413a6393"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#acf8db598e8ae9eb2eefb70e3413a6393">RenderUI</a> (<a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> camera)</td></tr>
 <tr class="memdesc:acf8db598e8ae9eb2eefb70e3413a6393"><td class="mdescLeft">&#160;</td><td class="mdescRight">render editor ui  <br /></td></tr>
+<tr class="memitem:ade72d3c1f68790d7f507f6b20a06d580" id="r_ade72d3c1f68790d7f507f6b20a06d580"><td class="memItemLeft"><a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a>&#160;</td><td class="memItemRight"><a class="el" href="#ade72d3c1f68790d7f507f6b20a06d580">DefaultQueryFilter</a> ()</td></tr>
+<tr class="memdesc:ade72d3c1f68790d7f507f6b20a06d580"><td class="mdescLeft">&#160;</td><td class="mdescRight">a filter with the area costs of the area table, every flag included  <br /></td></tr>
+<tr class="memitem:a00b1317e23ff5c9b51343e9a40e774aa" id="r_a00b1317e23ff5c9b51343e9a40e774aa"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a00b1317e23ff5c9b51343e9a40e774aa">SetAreaCost</a> (<a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> &amp;filter, const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;area, float cost)</td></tr>
+<tr class="memdesc:a00b1317e23ff5c9b51343e9a40e774aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">set the cost of an area by name, false if the area table has no such area  <br /></td></tr>
+<tr class="memitem:afb91b956e4e65232c87480935181d98e" id="r_afb91b956e4e65232c87480935181d98e"><td class="memItemLeft">static dtQueryFilter&#160;</td><td class="memItemRight"><a class="el" href="#afb91b956e4e65232c87480935181d98e">ToDetour</a> (const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *filter)</td></tr>
+<tr class="memitem:a43472f453c1c4e4775c13bf33ea65635" id="r_a43472f453c1c4e4775c13bf33ea65635"><td class="memItemLeft">static dtNavMeshQuery *&#160;</td><td class="memItemRight"><a class="el" href="#a43472f453c1c4e4775c13bf33ea65635">GetQuery</a> (<a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> navMesh)</td></tr>
+<tr class="memitem:ace71bce67626ca041995a6796980c35b" id="r_ace71bce67626ca041995a6796980c35b"><td class="memItemLeft">static <a class="el" href="struct_math_1_1point.html">Math::point</a>&#160;</td><td class="memItemRight"><a class="el" href="#ace71bce67626ca041995a6796980c35b">ToPoint</a> (const float *v)</td></tr>
+<tr class="memitem:a477142ccde3faac794d9aa4b7f055106" id="r_a477142ccde3faac794d9aa4b7f055106"><td class="memItemLeft"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a>&#160;</td><td class="memItemRight"><a class="el" href="#a477142ccde3faac794d9aa4b7f055106">SearchExtents</a> (<a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> navMesh)</td></tr>
+<tr class="memdesc:a477142ccde3faac794d9aa4b7f055106"><td class="mdescLeft">&#160;</td><td class="mdescRight">half the size of the box points are looked for in, from the agent kind of the navmesh  <br /></td></tr>
+<tr class="memitem:ada74d24199f8ad6acac74258237695f1" id="r_ada74d24199f8ad6acac74258237695f1"><td class="memItemLeft">static bool&#160;</td><td class="memItemRight"><a class="el" href="#ada74d24199f8ad6acac74258237695f1">NearestPoly</a> (dtNavMeshQuery *query, const dtQueryFilter &amp;filter, const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;position, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;extents, dtPolyRef &amp;ref, float *nearest)</td></tr>
+<tr class="memitem:a07a1314cbf3de9ba3095dd0a179c0de8" id="r_a07a1314cbf3de9ba3095dd0a179c0de8"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a07a1314cbf3de9ba3095dd0a179c0de8">FindNearestPoint</a> (<a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> navMesh, const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;position, const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;extents, <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;outPoint, const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *filter=nullptr)</td></tr>
+<tr class="memdesc:a07a1314cbf3de9ba3095dd0a179c0de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">the point on the surface closest to a position, within the extents around it. Returns false if there is none  <br /></td></tr>
+<tr class="memitem:aa436efed2932ce646fa0bbef3969910a" id="r_aa436efed2932ce646fa0bbef3969910a"><td class="memItemLeft"><a class="el" href="struct_navigation_feature_1_1_nav_path.html">NavPath</a>&#160;</td><td class="memItemRight"><a class="el" href="#aa436efed2932ce646fa0bbef3969910a">FindPath</a> (<a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> navMesh, const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;start, const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;end, const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *filter=nullptr)</td></tr>
+<tr class="memdesc:aa436efed2932ce646fa0bbef3969910a"><td class="mdescLeft">&#160;</td><td class="mdescRight">a path between two positions, which are moved to the closest surface within the search extents first  <br /></td></tr>
+<tr class="memitem:a4ffb4c39f93f8b50b678941e8e6d06e6" id="r_a4ffb4c39f93f8b50b678941e8e6d06e6"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4ffb4c39f93f8b50b678941e8e6d06e6">Raycast</a> (<a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> navMesh, const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;start, const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;end, <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;outHit, const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *filter=nullptr)</td></tr>
+<tr class="memdesc:a4ffb4c39f93f8b50b678941e8e6d06e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">walk along the surface from start towards end. Returns true and the point where it is blocked if an edge of the navmesh is in the way  <br /></td></tr>
+<tr class="memitem:a7bfd1a33ba563c1a40b92bb119459bbb" id="r_a7bfd1a33ba563c1a40b92bb119459bbb"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#a7bfd1a33ba563c1a40b92bb119459bbb">RandomUnit</a> ()</td></tr>
+<tr class="memitem:a2c514872100672ba59a804fb64c77024" id="r_a2c514872100672ba59a804fb64c77024"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a2c514872100672ba59a804fb64c77024">RandomPoint</a> (<a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> navMesh, <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;outPoint, const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *filter=nullptr)</td></tr>
+<tr class="memdesc:a2c514872100672ba59a804fb64c77024"><td class="mdescLeft">&#160;</td><td class="mdescRight">a random point on the surface, every area of surface is as likely. Returns false if the navmesh has none the filter lets through  <br /></td></tr>
+<tr class="memitem:a312b3813e6b250cd3075be33cce51b59" id="r_a312b3813e6b250cd3075be33cce51b59"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a312b3813e6b250cd3075be33cce51b59">RandomPointAround</a> (<a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> navMesh, const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;center, float radius, <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;outPoint, const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *filter=nullptr)</td></tr>
+<tr class="memdesc:a312b3813e6b250cd3075be33cce51b59"><td class="mdescLeft">&#160;</td><td class="mdescRight">a random point on the surface which is connected to the center, on a polygon the circle touches, so it may be up to a polygon outside the radius. Returns false if there is none  <br /></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-var-members" class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aa39092114efd5235d92939dc0e4df7ae" id="r_aa39092114efd5235d92939dc0e4df7ae"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#aa39092114efd5235d92939dc0e4df7ae">MaxSearchesPerUpdate</a> = 16</td></tr>
+<tr class="memdesc:aa39092114efd5235d92939dc0e4df7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">how many paths are searched per update.  <br /></td></tr>
+<tr class="memitem:a90e36c80cb1ce78fba9ce00a15ae33a9" id="r_a90e36c80cb1ce78fba9ce00a15ae33a9"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a90e36c80cb1ce78fba9ce00a15ae33a9">MaxCorridorPolys</a> = 256</td></tr>
+<tr class="memdesc:a90e36c80cb1ce78fba9ce00a15ae33a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">the longest corridor of a Detour crowd, a longer path is planned further as the agent nears its end  <br /></td></tr>
+<tr class="memitem:a0847332ae2e8e6086ba91e6038fde803" id="r_a0847332ae2e8e6086ba91e6038fde803"><td class="memItemLeft">static int&#160;</td><td class="memItemRight"><a class="el" href="#a0847332ae2e8e6086ba91e6038fde803">searchesLeft</a> = <a class="el" href="#aa39092114efd5235d92939dc0e4df7ae">MaxSearchesPerUpdate</a></td></tr>
+<tr class="memdesc:a0847332ae2e8e6086ba91e6038fde803"><td class="mdescLeft">&#160;</td><td class="mdescRight">the searches the current update has left, a target set between updates uses them up too  <br /></td></tr>
+<tr class="memitem:a669d38745d5b20f82abb7a0de1d8f88c" id="r_a669d38745d5b20f82abb7a0de1d8f88c"><td class="memItemLeft">static uint64_t&#160;</td><td class="memItemRight"><a class="el" href="#a669d38745d5b20f82abb7a0de1d8f88c">requestCounter</a> = 0</td></tr>
+<tr class="memdesc:a669d38745d5b20f82abb7a0de1d8f88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">hands out the order targets were set in, so the searches which wait are done oldest first  <br /></td></tr>
+<tr class="memitem:aece260af29dc9c8ab9b5f35db3d205ab" id="r_aece260af29dc9c8ab9b5f35db3d205ab"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#aece260af29dc9c8ab9b5f35db3d205ab">MaxPathPolys</a> = 512</td></tr>
+<tr class="memitem:a7abce7977636b6103e75c4bdc4d39174" id="r_a7abce7977636b6103e75c4bdc4d39174"><td class="memItemLeft">static constexpr int&#160;</td><td class="memItemRight"><a class="el" href="#a7abce7977636b6103e75c4bdc4d39174">MaxPathPoints</a> = 512</td></tr>
 </table>
+<a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
+<a id="a77c33c592206f17aad133ccf8a0300cf" name="a77c33c592206f17aad133ccf8a0300cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c33c592206f17aad133ccf8a0300cf">&#9670;&#160;</a></span>MoveState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a77c33c592206f17aad133ccf8a0300cf">NavigationFeature::MoveState</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a77c33c592206f17aad133ccf8a0300cfae599161956d626eda4cb0a5ffb85271c" name="a77c33c592206f17aad133ccf8a0300cfae599161956d626eda4cb0a5ffb85271c"></a>Idle&#160;</td><td class="fielddoc"><p>no target </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a77c33c592206f17aad133ccf8a0300cfadefe967ad0373b2274fc298f19125ca7" name="a77c33c592206f17aad133ccf8a0300cfadefe967ad0373b2274fc298f19125ca7"></a>Moving&#160;</td><td class="fielddoc"><p>walking to the target </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a77c33c592206f17aad133ccf8a0300cfa168d3e51452f6d8988f75ed882e74eb6" name="a77c33c592206f17aad133ccf8a0300cfa168d3e51452f6d8988f75ed882e74eb6"></a>Arrived&#160;</td><td class="fielddoc"><p>at the target </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a77c33c592206f17aad133ccf8a0300cfa4bed942140642650ca78039de000796a" name="a77c33c592206f17aad133ccf8a0300cfa4bed942140642650ca78039de000796a"></a>Unreachable&#160;</td><td class="fielddoc"><p>the target can't be reached, the agent stopped at the closest point it can reach </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a77c33c592206f17aad133ccf8a0300cfad7c8c85bf79bbe1b7188497c32c3b0ca" name="a77c33c592206f17aad133ccf8a0300cfad7c8c85bf79bbe1b7188497c32c3b0ca"></a>Failed&#160;</td><td class="fielddoc"><p>there is no navmesh near the target, or the agent isn't on its navmesh </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a77c33c592206f17aad133ccf8a0300cfa642c8178d01f7f8c64c2256400e56433" name="a77c33c592206f17aad133ccf8a0300cfa642c8178d01f7f8c64c2256400e56433"></a>NoNavMesh&#160;</td><td class="fielddoc"><p>there is a target, but no navmesh is loaded for the agent kind yet </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a432cb248fc1fda57e8ca38755651161c" name="a432cb248fc1fda57e8ca38755651161c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a432cb248fc1fda57e8ca38755651161c">&#9670;&#160;</a></span>PathStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="#a432cb248fc1fda57e8ca38755651161c">NavigationFeature::PathStatus</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel strong">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a432cb248fc1fda57e8ca38755651161ca5d695cc28c6a7ea955162fbdd0ae42b9" name="a432cb248fc1fda57e8ca38755651161ca5d695cc28c6a7ea955162fbdd0ae42b9"></a>Found&#160;</td><td class="fielddoc"><p>the path reaches the end </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a432cb248fc1fda57e8ca38755651161ca44ffd38a6dea695cbe2b34efdcc6cf27" name="a432cb248fc1fda57e8ca38755651161ca44ffd38a6dea695cbe2b34efdcc6cf27"></a>Partial&#160;</td><td class="fielddoc"><p>the end can't be reached, the path ends at the point closest to it </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a432cb248fc1fda57e8ca38755651161caf5cea8e63c8b2bb41ee7e25ee91a7dd2" name="a432cb248fc1fda57e8ca38755651161caf5cea8e63c8b2bb41ee7e25ee91a7dd2"></a>NoStart&#160;</td><td class="fielddoc"><p>there is no navmesh surface near the start </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a432cb248fc1fda57e8ca38755651161caac1cd8612879e6b8d26657e73ebcb80c" name="a432cb248fc1fda57e8ca38755651161caac1cd8612879e6b8d26657e73ebcb80c"></a>NoEnd&#160;</td><td class="fielddoc"><p>there is no navmesh surface near the end </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a432cb248fc1fda57e8ca38755651161cad7c8c85bf79bbe1b7188497c32c3b0ca" name="a432cb248fc1fda57e8ca38755651161cad7c8c85bf79bbe1b7188497c32c3b0ca"></a>Failed&#160;</td><td class="fielddoc"><p>the navmesh isn't loaded, or the search failed </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Function Documentation</h2>
+<a id="ac3088a290b422b1b9be758a865b771cf" name="ac3088a290b422b1b9be758a865b771cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3088a290b422b1b9be758a865b771cf">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NavigationFeature::__ImplementClass </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_navigation_feature_1_1_agent_manager.html">NavigationFeature::AgentManager</a></td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">'NvAg'</td>          <td class="paramname"><span class="paramname"><em></em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_manager.html">Game::Manager</a></td>          <td class="paramname"><span class="paramname"><em></em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a81d9823cfbb1d428aed3f42cad0905e5" name="a81d9823cfbb1d428aed3f42cad0905e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81d9823cfbb1d428aed3f42cad0905e5">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d9823cfbb1d428aed3f42cad0905e5">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,7 +378,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a8918b28b7082f18d1fa9fa30ff7baebf" name="a8918b28b7082f18d1fa9fa30ff7baebf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8918b28b7082f18d1fa9fa30ff7baebf">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8918b28b7082f18d1fa9fa30ff7baebf">&#9670;&#160;</a></span>__ImplementClass() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,8 +403,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a2e2da77346e83fae25b6f6f5bdbb0a1d" name="a2e2da77346e83fae25b6f6f5bdbb0a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e2da77346e83fae25b6f6f5bdbb0a1d">&#9670;&#160;</a></span>__ImplementSingleton() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NavigationFeature::__ImplementSingleton </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_navigation_feature_1_1_agent_manager.html">AgentManager</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the fewest agents a crowd is made for. </p>
+<p>A Detour crowd can't grow, it is made again with room for every agent of its kind when one doesn't fit </p>
+
+</div>
+</div>
 <a id="a422b0336330467234fe7706c51c0b2c1" name="a422b0336330467234fe7706c51c0b2c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a422b0336330467234fe7706c51c0b2c1">&#9670;&#160;</a></span>__ImplementSingleton() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a422b0336330467234fe7706c51c0b2c1">&#9670;&#160;</a></span>__ImplementSingleton() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -199,7 +441,7 @@ Functions</h2></td></tr>
 </div>
 </div>
 <a id="a7dfbde5437ebb2b0b87a96551b7427cc" name="a7dfbde5437ebb2b0b87a96551b7427cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dfbde5437ebb2b0b87a96551b7427cc">&#9670;&#160;</a></span>__ImplementSingleton() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dfbde5437ebb2b0b87a96551b7427cc">&#9670;&#160;</a></span>__ImplementSingleton() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,6 +454,893 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a998d26df4de54c2679c01aaf90f2c55d" name="a998d26df4de54c2679c01aaf90f2c55d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a998d26df4de54c2679c01aaf90f2c55d">&#9670;&#160;</a></span>CheckArrival()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::CheckArrival </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *</td>          <td class="paramname"><span class="paramname"><em>agent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const NavAgent &amp;</td>          <td class="paramname"><span class="paramname"><em>component</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4547516161422b358f9c4af47260dbe" name="ab4547516161422b358f9c4af47260dbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4547516161422b358f9c4af47260dbe">&#9670;&#160;</a></span>CrowdIsCurrent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::CrowdIsCurrent </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_crowd_record.html">AgentManager::CrowdRecord</a> *</td>          <td class="paramname"><span class="paramname"><em>crowd</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A crowd is stale when its navmesh was unloaded or reloaded, the crowd points into the old one. </p>
+
+</div>
+</div>
+<a id="ade72d3c1f68790d7f507f6b20a06d580" name="ade72d3c1f68790d7f507f6b20a06d580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade72d3c1f68790d7f507f6b20a06d580">&#9670;&#160;</a></span>DefaultQueryFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> NavigationFeature::DefaultQueryFilter </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a filter with the area costs of the area table, every flag included </p>
+
+</div>
+</div>
+<a id="a24d3d74badb240993844f0b3e365877f" name="a24d3d74badb240993844f0b3e365877f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24d3d74badb240993844f0b3e365877f">&#9670;&#160;</a></span>DrawAgents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::DrawAgents </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>draw the agents, their targets and the corners ahead of them </p>
+
+</div>
+</div>
+<a id="abc8a8092e829c0c32facd6ad4f5f8476" name="abc8a8092e829c0c32facd6ad4f5f8476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc8a8092e829c0c32facd6ad4f5f8476">&#9670;&#160;</a></span>DrawLoadedNavMeshes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::DrawLoadedNavMeshes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd8a5ce07768e85a4990217553c70990" name="afd8a5ce07768e85a4990217553c70990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8a5ce07768e85a4990217553c70990">&#9670;&#160;</a></span>FindActive()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> NavigationFeature::FindActive </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>navMeshes</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6566cceba2034d356488576e97fdcda" name="ae6566cceba2034d356488576e97fdcda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6566cceba2034d356488576e97fdcda">&#9670;&#160;</a></span>FindAgent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> * NavigationFeature::FindAgent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aee25424acf6872f6c6022324b25c32f7" name="aee25424acf6872f6c6022324b25c32f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee25424acf6872f6c6022324b25c32f7">&#9670;&#160;</a></span>FindNavMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> NavigationFeature::FindNavMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string_atom.html">Util::StringAtom</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>agentKind</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the first loaded navmesh in the world baked for an agent kind, invalid if there is none </p>
+
+</div>
+</div>
+<a id="a07a1314cbf3de9ba3095dd0a179c0de8" name="a07a1314cbf3de9ba3095dd0a179c0de8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07a1314cbf3de9ba3095dd0a179c0de8">&#9670;&#160;</a></span>FindNearestPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::FindNearestPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a></td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>extents</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the point on the surface closest to a position, within the extents around it. Returns false if there is none </p>
+
+</div>
+</div>
+<a id="aa436efed2932ce646fa0bbef3969910a" name="aa436efed2932ce646fa0bbef3969910a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa436efed2932ce646fa0bbef3969910a">&#9670;&#160;</a></span>FindPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_navigation_feature_1_1_nav_path.html">NavPath</a> NavigationFeature::FindPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a></td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a path between two positions, which are moved to the closest surface within the search extents first </p>
+
+</div>
+</div>
+<a id="a35b23e1ceefbef2f21b64a3582d1846c" name="a35b23e1ceefbef2f21b64a3582d1846c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35b23e1ceefbef2f21b64a3582d1846c">&#9670;&#160;</a></span>FollowEntity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::FollowEntity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *</td>          <td class="paramname"><span class="paramname"><em>agent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const NavAgent &amp;</td>          <td class="paramname"><span class="paramname"><em>component</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The crowd follows the entity, which may have been moved by physics or the editor. </p>
+
+</div>
+</div>
+<a id="a0bfd2151746f83f6310fe97ffc4ffc79" name="a0bfd2151746f83f6310fe97ffc4ffc79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bfd2151746f83f6310fe97ffc4ffc79">&#9670;&#160;</a></span>FreeCrowd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::FreeCrowd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>crowdIndex</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The agents of the crowd join again when its navmesh is back. </p>
+
+</div>
+</div>
+<a id="ae499a97888a55365d7f00d03792dec00" name="ae499a97888a55365d7f00d03792dec00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae499a97888a55365d7f00d03792dec00">&#9670;&#160;</a></span>GetActiveNavMeshes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &gt; &amp; NavigationFeature::GetActiveNavMeshes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the navmeshes NavMesh components have loaded, including ones which failed to load </p>
+
+</div>
+</div>
+<a id="a4d54dfe5f7f8c70293ea1711dff22826" name="a4d54dfe5f7f8c70293ea1711dff22826"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d54dfe5f7f8c70293ea1711dff22826">&#9670;&#160;</a></span>GetAgentCorners()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_math_1_1point.html">Math::point</a> &gt; NavigationFeature::GetAgentCorners </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the corners of the path ahead of the agent, the next few the crowd steers by </p>
+
+</div>
+</div>
+<a id="a3595b2962787707290bf4fa0b748b990" name="a3595b2962787707290bf4fa0b748b990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3595b2962787707290bf4fa0b748b990">&#9670;&#160;</a></span>GetAgentVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> NavigationFeature::GetAgentVelocity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the velocity the crowd moves the agent with, zero if it isn't moving </p>
+
+</div>
+</div>
+<a id="ab4fe1f63f0b06e4eeb638002533bde82" name="ab4fe1f63f0b06e4eeb638002533bde82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4fe1f63f0b06e4eeb638002533bde82">&#9670;&#160;</a></span>GetAreaTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="class_navigation_1_1_build_1_1_area_table.html">Navigation::Build::AreaTable</a> &amp; NavigationFeature::GetAreaTable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the area table of the project, loaded when the feature is activated </p>
+
+</div>
+</div>
+<a id="a77c5c713c9153843e926ddf20fe4e6cf" name="a77c5c713c9153843e926ddf20fe4e6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c5c713c9153843e926ddf20fe4e6cf">&#9670;&#160;</a></span>GetCrowd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_crowd_record.html">AgentManager::CrowdRecord</a> * NavigationFeature::GetCrowd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a></td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae81fd9a5936d25b96dec8818b6fc59e9" name="ae81fd9a5936d25b96dec8818b6fc59e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae81fd9a5936d25b96dec8818b6fc59e9">&#9670;&#160;</a></span>GetMoveState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a77c33c592206f17aad133ccf8a0300cf">MoveState</a> NavigationFeature::GetMoveState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>what the agent is doing, Idle if the entity has no NavAgent </p>
+
+</div>
+</div>
+<a id="a925049329b6dcc8213f17ba00dd5765f" name="a925049329b6dcc8213f17ba00dd5765f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a925049329b6dcc8213f17ba00dd5765f">&#9670;&#160;</a></span>GetNavMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a> NavigationFeature::GetNavMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the navmesh an entity with a NavMesh component has loaded, invalid if it has none or it failed to load </p>
+
+</div>
+</div>
+<a id="af0740323ecc2c8e84bfb43b87e844464" name="af0740323ecc2c8e84bfb43b87e844464"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0740323ecc2c8e84bfb43b87e844464">&#9670;&#160;</a></span>GetNavMeshCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_navigation_1_1_stream_nav_mesh_cache.html">Navigation::StreamNavMeshCache</a> * NavigationFeature::GetNavMeshCache </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>the loader of the baked navmeshes, null before the feature is activated </p>
+
+</div>
+</div>
+<a id="a43472f453c1c4e4775c13bf33ea65635" name="a43472f453c1c4e4775c13bf33ea65635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43472f453c1c4e4775c13bf33ea65635">&#9670;&#160;</a></span>GetQuery()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">dtNavMeshQuery * NavigationFeature::GetQuery </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a></td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a379054ee55742902d3699ef756c5f854" name="a379054ee55742902d3699ef756c5f854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a379054ee55742902d3699ef756c5f854">&#9670;&#160;</a></span>IsNavMeshLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::IsNavMeshLoaded </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>true if the navmesh is loaded, a failed load has no Detour navmesh </p>
+
+</div>
+</div>
+<a id="ab4497fc1689103ababba71c70f67573f" name="ab4497fc1689103ababba71c70f67573f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4497fc1689103ababba71c70f67573f">&#9670;&#160;</a></span>JoinCrowd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::JoinCrowd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *</td>          <td class="paramname"><span class="paramname"><em>agent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const NavAgent &amp;</td>          <td class="paramname"><span class="paramname"><em>component</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5fe8c8974456a5fd29499038e16933c7" name="a5fe8c8974456a5fd29499038e16933c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fe8c8974456a5fd29499038e16933c7">&#9670;&#160;</a></span>LeaveCrowd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::LeaveCrowd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *</td>          <td class="paramname"><span class="paramname"><em>agent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada74d24199f8ad6acac74258237695f1" name="ada74d24199f8ad6acac74258237695f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada74d24199f8ad6acac74258237695f1">&#9670;&#160;</a></span>NearestPoly()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::NearestPoly </td>
+          <td>(</td>
+          <td class="paramtype">dtNavMeshQuery *</td>          <td class="paramname"><span class="paramname"><em>query</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const dtQueryFilter &amp;</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>extents</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">dtPolyRef &amp;</td>          <td class="paramname"><span class="paramname"><em>ref</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float *</td>          <td class="paramname"><span class="paramname"><em>nearest</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4363b553956e9df7eaaebf051798cc2" name="ac4363b553956e9df7eaaebf051798cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4363b553956e9df7eaaebf051798cc2">&#9670;&#160;</a></span>OnNavMeshReloaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::OnNavMeshReloaded </td>
+          <td>(</td>
+          <td class="paramtype">Resources::ResourceId</td>          <td class="paramname"><span class="paramname"><em>id</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A reloaded navmesh is checked by the next update, this makes sure a navmesh which is reloaded at the address of the old one isn't missed. </p>
+
+</div>
+</div>
+<a id="a2c514872100672ba59a804fb64c77024" name="a2c514872100672ba59a804fb64c77024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c514872100672ba59a804fb64c77024">&#9670;&#160;</a></span>RandomPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::RandomPoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a></td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a random point on the surface, every area of surface is as likely. Returns false if the navmesh has none the filter lets through </p>
+
+</div>
+</div>
+<a id="a312b3813e6b250cd3075be33cce51b59" name="a312b3813e6b250cd3075be33cce51b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a312b3813e6b250cd3075be33cce51b59">&#9670;&#160;</a></span>RandomPointAround()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::RandomPointAround </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a></td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>center</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a random point on the surface which is connected to the center, on a polygon the circle touches, so it may be up to a polygon outside the radius. Returns false if there is none </p>
+
+</div>
+</div>
+<a id="a7bfd1a33ba563c1a40b92bb119459bbb" name="a7bfd1a33ba563c1a40b92bb119459bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bfd1a33ba563c1a40b92bb119459bbb">&#9670;&#160;</a></span>RandomUnit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float NavigationFeature::RandomUnit </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ffb4c39f93f8b50b678941e8e6d06e6" name="a4ffb4c39f93f8b50b678941e8e6d06e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ffb4c39f93f8b50b678941e8e6d06e6">&#9670;&#160;</a></span>Raycast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::Raycast </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a></td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>outHit</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>walk along the surface from start towards end. Returns true and the point where it is blocked if an edge of the navmesh is in the way </p>
+
+</div>
+</div>
+<a id="a726fcf3c49d2151408e807819b20b3d7" name="a726fcf3c49d2151408e807819b20b3d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a726fcf3c49d2151408e807819b20b3d7">&#9670;&#160;</a></span>RaycastNavMeshes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::RaycastNavMeshes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1vector.html">Math::vector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>dir</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;</td>          <td class="paramname"><span class="paramname"><em>outT</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>intersect a ray with the surface of every loaded navmesh, t is in units of dir. Returns false if it misses all </p>
+
+</div>
+</div>
+<a id="ace91624713016b865866e302eb9d3bd9" name="ace91624713016b865866e302eb9d3bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace91624713016b865866e302eb9d3bd9">&#9670;&#160;</a></span>ReleaseNavMesh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::ReleaseNavMesh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_active_nav_mesh.html">ActiveNavMesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a681245f71b8fdd574ff07e386c2f0b12" name="a681245f71b8fdd574ff07e386c2f0b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a681245f71b8fdd574ff07e386c2f0b12">&#9670;&#160;</a></span>ReloadAreaTable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::ReloadAreaTable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>load the compiled area table again </p>
 
 </div>
 </div>
@@ -231,6 +1360,425 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>render editor ui </p>
+
+</div>
+</div>
+<a id="a7c445861f4b45dd685a1f3c6e5b256ce" name="a7c445861f4b45dd685a1f3c6e5b256ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c445861f4b45dd685a1f3c6e5b256ce">&#9670;&#160;</a></span>RequestTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::RequestTarget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *</td>          <td class="paramname"><span class="paramname"><em>agent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Puts the target on the surface closest to it, and searches its path now, or with the next update when this one has searched enough. </p>
+
+</div>
+</div>
+<a id="a477142ccde3faac794d9aa4b7f055106" name="a477142ccde3faac794d9aa4b7f055106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a477142ccde3faac794d9aa4b7f055106">&#9670;&#160;</a></span>SearchExtents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_math_1_1vec3.html">Math::vec3</a> NavigationFeature::SearchExtents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_1_1_nav_mesh_id.html">Navigation::NavMeshId</a></td>          <td class="paramname"><span class="paramname"><em>navMesh</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>half the size of the box points are looked for in, from the agent kind of the navmesh </p>
+
+</div>
+</div>
+<a id="a02c926d8419e14bac9baf67d8c8aaf2c" name="a02c926d8419e14bac9baf67d8c8aaf2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c926d8419e14bac9baf67d8c8aaf2c">&#9670;&#160;</a></span>SearchPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::SearchPath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *</td>          <td class="paramname"><span class="paramname"><em>agent</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The whole path to the target, handed to the crowd as the agent's corridor. </p>
+
+</div>
+</div>
+<a id="a00b1317e23ff5c9b51343e9a40e774aa" name="a00b1317e23ff5c9b51343e9a40e774aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00b1317e23ff5c9b51343e9a40e774aa">&#9670;&#160;</a></span>SetAreaCost()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::SetAreaCost </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>filter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="class_util_1_1_string.html">Util::String</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>area</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>cost</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>set the cost of an area by name, false if the area table has no such area </p>
+
+</div>
+</div>
+<a id="aa731fb98349679c2902c24b30c6571eb" name="aa731fb98349679c2902c24b30c6571eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa731fb98349679c2902c24b30c6571eb">&#9670;&#160;</a></span>SetMoveTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool NavigationFeature::SetMoveTarget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="struct_math_1_1point.html">Math::point</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>target</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>walk to a target. Returns false if the entity has no NavAgent </p>
+
+</div>
+</div>
+<a id="a9c7c60f1594c0f9231bd1fd9d946685d" name="a9c7c60f1594c0f9231bd1fd9d946685d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c7c60f1594c0f9231bd1fd9d946685d">&#9670;&#160;</a></span>StopAgent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::StopAgent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_navigation_feature_1_1_agent_manager_1_1_agent_record.html">AgentManager::AgentRecord</a> *</td>          <td class="paramname"><span class="paramname"><em>agent</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="#a77c33c592206f17aad133ccf8a0300cf">MoveState</a></td>          <td class="paramname"><span class="paramname"><em>state</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bbb78ccb263903e8673f7747cd49b82" name="a2bbb78ccb263903e8673f7747cd49b82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bbb78ccb263903e8673f7747cd49b82">&#9670;&#160;</a></span>StopMoving()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::StopMoving </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>stop where the agent is </p>
+
+</div>
+</div>
+<a id="afb91b956e4e65232c87480935181d98e" name="afb91b956e4e65232c87480935181d98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb91b956e4e65232c87480935181d98e">&#9670;&#160;</a></span>ToDetour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">dtQueryFilter NavigationFeature::ToDetour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_navigation_feature_1_1_query_filter.html">QueryFilter</a> *</td>          <td class="paramname"><span class="paramname"><em>filter</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ace71bce67626ca041995a6796980c35b" name="ace71bce67626ca041995a6796980c35b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace71bce67626ca041995a6796980c35b">&#9670;&#160;</a></span>ToPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_math_1_1point.html">Math::point</a> NavigationFeature::ToPoint </td>
+          <td>(</td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>v</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b051656159bf3f67676ec4b8517efe8" name="a8b051656159bf3f67676ec4b8517efe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b051656159bf3f67676ec4b8517efe8">&#9670;&#160;</a></span>TurnTowards()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NavigationFeature::TurnTowards </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_game_1_1_world.html">Game::World</a> *</td>          <td class="paramname"><span class="paramname"><em>world</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_game_1_1_entity.html">Game::Entity</a></td>          <td class="paramname"><span class="paramname"><em>entity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>velocity</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>turnSpeed</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>dt</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Turns the +z axis of the entity towards where it walks, around the up axis. </p>
+
+</div>
+</div>
+<a name="doc-var-members" id="doc-var-members"></a><h2 id="header-doc-var-members" class="groupheader">Variable Documentation</h2>
+<a id="a90e36c80cb1ce78fba9ce00a15ae33a9" name="a90e36c80cb1ce78fba9ce00a15ae33a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90e36c80cb1ce78fba9ce00a15ae33a9">&#9670;&#160;</a></span>MaxCorridorPolys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NavigationFeature::MaxCorridorPolys = 256</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the longest corridor of a Detour crowd, a longer path is planned further as the agent nears its end </p>
+
+</div>
+</div>
+<a id="a7abce7977636b6103e75c4bdc4d39174" name="a7abce7977636b6103e75c4bdc4d39174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7abce7977636b6103e75c4bdc4d39174">&#9670;&#160;</a></span>MaxPathPoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NavigationFeature::MaxPathPoints = 512</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aece260af29dc9c8ab9b5f35db3d205ab" name="aece260af29dc9c8ab9b5f35db3d205ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aece260af29dc9c8ab9b5f35db3d205ab">&#9670;&#160;</a></span>MaxPathPolys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NavigationFeature::MaxPathPolys = 512</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa39092114efd5235d92939dc0e4df7ae" name="aa39092114efd5235d92939dc0e4df7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa39092114efd5235d92939dc0e4df7ae">&#9670;&#160;</a></span>MaxSearchesPerUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NavigationFeature::MaxSearchesPerUpdate = 16</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel constexpr">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>how many paths are searched per update. </p>
+<p>A target gets its whole path from a full search, the crowd's own queue only runs 100 search iterations per update for all of its agents, which many agents with far away targets wait on for seconds. The searches left wait for the next update, the oldest first </p>
+
+</div>
+</div>
+<a id="a669d38745d5b20f82abb7a0de1d8f88c" name="a669d38745d5b20f82abb7a0de1d8f88c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a669d38745d5b20f82abb7a0de1d8f88c">&#9670;&#160;</a></span>requestCounter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint64_t NavigationFeature::requestCounter = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>hands out the order targets were set in, so the searches which wait are done oldest first </p>
+
+</div>
+</div>
+<a id="a0847332ae2e8e6086ba91e6038fde803" name="a0847332ae2e8e6086ba91e6038fde803"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0847332ae2e8e6086ba91e6038fde803">&#9670;&#160;</a></span>searchesLeft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NavigationFeature::searchesLeft = <a class="el" href="#aa39092114efd5235d92939dc0e4df7ae">MaxSearchesPerUpdate</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>the searches the current update has left, a target set between updates uses them up too </p>
 
 </div>
 </div>

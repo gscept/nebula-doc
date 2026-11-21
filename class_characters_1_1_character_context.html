@@ -192,6 +192,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a8a5e62d313d4244340482feedf298ca8"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the clip playing on a track is paused  <br /></td></tr>
 <tr class="memitem:a79054a7954a33f12dc54e4509fd4da30" id="r_a79054a7954a33f12dc54e4509fd4da30"><td class="memItemLeft">static <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a>&#160;</td><td class="memItemRight"><a class="el" href="#a79054a7954a33f12dc54e4509fd4da30">GetTrackTime</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track)</td></tr>
 <tr class="memdesc:a79054a7954a33f12dc54e4509fd4da30"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the time in the clip playing on a track in seconds, within its duration for looped clips, 0 if none is playing  <br /></td></tr>
+<tr class="memitem:a9a7ffd33e6e07dd70a244fe97ca696f7" id="r_a9a7ffd33e6e07dd70a244fe97ca696f7"><td class="memItemLeft">static float&#160;</td><td class="memItemRight"><a class="el" href="#a9a7ffd33e6e07dd70a244fe97ca696f7">GetTrackFadeWeight</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track)</td></tr>
+<tr class="memdesc:a9a7ffd33e6e07dd70a244fe97ca696f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">get how far the clip playing on a track is faded in, or out as it ends or stops, from 0 to 1 as of the last update, 0 if none is playing  <br /></td></tr>
 <tr class="memitem:ad1f685245461ce794ff7bfea8589a889" id="r_ad1f685245461ce794ff7bfea8589a889"><td class="memItemLeft">static void&#160;</td><td class="memItemRight"><a class="el" href="#ad1f685245461ce794ff7bfea8589a889">SeekTrack</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id, const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a> track, const <a class="el" href="namespace_timing.html#a8ad3705944b3f8824d642c4424ab3999">Timing::Time</a> time)</td></tr>
 <tr class="memdesc:ad1f685245461ce794ff7bfea8589a889"><td class="mdescLeft">&#160;</td><td class="mdescRight">move the clip playing on a track to a time in it in seconds, it plays on from there, a paused one shows the pose at that time.  <br /></td></tr>
 <tr class="memitem:a9c8dda940d8661641b1c5f3ecb943ae0" id="r_a9c8dda940d8661641b1c5f3ecb943ae0"><td class="memItemLeft">static const <a class="el" href="class_util_1_1_array.html">Util::Array</a>&lt; <a class="el" href="struct_characters_1_1_character_context_1_1_fired_event.html">FiredEvent</a> &gt; &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a9c8dda940d8661641b1c5f3ecb943ae0">GetFiredEvents</a> (const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a> id)</td></tr>
@@ -837,6 +839,39 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>get current time of animation </p>
+
+</div>
+</div>
+<a id="a9a7ffd33e6e07dd70a244fe97ca696f7" name="a9a7ffd33e6e07dd70a244fe97ca696f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a7ffd33e6e07dd70a244fe97ca696f7">&#9670;&#160;</a></span>GetTrackFadeWeight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float Characters::CharacterContext::GetTrackFadeWeight </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="struct_graphics_1_1_graphics_entity_id.html">Graphics::GraphicsEntityId</a></td>          <td class="paramname"><span class="paramname"><em>id</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#ad119735112d40fd29a3017de944ccc98">IndexT</a></td>          <td class="paramname"><span class="paramname"><em>track</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>get how far the clip playing on a track is faded in, or out as it ends or stops, from 0 to 1 as of the last update, 0 if none is playing </p>
+<p>The weight the clip was mixed with in the last update, without the track's weight.</p>
+<p>A clip that hasn't started yet is at the start of its fade in </p>
 
 </div>
 </div>

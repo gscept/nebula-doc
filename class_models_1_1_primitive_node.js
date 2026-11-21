@@ -5,6 +5,7 @@ var class_models_1_1_primitive_node =
     [ "~PrimitiveNode", "class_models_1_1_primitive_node.html#a68c715e695c3b0b954cefb4b2cdf836b", null ],
     [ "GetMesh", "class_models_1_1_primitive_node.html#a9a83bbb380e470691954049f05e50dca", null ],
     [ "GetMeshIndex", "class_models_1_1_primitive_node.html#af268edefab8004990acf9de14f336e04", null ],
+    [ "GetMeshPath", "class_models_1_1_primitive_node.html#a6a341564c798a6f5edc6a3f1d5b85266", null ],
     [ "GetMeshResource", "class_models_1_1_primitive_node.html#ab5e094b109c68d94aad88c036859c66d", null ],
     [ "GetPrimitiveGroup", "class_models_1_1_primitive_node.html#a27738adf690ab7d3fe608e8f27b6afbd", null ],
     [ "GetPrimitiveGroupIndex", "class_models_1_1_primitive_node.html#a4f4acbc7ef3463e882678be3e5f4c06f", null ],

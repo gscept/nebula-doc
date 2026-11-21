@@ -28,7 +28,8 @@ var searchData=
   ['lockfreequeue_25',['LockFreeQueue',['../class_threading_1_1_lock_free_queue.html',1,'Threading']]],
   ['lockfreequeue_3c_20fibers_3a_3afiberqueue_3a_3ajob_20_3e_26',['LockFreeQueue&lt; Fibers::FiberQueue::Job &gt;',['../class_threading_1_1_lock_free_queue.html',1,'Threading']]],
   ['lockfreequeue_3c_20uint_20_3e_27',['LockFreeQueue&lt; uint &gt;',['../class_threading_1_1_lock_free_queue.html',1,'Threading']]],
-  ['logentry_28',['LogEntry',['../struct_dynui_1_1_imgui_console_1_1_log_entry.html',1,'Dynui::ImguiConsole']]],
-  ['logfileconsolehandler_29',['LogFileConsoleHandler',['../class_i_o_1_1_log_file_console_handler.html',1,'IO']]],
-  ['logger_30',['Logger',['../struct_static_u_i_1_1_logger.html',1,'StaticUI']]]
+  ['logcontext_28',['LogContext',['../class_navigation_1_1_build_1_1_log_context.html',1,'Navigation::Build']]],
+  ['logentry_29',['LogEntry',['../struct_dynui_1_1_imgui_console_1_1_log_entry.html',1,'Dynui::ImguiConsole']]],
+  ['logfileconsolehandler_30',['LogFileConsoleHandler',['../class_i_o_1_1_log_file_console_handler.html',1,'IO']]],
+  ['logger_31',['Logger',['../struct_static_u_i_1_1_logger.html',1,'StaticUI']]]
 ];

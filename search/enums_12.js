@@ -13,9 +13,10 @@ var searchData=
   ['shaderstages_10',['ShaderStages',['../namespace_vulkan.html#a74f966241b06f18d7362ec77fee0a52b',1,'Vulkan']]],
   ['shadertypes_11',['ShaderTypes',['../class_base_1_1_shape_renderer_base.html#a5e6e855071110bfb115057d936db5f1f',1,'Base::ShapeRendererBase']]],
   ['shadervisibility_12',['ShaderVisibility',['../namespace_core_graphics.html#a79e2fcd3e595161a663854b90154fcc1',1,'CoreGraphics']]],
-  ['state_13',['State',['../class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe',1,'Resources::Resource']]],
-  ['statelevel_14',['StateLevel',['../class_vulkan_1_1_vk_pipeline_database.html#ad28910c1ecfecc690f90265d06ae9b14',1,'Vulkan::VkPipelineDatabase']]],
-  ['stridetype_15',['StrideType',['../class_base_1_1_vertex_component_base.html#ad77376ed4a5b5d40b1ae096386251009',1,'Base::VertexComponentBase::StrideType'],['../class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141',1,'CoreGraphics::VertexComponent::StrideType']]],
-  ['subtextureupdatestate_16',['SubTextureUpdateState',['../namespace_terrain.html#a9ce087a4ca7c0dcbf2ce36def6ff61a8',1,'Terrain']]],
-  ['syncstate_17',['SyncState',['../class_memory_1_1_ring_allocator.html#a5601ff6cfa65a66bcfdeef78acddf255',1,'Memory::RingAllocator']]]
+  ['shape_13',['Shape',['../struct_navigation_1_1_build_1_1_area_volume.html#a01acd3ba58c27c6dc3ce6a6af42a337e',1,'Navigation::Build::AreaVolume']]],
+  ['state_14',['State',['../class_resources_1_1_resource.html#afdb2a711112d7ef1ef913dfbb649cfbe',1,'Resources::Resource']]],
+  ['statelevel_15',['StateLevel',['../class_vulkan_1_1_vk_pipeline_database.html#ad28910c1ecfecc690f90265d06ae9b14',1,'Vulkan::VkPipelineDatabase']]],
+  ['stridetype_16',['StrideType',['../class_base_1_1_vertex_component_base.html#ad77376ed4a5b5d40b1ae096386251009',1,'Base::VertexComponentBase::StrideType'],['../class_core_graphics_1_1_vertex_component.html#a45647e12ffd7735765dbd096b2706141',1,'CoreGraphics::VertexComponent::StrideType']]],
+  ['subtextureupdatestate_17',['SubTextureUpdateState',['../namespace_terrain.html#a9ce087a4ca7c0dcbf2ce36def6ff61a8',1,'Terrain']]],
+  ['syncstate_18',['SyncState',['../class_memory_1_1_ring_allocator.html#a5601ff6cfa65a66bcfdeef78acddf255',1,'Memory::RingAllocator']]]
 ];
