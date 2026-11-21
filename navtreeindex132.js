@@ -1,5 +1,8 @@
 var NAVTREEINDEX132 =
 {
+"struct_core_graphics_1_1_input_assembly_key_1_1_0fstruct_0e_8____unnamed0____.html":[8,0,13,61,0],
+"struct_core_graphics_1_1_input_assembly_key_1_1_0fstruct_0e_8____unnamed0____.html":[9,0,12,60,0],
+"struct_core_graphics_1_1_input_assembly_key_1_1_0fstruct_0e_8____unnamed0____.html#a04ea1ea88d3228d6ec66e49890de8ced":[8,0,13,61,0,0],
 "struct_core_graphics_1_1_input_assembly_key_1_1_0fstruct_0e_8____unnamed0____.html#a04ea1ea88d3228d6ec66e49890de8ced":[9,0,12,60,0,0],
 "struct_core_graphics_1_1_input_assembly_key_1_1_0fstruct_0e_8____unnamed0____.html#a4b89172a80c39e06893c50c798ef1130":[8,0,13,61,0,1],
 "struct_core_graphics_1_1_input_assembly_key_1_1_0fstruct_0e_8____unnamed0____.html#a4b89172a80c39e06893c50c798ef1130":[9,0,12,60,0,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX132 =
 "struct_core_graphics_1_1_pass_create_info.html#a803d15d723d8ae66c485be5765090122":[8,0,13,80,0],
 "struct_core_graphics_1_1_pass_create_info.html#a803d15d723d8ae66c485be5765090122":[9,0,12,79,0],
 "struct_core_graphics_1_1_pass_id.html":[8,0,13,81],
-"struct_core_graphics_1_1_pass_id.html":[9,0,12,80],
-"struct_core_graphics_1_1_pinned_buffer.html":[8,0,13,82],
-"struct_core_graphics_1_1_pinned_buffer.html":[9,0,12,81],
-"struct_core_graphics_1_1_pinned_buffer.html#a0a2dec230ff8b36bb9585631b2c06957":[8,0,13,82,3]
+"struct_core_graphics_1_1_pass_id.html":[9,0,12,80]
 };

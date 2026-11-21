@@ -129,6 +129,8 @@ Public Types</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a7e60a51223c2a698274d20fa77d5d4ab" id="r_a7e60a51223c2a698274d20fa77d5d4ab"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a7e60a51223c2a698274d20fa77d5d4ab">decay</a> = false</td></tr>
 <tr class="memdesc:a7e60a51223c2a698274d20fa77d5d4ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to true if the component should end up in the decay buffer before being completely destroyed.  <br /></td></tr>
+<tr class="memitem:a4627af49b34424a57a6de72d0e6a1913" id="r_a4627af49b34424a57a6de72d0e6a1913"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a4627af49b34424a57a6de72d0e6a1913">runtime</a> = false</td></tr>
+<tr class="memdesc:a4627af49b34424a57a6de72d0e6a1913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to true if the component only holds state of a running world, it is left out when levels are saved.  <br /></td></tr>
 <tr class="memitem:a187a8efc181e185e09a6309230ac8a33" id="r_a187a8efc181e185e09a6309230ac8a33"><td class="memItemLeft"><a class="el" href="#af1605ced120af10fc2b91335ca43def0">OnInitFunc</a>&#160;</td><td class="memItemRight"><a class="el" href="#a187a8efc181e185e09a6309230ac8a33">OnInit</a> = nullptr</td></tr>
 <tr class="memdesc:a187a8efc181e185e09a6309230ac8a33"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialization function to run for the component, or nullptr if not needed.  <br /></td></tr>
 <tr class="memitem:a2ae803f1aa5d732d4dbef7294d32a7de" id="r_a2ae803f1aa5d732d4dbef7294d32a7de"><td class="memItemLeft"><a class="el" href="#a56642595f7a4c56eec24d0a552788ad8">OnDecayFunc</a>&#160;</td><td class="memItemRight"><a class="el" href="#a2ae803f1aa5d732d4dbef7294d32a7de">OnDecay</a> = nullptr</td></tr>
@@ -220,6 +222,24 @@ template&lt;typename COMPONENT_TYPE&gt; </div>
 </div><div class="memdoc">
 
 <p>initialization function to run for the component, or nullptr if not needed. </p>
+
+</div>
+</div>
+<a id="a4627af49b34424a57a6de72d0e6a1913" name="a4627af49b34424a57a6de72d0e6a1913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4627af49b34424a57a6de72d0e6a1913">&#9670;&#160;</a></span>runtime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename COMPONENT_TYPE&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="struct_game_1_1_component_register_info.html">Game::ComponentRegisterInfo</a>&lt; COMPONENT_TYPE &gt;::runtime = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set to true if the component only holds state of a running world, it is left out when levels are saved. </p>
 
 </div>
 </div>

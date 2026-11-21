@@ -68,7 +68,8 @@ var namespace_game =
     ] ],
     [ "ComponentFlags", "namespace_game.html#a12df08b00c2d67525335dd5c5553849d", [
       [ "COMPONENTFLAG_NONE", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a", null ],
-      [ "COMPONENTFLAG_DECAY", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f", null ]
+      [ "COMPONENTFLAG_DECAY", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f", null ],
+      [ "COMPONENTFLAG_RUNTIME", "namespace_game.html#a12df08b00c2d67525335dd5c5553849da524adba1b42fb4d77908111ce187b36a", null ]
     ] ],
     [ "ProcessorPhase", "namespace_game.html#afb947a60ee89516ed8f7be69d517d97f", [
       [ "EditorPhase", "namespace_game.html#afb947a60ee89516ed8f7be69d517d97fad999f8ad08aef46a91e5e5470d7e2fd7", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX128 =
 {
+"struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[8,0,3,0,0,3],
+"struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[9,0,3,0,0,3],
+"struct_audio_1_1_audio_emitter_id.html":[8,0,3,1],
 "struct_audio_1_1_audio_emitter_id.html":[9,0,3,1],
 "struct_audio_1_1_clip_id.html":[8,0,3,3],
 "struct_audio_1_1_clip_id.html":[9,0,3,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX128 =
 "struct_core_1_1_c_var_value.html":[8,0,11,3],
 "struct_core_1_1_c_var_value.html":[9,0,10,3],
 "struct_core_1_1_c_var_value.html#ab1556729ade186208efbc18258eff0bc":[8,0,11,3,1],
-"struct_core_1_1_c_var_value.html#ab1556729ade186208efbc18258eff0bc":[9,0,10,3,1],
-"struct_core_animation_1_1_anim_key_buffer_1_1_interval.html":[8,0,12,8,0],
-"struct_core_animation_1_1_anim_key_buffer_1_1_interval.html":[9,0,11,8,0],
-"struct_core_animation_1_1_anim_key_buffer_1_1_interval.html#a05e3db9bdb6ffbf16cac26726dc8a56a":[8,0,12,8,0,2]
+"struct_core_1_1_c_var_value.html#ab1556729ade186208efbc18258eff0bc":[9,0,10,3,1]
 };

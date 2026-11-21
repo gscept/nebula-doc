@@ -773,12 +773,13 @@ var searchData=
   ['runthroughhandlerthread_2eh_770',['runthroughhandlerthread.h',['../runthroughhandlerthread_8h.html',1,'']]],
   ['runthru_771',['RunThru',['../class_game_1_1_frame_pipeline.html#ad7cc499d3fa28dddfcd71955a6365872',1,'Game::FramePipeline']]],
   ['runtime_772',['Runtime',['../class_nebula_1_1_runtime.html',1,'Nebula.Runtime'],['../class_particles_1_1_particle_context.html#a5e19f5568830a695f75321ef99e8800da67a08f1a1a334408e504c01ab14c8be6',1,'Particles::ParticleContext::Runtime'],['../class_nebula_1_1_runtime.html#a40f364aaa69bed8df7ae15f8c16314d0',1,'Nebula.Runtime.Runtime()'],['../class_nebula_1_1_runtime.html#a9ef8e9c4b2ff2fd1cf982252e2de3a38',1,'Nebula.Runtime.Runtime()']]],
-  ['runtime_20type_20information_20system_773',['The Nebula Runtime Type Information System',['../_core.html#NebulaRTTI',1,'']]],
-  ['runtimeconstants_774',['runtimeConstants',['../struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a8f274b2eaa6bfcfce526bf6efacadae8',1,'Terrain::TerrainContext::TerrainInstanceInfo']]],
-  ['runtimedata_775',['RuntimeData',['../class_nebula_1_1_runtime_1_1_runtime_data.html',1,'Nebula::Runtime']]],
-  ['runtimedata_776',['runtimeData',['../class_nebula_1_1_runtime.html#ada96e20fcdcee4fbfb21442f1ccda850',1,'Nebula::Runtime']]],
-  ['runtimetable_777',['runtimeTable',['../struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0e073f6f581bc4c883297a133033b201',1,'Terrain::TerrainContext::TerrainInstanceInfo']]],
-  ['runvisibilitytests_778',['RunVisibilityTests',['../class_visibility_1_1_observer_context.html#af8a95f6a03913ef59e6f8442cffc80c1',1,'Visibility::ObserverContext']]],
-  ['rwbuffers_779',['rwBuffers',['../struct_core_graphics_1_1_resource_table_layout_create_info.html#ac65bb4642d3d1c8ca9435c32e65a783a',1,'CoreGraphics::ResourceTableLayoutCreateInfo']]],
-  ['rwtextures_780',['rwTextures',['../struct_core_graphics_1_1_resource_table_layout_create_info.html#ada299392756ae1e6986199228ac2754a',1,'CoreGraphics::ResourceTableLayoutCreateInfo']]]
+  ['runtime_773',['runtime',['../struct_game_1_1_component_register_info.html#a4627af49b34424a57a6de72d0e6a1913',1,'Game::ComponentRegisterInfo']]],
+  ['runtime_20type_20information_20system_774',['The Nebula Runtime Type Information System',['../_core.html#NebulaRTTI',1,'']]],
+  ['runtimeconstants_775',['runtimeConstants',['../struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a8f274b2eaa6bfcfce526bf6efacadae8',1,'Terrain::TerrainContext::TerrainInstanceInfo']]],
+  ['runtimedata_776',['RuntimeData',['../class_nebula_1_1_runtime_1_1_runtime_data.html',1,'Nebula::Runtime']]],
+  ['runtimedata_777',['runtimeData',['../class_nebula_1_1_runtime.html#ada96e20fcdcee4fbfb21442f1ccda850',1,'Nebula::Runtime']]],
+  ['runtimetable_778',['runtimeTable',['../struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#a0e073f6f581bc4c883297a133033b201',1,'Terrain::TerrainContext::TerrainInstanceInfo']]],
+  ['runvisibilitytests_779',['RunVisibilityTests',['../class_visibility_1_1_observer_context.html#af8a95f6a03913ef59e6f8442cffc80c1',1,'Visibility::ObserverContext']]],
+  ['rwbuffers_780',['rwBuffers',['../struct_core_graphics_1_1_resource_table_layout_create_info.html#ac65bb4642d3d1c8ca9435c32e65a783a',1,'CoreGraphics::ResourceTableLayoutCreateInfo']]],
+  ['rwtextures_781',['rwTextures',['../struct_core_graphics_1_1_resource_table_layout_create_info.html#ada299392756ae1e6986199228ac2754a',1,'CoreGraphics::ResourceTableLayoutCreateInfo']]]
 ];

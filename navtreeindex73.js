@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a55dc71993356b07c7174713ff8b9be75":[8,0,65,16,0,29],
+"class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a55dc71993356b07c7174713ff8b9be75":[9,0,58,16,0,29],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a56fc526c584b2feb2c02661dec3bd343":[8,0,65,16,0,4],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a56fc526c584b2feb2c02661dec3bd343":[9,0,58,16,0,4],
 "class_posix_1_1_posix_socket.html#ac002c7bbb1d9667d13e672bf2523f0d1a5be299af0b6b5d47923300da2ed6caec":[8,0,65,16,0,43],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "class_posix_1_1_posix_timer.html#afd3a74db7bb20cbd78b2e7f43e9b2676":[9,0,58,20,11],
 "class_posix_1_1_sys_func.html":[8,0,65,21],
 "class_posix_1_1_sys_func.html":[9,0,58,21],
-"class_posix_1_1_sys_func.html#a236ca9b7151c77f4057ac2d81fa8892f":[8,0,65,21,10],
-"class_posix_1_1_sys_func.html#a236ca9b7151c77f4057ac2d81fa8892f":[9,0,58,21,10],
-"class_posix_1_1_sys_func.html#a4359d68f4ba006b8e790bbba74dde6b0":[8,0,65,21,0]
+"class_posix_1_1_sys_func.html#a236ca9b7151c77f4057ac2d81fa8892f":[8,0,65,21,10]
 };

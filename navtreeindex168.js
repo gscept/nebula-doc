@@ -1,5 +1,10 @@
 var NAVTREEINDEX168 =
 {
+"struct_vulkan_1_1_graphics_device_state.html#af416c7a3aff23e2f461b63820c88987e":[9,0,75,7,22],
+"struct_vulkan_1_1_graphics_device_state.html#af9dd9761262267c8b415a1fda0ec00e6":[8,0,86,7,41],
+"struct_vulkan_1_1_graphics_device_state.html#af9dd9761262267c8b415a1fda0ec00e6":[9,0,75,7,41],
+"struct_vulkan_1_1_graphics_device_state.html#afeab484b4adc11e5a180313f2f30e99d":[8,0,86,7,52],
+"struct_vulkan_1_1_graphics_device_state.html#afeab484b4adc11e5a180313f2f30e99d":[9,0,75,7,52],
 "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html":[8,0,86,7,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html":[9,0,75,7,0],
 "struct_vulkan_1_1_graphics_device_state_1_1_constants_ring_buffer.html#a75dc690738e445a276ab1a6feaa4c5a7":[8,0,86,7,0,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX168 =
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_begin_query_command.html#a268ed49c71119f5c3496bb1af78fb5f4":[9,0,75,21,26,2],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_begin_query_command.html#ade5ff00bc75b209e659358776991038d":[8,0,86,21,26,0],
 "struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_begin_query_command.html#ade5ff00bc75b209e659358776991038d":[9,0,75,21,26,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_begin_query_command.html#aef271c30e7fa6c3bf19a711da86e6c93":[8,0,86,21,26,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_begin_query_command.html#aef271c30e7fa6c3bf19a711da86e6c93":[9,0,75,21,26,3],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html":[8,0,86,21,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html":[9,0,75,21,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html#a639bae4df66a0fc01f9b829580176c97":[8,0,86,21,0,0],
-"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_command_buffer_begin_command.html#a639bae4df66a0fc01f9b829580176c97":[9,0,75,21,0,0]
+"struct_vulkan_1_1_vk_command_buffer_thread_1_1_vk_begin_query_command.html#aef271c30e7fa6c3bf19a711da86e6c93":[8,0,86,21,26,3]
 };

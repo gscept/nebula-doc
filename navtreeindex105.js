@@ -1,5 +1,7 @@
 var NAVTREEINDEX105 =
 {
+"framescript_8cc.html":[10,0,0,7,9,24],
+"framescript_8h.html":[10,0,0,7,9,25],
 "framescript_8h_source.html":[10,0,0,7,9,25],
 "framescriptinspector_8cc.html":[10,0,0,7,6,0],
 "framescriptinspector_8h.html":[10,0,0,7,6,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX105 =
 "geometry_8h_source.html":[10,0,0,6,0,12],
 "geometryhelpers_8cc.html":[10,0,0,7,24,4],
 "geometryhelpers_8h.html":[10,0,0,7,24,5],
-"geometryhelpers_8h_source.html":[10,0,0,7,24,5],
-"glfwdisplaydevice_8cc.html":[10,0,0,7,5,2,0],
-"glfwdisplaydevice_8h.html":[10,0,0,7,5,2,1]
+"geometryhelpers_8h_source.html":[10,0,0,7,24,5]
 };

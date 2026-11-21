@@ -1,5 +1,8 @@
 var NAVTREEINDEX126 =
 {
+"render_2coregraphics_2config_8h.html#ab5cfe695e6b16268198322103afe7e61":[10,0,0,7,5,19,8],
+"render_2coregraphics_2config_8h.html#ab91289434c2c4de83ad930c0d92932d3":[10,0,0,7,5,19,13],
+"render_2coregraphics_2config_8h.html#ad3cefa43df0747a71adf811c161e2dc0":[10,0,0,7,5,19,19],
 "render_2coregraphics_2config_8h.html#adb8fdcaf0358d25670f5bf880e4106a4":[10,0,0,7,5,19,16],
 "render_2coregraphics_2config_8h.html#ae6a21d034256aaf05dba72da8162e2fe":[10,0,0,7,5,19,20],
 "render_2coregraphics_2config_8h.html#af04dd3f0dbb19152c3239ab4779e6302":[10,0,0,7,5,19,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX126 =
 "shadersemantics_8h.html#a7eaa0c0278e75cc48ff996902e7e9bd6":[10,0,0,7,5,75,107],
 "shadersemantics_8h.html#a83317229787b6fb37116684d1a595743":[10,0,0,7,5,75,123],
 "shadersemantics_8h.html#a83c16800ec366d78284ee7b3b0a0b174":[10,0,0,7,5,75,49],
-"shadersemantics_8h.html#a83cd8fcdd9d9d55840d34ad345c53a1d":[10,0,0,7,5,75,40],
-"shadersemantics_8h.html#a87b413f7b50eceb99ae6d613bf87dfc0":[10,0,0,7,5,75,100],
-"shadersemantics_8h.html#a89a1b882b437d16448a4c56d7843b7fa":[10,0,0,7,5,75,80],
-"shadersemantics_8h.html#a8eb689d2ab8f6e728802d595df87170e":[10,0,0,7,5,75,121]
+"shadersemantics_8h.html#a83cd8fcdd9d9d55840d34ad345c53a1d":[10,0,0,7,5,75,40]
 };

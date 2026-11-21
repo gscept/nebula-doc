@@ -1,5 +1,10 @@
 var NAVTREEINDEX163 =
 {
+"struct_terrain_1_1_biome_settings_builder.html#a2130089380c1ffd723fc7f50ad97ebd4":[9,0,70,7,1],
+"struct_terrain_1_1_biome_settings_builder.html#a403537b77ffbf2470bb91240d0545b46":[8,0,80,7,4],
+"struct_terrain_1_1_biome_settings_builder.html#a403537b77ffbf2470bb91240d0545b46":[9,0,70,7,4],
+"struct_terrain_1_1_biome_settings_builder.html#a7225f9372674d1958f80548c5886a19a":[8,0,80,7,2],
+"struct_terrain_1_1_biome_settings_builder.html#a7225f9372674d1958f80548c5886a19a":[9,0,70,7,2],
 "struct_terrain_1_1_biome_settings_builder.html#a77696226e76475e45fedda6d0d37cbae":[8,0,80,7,5],
 "struct_terrain_1_1_biome_settings_builder.html#a77696226e76475e45fedda6d0d37cbae":[9,0,70,7,5],
 "struct_terrain_1_1_biome_settings_builder.html#abc44db5b014cffe3813cf8e666aa291e":[8,0,80,7,3],
@@ -244,10 +249,5 @@ var NAVTREEINDEX163 =
 "struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#acf7b6dbe2fbccdc31ee604f4f46bbfdc":[9,0,70,16,2,6],
 "struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad209079f801c0f827c6b2b2769276def":[8,0,80,16,2,35],
 "struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad209079f801c0f827c6b2b2769276def":[9,0,70,16,2,35],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad2f11f0ffb3010df00a57b272bf33e24":[8,0,80,16,2,32],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad2f11f0ffb3010df00a57b272bf33e24":[9,0,70,16,2,32],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad3264a2653d38d7f43c5541fda724d12":[8,0,80,16,2,65],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad3264a2653d38d7f43c5541fda724d12":[9,0,70,16,2,65],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad49c71d4b69d382836ee1a6550d26644":[8,0,80,16,2,64],
-"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad49c71d4b69d382836ee1a6550d26644":[9,0,70,16,2,64]
+"struct_terrain_1_1_terrain_context_1_1_terrain_instance_info.html#ad2f11f0ffb3010df00a57b272bf33e24":[8,0,80,16,2,32]
 };

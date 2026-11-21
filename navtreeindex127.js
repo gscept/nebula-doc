@@ -1,5 +1,8 @@
 var NAVTREEINDEX127 =
 {
+"shadersemantics_8h.html#a87b413f7b50eceb99ae6d613bf87dfc0":[10,0,0,7,5,75,100],
+"shadersemantics_8h.html#a89a1b882b437d16448a4c56d7843b7fa":[10,0,0,7,5,75,80],
+"shadersemantics_8h.html#a8eb689d2ab8f6e728802d595df87170e":[10,0,0,7,5,75,121],
 "shadersemantics_8h.html#a91df9c0b6e895b46b303b56fea3c0d40":[10,0,0,7,5,75,11],
 "shadersemantics_8h.html#a973fe973e7095e3fc45f95f9cb50b585":[10,0,0,7,5,75,37],
 "shadersemantics_8h.html#a98c882e46819b98238743655784e6e52":[10,0,0,7,5,75,79],
@@ -246,8 +249,5 @@ var NAVTREEINDEX127 =
 "struct_audio_1_1_audio_device_1_1_listener.html#a3c0e3395702bfd53b0994ebf8ee2ccba":[8,0,3,0,0,1],
 "struct_audio_1_1_audio_device_1_1_listener.html#a3c0e3395702bfd53b0994ebf8ee2ccba":[9,0,3,0,0,1],
 "struct_audio_1_1_audio_device_1_1_listener.html#a63f6a45a6405e7b03b9e4c54936a88e6":[8,0,3,0,0,0],
-"struct_audio_1_1_audio_device_1_1_listener.html#a63f6a45a6405e7b03b9e4c54936a88e6":[9,0,3,0,0,0],
-"struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[8,0,3,0,0,3],
-"struct_audio_1_1_audio_device_1_1_listener.html#a6b60cf1b2351fb8fc0f4668c6572af28":[9,0,3,0,0,3],
-"struct_audio_1_1_audio_emitter_id.html":[8,0,3,1]
+"struct_audio_1_1_audio_device_1_1_listener.html#a63f6a45a6405e7b03b9e4c54936a88e6":[9,0,3,0,0,0]
 };

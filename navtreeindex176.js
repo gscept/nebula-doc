@@ -1,5 +1,10 @@
 var NAVTREEINDEX176 =
 {
+"vkloader_8h.html#a928034c4579868feb5ff8da8cb2229ee":[10,0,0,7,5,6,23,62],
+"vkloader_8h.html#a9350e6ae1d55571636e1fba2c1a3933f":[10,0,0,7,5,6,23,82],
+"vkloader_8h.html#a938b395fcc058d4f9f834588babdc139":[10,0,0,7,5,6,23,130],
+"vkloader_8h.html#a93fe95b8208b5c485b1ef51d57f86e52":[10,0,0,7,5,6,23,108],
+"vkloader_8h.html#a95b45cbbf80686de43517fa3f5568942":[10,0,0,7,5,6,23,8],
 "vkloader_8h.html#a9a07d2f94f70d734d57259008873d124":[10,0,0,7,5,6,23,56],
 "vkloader_8h.html#a9aa069724bef8f6f1b2ea18cb3fac03e":[10,0,0,7,5,6,23,79],
 "vkloader_8h.html#a9e0c4948f8d5f6f38a99ca509a247e4c":[10,0,0,7,5,6,23,65],
@@ -244,10 +249,5 @@ var NAVTREEINDEX176 =
 "win32systeminfo_8cc.html":[10,0,0,3,17,4,9],
 "win32systeminfo_8h.html":[10,0,0,3,17,4,10],
 "win32systeminfo_8h_source.html":[10,0,0,3,17,4,10],
-"win32thread_8cc.html":[10,0,0,3,18,6,7],
-"win32thread_8h.html":[10,0,0,3,18,6,8],
-"win32thread_8h_source.html":[10,0,0,3,18,6,8],
-"win32threadbarrier_8h.html":[10,0,0,3,18,6,9],
-"win32threadbarrier_8h_source.html":[10,0,0,3,18,6,9],
-"win32threadid_8h.html":[10,0,0,3,18,6,10]
+"win32thread_8cc.html":[10,0,0,3,18,6,7]
 };

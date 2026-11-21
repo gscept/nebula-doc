@@ -210,6 +210,7 @@ Typedefs</h2></td></tr>
 Enumerations</h2></td></tr>
 <tr class="memitem:a12df08b00c2d67525335dd5c5553849d" id="r_a12df08b00c2d67525335dd5c5553849d"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a12df08b00c2d67525335dd5c5553849d">ComponentFlags</a> : uint32_t { <a class="el" href="#a12df08b00c2d67525335dd5c5553849da20b921079b059ef27cfde721969c6c8a">COMPONENTFLAG_NONE</a> = 0
 , <a class="el" href="#a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f">COMPONENTFLAG_DECAY</a> = 1 &lt;&lt; 0
+, <a class="el" href="#a12df08b00c2d67525335dd5c5553849da524adba1b42fb4d77908111ce187b36a">COMPONENTFLAG_RUNTIME</a> = 1 &lt;&lt; 1
  }</td></tr>
 <tr class="memdesc:a12df08b00c2d67525335dd5c5553849d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies special behaviour for a components.  <a href="#a12df08b00c2d67525335dd5c5553849d">More...</a><br /></td></tr>
 <tr class="memitem:a65d276183efa9f25a5dc430be10c207e" id="r_a65d276183efa9f25a5dc430be10c207e"><td class="memItemLeft">enum &#160;</td><td class="memItemRight"><a class="el" href="#a65d276183efa9f25a5dc430be10c207e">AccessMode</a> { <a class="el" href="#a65d276183efa9f25a5dc430be10c207ea6704fb1b598004ab7d168850fce107e1">READ</a>
@@ -531,6 +532,9 @@ Variables</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f" name="a12df08b00c2d67525335dd5c5553849da3cca1ba31ce551b219963d068e50c16f"></a>COMPONENTFLAG_DECAY&#160;</td><td class="fielddoc"><p>Component will decay. </p>
 <p>This will delay the deletion of this component by one frame, allowing managers to clean up externally allocated resources </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a12df08b00c2d67525335dd5c5553849da524adba1b42fb4d77908111ce187b36a" name="a12df08b00c2d67525335dd5c5553849da524adba1b42fb4d77908111ce187b36a"></a>COMPONENTFLAG_RUNTIME&#160;</td><td class="fielddoc"><p>Component only holds state of a running world, like handles to what a manager created for the entity. </p>
+<p>It is not saved with levels </p>
 </td></tr>
 </table>
 

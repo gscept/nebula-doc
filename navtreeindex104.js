@@ -1,5 +1,7 @@
 var NAVTREEINDEX104 =
 {
+"embeddedmemorystream_8h.html":[10,0,0,3,9,23],
+"embeddedmemorystream_8h_source.html":[10,0,0,3,9,23],
 "emitterattrs_8cc.html":[10,0,0,7,18,0],
 "emitterattrs_8h.html":[10,0,0,7,18,1],
 "emitterattrs_8h_source.html":[10,0,0,7,18,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX104 =
 "frameplugin_8h_source.html":[10,0,0,7,9,21],
 "frameresolve_8cc.html":[10,0,0,7,9,22],
 "frameresolve_8h.html":[10,0,0,7,9,23],
-"frameresolve_8h_source.html":[10,0,0,7,9,23],
-"framescript_8cc.html":[10,0,0,7,9,24],
-"framescript_8h.html":[10,0,0,7,9,25]
+"frameresolve_8h_source.html":[10,0,0,7,9,23]
 };
